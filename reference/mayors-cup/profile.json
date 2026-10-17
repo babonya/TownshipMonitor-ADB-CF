@@ -1,0 +1,270 @@
+{
+  "schema": 1,
+  "provider": "google_play_windows",
+  "width": 1578,
+  "height": 1268,
+  "sourceHash": "6fc38044129ef674e42749abe62be7374a681ecfc66b518da8d2d2e0944348eb",
+  "sourceEvidence": "monitor-event-claim-policy-operations/source-original.png",
+  "scope": "Registered native completed Mayor Cup rank 2, first free CLAIM only. No reward contents or numeric accounting.",
+  "geometry": {
+    "box": {
+      "x": 305,
+      "y": 908,
+      "width": 235,
+      "height": 78
+    },
+    "verification": {
+      "version": 1,
+      "maxChangedRatio": 0,
+      "channelTolerance": 0,
+      "anchorBoxes": [
+        {
+          "x": 635,
+          "y": 322,
+          "width": 443,
+          "height": 54
+        }
+      ],
+      "targetRegions": [
+        {
+          "x": 356,
+          "y": 927,
+          "width": 142,
+          "height": 35
+        }
+      ],
+      "criticalRegions": [
+        {
+          "field": "event_title",
+          "box": {
+            "x": 635,
+            "y": 322,
+            "width": 443,
+            "height": 54
+          }
+        },
+        {
+          "field": "finished_rank",
+          "box": {
+            "x": 332,
+            "y": 455,
+            "width": 199,
+            "height": 171
+          }
+        },
+        {
+          "field": "free_claim",
+          "box": {
+            "x": 273,
+            "y": 908,
+            "width": 301,
+            "height": 94
+          }
+        }
+      ]
+    }
+  },
+  "regions": [
+    {
+      "field": "event_title",
+      "box": {
+        "x": 635,
+        "y": 322,
+        "width": 443,
+        "height": 54
+      },
+      "sha256": "60490f40152cfafa71a7347ed44229b17505360135bad337f73ff03c387c76ef"
+    },
+    {
+      "field": "finished_rank",
+      "box": {
+        "x": 332,
+        "y": 455,
+        "width": 199,
+        "height": 171
+      },
+      "sha256": "7b28f610268a595269288d60de754d6795b89da4ba6e2492ae4d983a42f537dd"
+    },
+    {
+      "field": "free_claim",
+      "box": {
+        "x": 273,
+        "y": 908,
+        "width": 301,
+        "height": 94
+      },
+      "sha256": "e0c8eb795f4671aa25ea2a1fddcad88843bcedaebeb9208439b0f09d7dbcf524"
+    }
+  ],
+  "percentageGeometry": {
+    "schema": 1,
+    "unit": "fraction",
+    "space": "registered_capture",
+    "canvas": {
+      "width": 1578,
+      "height": 1268
+    },
+    "entries": [
+      {
+        "path": [
+          "geometry",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.1932826362484157,
+          "y": 0.7160883280757098,
+          "width": 0.14892268694550062,
+          "height": 0.061514195583596214
+        }
+      },
+      {
+        "path": [
+          "geometry",
+          "verification",
+          "anchorBoxes",
+          "0"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.4024081115335868,
+          "y": 0.2539432176656151,
+          "width": 0.28073510773130544,
+          "height": 0.04258675078864353
+        }
+      },
+      {
+        "path": [
+          "geometry",
+          "verification",
+          "targetRegions",
+          "0"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.2256020278833967,
+          "y": 0.7310725552050473,
+          "width": 0.08998732572877059,
+          "height": 0.027602523659305992
+        }
+      },
+      {
+        "path": [
+          "geometry",
+          "verification",
+          "criticalRegions",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.4024081115335868,
+          "y": 0.2539432176656151,
+          "width": 0.28073510773130544,
+          "height": 0.04258675078864353
+        }
+      },
+      {
+        "path": [
+          "geometry",
+          "verification",
+          "criticalRegions",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.21039290240811154,
+          "y": 0.3588328075709779,
+          "width": 0.12610899873257286,
+          "height": 0.13485804416403785
+        }
+      },
+      {
+        "path": [
+          "geometry",
+          "verification",
+          "criticalRegions",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.17300380228136883,
+          "y": 0.7160883280757098,
+          "width": 0.19074778200253487,
+          "height": 0.07413249211356467
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.4024081115335868,
+          "y": 0.2539432176656151,
+          "width": 0.28073510773130544,
+          "height": 0.04258675078864353
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.21039290240811154,
+          "y": 0.3588328075709779,
+          "width": 0.12610899873257286,
+          "height": 0.13485804416403785
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.17300380228136883,
+          "y": 0.7160883280757098,
+          "width": 0.19074778200253487,
+          "height": 0.07413249211356467
+        }
+      }
+    ]
+  }
+}

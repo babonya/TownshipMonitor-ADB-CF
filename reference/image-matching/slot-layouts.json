@@ -1,0 +1,2823 @@
+{
+  "schema": 1,
+  "version": "english-saved-layouts-2",
+  "selection": "explicit_known_geometry_only",
+  "executionAllowed": false,
+  "layouts": [
+    {
+      "layoutId": "source-market",
+      "scene": "market",
+      "dimensions": {
+        "width": 1600,
+        "height": 900
+      },
+      "slots": [
+        {
+          "slotId": "cell-00",
+          "cardBox": {
+            "x": 997,
+            "y": 254,
+            "width": 170,
+            "height": 197
+          },
+          "iconBox": {
+            "x": 999,
+            "y": 256,
+            "width": 166,
+            "height": 129
+          },
+          "quantityBox": {
+            "x": 1106,
+            "y": 335,
+            "width": 55,
+            "height": 40
+          },
+          "priceBox": {
+            "x": 1075,
+            "y": 397,
+            "width": 80,
+            "height": 43
+          },
+          "currencyBox": {
+            "x": 1012,
+            "y": 390,
+            "width": 62,
+            "height": 61
+          }
+        },
+        {
+          "slotId": "cell-01",
+          "cardBox": {
+            "x": 1200,
+            "y": 244,
+            "width": 165,
+            "height": 207
+          },
+          "iconBox": {
+            "x": 1202,
+            "y": 246,
+            "width": 161,
+            "height": 137
+          },
+          "quantityBox": {
+            "x": 1295,
+            "y": 329,
+            "width": 61,
+            "height": 43
+          },
+          "priceBox": {
+            "x": 1300,
+            "y": 402,
+            "width": 58,
+            "height": 38
+          },
+          "currencyBox": {
+            "x": 1236,
+            "y": 391,
+            "width": 63,
+            "height": 60
+          }
+        },
+        {
+          "slotId": "cell-02",
+          "cardBox": {
+            "x": 578,
+            "y": 490,
+            "width": 184,
+            "height": 209
+          },
+          "iconBox": {
+            "x": 580,
+            "y": 492,
+            "width": 180,
+            "height": 146
+          },
+          "quantityBox": {
+            "x": 645,
+            "y": 570,
+            "width": 94,
+            "height": 52
+          },
+          "priceBox": {
+            "x": 668,
+            "y": 652,
+            "width": 58,
+            "height": 39
+          },
+          "currencyBox": {
+            "x": 611,
+            "y": 638,
+            "width": 61,
+            "height": 61
+          }
+        }
+      ]
+    },
+    {
+      "layoutId": "source-barn-top",
+      "scene": "barn",
+      "dimensions": {
+        "width": 1600,
+        "height": 900
+      },
+      "slots": [
+        {
+          "slotId": "cell-00",
+          "cardBox": {
+            "x": 307,
+            "y": 253,
+            "width": 134,
+            "height": 169
+          },
+          "iconBox": {
+            "x": 309,
+            "y": 255,
+            "width": 130,
+            "height": 123
+          },
+          "quantityBox": {
+            "x": 347,
+            "y": 382,
+            "width": 49,
+            "height": 38
+          }
+        },
+        {
+          "slotId": "cell-01",
+          "cardBox": {
+            "x": 471,
+            "y": 254,
+            "width": 141,
+            "height": 168
+          },
+          "iconBox": {
+            "x": 473,
+            "y": 256,
+            "width": 137,
+            "height": 124
+          },
+          "quantityBox": {
+            "x": 518,
+            "y": 382,
+            "width": 45,
+            "height": 38
+          }
+        },
+        {
+          "slotId": "cell-02",
+          "cardBox": {
+            "x": 651,
+            "y": 253,
+            "width": 131,
+            "height": 169
+          },
+          "iconBox": {
+            "x": 653,
+            "y": 255,
+            "width": 127,
+            "height": 125
+          },
+          "quantityBox": {
+            "x": 687,
+            "y": 382,
+            "width": 50,
+            "height": 38
+          }
+        },
+        {
+          "slotId": "cell-03",
+          "cardBox": {
+            "x": 991,
+            "y": 252,
+            "width": 135,
+            "height": 170
+          },
+          "iconBox": {
+            "x": 993,
+            "y": 254,
+            "width": 131,
+            "height": 127
+          },
+          "quantityBox": {
+            "x": 1027,
+            "y": 382,
+            "width": 50,
+            "height": 38
+          }
+        },
+        {
+          "slotId": "cell-04",
+          "cardBox": {
+            "x": 650,
+            "y": 439,
+            "width": 131,
+            "height": 171
+          },
+          "iconBox": {
+            "x": 652,
+            "y": 441,
+            "width": 127,
+            "height": 124
+          },
+          "quantityBox": {
+            "x": 694,
+            "y": 570,
+            "width": 44,
+            "height": 38
+          }
+        },
+        {
+          "slotId": "cell-05",
+          "cardBox": {
+            "x": 819,
+            "y": 439,
+            "width": 130,
+            "height": 171
+          },
+          "iconBox": {
+            "x": 821,
+            "y": 441,
+            "width": 126,
+            "height": 124
+          },
+          "quantityBox": {
+            "x": 863,
+            "y": 570,
+            "width": 44,
+            "height": 38
+          }
+        },
+        {
+          "slotId": "cell-06",
+          "cardBox": {
+            "x": 304,
+            "y": 625,
+            "width": 136,
+            "height": 111
+          },
+          "iconBox": {
+            "x": 306,
+            "y": 627,
+            "width": 132,
+            "height": 107
+          },
+          "quantityBox": null
+        },
+        {
+          "slotId": "cell-07",
+          "cardBox": {
+            "x": 485,
+            "y": 625,
+            "width": 121,
+            "height": 111
+          },
+          "iconBox": {
+            "x": 487,
+            "y": 627,
+            "width": 117,
+            "height": 107
+          },
+          "quantityBox": null
+        },
+        {
+          "slotId": "cell-08",
+          "cardBox": {
+            "x": 649,
+            "y": 626,
+            "width": 129,
+            "height": 110
+          },
+          "iconBox": {
+            "x": 651,
+            "y": 628,
+            "width": 125,
+            "height": 106
+          },
+          "quantityBox": null
+        },
+        {
+          "slotId": "cell-09",
+          "cardBox": {
+            "x": 996,
+            "y": 626,
+            "width": 131,
+            "height": 110
+          },
+          "iconBox": {
+            "x": 998,
+            "y": 628,
+            "width": 127,
+            "height": 106
+          },
+          "quantityBox": null
+        },
+        {
+          "slotId": "cell-10",
+          "cardBox": {
+            "x": 1182,
+            "y": 626,
+            "width": 90,
+            "height": 110
+          },
+          "iconBox": {
+            "x": 1184,
+            "y": 628,
+            "width": 86,
+            "height": 106
+          },
+          "quantityBox": null
+        }
+      ]
+    },
+    {
+      "layoutId": "source-barn-middle",
+      "scene": "barn",
+      "dimensions": {
+        "width": 1600,
+        "height": 900
+      },
+      "slots": [
+        {
+          "slotId": "cell-00",
+          "cardBox": {
+            "x": 309,
+            "y": 279,
+            "width": 130,
+            "height": 161
+          },
+          "iconBox": {
+            "x": 311,
+            "y": 281,
+            "width": 126,
+            "height": 120
+          },
+          "quantityBox": {
+            "x": 355,
+            "y": 402,
+            "width": 37,
+            "height": 36
+          }
+        },
+        {
+          "slotId": "cell-01",
+          "cardBox": {
+            "x": 649,
+            "y": 279,
+            "width": 131,
+            "height": 161
+          },
+          "iconBox": {
+            "x": 651,
+            "y": 281,
+            "width": 127,
+            "height": 120
+          },
+          "quantityBox": {
+            "x": 693,
+            "y": 402,
+            "width": 39,
+            "height": 36
+          }
+        },
+        {
+          "slotId": "cell-02",
+          "cardBox": {
+            "x": 990,
+            "y": 281,
+            "width": 131,
+            "height": 159
+          },
+          "iconBox": {
+            "x": 992,
+            "y": 283,
+            "width": 127,
+            "height": 118
+          },
+          "quantityBox": {
+            "x": 1040,
+            "y": 402,
+            "width": 35,
+            "height": 36
+          }
+        },
+        {
+          "slotId": "cell-03",
+          "cardBox": {
+            "x": 1164,
+            "y": 279,
+            "width": 131,
+            "height": 161
+          },
+          "iconBox": {
+            "x": 1166,
+            "y": 281,
+            "width": 127,
+            "height": 121
+          },
+          "quantityBox": {
+            "x": 1210,
+            "y": 402,
+            "width": 38,
+            "height": 36
+          }
+        },
+        {
+          "slotId": "cell-04",
+          "cardBox": {
+            "x": 305,
+            "y": 465,
+            "width": 132,
+            "height": 155
+          },
+          "iconBox": {
+            "x": 307,
+            "y": 467,
+            "width": 128,
+            "height": 117
+          },
+          "quantityBox": {
+            "x": 355,
+            "y": 581,
+            "width": 36,
+            "height": 37
+          }
+        },
+        {
+          "slotId": "cell-05",
+          "cardBox": {
+            "x": 481,
+            "y": 465,
+            "width": 121,
+            "height": 155
+          },
+          "iconBox": {
+            "x": 483,
+            "y": 467,
+            "width": 117,
+            "height": 117
+          },
+          "quantityBox": {
+            "x": 527,
+            "y": 581,
+            "width": 36,
+            "height": 37
+          }
+        },
+        {
+          "slotId": "cell-06",
+          "cardBox": {
+            "x": 647,
+            "y": 465,
+            "width": 133,
+            "height": 155
+          },
+          "iconBox": {
+            "x": 649,
+            "y": 467,
+            "width": 129,
+            "height": 116
+          },
+          "quantityBox": {
+            "x": 697,
+            "y": 581,
+            "width": 34,
+            "height": 37
+          }
+        },
+        {
+          "slotId": "cell-07",
+          "cardBox": {
+            "x": 817,
+            "y": 465,
+            "width": 137,
+            "height": 155
+          },
+          "iconBox": {
+            "x": 819,
+            "y": 467,
+            "width": 133,
+            "height": 120
+          },
+          "quantityBox": {
+            "x": 866,
+            "y": 581,
+            "width": 38,
+            "height": 37
+          }
+        }
+      ]
+    },
+    {
+      "layoutId": "holdout-market",
+      "scene": "market",
+      "dimensions": {
+        "width": 1600,
+        "height": 900
+      },
+      "slots": [
+        {
+          "slotId": "cell-00",
+          "cardBox": {
+            "x": 640,
+            "y": 241,
+            "width": 165,
+            "height": 210
+          },
+          "iconBox": {
+            "x": 642,
+            "y": 243,
+            "width": 161,
+            "height": 141
+          },
+          "quantityBox": {
+            "x": 722,
+            "y": 328,
+            "width": 75,
+            "height": 47
+          },
+          "priceBox": {
+            "x": 732,
+            "y": 402,
+            "width": 48,
+            "height": 38
+          },
+          "currencyBox": {
+            "x": 668,
+            "y": 390,
+            "width": 62,
+            "height": 61
+          }
+        },
+        {
+          "slotId": "cell-01",
+          "cardBox": {
+            "x": 836,
+            "y": 241,
+            "width": 178,
+            "height": 210
+          },
+          "iconBox": {
+            "x": 838,
+            "y": 243,
+            "width": 174,
+            "height": 141
+          },
+          "quantityBox": {
+            "x": 949,
+            "y": 328,
+            "width": 60,
+            "height": 47
+          },
+          "priceBox": {
+            "x": 947,
+            "y": 402,
+            "width": 48,
+            "height": 38
+          },
+          "currencyBox": {
+            "x": 884,
+            "y": 390,
+            "width": 62,
+            "height": 61
+          }
+        },
+        {
+          "slotId": "cell-02",
+          "cardBox": {
+            "x": 1050,
+            "y": 241,
+            "width": 179,
+            "height": 210
+          },
+          "iconBox": {
+            "x": 1052,
+            "y": 243,
+            "width": 175,
+            "height": 141
+          },
+          "quantityBox": {
+            "x": 1150,
+            "y": 328,
+            "width": 68,
+            "height": 47
+          },
+          "priceBox": {
+            "x": 1148,
+            "y": 402,
+            "width": 61,
+            "height": 38
+          },
+          "currencyBox": {
+            "x": 1090,
+            "y": 390,
+            "width": 62,
+            "height": 61
+          }
+        }
+      ]
+    },
+    {
+      "layoutId": "holdout-barn",
+      "scene": "barn",
+      "dimensions": {
+        "width": 1600,
+        "height": 900
+      },
+      "slots": [
+        {
+          "slotId": "cell-00",
+          "cardBox": {
+            "x": 305,
+            "y": 274,
+            "width": 132,
+            "height": 168
+          },
+          "iconBox": {
+            "x": 307,
+            "y": 276,
+            "width": 128,
+            "height": 127
+          },
+          "quantityBox": {
+            "x": 347,
+            "y": 401,
+            "width": 49,
+            "height": 39
+          }
+        },
+        {
+          "slotId": "cell-01",
+          "cardBox": {
+            "x": 485,
+            "y": 274,
+            "width": 121,
+            "height": 168
+          },
+          "iconBox": {
+            "x": 487,
+            "y": 276,
+            "width": 117,
+            "height": 127
+          },
+          "quantityBox": {
+            "x": 521,
+            "y": 401,
+            "width": 44,
+            "height": 39
+          }
+        },
+        {
+          "slotId": "cell-02",
+          "cardBox": {
+            "x": 649,
+            "y": 274,
+            "width": 130,
+            "height": 168
+          },
+          "iconBox": {
+            "x": 651,
+            "y": 276,
+            "width": 126,
+            "height": 127
+          },
+          "quantityBox": {
+            "x": 691,
+            "y": 401,
+            "width": 47,
+            "height": 39
+          }
+        },
+        {
+          "slotId": "cell-03",
+          "cardBox": {
+            "x": 995,
+            "y": 274,
+            "width": 125,
+            "height": 168
+          },
+          "iconBox": {
+            "x": 997,
+            "y": 276,
+            "width": 121,
+            "height": 127
+          },
+          "quantityBox": {
+            "x": 1037,
+            "y": 401,
+            "width": 47,
+            "height": 39
+          }
+        },
+        {
+          "slotId": "cell-04",
+          "cardBox": {
+            "x": 1184,
+            "y": 274,
+            "width": 90,
+            "height": 168
+          },
+          "iconBox": {
+            "x": 1186,
+            "y": 276,
+            "width": 86,
+            "height": 127
+          },
+          "quantityBox": {
+            "x": 1206,
+            "y": 401,
+            "width": 43,
+            "height": 39
+          }
+        },
+        {
+          "slotId": "cell-05",
+          "cardBox": {
+            "x": 305,
+            "y": 464,
+            "width": 132,
+            "height": 162
+          },
+          "iconBox": {
+            "x": 307,
+            "y": 466,
+            "width": 128,
+            "height": 121
+          },
+          "quantityBox": {
+            "x": 357,
+            "y": 586,
+            "width": 37,
+            "height": 38
+          }
+        },
+        {
+          "slotId": "cell-06",
+          "cardBox": {
+            "x": 650,
+            "y": 464,
+            "width": 132,
+            "height": 162
+          },
+          "iconBox": {
+            "x": 652,
+            "y": 466,
+            "width": 128,
+            "height": 121
+          },
+          "quantityBox": {
+            "x": 697,
+            "y": 586,
+            "width": 36,
+            "height": 38
+          }
+        },
+        {
+          "slotId": "cell-07",
+          "cardBox": {
+            "x": 994,
+            "y": 464,
+            "width": 124,
+            "height": 162
+          },
+          "iconBox": {
+            "x": 996,
+            "y": 466,
+            "width": 120,
+            "height": 121
+          },
+          "quantityBox": {
+            "x": 1040,
+            "y": 586,
+            "width": 34,
+            "height": 38
+          }
+        }
+      ]
+    }
+  ],
+  "percentageGeometry": {
+    "schema": 1,
+    "unit": "fraction",
+    "space": "registered_capture",
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "entries": [
+      {
+        "path": [
+          "layouts",
+          "0",
+          "slots",
+          "0",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.623125,
+          "y": 0.2822222222222222,
+          "width": 0.10625,
+          "height": 0.21888888888888888
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "slots",
+          "0",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.624375,
+          "y": 0.28444444444444444,
+          "width": 0.10375,
+          "height": 0.14333333333333334
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "slots",
+          "0",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.69125,
+          "y": 0.37222222222222223,
+          "width": 0.034375,
+          "height": 0.044444444444444446
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "slots",
+          "0",
+          "priceBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.671875,
+          "y": 0.4411111111111111,
+          "width": 0.05,
+          "height": 0.04777777777777778
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "slots",
+          "0",
+          "currencyBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.6325,
+          "y": 0.43333333333333335,
+          "width": 0.03875,
+          "height": 0.06777777777777778
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "slots",
+          "1",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.75,
+          "y": 0.27111111111111114,
+          "width": 0.103125,
+          "height": 0.23
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "slots",
+          "1",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.75125,
+          "y": 0.2733333333333333,
+          "width": 0.100625,
+          "height": 0.15222222222222223
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "slots",
+          "1",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.809375,
+          "y": 0.3655555555555556,
+          "width": 0.038125,
+          "height": 0.04777777777777778
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "slots",
+          "1",
+          "priceBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.8125,
+          "y": 0.44666666666666666,
+          "width": 0.03625,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "slots",
+          "1",
+          "currencyBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.7725,
+          "y": 0.43444444444444447,
+          "width": 0.039375,
+          "height": 0.06666666666666667
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "slots",
+          "2",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.36125,
+          "y": 0.5444444444444444,
+          "width": 0.115,
+          "height": 0.23222222222222222
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "slots",
+          "2",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.3625,
+          "y": 0.5466666666666666,
+          "width": 0.1125,
+          "height": 0.1622222222222222
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "slots",
+          "2",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.403125,
+          "y": 0.6333333333333333,
+          "width": 0.05875,
+          "height": 0.057777777777777775
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "slots",
+          "2",
+          "priceBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.4175,
+          "y": 0.7244444444444444,
+          "width": 0.03625,
+          "height": 0.043333333333333335
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "slots",
+          "2",
+          "currencyBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.381875,
+          "y": 0.7088888888888889,
+          "width": 0.038125,
+          "height": 0.06777777777777778
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "0",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.191875,
+          "y": 0.2811111111111111,
+          "width": 0.08375,
+          "height": 0.18777777777777777
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "0",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.193125,
+          "y": 0.2833333333333333,
+          "width": 0.08125,
+          "height": 0.13666666666666666
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "0",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.216875,
+          "y": 0.42444444444444446,
+          "width": 0.030625,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "1",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.294375,
+          "y": 0.2822222222222222,
+          "width": 0.088125,
+          "height": 0.18666666666666668
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "1",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.295625,
+          "y": 0.28444444444444444,
+          "width": 0.085625,
+          "height": 0.13777777777777778
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "1",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.32375,
+          "y": 0.42444444444444446,
+          "width": 0.028125,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "2",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.406875,
+          "y": 0.2811111111111111,
+          "width": 0.081875,
+          "height": 0.18777777777777777
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "2",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.408125,
+          "y": 0.2833333333333333,
+          "width": 0.079375,
+          "height": 0.1388888888888889
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "2",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.429375,
+          "y": 0.42444444444444446,
+          "width": 0.03125,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "3",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.619375,
+          "y": 0.28,
+          "width": 0.084375,
+          "height": 0.18888888888888888
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "3",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.620625,
+          "y": 0.2822222222222222,
+          "width": 0.081875,
+          "height": 0.1411111111111111
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "3",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.641875,
+          "y": 0.42444444444444446,
+          "width": 0.03125,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "4",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.40625,
+          "y": 0.48777777777777775,
+          "width": 0.081875,
+          "height": 0.19
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "4",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.4075,
+          "y": 0.49,
+          "width": 0.079375,
+          "height": 0.13777777777777778
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "4",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.43375,
+          "y": 0.6333333333333333,
+          "width": 0.0275,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "5",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.511875,
+          "y": 0.48777777777777775,
+          "width": 0.08125,
+          "height": 0.19
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "5",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.513125,
+          "y": 0.49,
+          "width": 0.07875,
+          "height": 0.13777777777777778
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "5",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.539375,
+          "y": 0.6333333333333333,
+          "width": 0.0275,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "6",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.19,
+          "y": 0.6944444444444444,
+          "width": 0.085,
+          "height": 0.12333333333333334
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "6",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.19125,
+          "y": 0.6966666666666667,
+          "width": 0.0825,
+          "height": 0.11888888888888889
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "7",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.303125,
+          "y": 0.6944444444444444,
+          "width": 0.075625,
+          "height": 0.12333333333333334
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "7",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.304375,
+          "y": 0.6966666666666667,
+          "width": 0.073125,
+          "height": 0.11888888888888889
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "8",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.405625,
+          "y": 0.6955555555555556,
+          "width": 0.080625,
+          "height": 0.12222222222222222
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "8",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.406875,
+          "y": 0.6977777777777778,
+          "width": 0.078125,
+          "height": 0.11777777777777777
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "9",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.6225,
+          "y": 0.6955555555555556,
+          "width": 0.081875,
+          "height": 0.12222222222222222
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "9",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.62375,
+          "y": 0.6977777777777778,
+          "width": 0.079375,
+          "height": 0.11777777777777777
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "10",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.73875,
+          "y": 0.6955555555555556,
+          "width": 0.05625,
+          "height": 0.12222222222222222
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "slots",
+          "10",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.74,
+          "y": 0.6977777777777778,
+          "width": 0.05375,
+          "height": 0.11777777777777777
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "0",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.193125,
+          "y": 0.31,
+          "width": 0.08125,
+          "height": 0.17888888888888888
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "0",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.194375,
+          "y": 0.31222222222222223,
+          "width": 0.07875,
+          "height": 0.13333333333333333
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "0",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.221875,
+          "y": 0.44666666666666666,
+          "width": 0.023125,
+          "height": 0.04
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "1",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.405625,
+          "y": 0.31,
+          "width": 0.081875,
+          "height": 0.17888888888888888
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "1",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.406875,
+          "y": 0.31222222222222223,
+          "width": 0.079375,
+          "height": 0.13333333333333333
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "1",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.433125,
+          "y": 0.44666666666666666,
+          "width": 0.024375,
+          "height": 0.04
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "2",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.61875,
+          "y": 0.31222222222222223,
+          "width": 0.081875,
+          "height": 0.17666666666666667
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "2",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.62,
+          "y": 0.31444444444444447,
+          "width": 0.079375,
+          "height": 0.13111111111111112
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "2",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.65,
+          "y": 0.44666666666666666,
+          "width": 0.021875,
+          "height": 0.04
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "3",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.7275,
+          "y": 0.31,
+          "width": 0.081875,
+          "height": 0.17888888888888888
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "3",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.72875,
+          "y": 0.31222222222222223,
+          "width": 0.079375,
+          "height": 0.13444444444444445
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "3",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.75625,
+          "y": 0.44666666666666666,
+          "width": 0.02375,
+          "height": 0.04
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "4",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.190625,
+          "y": 0.5166666666666667,
+          "width": 0.0825,
+          "height": 0.17222222222222222
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "4",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.191875,
+          "y": 0.5188888888888888,
+          "width": 0.08,
+          "height": 0.13
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "4",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.221875,
+          "y": 0.6455555555555555,
+          "width": 0.0225,
+          "height": 0.04111111111111111
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "5",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.300625,
+          "y": 0.5166666666666667,
+          "width": 0.075625,
+          "height": 0.17222222222222222
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "5",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.301875,
+          "y": 0.5188888888888888,
+          "width": 0.073125,
+          "height": 0.13
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "5",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.329375,
+          "y": 0.6455555555555555,
+          "width": 0.0225,
+          "height": 0.04111111111111111
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "6",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.404375,
+          "y": 0.5166666666666667,
+          "width": 0.083125,
+          "height": 0.17222222222222222
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "6",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.405625,
+          "y": 0.5188888888888888,
+          "width": 0.080625,
+          "height": 0.1288888888888889
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "6",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.435625,
+          "y": 0.6455555555555555,
+          "width": 0.02125,
+          "height": 0.04111111111111111
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "7",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.510625,
+          "y": 0.5166666666666667,
+          "width": 0.085625,
+          "height": 0.17222222222222222
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "7",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.511875,
+          "y": 0.5188888888888888,
+          "width": 0.083125,
+          "height": 0.13333333333333333
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "slots",
+          "7",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.54125,
+          "y": 0.6455555555555555,
+          "width": 0.02375,
+          "height": 0.04111111111111111
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "slots",
+          "0",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.4,
+          "y": 0.2677777777777778,
+          "width": 0.103125,
+          "height": 0.23333333333333334
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "slots",
+          "0",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.40125,
+          "y": 0.27,
+          "width": 0.100625,
+          "height": 0.15666666666666668
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "slots",
+          "0",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.45125,
+          "y": 0.36444444444444446,
+          "width": 0.046875,
+          "height": 0.052222222222222225
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "slots",
+          "0",
+          "priceBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.4575,
+          "y": 0.44666666666666666,
+          "width": 0.03,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "slots",
+          "0",
+          "currencyBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.4175,
+          "y": 0.43333333333333335,
+          "width": 0.03875,
+          "height": 0.06777777777777778
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "slots",
+          "1",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.5225,
+          "y": 0.2677777777777778,
+          "width": 0.11125,
+          "height": 0.23333333333333334
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "slots",
+          "1",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.52375,
+          "y": 0.27,
+          "width": 0.10875,
+          "height": 0.15666666666666668
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "slots",
+          "1",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.593125,
+          "y": 0.36444444444444446,
+          "width": 0.0375,
+          "height": 0.052222222222222225
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "slots",
+          "1",
+          "priceBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.591875,
+          "y": 0.44666666666666666,
+          "width": 0.03,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "slots",
+          "1",
+          "currencyBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.5525,
+          "y": 0.43333333333333335,
+          "width": 0.03875,
+          "height": 0.06777777777777778
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "slots",
+          "2",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.65625,
+          "y": 0.2677777777777778,
+          "width": 0.111875,
+          "height": 0.23333333333333334
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "slots",
+          "2",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.6575,
+          "y": 0.27,
+          "width": 0.109375,
+          "height": 0.15666666666666668
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "slots",
+          "2",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.71875,
+          "y": 0.36444444444444446,
+          "width": 0.0425,
+          "height": 0.052222222222222225
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "slots",
+          "2",
+          "priceBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.7175,
+          "y": 0.44666666666666666,
+          "width": 0.038125,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "slots",
+          "2",
+          "currencyBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.68125,
+          "y": 0.43333333333333335,
+          "width": 0.03875,
+          "height": 0.06777777777777778
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "0",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.190625,
+          "y": 0.30444444444444446,
+          "width": 0.0825,
+          "height": 0.18666666666666668
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "0",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.191875,
+          "y": 0.30666666666666664,
+          "width": 0.08,
+          "height": 0.1411111111111111
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "0",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.216875,
+          "y": 0.44555555555555554,
+          "width": 0.030625,
+          "height": 0.043333333333333335
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "1",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.303125,
+          "y": 0.30444444444444446,
+          "width": 0.075625,
+          "height": 0.18666666666666668
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "1",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.304375,
+          "y": 0.30666666666666664,
+          "width": 0.073125,
+          "height": 0.1411111111111111
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "1",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.325625,
+          "y": 0.44555555555555554,
+          "width": 0.0275,
+          "height": 0.043333333333333335
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "2",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.405625,
+          "y": 0.30444444444444446,
+          "width": 0.08125,
+          "height": 0.18666666666666668
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "2",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.406875,
+          "y": 0.30666666666666664,
+          "width": 0.07875,
+          "height": 0.1411111111111111
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "2",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.431875,
+          "y": 0.44555555555555554,
+          "width": 0.029375,
+          "height": 0.043333333333333335
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "3",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.621875,
+          "y": 0.30444444444444446,
+          "width": 0.078125,
+          "height": 0.18666666666666668
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "3",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.623125,
+          "y": 0.30666666666666664,
+          "width": 0.075625,
+          "height": 0.1411111111111111
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "3",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.648125,
+          "y": 0.44555555555555554,
+          "width": 0.029375,
+          "height": 0.043333333333333335
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "4",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.74,
+          "y": 0.30444444444444446,
+          "width": 0.05625,
+          "height": 0.18666666666666668
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "4",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.74125,
+          "y": 0.30666666666666664,
+          "width": 0.05375,
+          "height": 0.1411111111111111
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "4",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.75375,
+          "y": 0.44555555555555554,
+          "width": 0.026875,
+          "height": 0.043333333333333335
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "5",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.190625,
+          "y": 0.5155555555555555,
+          "width": 0.0825,
+          "height": 0.18
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "5",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.191875,
+          "y": 0.5177777777777778,
+          "width": 0.08,
+          "height": 0.13444444444444445
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "5",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.223125,
+          "y": 0.6511111111111111,
+          "width": 0.023125,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "6",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.40625,
+          "y": 0.5155555555555555,
+          "width": 0.0825,
+          "height": 0.18
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "6",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.4075,
+          "y": 0.5177777777777778,
+          "width": 0.08,
+          "height": 0.13444444444444445
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "6",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.435625,
+          "y": 0.6511111111111111,
+          "width": 0.0225,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "7",
+          "cardBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.62125,
+          "y": 0.5155555555555555,
+          "width": 0.0775,
+          "height": 0.18
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "7",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.6225,
+          "y": 0.5177777777777778,
+          "width": 0.075,
+          "height": 0.13444444444444445
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "4",
+          "slots",
+          "7",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.65,
+          "y": 0.6511111111111111,
+          "width": 0.02125,
+          "height": 0.042222222222222223
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "schema": 1,
+  "model": "gpt-6-luna",
+  "reasoningEffort": "low",
+  "purpose": "offline_numeric_labels",
+  "executionAllowed": false,
+  "cases": [
+    {
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-management-20261003\\frames\\frame-2b77d9f5-b779-4b0b-9042-208fc09933ad.png",
+      "scene": "train",
+      "frame": {
+        "frameId": "frame-2b77d9f5-b779-4b0b-9042-208fc09933ad",
+        "epoch": 11,
+        "sequence": 865,
+        "observedAt": "2026-10-02T17:29:34.856Z",
+        "evidenceHash": "dd3a17dcf1cffd5f87e613c14aa81ded2981e35c7d52b9e5536f6f41303b6e84",
+        "dimensions": {
+          "width": 1600,
+          "height": 900
+        },
+        "expectedKind": "train"
+      },
+      "fields": [
+        {
+          "fieldId": "train-row-1-bread",
+          "kind": "stock_pair",
+          "itemId": "bread",
+          "slotId": "train-row-1-bread",
+          "box": {
+            "x": 530,
+            "y": 463,
+            "width": 81,
+            "height": 46
+          },
+          "scale": 3,
+          "minimumScore": 0.85,
+          "expectedValue": {
+            "owned": 2,
+            "required": 4
+          }
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-management-20261003\\frames\\frame-156bbf3a-8b5a-4638-ae86-835ddbe59079.png",
+      "scene": "airport",
+      "frame": {
+        "frameId": "frame-156bbf3a-8b5a-4638-ae86-835ddbe59079",
+        "epoch": 16,
+        "sequence": 1769,
+        "observedAt": "2026-10-02T17:42:26.790Z",
+        "evidenceHash": "1355ef07428f9f933ccea21f9762e9347c99d5033c92e33b41ab8f9a1ed76dd5",
+        "dimensions": {
+          "width": 1600,
+          "height": 900
+        },
+        "expectedKind": "airport"
+      },
+      "fields": [
+        {
+          "fieldId": "airport-row-1-syrup",
+          "kind": "stock_pair",
+          "itemId": "syrup",
+          "slotId": "airport-row-1-syrup",
+          "box": {
+            "x": 405,
+            "y": 328,
+            "width": 76,
+            "height": 52
+          },
+          "scale": 3,
+          "minimumScore": 0.85,
+          "expectedValue": {
+            "owned": 0,
+            "required": 4
+          }
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu\\frames\\frame-db0b13d6-23b7-425c-8544-0674e857accf.png",
+      "scene": "market",
+      "frame": {
+        "frameId": "frame-db0b13d6-23b7-425c-8544-0674e857accf",
+        "epoch": 10,
+        "sequence": 748,
+        "observedAt": "2026-10-02T13:59:47.275Z",
+        "evidenceHash": "bfbf4e61d23006e40cfbe9c83643ee83ef626670abb9782154d6837850d6da58",
+        "dimensions": {
+          "width": 1600,
+          "height": 900
+        },
+        "expectedKind": "market"
+      },
+      "fields": [
+        {
+          "fieldId": "market-carrot",
+          "kind": "bundle_quantity",
+          "itemId": "carrot",
+          "slotId": "market-carrot",
+          "box": {
+            "x": 722,
+            "y": 329,
+            "width": 72,
+            "height": 46
+          },
+          "scale": 3,
+          "minimumScore": 0.85,
+          "expectedValue": 6
+        },
+        {
+          "fieldId": "market-tomato",
+          "kind": "bundle_quantity",
+          "itemId": "tomato",
+          "slotId": "market-tomato",
+          "box": {
+            "x": 950,
+            "y": 328,
+            "width": 61,
+            "height": 46
+          },
+          "scale": 3,
+          "minimumScore": 0.85,
+          "expectedValue": 2
+        },
+        {
+          "fieldId": "market-strawberry",
+          "kind": "bundle_quantity",
+          "itemId": "strawberry",
+          "slotId": "market-strawberry",
+          "box": {
+            "x": 1150,
+            "y": 327,
+            "width": 70,
+            "height": 47
+          },
+          "scale": 3,
+          "minimumScore": 0.85,
+          "expectedValue": 6
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-barn-20261003-retry\\frames\\frame-1fccd726-8840-491c-8b8c-bff848a35e92.png",
+      "scene": "barn",
+      "frame": {
+        "frameId": "frame-1fccd726-8840-491c-8b8c-bff848a35e92",
+        "epoch": 11,
+        "sequence": 553,
+        "observedAt": "2026-10-02T16:50:58.370Z",
+        "evidenceHash": "04bc9de87e4616a751f4fdcc0e7698c5bb201748cb7f732abef0abd23dc2c1d7",
+        "dimensions": {
+          "width": 1600,
+          "height": 900
+        },
+        "expectedKind": "barn"
+      },
+      "fields": [
+        {
+          "fieldId": "barn-cotton",
+          "kind": "quantity",
+          "itemId": "cotton",
+          "slotId": "barn-cotton",
+          "box": {
+            "x": 347,
+            "y": 405,
+            "width": 48,
+            "height": 39
+          },
+          "scale": 3,
+          "minimumScore": 0.85,
+          "expectedValue": 8
+        },
+        {
+          "fieldId": "barn-strawberry",
+          "kind": "quantity",
+          "itemId": "strawberry",
+          "slotId": "barn-strawberry",
+          "box": {
+            "x": 521,
+            "y": 405,
+            "width": 44,
+            "height": 39
+          },
+          "scale": 3,
+          "minimumScore": 0.85,
+          "expectedValue": 7
+        }
+      ]
+    }
+  ]
+}

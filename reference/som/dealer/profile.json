@@ -1,0 +1,210 @@
+{
+  "schema": 1,
+  "sources": {
+    "entry": {
+      "file": "entry-source.png",
+      "identifier": "codex-clipboard-f318d628-b7ed-4512-a023-444d95b07bd4.png",
+      "sha256": "b7c8086007e9f6773d9648d4bf436e6acf57746e82150a5060cc5e6587cdbb89",
+      "dimensions": {
+        "width": 454,
+        "height": 676
+      }
+    },
+    "search": {
+      "file": "search-source.png",
+      "identifier": "codex-clipboard-dcedb4b8-a6d7-47ec-8c20-36eee2f95f87.png",
+      "sha256": "a71d8a78da7df9f425992789be7f1818e0b6aef3e452728d4f31471efd6c1bda",
+      "dimensions": {
+        "width": 1341,
+        "height": 871
+      }
+    },
+    "selected": {
+      "file": "selected-source.png",
+      "identifier": "codex-clipboard-28f6cf85-fb51-44d0-ae6c-a27165143baf.png",
+      "sha256": "fcd6eb54bdd89e6c08508b24de222024c2e1be307a21df8fbfbdd7565e8e4daa",
+      "dimensions": {
+        "width": 1335,
+        "height": 857
+      }
+    },
+    "offers": {
+      "file": "offers-source.png",
+      "identifier": "codex-clipboard-df6e4234-7e72-4459-be11-6d56b4420191.png",
+      "sha256": "7323aa74e3f98dab15db6569026da4705548cceafdef1ba86f69ab80f44352fb",
+      "dimensions": {
+        "width": 1446,
+        "height": 767
+      }
+    },
+    "break": {
+      "file": "break-source.png",
+      "identifier": "codex-clipboard-cbe2e456-1743-4c8f-944b-0a23179fa773.png",
+      "sha256": "787ce97eaf67fe4c3220a5093cedcca70d42c1b132cebdfa63abab9926ba7f7a",
+      "dimensions": {
+        "width": 538,
+        "height": 839
+      }
+    }
+  },
+  "assets": {
+    "search_title": {
+      "file": "search_title.png",
+      "sha256": "8a684e5d0f2473983d27def8fcd3f87f5d8364d7849648f9896502973f624b15",
+      "source": "selected",
+      "itemId": null,
+      "cropBox": {
+        "x": 359,
+        "y": 49,
+        "width": 613,
+        "height": 49
+      },
+      "region": {
+        "x": 0.2689138576779026,
+        "y": 0.057176196032672114,
+        "width": 0.4591760299625468,
+        "height": 0.057176196032672114
+      }
+    },
+    "offers_title": {
+      "file": "offers_title.png",
+      "sha256": "6b5f104103d8c24a8845ca276b57d120364b1271df792165999e9b53d1eb1fe1",
+      "source": "offers",
+      "itemId": null,
+      "cropBox": {
+        "x": 535,
+        "y": 104,
+        "width": 660,
+        "height": 38
+      },
+      "region": {
+        "x": 0.3699861687413555,
+        "y": 0.13559322033898305,
+        "width": 0.45643153526970953,
+        "height": 0.04954367666232073
+      }
+    },
+    "mining": {
+      "file": "mining.png",
+      "sha256": "04878f91ce961949e022acad170a845d147995b2cc4700742877e0eaa33f82a5",
+      "source": "selected",
+      "itemId": null,
+      "cropBox": {
+        "x": 979,
+        "y": 151,
+        "width": 59,
+        "height": 51
+      },
+      "region": {
+        "x": 0.7333333333333333,
+        "y": 0.176196032672112,
+        "width": 0.044194756554307116,
+        "height": 0.059509918319719954
+      }
+    },
+    "pickaxe_list": {
+      "file": "pickaxe_list.png",
+      "sha256": "98f7f1a49b6f4bdeca2e1b5044b277afffaa43eca52a546ba024abc6d1b22a1d",
+      "source": "selected",
+      "itemId": "pickaxe",
+      "cropBox": {
+        "x": 623,
+        "y": 258,
+        "width": 87,
+        "height": 43
+      },
+      "region": {
+        "x": 0.4666666666666667,
+        "y": 0.30105017502917153,
+        "width": 0.0651685393258427,
+        "height": 0.050175029171528586
+      }
+    },
+    "pickaxe_selected": {
+      "file": "pickaxe_selected.png",
+      "sha256": "b5d14d95f3b108a6dd3b2deeed5e64078989b982d4c1cdc0a61293bcfbf90c5f",
+      "source": "selected",
+      "itemId": "pickaxe",
+      "cropBox": {
+        "x": 1068,
+        "y": 383,
+        "width": 106,
+        "height": 61
+      },
+      "region": {
+        "x": 0.8,
+        "y": 0.4469078179696616,
+        "width": 0.07940074906367041,
+        "height": 0.07117852975495916
+      }
+    },
+    "pickaxe_offer": {
+      "file": "pickaxe_offer.png",
+      "sha256": "c54b02b91adf577b77b55283c40f28d535c42651306d2e80511afb941fa9a008",
+      "source": "offers",
+      "itemId": "pickaxe",
+      "cropBox": {
+        "x": 1129,
+        "y": 286,
+        "width": 108,
+        "height": 60
+      },
+      "region": {
+        "x": 0.780774550484094,
+        "y": 0.3728813559322034,
+        "width": 0.07468879668049792,
+        "height": 0.07822685788787484
+      }
+    },
+    "coin": {
+      "file": "coin.png",
+      "sha256": "770681ccb94e569d1dcce7ddc2d068d4e34a3065eeb01c87acf7c25c62083bc6",
+      "source": "offers",
+      "itemId": null,
+      "cropBox": {
+        "x": 1099,
+        "y": 494,
+        "width": 47,
+        "height": 45
+      },
+      "region": {
+        "x": 0.760027662517289,
+        "y": 0.6440677966101694,
+        "width": 0.03250345781466114,
+        "height": 0.05867014341590613
+      }
+    }
+  },
+  "panels": {
+    "search": {
+      "source": "selected",
+      "box": {
+        "x": 12,
+        "y": 17,
+        "width": 1296,
+        "height": 826
+      },
+      "region": {
+        "x": 0.008988764044943821,
+        "y": 0.019836639439906652,
+        "width": 0.9707865168539326,
+        "height": 0.9638273045507585
+      }
+    },
+    "offers": {
+      "source": "offers",
+      "box": {
+        "x": 337,
+        "y": 77,
+        "width": 1054,
+        "height": 660
+      },
+      "region": {
+        "x": 0.2330567081604426,
+        "y": 0.10039113428943937,
+        "width": 0.7289073305670816,
+        "height": 0.8604954367666232
+      }
+    }
+  }
+}

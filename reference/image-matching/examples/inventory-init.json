@@ -1,0 +1,8 @@
+{
+  "mutationId": "init-unique-id",
+  "expectedSourceRevision": 0,
+  "snapshotId": "confirmed-barn-snapshot",
+  "visitIds": ["confirmed-barn-visit"],
+  "orderFrameIds": [],
+  "maxAgeMs": 300000
+}

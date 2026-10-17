@@ -1,0 +1,13 @@
+# 실행 중 생성물·대용량 기록 (git 제외)
+runtime/
+.venv-perception/
+.claude/
+setup-local/som-pairs/
+setup-local/som-pairs-manual-test/
+setup-local/watch-*/
+__pycache__/
+*.pyc
+node_modules/
+*.log
+
+dist/

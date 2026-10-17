@@ -1,0 +1,12 @@
+{
+  "snapshotId": "stock-barn-20261003-retry",
+  "visitIds": [
+    "barn-grid-001",
+    "barn-grid-002",
+    "barn-grid-003",
+    "barn-grid-004",
+    "barn-grid-005",
+    "barn-grid-end-check"
+  ],
+  "maxAgeMs": 300000
+}

@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "scene": "train",
+  "purpose": "Known source layout only. A requested itemId is unconfirmed identity, not a match.",
+  "fields": [
+    {"fieldId":"train-row-1-stock","slotId":"train-row-1","kind":"stock_pair","box":{"x":530,"y":463,"width":81,"height":46},"scale":3,"minimumScore":0.85,"recognitionOnly":true}
+  ]
+}

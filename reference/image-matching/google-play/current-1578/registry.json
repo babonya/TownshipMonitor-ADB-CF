@@ -1,0 +1,477 @@
+{
+  "schema": 1,
+  "version": "google-play-transport-idle-headings-20261006-market-startup-title",
+  "dimensions": {
+    "width": 1578,
+    "height": 1268
+  },
+  "profileId": "google-play-current-1578x1268-1",
+  "coordinateTtlMs": 2500,
+  "sceneMargin": 0.05,
+  "templates": [
+    {
+      "templateId": "current-heli-0",
+      "objectId": "helicopter-panel",
+      "scene": "helicopter",
+      "category": "scene_marker",
+      "file": "helicopter/title.png",
+      "fileHash": "1376ed4e428e5efbb7b898efd8c32c8b84c89d5853d1b85706432ddf360f055e",
+      "searchBoxes": [
+        {
+          "x": 636,
+          "y": 302,
+          "width": 440,
+          "height": 51
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.05
+    },
+    {
+      "templateId": "current-heli-1",
+      "objectId": "helicopter-panel",
+      "scene": "helicopter",
+      "category": "scene_marker",
+      "file": "helicopter/details.png",
+      "fileHash": "acf38c7157f549e32c6a8b762c5f0dcd252d8122ad9472ee77bd012ce064a0bc",
+      "searchBoxes": [
+        {
+          "x": 1248,
+          "y": 382,
+          "width": 270,
+          "height": 36
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.05
+    },
+    {
+      "templateId": "user-town-hardhat",
+      "objectId": "town-hardhat",
+      "scene": "town",
+      "category": "scene_marker",
+      "file": "user-town-icons/town-hardhat.png",
+      "fileHash": "9449462abf842d00cdc2381bf558f39de5b1636aae50a14da551d4395315a2a1",
+      "searchBoxes": [
+        {
+          "x": 155,
+          "y": 990,
+          "width": 130,
+          "height": 135
+        }
+      ],
+      "threshold": 0.99,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "kind": "explicit_user_image",
+        "date": "2026-10-06",
+        "label": "town-hardhat"
+      },
+      "note": "User explicitly defines visible hardhat as sufficient town classification. This does not authorize an action.",
+      "decisiveScene": true
+    },
+    {
+      "templateId": "user-helicopter",
+      "objectId": "helicopter-town-shortcut",
+      "scene": "town",
+      "category": "button",
+      "file": "user-town-icons/helicopter.png",
+      "fileHash": "ad27cbf7b0146a3d4610c9385d18a3f048fdeceacc0570fe21849b338a1e4f1e",
+      "searchBoxes": [
+        {
+          "x": 1150,
+          "y": 1025,
+          "width": 110,
+          "height": 105
+        }
+      ],
+      "threshold": 0.99,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "kind": "explicit_user_image",
+        "date": "2026-10-06",
+        "label": "helicopter"
+      },
+      "note": "Recognition candidate only; existing action/preflight/result guards remain authoritative."
+    },
+    {
+      "templateId": "user-train",
+      "objectId": "train-town-shortcut",
+      "scene": "town",
+      "category": "button",
+      "file": "user-town-icons/train.png",
+      "fileHash": "f5b335e16cd165e59882b77b5de189cfa7526fde25b47e3cb5d140668fa6f449",
+      "searchBoxes": [
+        {
+          "x": 1275,
+          "y": 1035,
+          "width": 120,
+          "height": 100
+        }
+      ],
+      "threshold": 0.99,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "kind": "explicit_user_image",
+        "date": "2026-10-06",
+        "label": "train"
+      },
+      "note": "Recognition candidate only; existing action/preflight/result guards remain authoritative."
+    },
+    {
+      "templateId": "user-airport",
+      "objectId": "airport-building",
+      "scene": "town",
+      "category": "building",
+      "file": "user-town-icons/airport.png",
+      "fileHash": "1307d93902dd13391169398c77718ff2e3c376b48960ce6edf6dc553a41feb75",
+      "searchBoxes": [
+        {
+          "x": 128,
+          "y": 188,
+          "width": 1448,
+          "height": 970
+        }
+      ],
+      "threshold": 0.94,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "kind": "explicit_user_image",
+        "date": "2026-10-06",
+        "label": "airport"
+      },
+      "note": "Recognition candidate only; existing action/preflight/result guards remain authoritative."
+    },
+    {
+      "templateId": "user-market-auxiliary",
+      "objectId": "market-building-auxiliary",
+      "scene": "town",
+      "category": "building",
+      "file": "user-town-icons/market-auxiliary.png",
+      "fileHash": "028878653bb82e41124e010c79fcb8a1cda9867c5b3e86b3801b74aa691e08e9",
+      "searchBoxes": [
+        {
+          "x": 128,
+          "y": 188,
+          "width": 1448,
+          "height": 970
+        }
+      ],
+      "threshold": 0.9,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "kind": "explicit_user_image",
+        "date": "2026-10-06",
+        "label": "market-auxiliary"
+      },
+      "note": "User-labelled market auxiliary cue; never a standalone market entry or purchase target."
+    },
+    {
+      "templateId": "user-barn",
+      "objectId": "barn-building",
+      "scene": "town",
+      "category": "building",
+      "file": "user-town-icons/barn.png",
+      "fileHash": "8d6188467234e71d4789dbe6a71dd5823d400beab65164887ad2b2f197fed3b2",
+      "searchBoxes": [
+        {
+          "x": 128,
+          "y": 188,
+          "width": 1448,
+          "height": 970
+        }
+      ],
+      "threshold": 0.95,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "kind": "explicit_user_image",
+        "date": "2026-10-06",
+        "label": "barn"
+      },
+      "note": "Recognition candidate only; existing action/preflight/result guards remain authoritative."
+    },
+    {
+      "templateId": "current-train-idle-header",
+      "objectId": "train-panel",
+      "scene": "train",
+      "category": "scene_marker",
+      "file": "train-idle/header.png",
+      "fileHash": "8833c7e659c7ee469a2f85fe3fc51d2f747ccca29a3f48a1fbe9a317b226df55",
+      "searchBoxes": [
+        {
+          "x": 656,
+          "y": 306,
+          "width": 397,
+          "height": 43
+        }
+      ],
+      "threshold": 0.99,
+      "margin": 0.05
+    },
+    {
+      "templateId": "current-airport-idle-header",
+      "objectId": "airport-panel",
+      "scene": "airport",
+      "category": "scene_marker",
+      "file": "airport-idle/header.png",
+      "fileHash": "05b2e6cda3974c3cb992a37e1bd9f36630ac430ee478a8022e32d06ecc1d1af6",
+      "searchBoxes": [
+        {
+          "x": 757,
+          "y": 266,
+          "width": 195,
+          "height": 34
+        }
+      ],
+      "threshold": 0.99,
+      "margin": 0.05
+    },
+    {
+      "templateId": "current-market-title",
+      "objectId": "market-panel",
+      "scene": "market",
+      "category": "scene_marker",
+      "file": "market/title.png",
+      "fileHash": "6fbf54afe13be54c25852c80aabf20c981dd237e370959d2fc8c6bad429483c0",
+      "searchBoxes": [
+        {
+          "x": 795,
+          "y": 321,
+          "width": 238,
+          "height": 42
+        }
+      ],
+      "threshold": 0.99,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "kind": "actual_game_capture",
+        "originalPath": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\reference\\market-recognition\\native-1578-original-entry.png",
+        "evidenceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+        "box": {
+          "x": 795,
+          "y": 321,
+          "width": 238,
+          "height": 42
+        }
+      },
+      "note": "Scene candidate only; dedicated market source/result and input guards remain authoritative."
+    }
+  ],
+  "fallbackScenes": [],
+  "percentageGeometry": {
+    "schema": 1,
+    "unit": "fraction",
+    "space": "registered_capture",
+    "canvas": {
+      "width": 1578,
+      "height": 1268
+    },
+    "entries": [
+      {
+        "path": [
+          "templates",
+          "0",
+          "searchBoxes",
+          "0"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.40304182509505704,
+          "y": 0.23817034700315456,
+          "width": 0.2788339670468948,
+          "height": 0.04022082018927445
+        }
+      },
+      {
+        "path": [
+          "templates",
+          "1",
+          "searchBoxes",
+          "0"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7908745247148289,
+          "y": 0.30126182965299686,
+          "width": 0.17110266159695817,
+          "height": 0.028391167192429023
+        }
+      },
+      {
+        "path": [
+          "templates",
+          "2",
+          "searchBoxes",
+          "0"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.0982256020278834,
+          "y": 0.7807570977917981,
+          "width": 0.08238276299112801,
+          "height": 0.10646687697160884
+        }
+      },
+      {
+        "path": [
+          "templates",
+          "3",
+          "searchBoxes",
+          "0"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7287705956907478,
+          "y": 0.8083596214511041,
+          "width": 0.0697084917617237,
+          "height": 0.08280757097791798
+        }
+      },
+      {
+        "path": [
+          "templates",
+          "4",
+          "searchBoxes",
+          "0"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.8079847908745247,
+          "y": 0.8162460567823344,
+          "width": 0.07604562737642585,
+          "height": 0.07886435331230283
+        }
+      },
+      {
+        "path": [
+          "templates",
+          "5",
+          "searchBoxes",
+          "0"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.08111533586818757,
+          "y": 0.14826498422712933,
+          "width": 0.917617237008872,
+          "height": 0.7649842271293376
+        }
+      },
+      {
+        "path": [
+          "templates",
+          "6",
+          "searchBoxes",
+          "0"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.08111533586818757,
+          "y": 0.14826498422712933,
+          "width": 0.917617237008872,
+          "height": 0.7649842271293376
+        }
+      },
+      {
+        "path": [
+          "templates",
+          "7",
+          "searchBoxes",
+          "0"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.08111533586818757,
+          "y": 0.14826498422712933,
+          "width": 0.917617237008872,
+          "height": 0.7649842271293376
+        }
+      },
+      {
+        "path": [
+          "templates",
+          "8",
+          "searchBoxes",
+          "0"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.4157160963244613,
+          "y": 0.24132492113564669,
+          "width": 0.25158428390367554,
+          "height": 0.03391167192429022
+        }
+      },
+      {
+        "path": [
+          "templates",
+          "9",
+          "searchBoxes",
+          "0"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.4797211660329531,
+          "y": 0.20977917981072555,
+          "width": 0.12357414448669202,
+          "height": 0.026813880126182965
+        }
+      },
+      {
+        "path": [
+          "templates",
+          "10",
+          "searchBoxes",
+          "0"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.5038022813688213,
+          "y": 0.2531545741324921,
+          "width": 0.15082382762991128,
+          "height": 0.033123028391167195
+        }
+      }
+    ]
+  }
+}

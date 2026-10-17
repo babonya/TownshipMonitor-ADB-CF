@@ -1,0 +1,31 @@
+{
+ "productId": "barn",
+ "screen": "town",
+ "dimensions": {
+  "width": 1600,
+  "height": 720
+ },
+ "source": {
+  "file": "source-town-1600.png",
+  "frameId": "frame-002a0812-bbdb-4670-a8ef-ae49d2ef9a2c",
+  "sha256": "6cb63573ab56d601bd4c6a8793584e9d58d2dd23c148d917daa7369f1de0e380",
+  "provider": "android_adb",
+  "serial": "redacted",
+  "capturedBy": "봇 정상 운영 중 마을 화면(시장 진입 성공 시기)"
+ },
+ "region": {
+  "unit": "fraction",
+  "space": "capture",
+  "x": 0.41875,
+  "y": 0.1875,
+  "width": 0.134375,
+  "height": 0.2777777777777778
+ },
+ "referenceCenter": {
+  "unit": "fraction",
+  "space": "capture",
+  "x": 0.4859375,
+  "y": 0.3263888888888889
+ },
+ "note": "봇 고정 탭(시장 0.353725,0.44139 / 창고 0.527425,0.25139)이 맞는 카메라 배율·위치의 기준. 창고 이미지가 이 배율(1.00)·중심에 오면 카메라 정상."
+}

@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "version": "arrow-guide-20261014",
+  "kind": "arrow_guide",
+  "sourceFile": "source.png",
+  "originalName": "arrow-star-20261014-2107.png",
+  "sourceSha256": "ea75d029831304c8e7f10e410603facd4d652d0ab280735f9d61e377c4c4b278",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "anchors": [
+    {
+      "role": "arrow",
+      "file": "arrow.png",
+      "sha256": "6473cc2eedc58f987cf8233fccd335abd3c3e6056bdc317432df4f9feb075ae6",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 207,
+        "y": 252,
+        "width": 102,
+        "height": 83
+      },
+      "sourceRegion": {
+        "x": 0.129375,
+        "y": 0.35,
+        "width": 0.06375,
+        "height": 0.11527777777777778
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "arrow-star-20261014-2107.png",
+        "sha256": "ea75d029831304c8e7f10e410603facd4d652d0ab280735f9d61e377c4c4b278",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 207,
+          "y": 252,
+          "width": 102,
+          "height": 83
+        }
+      },
+      "mode": "yellowMask",
+      "threshold": 0.75
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600",
+  "darkMeanMax": 60,
+  "target": {
+    "method": "lit blob left of arrow tip",
+    "litValueMin": 130,
+    "bandMargin": 0.06,
+    "minAreaFraction": 0.002170138888888889,
+    "sizeFraction": {
+      "min": [
+        0.035,
+        0.09
+      ],
+      "max": [
+        0.09,
+        0.2
+      ]
+    },
+    "maxGapFraction": 0.15,
+    "sourceIconBox": {
+      "x": 62,
+      "y": 242,
+      "width": 95,
+      "height": 103
+    },
+    "note": "arrow points left; overlay dims everything except the target, tap box is the lit blob nearest the arrow tip"
+  }
+}

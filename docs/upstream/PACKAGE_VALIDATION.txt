@@ -1,0 +1,22 @@
+Township Monitor Android ADB package validation — 2026-10-14 KST
+
+Scope: distribution assembly and installation documentation. No gameplay code,
+installed runtime, live phone binding, game input or model settings were changed.
+
+PASS: 485 payload files before addition of this report; approximately 60 MB
+uncompressed. Copied tools/apps/artifacts/reference files match original SHA-256.
+PASS: no live runtime, venv, git history, logs, shortcuts or Python caches packaged.
+PASS: MonitorController imports from the extracted-layout staging directory.
+PASS: execution release matches the original installed execution dependency graph:
+8ab29b1beda6eae840a72cb858d7883920bfc1c255b923022f8ac88c108e46db
+PASS: both permanent failed-product registrations validate their source/crop hashes.
+PASS: fresh-session documentation example tested against four simulated read-only
+ADB calls and an existing real 1544x720 registration PNG; created paused SOM state
+with observation-only authority, null input, and an intact verification PNG.
+PASS: PowerShell fresh-session example parses without syntax errors.
+
+Limitations: no clean-machine dependency installation, multi-GB model download,
+native GUI launch, or real-device delivery/purchase acceptance was performed.
+Existing installed source/binaries/assets were preserved, not rebuilt or upgraded.
+The package is intended for online dependency setup, not offline turnkey operation.
+ZIP integrity is checked after this report is packed.

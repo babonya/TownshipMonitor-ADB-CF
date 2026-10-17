@@ -1,0 +1,759 @@
+{
+  "schema": 1,
+  "purpose": "offline_template_labels",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "low",
+  "language": "en-US",
+  "numericZoomKnown": false,
+  "executionAllowed": false,
+  "templateSetVersion": "source-variants-6",
+  "labels": [
+    {
+      "frameId": "frame-b2f82105-624a-4d12-a15b-05439679241e",
+      "scene": "town",
+      "objectId": "airport-building",
+      "category": "building",
+      "box": {
+        "x": 503,
+        "y": 426,
+        "width": 428,
+        "height": 317
+      }
+    },
+    {
+      "frameId": "frame-b2f82105-624a-4d12-a15b-05439679241e",
+      "scene": "town",
+      "objectId": "town-marker-avatar",
+      "category": "scene_marker",
+      "box": {
+        "x": 46,
+        "y": 34,
+        "width": 129,
+        "height": 130
+      },
+      "note": "HUD fallback only. Avatar is also visible behind panels."
+    },
+    {
+      "frameId": "frame-b6b548a1-d120-4ac2-bdeb-58549ceb70e0",
+      "scene": "town",
+      "objectId": "barn-building",
+      "category": "building",
+      "box": {
+        "x": 939,
+        "y": 334,
+        "width": 100,
+        "height": 82
+      },
+      "note": "Partly obscured; upper facade/roof appearance only."
+    },
+    {
+      "frameId": "frame-a9e33016-328f-4527-a379-154c89df845a",
+      "scene": "town",
+      "objectId": "helicopter-pad-building",
+      "category": "building",
+      "box": {
+        "x": 721,
+        "y": 607,
+        "width": 103,
+        "height": 92
+      }
+    },
+    {
+      "frameId": "frame-12131cce-3c33-4eeb-bca2-7d6926712541",
+      "scene": "town",
+      "objectId": "market-building",
+      "category": "building",
+      "box": {
+        "x": 918,
+        "y": 828,
+        "width": 79,
+        "height": 70
+      },
+      "note": "Partial visible sign/facade. Old red-awning label rejected as unconfirmed."
+    },
+    {
+      "frameId": "frame-9313b245-efbc-4594-b2eb-c067217421ca",
+      "scene": "train",
+      "objectId": "train-station-title",
+      "category": "scene_marker",
+      "box": {
+        "x": 570,
+        "y": 42,
+        "width": 455,
+        "height": 57
+      }
+    },
+    {
+      "frameId": "frame-9313b245-efbc-4594-b2eb-c067217421ca",
+      "scene": "train",
+      "objectId": "train-close",
+      "category": "button",
+      "box": {
+        "x": 1269,
+        "y": 46,
+        "width": 45,
+        "height": 44
+      }
+    },
+    {
+      "frameId": "frame-5b66ea94-8a59-48ee-aea7-5ab3ff00cf77",
+      "scene": "helicopter",
+      "objectId": "helicopter-pad-title",
+      "category": "scene_marker",
+      "box": {
+        "x": 550,
+        "y": 48,
+        "width": 501,
+        "height": 51
+      }
+    },
+    {
+      "frameId": "frame-5b66ea94-8a59-48ee-aea7-5ab3ff00cf77",
+      "scene": "helicopter",
+      "objectId": "helicopter-close",
+      "category": "button",
+      "box": {
+        "x": 1269,
+        "y": 48,
+        "width": 45,
+        "height": 42
+      }
+    },
+    {
+      "frameId": "frame-3181246f-1c08-4d79-bf8d-33c0282db446",
+      "scene": "airport",
+      "objectId": "airport-title",
+      "category": "scene_marker",
+      "box": {
+        "x": 693,
+        "y": 61,
+        "width": 214,
+        "height": 43
+      }
+    },
+    {
+      "frameId": "frame-3181246f-1c08-4d79-bf8d-33c0282db446",
+      "scene": "airport",
+      "objectId": "airport-close",
+      "category": "button",
+      "box": {
+        "x": 1347,
+        "y": 73,
+        "width": 43,
+        "height": 41
+      }
+    },
+    {
+      "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+      "scene": "market",
+      "objectId": "market-title",
+      "category": "scene_marker",
+      "box": {
+        "x": 611,
+        "y": 59,
+        "width": 376,
+        "height": 48
+      }
+    },
+    {
+      "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+      "scene": "market",
+      "objectId": "market-close",
+      "category": "button",
+      "box": {
+        "x": 1271,
+        "y": 64,
+        "width": 45,
+        "height": 44
+      }
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "barn-title",
+      "category": "scene_marker",
+      "box": {
+        "x": 733,
+        "y": 57,
+        "width": 132,
+        "height": 52
+      }
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "barn-close",
+      "category": "button",
+      "box": {
+        "x": 1296,
+        "y": 69,
+        "width": 47,
+        "height": 44
+      }
+    },
+    {
+      "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+      "scene": "market",
+      "objectId": "market-item-cookies",
+      "itemId": "cookies",
+      "category": "item",
+      "box": {
+        "x": 1006,
+        "y": 264,
+        "width": 151,
+        "height": 113
+      },
+      "maskExcludeBoxes": [
+        {
+          "x": 1104,
+          "y": 336,
+          "width": 53,
+          "height": 40
+        }
+      ],
+      "searchBoxes": [
+        {
+          "x": 400,
+          "y": 245,
+          "width": 1000,
+          "height": 510
+        }
+      ]
+    },
+    {
+      "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+      "scene": "market",
+      "objectId": "market-item-tomato",
+      "itemId": "tomato",
+      "category": "item",
+      "box": {
+        "x": 1210,
+        "y": 255,
+        "width": 145,
+        "height": 120
+      },
+      "maskExcludeBoxes": [
+        {
+          "x": 1293,
+          "y": 328,
+          "width": 62,
+          "height": 44
+        }
+      ],
+      "searchBoxes": [
+        {
+          "x": 400,
+          "y": 245,
+          "width": 1000,
+          "height": 510
+        }
+      ]
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "barn-item-sugarcane",
+      "itemId": "sugarcane",
+      "category": "item",
+      "box": {
+        "x": 313,
+        "y": 262,
+        "width": 119,
+        "height": 111
+      },
+      "maskExcludeBoxes": [],
+      "searchBoxes": [
+        {
+          "x": 285,
+          "y": 245,
+          "width": 1030,
+          "height": 493
+        }
+      ]
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "barn-item-corn",
+      "itemId": "corn",
+      "category": "item",
+      "box": {
+        "x": 661,
+        "y": 264,
+        "width": 105,
+        "height": 108
+      },
+      "maskExcludeBoxes": [],
+      "searchBoxes": [
+        {
+          "x": 285,
+          "y": 245,
+          "width": 1030,
+          "height": 493
+        }
+      ]
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "barn-item-carrot",
+      "itemId": "carrot",
+      "category": "item",
+      "box": {
+        "x": 1000,
+        "y": 258,
+        "width": 116,
+        "height": 115
+      },
+      "maskExcludeBoxes": [],
+      "searchBoxes": [
+        {
+          "x": 285,
+          "y": 245,
+          "width": 1030,
+          "height": 493
+        }
+      ]
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "barn-item-cotton",
+      "itemId": "cotton",
+      "category": "item",
+      "box": {
+        "x": 314,
+        "y": 635,
+        "width": 118,
+        "height": 89
+      },
+      "maskExcludeBoxes": [],
+      "searchBoxes": [
+        {
+          "x": 285,
+          "y": 245,
+          "width": 1030,
+          "height": 493
+        }
+      ]
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "barn-item-strawberry",
+      "itemId": "strawberry",
+      "category": "item",
+      "box": {
+        "x": 496,
+        "y": 633,
+        "width": 101,
+        "height": 92
+      },
+      "maskExcludeBoxes": [],
+      "searchBoxes": [
+        {
+          "x": 285,
+          "y": 245,
+          "width": 1030,
+          "height": 493
+        }
+      ]
+    },
+    {
+      "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+      "scene": "market",
+      "objectId": "item-cookies",
+      "itemId": "cookies",
+      "category": "item",
+      "box": {
+        "x": 1007,
+        "y": 264,
+        "width": 150,
+        "height": 113
+      },
+      "note": "Delegated original label, source only; number excluded.",
+      "maskExcludeBoxes": [
+        {
+          "x": 1106,
+          "y": 335,
+          "width": 55,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+      "scene": "market",
+      "objectId": "item-tomato",
+      "itemId": "tomato",
+      "category": "item",
+      "box": {
+        "x": 1210,
+        "y": 254,
+        "width": 145,
+        "height": 121
+      },
+      "note": "Delegated original label, source only; number excluded.",
+      "maskExcludeBoxes": [
+        {
+          "x": 1295,
+          "y": 329,
+          "width": 61,
+          "height": 43
+        }
+      ]
+    },
+    {
+      "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+      "scene": "market",
+      "objectId": "item-sugarcane",
+      "itemId": "sugarcane",
+      "category": "item",
+      "box": {
+        "x": 588,
+        "y": 500,
+        "width": 164,
+        "height": 130
+      },
+      "note": "Delegated original label, source only; number excluded.",
+      "maskExcludeBoxes": [
+        {
+          "x": 645,
+          "y": 570,
+          "width": 94,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "item-sugarcane",
+      "itemId": "sugarcane",
+      "category": "item",
+      "box": {
+        "x": 317,
+        "y": 263,
+        "width": 114,
+        "height": 107
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "item-wool",
+      "itemId": "wool",
+      "category": "item",
+      "box": {
+        "x": 481,
+        "y": 264,
+        "width": 121,
+        "height": 108
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "item-corn",
+      "itemId": "corn",
+      "category": "item",
+      "box": {
+        "x": 661,
+        "y": 263,
+        "width": 111,
+        "height": 109
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "item-carrot",
+      "itemId": "carrot",
+      "category": "item",
+      "box": {
+        "x": 1001,
+        "y": 262,
+        "width": 115,
+        "height": 111
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "item-muffin",
+      "itemId": "muffin",
+      "category": "item",
+      "box": {
+        "x": 660,
+        "y": 449,
+        "width": 111,
+        "height": 108
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "item-wheat",
+      "itemId": "wheat",
+      "category": "item",
+      "box": {
+        "x": 829,
+        "y": 449,
+        "width": 110,
+        "height": 108
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "item-cotton",
+      "itemId": "cotton",
+      "category": "item",
+      "box": {
+        "x": 314,
+        "y": 635,
+        "width": 116,
+        "height": 91
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "item-strawberry",
+      "itemId": "strawberry",
+      "category": "item",
+      "box": {
+        "x": 495,
+        "y": 635,
+        "width": 101,
+        "height": 91
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "item-syrup",
+      "itemId": "syrup",
+      "category": "item",
+      "box": {
+        "x": 659,
+        "y": 636,
+        "width": 109,
+        "height": 90
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "item-popcorn",
+      "itemId": "popcorn",
+      "category": "item",
+      "box": {
+        "x": 1006,
+        "y": 636,
+        "width": 111,
+        "height": 90
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "scene": "barn",
+      "objectId": "item-milk",
+      "itemId": "milk",
+      "category": "item",
+      "box": {
+        "x": 1192,
+        "y": 636,
+        "width": 70,
+        "height": 90
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-5794d65e-7d2e-4f37-a47f-668ac42cada0",
+      "scene": "barn",
+      "objectId": "item-bread",
+      "itemId": "bread",
+      "category": "item",
+      "box": {
+        "x": 319,
+        "y": 289,
+        "width": 110,
+        "height": 104
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-5794d65e-7d2e-4f37-a47f-668ac42cada0",
+      "scene": "barn",
+      "objectId": "item-potato",
+      "itemId": "potato",
+      "category": "item",
+      "box": {
+        "x": 659,
+        "y": 289,
+        "width": 111,
+        "height": 104
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-5794d65e-7d2e-4f37-a47f-668ac42cada0",
+      "scene": "barn",
+      "objectId": "item-cream",
+      "itemId": "cream",
+      "category": "item",
+      "box": {
+        "x": 1000,
+        "y": 291,
+        "width": 111,
+        "height": 102
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-5794d65e-7d2e-4f37-a47f-668ac42cada0",
+      "scene": "barn",
+      "objectId": "item-granola",
+      "itemId": "granola",
+      "category": "item",
+      "box": {
+        "x": 1174,
+        "y": 289,
+        "width": 111,
+        "height": 105
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-5794d65e-7d2e-4f37-a47f-668ac42cada0",
+      "scene": "barn",
+      "objectId": "item-paper",
+      "itemId": "paper",
+      "category": "item",
+      "box": {
+        "x": 315,
+        "y": 475,
+        "width": 112,
+        "height": 101
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-5794d65e-7d2e-4f37-a47f-668ac42cada0",
+      "scene": "barn",
+      "objectId": "item-potato_chips",
+      "itemId": "potato_chips",
+      "category": "item",
+      "box": {
+        "x": 491,
+        "y": 475,
+        "width": 101,
+        "height": 101
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-5794d65e-7d2e-4f37-a47f-668ac42cada0",
+      "scene": "barn",
+      "objectId": "item-bagel",
+      "itemId": "bagel",
+      "category": "item",
+      "box": {
+        "x": 657,
+        "y": 475,
+        "width": 113,
+        "height": 100
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+      "scene": "market",
+      "category": "currency",
+      "objectId": "currency-coin",
+      "currency": "COIN",
+      "box": {
+        "x": 1016,
+        "y": 394,
+        "width": 54,
+        "height": 53
+      },
+      "note": "Delegated original glyph only. No sold-out indicator is visible in these originals."
+    },
+    {
+      "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+      "scene": "market",
+      "category": "currency",
+      "objectId": "currency-coin",
+      "currency": "COIN",
+      "box": {
+        "x": 1240,
+        "y": 395,
+        "width": 55,
+        "height": 52
+      },
+      "note": "Delegated original glyph only. No sold-out indicator is visible in these originals."
+    },
+    {
+      "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+      "scene": "market",
+      "category": "currency",
+      "objectId": "currency-coin",
+      "currency": "COIN",
+      "box": {
+        "x": 615,
+        "y": 642,
+        "width": 53,
+        "height": 53
+      },
+      "note": "Delegated original glyph only. No sold-out indicator is visible in these originals."
+    }
+  ],
+  "unconfirmed": [
+    {
+      "frameId": "frame-b2f82105-624a-4d12-a15b-05439679241e",
+      "objectId": null,
+      "description": "Red-awning stalls. Do not register as City Market."
+    },
+    {
+      "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "objectId": null,
+      "description": "Cacao catalog itemId is null; no forced runtime alias."
+    },
+    {
+      "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+      "objectId": null,
+      "description": "Previous sugarcane crop retracted as unconfirmed."
+    }
+  ],
+  "quarantinedLabels": [
+    {
+      "label": {
+        "frameId": "frame-31a0b361-e8bb-4a0e-a39a-e32e527c00f2",
+        "scene": "town",
+        "objectId": "train-station-building",
+        "category": "building",
+        "box": {
+          "x": 410,
+          "y": 371,
+          "width": 130,
+          "height": 92
+        }
+      },
+      "reason": "SOURCE_SEMANTIC_MISLABEL",
+      "evidenceRef": "runtime/perception-evaluation/live-building-negative-v5.json",
+      "correctObjectId": null
+    }
+  ]
+}

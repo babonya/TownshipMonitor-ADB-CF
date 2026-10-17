@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "sourceId": "codex-clipboard-ac9ef4cb-b34b-471f-86e7-051e56888ca8.png",
+  "sourceSha256": "0f78208382a0d3627ecae4c9835428bf191c005ddbdebdb3d128dad7e90541ba",
+  "dimensions": {
+    "width": 987,
+    "height": 775
+  },
+  "panel": {
+    "x": 124,
+    "y": 88,
+    "width": 722,
+    "height": 600
+  },
+  "unit": "fraction",
+  "space": "detected_panel",
+  "anchors": [
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "6375aa83654e06050385cfffce5c2e4fca74697e90907595dae9fb1666cfb23c",
+      "sourceBox": {
+        "x": 322,
+        "y": 119,
+        "width": 323,
+        "height": 43
+      },
+      "sourceRegion": {
+        "x": 0.3262411347517731,
+        "y": 0.15354838709677418,
+        "width": 0.3272543059777102,
+        "height": 0.05548387096774193
+      },
+      "search": {
+        "x": 0.1,
+        "y": 0,
+        "width": 0.8,
+        "height": 0.22
+      }
+    },
+    {
+      "role": "upgrade",
+      "file": "upgrade.png",
+      "sha256": "42287798ca947c12cd1741de2beececdd4c742719d9f21ae7d255c81bff1e885",
+      "sourceBox": {
+        "x": 321,
+        "y": 594,
+        "width": 327,
+        "height": 43
+      },
+      "sourceRegion": {
+        "x": 0.3252279635258359,
+        "y": 0.7664516129032258,
+        "width": 0.331306990881459,
+        "height": 0.05548387096774193
+      },
+      "search": {
+        "x": 0.1,
+        "y": 0.7,
+        "width": 0.8,
+        "height": 0.28
+      }
+    },
+    {
+      "role": "close",
+      "file": "close.png",
+      "sha256": "a6200732e32406474e9bb4287ad05ffb93fc590f5e65b48e5d919445aab2c200",
+      "sourceBox": {
+        "x": 772,
+        "y": 120,
+        "width": 42,
+        "height": 42
+      },
+      "sourceRegion": {
+        "x": 0.7821681864235056,
+        "y": 0.15483870967741936,
+        "width": 0.0425531914893617,
+        "height": 0.05419354838709677
+      },
+      "search": {
+        "x": 0.82,
+        "y": 0.015,
+        "width": 0.17,
+        "height": 0.16
+      }
+    }
+  ]
+}

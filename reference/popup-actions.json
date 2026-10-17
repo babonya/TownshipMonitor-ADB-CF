@@ -1,0 +1,256 @@
+{
+  "schema": 1,
+  "width": 1578,
+  "height": 1268,
+  "minimumScore": 0.9,
+  "categories": {
+    "close": [
+      {
+        "id": "farmers_race",
+        "title": "FARMERS’ RACE",
+        "titleBox": {
+          "x": 540,
+          "y": 310,
+          "width": 640,
+          "height": 70
+        },
+        "buttonBox": {
+          "x": 1424,
+          "y": 340,
+          "width": 42,
+          "height": 44
+        }
+      },
+      {
+        "id": "treasure_hunt",
+        "title": "TREASURE HUNT",
+        "titleBox": {
+          "x": 540,
+          "y": 310,
+          "width": 640,
+          "height": 70
+        },
+        "buttonBox": {
+          "x": 1276,
+          "y": 343,
+          "width": 40,
+          "height": 40
+        }
+      },
+      {
+        "id": "jungle_quest",
+        "title": "JUNGLE QUEST",
+        "titleBox": {
+          "x": 540,
+          "y": 310,
+          "width": 640,
+          "height": 70
+        },
+        "buttonBox": {
+          "x": 1276,
+          "y": 343,
+          "width": 40,
+          "height": 40
+        }
+      }
+    ],
+    "claim": [
+      {
+        "id": "daily_bonus",
+        "title": "DAILY BONUS",
+        "titleBox": {
+          "x": 540,
+          "y": 310,
+          "width": 640,
+          "height": 70
+        },
+        "buttonBox": {
+          "x": 1135,
+          "y": 956,
+          "width": 180,
+          "height": 44
+        },
+        "buttonText": "CLAIM",
+        "buttonTextBox": {
+          "x": 1156,
+          "y": 958,
+          "width": 138,
+          "height": 36
+        }
+      }
+    ]
+  },
+  "percentageGeometry": {
+    "schema": 1,
+    "unit": "fraction",
+    "space": "registered_capture",
+    "canvas": {
+      "width": 1578,
+      "height": 1268
+    },
+    "entries": [
+      {
+        "path": [
+          "categories",
+          "close",
+          "0",
+          "titleBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.34220532319391633,
+          "y": 0.2444794952681388,
+          "width": 0.4055766793409379,
+          "height": 0.055205047318611984
+        }
+      },
+      {
+        "path": [
+          "categories",
+          "close",
+          "0",
+          "buttonBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.9024081115335868,
+          "y": 0.26813880126182965,
+          "width": 0.026615969581749048,
+          "height": 0.03470031545741325
+        }
+      },
+      {
+        "path": [
+          "categories",
+          "close",
+          "1",
+          "titleBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.34220532319391633,
+          "y": 0.2444794952681388,
+          "width": 0.4055766793409379,
+          "height": 0.055205047318611984
+        }
+      },
+      {
+        "path": [
+          "categories",
+          "close",
+          "1",
+          "buttonBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.8086185044359949,
+          "y": 0.2705047318611987,
+          "width": 0.025348542458808618,
+          "height": 0.031545741324921134
+        }
+      },
+      {
+        "path": [
+          "categories",
+          "close",
+          "2",
+          "titleBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.34220532319391633,
+          "y": 0.2444794952681388,
+          "width": 0.4055766793409379,
+          "height": 0.055205047318611984
+        }
+      },
+      {
+        "path": [
+          "categories",
+          "close",
+          "2",
+          "buttonBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.8086185044359949,
+          "y": 0.2705047318611987,
+          "width": 0.025348542458808618,
+          "height": 0.031545741324921134
+        }
+      },
+      {
+        "path": [
+          "categories",
+          "claim",
+          "0",
+          "titleBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.34220532319391633,
+          "y": 0.2444794952681388,
+          "width": 0.4055766793409379,
+          "height": 0.055205047318611984
+        }
+      },
+      {
+        "path": [
+          "categories",
+          "claim",
+          "0",
+          "buttonBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7192648922686945,
+          "y": 0.7539432176656151,
+          "width": 0.11406844106463879,
+          "height": 0.03470031545741325
+        }
+      },
+      {
+        "path": [
+          "categories",
+          "claim",
+          "0",
+          "buttonTextBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7325728770595691,
+          "y": 0.7555205047318612,
+          "width": 0.08745247148288973,
+          "height": 0.028391167192429023
+        }
+      }
+    ]
+  }
+}

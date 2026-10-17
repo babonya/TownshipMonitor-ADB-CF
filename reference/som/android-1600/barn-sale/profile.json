@@ -1,0 +1,1640 @@
+{
+  "schema": 1,
+  "dimensions": {
+    "width": 1544,
+    "height": 720
+  },
+  "panel": {
+    "dimensions": {
+      "width": 1544,
+      "height": 720
+    },
+    "title": {
+      "x": 708,
+      "y": 56,
+      "width": 127,
+      "height": 37
+    },
+    "close": {
+      "x": 1171,
+      "y": 55,
+      "width": 35,
+      "height": 35
+    },
+    "bottom": {
+      "x": 894,
+      "y": 619,
+      "width": 143,
+      "height": 28
+    },
+    "allTab": {
+      "x": 445,
+      "y": 142,
+      "width": 54,
+      "height": 23
+    },
+    "plainStrip": {
+      "x": 350,
+      "y": 337,
+      "width": 220,
+      "height": 15
+    },
+    "capacity": {
+      "x": 694,
+      "y": 615,
+      "width": 146,
+      "height": 37
+    },
+    "rows": [
+      {
+        "index": 0,
+        "iconBox": {
+          "x": 380,
+          "y": 202,
+          "width": 102,
+          "height": 111
+        }
+      },
+      {
+        "index": 1,
+        "iconBox": {
+          "x": 517,
+          "y": 202,
+          "width": 102,
+          "height": 111
+        }
+      },
+      {
+        "index": 2,
+        "iconBox": {
+          "x": 654,
+          "y": 202,
+          "width": 102,
+          "height": 111
+        }
+      },
+      {
+        "index": 3,
+        "iconBox": {
+          "x": 791,
+          "y": 202,
+          "width": 102,
+          "height": 111
+        }
+      },
+      {
+        "index": 4,
+        "iconBox": {
+          "x": 928,
+          "y": 202,
+          "width": 102,
+          "height": 111
+        }
+      },
+      {
+        "index": 5,
+        "iconBox": {
+          "x": 1065,
+          "y": 202,
+          "width": 102,
+          "height": 111
+        }
+      },
+      {
+        "index": 6,
+        "iconBox": {
+          "x": 380,
+          "y": 352,
+          "width": 102,
+          "height": 111
+        }
+      },
+      {
+        "index": 7,
+        "iconBox": {
+          "x": 517,
+          "y": 352,
+          "width": 102,
+          "height": 111
+        }
+      },
+      {
+        "index": 8,
+        "iconBox": {
+          "x": 654,
+          "y": 352,
+          "width": 102,
+          "height": 111
+        }
+      },
+      {
+        "index": 9,
+        "iconBox": {
+          "x": 791,
+          "y": 352,
+          "width": 102,
+          "height": 111
+        }
+      },
+      {
+        "index": 10,
+        "iconBox": {
+          "x": 928,
+          "y": 352,
+          "width": 102,
+          "height": 111
+        }
+      },
+      {
+        "index": 11,
+        "iconBox": {
+          "x": 1065,
+          "y": 352,
+          "width": 102,
+          "height": 111
+        }
+      }
+    ]
+  },
+  "anchors": {
+    "title": {
+      "file": "../barn-title.png",
+      "sha256": "cf5e1130d80c68fd3b9e23807bd20e806c589bbfd202517024daa156ef54765d",
+      "source": {
+        "file": "../sources/barn-all.png",
+        "sha256": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+        "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png",
+        "dimensions": {
+          "width": 1544,
+          "height": 720
+        },
+        "provider": "android_adb",
+        "frameId": "frame-b43a993d-0707-48dc-a040-ee79bca09761",
+        "resultActionId": "som-41c2bbf0-6edb-4144-b798-1c0e4db3e057",
+        "review": {
+          "reviewedBy": "GPT",
+          "hash": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+          "observation": "BARN panel opened; capacity 307/403, ALL tab selected. No sale."
+        },
+        "adbTarget": {
+          "deviceSerial": "R5CT43PC74N",
+          "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+          "displayId": 0,
+          "width": 1544,
+          "height": 720,
+          "rotation": 90,
+          "physicalDisplayId": "4630947232161729154"
+        },
+        "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png#sha256=5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+        "cropBox": {
+          "x": 708,
+          "y": 56,
+          "width": 127,
+          "height": 37
+        }
+      }
+    },
+    "close": {
+      "file": "../barn-close.png",
+      "sha256": "129b4f8ba7912183503f9e5224d38b1c3e1e601d72c5c5f7abcb1efa034954b9",
+      "source": {
+        "file": "../sources/barn-all.png",
+        "sha256": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+        "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png",
+        "dimensions": {
+          "width": 1544,
+          "height": 720
+        },
+        "provider": "android_adb",
+        "frameId": "frame-b43a993d-0707-48dc-a040-ee79bca09761",
+        "resultActionId": "som-41c2bbf0-6edb-4144-b798-1c0e4db3e057",
+        "review": {
+          "reviewedBy": "GPT",
+          "hash": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+          "observation": "BARN panel opened; capacity 307/403, ALL tab selected. No sale."
+        },
+        "adbTarget": {
+          "deviceSerial": "R5CT43PC74N",
+          "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+          "displayId": 0,
+          "width": 1544,
+          "height": 720,
+          "rotation": 90,
+          "physicalDisplayId": "4630947232161729154"
+        },
+        "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png#sha256=5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+        "cropBox": {
+          "x": 1171,
+          "y": 55,
+          "width": 35,
+          "height": 35
+        }
+      }
+    },
+    "bottom": {
+      "file": "../barn-bottom.png",
+      "sha256": "9b4980e14008455c577d19bef6c7db0da65252508c71fbcd9f82c5935b3d9b62",
+      "source": {
+        "file": "../sources/barn-all.png",
+        "sha256": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+        "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png",
+        "dimensions": {
+          "width": 1544,
+          "height": 720
+        },
+        "provider": "android_adb",
+        "frameId": "frame-b43a993d-0707-48dc-a040-ee79bca09761",
+        "resultActionId": "som-41c2bbf0-6edb-4144-b798-1c0e4db3e057",
+        "review": {
+          "reviewedBy": "GPT",
+          "hash": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+          "observation": "BARN panel opened; capacity 307/403, ALL tab selected. No sale."
+        },
+        "adbTarget": {
+          "deviceSerial": "R5CT43PC74N",
+          "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+          "displayId": 0,
+          "width": 1544,
+          "height": 720,
+          "rotation": 90,
+          "physicalDisplayId": "4630947232161729154"
+        },
+        "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png#sha256=5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+        "cropBox": {
+          "x": 894,
+          "y": 619,
+          "width": 143,
+          "height": 28
+        }
+      }
+    },
+    "allTab": {
+      "file": "../barn-allTab.png",
+      "sha256": "7a5046e9dbad5fdbb1ea8ab13656163e509ffa1bb859284c9af8a86456665e97",
+      "source": {
+        "file": "../sources/barn-all.png",
+        "sha256": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+        "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png",
+        "dimensions": {
+          "width": 1544,
+          "height": 720
+        },
+        "provider": "android_adb",
+        "frameId": "frame-b43a993d-0707-48dc-a040-ee79bca09761",
+        "resultActionId": "som-41c2bbf0-6edb-4144-b798-1c0e4db3e057",
+        "review": {
+          "reviewedBy": "GPT",
+          "hash": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+          "observation": "BARN panel opened; capacity 307/403, ALL tab selected. No sale."
+        },
+        "adbTarget": {
+          "deviceSerial": "R5CT43PC74N",
+          "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+          "displayId": 0,
+          "width": 1544,
+          "height": 720,
+          "rotation": 90,
+          "physicalDisplayId": "4630947232161729154"
+        },
+        "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png#sha256=5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+        "cropBox": {
+          "x": 445,
+          "y": 142,
+          "width": 54,
+          "height": 23
+        }
+      }
+    },
+    "plainStrip": {
+      "file": "../barn-plainStrip.png",
+      "sha256": "62de1cf7f3450349c6330564beb440b0fa149d6bf6e345b94d3386cae1f20456",
+      "source": {
+        "file": "../sources/barn-all.png",
+        "sha256": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+        "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png",
+        "dimensions": {
+          "width": 1544,
+          "height": 720
+        },
+        "provider": "android_adb",
+        "frameId": "frame-b43a993d-0707-48dc-a040-ee79bca09761",
+        "resultActionId": "som-41c2bbf0-6edb-4144-b798-1c0e4db3e057",
+        "review": {
+          "reviewedBy": "GPT",
+          "hash": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+          "observation": "BARN panel opened; capacity 307/403, ALL tab selected. No sale."
+        },
+        "adbTarget": {
+          "deviceSerial": "R5CT43PC74N",
+          "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+          "displayId": 0,
+          "width": 1544,
+          "height": 720,
+          "rotation": 90,
+          "physicalDisplayId": "4630947232161729154"
+        },
+        "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png#sha256=5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+        "cropBox": {
+          "x": 350,
+          "y": 337,
+          "width": 220,
+          "height": 15
+        }
+      }
+    }
+  },
+  "tabs": [
+    {
+      "id": "crops",
+      "box": {
+        "x": 548,
+        "y": 127,
+        "width": 88,
+        "height": 53
+      },
+      "searchBox": {
+        "x": 548,
+        "y": 127,
+        "width": 88,
+        "height": 53
+      },
+      "active": {
+        "file": "../barn-crops-active.png",
+        "sha256": "72761876752fcb72c078a4e0116e92737318c1e187a77432ede47720e8b85197",
+        "source": {
+          "file": "../sources/barn-crops.png",
+          "sha256": "3674e13bdf24a340e69bda40540dc09feed86549796b95f262550e11be18644c",
+          "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-9.png",
+          "dimensions": {
+            "width": 1544,
+            "height": 720
+          },
+          "provider": "android_adb",
+          "frameId": "frame-6d79ddcb-56e5-4834-a7c9-259de08d8a1b",
+          "resultActionId": "som-546be5cf-f51a-4d32-b428-2b6c7f985adb",
+          "review": {
+            "reviewedBy": "GPT",
+            "hash": "3674e13bdf24a340e69bda40540dc09feed86549796b95f262550e11be18644c",
+            "observation": "Crops tab active; first occupied slot is corn. Capacity unchanged 307/403."
+          },
+          "adbTarget": {
+            "deviceSerial": "R5CT43PC74N",
+            "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+            "displayId": 0,
+            "width": 1544,
+            "height": 720,
+            "rotation": 90,
+            "physicalDisplayId": "4630947232161729154"
+          },
+          "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-9.png#sha256=3674e13bdf24a340e69bda40540dc09feed86549796b95f262550e11be18644c",
+          "cropBox": {
+            "x": 548,
+            "y": 127,
+            "width": 88,
+            "height": 53
+          }
+        }
+      },
+      "inactive": {
+        "file": "../barn-crops-inactive.png",
+        "sha256": "8888c61553de112460f0969dbbdcd4436a481f4636339ba0b43716fe1acce911",
+        "source": {
+          "file": "../sources/barn-all.png",
+          "sha256": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+          "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png",
+          "dimensions": {
+            "width": 1544,
+            "height": 720
+          },
+          "provider": "android_adb",
+          "frameId": "frame-b43a993d-0707-48dc-a040-ee79bca09761",
+          "resultActionId": "som-41c2bbf0-6edb-4144-b798-1c0e4db3e057",
+          "review": {
+            "reviewedBy": "GPT",
+            "hash": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+            "observation": "BARN panel opened; capacity 307/403, ALL tab selected. No sale."
+          },
+          "adbTarget": {
+            "deviceSerial": "R5CT43PC74N",
+            "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+            "displayId": 0,
+            "width": 1544,
+            "height": 720,
+            "rotation": 90,
+            "physicalDisplayId": "4630947232161729154"
+          },
+          "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png#sha256=5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+          "cropBox": {
+            "x": 548,
+            "y": 127,
+            "width": 88,
+            "height": 53
+          }
+        }
+      }
+    },
+    {
+      "id": "products",
+      "box": {
+        "x": 668,
+        "y": 127,
+        "width": 88,
+        "height": 53
+      },
+      "searchBox": {
+        "x": 668,
+        "y": 127,
+        "width": 88,
+        "height": 53
+      },
+      "active": {
+        "file": "../barn-products-active.png",
+        "sha256": "8e63590a919750058c44e212350f610c2c9e6e571daaa505737976d155af8385",
+        "source": {
+          "file": "../sources/barn-products.png",
+          "sha256": "438b740a46b2c2ad2c7622084392ed95e8e8c72f13d1bde709618b489e7c5976",
+          "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-15.png",
+          "dimensions": {
+            "width": 1544,
+            "height": 720
+          },
+          "provider": "android_adb",
+          "frameId": "frame-038eb0cb-29f5-4b23-bd72-da9534250993",
+          "resultActionId": "som-15c0392d-5251-4cd2-b877-8a56cbf1632e",
+          "review": {
+            "reviewedBy": "GPT",
+            "hash": "438b740a46b2c2ad2c7622084392ed95e8e8c72f13d1bde709618b489e7c5976",
+            "observation": "Products tab active; bread icon white background, capacity unchanged. No sale."
+          },
+          "adbTarget": {
+            "deviceSerial": "R5CT43PC74N",
+            "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+            "displayId": 0,
+            "width": 1544,
+            "height": 720,
+            "rotation": 90,
+            "physicalDisplayId": "4630947232161729154"
+          },
+          "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-15.png#sha256=438b740a46b2c2ad2c7622084392ed95e8e8c72f13d1bde709618b489e7c5976",
+          "cropBox": {
+            "x": 668,
+            "y": 127,
+            "width": 88,
+            "height": 53
+          }
+        }
+      },
+      "inactive": {
+        "file": "../barn-products-inactive.png",
+        "sha256": "f1f30d696687e4d08372a92be2c6e7d4ab2d899715c7a749ed845a879a165c81",
+        "source": {
+          "file": "../sources/barn-all.png",
+          "sha256": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+          "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png",
+          "dimensions": {
+            "width": 1544,
+            "height": 720
+          },
+          "provider": "android_adb",
+          "frameId": "frame-b43a993d-0707-48dc-a040-ee79bca09761",
+          "resultActionId": "som-41c2bbf0-6edb-4144-b798-1c0e4db3e057",
+          "review": {
+            "reviewedBy": "GPT",
+            "hash": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+            "observation": "BARN panel opened; capacity 307/403, ALL tab selected. No sale."
+          },
+          "adbTarget": {
+            "deviceSerial": "R5CT43PC74N",
+            "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+            "displayId": 0,
+            "width": 1544,
+            "height": 720,
+            "rotation": 90,
+            "physicalDisplayId": "4630947232161729154"
+          },
+          "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png#sha256=5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+          "cropBox": {
+            "x": 668,
+            "y": 127,
+            "width": 88,
+            "height": 53
+          }
+        }
+      }
+    }
+  ],
+  "selection": {
+    "dimensions": {
+      "width": 375,
+      "height": 330
+    },
+    "popup": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 330
+    },
+    "pointer": "top",
+    "sellLabelSearch": {
+      "x": 35,
+      "y": 256,
+      "width": 240,
+      "height": 52
+    },
+    "coinSearch": {
+      "x": 35,
+      "y": 256,
+      "width": 240,
+      "height": 52
+    },
+    "minus": {
+      "x": 25,
+      "y": 185,
+      "width": 55,
+      "height": 50
+    },
+    "minusTemplate": {
+      "file": "../barn-selection-minus.png",
+      "sha256": "7e29b5eb332e3362cef1951ba758e46a48182352d04a56db36925f81f9a25a79",
+      "source": {
+        "file": "../sources/barn-selection.png",
+        "sha256": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+        "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-11.png",
+        "dimensions": {
+          "width": 1544,
+          "height": 720
+        },
+        "provider": "android_adb",
+        "frameId": "frame-87fc5c59-9b88-46a2-857d-71630075490e",
+        "resultActionId": "som-b28fab38-1218-436d-87dd-975854255c23",
+        "review": {
+          "reviewedBy": "GPT",
+          "hash": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+          "observation": "Corn sale information popup opened below first slot, quantity 6, coin SELL visible. No sale."
+        },
+        "adbTarget": {
+          "deviceSerial": "R5CT43PC74N",
+          "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+          "displayId": 0,
+          "width": 1544,
+          "height": 720,
+          "rotation": 90,
+          "physicalDisplayId": "4630947232161729154"
+        },
+        "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-11.png#sha256=571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+        "cropBox": {
+          "x": 268,
+          "y": 486,
+          "width": 55,
+          "height": 50
+        }
+      }
+    },
+    "plus": {
+      "x": 294,
+      "y": 185,
+      "width": 55,
+      "height": 50
+    },
+    "plusTemplate": {
+      "file": "../barn-selection-plus.png",
+      "sha256": "59cde6e1dade562cf520e9d6b17e1f94eacfe3e7b8cdf40c5152a9f4f4b24fd8",
+      "source": {
+        "file": "../sources/barn-selection.png",
+        "sha256": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+        "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-11.png",
+        "dimensions": {
+          "width": 1544,
+          "height": 720
+        },
+        "provider": "android_adb",
+        "frameId": "frame-87fc5c59-9b88-46a2-857d-71630075490e",
+        "resultActionId": "som-b28fab38-1218-436d-87dd-975854255c23",
+        "review": {
+          "reviewedBy": "GPT",
+          "hash": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+          "observation": "Corn sale information popup opened below first slot, quantity 6, coin SELL visible. No sale."
+        },
+        "adbTarget": {
+          "deviceSerial": "R5CT43PC74N",
+          "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+          "displayId": 0,
+          "width": 1544,
+          "height": 720,
+          "rotation": 90,
+          "physicalDisplayId": "4630947232161729154"
+        },
+        "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-11.png#sha256=571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+        "cropBox": {
+          "x": 537,
+          "y": 486,
+          "width": 55,
+          "height": 50
+        }
+      }
+    },
+    "sellLabel": {
+      "x": 108,
+      "y": 269,
+      "width": 61,
+      "height": 26
+    },
+    "sellTemplate": {
+      "file": "../barn-selection-sellLabel.png",
+      "sha256": "4fcc564c69a7bc64d7a5a2f2917d9a1e1dd007de84366a29b84414fa7a198f36",
+      "source": {
+        "file": "../sources/barn-selection.png",
+        "sha256": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+        "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-11.png",
+        "dimensions": {
+          "width": 1544,
+          "height": 720
+        },
+        "provider": "android_adb",
+        "frameId": "frame-87fc5c59-9b88-46a2-857d-71630075490e",
+        "resultActionId": "som-b28fab38-1218-436d-87dd-975854255c23",
+        "review": {
+          "reviewedBy": "GPT",
+          "hash": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+          "observation": "Corn sale information popup opened below first slot, quantity 6, coin SELL visible. No sale."
+        },
+        "adbTarget": {
+          "deviceSerial": "R5CT43PC74N",
+          "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+          "displayId": 0,
+          "width": 1544,
+          "height": 720,
+          "rotation": 90,
+          "physicalDisplayId": "4630947232161729154"
+        },
+        "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-11.png#sha256=571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+        "cropBox": {
+          "x": 351,
+          "y": 570,
+          "width": 61,
+          "height": 26
+        }
+      }
+    },
+    "coin": {
+      "x": 181,
+      "y": 266,
+      "width": 33,
+      "height": 31
+    },
+    "coinTemplate": {
+      "file": "../barn-selection-coin.png",
+      "sha256": "15543e8344dd0ea520d4a0b6fc6f081da71814b4ff6b036ac7e0aa4f63059f7e",
+      "source": {
+        "file": "../sources/barn-selection.png",
+        "sha256": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+        "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-11.png",
+        "dimensions": {
+          "width": 1544,
+          "height": 720
+        },
+        "provider": "android_adb",
+        "frameId": "frame-87fc5c59-9b88-46a2-857d-71630075490e",
+        "resultActionId": "som-b28fab38-1218-436d-87dd-975854255c23",
+        "review": {
+          "reviewedBy": "GPT",
+          "hash": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+          "observation": "Corn sale information popup opened below first slot, quantity 6, coin SELL visible. No sale."
+        },
+        "adbTarget": {
+          "deviceSerial": "R5CT43PC74N",
+          "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+          "displayId": 0,
+          "width": 1544,
+          "height": 720,
+          "rotation": 90,
+          "physicalDisplayId": "4630947232161729154"
+        },
+        "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-11.png#sha256=571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+        "cropBox": {
+          "x": 424,
+          "y": 567,
+          "width": 33,
+          "height": 31
+        }
+      }
+    },
+    "quantity": {
+      "x": 207,
+      "y": 192,
+      "width": 40,
+      "height": 31
+    },
+    "sell": {
+      "x": 24,
+      "y": 256,
+      "width": 327,
+      "height": 51
+    },
+    "sourceDimensions": {
+      "width": 1544,
+      "height": 720
+    },
+    "labelAlternates": [
+      {
+        "sellTemplate": {
+          "file": "../barn-selection-sellLabel.png",
+          "sha256": "4fcc564c69a7bc64d7a5a2f2917d9a1e1dd007de84366a29b84414fa7a198f36",
+          "source": {
+            "file": "../sources/barn-selection.png",
+            "sha256": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+            "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-11.png",
+            "dimensions": {
+              "width": 1544,
+              "height": 720
+            },
+            "provider": "android_adb",
+            "frameId": "frame-87fc5c59-9b88-46a2-857d-71630075490e",
+            "resultActionId": "som-b28fab38-1218-436d-87dd-975854255c23",
+            "review": {
+              "reviewedBy": "GPT",
+              "hash": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+              "observation": "Corn sale information popup opened below first slot, quantity 6, coin SELL visible. No sale."
+            },
+            "adbTarget": {
+              "deviceSerial": "R5CT43PC74N",
+              "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+              "displayId": 0,
+              "width": 1544,
+              "height": 720,
+              "rotation": 90,
+              "physicalDisplayId": "4630947232161729154"
+            },
+            "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-11.png#sha256=571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+            "cropBox": {
+              "x": 351,
+              "y": 570,
+              "width": 61,
+              "height": 26
+            }
+          }
+        },
+        "coinTemplate": {
+          "file": "coin-cotton.png",
+          "sha256": "46b681a5ce66deffc7f9c3c311c5f4a44d0d28c8c35cc0152fec6ec81710640e",
+          "source": {
+            "file": "source-cotton-selection.png",
+            "sha256": "bb2537797a40646ebcd591ec4de0af0fd30fff7dea8d63a2cf599b90bdd06443",
+            "frameId": "frame-f208dc07-5b63-40c4-8146-1e70442cea90",
+            "sourceId": "frame-f208dc07-5b63-40c4-8146-1e70442cea90",
+            "originalPath": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-f208dc07-5b63-40c4-8146-1e70442cea90.png",
+            "dimensions": {
+              "width": 1544,
+              "height": 720
+            },
+            "cropBox": {
+              "x": 424,
+              "y": 567,
+              "width": 33,
+              "height": 31
+            },
+            "provider": "android_adb",
+            "review": {
+              "reviewedBy": "GPT",
+              "observation": "Actual Cotton default quantity 8 sale popup in crops tab. Ordinary gold coin beside SELL 72. No sale issued."
+            }
+          }
+        }
+      },
+      {
+        "sellTemplate": {
+          "file": "../barn-selection-sellLabel.png",
+          "sha256": "4fcc564c69a7bc64d7a5a2f2917d9a1e1dd007de84366a29b84414fa7a198f36",
+          "source": {
+            "file": "../sources/barn-selection.png",
+            "sha256": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+            "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-11.png",
+            "dimensions": {
+              "width": 1544,
+              "height": 720
+            },
+            "provider": "android_adb",
+            "frameId": "frame-87fc5c59-9b88-46a2-857d-71630075490e",
+            "resultActionId": "som-b28fab38-1218-436d-87dd-975854255c23",
+            "review": {
+              "reviewedBy": "GPT",
+              "hash": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+              "observation": "Corn sale information popup opened below first slot, quantity 6, coin SELL visible. No sale."
+            },
+            "adbTarget": {
+              "deviceSerial": "R5CT43PC74N",
+              "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+              "displayId": 0,
+              "width": 1544,
+              "height": 720,
+              "rotation": 90,
+              "physicalDisplayId": "4630947232161729154"
+            },
+            "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-11.png#sha256=571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+            "cropBox": {
+              "x": 351,
+              "y": 570,
+              "width": 61,
+              "height": 26
+            }
+          }
+        },
+        "coinTemplate": {
+          "file": "coin-sugarcane.png",
+          "sha256": "69530237b88d08c087b90c27e91a21654a40313a6005497a58fd8d4ed33879ab",
+          "source": {
+            "file": "source-sugarcane-selection.png",
+            "sha256": "b6bde031a57524faf941c3e5c44b119dda9c9a1f9bf88328c1c005acdde8902d",
+            "frameId": "frame-671ad746-260f-461b-8368-6a0b5ffceb82",
+            "sourceId": "frame-671ad746-260f-461b-8368-6a0b5ffceb82",
+            "originalPath": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-671ad746-260f-461b-8368-6a0b5ffceb82.png",
+            "dimensions": {
+              "width": 1544,
+              "height": 720
+            },
+            "cropBox": {
+              "x": 423,
+              "y": 567,
+              "width": 33,
+              "height": 31
+            },
+            "provider": "android_adb",
+            "review": {
+              "reviewedBy": "GPT",
+              "observation": "Actual Sugarcane default quantity 4 popup in crops tab, capacity 398/403. Ordinary gold coin beside SELL 28. No sale success inferred from this capture."
+            }
+          }
+        }
+      },
+      {
+        "sellTemplate": {
+          "file": "../barn-selection-sellLabel.png",
+          "sha256": "4fcc564c69a7bc64d7a5a2f2917d9a1e1dd007de84366a29b84414fa7a198f36",
+          "source": {
+            "file": "../sources/barn-selection.png",
+            "sha256": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+            "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-11.png",
+            "dimensions": {
+              "width": 1544,
+              "height": 720
+            },
+            "provider": "android_adb",
+            "frameId": "frame-87fc5c59-9b88-46a2-857d-71630075490e",
+            "resultActionId": "som-b28fab38-1218-436d-87dd-975854255c23",
+            "review": {
+              "reviewedBy": "GPT",
+              "hash": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+              "observation": "Corn sale information popup opened below first slot, quantity 6, coin SELL visible. No sale."
+            },
+            "adbTarget": {
+              "deviceSerial": "R5CT43PC74N",
+              "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+              "displayId": 0,
+              "width": 1544,
+              "height": 720,
+              "rotation": 90,
+              "physicalDisplayId": "4630947232161729154"
+            },
+            "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-11.png#sha256=571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+            "cropBox": {
+              "x": 351,
+              "y": 570,
+              "width": 61,
+              "height": 26
+            }
+          }
+        },
+        "coinTemplate": {
+          "file": "coin-cork-oak.png",
+          "sha256": "8d81af9e1ad96dcc6d1340a4188e408235f457e4bab3f83e3d83fcce04241aa8",
+          "source": {
+            "file": "source-cork-oak-selection.png",
+            "sha256": "6c54ae4ec2630d70a1ba5131f731025d28fd4b27d07fa3738d0759b11d993260",
+            "originalPath": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-1c6c56b5-f960-4702-aea7-2c7abae0e995.png",
+            "dimensions": {
+              "width": 1544,
+              "height": 720
+            },
+            "provider": "android_adb",
+            "frameId": "frame-1c6c56b5-f960-4702-aea7-2c7abae0e995",
+            "resultActionId": "som-29fa7546-9d27-496a-a334-6da1cf19663b",
+            "sourceId": "frame-1c6c56b5-f960-4702-aea7-2c7abae0e995#sha256=6c54ae4ec2630d70a1ba5131f731025d28fd4b27d07fa3738d0759b11d993260",
+            "cropBox": {
+              "x": 411,
+              "y": 567,
+              "width": 33,
+              "height": 31
+            },
+            "review": {
+              "reviewedBy": "GPT",
+              "observation": "Cork Oak sale popup under first crops slot; SELL label and ordinary coin visible. Coin crop excludes variable price and quantity. No automated sale command was issued."
+            }
+          }
+        }
+      }
+    ]
+  },
+  "products": [],
+  "bottomAlternates": [
+    {
+      "file": "capacity-label.png",
+      "sha256": "7d1c731aab20f848d60c543fb829a3dcb1297d9a030bab5238003fd8de9c53dc",
+      "box": {
+        "x": 529,
+        "y": 620,
+        "width": 158,
+        "height": 30
+      },
+      "dimensions": {
+        "width": 1544,
+        "height": 720
+      },
+      "maximumMeanAbsoluteError": 2,
+      "source": {
+        "file": "source-capacity-403.png",
+        "sha256": "216d400db47301a7bc820e69aa204f2c45ceed6e32903614f38d89cf34e67edc",
+        "sourceId": "frame-8aebf415-b19c-4fab-81db-55037f066b03",
+        "frameId": "frame-8aebf415-b19c-4fab-81db-55037f066b03",
+        "originalPath": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-8aebf415-b19c-4fab-81db-55037f066b03.png",
+        "dimensions": {
+          "width": 1544,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 529,
+          "y": 620,
+          "width": 158,
+          "height": 30
+        },
+        "provider": "android_adb",
+        "review": {
+          "reviewedBy": "GPT",
+          "observation": "Actual BARN ALL tab, capacity 403/403. Static CAPACITY label excludes digits and upgrade button."
+        }
+      },
+      "searchBox": {
+        "x": 505,
+        "y": 620,
+        "width": 206,
+        "height": 30
+      }
+    },
+    {
+      "file": "../barn-bottom.png",
+      "sha256": "9b4980e14008455c577d19bef6c7db0da65252508c71fbcd9f82c5935b3d9b62",
+      "source": {
+        "file": "../sources/barn-all.png",
+        "sha256": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+        "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png",
+        "dimensions": {
+          "width": 1544,
+          "height": 720
+        },
+        "provider": "android_adb",
+        "frameId": "frame-b43a993d-0707-48dc-a040-ee79bca09761",
+        "resultActionId": "som-41c2bbf0-6edb-4144-b798-1c0e4db3e057",
+        "review": {
+          "reviewedBy": "GPT",
+          "hash": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+          "observation": "BARN panel opened; capacity 307/403, ALL tab selected. No sale."
+        },
+        "adbTarget": {
+          "deviceSerial": "R5CT43PC74N",
+          "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+          "displayId": 0,
+          "width": 1544,
+          "height": 720,
+          "rotation": 90,
+          "physicalDisplayId": "4630947232161729154"
+        },
+        "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png#sha256=5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+        "cropBox": {
+          "x": 894,
+          "y": 619,
+          "width": 143,
+          "height": 28
+        }
+      },
+      "box": {
+        "x": 894,
+        "y": 619,
+        "width": 143,
+        "height": 28
+      },
+      "searchBox": {
+        "x": 870,
+        "y": 615,
+        "width": 191,
+        "height": 36
+      },
+      "maximumMeanAbsoluteError": 2,
+      "dimensions": {
+        "width": 1544,
+        "height": 720
+      }
+    }
+  ],
+  "percentageGeometry": {
+    "schema": 1,
+    "unit": "fraction",
+    "space": "registered_capture",
+    "canvas": {
+      "width": 1544,
+      "height": 720
+    },
+    "entries": [
+      {
+        "path": [
+          "panel",
+          "title"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.4585492227979275,
+          "y": 0.07777777777777778,
+          "width": 0.0822538860103627,
+          "height": 0.05138888888888889
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "close"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.758419689119171,
+          "y": 0.0763888888888889,
+          "width": 0.02266839378238342,
+          "height": 0.04861111111111111
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "bottom"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.5790155440414507,
+          "y": 0.8597222222222223,
+          "width": 0.09261658031088082,
+          "height": 0.03888888888888889
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "allTab"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.28821243523316065,
+          "y": 0.19722222222222222,
+          "width": 0.034974093264248704,
+          "height": 0.03194444444444444
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "plainStrip"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.2266839378238342,
+          "y": 0.46805555555555556,
+          "width": 0.14248704663212436,
+          "height": 0.020833333333333332
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "capacity"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.4494818652849741,
+          "y": 0.8541666666666666,
+          "width": 0.09455958549222798,
+          "height": 0.05138888888888889
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "0",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.24611398963730569,
+          "y": 0.28055555555555556,
+          "width": 0.06606217616580311,
+          "height": 0.15416666666666667
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "1",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.33484455958549225,
+          "y": 0.28055555555555556,
+          "width": 0.06606217616580311,
+          "height": 0.15416666666666667
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "2",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.42357512953367876,
+          "y": 0.28055555555555556,
+          "width": 0.06606217616580311,
+          "height": 0.15416666666666667
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "3",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.5123056994818653,
+          "y": 0.28055555555555556,
+          "width": 0.06606217616580311,
+          "height": 0.15416666666666667
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "4",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.6010362694300518,
+          "y": 0.28055555555555556,
+          "width": 0.06606217616580311,
+          "height": 0.15416666666666667
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "5",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.6897668393782384,
+          "y": 0.28055555555555556,
+          "width": 0.06606217616580311,
+          "height": 0.15416666666666667
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "6",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.24611398963730569,
+          "y": 0.4888888888888889,
+          "width": 0.06606217616580311,
+          "height": 0.15416666666666667
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "7",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.33484455958549225,
+          "y": 0.4888888888888889,
+          "width": 0.06606217616580311,
+          "height": 0.15416666666666667
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "8",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.42357512953367876,
+          "y": 0.4888888888888889,
+          "width": 0.06606217616580311,
+          "height": 0.15416666666666667
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "9",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.5123056994818653,
+          "y": 0.4888888888888889,
+          "width": 0.06606217616580311,
+          "height": 0.15416666666666667
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "10",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.6010362694300518,
+          "y": 0.4888888888888889,
+          "width": 0.06606217616580311,
+          "height": 0.15416666666666667
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "11",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.6897668393782384,
+          "y": 0.4888888888888889,
+          "width": 0.06606217616580311,
+          "height": 0.15416666666666667
+        }
+      },
+      {
+        "path": [
+          "tabs",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.3549222797927461,
+          "y": 0.1763888888888889,
+          "width": 0.05699481865284974,
+          "height": 0.07361111111111111
+        }
+      },
+      {
+        "path": [
+          "tabs",
+          "0",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.3549222797927461,
+          "y": 0.1763888888888889,
+          "width": 0.05699481865284974,
+          "height": 0.07361111111111111
+        }
+      },
+      {
+        "path": [
+          "tabs",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.4326424870466321,
+          "y": 0.1763888888888889,
+          "width": 0.05699481865284974,
+          "height": 0.07361111111111111
+        }
+      },
+      {
+        "path": [
+          "tabs",
+          "1",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.4326424870466321,
+          "y": 0.1763888888888889,
+          "width": 0.05699481865284974,
+          "height": 0.07361111111111111
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "popup"
+        ],
+        "canvas": {
+          "width": 375,
+          "height": 330
+        },
+        "fraction": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 1.0
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "sellLabelSearch"
+        ],
+        "canvas": {
+          "width": 375,
+          "height": 330
+        },
+        "fraction": {
+          "x": 0.09333333333333334,
+          "y": 0.7757575757575758,
+          "width": 0.64,
+          "height": 0.15757575757575756
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "coinSearch"
+        ],
+        "canvas": {
+          "width": 375,
+          "height": 330
+        },
+        "fraction": {
+          "x": 0.09333333333333334,
+          "y": 0.7757575757575758,
+          "width": 0.64,
+          "height": 0.15757575757575756
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "minus"
+        ],
+        "canvas": {
+          "width": 375,
+          "height": 330
+        },
+        "fraction": {
+          "x": 0.06666666666666667,
+          "y": 0.5606060606060606,
+          "width": 0.14666666666666667,
+          "height": 0.15151515151515152
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "plus"
+        ],
+        "canvas": {
+          "width": 375,
+          "height": 330
+        },
+        "fraction": {
+          "x": 0.784,
+          "y": 0.5606060606060606,
+          "width": 0.14666666666666667,
+          "height": 0.15151515151515152
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "sellLabel"
+        ],
+        "canvas": {
+          "width": 375,
+          "height": 330
+        },
+        "fraction": {
+          "x": 0.288,
+          "y": 0.8151515151515152,
+          "width": 0.16266666666666665,
+          "height": 0.07878787878787878
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "coin"
+        ],
+        "canvas": {
+          "width": 375,
+          "height": 330
+        },
+        "fraction": {
+          "x": 0.4826666666666667,
+          "y": 0.806060606060606,
+          "width": 0.088,
+          "height": 0.09393939393939393
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "quantity"
+        ],
+        "canvas": {
+          "width": 375,
+          "height": 330
+        },
+        "fraction": {
+          "x": 0.552,
+          "y": 0.5818181818181818,
+          "width": 0.10666666666666667,
+          "height": 0.09393939393939393
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "sell"
+        ],
+        "canvas": {
+          "width": 375,
+          "height": 330
+        },
+        "fraction": {
+          "x": 0.064,
+          "y": 0.7757575757575758,
+          "width": 0.872,
+          "height": 0.15454545454545454
+        }
+      },
+      {
+        "path": [
+          "bottomAlternates",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.3426165803108808,
+          "y": 0.8611111111111112,
+          "width": 0.10233160621761658,
+          "height": 0.041666666666666664
+        }
+      },
+      {
+        "path": [
+          "bottomAlternates",
+          "0",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.3270725388601036,
+          "y": 0.8611111111111112,
+          "width": 0.133419689119171,
+          "height": 0.041666666666666664
+        }
+      },
+      {
+        "path": [
+          "bottomAlternates",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.5790155440414507,
+          "y": 0.8597222222222223,
+          "width": 0.09261658031088082,
+          "height": 0.03888888888888889
+        }
+      },
+      {
+        "path": [
+          "bottomAlternates",
+          "1",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1544,
+          "height": 720
+        },
+        "fraction": {
+          "x": 0.5634715025906736,
+          "y": 0.8541666666666666,
+          "width": 0.12370466321243523,
+          "height": 0.05
+        }
+      }
+    ]
+  }
+}

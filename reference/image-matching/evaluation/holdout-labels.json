@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "model": "gpt-6-luna",
+  "reasoningEffort": "low",
+  "completeObjectLabels": false,
+  "independentOfTemplateFrames": true,
+  "centerTolerancePx": 5,
+  "labels": [
+    {"frameId":"frame-75119f41-270b-4a3a-ac0b-d639be08dcae","scene":"airport","objectId":"airport-close","box":{"x":1347,"y":72,"width":44,"height":42},"occluded":true,"note":"Item detail overlay visible. Main-panel close is a location label only; no input eligibility."},
+    {"frameId":"frame-b265b093-5ac5-4a4e-aced-7e23724d34d7","scene":"helicopter","objectId":"helicopter-close","box":{"x":1269,"y":47,"width":45,"height":43}},
+    {"frameId":"frame-00db88c3-79db-41a0-918a-b6bd5f9a6905","scene":"train","objectId":"train-close","box":{"x":1269,"y":46,"width":45,"height":44}},
+    {"frameId":"frame-db0b13d6-23b7-425c-8544-0674e857accf","scene":"market","objectId":"market-close","box":{"x":1271,"y":64,"width":45,"height":44}},
+    {"frameId":"frame-1fccd726-8840-491c-8b8c-bff848a35e92","scene":"barn","objectId":"barn-close","box":{"x":1296,"y":69,"width":47,"height":44}}
+  ],
+  "unconfirmed": [
+    {"frameId":"frame-a36868ee-b2b5-42bc-9a32-f2cf5bc56264","note":"Town view, no supported building confidently labelled. This does not establish a complete negative."}
+  ]
+}

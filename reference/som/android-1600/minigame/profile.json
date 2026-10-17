@@ -1,0 +1,194 @@
+{
+  "schema": 1,
+  "sourceId": "codex-clipboard-e5158af5-c4b2-47c3-90bb-ff3750e84179.png",
+  "sourceSha256": "89e0198f25f24a9c45cea29bdd1ec6623dc68927c3cdefd76b80ff12e3c8b7f1",
+  "dimensions": {
+    "width": 1535,
+    "height": 980
+  },
+  "viewport": {
+    "x": 0.057980456026058634,
+    "y": 0.02959183673469388,
+    "width": 0.9420195439739414,
+    "height": 0.9704081632653061
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "threshold": 0.9,
+  "anchors": [
+    {
+      "role": "helicopter",
+      "file": "helicopter.png",
+      "sha256": "042c94e44c078aff830543291e8c5361f0b12122922c8c4105399355f89ad370",
+      "search": {
+        "x": 0.21696891191709844,
+        "y": 0.019444444444444445,
+        "width": 0.5680051813471503,
+        "height": 0.11388888888888889
+      },
+      "sourceBox": {
+        "x": 580,
+        "y": 37,
+        "width": 378,
+        "height": 38
+      },
+      "sourceRegion": {
+        "x": 0.3756476683937824,
+        "y": 0.05138888888888889,
+        "width": 0.24481865284974094,
+        "height": 0.05277777777777778
+      },
+      "sourceRegionBasis": {
+        "dimensions": {
+          "width": 1544,
+          "height": 720
+        },
+        "sourceId": "C:\\Users\\djfal\\OneDrive\\문서\\ChatGPT\\Township\\android-adb-20261010\\live-smoke-v3b\\screen-3.png#sha256=7cfd3e562b1349f806ce3969cce6a0a051f276b13d4d41c04aef4f5992e6c057",
+        "space": "registered_capture",
+        "unit": "fraction"
+      },
+      "source": {
+        "file": "../sources/helicopter.png",
+        "sha256": "7cfd3e562b1349f806ce3969cce6a0a051f276b13d4d41c04aef4f5992e6c057",
+        "originalPath": "C:\\Users\\djfal\\OneDrive\\문서\\ChatGPT\\Township\\android-adb-20261010\\live-smoke-v3b\\screen-3.png",
+        "dimensions": {
+          "width": 1544,
+          "height": 720
+        },
+        "provider": "android_adb",
+        "frameId": "frame-d99fd7b3-00a3-4a44-ad47-67d89d4f0a23",
+        "resultActionId": "som-3cac2439-b895-41a2-8a5c-78ede8377eb1",
+        "review": {
+          "reviewedBy": "GPT",
+          "hash": "7cfd3e562b1349f806ce3969cce6a0a051f276b13d4d41c04aef4f5992e6c057",
+          "observation": "GPT visually verified HELICOPTER PAD panel opened; no delivery or purchase"
+        },
+        "adbTarget": {
+          "deviceSerial": "R5CT43PC74N",
+          "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+          "displayId": 0,
+          "width": 1544,
+          "height": 720,
+          "rotation": 90,
+          "physicalDisplayId": "4630947232161729154"
+        },
+        "sourceId": "C:\\Users\\djfal\\OneDrive\\문서\\ChatGPT\\Township\\android-adb-20261010\\live-smoke-v3b\\screen-3.png#sha256=7cfd3e562b1349f806ce3969cce6a0a051f276b13d4d41c04aef4f5992e6c057",
+        "cropBox": {
+          "x": 580,
+          "y": 37,
+          "width": 378,
+          "height": 38
+        }
+      }
+    },
+    {
+      "role": "cash",
+      "file": "cash.png",
+      "sha256": "0250c2326b6dcbcb5f374336e352e2fc9f268b8aa5f08b351da7dbbd1fbd0876",
+      "search": {
+        "x": 0.6994818652849741,
+        "y": 0.625,
+        "width": 0.20725388601036268,
+        "height": 0.2013888888888889
+      },
+      "sourceBox": {
+        "x": 1303,
+        "y": 675,
+        "width": 73,
+        "height": 56
+      },
+      "sourceRegion": {
+        "x": 0.8488599348534202,
+        "y": 0.6887755102040817,
+        "width": 0.04755700325732899,
+        "height": 0.05714285714285714
+      },
+      "templateScale": 0.88,
+      "source": {
+        "file": "../../minigame/source.png",
+        "sha256": "89e0198f25f24a9c45cea29bdd1ec6623dc68927c3cdefd76b80ff12e3c8b7f1",
+        "dimensions": {
+          "width": 1535,
+          "height": 980
+        },
+        "cropBox": {
+          "x": 1303,
+          "y": 675,
+          "width": 73,
+          "height": 56
+        }
+      }
+    },
+    {
+      "role": "play",
+      "file": "play.png",
+      "sha256": "7f3c7a7711bf6a08b0b4a6a960865d1fe577c2ef2098bf402773b36f12a7fdc9",
+      "search": {
+        "x": 0.7545336787564767,
+        "y": 0.8458333333333333,
+        "width": 0.14248704663212436,
+        "height": 0.09583333333333334
+      },
+      "sourceBox": {
+        "x": 1289,
+        "y": 817,
+        "width": 94,
+        "height": 37
+      },
+      "sourceRegion": {
+        "x": 0.8397394136807818,
+        "y": 0.8336734693877551,
+        "width": 0.06123778501628664,
+        "height": 0.03775510204081633
+      },
+      "templateScale": 0.88,
+      "source": {
+        "file": "../../minigame/source.png",
+        "sha256": "89e0198f25f24a9c45cea29bdd1ec6623dc68927c3cdefd76b80ff12e3c8b7f1",
+        "dimensions": {
+          "width": 1535,
+          "height": 980
+        },
+        "cropBox": {
+          "x": 1289,
+          "y": 817,
+          "width": 94,
+          "height": 37
+        }
+      }
+    }
+  ],
+  "searchSpace": "game",
+  "sourceRegionBasis": {
+    "unit": "fraction",
+    "space": "registered_capture",
+    "dimensions": {
+      "width": 1535,
+      "height": 980
+    },
+    "sourceId": "codex-clipboard-e5158af5-c4b2-47c3-90bb-ff3750e84179.png"
+  },
+  "layout": {
+    "dimensions": {
+      "width": 1544,
+      "height": 720
+    },
+    "viewport": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1.0,
+      "height": 1.0
+    },
+    "sourceId": "C:\\Users\\djfal\\OneDrive\\문서\\ChatGPT\\Township\\android-adb-20261010\\live-smoke-v3b\\screen-3.png#sha256=7cfd3e562b1349f806ce3969cce6a0a051f276b13d4d41c04aef4f5992e6c057",
+    "space": "game",
+    "unit": "fraction"
+  },
+  "validationScope": "Shared request markers with mobile layout; no original mobile request positive available."
+}

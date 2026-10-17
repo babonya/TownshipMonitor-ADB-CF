@@ -1,0 +1,325 @@
+{
+  "schema": 1,
+  "purpose": "offline_template_and_label_selection",
+  "livePromotion": false,
+  "frames": [
+    {
+      "id": "frame-b2f82105-624a-4d12-a15b-05439679241e",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-b2f82105-624a-4d12-a15b-05439679241e.png",
+      "session": "mumu-autonomous-transport",
+      "group": "initial",
+      "epoch": 1,
+      "sequence": 19,
+      "observedAt": "2026-10-02T19:43:29.664Z",
+      "scene": "town",
+      "evidenceHash": "270186d3444cb45784d046256305dd01af4d66fff5170fb711dd99a9548db4be",
+      "priorTargets": [
+        {
+          "id": "airport-entry",
+          "kind": "open_airport",
+          "type": "tap",
+          "box": {
+            "x": 707,
+            "y": 602,
+            "width": 200,
+            "height": 136
+          }
+        }
+      ],
+      "sourceReviewStatus": "accepted"
+    },
+    {
+      "id": "frame-31a0b361-e8bb-4a0e-a39a-e32e527c00f2",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-31a0b361-e8bb-4a0e-a39a-e32e527c00f2.png",
+      "session": "mumu-autonomous-transport",
+      "group": "initial",
+      "epoch": 6,
+      "sequence": 388,
+      "observedAt": "2026-10-02T20:01:43.558Z",
+      "scene": "town",
+      "evidenceHash": "4552627fc92398c2dd2cc06b00898d91df7d31077a6ba76bb950e2489fca311e",
+      "priorTargets": [
+        {
+          "id": "train-button-cycle006",
+          "kind": "open_train",
+          "type": "tap",
+          "box": {
+            "x": 1290,
+            "y": 788,
+            "width": 70,
+            "height": 65
+          },
+          "verificationBox": {
+            "x": 1290,
+            "y": 788,
+            "width": 70,
+            "height": 65
+          }
+        }
+      ],
+      "sourceReviewStatus": "accepted"
+    },
+    {
+      "id": "frame-9313b245-efbc-4594-b2eb-c067217421ca",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-9313b245-efbc-4594-b2eb-c067217421ca.png",
+      "session": "mumu-autonomous-transport",
+      "group": "cycle006-train-001",
+      "epoch": 7,
+      "sequence": 422,
+      "observedAt": "2026-10-02T20:03:18.774Z",
+      "scene": "train",
+      "evidenceHash": "b279eeac1012092a4146bc09189c6130b48e394b4ccebf44583412560cea95a1",
+      "priorTargets": [
+        {
+          "id": "select-train-1-cycle006",
+          "kind": "select_train",
+          "type": "tap",
+          "box": {
+            "x": 1205,
+            "y": 455,
+            "width": 46,
+            "height": 42
+          },
+          "verificationBox": {
+            "x": 1205,
+            "y": 455,
+            "width": 46,
+            "height": 42
+          }
+        }
+      ],
+      "sourceReviewStatus": "accepted"
+    },
+    {
+      "id": "frame-b6b548a1-d120-4ac2-bdeb-58549ceb70e0",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-b6b548a1-d120-4ac2-bdeb-58549ceb70e0.png",
+      "session": "mumu-autonomous-transport",
+      "group": "cycle029-town-001",
+      "epoch": 37,
+      "sequence": 1900,
+      "observedAt": "2026-10-02T21:45:07.684Z",
+      "scene": "town",
+      "evidenceHash": "962c1a14b42877414b66b19207240033bbcdb7c83a27c959d404d0c83104e27b",
+      "priorTargets": [
+        {
+          "id": "cycle029-open-barn-shortcut",
+          "kind": "open_barn",
+          "type": "tap",
+          "box": {
+            "x": 202,
+            "y": 108,
+            "width": 60,
+            "height": 62
+          },
+          "verification": {
+            "version": 1,
+            "anchorBoxes": [
+              {
+                "x": 216,
+                "y": 43,
+                "width": 66,
+                "height": 56
+              }
+            ],
+            "targetRegions": [
+              {
+                "x": 211,
+                "y": 119,
+                "width": 40,
+                "height": 43
+              }
+            ],
+            "criticalRegions": [],
+            "maxChangedRatio": 0.03,
+            "channelTolerance": 12
+          }
+        }
+      ],
+      "sourceReviewStatus": "accepted"
+    },
+    {
+      "id": "frame-a9e33016-328f-4527-a379-154c89df845a",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-a9e33016-328f-4527-a379-154c89df845a.png",
+      "session": "mumu-autonomous-transport",
+      "group": "cycle030-town-pan-west-002",
+      "epoch": 43,
+      "sequence": 2084,
+      "observedAt": "2026-10-02T22:00:05.874Z",
+      "scene": "town",
+      "evidenceHash": "df10409eba78492b028c6ad56a25dad6f141dbcd146f2e0ef0f58e299b5e3de1",
+      "priorTargets": [
+        {
+          "id": "cycle031-open-helicopter-button",
+          "kind": "open_helicopter",
+          "type": "tap",
+          "box": {
+            "x": 1125,
+            "y": 728,
+            "width": 134,
+            "height": 137
+          },
+          "verification": {
+            "version": 1,
+            "anchorBoxes": [
+              {
+                "x": 216,
+                "y": 43,
+                "width": 66,
+                "height": 56
+              }
+            ],
+            "targetRegions": [
+              {
+                "x": 1140,
+                "y": 750,
+                "width": 90,
+                "height": 90
+              }
+            ],
+            "criticalRegions": [],
+            "maxChangedRatio": 0.03,
+            "channelTolerance": 12
+          }
+        }
+      ],
+      "sourceReviewStatus": "accepted"
+    },
+    {
+      "id": "frame-5b66ea94-8a59-48ee-aea7-5ab3ff00cf77",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-5b66ea94-8a59-48ee-aea7-5ab3ff00cf77.png",
+      "session": "mumu-autonomous-transport",
+      "group": "cycle031-helicopter-001",
+      "epoch": 44,
+      "sequence": 2092,
+      "observedAt": "2026-10-02T22:00:31.520Z",
+      "scene": "helicopter",
+      "evidenceHash": "fd6beece8ccb4b3f5a5f0d8b00b260285d9874c5f607e50963ae72ba2ba7f1fa",
+      "priorTargets": [],
+      "sourceReviewStatus": "accepted"
+    },
+    {
+      "id": "frame-3181246f-1c08-4d79-bf8d-33c0282db446",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-3181246f-1c08-4d79-bf8d-33c0282db446.png",
+      "session": "mumu-autonomous-transport",
+      "group": "cycle095-airport-visit-001",
+      "epoch": 108,
+      "sequence": 8374,
+      "observedAt": "2026-10-03T04:15:45.329Z",
+      "scene": "airport",
+      "evidenceHash": "d7a0843a61dabead470c735d09a497a00962bdece989a4aa338c56448890ecc5",
+      "priorTargets": [],
+      "sourceReviewStatus": "accepted"
+    },
+    {
+      "id": "frame-12131cce-3c33-4eeb-bca2-7d6926712541",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-12131cce-3c33-4eeb-bca2-7d6926712541.png",
+      "session": "mumu-autonomous-transport",
+      "group": "cycle098-town-after-airport-close-001",
+      "epoch": 111,
+      "sequence": 8686,
+      "observedAt": "2026-10-03T04:33:55.065Z",
+      "scene": "town",
+      "evidenceHash": "a5773397b28d51f25bdde24a3f9af3dbc01e3ef17f145aa0f0be6bdffd3cb98b",
+      "priorTargets": [
+        {
+          "id": "cycle099-open-market-target-001",
+          "kind": "open_market",
+          "type": "tap",
+          "box": {
+            "x": 951,
+            "y": 754,
+            "width": 65,
+            "height": 70
+          },
+          "verificationBox": {
+            "x": 223,
+            "y": 62,
+            "width": 24,
+            "height": 20
+          }
+        }
+      ],
+      "sourceReviewStatus": "accepted"
+    },
+    {
+      "id": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu\\frames\\frame-bea6afbc-be03-41b8-8f64-9473e264a42c.png",
+      "session": "mumu",
+      "group": "market-page-0",
+      "epoch": 2,
+      "sequence": 236,
+      "observedAt": "2026-10-02T13:49:26.255Z",
+      "scene": "market",
+      "evidenceHash": "068c56e5b66a2a856183e5946d9199dc2b709a5c77a828bd9c56ed891997a188",
+      "priorTargets": [
+        {
+          "id": "scroll",
+          "kind": "market_scroll",
+          "type": "swipe",
+          "box": {
+            "x": 600,
+            "y": 466,
+            "width": 740,
+            "height": 35
+          }
+        },
+        {
+          "id": "close",
+          "kind": "close_panel",
+          "type": "tap",
+          "box": {
+            "x": 1279,
+            "y": 69,
+            "width": 28,
+            "height": 31
+          }
+        }
+      ],
+      "sourceReviewStatus": "accepted"
+    },
+    {
+      "id": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-barn-20261003-retry\\frames\\frame-da2608a6-5c79-4755-a193-d47c44d94adc.png",
+      "session": "mumu-barn-20261003-retry",
+      "group": "barn-grid-001",
+      "epoch": 4,
+      "sequence": 70,
+      "observedAt": "2026-10-02T16:41:08.499Z",
+      "scene": "barn",
+      "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+      "priorTargets": [
+        {
+          "id": "barn-scroll",
+          "box": {
+            "y": 232,
+            "x": 260,
+            "height": 488,
+            "width": 1090
+          },
+          "kind": "barn_scroll",
+          "type": "swipe",
+          "verificationBox": {
+            "y": 55,
+            "x": 720,
+            "height": 63,
+            "width": 160
+          }
+        }
+      ],
+      "sourceReviewStatus": "accepted"
+    },
+    {
+      "id": "frame-5794d65e-7d2e-4f37-a47f-668ac42cada0",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-barn-20261003-retry\\frames\\frame-5794d65e-7d2e-4f37-a47f-668ac42cada0.png",
+      "session": "mumu-barn-20261003-retry",
+      "group": "barn-grid-004",
+      "scene": "barn",
+      "epoch": 7,
+      "sequence": 202,
+      "observedAt": "2026-10-02T16:43:31.785Z",
+      "evidenceHash": "2c2b62aa97d6f7157e4683e9caebb8728089a132606d6daf05533f224e48525e",
+      "priorTargets": [],
+      "sourceReviewStatus": "accepted"
+    }
+  ]
+}

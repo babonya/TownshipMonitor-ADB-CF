@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "version": "treasure-hunt-20261017",
+  "kind": "event_close",
+  "sourceFile": "source.png",
+  "originalName": "treasure-hunt-20261017-0856.png",
+  "sourceSha256": "7f45e46c7f32ffef67102d5b089adb009a5c2b14de835f142d8828a0239e2201",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "note": "[2026-10-17] TREASURE HUNT 이벤트 안내 창은 PLAY 대신 X로 닫는다(이벤트 진입 방지). 정지사례 #18.",
+  "anchors": [
+    {
+      "role": "close",
+      "file": "close.png",
+      "sha256": "adb6c244387139056052880bc23766b6c71696ae741d3688a34f9a223e6fa78a",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 1162,
+        "y": 62,
+        "width": 48,
+        "height": 48
+      },
+      "sourceRegion": {
+        "x": 0.72625,
+        "y": 0.08611111111111111,
+        "width": 0.03,
+        "height": 0.06666666666666667
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "treasure-hunt-20261017-0856.png",
+        "sha256": "7f45e46c7f32ffef67102d5b089adb009a5c2b14de835f142d8828a0239e2201",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 1162,
+          "y": 62,
+          "width": 48,
+          "height": 48
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    },
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "3e09bb4cab1efd4f8dbf999ac4c2aa314f56a253bf743e96673bcc605341cc2a",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 565,
+        "y": 45,
+        "width": 470,
+        "height": 55
+      },
+      "sourceRegion": {
+        "x": 0.353125,
+        "y": 0.0625,
+        "width": 0.29375,
+        "height": 0.0763888888888889
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "treasure-hunt-20261017-0856.png",
+        "sha256": "7f45e46c7f32ffef67102d5b089adb009a5c2b14de835f142d8828a0239e2201",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 565,
+          "y": 45,
+          "width": 470,
+          "height": 55
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600"
+}

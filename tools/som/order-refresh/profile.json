@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "role": "waiting",
+      "file": "waiting.png",
+      "sha256": "2f91664d3a315812e31a07fb08ea9361312c713f10f96c327360abd8a91e2fc8",
+      "source": "source.png",
+      "sourceHash": "82913fa71cfe9c3ee40f571a354addd05c5c77c2c988822df5609a1c1925cb87",
+      "dimensions": {
+        "width": 377,
+        "height": 684
+      },
+      "space": "source_capture",
+      "unit": "fraction",
+      "region": {
+        "x": 0.17771883289124668,
+        "y": 0.31140350877192985,
+        "width": 0.6710875331564987,
+        "height": 0.13304093567251463
+      },
+      "sourceBox": {
+        "x": 67,
+        "y": 213,
+        "width": 253,
+        "height": 91
+      }
+    },
+    {
+      "role": "speed_up",
+      "file": "speed_up.png",
+      "sha256": "11effb6061e58278da1435e1eb4c9e9343f7f30ac7a98c28ba8df63a13f957a7",
+      "source": "source.png",
+      "sourceHash": "82913fa71cfe9c3ee40f571a354addd05c5c77c2c988822df5609a1c1925cb87",
+      "dimensions": {
+        "width": 377,
+        "height": 684
+      },
+      "space": "source_capture",
+      "unit": "fraction",
+      "region": {
+        "x": 0.129973474801061,
+        "y": 0.8874269005847953,
+        "width": 0.44297082228116713,
+        "height": 0.054093567251461985
+      },
+      "sourceBox": {
+        "x": 49,
+        "y": 607,
+        "width": 167,
+        "height": 37
+      }
+    },
+    {
+      "role": "send",
+      "file": "send.png",
+      "sha256": "15557a5f65a2f47bd35dfe8f9a05f6db41f6cdbd7fe833368d6ac4fdb18eaece",
+      "source": "send-source.png",
+      "sourceHash": "4aab637feb02ec0b2c2875e802f60deda5f6ff1757eba840c11e5a1a32f6c968",
+      "dimensions": {
+        "width": 1578,
+        "height": 1268
+      },
+      "space": "source_capture",
+      "unit": "fraction",
+      "region": {
+        "x": 0.8738910012674271,
+        "y": 0.7712933753943217,
+        "width": 0.057034220532319393,
+        "height": 0.025236593059936908
+      },
+      "sourceBox": {
+        "x": 1379,
+        "y": 978,
+        "width": 90,
+        "height": 32
+      }
+    }
+  ]
+}

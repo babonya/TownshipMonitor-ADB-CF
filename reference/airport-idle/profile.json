@@ -1,0 +1,615 @@
+{
+  "schema": 1,
+  "version": "airport-idle-20261004",
+  "anchors": [
+    {
+      "file": "header.png",
+      "box": {
+        "x": 700,
+        "y": 77,
+        "width": 207,
+        "height": 29
+      }
+    },
+    {
+      "file": "close.png",
+      "box": {
+        "x": 1354,
+        "y": 75,
+        "width": 32,
+        "height": 34
+      }
+    }
+  ],
+  "regions": [
+    {
+      "file": "returns.png",
+      "box": {
+        "x": 1106,
+        "y": 172,
+        "width": 280,
+        "height": 60
+      }
+    },
+    {
+      "file": "units.png",
+      "box": {
+        "x": 1150,
+        "y": 337,
+        "width": 193,
+        "height": 23
+      }
+    },
+    {
+      "file": "empty-1.png",
+      "box": {
+        "x": 280,
+        "y": 202,
+        "width": 755,
+        "height": 104
+      }
+    },
+    {
+      "file": "blue-1.png",
+      "box": {
+        "x": 209,
+        "y": 234,
+        "width": 39,
+        "height": 38
+      }
+    },
+    {
+      "file": "empty-2.png",
+      "box": {
+        "x": 280,
+        "y": 382,
+        "width": 755,
+        "height": 104
+      }
+    },
+    {
+      "file": "blue-2.png",
+      "box": {
+        "x": 209,
+        "y": 414,
+        "width": 39,
+        "height": 38
+      }
+    },
+    {
+      "file": "empty-3.png",
+      "box": {
+        "x": 280,
+        "y": 562,
+        "width": 755,
+        "height": 104
+      }
+    },
+    {
+      "file": "blue-3.png",
+      "box": {
+        "x": 209,
+        "y": 594,
+        "width": 39,
+        "height": 38
+      }
+    }
+  ],
+  "previewBox": {
+    "x": 1107,
+    "y": 459,
+    "width": 280,
+    "height": 105
+  },
+  "field": {
+    "fieldId": "airport-return",
+    "kind": "text",
+    "box": {
+      "x": 1137,
+      "y": 264,
+      "width": 208,
+      "height": 63
+    },
+    "scale": 2,
+    "recognitionOnly": true,
+    "minimumScore": 0.95
+  },
+  "assets": [
+    {
+      "file": "header.png",
+      "box": {
+        "x": 700,
+        "y": 77,
+        "width": 207,
+        "height": 29
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\open-airport-reviewed-result.png",
+      "sha256": "e53da069759008b1b667c391e3367f80c1b231835b1dbdd515de5538626a4819"
+    },
+    {
+      "file": "close.png",
+      "box": {
+        "x": 1354,
+        "y": 75,
+        "width": 32,
+        "height": 34
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\open-airport-reviewed-result.png",
+      "sha256": "f81857c9feb0541803fa0c55f5093653046006388f9952873f8fe188ba6b8198"
+    },
+    {
+      "file": "returns.png",
+      "box": {
+        "x": 1106,
+        "y": 172,
+        "width": 280,
+        "height": 60
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\open-airport-reviewed-result.png",
+      "sha256": "011866a56960feeed792ba557e6462d70066ffad7d40cf177665211a6f43638d"
+    },
+    {
+      "file": "units.png",
+      "box": {
+        "x": 1150,
+        "y": 337,
+        "width": 193,
+        "height": 23
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\open-airport-reviewed-result.png",
+      "sha256": "f88705d6f2bd7d1dd03be9566558d2ec246fec9c235ed7f4131c07be311468ea"
+    },
+    {
+      "file": "empty-1.png",
+      "box": {
+        "x": 280,
+        "y": 202,
+        "width": 755,
+        "height": 104
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\open-airport-reviewed-result.png",
+      "sha256": "9bf96b2d1eb527d72fc8c5ca006491fb6888d82bc4e5d438bda200634df4390b"
+    },
+    {
+      "file": "blue-1.png",
+      "box": {
+        "x": 209,
+        "y": 234,
+        "width": 39,
+        "height": 38
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\open-airport-reviewed-result.png",
+      "sha256": "f15fed07cd0e894560f3df01545e74eb5e7de1ec6c1ebeb4523b15b970e87fe7"
+    },
+    {
+      "file": "empty-2.png",
+      "box": {
+        "x": 280,
+        "y": 382,
+        "width": 755,
+        "height": 104
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\open-airport-reviewed-result.png",
+      "sha256": "5cf3421d46638e46da76f9b6336a82101ed0a468b9644172816ded91624e80ef"
+    },
+    {
+      "file": "blue-2.png",
+      "box": {
+        "x": 209,
+        "y": 414,
+        "width": 39,
+        "height": 38
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\open-airport-reviewed-result.png",
+      "sha256": "11512161bdcfcb16a4449d10b5e62c8f8d17aac4ce1fefada67f0b35caf53916"
+    },
+    {
+      "file": "empty-3.png",
+      "box": {
+        "x": 280,
+        "y": 562,
+        "width": 755,
+        "height": 104
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\open-airport-reviewed-result.png",
+      "sha256": "d9dfa276cc93c896b667aefd9ce454543c09f00ca074542e42cd86cb8e6d435c"
+    },
+    {
+      "file": "blue-3.png",
+      "box": {
+        "x": 209,
+        "y": 594,
+        "width": 39,
+        "height": 38
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\open-airport-reviewed-result.png",
+      "sha256": "15c18c5e122faaa41958f74bdd8ac2e3b15c067900be49bd603608397fd4b9eb"
+    }
+  ],
+  "source": {
+    "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\open-airport-reviewed-result.png",
+    "sha256": "b7d9af9495fb6b71edc81326893bf0554ded87e854b9265938bee33b76050006"
+  },
+  "percentageGeometry": {
+    "schema": 1,
+    "unit": "fraction",
+    "space": "registered_capture",
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "entries": [
+      {
+        "path": [
+          "anchors",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.4375,
+          "y": 0.08555555555555555,
+          "width": 0.129375,
+          "height": 0.03222222222222222
+        }
+      },
+      {
+        "path": [
+          "anchors",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.84625,
+          "y": 0.08333333333333333,
+          "width": 0.02,
+          "height": 0.03777777777777778
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.69125,
+          "y": 0.19111111111111112,
+          "width": 0.175,
+          "height": 0.06666666666666667
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.71875,
+          "y": 0.37444444444444447,
+          "width": 0.120625,
+          "height": 0.025555555555555557
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.175,
+          "y": 0.22444444444444445,
+          "width": 0.471875,
+          "height": 0.11555555555555555
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "3",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.130625,
+          "y": 0.26,
+          "width": 0.024375,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "4",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.175,
+          "y": 0.42444444444444446,
+          "width": 0.471875,
+          "height": 0.11555555555555555
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "5",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.130625,
+          "y": 0.46,
+          "width": 0.024375,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "6",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.175,
+          "y": 0.6244444444444445,
+          "width": 0.471875,
+          "height": 0.11555555555555555
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "7",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.130625,
+          "y": 0.66,
+          "width": 0.024375,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "previewBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.691875,
+          "y": 0.51,
+          "width": 0.175,
+          "height": 0.11666666666666667
+        }
+      },
+      {
+        "path": [
+          "field",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.710625,
+          "y": 0.29333333333333333,
+          "width": 0.13,
+          "height": 0.07
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.4375,
+          "y": 0.08555555555555555,
+          "width": 0.129375,
+          "height": 0.03222222222222222
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.84625,
+          "y": 0.08333333333333333,
+          "width": 0.02,
+          "height": 0.03777777777777778
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.69125,
+          "y": 0.19111111111111112,
+          "width": 0.175,
+          "height": 0.06666666666666667
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "3",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.71875,
+          "y": 0.37444444444444447,
+          "width": 0.120625,
+          "height": 0.025555555555555557
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "4",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.175,
+          "y": 0.22444444444444445,
+          "width": 0.471875,
+          "height": 0.11555555555555555
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "5",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.130625,
+          "y": 0.26,
+          "width": 0.024375,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "6",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.175,
+          "y": 0.42444444444444446,
+          "width": 0.471875,
+          "height": 0.11555555555555555
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "7",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.130625,
+          "y": 0.46,
+          "width": 0.024375,
+          "height": 0.042222222222222223
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "8",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.175,
+          "y": 0.6244444444444445,
+          "width": 0.471875,
+          "height": 0.11555555555555555
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "9",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.130625,
+          "y": 0.66,
+          "width": 0.024375,
+          "height": 0.042222222222222223
+        }
+      }
+    ]
+  }
+}

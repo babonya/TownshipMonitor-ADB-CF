@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "version": "quit-finished-20261017",
+  "kind": "continue",
+  "sourceFile": "source.png",
+  "originalName": "flip-tiles-quit-20261017-0112.png",
+  "sourceSha256": "0466627b9db64396ee6785d39f80d49bbd330d81b0e60fbbcf00bfb7b8a0e2f9",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "note": "[사용자 결정 2026-10-17] 끝난 이벤트(FINISHED)의 Quit 확인창은 QUIT. 정지사례 #17.",
+  "anchors": [
+    {
+      "role": "continue",
+      "file": "continue.png",
+      "sha256": "6ffbe35dc167a7b03e90521451613bb14a49ebee4f8eec83f3c9d748b875c114",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 895,
+        "y": 532,
+        "width": 100,
+        "height": 36
+      },
+      "sourceRegion": {
+        "x": 0.559375,
+        "y": 0.7388888888888889,
+        "width": 0.0625,
+        "height": 0.05
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "flip-tiles-quit-20261017-0112.png",
+        "sha256": "0466627b9db64396ee6785d39f80d49bbd330d81b0e60fbbcf00bfb7b8a0e2f9",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 895,
+          "y": 532,
+          "width": 100,
+          "height": 36
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    },
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "56714a021031382e2fa053d7754e8a1bbc1d322b788c611409da783864c4f370",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 722,
+        "y": 455,
+        "width": 148,
+        "height": 34
+      },
+      "sourceRegion": {
+        "x": 0.45125,
+        "y": 0.6319444444444444,
+        "width": 0.0925,
+        "height": 0.04722222222222222
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "flip-tiles-quit-20261017-0112.png",
+        "sha256": "0466627b9db64396ee6785d39f80d49bbd330d81b0e60fbbcf00bfb7b8a0e2f9",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 722,
+          "y": 455,
+          "width": 148,
+          "height": 34
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600",
+  "buttonBox": {
+    "x": 808,
+    "y": 510,
+    "width": 272,
+    "height": 82
+  },
+  "target": {
+    "basis": "text top-left",
+    "dx": -0.054375,
+    "dy": -0.030555555555555555,
+    "width": 0.17,
+    "height": 0.11388888888888889,
+    "sourceButtonBox": {
+      "x": 808,
+      "y": 510,
+      "width": 272,
+      "height": 82
+    }
+  }
+}

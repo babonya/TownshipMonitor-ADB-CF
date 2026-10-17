@@ -1,0 +1,1064 @@
+{
+  "schema": 1,
+  "version": "train-idle-20261004",
+  "dimensions": {
+    "width": 1600,
+    "height": 900
+  },
+  "anchors": [
+    {
+      "file": "header.png",
+      "box": {
+        "x": 584,
+        "y": 47,
+        "width": 423,
+        "height": 44
+      }
+    },
+    {
+      "file": "close.png",
+      "box": {
+        "x": 1274,
+        "y": 51,
+        "width": 35,
+        "height": 35
+      }
+    }
+  ],
+  "rows": [
+    {
+      "row": 1,
+      "regions": [
+        {
+          "file": "r1-returns.png",
+          "box": {
+            "x": 896,
+            "y": 165,
+            "width": 196,
+            "height": 34
+          }
+        },
+        {
+          "file": "r1-edge.png",
+          "box": {
+            "x": 174,
+            "y": 200,
+            "width": 13,
+            "height": 133
+          }
+        },
+        {
+          "file": "r1-clear.png",
+          "box": {
+            "x": 201,
+            "y": 337,
+            "width": 1190,
+            "height": 10
+          }
+        }
+      ],
+      "units": [
+        {
+          "kind": "hour_minute",
+          "region": {
+            "file": "r1-units.png",
+            "box": {
+              "x": 877,
+              "y": 312,
+              "width": 215,
+              "height": 28
+            }
+          }
+        }
+      ],
+      "journeyBox": {
+        "x": 201,
+        "y": 211,
+        "width": 647,
+        "height": 97
+      },
+      "field": {
+        "fieldId": "train-return-r1",
+        "kind": "text",
+        "box": {
+          "x": 875,
+          "y": 218,
+          "width": 224,
+          "height": 82
+        },
+        "scale": 2,
+        "recognitionOnly": true,
+        "minimumScore": 0.95
+      }
+    },
+    {
+      "row": 2,
+      "regions": [
+        {
+          "file": "r2-returns.png",
+          "box": {
+            "x": 896,
+            "y": 403,
+            "width": 196,
+            "height": 34
+          }
+        },
+        {
+          "file": "r2-edge.png",
+          "box": {
+            "x": 174,
+            "y": 438,
+            "width": 13,
+            "height": 133
+          }
+        },
+        {
+          "file": "r2-clear.png",
+          "box": {
+            "x": 201,
+            "y": 575,
+            "width": 1190,
+            "height": 10
+          }
+        }
+      ],
+      "units": [
+        {
+          "kind": "hour_minute",
+          "region": {
+            "file": "r2-units.png",
+            "box": {
+              "x": 877,
+              "y": 550,
+              "width": 215,
+              "height": 28
+            }
+          }
+        }
+      ],
+      "journeyBox": {
+        "x": 201,
+        "y": 449,
+        "width": 647,
+        "height": 97
+      },
+      "field": {
+        "fieldId": "train-return-r2",
+        "kind": "text",
+        "box": {
+          "x": 875,
+          "y": 456,
+          "width": 224,
+          "height": 82
+        },
+        "scale": 2,
+        "recognitionOnly": true,
+        "minimumScore": 0.95
+      }
+    },
+    {
+      "row": 3,
+      "regions": [
+        {
+          "file": "r3-returns.png",
+          "box": {
+            "x": 896,
+            "y": 641,
+            "width": 196,
+            "height": 34
+          }
+        },
+        {
+          "file": "r3-edge.png",
+          "box": {
+            "x": 174,
+            "y": 676,
+            "width": 13,
+            "height": 133
+          }
+        },
+        {
+          "file": "r3-clear.png",
+          "box": {
+            "x": 201,
+            "y": 813,
+            "width": 1190,
+            "height": 10
+          }
+        }
+      ],
+      "units": [
+        {
+          "kind": "hour_minute",
+          "region": {
+            "file": "r3-units.png",
+            "box": {
+              "x": 877,
+              "y": 788,
+              "width": 215,
+              "height": 28
+            }
+          }
+        },
+        {
+          "kind": "minute_second",
+          "region": {
+            "file": "r3-units-min-sec.png",
+            "box": {
+              "x": 877,
+              "y": 788,
+              "width": 215,
+              "height": 28
+            }
+          }
+        }
+      ],
+      "journeyBox": {
+        "x": 201,
+        "y": 687,
+        "width": 647,
+        "height": 97
+      },
+      "field": {
+        "fieldId": "train-return-r3",
+        "kind": "text",
+        "box": {
+          "x": 875,
+          "y": 694,
+          "width": 224,
+          "height": 82
+        },
+        "scale": 2,
+        "recognitionOnly": true,
+        "minimumScore": 0.95
+      }
+    }
+  ],
+  "assets": [
+    {
+      "file": "header.png",
+      "box": {
+        "x": 584,
+        "y": 47,
+        "width": 423,
+        "height": 44
+      },
+      "sha256": "40f1872f3b0a9440f2164bff3ad03c249eb719bce4fbca9c1aa8697d80cf1259",
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\manual-dispatch-evidence-20261004\\row3-load-c2-settled.png"
+    },
+    {
+      "file": "close.png",
+      "box": {
+        "x": 1274,
+        "y": 51,
+        "width": 35,
+        "height": 35
+      },
+      "sha256": "dc77f4fa287d38da0a852c40594b1bc3bd9bdbfea8eecc9da42f48c66ac95b0e",
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\manual-dispatch-evidence-20261004\\row3-load-c2-settled.png"
+    },
+    {
+      "file": "r1-returns.png",
+      "box": {
+        "x": 896,
+        "y": 165,
+        "width": 196,
+        "height": 34
+      },
+      "sha256": "859fe44f13c021671da6c6316e2848b37b677092055d1f584f9ccbc5997dda0a",
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\manual-dispatch-evidence-20261004\\row3-load-c2-settled.png"
+    },
+    {
+      "file": "r1-edge.png",
+      "box": {
+        "x": 174,
+        "y": 200,
+        "width": 13,
+        "height": 133
+      },
+      "sha256": "9c7a1eac8df46f59318dbf6b1d725a03412b6b0317595558915e7580f8698f89",
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\manual-dispatch-evidence-20261004\\row3-load-c2-settled.png"
+    },
+    {
+      "file": "r1-clear.png",
+      "box": {
+        "x": 201,
+        "y": 337,
+        "width": 1190,
+        "height": 10
+      },
+      "sha256": "293b9229336a848e437490f9782d90c7c5009ff6acd5bf4afd1f5f9ac0371af2",
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\manual-dispatch-evidence-20261004\\row3-load-c2-settled.png"
+    },
+    {
+      "file": "r1-units.png",
+      "box": {
+        "x": 877,
+        "y": 312,
+        "width": 215,
+        "height": 28
+      },
+      "sha256": "e3a7fe678eb7d29ba20782ba77208487a7fd9453120ad7d1e167678e7b903404",
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\manual-dispatch-evidence-20261004\\row3-load-c2-settled.png"
+    },
+    {
+      "file": "r2-returns.png",
+      "box": {
+        "x": 896,
+        "y": 403,
+        "width": 196,
+        "height": 34
+      },
+      "sha256": "c1d0ad871f63a82ae4e2c976d87cf16b6b2718975285458e16c4062e37e8ab7a",
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\manual-dispatch-evidence-20261004\\row3-load-c2-settled.png"
+    },
+    {
+      "file": "r2-edge.png",
+      "box": {
+        "x": 174,
+        "y": 438,
+        "width": 13,
+        "height": 133
+      },
+      "sha256": "e90cffdc674da7257d56ade88c97f363f4477fe814eb033e7d9caba790c15936",
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\manual-dispatch-evidence-20261004\\row3-load-c2-settled.png"
+    },
+    {
+      "file": "r2-clear.png",
+      "box": {
+        "x": 201,
+        "y": 575,
+        "width": 1190,
+        "height": 10
+      },
+      "sha256": "758e699b9cc7a2bc5c85e34b6209c2c29cb0e582c9d215f3b7b8c0538755b1f5",
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\manual-dispatch-evidence-20261004\\row3-load-c2-settled.png"
+    },
+    {
+      "file": "r2-units.png",
+      "box": {
+        "x": 877,
+        "y": 550,
+        "width": 215,
+        "height": 28
+      },
+      "sha256": "230f7de0d3f312d27b19e59a821eefc9b1c62ec841b2c82aec4fcdec82163cb4",
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\manual-dispatch-evidence-20261004\\row3-load-c2-settled.png"
+    },
+    {
+      "file": "r3-returns.png",
+      "box": {
+        "x": 896,
+        "y": 641,
+        "width": 196,
+        "height": 34
+      },
+      "sha256": "580c341eb2b8e14d7ca77287d74d74cb5f615efaa2150eebbfd06be35fc9b617",
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\manual-dispatch-evidence-20261004\\row3-load-c2-settled.png"
+    },
+    {
+      "file": "r3-edge.png",
+      "box": {
+        "x": 174,
+        "y": 676,
+        "width": 13,
+        "height": 133
+      },
+      "sha256": "6e6461137f5ed5b6be6b09ee0fa7390e2e1296fb2052561254e2823959c23693",
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\manual-dispatch-evidence-20261004\\row3-load-c2-settled.png"
+    },
+    {
+      "file": "r3-clear.png",
+      "box": {
+        "x": 201,
+        "y": 813,
+        "width": 1190,
+        "height": 10
+      },
+      "sha256": "8eaecee82a84ecee65d0df56a1348f7e9c73c87fab78eb713a65e87bc32d0eae",
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\manual-dispatch-evidence-20261004\\row3-load-c2-settled.png"
+    },
+    {
+      "file": "r3-units.png",
+      "box": {
+        "x": 877,
+        "y": 788,
+        "width": 215,
+        "height": 28
+      },
+      "sha256": "89af79dd0c2d7b7606b34f452ba20c5e6ff1403d24ce6f1af4e490b1b4df5b6c",
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\manual-dispatch-evidence-20261004\\row3-load-c2-settled.png"
+    },
+    {
+      "file": "r3-units-min-sec.png",
+      "box": {
+        "x": 877,
+        "y": 788,
+        "width": 215,
+        "height": 28
+      },
+      "sha256": "4c55d80c9bc597da5e95d66bb5717642034f0d5ec0d9ea99830df954468c0035",
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-5d557646-8236-486f-91a0-2fba915f61b3.png"
+    }
+  ],
+  "source": {
+    "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\manual-dispatch-evidence-20261004\\row3-load-c2-settled.png",
+    "sha256": "5d39161dc4cb18183c415a3dbfab19f75991fdbe2adfd226d9ca067a68de6f2b"
+  },
+  "percentageGeometry": {
+    "schema": 1,
+    "unit": "fraction",
+    "space": "registered_capture",
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "entries": [
+      {
+        "path": [
+          "anchors",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.365,
+          "y": 0.052222222222222225,
+          "width": 0.264375,
+          "height": 0.04888888888888889
+        }
+      },
+      {
+        "path": [
+          "anchors",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.79625,
+          "y": 0.056666666666666664,
+          "width": 0.021875,
+          "height": 0.03888888888888889
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "regions",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.56,
+          "y": 0.18333333333333332,
+          "width": 0.1225,
+          "height": 0.03777777777777778
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "regions",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.10875,
+          "y": 0.2222222222222222,
+          "width": 0.008125,
+          "height": 0.14777777777777779
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "regions",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.125625,
+          "y": 0.37444444444444447,
+          "width": 0.74375,
+          "height": 0.011111111111111112
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "units",
+          "0",
+          "region",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.548125,
+          "y": 0.3466666666666667,
+          "width": 0.134375,
+          "height": 0.03111111111111111
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "journeyBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.125625,
+          "y": 0.23444444444444446,
+          "width": 0.404375,
+          "height": 0.10777777777777778
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "field",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.546875,
+          "y": 0.24222222222222223,
+          "width": 0.14,
+          "height": 0.09111111111111111
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "regions",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.56,
+          "y": 0.4477777777777778,
+          "width": 0.1225,
+          "height": 0.03777777777777778
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "regions",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.10875,
+          "y": 0.4866666666666667,
+          "width": 0.008125,
+          "height": 0.14777777777777779
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "regions",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.125625,
+          "y": 0.6388888888888888,
+          "width": 0.74375,
+          "height": 0.011111111111111112
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "units",
+          "0",
+          "region",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.548125,
+          "y": 0.6111111111111112,
+          "width": 0.134375,
+          "height": 0.03111111111111111
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "journeyBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.125625,
+          "y": 0.4988888888888889,
+          "width": 0.404375,
+          "height": 0.10777777777777778
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "field",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.546875,
+          "y": 0.5066666666666667,
+          "width": 0.14,
+          "height": 0.09111111111111111
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "regions",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.56,
+          "y": 0.7122222222222222,
+          "width": 0.1225,
+          "height": 0.03777777777777778
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "regions",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.10875,
+          "y": 0.7511111111111111,
+          "width": 0.008125,
+          "height": 0.14777777777777779
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "regions",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.125625,
+          "y": 0.9033333333333333,
+          "width": 0.74375,
+          "height": 0.011111111111111112
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "units",
+          "0",
+          "region",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.548125,
+          "y": 0.8755555555555555,
+          "width": 0.134375,
+          "height": 0.03111111111111111
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "units",
+          "1",
+          "region",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.548125,
+          "y": 0.8755555555555555,
+          "width": 0.134375,
+          "height": 0.03111111111111111
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "journeyBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.125625,
+          "y": 0.7633333333333333,
+          "width": 0.404375,
+          "height": 0.10777777777777778
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "field",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.546875,
+          "y": 0.7711111111111111,
+          "width": 0.14,
+          "height": 0.09111111111111111
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.365,
+          "y": 0.052222222222222225,
+          "width": 0.264375,
+          "height": 0.04888888888888889
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.79625,
+          "y": 0.056666666666666664,
+          "width": 0.021875,
+          "height": 0.03888888888888889
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.56,
+          "y": 0.18333333333333332,
+          "width": 0.1225,
+          "height": 0.03777777777777778
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "3",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.10875,
+          "y": 0.2222222222222222,
+          "width": 0.008125,
+          "height": 0.14777777777777779
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "4",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.125625,
+          "y": 0.37444444444444447,
+          "width": 0.74375,
+          "height": 0.011111111111111112
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "5",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.548125,
+          "y": 0.3466666666666667,
+          "width": 0.134375,
+          "height": 0.03111111111111111
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "6",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.56,
+          "y": 0.4477777777777778,
+          "width": 0.1225,
+          "height": 0.03777777777777778
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "7",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.10875,
+          "y": 0.4866666666666667,
+          "width": 0.008125,
+          "height": 0.14777777777777779
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "8",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.125625,
+          "y": 0.6388888888888888,
+          "width": 0.74375,
+          "height": 0.011111111111111112
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "9",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.548125,
+          "y": 0.6111111111111112,
+          "width": 0.134375,
+          "height": 0.03111111111111111
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "10",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.56,
+          "y": 0.7122222222222222,
+          "width": 0.1225,
+          "height": 0.03777777777777778
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "11",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.10875,
+          "y": 0.7511111111111111,
+          "width": 0.008125,
+          "height": 0.14777777777777779
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "12",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.125625,
+          "y": 0.9033333333333333,
+          "width": 0.74375,
+          "height": 0.011111111111111112
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "13",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.548125,
+          "y": 0.8755555555555555,
+          "width": 0.134375,
+          "height": 0.03111111111111111
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "14",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.548125,
+          "y": 0.8755555555555555,
+          "width": 0.134375,
+          "height": 0.03111111111111111
+        }
+      }
+    ]
+  }
+}

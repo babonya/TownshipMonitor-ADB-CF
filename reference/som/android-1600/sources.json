@@ -1,0 +1,305 @@
+{
+  "schema": 1,
+  "sources": {
+    "town": {
+      "file": "sources/town.png",
+      "sha256": "ca354c74a9e2e3871a0a5cb866e5912a4222d25f20d538a2976380bd942dac1a",
+      "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-1.png",
+      "dimensions": {
+        "width": 1544,
+        "height": 720
+      },
+      "provider": "android_adb",
+      "adbTarget": {
+        "deviceSerial": "R5CT43PC74N",
+        "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+        "displayId": 0,
+        "width": 1544,
+        "height": 720,
+        "rotation": 90,
+        "physicalDisplayId": "4630947232161729154"
+      },
+      "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-1.png#sha256=ca354c74a9e2e3871a0a5cb866e5912a4222d25f20d538a2976380bd942dac1a"
+    },
+    "market": {
+      "file": "sources/market.png",
+      "sha256": "149f292e04c47315eb391d510d6decf8ca4269fa211a4590660f1b07e2613a5a",
+      "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-3.png",
+      "dimensions": {
+        "width": 1544,
+        "height": 720
+      },
+      "provider": "android_adb",
+      "frameId": "frame-88f8f6df-d228-4a12-86ff-6e6e3240d7bb",
+      "resultActionId": "som-2e5fc26c-ff64-4840-bbf1-41392cce0ad3",
+      "review": {
+        "reviewedBy": "GPT",
+        "hash": "149f292e04c47315eb391d510d6decf8ca4269fa211a4590660f1b07e2613a5a",
+        "observation": "CITY MARKET title and two rows of coin offers visible; no purchase issued."
+      },
+      "adbTarget": {
+        "deviceSerial": "R5CT43PC74N",
+        "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+        "displayId": 0,
+        "width": 1544,
+        "height": 720,
+        "rotation": 90,
+        "physicalDisplayId": "4630947232161729154"
+      },
+      "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-3.png#sha256=149f292e04c47315eb391d510d6decf8ca4269fa211a4590660f1b07e2613a5a"
+    },
+    "barn-all": {
+      "file": "sources/barn-all.png",
+      "sha256": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+      "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png",
+      "dimensions": {
+        "width": 1544,
+        "height": 720
+      },
+      "provider": "android_adb",
+      "frameId": "frame-b43a993d-0707-48dc-a040-ee79bca09761",
+      "resultActionId": "som-41c2bbf0-6edb-4144-b798-1c0e4db3e057",
+      "review": {
+        "reviewedBy": "GPT",
+        "hash": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d",
+        "observation": "BARN panel opened; capacity 307/403, ALL tab selected. No sale."
+      },
+      "adbTarget": {
+        "deviceSerial": "R5CT43PC74N",
+        "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+        "displayId": 0,
+        "width": 1544,
+        "height": 720,
+        "rotation": 90,
+        "physicalDisplayId": "4630947232161729154"
+      },
+      "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-7.png#sha256=5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d"
+    },
+    "barn-crops": {
+      "file": "sources/barn-crops.png",
+      "sha256": "3674e13bdf24a340e69bda40540dc09feed86549796b95f262550e11be18644c",
+      "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-9.png",
+      "dimensions": {
+        "width": 1544,
+        "height": 720
+      },
+      "provider": "android_adb",
+      "frameId": "frame-6d79ddcb-56e5-4834-a7c9-259de08d8a1b",
+      "resultActionId": "som-546be5cf-f51a-4d32-b428-2b6c7f985adb",
+      "review": {
+        "reviewedBy": "GPT",
+        "hash": "3674e13bdf24a340e69bda40540dc09feed86549796b95f262550e11be18644c",
+        "observation": "Crops tab active; first occupied slot is corn. Capacity unchanged 307/403."
+      },
+      "adbTarget": {
+        "deviceSerial": "R5CT43PC74N",
+        "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+        "displayId": 0,
+        "width": 1544,
+        "height": 720,
+        "rotation": 90,
+        "physicalDisplayId": "4630947232161729154"
+      },
+      "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-9.png#sha256=3674e13bdf24a340e69bda40540dc09feed86549796b95f262550e11be18644c"
+    },
+    "barn-selection": {
+      "file": "sources/barn-selection.png",
+      "sha256": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+      "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-11.png",
+      "dimensions": {
+        "width": 1544,
+        "height": 720
+      },
+      "provider": "android_adb",
+      "frameId": "frame-87fc5c59-9b88-46a2-857d-71630075490e",
+      "resultActionId": "som-b28fab38-1218-436d-87dd-975854255c23",
+      "review": {
+        "reviewedBy": "GPT",
+        "hash": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265",
+        "observation": "Corn sale information popup opened below first slot, quantity 6, coin SELL visible. No sale."
+      },
+      "adbTarget": {
+        "deviceSerial": "R5CT43PC74N",
+        "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+        "displayId": 0,
+        "width": 1544,
+        "height": 720,
+        "rotation": 90,
+        "physicalDisplayId": "4630947232161729154"
+      },
+      "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-11.png#sha256=571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265"
+    },
+    "barn-products": {
+      "file": "sources/barn-products.png",
+      "sha256": "438b740a46b2c2ad2c7622084392ed95e8e8c72f13d1bde709618b489e7c5976",
+      "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-15.png",
+      "dimensions": {
+        "width": 1544,
+        "height": 720
+      },
+      "provider": "android_adb",
+      "frameId": "frame-038eb0cb-29f5-4b23-bd72-da9534250993",
+      "resultActionId": "som-15c0392d-5251-4cd2-b877-8a56cbf1632e",
+      "review": {
+        "reviewedBy": "GPT",
+        "hash": "438b740a46b2c2ad2c7622084392ed95e8e8c72f13d1bde709618b489e7c5976",
+        "observation": "Products tab active; bread icon white background, capacity unchanged. No sale."
+      },
+      "adbTarget": {
+        "deviceSerial": "R5CT43PC74N",
+        "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+        "displayId": 0,
+        "width": 1544,
+        "height": 720,
+        "rotation": 90,
+        "physicalDisplayId": "4630947232161729154"
+      },
+      "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection\\screen-15.png#sha256=438b740a46b2c2ad2c7622084392ed95e8e8c72f13d1bde709618b489e7c5976"
+    },
+    "helicopter": {
+      "file": "sources/helicopter.png",
+      "sha256": "7cfd3e562b1349f806ce3969cce6a0a051f276b13d4d41c04aef4f5992e6c057",
+      "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-adb-20261010\\live-smoke-v3b\\screen-3.png",
+      "dimensions": {
+        "width": 1544,
+        "height": 720
+      },
+      "provider": "android_adb",
+      "frameId": "frame-d99fd7b3-00a3-4a44-ad47-67d89d4f0a23",
+      "resultActionId": "som-3cac2439-b895-41a2-8a5c-78ede8377eb1",
+      "review": {
+        "reviewedBy": "GPT",
+        "hash": "7cfd3e562b1349f806ce3969cce6a0a051f276b13d4d41c04aef4f5992e6c057",
+        "observation": "GPT visually verified HELICOPTER PAD panel opened; no delivery or purchase"
+      },
+      "adbTarget": {
+        "deviceSerial": "R5CT43PC74N",
+        "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+        "displayId": 0,
+        "width": 1544,
+        "height": 720,
+        "rotation": 90,
+        "physicalDisplayId": "4630947232161729154"
+      },
+      "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-adb-20261010\\live-smoke-v3b\\screen-3.png#sha256=7cfd3e562b1349f806ce3969cce6a0a051f276b13d4d41c04aef4f5992e6c057"
+    },
+    "town-shifted": {
+      "file": "sources/town-shifted.png",
+      "sha256": "e4c74856c28b6939d49e065d6f270ef16bab1c6d27c8776e60d4b045a50c7c12",
+      "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-adb-20261010\\live-smoke-v3c\\screen-3.png",
+      "dimensions": {
+        "width": 1544,
+        "height": 720
+      },
+      "provider": "android_adb",
+      "frameId": "frame-abd359fb-7aa8-4f7d-9e45-8c2ae757f7f5",
+      "resultActionId": "adb-smoke-e83e1a57-5e43-450f-bbff-aa4558222329",
+      "review": {
+        "reviewedBy": "GPT",
+        "hash": "e4c74856c28b6939d49e065d6f270ef16bab1c6d27c8776e60d4b045a50c7c12",
+        "observation": "GPT verified town map translated right after 400 ms swipe; HUD unchanged"
+      },
+      "adbTarget": {
+        "deviceSerial": "R5CT43PC74N",
+        "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+        "displayId": 0,
+        "width": 1544,
+        "height": 720,
+        "rotation": 90,
+        "physicalDisplayId": "4630947232161729154"
+      },
+      "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-adb-20261010\\live-smoke-v3c\\screen-3.png#sha256=e4c74856c28b6939d49e065d6f270ef16bab1c6d27c8776e60d4b045a50c7c12"
+    },
+    "market-mid": {
+      "file": "sources/market-mid.png",
+      "sha256": "b19a2b0248bf9c6cc1fa6058fd8323f5098025257489329c07e2093bc29dde73",
+      "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection-extra\\screen-9.png",
+      "dimensions": {
+        "width": 1544,
+        "height": 720
+      },
+      "provider": "android_adb",
+      "frameId": "frame-b0bac89c-7299-491c-8c11-40b4f84084c8",
+      "resultActionId": "adb-smoke-870865e0-d924-4e92-95ec-1111be249db8",
+      "review": {
+        "reviewedBy": "GPT",
+        "hash": "b19a2b0248bf9c6cc1fa6058fd8323f5098025257489329c07e2093bc29dde73",
+        "observation": "Market scrolled further to dress, soup, tomato, sugar cane and crop cards. No purchase."
+      },
+      "adbTarget": {
+        "deviceSerial": "R5CT43PC74N",
+        "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+        "displayId": 0,
+        "width": 1544,
+        "height": 720,
+        "rotation": 90,
+        "physicalDisplayId": "4630947232161729154"
+      },
+      "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection-extra\\screen-9.png#sha256=b19a2b0248bf9c6cc1fa6058fd8323f5098025257489329c07e2093bc29dde73"
+    },
+    "mission": {
+      "file": "sources/mission.png",
+      "sha256": "60d7b8d49331308b0ccbd15e1648b20fbc24bb09d31525e0151c6e93193db6df",
+      "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection-final\\screen-13.png",
+      "dimensions": {
+        "width": 1544,
+        "height": 720
+      },
+      "provider": "android_adb",
+      "frameId": "frame-10312d15-a815-48e4-b781-6929b7060137",
+      "observedAt": "2026-10-09T19:14:06.716Z",
+      "adbTarget": {
+        "deviceSerial": "R5CT43PC74N",
+        "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+        "displayId": 0,
+        "width": 1544,
+        "height": 720,
+        "rotation": 90,
+        "physicalDisplayId": "4630947232161729154"
+      },
+      "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\collection-final\\screen-13.png#sha256=60d7b8d49331308b0ccbd15e1648b20fbc24bb09d31525e0151c6e93193db6df"
+    },
+    "town-dealer-bubble": {
+      "file": "sources/town-dealer-bubble.png",
+      "sha256": "4642c0dce13389744bda666e826f0fa152f94ca2fa34d6c7ab59fcff1a7cf851",
+      "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\live-navigation\\screen-4.png",
+      "dimensions": {
+        "width": 1544,
+        "height": 720
+      },
+      "provider": "android_adb",
+      "adbTarget": {
+        "deviceSerial": "R5CT43PC74N",
+        "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+        "displayId": 0,
+        "width": 1544,
+        "height": 720,
+        "rotation": 90,
+        "physicalDisplayId": "4630947232161729154"
+      },
+      "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\live-navigation\\screen-4.png#sha256=4642c0dce13389744bda666e826f0fa152f94ca2fa34d6c7ab59fcff1a7cf851"
+    },
+    "market-drag": {
+      "file": "sources/market-drag.png",
+      "sha256": "54d208b770f1c4569583e30974e08f1bb0f0b9be9331dc27c4d6ddade4387e8d",
+      "originalPath": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\live-market-v3\\screen-5.png",
+      "dimensions": {
+        "width": 1544,
+        "height": 720
+      },
+      "provider": "android_adb",
+      "frameId": "frame-f67e48e1-3314-4f92-b8ee-155ed931a46d",
+      "observedAt": "2026-10-09T19:38:10.847Z",
+      "adbTarget": {
+        "deviceSerial": "R5CT43PC74N",
+        "bootId": "f5e4db51-f560-4750-8f46-f3004edafdde",
+        "displayId": 0,
+        "width": 1544,
+        "height": 720,
+        "rotation": 90,
+        "physicalDisplayId": "4630947232161729154"
+      },
+      "sourceId": "C:\\Users\\djfal\\OneDrive\\\ubb38\uc11c\\ChatGPT\\Township\\android-recognition-20261010\\live-market-v3\\screen-5.png#sha256=54d208b770f1c4569583e30974e08f1bb0f0b9be9331dc27c4d6ddade4387e8d"
+    }
+  }
+}

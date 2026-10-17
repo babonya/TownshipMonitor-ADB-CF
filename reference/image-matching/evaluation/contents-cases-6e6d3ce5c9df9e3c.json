@@ -1,0 +1,691 @@
+{
+  "schema": 1,
+  "model": "gpt-6-luna",
+  "reasoningEffort": "low",
+  "purpose": "offline_partial_cell_labels",
+  "executionAllowed": false,
+  "cases": [
+    {
+      "layoutId": "source-market",
+      "split": "source",
+      "frame": {
+        "id": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+        "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu\\frames\\frame-bea6afbc-be03-41b8-8f64-9473e264a42c.png",
+        "session": "mumu",
+        "group": "market-page-0",
+        "epoch": 2,
+        "sequence": 236,
+        "observedAt": "2026-10-02T13:49:26.255Z",
+        "scene": "market",
+        "evidenceHash": "068c56e5b66a2a856183e5946d9199dc2b709a5c77a828bd9c56ed891997a188",
+        "priorTargets": [
+          {
+            "id": "scroll",
+            "kind": "market_scroll",
+            "type": "swipe",
+            "box": {
+              "x": 600,
+              "y": 466,
+              "width": 740,
+              "height": 35
+            }
+          },
+          {
+            "id": "close",
+            "kind": "close_panel",
+            "type": "tap",
+            "box": {
+              "x": 1279,
+              "y": 69,
+              "width": 28,
+              "height": 31
+            }
+          }
+        ],
+        "sourceReviewStatus": "accepted"
+      },
+      "expected": [
+        {
+          "itemId": "cookies",
+          "iconBox": {
+            "x": 1007,
+            "y": 264,
+            "width": 150,
+            "height": 113
+          },
+          "quantityBox": {
+            "x": 1106,
+            "y": 335,
+            "width": 55,
+            "height": 40
+          },
+          "quantity": 2,
+          "slotId": "cell-00"
+        },
+        {
+          "itemId": "tomato",
+          "iconBox": {
+            "x": 1210,
+            "y": 254,
+            "width": 145,
+            "height": 121
+          },
+          "quantityBox": {
+            "x": 1295,
+            "y": 329,
+            "width": 61,
+            "height": 43
+          },
+          "quantity": 5,
+          "slotId": "cell-01"
+        },
+        {
+          "itemId": "sugarcane",
+          "iconBox": {
+            "x": 588,
+            "y": 500,
+            "width": 164,
+            "height": 130
+          },
+          "quantityBox": {
+            "x": 645,
+            "y": 570,
+            "width": 94,
+            "height": 52
+          },
+          "quantity": 5,
+          "slotId": "cell-02"
+        }
+      ]
+    },
+    {
+      "layoutId": "source-barn-top",
+      "split": "source",
+      "frame": {
+        "id": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-barn-20261003-retry\\frames\\frame-da2608a6-5c79-4755-a193-d47c44d94adc.png",
+        "session": "mumu-barn-20261003-retry",
+        "group": "barn-grid-001",
+        "epoch": 4,
+        "sequence": 70,
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "scene": "barn",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "priorTargets": [
+          {
+            "id": "barn-scroll",
+            "box": {
+              "y": 232,
+              "x": 260,
+              "height": 488,
+              "width": 1090
+            },
+            "kind": "barn_scroll",
+            "type": "swipe",
+            "verificationBox": {
+              "y": 55,
+              "x": 720,
+              "height": 63,
+              "width": 160
+            }
+          }
+        ],
+        "sourceReviewStatus": "accepted"
+      },
+      "expected": [
+        {
+          "itemId": "sugarcane",
+          "iconBox": {
+            "x": 317,
+            "y": 263,
+            "width": 114,
+            "height": 107
+          },
+          "quantityBox": {
+            "x": 347,
+            "y": 382,
+            "width": 49,
+            "height": 38
+          },
+          "quantity": 19,
+          "slotId": "cell-00"
+        },
+        {
+          "itemId": "wool",
+          "iconBox": {
+            "x": 481,
+            "y": 264,
+            "width": 121,
+            "height": 108
+          },
+          "quantityBox": {
+            "x": 518,
+            "y": 382,
+            "width": 45,
+            "height": 38
+          },
+          "quantity": 14,
+          "slotId": "cell-01"
+        },
+        {
+          "itemId": "corn",
+          "iconBox": {
+            "x": 661,
+            "y": 263,
+            "width": 111,
+            "height": 109
+          },
+          "quantityBox": {
+            "x": 687,
+            "y": 382,
+            "width": 50,
+            "height": 38
+          },
+          "quantity": 13,
+          "slotId": "cell-02"
+        },
+        {
+          "itemId": "carrot",
+          "iconBox": {
+            "x": 1001,
+            "y": 262,
+            "width": 115,
+            "height": 111
+          },
+          "quantityBox": {
+            "x": 1027,
+            "y": 382,
+            "width": 50,
+            "height": 38
+          },
+          "quantity": 11,
+          "slotId": "cell-03"
+        },
+        {
+          "itemId": "muffin",
+          "iconBox": {
+            "x": 660,
+            "y": 449,
+            "width": 111,
+            "height": 108
+          },
+          "quantityBox": {
+            "x": 694,
+            "y": 570,
+            "width": 44,
+            "height": 38
+          },
+          "quantity": 10,
+          "slotId": "cell-04"
+        },
+        {
+          "itemId": "wheat",
+          "iconBox": {
+            "x": 829,
+            "y": 449,
+            "width": 110,
+            "height": 108
+          },
+          "quantityBox": {
+            "x": 863,
+            "y": 570,
+            "width": 44,
+            "height": 38
+          },
+          "quantity": 10,
+          "slotId": "cell-05"
+        },
+        {
+          "itemId": "cotton",
+          "iconBox": {
+            "x": 314,
+            "y": 635,
+            "width": 116,
+            "height": 91
+          },
+          "quantityBox": null,
+          "quantity": null,
+          "slotId": "cell-06"
+        },
+        {
+          "itemId": "strawberry",
+          "iconBox": {
+            "x": 495,
+            "y": 635,
+            "width": 101,
+            "height": 91
+          },
+          "quantityBox": null,
+          "quantity": null,
+          "slotId": "cell-07"
+        },
+        {
+          "itemId": "syrup",
+          "iconBox": {
+            "x": 659,
+            "y": 636,
+            "width": 109,
+            "height": 90
+          },
+          "quantityBox": null,
+          "quantity": null,
+          "slotId": "cell-08"
+        },
+        {
+          "itemId": "popcorn",
+          "iconBox": {
+            "x": 1006,
+            "y": 636,
+            "width": 111,
+            "height": 90
+          },
+          "quantityBox": null,
+          "quantity": null,
+          "slotId": "cell-09"
+        },
+        {
+          "itemId": "milk",
+          "iconBox": {
+            "x": 1192,
+            "y": 636,
+            "width": 70,
+            "height": 90
+          },
+          "quantityBox": null,
+          "quantity": null,
+          "slotId": "cell-10"
+        }
+      ]
+    },
+    {
+      "layoutId": "source-barn-middle",
+      "split": "source",
+      "frame": {
+        "id": "frame-5794d65e-7d2e-4f37-a47f-668ac42cada0",
+        "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-barn-20261003-retry\\frames\\frame-5794d65e-7d2e-4f37-a47f-668ac42cada0.png",
+        "session": "mumu-barn-20261003-retry",
+        "group": "barn-grid-004",
+        "scene": "barn",
+        "epoch": 7,
+        "sequence": 202,
+        "observedAt": "2026-10-02T16:43:31.785Z",
+        "evidenceHash": "2c2b62aa97d6f7157e4683e9caebb8728089a132606d6daf05533f224e48525e",
+        "priorTargets": [],
+        "sourceReviewStatus": "accepted"
+      },
+      "expected": [
+        {
+          "itemId": "bread",
+          "iconBox": {
+            "x": 319,
+            "y": 289,
+            "width": 110,
+            "height": 104
+          },
+          "quantityBox": {
+            "x": 355,
+            "y": 402,
+            "width": 37,
+            "height": 36
+          },
+          "quantity": 3,
+          "slotId": "cell-00"
+        },
+        {
+          "itemId": "potato",
+          "iconBox": {
+            "x": 659,
+            "y": 289,
+            "width": 111,
+            "height": 104
+          },
+          "quantityBox": {
+            "x": 693,
+            "y": 402,
+            "width": 39,
+            "height": 36
+          },
+          "quantity": 3,
+          "slotId": "cell-01"
+        },
+        {
+          "itemId": "cream",
+          "iconBox": {
+            "x": 1000,
+            "y": 291,
+            "width": 111,
+            "height": 102
+          },
+          "quantityBox": {
+            "x": 1040,
+            "y": 402,
+            "width": 35,
+            "height": 36
+          },
+          "quantity": 2,
+          "slotId": "cell-02"
+        },
+        {
+          "itemId": "granola",
+          "iconBox": {
+            "x": 1174,
+            "y": 289,
+            "width": 111,
+            "height": 105
+          },
+          "quantityBox": {
+            "x": 1210,
+            "y": 402,
+            "width": 38,
+            "height": 36
+          },
+          "quantity": 2,
+          "slotId": "cell-03"
+        },
+        {
+          "itemId": "paper",
+          "iconBox": {
+            "x": 315,
+            "y": 475,
+            "width": 112,
+            "height": 101
+          },
+          "quantityBox": {
+            "x": 355,
+            "y": 581,
+            "width": 36,
+            "height": 37
+          },
+          "quantity": 2,
+          "slotId": "cell-04"
+        },
+        {
+          "itemId": "potato_chips",
+          "iconBox": {
+            "x": 491,
+            "y": 475,
+            "width": 101,
+            "height": 101
+          },
+          "quantityBox": {
+            "x": 527,
+            "y": 581,
+            "width": 36,
+            "height": 37
+          },
+          "quantity": 2,
+          "slotId": "cell-05"
+        },
+        {
+          "itemId": "bagel",
+          "iconBox": {
+            "x": 657,
+            "y": 475,
+            "width": 113,
+            "height": 100
+          },
+          "quantityBox": {
+            "x": 697,
+            "y": 581,
+            "width": 34,
+            "height": 37
+          },
+          "quantity": 2,
+          "slotId": "cell-06"
+        },
+        {
+          "itemId": null,
+          "iconBox": {
+            "x": 827,
+            "y": 475,
+            "width": 117,
+            "height": 104
+          },
+          "quantityBox": {
+            "x": 866,
+            "y": 581,
+            "width": 38,
+            "height": 37
+          },
+          "quantity": 2,
+          "slotId": "cell-07"
+        }
+      ]
+    },
+    {
+      "layoutId": "holdout-market",
+      "split": "holdout",
+      "frame": {
+        "id": "frame-db0b13d6-23b7-425c-8544-0674e857accf",
+        "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu\\frames\\frame-db0b13d6-23b7-425c-8544-0674e857accf.png",
+        "session": "mumu",
+        "group": "market-right",
+        "epoch": 10,
+        "sequence": 748,
+        "observedAt": "2026-10-02T13:59:47.275Z",
+        "scene": "market",
+        "evidenceHash": "bfbf4e61d23006e40cfbe9c83643ee83ef626670abb9782154d6837850d6da58",
+        "priorTargets": [
+          {
+            "id": "close",
+            "kind": "close_panel",
+            "type": "tap",
+            "box": {
+              "x": 1279,
+              "y": 69,
+              "width": 28,
+              "height": 31
+            }
+          }
+        ]
+      },
+      "expected": [
+        {
+          "itemId": "carrot",
+          "iconBox": {
+            "x": 650,
+            "y": 251,
+            "width": 145,
+            "height": 125
+          },
+          "quantityBox": {
+            "x": 722,
+            "y": 328,
+            "width": 75,
+            "height": 47
+          },
+          "quantity": 6,
+          "slotId": "cell-00"
+        },
+        {
+          "itemId": "tomato",
+          "iconBox": {
+            "x": 846,
+            "y": 251,
+            "width": 158,
+            "height": 125
+          },
+          "quantityBox": {
+            "x": 949,
+            "y": 328,
+            "width": 60,
+            "height": 47
+          },
+          "quantity": 2,
+          "slotId": "cell-01"
+        },
+        {
+          "itemId": "strawberry",
+          "iconBox": {
+            "x": 1060,
+            "y": 251,
+            "width": 159,
+            "height": 125
+          },
+          "quantityBox": {
+            "x": 1150,
+            "y": 328,
+            "width": 68,
+            "height": 47
+          },
+          "quantity": 6,
+          "slotId": "cell-02"
+        }
+      ]
+    },
+    {
+      "layoutId": "holdout-barn",
+      "split": "holdout",
+      "frame": {
+        "id": "frame-1fccd726-8840-491c-8b8c-bff848a35e92",
+        "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-barn-20261003-retry\\frames\\frame-1fccd726-8840-491c-8b8c-bff848a35e92.png",
+        "session": "mumu-barn-20261003-retry",
+        "group": "barn-return-top-2",
+        "epoch": 11,
+        "sequence": 553,
+        "observedAt": "2026-10-02T16:50:58.370Z",
+        "scene": "barn",
+        "evidenceHash": "04bc9de87e4616a751f4fdcc0e7698c5bb201748cb7f732abef0abd23dc2c1d7",
+        "priorTargets": []
+      },
+      "expected": [
+        {
+          "itemId": "cotton",
+          "iconBox": {
+            "x": 315,
+            "y": 284,
+            "width": 112,
+            "height": 111
+          },
+          "quantityBox": {
+            "x": 347,
+            "y": 401,
+            "width": 49,
+            "height": 39
+          },
+          "quantity": 8,
+          "slotId": "cell-00"
+        },
+        {
+          "itemId": "strawberry",
+          "iconBox": {
+            "x": 495,
+            "y": 284,
+            "width": 101,
+            "height": 111
+          },
+          "quantityBox": {
+            "x": 521,
+            "y": 401,
+            "width": 44,
+            "height": 39
+          },
+          "quantity": 7,
+          "slotId": "cell-01"
+        },
+        {
+          "itemId": "syrup",
+          "iconBox": {
+            "x": 659,
+            "y": 284,
+            "width": 110,
+            "height": 111
+          },
+          "quantityBox": {
+            "x": 691,
+            "y": 401,
+            "width": 47,
+            "height": 39
+          },
+          "quantity": 6,
+          "slotId": "cell-02"
+        },
+        {
+          "itemId": "popcorn",
+          "iconBox": {
+            "x": 1005,
+            "y": 284,
+            "width": 105,
+            "height": 111
+          },
+          "quantityBox": {
+            "x": 1037,
+            "y": 401,
+            "width": 47,
+            "height": 39
+          },
+          "quantity": 6,
+          "slotId": "cell-03"
+        },
+        {
+          "itemId": "milk",
+          "iconBox": {
+            "x": 1194,
+            "y": 284,
+            "width": 70,
+            "height": 111
+          },
+          "quantityBox": {
+            "x": 1206,
+            "y": 401,
+            "width": 43,
+            "height": 39
+          },
+          "quantity": 5,
+          "slotId": "cell-04"
+        },
+        {
+          "itemId": "pizza",
+          "iconBox": {
+            "x": 315,
+            "y": 474,
+            "width": 112,
+            "height": 105
+          },
+          "quantityBox": {
+            "x": 357,
+            "y": 586,
+            "width": 37,
+            "height": 38
+          },
+          "quantity": 5,
+          "slotId": "cell-05"
+        },
+        {
+          "itemId": "wallpaper",
+          "iconBox": {
+            "x": 660,
+            "y": 474,
+            "width": 112,
+            "height": 105
+          },
+          "quantityBox": {
+            "x": 697,
+            "y": 586,
+            "width": 36,
+            "height": 38
+          },
+          "quantity": 4,
+          "slotId": "cell-06"
+        },
+        {
+          "itemId": "shirt",
+          "iconBox": {
+            "x": 1004,
+            "y": 474,
+            "width": 104,
+            "height": 105
+          },
+          "quantityBox": {
+            "x": 1040,
+            "y": 586,
+            "width": 34,
+            "height": 38
+          },
+          "quantity": 3,
+          "slotId": "cell-07"
+        }
+      ]
+    }
+  ]
+}

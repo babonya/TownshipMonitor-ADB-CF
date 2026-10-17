@@ -1,0 +1,2816 @@
+{
+  "state": {
+    "actions": {
+      "hcl09-s2": {
+        "id": "hcl09-s2",
+        "requestDigest": "40adb233119ecae579d30e033ac17ff3a9eebc5dbe7005547f6cbf951fd2e357",
+        "frameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+        "targetId": "select:pin:470:793",
+        "target": {
+          "id": "select:pin:470:793",
+          "kind": "select_customer",
+          "type": "tap",
+          "box": {
+            "x": 465,
+            "y": 788,
+            "width": 10,
+            "height": 10
+          },
+          "verification": {
+            "version": 1,
+            "anchorBoxes": [
+              {
+                "x": 636,
+                "y": 302,
+                "width": 440,
+                "height": 51
+              },
+              {
+                "x": 1248,
+                "y": 382,
+                "width": 270,
+                "height": 36
+              }
+            ],
+            "targetRegions": [
+              {
+                "x": 467,
+                "y": 790,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "criticalRegions": [
+              {
+                "field": "order_grid",
+                "box": {
+                  "x": 1248,
+                  "y": 446,
+                  "width": 285,
+                  "height": 338
+                }
+              }
+            ],
+            "maxChangedRatio": 0,
+            "channelTolerance": 0
+          },
+          "mapId": "pin:470:793",
+          "currentHelicopterSelection": {
+            "sourcePanel": "normal_order",
+            "sourceFrameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+            "sourceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553",
+            "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+            "sourceGridHash": "e555344ccf6becf15ae46a849129e3ef45e7df8e0a29e1b0c7c84b20f4020a7a"
+          }
+        },
+        "command": {
+          "type": "tap",
+          "x": 470,
+          "y": 793
+        },
+        "percentageCommand": {
+          "schema": 1,
+          "unit": "fraction",
+          "space": "game",
+          "geometry": {
+            "capture": {
+              "width": 1578,
+              "height": 1268
+            },
+            "viewport": {
+              "x": 128,
+              "y": 188,
+              "width": 1448,
+              "height": 970
+            }
+          },
+          "command": {
+            "type": "tap",
+            "x": 0.2361878453038674,
+            "y": 0.6237113402061856
+          }
+        },
+        "coordinateSource": {
+          "frameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+          "evidenceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553"
+        },
+        "nextVisit": {
+          "visitId": "hcl09-s2-result",
+          "kind": "helicopter"
+        },
+        "management": false,
+        "status": "verified",
+        "epoch": 949,
+        "at": "2026-10-07T06:11:56.282Z",
+        "marketGeneration": 835,
+        "preflightStartedAt": "2026-10-07T06:11:56.344Z",
+        "preflightEvidence": {
+          "id": "preflight-32a616fa-d7fc-4e34-bdcd-4f211f4511df",
+          "source": "screen_observation",
+          "provider": "google_play_windows",
+          "actionId": "hcl09-s2",
+          "sourceFrameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+          "observedAt": "2026-10-07T06:11:56.9866497+00:00",
+          "captureStartedAt": "2026-10-07T06:11:56.6311978+00:00",
+          "width": 1578,
+          "height": 1268,
+          "serial": "win32:127336:2300118:639267633024875514",
+          "packageName": "com.playrix.township",
+          "epoch": 949,
+          "evidenceRef": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\preflight\\preflight-32a616fa-d7fc-4e34-bdcd-4f211f4511df.png",
+          "evidenceHash": "062e6e8fa97138acc932730003b3dc0d16fe1c34265a5b98cc7eda9262b72da5",
+          "captureTarget": {
+            "hwnd": 2300118,
+            "pid": 127336,
+            "processStartedTicks": "639267633024875514",
+            "processPath": "D:\\Program Files (x86)\\Play Games\\current\\emulator\\crosvm.exe",
+            "title": "꿈의 마을 (Township) - hanuriel",
+            "isForeground": true,
+            "bounds": {
+              "x": 682,
+              "y": 1446,
+              "width": 1578,
+              "height": 1268
+            },
+            "client": {
+              "x": 682,
+              "y": 1446,
+              "width": 1576,
+              "height": 1266
+            },
+            "dpi": 96,
+            "virtualDesktop": {
+              "x": 0,
+              "y": 0,
+              "width": 2560,
+              "height": 2720
+            }
+          },
+          "sourceQpcTicks": "4167310899779"
+        },
+        "preflightCapturedAt": "2026-10-07T06:11:57.204Z",
+        "inputReservedAt": "2026-10-07T06:11:57.518Z",
+        "deviceReceipt": {
+          "actionId": "hcl09-s2",
+          "status": "issued",
+          "attempted": 3,
+          "inserted": 3,
+          "releaseInserted": 0,
+          "error": null,
+          "startedAt": "2026-10-07T06:11:58.0301774+00:00",
+          "completedAt": "2026-10-07T06:11:58.6332905+00:00",
+          "gameResultVerified": false,
+          "commandIssued": true
+        },
+        "inputAttempted": true,
+        "finishedAt": "2026-10-07T06:11:58.724Z",
+        "issuedAt": "2026-10-07T06:11:58.724Z",
+        "resultCaptureNotBeforeAt": "2026-10-07T06:11:59.724Z",
+        "sceneReviewedAt": "2026-10-07T06:12:01.554Z",
+        "verifiedAt": "2026-10-07T06:12:01.554Z",
+        "resultFrameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+        "resultObservedAt": "2026-10-07T06:12:00.2868009+00:00",
+        "resultProof": {
+          "schema": 1,
+          "frameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+          "evidenceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+          "sequence": 27226,
+          "observedAt": "2026-10-07T06:12:00.2868009+00:00",
+          "review": {
+            "reviewedBy": "program-helicopter",
+            "quality": {
+              "gameVisible": true,
+              "occluded": false
+            },
+            "actualKind": "helicopter",
+            "actualEntityId": null,
+            "data": {
+              "order": {
+                "orderId": "hc-unread:d94395368ca6a1d1602a1b3aec52fb48",
+                "kind": "normal",
+                "transport": "helicopter",
+                "identityMode": "product_list",
+                "signature": null,
+                "orderConfirmed": false,
+                "needs": [
+                  {
+                    "slotId": "r1c1",
+                    "itemId": null,
+                    "owned": 7,
+                    "required": 1,
+                    "checkPresent": true
+                  },
+                  {
+                    "slotId": "r1c2",
+                    "itemId": null,
+                    "owned": 1,
+                    "required": 1,
+                    "checkPresent": true
+                  },
+                  {
+                    "slotId": "r2c1",
+                    "itemId": null,
+                    "owned": 5,
+                    "required": 1,
+                    "checkPresent": true
+                  },
+                  {
+                    "slotId": "r2c2",
+                    "itemId": null,
+                    "owned": 0,
+                    "required": 1,
+                    "checkPresent": false
+                  }
+                ],
+                "ready": false,
+                "disposition": "deliver"
+              },
+              "helicopter": {
+                "mapTargets": [
+                  {
+                    "mapId": "pin:277:687",
+                    "box": {
+                      "x": 272,
+                      "y": 682,
+                      "width": 10,
+                      "height": 10
+                    },
+                    "pinState": "red",
+                    "status": "candidate"
+                  },
+                  {
+                    "mapId": "pin:473:805",
+                    "box": {
+                      "x": 468,
+                      "y": 800,
+                      "width": 10,
+                      "height": 10
+                    },
+                    "pinState": "red",
+                    "status": "candidate"
+                  },
+                  {
+                    "mapId": "pin:969:823",
+                    "box": {
+                      "x": 964,
+                      "y": 818,
+                      "width": 10,
+                      "height": 10
+                    },
+                    "pinState": "red",
+                    "status": "candidate"
+                  },
+                  {
+                    "mapId": "pin:592:847",
+                    "box": {
+                      "x": 587,
+                      "y": 842,
+                      "width": 10,
+                      "height": 10
+                    },
+                    "pinState": "red",
+                    "status": "candidate"
+                  }
+                ],
+                "complete": false,
+                "checksAgree": false,
+                "reasons": [
+                  "PRODUCT_OR_QUANTITY_UNKNOWN"
+                ],
+                "profileVersion": "helicopter-native-1578-screenshot-products-info-7",
+                "normalOrderNavigation": {
+                  "status": "matched_candidate",
+                  "anchors": [
+                    {
+                      "file": "normal-order-send-word.png",
+                      "matchScore": 1,
+                      "box": {
+                        "x": 1380,
+                        "y": 976,
+                        "width": 117,
+                        "height": 34
+                      }
+                    },
+                    {
+                      "file": "trash-button.png",
+                      "matchScore": 0.9931527376174927,
+                      "box": {
+                        "x": 1213,
+                        "y": 961,
+                        "width": 74,
+                        "height": 71
+                      }
+                    }
+                  ],
+                  "miniGameAbsent": true,
+                  "miniGameLabel": {
+                    "file": "mini-game-label.png",
+                    "matchScore": 0.049338553100824356,
+                    "box": {
+                      "x": 1238,
+                      "y": 455,
+                      "width": 281,
+                      "height": 91
+                    }
+                  }
+                },
+                "selectionGridHash": "f79dd0a236ce11b1c77de38810a5e8cfa107acc49a3a2e98f12fa3ee39e099b2",
+                "productRecognition": {
+                  "catalogueManifestSha256": "41458c8ea08cac87e8549b526088de2cbe61a0c273e7f0596690bec84990360c",
+                  "thresholdSha256": "46b16d71a033fd1fc50c9c8a406042f7726f5ac83ab5860a199ed7926987b591",
+                  "identities": [
+                    {
+                      "slotId": "r1c1"
+                    },
+                    {
+                      "slotId": "r1c2"
+                    },
+                    {
+                      "slotId": "r2c1"
+                    },
+                    {
+                      "slotId": "r2c2"
+                    }
+                  ]
+                },
+                "recognitionFailures": {
+                  "productIdentity": [
+                    "r1c1",
+                    "r1c2",
+                    "r2c1",
+                    "r2c2"
+                  ],
+                  "quantity": [],
+                  "productLocation": []
+                }
+              }
+            },
+            "targets": [
+              {
+                "id": "select:pin:277:687",
+                "kind": "select_customer",
+                "type": "tap",
+                "box": {
+                  "x": 272,
+                  "y": 682,
+                  "width": 10,
+                  "height": 10
+                },
+                "verification": {
+                  "version": 1,
+                  "anchorBoxes": [
+                    {
+                      "x": 636,
+                      "y": 302,
+                      "width": 440,
+                      "height": 51
+                    },
+                    {
+                      "x": 1248,
+                      "y": 382,
+                      "width": 270,
+                      "height": 36
+                    }
+                  ],
+                  "targetRegions": [
+                    {
+                      "x": 274,
+                      "y": 684,
+                      "width": 6,
+                      "height": 6
+                    }
+                  ],
+                  "criticalRegions": [
+                    {
+                      "field": "order_grid",
+                      "box": {
+                        "x": 1248,
+                        "y": 446,
+                        "width": 285,
+                        "height": 338
+                      }
+                    }
+                  ],
+                  "maxChangedRatio": 0,
+                  "channelTolerance": 0
+                },
+                "mapId": "pin:277:687",
+                "currentHelicopterSelection": {
+                  "sourcePanel": "normal_order",
+                  "sourceFrameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+                  "sourceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+                  "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+                  "sourceGridHash": "f79dd0a236ce11b1c77de38810a5e8cfa107acc49a3a2e98f12fa3ee39e099b2"
+                }
+              },
+              {
+                "id": "select:pin:473:805",
+                "kind": "select_customer",
+                "type": "tap",
+                "box": {
+                  "x": 468,
+                  "y": 800,
+                  "width": 10,
+                  "height": 10
+                },
+                "verification": {
+                  "version": 1,
+                  "anchorBoxes": [
+                    {
+                      "x": 636,
+                      "y": 302,
+                      "width": 440,
+                      "height": 51
+                    },
+                    {
+                      "x": 1248,
+                      "y": 382,
+                      "width": 270,
+                      "height": 36
+                    }
+                  ],
+                  "targetRegions": [
+                    {
+                      "x": 470,
+                      "y": 802,
+                      "width": 6,
+                      "height": 6
+                    }
+                  ],
+                  "criticalRegions": [
+                    {
+                      "field": "order_grid",
+                      "box": {
+                        "x": 1248,
+                        "y": 446,
+                        "width": 285,
+                        "height": 338
+                      }
+                    }
+                  ],
+                  "maxChangedRatio": 0,
+                  "channelTolerance": 0
+                },
+                "mapId": "pin:473:805",
+                "currentHelicopterSelection": {
+                  "sourcePanel": "normal_order",
+                  "sourceFrameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+                  "sourceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+                  "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+                  "sourceGridHash": "f79dd0a236ce11b1c77de38810a5e8cfa107acc49a3a2e98f12fa3ee39e099b2"
+                }
+              },
+              {
+                "id": "select:pin:969:823",
+                "kind": "select_customer",
+                "type": "tap",
+                "box": {
+                  "x": 964,
+                  "y": 818,
+                  "width": 10,
+                  "height": 10
+                },
+                "verification": {
+                  "version": 1,
+                  "anchorBoxes": [
+                    {
+                      "x": 636,
+                      "y": 302,
+                      "width": 440,
+                      "height": 51
+                    },
+                    {
+                      "x": 1248,
+                      "y": 382,
+                      "width": 270,
+                      "height": 36
+                    }
+                  ],
+                  "targetRegions": [
+                    {
+                      "x": 966,
+                      "y": 820,
+                      "width": 6,
+                      "height": 6
+                    }
+                  ],
+                  "criticalRegions": [
+                    {
+                      "field": "order_grid",
+                      "box": {
+                        "x": 1248,
+                        "y": 446,
+                        "width": 285,
+                        "height": 338
+                      }
+                    }
+                  ],
+                  "maxChangedRatio": 0,
+                  "channelTolerance": 0
+                },
+                "mapId": "pin:969:823",
+                "currentHelicopterSelection": {
+                  "sourcePanel": "normal_order",
+                  "sourceFrameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+                  "sourceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+                  "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+                  "sourceGridHash": "f79dd0a236ce11b1c77de38810a5e8cfa107acc49a3a2e98f12fa3ee39e099b2"
+                }
+              },
+              {
+                "id": "select:pin:592:847",
+                "kind": "select_customer",
+                "type": "tap",
+                "box": {
+                  "x": 587,
+                  "y": 842,
+                  "width": 10,
+                  "height": 10
+                },
+                "verification": {
+                  "version": 1,
+                  "anchorBoxes": [
+                    {
+                      "x": 636,
+                      "y": 302,
+                      "width": 440,
+                      "height": 51
+                    },
+                    {
+                      "x": 1248,
+                      "y": 382,
+                      "width": 270,
+                      "height": 36
+                    }
+                  ],
+                  "targetRegions": [
+                    {
+                      "x": 589,
+                      "y": 844,
+                      "width": 6,
+                      "height": 6
+                    }
+                  ],
+                  "criticalRegions": [
+                    {
+                      "field": "order_grid",
+                      "box": {
+                        "x": 1248,
+                        "y": 446,
+                        "width": 285,
+                        "height": 338
+                      }
+                    }
+                  ],
+                  "maxChangedRatio": 0,
+                  "channelTolerance": 0
+                },
+                "mapId": "pin:592:847",
+                "currentHelicopterSelection": {
+                  "sourcePanel": "normal_order",
+                  "sourceFrameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+                  "sourceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+                  "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+                  "sourceGridHash": "f79dd0a236ce11b1c77de38810a5e8cfa107acc49a3a2e98f12fa3ee39e099b2"
+                }
+              }
+            ],
+            "reviewedAt": "2026-10-07T06:12:01.554Z",
+            "proof": {
+              "schema": "program-helicopter-1",
+              "frameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+              "evidenceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+              "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+              "productRecognition": {
+                "catalogueManifestSha256": "41458c8ea08cac87e8549b526088de2cbe61a0c273e7f0596690bec84990360c",
+                "thresholdSha256": "46b16d71a033fd1fc50c9c8a406042f7726f5ac83ab5860a199ed7926987b591"
+              },
+              "registryHash": "6fabb1189546128ddc5a84aade85387bff0752d4aed8ad1bfc179f49a73df5b1",
+              "fieldsHash": "24edf2393b8688d9ddc644cb88c21d0fbca636debe37fe4a90ac3d4499bbaa9d",
+              "inputId": "hcl09-s2",
+              "invalidationSequence": 27222,
+              "reviewHash": "3ec15e45e869a564d30cb4eed56e86f81a44bf480d9412bb495a7791d4361b03"
+            },
+            "status": "accepted"
+          },
+          "navigation": {
+            "kind": "mini_game_order_selection",
+            "confirmed": true,
+            "actionId": "hcl09-s2",
+            "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+            "sourceFrameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+            "sourceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553",
+            "preflightId": "preflight-32a616fa-d7fc-4e34-bdcd-4f211f4511df",
+            "preflightHash": "062e6e8fa97138acc932730003b3dc0d16fe1c34265a5b98cc7eda9262b72da5",
+            "frameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+            "evidenceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+            "signature": null,
+            "epoch": 949
+          }
+        }
+      }
+    },
+    "frames": {
+      "frame-8130a795-4965-43f1-b2e6-dd62eb79618a": {
+        "id": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+        "source": "screen_observation",
+        "provider": "google_play_windows",
+        "screenshotId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+        "sequence": 27225,
+        "observedAt": "2026-10-07T06:11:53.5128999+00:00",
+        "captureStartedAt": "2026-10-07T06:11:53.1501522+00:00",
+        "width": 1578,
+        "height": 1268,
+        "evidenceRef": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-8130a795-4965-43f1-b2e6-dd62eb79618a.png",
+        "evidenceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553",
+        "serial": "win32:127336:2300118:639267633024875514",
+        "packageName": "com.playrix.township",
+        "window": {
+          "app": "D:\\Program Files (x86)\\Play Games\\current\\emulator\\crosvm.exe",
+          "id": 2300118,
+          "title": "꿈의 마을 (Township) - hanuriel"
+        },
+        "captureTarget": {
+          "hwnd": 2300118,
+          "pid": 127336,
+          "processStartedTicks": "639267633024875514",
+          "processPath": "D:\\Program Files (x86)\\Play Games\\current\\emulator\\crosvm.exe",
+          "title": "꿈의 마을 (Township) - hanuriel",
+          "isForeground": true,
+          "bounds": {
+            "x": 682,
+            "y": 1446,
+            "width": 1578,
+            "height": 1268
+          },
+          "client": {
+            "x": 682,
+            "y": 1446,
+            "width": 1576,
+            "height": 1266
+          },
+          "dpi": 96,
+          "virtualDesktop": {
+            "x": 0,
+            "y": 0,
+            "width": 2560,
+            "height": 2720
+          }
+        },
+        "sourceQpcTicks": "4167276103679",
+        "sceneId": "hcl08-s0-result",
+        "kind": "helicopter",
+        "entityId": null,
+        "epoch": 948,
+        "regionSignature": "dd4befffe3b13624818be4bcfdf743e1cff18ff12d6ff72799b8974f2215b5df",
+        "required": true,
+        "stable": false,
+        "ocrRequested": false,
+        "job": {
+          "status": "deferred",
+          "attempt": 0,
+          "token": null
+        },
+        "review": {
+          "reviewedBy": "program-helicopter",
+          "quality": {
+            "gameVisible": true,
+            "occluded": false
+          },
+          "actualKind": "helicopter",
+          "actualEntityId": null,
+          "data": {
+            "order": {
+              "orderId": "hc-unread:c3e7105d3f9d76ae7b05bda1e4092188",
+              "kind": "normal",
+              "transport": "helicopter",
+              "identityMode": "product_list",
+              "signature": null,
+              "orderConfirmed": false,
+              "needs": [
+                {
+                  "slotId": "r1c1",
+                  "itemId": null,
+                  "owned": 4,
+                  "required": 1,
+                  "checkPresent": true
+                },
+                {
+                  "slotId": "r1c2",
+                  "itemId": null,
+                  "owned": 7,
+                  "required": 1,
+                  "checkPresent": true
+                },
+                {
+                  "slotId": "r2c1",
+                  "itemId": "tomato",
+                  "owned": 3,
+                  "required": 1,
+                  "checkPresent": true
+                },
+                {
+                  "slotId": "r2c2",
+                  "itemId": null,
+                  "owned": 0,
+                  "required": 1,
+                  "checkPresent": false
+                },
+                {
+                  "slotId": "r3c1",
+                  "itemId": null,
+                  "owned": 6,
+                  "required": 1,
+                  "checkPresent": true
+                },
+                {
+                  "slotId": "r3c2",
+                  "itemId": null,
+                  "owned": 10,
+                  "required": 1,
+                  "checkPresent": true
+                }
+              ],
+              "ready": false,
+              "disposition": "deliver"
+            },
+            "helicopter": {
+              "mapTargets": [
+                {
+                  "mapId": "pin:421:685",
+                  "box": {
+                    "x": 416,
+                    "y": 680,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "pinState": "red",
+                  "status": "candidate"
+                },
+                {
+                  "mapId": "pin:275:695",
+                  "box": {
+                    "x": 270,
+                    "y": 690,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "pinState": "red",
+                  "status": "candidate"
+                },
+                {
+                  "mapId": "pin:470:793",
+                  "box": {
+                    "x": 465,
+                    "y": 788,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "pinState": "red",
+                  "status": "candidate"
+                },
+                {
+                  "mapId": "pin:969:823",
+                  "box": {
+                    "x": 964,
+                    "y": 818,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "pinState": "red",
+                  "status": "candidate"
+                },
+                {
+                  "mapId": "pin:592:847",
+                  "box": {
+                    "x": 587,
+                    "y": 842,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "pinState": "red",
+                  "status": "candidate"
+                }
+              ],
+              "complete": false,
+              "checksAgree": false,
+              "reasons": [
+                "PRODUCT_OR_QUANTITY_UNKNOWN"
+              ],
+              "profileVersion": "helicopter-native-1578-screenshot-products-info-7",
+              "normalOrderNavigation": {
+                "status": "matched_candidate",
+                "anchors": [
+                  {
+                    "file": "normal-order-send-word.png",
+                    "matchScore": 1,
+                    "box": {
+                      "x": 1380,
+                      "y": 976,
+                      "width": 117,
+                      "height": 34
+                    }
+                  },
+                  {
+                    "file": "trash-button.png",
+                    "matchScore": 0.9931527376174927,
+                    "box": {
+                      "x": 1213,
+                      "y": 961,
+                      "width": 74,
+                      "height": 71
+                    }
+                  }
+                ],
+                "miniGameAbsent": true,
+                "miniGameLabel": {
+                  "file": "mini-game-label.png",
+                  "matchScore": 0.03239581361413002,
+                  "box": {
+                    "x": 1238,
+                    "y": 455,
+                    "width": 281,
+                    "height": 91
+                  }
+                }
+              },
+              "selectionGridHash": "e555344ccf6becf15ae46a849129e3ef45e7df8e0a29e1b0c7c84b20f4020a7a",
+              "productRecognition": {
+                "catalogueManifestSha256": "41458c8ea08cac87e8549b526088de2cbe61a0c273e7f0596690bec84990360c",
+                "thresholdSha256": "46b16d71a033fd1fc50c9c8a406042f7726f5ac83ab5860a199ed7926987b591",
+                "identities": [
+                  {
+                    "slotId": "r1c1"
+                  },
+                  {
+                    "slotId": "r1c2"
+                  },
+                  {
+                    "slotId": "r2c1"
+                  },
+                  {
+                    "slotId": "r2c2"
+                  },
+                  {
+                    "slotId": "r3c1"
+                  },
+                  {
+                    "slotId": "r3c2"
+                  }
+                ]
+              },
+              "recognitionFailures": {
+                "productIdentity": [
+                  "r1c1",
+                  "r1c2",
+                  "r2c2",
+                  "r3c1",
+                  "r3c2"
+                ],
+                "quantity": [],
+                "productLocation": []
+              }
+            }
+          },
+          "targets": [
+            {
+              "id": "select:pin:421:685",
+              "kind": "select_customer",
+              "type": "tap",
+              "box": {
+                "x": 416,
+                "y": 680,
+                "width": 10,
+                "height": 10
+              },
+              "verification": {
+                "version": 1,
+                "anchorBoxes": [
+                  {
+                    "x": 636,
+                    "y": 302,
+                    "width": 440,
+                    "height": 51
+                  },
+                  {
+                    "x": 1248,
+                    "y": 382,
+                    "width": 270,
+                    "height": 36
+                  }
+                ],
+                "targetRegions": [
+                  {
+                    "x": 418,
+                    "y": 682,
+                    "width": 6,
+                    "height": 6
+                  }
+                ],
+                "criticalRegions": [
+                  {
+                    "field": "order_grid",
+                    "box": {
+                      "x": 1248,
+                      "y": 446,
+                      "width": 285,
+                      "height": 338
+                    }
+                  }
+                ],
+                "maxChangedRatio": 0,
+                "channelTolerance": 0
+              },
+              "mapId": "pin:421:685",
+              "currentHelicopterSelection": {
+                "sourcePanel": "normal_order",
+                "sourceFrameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+                "sourceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553",
+                "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+                "sourceGridHash": "e555344ccf6becf15ae46a849129e3ef45e7df8e0a29e1b0c7c84b20f4020a7a"
+              }
+            },
+            {
+              "id": "select:pin:275:695",
+              "kind": "select_customer",
+              "type": "tap",
+              "box": {
+                "x": 270,
+                "y": 690,
+                "width": 10,
+                "height": 10
+              },
+              "verification": {
+                "version": 1,
+                "anchorBoxes": [
+                  {
+                    "x": 636,
+                    "y": 302,
+                    "width": 440,
+                    "height": 51
+                  },
+                  {
+                    "x": 1248,
+                    "y": 382,
+                    "width": 270,
+                    "height": 36
+                  }
+                ],
+                "targetRegions": [
+                  {
+                    "x": 272,
+                    "y": 692,
+                    "width": 6,
+                    "height": 6
+                  }
+                ],
+                "criticalRegions": [
+                  {
+                    "field": "order_grid",
+                    "box": {
+                      "x": 1248,
+                      "y": 446,
+                      "width": 285,
+                      "height": 338
+                    }
+                  }
+                ],
+                "maxChangedRatio": 0,
+                "channelTolerance": 0
+              },
+              "mapId": "pin:275:695",
+              "currentHelicopterSelection": {
+                "sourcePanel": "normal_order",
+                "sourceFrameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+                "sourceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553",
+                "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+                "sourceGridHash": "e555344ccf6becf15ae46a849129e3ef45e7df8e0a29e1b0c7c84b20f4020a7a"
+              }
+            },
+            {
+              "id": "select:pin:470:793",
+              "kind": "select_customer",
+              "type": "tap",
+              "box": {
+                "x": 465,
+                "y": 788,
+                "width": 10,
+                "height": 10
+              },
+              "verification": {
+                "version": 1,
+                "anchorBoxes": [
+                  {
+                    "x": 636,
+                    "y": 302,
+                    "width": 440,
+                    "height": 51
+                  },
+                  {
+                    "x": 1248,
+                    "y": 382,
+                    "width": 270,
+                    "height": 36
+                  }
+                ],
+                "targetRegions": [
+                  {
+                    "x": 467,
+                    "y": 790,
+                    "width": 6,
+                    "height": 6
+                  }
+                ],
+                "criticalRegions": [
+                  {
+                    "field": "order_grid",
+                    "box": {
+                      "x": 1248,
+                      "y": 446,
+                      "width": 285,
+                      "height": 338
+                    }
+                  }
+                ],
+                "maxChangedRatio": 0,
+                "channelTolerance": 0
+              },
+              "mapId": "pin:470:793",
+              "currentHelicopterSelection": {
+                "sourcePanel": "normal_order",
+                "sourceFrameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+                "sourceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553",
+                "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+                "sourceGridHash": "e555344ccf6becf15ae46a849129e3ef45e7df8e0a29e1b0c7c84b20f4020a7a"
+              }
+            },
+            {
+              "id": "select:pin:969:823",
+              "kind": "select_customer",
+              "type": "tap",
+              "box": {
+                "x": 964,
+                "y": 818,
+                "width": 10,
+                "height": 10
+              },
+              "verification": {
+                "version": 1,
+                "anchorBoxes": [
+                  {
+                    "x": 636,
+                    "y": 302,
+                    "width": 440,
+                    "height": 51
+                  },
+                  {
+                    "x": 1248,
+                    "y": 382,
+                    "width": 270,
+                    "height": 36
+                  }
+                ],
+                "targetRegions": [
+                  {
+                    "x": 966,
+                    "y": 820,
+                    "width": 6,
+                    "height": 6
+                  }
+                ],
+                "criticalRegions": [
+                  {
+                    "field": "order_grid",
+                    "box": {
+                      "x": 1248,
+                      "y": 446,
+                      "width": 285,
+                      "height": 338
+                    }
+                  }
+                ],
+                "maxChangedRatio": 0,
+                "channelTolerance": 0
+              },
+              "mapId": "pin:969:823",
+              "currentHelicopterSelection": {
+                "sourcePanel": "normal_order",
+                "sourceFrameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+                "sourceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553",
+                "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+                "sourceGridHash": "e555344ccf6becf15ae46a849129e3ef45e7df8e0a29e1b0c7c84b20f4020a7a"
+              }
+            },
+            {
+              "id": "select:pin:592:847",
+              "kind": "select_customer",
+              "type": "tap",
+              "box": {
+                "x": 587,
+                "y": 842,
+                "width": 10,
+                "height": 10
+              },
+              "verification": {
+                "version": 1,
+                "anchorBoxes": [
+                  {
+                    "x": 636,
+                    "y": 302,
+                    "width": 440,
+                    "height": 51
+                  },
+                  {
+                    "x": 1248,
+                    "y": 382,
+                    "width": 270,
+                    "height": 36
+                  }
+                ],
+                "targetRegions": [
+                  {
+                    "x": 589,
+                    "y": 844,
+                    "width": 6,
+                    "height": 6
+                  }
+                ],
+                "criticalRegions": [
+                  {
+                    "field": "order_grid",
+                    "box": {
+                      "x": 1248,
+                      "y": 446,
+                      "width": 285,
+                      "height": 338
+                    }
+                  }
+                ],
+                "maxChangedRatio": 0,
+                "channelTolerance": 0
+              },
+              "mapId": "pin:592:847",
+              "currentHelicopterSelection": {
+                "sourcePanel": "normal_order",
+                "sourceFrameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+                "sourceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553",
+                "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+                "sourceGridHash": "e555344ccf6becf15ae46a849129e3ef45e7df8e0a29e1b0c7c84b20f4020a7a"
+              }
+            }
+          ],
+          "reviewedAt": "2026-10-07T06:11:54.880Z",
+          "proof": {
+            "schema": "program-helicopter-1",
+            "frameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+            "evidenceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553",
+            "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+            "productRecognition": {
+              "catalogueManifestSha256": "41458c8ea08cac87e8549b526088de2cbe61a0c273e7f0596690bec84990360c",
+              "thresholdSha256": "46b16d71a033fd1fc50c9c8a406042f7726f5ac83ab5860a199ed7926987b591"
+            },
+            "registryHash": "6fabb1189546128ddc5a84aade85387bff0752d4aed8ad1bfc179f49a73df5b1",
+            "fieldsHash": "fa38747ddb4afa7c658cfac43cbd5acc5b5b003059c1171f19d488b5fa8952b6",
+            "inputId": "hcl08-s0",
+            "invalidationSequence": 27222,
+            "reviewHash": "bb1abba31018e0db87de7a97ff376d5d8ff01c200f54a93927f56436f189dc91"
+          },
+          "status": "accepted"
+        },
+        "preparedAt": "2026-10-07T06:11:54.338Z"
+      },
+      "frame-e7cef5c1-2d01-4616-9e54-b21310719824": {
+        "id": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+        "source": "screen_observation",
+        "provider": "google_play_windows",
+        "screenshotId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+        "sequence": 27226,
+        "observedAt": "2026-10-07T06:12:00.2868009+00:00",
+        "captureStartedAt": "2026-10-07T06:11:59.9209689+00:00",
+        "width": 1578,
+        "height": 1268,
+        "evidenceRef": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-e7cef5c1-2d01-4616-9e54-b21310719824.png",
+        "evidenceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+        "serial": "win32:127336:2300118:639267633024875514",
+        "packageName": "com.playrix.township",
+        "window": {
+          "app": "D:\\Program Files (x86)\\Play Games\\current\\emulator\\crosvm.exe",
+          "id": 2300118,
+          "title": "꿈의 마을 (Township) - hanuriel"
+        },
+        "captureTarget": {
+          "hwnd": 2300118,
+          "pid": 127336,
+          "processStartedTicks": "639267633024875514",
+          "processPath": "D:\\Program Files (x86)\\Play Games\\current\\emulator\\crosvm.exe",
+          "title": "꿈의 마을 (Township) - hanuriel",
+          "isForeground": true,
+          "bounds": {
+            "x": 682,
+            "y": 1446,
+            "width": 1578,
+            "height": 1268
+          },
+          "client": {
+            "x": 682,
+            "y": 1446,
+            "width": 1576,
+            "height": 1266
+          },
+          "dpi": 96,
+          "virtualDesktop": {
+            "x": 0,
+            "y": 0,
+            "width": 2560,
+            "height": 2720
+          }
+        },
+        "sourceQpcTicks": "4167343937861",
+        "sceneId": "hcl09-s2-result",
+        "kind": "helicopter",
+        "entityId": null,
+        "epoch": 949,
+        "regionSignature": "0c2d27a55762ae8deb6eebc6c9f89ac90f6ef86b359afecdbb4c687c68270b9e",
+        "required": true,
+        "stable": false,
+        "ocrRequested": false,
+        "job": {
+          "status": "deferred",
+          "attempt": 0,
+          "token": null
+        },
+        "review": {
+          "reviewedBy": "program-helicopter",
+          "quality": {
+            "gameVisible": true,
+            "occluded": false
+          },
+          "actualKind": "helicopter",
+          "actualEntityId": null,
+          "data": {
+            "order": {
+              "orderId": "hc-unread:d94395368ca6a1d1602a1b3aec52fb48",
+              "kind": "normal",
+              "transport": "helicopter",
+              "identityMode": "product_list",
+              "signature": null,
+              "orderConfirmed": false,
+              "needs": [
+                {
+                  "slotId": "r1c1",
+                  "itemId": null,
+                  "owned": 7,
+                  "required": 1,
+                  "checkPresent": true
+                },
+                {
+                  "slotId": "r1c2",
+                  "itemId": null,
+                  "owned": 1,
+                  "required": 1,
+                  "checkPresent": true
+                },
+                {
+                  "slotId": "r2c1",
+                  "itemId": null,
+                  "owned": 5,
+                  "required": 1,
+                  "checkPresent": true
+                },
+                {
+                  "slotId": "r2c2",
+                  "itemId": null,
+                  "owned": 0,
+                  "required": 1,
+                  "checkPresent": false
+                }
+              ],
+              "ready": false,
+              "disposition": "deliver"
+            },
+            "helicopter": {
+              "mapTargets": [
+                {
+                  "mapId": "pin:277:687",
+                  "box": {
+                    "x": 272,
+                    "y": 682,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "pinState": "red",
+                  "status": "candidate"
+                },
+                {
+                  "mapId": "pin:473:805",
+                  "box": {
+                    "x": 468,
+                    "y": 800,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "pinState": "red",
+                  "status": "candidate"
+                },
+                {
+                  "mapId": "pin:969:823",
+                  "box": {
+                    "x": 964,
+                    "y": 818,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "pinState": "red",
+                  "status": "candidate"
+                },
+                {
+                  "mapId": "pin:592:847",
+                  "box": {
+                    "x": 587,
+                    "y": 842,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "pinState": "red",
+                  "status": "candidate"
+                }
+              ],
+              "complete": false,
+              "checksAgree": false,
+              "reasons": [
+                "PRODUCT_OR_QUANTITY_UNKNOWN"
+              ],
+              "profileVersion": "helicopter-native-1578-screenshot-products-info-7",
+              "normalOrderNavigation": {
+                "status": "matched_candidate",
+                "anchors": [
+                  {
+                    "file": "normal-order-send-word.png",
+                    "matchScore": 1,
+                    "box": {
+                      "x": 1380,
+                      "y": 976,
+                      "width": 117,
+                      "height": 34
+                    }
+                  },
+                  {
+                    "file": "trash-button.png",
+                    "matchScore": 0.9931527376174927,
+                    "box": {
+                      "x": 1213,
+                      "y": 961,
+                      "width": 74,
+                      "height": 71
+                    }
+                  }
+                ],
+                "miniGameAbsent": true,
+                "miniGameLabel": {
+                  "file": "mini-game-label.png",
+                  "matchScore": 0.049338553100824356,
+                  "box": {
+                    "x": 1238,
+                    "y": 455,
+                    "width": 281,
+                    "height": 91
+                  }
+                }
+              },
+              "selectionGridHash": "f79dd0a236ce11b1c77de38810a5e8cfa107acc49a3a2e98f12fa3ee39e099b2",
+              "productRecognition": {
+                "catalogueManifestSha256": "41458c8ea08cac87e8549b526088de2cbe61a0c273e7f0596690bec84990360c",
+                "thresholdSha256": "46b16d71a033fd1fc50c9c8a406042f7726f5ac83ab5860a199ed7926987b591",
+                "identities": [
+                  {
+                    "slotId": "r1c1"
+                  },
+                  {
+                    "slotId": "r1c2"
+                  },
+                  {
+                    "slotId": "r2c1"
+                  },
+                  {
+                    "slotId": "r2c2"
+                  }
+                ]
+              },
+              "recognitionFailures": {
+                "productIdentity": [
+                  "r1c1",
+                  "r1c2",
+                  "r2c1",
+                  "r2c2"
+                ],
+                "quantity": [],
+                "productLocation": []
+              }
+            }
+          },
+          "targets": [
+            {
+              "id": "select:pin:277:687",
+              "kind": "select_customer",
+              "type": "tap",
+              "box": {
+                "x": 272,
+                "y": 682,
+                "width": 10,
+                "height": 10
+              },
+              "verification": {
+                "version": 1,
+                "anchorBoxes": [
+                  {
+                    "x": 636,
+                    "y": 302,
+                    "width": 440,
+                    "height": 51
+                  },
+                  {
+                    "x": 1248,
+                    "y": 382,
+                    "width": 270,
+                    "height": 36
+                  }
+                ],
+                "targetRegions": [
+                  {
+                    "x": 274,
+                    "y": 684,
+                    "width": 6,
+                    "height": 6
+                  }
+                ],
+                "criticalRegions": [
+                  {
+                    "field": "order_grid",
+                    "box": {
+                      "x": 1248,
+                      "y": 446,
+                      "width": 285,
+                      "height": 338
+                    }
+                  }
+                ],
+                "maxChangedRatio": 0,
+                "channelTolerance": 0
+              },
+              "mapId": "pin:277:687",
+              "currentHelicopterSelection": {
+                "sourcePanel": "normal_order",
+                "sourceFrameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+                "sourceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+                "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+                "sourceGridHash": "f79dd0a236ce11b1c77de38810a5e8cfa107acc49a3a2e98f12fa3ee39e099b2"
+              }
+            },
+            {
+              "id": "select:pin:473:805",
+              "kind": "select_customer",
+              "type": "tap",
+              "box": {
+                "x": 468,
+                "y": 800,
+                "width": 10,
+                "height": 10
+              },
+              "verification": {
+                "version": 1,
+                "anchorBoxes": [
+                  {
+                    "x": 636,
+                    "y": 302,
+                    "width": 440,
+                    "height": 51
+                  },
+                  {
+                    "x": 1248,
+                    "y": 382,
+                    "width": 270,
+                    "height": 36
+                  }
+                ],
+                "targetRegions": [
+                  {
+                    "x": 470,
+                    "y": 802,
+                    "width": 6,
+                    "height": 6
+                  }
+                ],
+                "criticalRegions": [
+                  {
+                    "field": "order_grid",
+                    "box": {
+                      "x": 1248,
+                      "y": 446,
+                      "width": 285,
+                      "height": 338
+                    }
+                  }
+                ],
+                "maxChangedRatio": 0,
+                "channelTolerance": 0
+              },
+              "mapId": "pin:473:805",
+              "currentHelicopterSelection": {
+                "sourcePanel": "normal_order",
+                "sourceFrameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+                "sourceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+                "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+                "sourceGridHash": "f79dd0a236ce11b1c77de38810a5e8cfa107acc49a3a2e98f12fa3ee39e099b2"
+              }
+            },
+            {
+              "id": "select:pin:969:823",
+              "kind": "select_customer",
+              "type": "tap",
+              "box": {
+                "x": 964,
+                "y": 818,
+                "width": 10,
+                "height": 10
+              },
+              "verification": {
+                "version": 1,
+                "anchorBoxes": [
+                  {
+                    "x": 636,
+                    "y": 302,
+                    "width": 440,
+                    "height": 51
+                  },
+                  {
+                    "x": 1248,
+                    "y": 382,
+                    "width": 270,
+                    "height": 36
+                  }
+                ],
+                "targetRegions": [
+                  {
+                    "x": 966,
+                    "y": 820,
+                    "width": 6,
+                    "height": 6
+                  }
+                ],
+                "criticalRegions": [
+                  {
+                    "field": "order_grid",
+                    "box": {
+                      "x": 1248,
+                      "y": 446,
+                      "width": 285,
+                      "height": 338
+                    }
+                  }
+                ],
+                "maxChangedRatio": 0,
+                "channelTolerance": 0
+              },
+              "mapId": "pin:969:823",
+              "currentHelicopterSelection": {
+                "sourcePanel": "normal_order",
+                "sourceFrameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+                "sourceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+                "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+                "sourceGridHash": "f79dd0a236ce11b1c77de38810a5e8cfa107acc49a3a2e98f12fa3ee39e099b2"
+              }
+            },
+            {
+              "id": "select:pin:592:847",
+              "kind": "select_customer",
+              "type": "tap",
+              "box": {
+                "x": 587,
+                "y": 842,
+                "width": 10,
+                "height": 10
+              },
+              "verification": {
+                "version": 1,
+                "anchorBoxes": [
+                  {
+                    "x": 636,
+                    "y": 302,
+                    "width": 440,
+                    "height": 51
+                  },
+                  {
+                    "x": 1248,
+                    "y": 382,
+                    "width": 270,
+                    "height": 36
+                  }
+                ],
+                "targetRegions": [
+                  {
+                    "x": 589,
+                    "y": 844,
+                    "width": 6,
+                    "height": 6
+                  }
+                ],
+                "criticalRegions": [
+                  {
+                    "field": "order_grid",
+                    "box": {
+                      "x": 1248,
+                      "y": 446,
+                      "width": 285,
+                      "height": 338
+                    }
+                  }
+                ],
+                "maxChangedRatio": 0,
+                "channelTolerance": 0
+              },
+              "mapId": "pin:592:847",
+              "currentHelicopterSelection": {
+                "sourcePanel": "normal_order",
+                "sourceFrameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+                "sourceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+                "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+                "sourceGridHash": "f79dd0a236ce11b1c77de38810a5e8cfa107acc49a3a2e98f12fa3ee39e099b2"
+              }
+            }
+          ],
+          "reviewedAt": "2026-10-07T06:12:01.554Z",
+          "proof": {
+            "schema": "program-helicopter-1",
+            "frameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+            "evidenceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+            "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+            "productRecognition": {
+              "catalogueManifestSha256": "41458c8ea08cac87e8549b526088de2cbe61a0c273e7f0596690bec84990360c",
+              "thresholdSha256": "46b16d71a033fd1fc50c9c8a406042f7726f5ac83ab5860a199ed7926987b591"
+            },
+            "registryHash": "6fabb1189546128ddc5a84aade85387bff0752d4aed8ad1bfc179f49a73df5b1",
+            "fieldsHash": "24edf2393b8688d9ddc644cb88c21d0fbca636debe37fe4a90ac3d4499bbaa9d",
+            "inputId": "hcl09-s2",
+            "invalidationSequence": 27222,
+            "reviewHash": "3ec15e45e869a564d30cb4eed56e86f81a44bf480d9412bb495a7791d4361b03"
+          },
+          "status": "accepted"
+        },
+        "preparedAt": "2026-10-07T06:12:01.072Z"
+      }
+    },
+    "observationInvalidation": {
+      "sequence": 27222
+    }
+  },
+  "before": [
+    {
+      "mapId": "pin:421:685",
+      "box": {
+        "x": 416,
+        "y": 680,
+        "width": 10,
+        "height": 10
+      },
+      "pinState": "red",
+      "status": "candidate"
+    },
+    {
+      "mapId": "pin:275:695",
+      "box": {
+        "x": 270,
+        "y": 690,
+        "width": 10,
+        "height": 10
+      },
+      "pinState": "red",
+      "status": "candidate"
+    },
+    {
+      "mapId": "pin:470:793",
+      "box": {
+        "x": 465,
+        "y": 788,
+        "width": 10,
+        "height": 10
+      },
+      "pinState": "red",
+      "status": "candidate"
+    },
+    {
+      "mapId": "pin:969:823",
+      "box": {
+        "x": 964,
+        "y": 818,
+        "width": 10,
+        "height": 10
+      },
+      "pinState": "red",
+      "status": "candidate"
+    },
+    {
+      "mapId": "pin:592:847",
+      "box": {
+        "x": 587,
+        "y": 842,
+        "width": 10,
+        "height": 10
+      },
+      "pinState": "red",
+      "status": "candidate"
+    }
+  ],
+  "after": [
+    {
+      "mapId": "pin:277:687",
+      "box": {
+        "x": 272,
+        "y": 682,
+        "width": 10,
+        "height": 10
+      },
+      "pinState": "red",
+      "status": "candidate"
+    },
+    {
+      "mapId": "pin:473:805",
+      "box": {
+        "x": 468,
+        "y": 800,
+        "width": 10,
+        "height": 10
+      },
+      "pinState": "red",
+      "status": "candidate"
+    },
+    {
+      "mapId": "pin:969:823",
+      "box": {
+        "x": 964,
+        "y": 818,
+        "width": 10,
+        "height": 10
+      },
+      "pinState": "red",
+      "status": "candidate"
+    },
+    {
+      "mapId": "pin:592:847",
+      "box": {
+        "x": 587,
+        "y": 842,
+        "width": 10,
+        "height": 10
+      },
+      "pinState": "red",
+      "status": "candidate"
+    }
+  ],
+  "beforeFrame": {
+    "id": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+    "source": "screen_observation",
+    "provider": "google_play_windows",
+    "screenshotId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+    "sequence": 27225,
+    "observedAt": "2026-10-07T06:11:53.5128999+00:00",
+    "captureStartedAt": "2026-10-07T06:11:53.1501522+00:00",
+    "width": 1578,
+    "height": 1268,
+    "evidenceRef": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-8130a795-4965-43f1-b2e6-dd62eb79618a.png",
+    "evidenceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553",
+    "serial": "win32:127336:2300118:639267633024875514",
+    "packageName": "com.playrix.township",
+    "window": {
+      "app": "D:\\Program Files (x86)\\Play Games\\current\\emulator\\crosvm.exe",
+      "id": 2300118,
+      "title": "꿈의 마을 (Township) - hanuriel"
+    },
+    "captureTarget": {
+      "hwnd": 2300118,
+      "pid": 127336,
+      "processStartedTicks": "639267633024875514",
+      "processPath": "D:\\Program Files (x86)\\Play Games\\current\\emulator\\crosvm.exe",
+      "title": "꿈의 마을 (Township) - hanuriel",
+      "isForeground": true,
+      "bounds": {
+        "x": 682,
+        "y": 1446,
+        "width": 1578,
+        "height": 1268
+      },
+      "client": {
+        "x": 682,
+        "y": 1446,
+        "width": 1576,
+        "height": 1266
+      },
+      "dpi": 96,
+      "virtualDesktop": {
+        "x": 0,
+        "y": 0,
+        "width": 2560,
+        "height": 2720
+      }
+    },
+    "sourceQpcTicks": "4167276103679",
+    "sceneId": "hcl08-s0-result",
+    "kind": "helicopter",
+    "entityId": null,
+    "epoch": 948,
+    "regionSignature": "dd4befffe3b13624818be4bcfdf743e1cff18ff12d6ff72799b8974f2215b5df",
+    "required": true,
+    "stable": false,
+    "ocrRequested": false,
+    "job": {
+      "status": "deferred",
+      "attempt": 0,
+      "token": null
+    },
+    "review": {
+      "reviewedBy": "program-helicopter",
+      "quality": {
+        "gameVisible": true,
+        "occluded": false
+      },
+      "actualKind": "helicopter",
+      "actualEntityId": null,
+      "data": {
+        "order": {
+          "orderId": "hc-unread:c3e7105d3f9d76ae7b05bda1e4092188",
+          "kind": "normal",
+          "transport": "helicopter",
+          "identityMode": "product_list",
+          "signature": null,
+          "orderConfirmed": false,
+          "needs": [
+            {
+              "slotId": "r1c1",
+              "itemId": null,
+              "owned": 4,
+              "required": 1,
+              "checkPresent": true
+            },
+            {
+              "slotId": "r1c2",
+              "itemId": null,
+              "owned": 7,
+              "required": 1,
+              "checkPresent": true
+            },
+            {
+              "slotId": "r2c1",
+              "itemId": "tomato",
+              "owned": 3,
+              "required": 1,
+              "checkPresent": true
+            },
+            {
+              "slotId": "r2c2",
+              "itemId": null,
+              "owned": 0,
+              "required": 1,
+              "checkPresent": false
+            },
+            {
+              "slotId": "r3c1",
+              "itemId": null,
+              "owned": 6,
+              "required": 1,
+              "checkPresent": true
+            },
+            {
+              "slotId": "r3c2",
+              "itemId": null,
+              "owned": 10,
+              "required": 1,
+              "checkPresent": true
+            }
+          ],
+          "ready": false,
+          "disposition": "deliver"
+        },
+        "helicopter": {
+          "mapTargets": [
+            {
+              "mapId": "pin:421:685",
+              "box": {
+                "x": 416,
+                "y": 680,
+                "width": 10,
+                "height": 10
+              },
+              "pinState": "red",
+              "status": "candidate"
+            },
+            {
+              "mapId": "pin:275:695",
+              "box": {
+                "x": 270,
+                "y": 690,
+                "width": 10,
+                "height": 10
+              },
+              "pinState": "red",
+              "status": "candidate"
+            },
+            {
+              "mapId": "pin:470:793",
+              "box": {
+                "x": 465,
+                "y": 788,
+                "width": 10,
+                "height": 10
+              },
+              "pinState": "red",
+              "status": "candidate"
+            },
+            {
+              "mapId": "pin:969:823",
+              "box": {
+                "x": 964,
+                "y": 818,
+                "width": 10,
+                "height": 10
+              },
+              "pinState": "red",
+              "status": "candidate"
+            },
+            {
+              "mapId": "pin:592:847",
+              "box": {
+                "x": 587,
+                "y": 842,
+                "width": 10,
+                "height": 10
+              },
+              "pinState": "red",
+              "status": "candidate"
+            }
+          ],
+          "complete": false,
+          "checksAgree": false,
+          "reasons": [
+            "PRODUCT_OR_QUANTITY_UNKNOWN"
+          ],
+          "profileVersion": "helicopter-native-1578-screenshot-products-info-7",
+          "normalOrderNavigation": {
+            "status": "matched_candidate",
+            "anchors": [
+              {
+                "file": "normal-order-send-word.png",
+                "matchScore": 1,
+                "box": {
+                  "x": 1380,
+                  "y": 976,
+                  "width": 117,
+                  "height": 34
+                }
+              },
+              {
+                "file": "trash-button.png",
+                "matchScore": 0.9931527376174927,
+                "box": {
+                  "x": 1213,
+                  "y": 961,
+                  "width": 74,
+                  "height": 71
+                }
+              }
+            ],
+            "miniGameAbsent": true,
+            "miniGameLabel": {
+              "file": "mini-game-label.png",
+              "matchScore": 0.03239581361413002,
+              "box": {
+                "x": 1238,
+                "y": 455,
+                "width": 281,
+                "height": 91
+              }
+            }
+          },
+          "selectionGridHash": "e555344ccf6becf15ae46a849129e3ef45e7df8e0a29e1b0c7c84b20f4020a7a",
+          "productRecognition": {
+            "catalogueManifestSha256": "41458c8ea08cac87e8549b526088de2cbe61a0c273e7f0596690bec84990360c",
+            "thresholdSha256": "46b16d71a033fd1fc50c9c8a406042f7726f5ac83ab5860a199ed7926987b591",
+            "identities": [
+              {
+                "slotId": "r1c1"
+              },
+              {
+                "slotId": "r1c2"
+              },
+              {
+                "slotId": "r2c1"
+              },
+              {
+                "slotId": "r2c2"
+              },
+              {
+                "slotId": "r3c1"
+              },
+              {
+                "slotId": "r3c2"
+              }
+            ]
+          },
+          "recognitionFailures": {
+            "productIdentity": [
+              "r1c1",
+              "r1c2",
+              "r2c2",
+              "r3c1",
+              "r3c2"
+            ],
+            "quantity": [],
+            "productLocation": []
+          }
+        }
+      },
+      "targets": [
+        {
+          "id": "select:pin:421:685",
+          "kind": "select_customer",
+          "type": "tap",
+          "box": {
+            "x": 416,
+            "y": 680,
+            "width": 10,
+            "height": 10
+          },
+          "verification": {
+            "version": 1,
+            "anchorBoxes": [
+              {
+                "x": 636,
+                "y": 302,
+                "width": 440,
+                "height": 51
+              },
+              {
+                "x": 1248,
+                "y": 382,
+                "width": 270,
+                "height": 36
+              }
+            ],
+            "targetRegions": [
+              {
+                "x": 418,
+                "y": 682,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "criticalRegions": [
+              {
+                "field": "order_grid",
+                "box": {
+                  "x": 1248,
+                  "y": 446,
+                  "width": 285,
+                  "height": 338
+                }
+              }
+            ],
+            "maxChangedRatio": 0,
+            "channelTolerance": 0
+          },
+          "mapId": "pin:421:685",
+          "currentHelicopterSelection": {
+            "sourcePanel": "normal_order",
+            "sourceFrameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+            "sourceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553",
+            "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+            "sourceGridHash": "e555344ccf6becf15ae46a849129e3ef45e7df8e0a29e1b0c7c84b20f4020a7a"
+          }
+        },
+        {
+          "id": "select:pin:275:695",
+          "kind": "select_customer",
+          "type": "tap",
+          "box": {
+            "x": 270,
+            "y": 690,
+            "width": 10,
+            "height": 10
+          },
+          "verification": {
+            "version": 1,
+            "anchorBoxes": [
+              {
+                "x": 636,
+                "y": 302,
+                "width": 440,
+                "height": 51
+              },
+              {
+                "x": 1248,
+                "y": 382,
+                "width": 270,
+                "height": 36
+              }
+            ],
+            "targetRegions": [
+              {
+                "x": 272,
+                "y": 692,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "criticalRegions": [
+              {
+                "field": "order_grid",
+                "box": {
+                  "x": 1248,
+                  "y": 446,
+                  "width": 285,
+                  "height": 338
+                }
+              }
+            ],
+            "maxChangedRatio": 0,
+            "channelTolerance": 0
+          },
+          "mapId": "pin:275:695",
+          "currentHelicopterSelection": {
+            "sourcePanel": "normal_order",
+            "sourceFrameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+            "sourceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553",
+            "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+            "sourceGridHash": "e555344ccf6becf15ae46a849129e3ef45e7df8e0a29e1b0c7c84b20f4020a7a"
+          }
+        },
+        {
+          "id": "select:pin:470:793",
+          "kind": "select_customer",
+          "type": "tap",
+          "box": {
+            "x": 465,
+            "y": 788,
+            "width": 10,
+            "height": 10
+          },
+          "verification": {
+            "version": 1,
+            "anchorBoxes": [
+              {
+                "x": 636,
+                "y": 302,
+                "width": 440,
+                "height": 51
+              },
+              {
+                "x": 1248,
+                "y": 382,
+                "width": 270,
+                "height": 36
+              }
+            ],
+            "targetRegions": [
+              {
+                "x": 467,
+                "y": 790,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "criticalRegions": [
+              {
+                "field": "order_grid",
+                "box": {
+                  "x": 1248,
+                  "y": 446,
+                  "width": 285,
+                  "height": 338
+                }
+              }
+            ],
+            "maxChangedRatio": 0,
+            "channelTolerance": 0
+          },
+          "mapId": "pin:470:793",
+          "currentHelicopterSelection": {
+            "sourcePanel": "normal_order",
+            "sourceFrameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+            "sourceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553",
+            "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+            "sourceGridHash": "e555344ccf6becf15ae46a849129e3ef45e7df8e0a29e1b0c7c84b20f4020a7a"
+          }
+        },
+        {
+          "id": "select:pin:969:823",
+          "kind": "select_customer",
+          "type": "tap",
+          "box": {
+            "x": 964,
+            "y": 818,
+            "width": 10,
+            "height": 10
+          },
+          "verification": {
+            "version": 1,
+            "anchorBoxes": [
+              {
+                "x": 636,
+                "y": 302,
+                "width": 440,
+                "height": 51
+              },
+              {
+                "x": 1248,
+                "y": 382,
+                "width": 270,
+                "height": 36
+              }
+            ],
+            "targetRegions": [
+              {
+                "x": 966,
+                "y": 820,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "criticalRegions": [
+              {
+                "field": "order_grid",
+                "box": {
+                  "x": 1248,
+                  "y": 446,
+                  "width": 285,
+                  "height": 338
+                }
+              }
+            ],
+            "maxChangedRatio": 0,
+            "channelTolerance": 0
+          },
+          "mapId": "pin:969:823",
+          "currentHelicopterSelection": {
+            "sourcePanel": "normal_order",
+            "sourceFrameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+            "sourceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553",
+            "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+            "sourceGridHash": "e555344ccf6becf15ae46a849129e3ef45e7df8e0a29e1b0c7c84b20f4020a7a"
+          }
+        },
+        {
+          "id": "select:pin:592:847",
+          "kind": "select_customer",
+          "type": "tap",
+          "box": {
+            "x": 587,
+            "y": 842,
+            "width": 10,
+            "height": 10
+          },
+          "verification": {
+            "version": 1,
+            "anchorBoxes": [
+              {
+                "x": 636,
+                "y": 302,
+                "width": 440,
+                "height": 51
+              },
+              {
+                "x": 1248,
+                "y": 382,
+                "width": 270,
+                "height": 36
+              }
+            ],
+            "targetRegions": [
+              {
+                "x": 589,
+                "y": 844,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "criticalRegions": [
+              {
+                "field": "order_grid",
+                "box": {
+                  "x": 1248,
+                  "y": 446,
+                  "width": 285,
+                  "height": 338
+                }
+              }
+            ],
+            "maxChangedRatio": 0,
+            "channelTolerance": 0
+          },
+          "mapId": "pin:592:847",
+          "currentHelicopterSelection": {
+            "sourcePanel": "normal_order",
+            "sourceFrameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+            "sourceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553",
+            "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+            "sourceGridHash": "e555344ccf6becf15ae46a849129e3ef45e7df8e0a29e1b0c7c84b20f4020a7a"
+          }
+        }
+      ],
+      "reviewedAt": "2026-10-07T06:11:54.880Z",
+      "proof": {
+        "schema": "program-helicopter-1",
+        "frameId": "frame-8130a795-4965-43f1-b2e6-dd62eb79618a",
+        "evidenceHash": "e931628ff263b7a3c7f5b1a0237ed920934bef417e5d686d0aa4192c6f7fe553",
+        "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+        "productRecognition": {
+          "catalogueManifestSha256": "41458c8ea08cac87e8549b526088de2cbe61a0c273e7f0596690bec84990360c",
+          "thresholdSha256": "46b16d71a033fd1fc50c9c8a406042f7726f5ac83ab5860a199ed7926987b591"
+        },
+        "registryHash": "6fabb1189546128ddc5a84aade85387bff0752d4aed8ad1bfc179f49a73df5b1",
+        "fieldsHash": "fa38747ddb4afa7c658cfac43cbd5acc5b5b003059c1171f19d488b5fa8952b6",
+        "inputId": "hcl08-s0",
+        "invalidationSequence": 27222,
+        "reviewHash": "bb1abba31018e0db87de7a97ff376d5d8ff01c200f54a93927f56436f189dc91"
+      },
+      "status": "accepted"
+    },
+    "preparedAt": "2026-10-07T06:11:54.338Z"
+  },
+  "afterFrame": {
+    "id": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+    "source": "screen_observation",
+    "provider": "google_play_windows",
+    "screenshotId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+    "sequence": 27226,
+    "observedAt": "2026-10-07T06:12:00.2868009+00:00",
+    "captureStartedAt": "2026-10-07T06:11:59.9209689+00:00",
+    "width": 1578,
+    "height": 1268,
+    "evidenceRef": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-e7cef5c1-2d01-4616-9e54-b21310719824.png",
+    "evidenceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+    "serial": "win32:127336:2300118:639267633024875514",
+    "packageName": "com.playrix.township",
+    "window": {
+      "app": "D:\\Program Files (x86)\\Play Games\\current\\emulator\\crosvm.exe",
+      "id": 2300118,
+      "title": "꿈의 마을 (Township) - hanuriel"
+    },
+    "captureTarget": {
+      "hwnd": 2300118,
+      "pid": 127336,
+      "processStartedTicks": "639267633024875514",
+      "processPath": "D:\\Program Files (x86)\\Play Games\\current\\emulator\\crosvm.exe",
+      "title": "꿈의 마을 (Township) - hanuriel",
+      "isForeground": true,
+      "bounds": {
+        "x": 682,
+        "y": 1446,
+        "width": 1578,
+        "height": 1268
+      },
+      "client": {
+        "x": 682,
+        "y": 1446,
+        "width": 1576,
+        "height": 1266
+      },
+      "dpi": 96,
+      "virtualDesktop": {
+        "x": 0,
+        "y": 0,
+        "width": 2560,
+        "height": 2720
+      }
+    },
+    "sourceQpcTicks": "4167343937861",
+    "sceneId": "hcl09-s2-result",
+    "kind": "helicopter",
+    "entityId": null,
+    "epoch": 949,
+    "regionSignature": "0c2d27a55762ae8deb6eebc6c9f89ac90f6ef86b359afecdbb4c687c68270b9e",
+    "required": true,
+    "stable": false,
+    "ocrRequested": false,
+    "job": {
+      "status": "deferred",
+      "attempt": 0,
+      "token": null
+    },
+    "review": {
+      "reviewedBy": "program-helicopter",
+      "quality": {
+        "gameVisible": true,
+        "occluded": false
+      },
+      "actualKind": "helicopter",
+      "actualEntityId": null,
+      "data": {
+        "order": {
+          "orderId": "hc-unread:d94395368ca6a1d1602a1b3aec52fb48",
+          "kind": "normal",
+          "transport": "helicopter",
+          "identityMode": "product_list",
+          "signature": null,
+          "orderConfirmed": false,
+          "needs": [
+            {
+              "slotId": "r1c1",
+              "itemId": null,
+              "owned": 7,
+              "required": 1,
+              "checkPresent": true
+            },
+            {
+              "slotId": "r1c2",
+              "itemId": null,
+              "owned": 1,
+              "required": 1,
+              "checkPresent": true
+            },
+            {
+              "slotId": "r2c1",
+              "itemId": null,
+              "owned": 5,
+              "required": 1,
+              "checkPresent": true
+            },
+            {
+              "slotId": "r2c2",
+              "itemId": null,
+              "owned": 0,
+              "required": 1,
+              "checkPresent": false
+            }
+          ],
+          "ready": false,
+          "disposition": "deliver"
+        },
+        "helicopter": {
+          "mapTargets": [
+            {
+              "mapId": "pin:277:687",
+              "box": {
+                "x": 272,
+                "y": 682,
+                "width": 10,
+                "height": 10
+              },
+              "pinState": "red",
+              "status": "candidate"
+            },
+            {
+              "mapId": "pin:473:805",
+              "box": {
+                "x": 468,
+                "y": 800,
+                "width": 10,
+                "height": 10
+              },
+              "pinState": "red",
+              "status": "candidate"
+            },
+            {
+              "mapId": "pin:969:823",
+              "box": {
+                "x": 964,
+                "y": 818,
+                "width": 10,
+                "height": 10
+              },
+              "pinState": "red",
+              "status": "candidate"
+            },
+            {
+              "mapId": "pin:592:847",
+              "box": {
+                "x": 587,
+                "y": 842,
+                "width": 10,
+                "height": 10
+              },
+              "pinState": "red",
+              "status": "candidate"
+            }
+          ],
+          "complete": false,
+          "checksAgree": false,
+          "reasons": [
+            "PRODUCT_OR_QUANTITY_UNKNOWN"
+          ],
+          "profileVersion": "helicopter-native-1578-screenshot-products-info-7",
+          "normalOrderNavigation": {
+            "status": "matched_candidate",
+            "anchors": [
+              {
+                "file": "normal-order-send-word.png",
+                "matchScore": 1,
+                "box": {
+                  "x": 1380,
+                  "y": 976,
+                  "width": 117,
+                  "height": 34
+                }
+              },
+              {
+                "file": "trash-button.png",
+                "matchScore": 0.9931527376174927,
+                "box": {
+                  "x": 1213,
+                  "y": 961,
+                  "width": 74,
+                  "height": 71
+                }
+              }
+            ],
+            "miniGameAbsent": true,
+            "miniGameLabel": {
+              "file": "mini-game-label.png",
+              "matchScore": 0.049338553100824356,
+              "box": {
+                "x": 1238,
+                "y": 455,
+                "width": 281,
+                "height": 91
+              }
+            }
+          },
+          "selectionGridHash": "f79dd0a236ce11b1c77de38810a5e8cfa107acc49a3a2e98f12fa3ee39e099b2",
+          "productRecognition": {
+            "catalogueManifestSha256": "41458c8ea08cac87e8549b526088de2cbe61a0c273e7f0596690bec84990360c",
+            "thresholdSha256": "46b16d71a033fd1fc50c9c8a406042f7726f5ac83ab5860a199ed7926987b591",
+            "identities": [
+              {
+                "slotId": "r1c1"
+              },
+              {
+                "slotId": "r1c2"
+              },
+              {
+                "slotId": "r2c1"
+              },
+              {
+                "slotId": "r2c2"
+              }
+            ]
+          },
+          "recognitionFailures": {
+            "productIdentity": [
+              "r1c1",
+              "r1c2",
+              "r2c1",
+              "r2c2"
+            ],
+            "quantity": [],
+            "productLocation": []
+          }
+        }
+      },
+      "targets": [
+        {
+          "id": "select:pin:277:687",
+          "kind": "select_customer",
+          "type": "tap",
+          "box": {
+            "x": 272,
+            "y": 682,
+            "width": 10,
+            "height": 10
+          },
+          "verification": {
+            "version": 1,
+            "anchorBoxes": [
+              {
+                "x": 636,
+                "y": 302,
+                "width": 440,
+                "height": 51
+              },
+              {
+                "x": 1248,
+                "y": 382,
+                "width": 270,
+                "height": 36
+              }
+            ],
+            "targetRegions": [
+              {
+                "x": 274,
+                "y": 684,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "criticalRegions": [
+              {
+                "field": "order_grid",
+                "box": {
+                  "x": 1248,
+                  "y": 446,
+                  "width": 285,
+                  "height": 338
+                }
+              }
+            ],
+            "maxChangedRatio": 0,
+            "channelTolerance": 0
+          },
+          "mapId": "pin:277:687",
+          "currentHelicopterSelection": {
+            "sourcePanel": "normal_order",
+            "sourceFrameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+            "sourceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+            "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+            "sourceGridHash": "f79dd0a236ce11b1c77de38810a5e8cfa107acc49a3a2e98f12fa3ee39e099b2"
+          }
+        },
+        {
+          "id": "select:pin:473:805",
+          "kind": "select_customer",
+          "type": "tap",
+          "box": {
+            "x": 468,
+            "y": 800,
+            "width": 10,
+            "height": 10
+          },
+          "verification": {
+            "version": 1,
+            "anchorBoxes": [
+              {
+                "x": 636,
+                "y": 302,
+                "width": 440,
+                "height": 51
+              },
+              {
+                "x": 1248,
+                "y": 382,
+                "width": 270,
+                "height": 36
+              }
+            ],
+            "targetRegions": [
+              {
+                "x": 470,
+                "y": 802,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "criticalRegions": [
+              {
+                "field": "order_grid",
+                "box": {
+                  "x": 1248,
+                  "y": 446,
+                  "width": 285,
+                  "height": 338
+                }
+              }
+            ],
+            "maxChangedRatio": 0,
+            "channelTolerance": 0
+          },
+          "mapId": "pin:473:805",
+          "currentHelicopterSelection": {
+            "sourcePanel": "normal_order",
+            "sourceFrameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+            "sourceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+            "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+            "sourceGridHash": "f79dd0a236ce11b1c77de38810a5e8cfa107acc49a3a2e98f12fa3ee39e099b2"
+          }
+        },
+        {
+          "id": "select:pin:969:823",
+          "kind": "select_customer",
+          "type": "tap",
+          "box": {
+            "x": 964,
+            "y": 818,
+            "width": 10,
+            "height": 10
+          },
+          "verification": {
+            "version": 1,
+            "anchorBoxes": [
+              {
+                "x": 636,
+                "y": 302,
+                "width": 440,
+                "height": 51
+              },
+              {
+                "x": 1248,
+                "y": 382,
+                "width": 270,
+                "height": 36
+              }
+            ],
+            "targetRegions": [
+              {
+                "x": 966,
+                "y": 820,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "criticalRegions": [
+              {
+                "field": "order_grid",
+                "box": {
+                  "x": 1248,
+                  "y": 446,
+                  "width": 285,
+                  "height": 338
+                }
+              }
+            ],
+            "maxChangedRatio": 0,
+            "channelTolerance": 0
+          },
+          "mapId": "pin:969:823",
+          "currentHelicopterSelection": {
+            "sourcePanel": "normal_order",
+            "sourceFrameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+            "sourceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+            "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+            "sourceGridHash": "f79dd0a236ce11b1c77de38810a5e8cfa107acc49a3a2e98f12fa3ee39e099b2"
+          }
+        },
+        {
+          "id": "select:pin:592:847",
+          "kind": "select_customer",
+          "type": "tap",
+          "box": {
+            "x": 587,
+            "y": 842,
+            "width": 10,
+            "height": 10
+          },
+          "verification": {
+            "version": 1,
+            "anchorBoxes": [
+              {
+                "x": 636,
+                "y": 302,
+                "width": 440,
+                "height": 51
+              },
+              {
+                "x": 1248,
+                "y": 382,
+                "width": 270,
+                "height": 36
+              }
+            ],
+            "targetRegions": [
+              {
+                "x": 589,
+                "y": 844,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "criticalRegions": [
+              {
+                "field": "order_grid",
+                "box": {
+                  "x": 1248,
+                  "y": 446,
+                  "width": 285,
+                  "height": 338
+                }
+              }
+            ],
+            "maxChangedRatio": 0,
+            "channelTolerance": 0
+          },
+          "mapId": "pin:592:847",
+          "currentHelicopterSelection": {
+            "sourcePanel": "normal_order",
+            "sourceFrameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+            "sourceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+            "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+            "sourceGridHash": "f79dd0a236ce11b1c77de38810a5e8cfa107acc49a3a2e98f12fa3ee39e099b2"
+          }
+        }
+      ],
+      "reviewedAt": "2026-10-07T06:12:01.554Z",
+      "proof": {
+        "schema": "program-helicopter-1",
+        "frameId": "frame-e7cef5c1-2d01-4616-9e54-b21310719824",
+        "evidenceHash": "1073c4dd3774ead526cf5670a18dc6485ab22fd35863052b3c3fd57c1a4b7089",
+        "profileHash": "5d1311d5e90fc158c12cb9b4a1b9e7e600249d210bcad38f394ab678fb1c7749",
+        "productRecognition": {
+          "catalogueManifestSha256": "41458c8ea08cac87e8549b526088de2cbe61a0c273e7f0596690bec84990360c",
+          "thresholdSha256": "46b16d71a033fd1fc50c9c8a406042f7726f5ac83ab5860a199ed7926987b591"
+        },
+        "registryHash": "6fabb1189546128ddc5a84aade85387bff0752d4aed8ad1bfc179f49a73df5b1",
+        "fieldsHash": "24edf2393b8688d9ddc644cb88c21d0fbca636debe37fe4a90ac3d4499bbaa9d",
+        "inputId": "hcl09-s2",
+        "invalidationSequence": 27222,
+        "reviewHash": "3ec15e45e869a564d30cb4eed56e86f81a44bf480d9412bb495a7791d4361b03"
+      },
+      "status": "accepted"
+    },
+    "preparedAt": "2026-10-07T06:12:01.072Z"
+  }
+}

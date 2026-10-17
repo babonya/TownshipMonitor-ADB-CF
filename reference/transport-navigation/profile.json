@@ -1,0 +1,2062 @@
+{
+  "schema": 1,
+  "version": "transport-shortage-exit-20261004-located-input-v1",
+  "dimensions": {
+    "width": 1600,
+    "height": 900
+  },
+  "town": {
+    "anchors": [
+      {
+        "file": "menu.png",
+        "box": {
+          "x": 1514,
+          "y": 51,
+          "width": 36,
+          "height": 36
+        },
+        "mode": "exact"
+      },
+      {
+        "file": "clipboard.png",
+        "box": {
+          "x": 380,
+          "y": 780,
+          "width": 38,
+          "height": 45
+        },
+        "mode": "exact"
+      }
+    ],
+    "map": [
+      {
+        "file": "barn.png",
+        "box": {
+          "x": 851,
+          "y": 215,
+          "width": 105,
+          "height": 63
+        },
+        "mode": "illumination"
+      },
+      {
+        "file": "airport.png",
+        "box": {
+          "x": 828,
+          "y": 594,
+          "width": 80,
+          "height": 48
+        },
+        "mode": "illumination"
+      },
+      {
+        "file": "tower.png",
+        "box": {
+          "x": 1230,
+          "y": 284,
+          "width": 80,
+          "height": 55
+        },
+        "mode": "illumination"
+      },
+      {
+        "file": "market.png",
+        "box": {
+          "x": 493,
+          "y": 408,
+          "width": 72,
+          "height": 36
+        },
+        "mode": "illumination"
+      }
+    ],
+    "shortcuts": [
+      {
+        "kind": "helicopter",
+        "spec": {
+          "file": "helicopter-static-button.png",
+          "box": {
+            "x": 1164,
+            "y": 800,
+            "width": 38,
+            "height": 20
+          },
+          "mode": "exact",
+          "locator": {
+            "schema": 1,
+            "searchBox": {
+              "x": 1084,
+              "y": 720,
+              "width": 198,
+              "height": 180
+            }
+          }
+        }
+      },
+      {
+        "kind": "train",
+        "spec": {
+          "file": "train.png",
+          "box": {
+            "x": 1290,
+            "y": 790,
+            "width": 62,
+            "height": 50
+          },
+          "mode": "exact",
+          "locator": {
+            "schema": 1,
+            "searchBox": {
+              "x": 1210,
+              "y": 710,
+              "width": 222,
+              "height": 190
+            }
+          }
+        }
+      },
+      {
+        "kind": "airport",
+        "spec": {
+          "file": "airport.png",
+          "box": {
+            "x": 828,
+            "y": 594,
+            "width": 80,
+            "height": 48
+          },
+          "mode": "illumination",
+          "locator": {
+            "schema": 1,
+            "searchBox": {
+              "x": 748,
+              "y": 514,
+              "width": 240,
+              "height": 208
+            }
+          }
+        }
+      }
+    ],
+    "ready": {
+      "file": "ready.png",
+      "box": {
+        "x": 1224,
+        "y": 752,
+        "width": 15,
+        "height": 15
+      },
+      "mode": "exact"
+    },
+    "mapAlternatives": [
+      {
+        "id": "barn-market-shifted",
+        "availableKinds": [
+          "helicopter",
+          "train"
+        ],
+        "map": [
+          {
+            "file": "shifted-barn.png",
+            "box": {
+              "x": 750,
+              "y": 179,
+              "width": 98,
+              "height": 61
+            },
+            "mode": "illumination"
+          },
+          {
+            "file": "shifted-airport.png",
+            "box": {
+              "x": 725,
+              "y": 617,
+              "width": 68,
+              "height": 41
+            },
+            "mode": "illumination"
+          },
+          {
+            "file": "shifted-tower.png",
+            "box": {
+              "x": 1117,
+              "y": 289,
+              "width": 62,
+              "height": 49
+            },
+            "mode": "illumination"
+          },
+          {
+            "file": "shifted-market.png",
+            "box": {
+              "x": 386,
+              "y": 409,
+              "width": 65,
+              "height": 34
+            },
+            "mode": "illumination"
+          }
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "file": "menu.png",
+      "box": {
+        "x": 1514,
+        "y": 51,
+        "width": 36,
+        "height": 36
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-airport-result.png",
+      "sha256": "553eb0de755bfbb9287830c183919419fd50d0e815a6f8f21bf7c5c8d5add18b"
+    },
+    {
+      "file": "clipboard.png",
+      "box": {
+        "x": 380,
+        "y": 780,
+        "width": 38,
+        "height": 45
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-airport-result.png",
+      "sha256": "4f1c7bd2329b82211359d8e3a05e1a633d7fc7bee96ac62af18b0ff7381aff19"
+    },
+    {
+      "file": "barn.png",
+      "box": {
+        "x": 851,
+        "y": 215,
+        "width": 105,
+        "height": 63
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-airport-result.png",
+      "sha256": "ea980fae0e6b851aaf0b17ae326ca6191c973070d1b7cefe44d39c27fdec3046"
+    },
+    {
+      "file": "airport.png",
+      "box": {
+        "x": 828,
+        "y": 594,
+        "width": 80,
+        "height": 48
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-airport-result.png",
+      "sha256": "7ad66a008fb0d40f1fd63289f5982607e9b0d961c69e388f9eceafbf53db0744"
+    },
+    {
+      "file": "tower.png",
+      "box": {
+        "x": 1230,
+        "y": 284,
+        "width": 80,
+        "height": 55
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-airport-result.png",
+      "sha256": "ec590a3fa2606ef95278b8a7030bf3fcd1bc676e707307ad453a20880dc246ca"
+    },
+    {
+      "file": "market.png",
+      "box": {
+        "x": 493,
+        "y": 408,
+        "width": 72,
+        "height": 36
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-airport-result.png",
+      "sha256": "a2ef4457eaf85170621e2d90cb32a8a3f3428f572f057e9a0d8c1a94754f6c8d"
+    },
+    {
+      "file": "helicopter.png",
+      "box": {
+        "x": 1155,
+        "y": 788,
+        "width": 65,
+        "height": 54
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-airport-result.png",
+      "sha256": "01cb527eb45f3011bb09684f7e6b00718f7a44176a19ccc8dd2d1e15beca059b"
+    },
+    {
+      "file": "train.png",
+      "box": {
+        "x": 1290,
+        "y": 790,
+        "width": 62,
+        "height": 50
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-airport-result.png",
+      "sha256": "5866f3b43b248ad17a916b2d96a4a9667f5211b7944c0794fdfbc04f569074b9"
+    },
+    {
+      "file": "ready.png",
+      "box": {
+        "x": 1224,
+        "y": 752,
+        "width": 15,
+        "height": 15
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-airport-result.png",
+      "sha256": "f9519a67999ee1fedd6492454427eed7cdebdda6be18728bc626d948f81fbd66"
+    },
+    {
+      "file": "helicopter-anchor-0.png",
+      "box": {
+        "x": 560,
+        "y": 43,
+        "width": 475,
+        "height": 60
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\transport-exit-evidence-20261004\\close-helicopter-preflight.png",
+      "sourceSha256": "c8c98d304aea6e872cbb7114d4b22dc030885ac8d0880ce44936015d6e74d04a",
+      "sha256": "7b18a00913a63e22c0c7c775a5cebc50690f66348a9d08590a90e238db18d1a6"
+    },
+    {
+      "file": "helicopter-anchor-1.png",
+      "box": {
+        "x": 1227,
+        "y": 128,
+        "width": 295,
+        "height": 44
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\transport-exit-evidence-20261004\\close-helicopter-preflight.png",
+      "sourceSha256": "c8c98d304aea6e872cbb7114d4b22dc030885ac8d0880ce44936015d6e74d04a",
+      "sha256": "e3ce188680366a3e4652d8337b17995dbb3d5e6867949a781169159cd05237d6"
+    },
+    {
+      "file": "helicopter-close.png",
+      "box": {
+        "x": 1274,
+        "y": 51,
+        "width": 35,
+        "height": 35
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\transport-exit-evidence-20261004\\close-helicopter-preflight.png",
+      "sourceSha256": "c8c98d304aea6e872cbb7114d4b22dc030885ac8d0880ce44936015d6e74d04a",
+      "sha256": "f9f6581d9d9c5734694ecb7630d3e89bd83f0772d5b168a6c242030f9de9c253"
+    },
+    {
+      "file": "train-anchor-0.png",
+      "box": {
+        "x": 584,
+        "y": 47,
+        "width": 423,
+        "height": 44
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-train-preflight.png",
+      "sourceSha256": "619de7d67d934e02fd1b0dcf7f5901b3e6f7ddcdb834d8b062f8cb2df11d98a7",
+      "sha256": "40f1872f3b0a9440f2164bff3ad03c249eb719bce4fbca9c1aa8697d80cf1259"
+    },
+    {
+      "file": "train-anchor-1.png",
+      "box": {
+        "x": 896,
+        "y": 165,
+        "width": 196,
+        "height": 34
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-train-preflight.png",
+      "sourceSha256": "619de7d67d934e02fd1b0dcf7f5901b3e6f7ddcdb834d8b062f8cb2df11d98a7",
+      "sha256": "859fe44f13c021671da6c6316e2848b37b677092055d1f584f9ccbc5997dda0a"
+    },
+    {
+      "file": "train-close.png",
+      "box": {
+        "x": 1274,
+        "y": 51,
+        "width": 35,
+        "height": 35
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-train-preflight.png",
+      "sourceSha256": "619de7d67d934e02fd1b0dcf7f5901b3e6f7ddcdb834d8b062f8cb2df11d98a7",
+      "sha256": "dc77f4fa287d38da0a852c40594b1bc3bd9bdbfea8eecc9da42f48c66ac95b0e"
+    },
+    {
+      "file": "airport-anchor-0.png",
+      "box": {
+        "x": 700,
+        "y": 77,
+        "width": 207,
+        "height": 29
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-airport-preflight.png",
+      "sourceSha256": "8b10c93233bb9d72e0b0a63f1695183da07de77ba5a19b30ba1cc0fff2245a10",
+      "sha256": "e53da069759008b1b667c391e3367f80c1b231835b1dbdd515de5538626a4819"
+    },
+    {
+      "file": "airport-anchor-1.png",
+      "box": {
+        "x": 1104,
+        "y": 169,
+        "width": 291,
+        "height": 61
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-airport-preflight.png",
+      "sourceSha256": "8b10c93233bb9d72e0b0a63f1695183da07de77ba5a19b30ba1cc0fff2245a10",
+      "sha256": "3994a5f79726644dc728751f39bde6b748f7ace2ab6b91f3bb95bd98e58cdff9"
+    },
+    {
+      "file": "airport-close.png",
+      "box": {
+        "x": 1354,
+        "y": 75,
+        "width": 32,
+        "height": 34
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-airport-preflight.png",
+      "sourceSha256": "8b10c93233bb9d72e0b0a63f1695183da07de77ba5a19b30ba1cc0fff2245a10",
+      "sha256": "f81857c9feb0541803fa0c55f5093653046006388f9952873f8fe188ba6b8198"
+    },
+    {
+      "file": "airport-time-left.png",
+      "box": {
+        "x": 1174,
+        "y": 163,
+        "width": 173,
+        "height": 30
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-e3cddb81-98a4-48db-a0b7-d527092b781c.png",
+      "sourceSha256": "b149111e8c3ba88c3038e96a1ee2573fa722caa6a5070d2db2d5aa27ed06dcda",
+      "sha256": "92b5ec127d0e8b7b240b143c8bbed1915e201aef7552e5d971f265bd69465a09"
+    },
+    {
+      "file": "helicopter-static-button.png",
+      "box": {
+        "x": 1164,
+        "y": 800,
+        "width": 38,
+        "height": 20
+      },
+      "source": "C:/Users/djfal/Documents/Codex/2026-10-02/task/Township/artifacts/transport-routing-evidence-20261004/town-current.png",
+      "sourceSha256": "23b9d6b031e5fa32086432cd84ca31c9f3a8f8512b65cf91fe0fcafc69d2fbc8",
+      "sha256": "56981f4271c67b97cf397e29bed595b6965734ad2af564f971d9fc715447120e"
+    },
+    {
+      "file": "shifted-barn.png",
+      "box": {
+        "x": 750,
+        "y": 179,
+        "width": 98,
+        "height": 61
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\transport-shortage-exit-evidence-20261004\\close-shortage-result.png",
+      "sourceSha256": "0456495996060feb87c4312f9b10f84c91fa5ec9354433083fedf65a31170fe7",
+      "sha256": "b784cb5aba3f6f77cb2e75e61ef72227a5b60f14a7267fd142bde0c21173f9c4"
+    },
+    {
+      "file": "shifted-airport.png",
+      "box": {
+        "x": 725,
+        "y": 617,
+        "width": 68,
+        "height": 41
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\transport-shortage-exit-evidence-20261004\\close-shortage-result.png",
+      "sourceSha256": "0456495996060feb87c4312f9b10f84c91fa5ec9354433083fedf65a31170fe7",
+      "sha256": "ff4459bb932a4a41d7f1b65511aacd8b8c5b1de624b4f5d9a9ae096a37d18e68"
+    },
+    {
+      "file": "shifted-tower.png",
+      "box": {
+        "x": 1117,
+        "y": 289,
+        "width": 62,
+        "height": 49
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\transport-shortage-exit-evidence-20261004\\close-shortage-result.png",
+      "sourceSha256": "0456495996060feb87c4312f9b10f84c91fa5ec9354433083fedf65a31170fe7",
+      "sha256": "036bac2f17c6667d490dd16ce6ec2567502608e76ad96b1c51b9b89e315c7835"
+    },
+    {
+      "file": "shifted-market.png",
+      "box": {
+        "x": 386,
+        "y": 409,
+        "width": 65,
+        "height": 34
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\transport-shortage-exit-evidence-20261004\\close-shortage-result.png",
+      "sourceSha256": "0456495996060feb87c4312f9b10f84c91fa5ec9354433083fedf65a31170fe7",
+      "sha256": "afe3d1d5c2c8e8c45233c279065b7b088fbb4415c887d2593e805f59a0aa5db1"
+    },
+    {
+      "file": "train-header-edge.png",
+      "box": {
+        "x": 584,
+        "y": 48,
+        "width": 48,
+        "height": 14
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\transport-shortage-exit-evidence-20261004\\initial-current.png",
+      "sourceSha256": "ab00e2cc6afec7a8bd4bc3267181eb7b44da08fcc0e8eb3c04b6ef5760231efc",
+      "sha256": "62d743b1679ca6b76206ada26f3b8edfdc44059906fe3a4c3b68844d9f4c9632"
+    },
+    {
+      "file": "train-panel-left.png",
+      "box": {
+        "x": 90,
+        "y": 120,
+        "width": 200,
+        "height": 12
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\transport-shortage-exit-evidence-20261004\\initial-current.png",
+      "sourceSha256": "ab00e2cc6afec7a8bd4bc3267181eb7b44da08fcc0e8eb3c04b6ef5760231efc",
+      "sha256": "7daf7220d455cdfe08d0368cfd50c595237993d6080abbf55634abc6fdc64ec7"
+    },
+    {
+      "file": "train-panel-bottom.png",
+      "box": {
+        "x": 750,
+        "y": 855,
+        "width": 150,
+        "height": 12
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\transport-shortage-exit-evidence-20261004\\initial-current.png",
+      "sourceSha256": "ab00e2cc6afec7a8bd4bc3267181eb7b44da08fcc0e8eb3c04b6ef5760231efc",
+      "sha256": "a12ac620dada20f83a20f1203f58dd0981bbaf1c205b7442524d2addc6058577"
+    },
+    {
+      "file": "train-close-core.png",
+      "box": {
+        "x": 1282,
+        "y": 60,
+        "width": 20,
+        "height": 19
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\transport-shortage-exit-evidence-20261004\\initial-current.png",
+      "sourceSha256": "ab00e2cc6afec7a8bd4bc3267181eb7b44da08fcc0e8eb3c04b6ef5760231efc",
+      "sha256": "4f51e1899264dbc5e1ed23589fd801e4e8845bbaa59db7944e0abc84943be7ab"
+    },
+    {
+      "file": "train-panel-old-0.png",
+      "box": {
+        "x": 584,
+        "y": 48,
+        "width": 48,
+        "height": 14
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-train-preflight.png",
+      "sourceSha256": "619de7d67d934e02fd1b0dcf7f5901b3e6f7ddcdb834d8b062f8cb2df11d98a7",
+      "sha256": "373027fdefd9254e5adc5196f9afcbeeefc90412b3918b7e4d52d2121e3839d0"
+    },
+    {
+      "file": "train-panel-old-1.png",
+      "box": {
+        "x": 90,
+        "y": 120,
+        "width": 200,
+        "height": 12
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-train-preflight.png",
+      "sourceSha256": "619de7d67d934e02fd1b0dcf7f5901b3e6f7ddcdb834d8b062f8cb2df11d98a7",
+      "sha256": "8d6048d733d5fbcf9e87be6f1bd4e3ff860ec9a3e92add0878fc048c302b2659"
+    },
+    {
+      "file": "train-panel-old-2.png",
+      "box": {
+        "x": 750,
+        "y": 855,
+        "width": 150,
+        "height": 12
+      },
+      "source": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-train-preflight.png",
+      "sourceSha256": "619de7d67d934e02fd1b0dcf7f5901b3e6f7ddcdb834d8b062f8cb2df11d98a7",
+      "sha256": "9a6e7ab62cc809073524f819a2b5d2b4ad723ad0a17ac772d5862eb76c016923"
+    },
+    {
+      "file": "airport-return-caption-core.png",
+      "sha256": "84e98c055b44d15dbf717b7b18ce67517450122fb92c467a1f8b716efd9eeecb",
+      "sourceFrameId": "close-airport-preflight",
+      "sourceHash": "8b10c93233bb9d72e0b0a63f1695183da07de77ba5a19b30ba1cc0fff2245a10",
+      "sourceBox": {
+        "x": 1174,
+        "y": 170,
+        "width": 170,
+        "height": 16
+      }
+    },
+    {
+      "file": "airport-loading-caption-core.png",
+      "sha256": "fdad74d0d0949f21c10918e27a3379528ffb2f19e56d999df14a55827d90032c",
+      "sourceFrameId": "airport-potato5",
+      "sourceHash": "4c3baee2d45f2856a012048f23a358f1353cf9e93ce6d88539c0a41a353be2c2",
+      "sourceBox": {
+        "x": 1174,
+        "y": 170,
+        "width": 170,
+        "height": 16
+      }
+    }
+  ],
+  "source": {
+    "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\artifacts\\airplane-evidence-20261004\\close-airport-result.png",
+    "sha256": "843a7accaa309e3f41c0a2f51b1fa66d7a81fa26b6bd74f173bfaee15b4a7b7a"
+  },
+  "panels": {
+    "helicopter": {
+      "anchors": [
+        {
+          "file": "helicopter-anchor-0.png",
+          "box": {
+            "x": 560,
+            "y": 43,
+            "width": 475,
+            "height": 60
+          },
+          "mode": "exact"
+        },
+        {
+          "file": "helicopter-anchor-1.png",
+          "box": {
+            "x": 1227,
+            "y": 128,
+            "width": 295,
+            "height": 44
+          },
+          "mode": "exact"
+        }
+      ],
+      "close": {
+        "file": "helicopter-close.png",
+        "box": {
+          "x": 1274,
+          "y": 51,
+          "width": 35,
+          "height": 35
+        },
+        "mode": "exact",
+        "locator": {
+          "schema": 1,
+          "searchBox": {
+            "x": 1210,
+            "y": 0,
+            "width": 163,
+            "height": 163
+          }
+        }
+      }
+    },
+    "train": {
+      "anchors": [
+        {
+          "file": "train-header-edge.png",
+          "box": {
+            "x": 584,
+            "y": 48,
+            "width": 48,
+            "height": 14
+          },
+          "mode": "exact"
+        },
+        {
+          "file": "train-panel-left.png",
+          "box": {
+            "x": 90,
+            "y": 120,
+            "width": 200,
+            "height": 12
+          },
+          "mode": "exact"
+        },
+        {
+          "file": "train-panel-bottom.png",
+          "box": {
+            "x": 750,
+            "y": 855,
+            "width": 150,
+            "height": 12
+          },
+          "mode": "exact"
+        }
+      ],
+      "close": {
+        "file": "train-close-core.png",
+        "box": {
+          "x": 1282,
+          "y": 60,
+          "width": 20,
+          "height": 19
+        },
+        "mode": "exact",
+        "locator": {
+          "schema": 1,
+          "searchBox": {
+            "x": 1218,
+            "y": 0,
+            "width": 148,
+            "height": 147
+          }
+        }
+      },
+      "anchorAlternatives": [
+        [
+          {
+            "file": "train-panel-old-0.png",
+            "box": {
+              "x": 584,
+              "y": 48,
+              "width": 48,
+              "height": 14
+            },
+            "mode": "exact"
+          },
+          {
+            "file": "train-panel-old-1.png",
+            "box": {
+              "x": 90,
+              "y": 120,
+              "width": 200,
+              "height": 12
+            },
+            "mode": "exact"
+          },
+          {
+            "file": "train-panel-old-2.png",
+            "box": {
+              "x": 750,
+              "y": 855,
+              "width": 150,
+              "height": 12
+            },
+            "mode": "exact"
+          }
+        ]
+      ]
+    },
+    "airport": {
+      "anchors": [
+        {
+          "file": "airport-anchor-0.png",
+          "box": {
+            "x": 700,
+            "y": 77,
+            "width": 207,
+            "height": 29
+          },
+          "mode": "exact"
+        },
+        {
+          "file": "airport-return-caption-core.png",
+          "box": {
+            "x": 1174,
+            "y": 170,
+            "width": 170,
+            "height": 16
+          },
+          "mode": "exact"
+        }
+      ],
+      "close": {
+        "file": "airport-close.png",
+        "box": {
+          "x": 1354,
+          "y": 75,
+          "width": 32,
+          "height": 34
+        },
+        "mode": "exact",
+        "locator": {
+          "schema": 1,
+          "searchBox": {
+            "x": 1290,
+            "y": 11,
+            "width": 160,
+            "height": 162
+          }
+        }
+      },
+      "activeCaption": {
+        "file": "airport-time-left.png",
+        "box": {
+          "x": 1174,
+          "y": 163,
+          "width": 173,
+          "height": 30
+        },
+        "mode": "exact"
+      },
+      "anchorAlternatives": [
+        [
+          {
+            "file": "airport-anchor-0.png",
+            "box": {
+              "x": 700,
+              "y": 77,
+              "width": 207,
+              "height": 29
+            },
+            "mode": "exact"
+          },
+          {
+            "file": "airport-loading-caption-core.png",
+            "box": {
+              "x": 1174,
+              "y": 170,
+              "width": 170,
+              "height": 16
+            },
+            "mode": "exact"
+          }
+        ]
+      ]
+    }
+  },
+  "navigationLocationVersion": 1,
+  "percentageGeometry": {
+    "schema": 1,
+    "unit": "fraction",
+    "space": "registered_capture",
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "entries": [
+      {
+        "path": [
+          "town",
+          "anchors",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.94625,
+          "y": 0.056666666666666664,
+          "width": 0.0225,
+          "height": 0.04
+        }
+      },
+      {
+        "path": [
+          "town",
+          "anchors",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.2375,
+          "y": 0.8666666666666667,
+          "width": 0.02375,
+          "height": 0.05
+        }
+      },
+      {
+        "path": [
+          "town",
+          "map",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.531875,
+          "y": 0.2388888888888889,
+          "width": 0.065625,
+          "height": 0.07
+        }
+      },
+      {
+        "path": [
+          "town",
+          "map",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.5175,
+          "y": 0.66,
+          "width": 0.05,
+          "height": 0.05333333333333334
+        }
+      },
+      {
+        "path": [
+          "town",
+          "map",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.76875,
+          "y": 0.31555555555555553,
+          "width": 0.05,
+          "height": 0.06111111111111111
+        }
+      },
+      {
+        "path": [
+          "town",
+          "map",
+          "3",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.308125,
+          "y": 0.4533333333333333,
+          "width": 0.045,
+          "height": 0.04
+        }
+      },
+      {
+        "path": [
+          "town",
+          "shortcuts",
+          "0",
+          "spec",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.7275,
+          "y": 0.8888888888888888,
+          "width": 0.02375,
+          "height": 0.022222222222222223
+        }
+      },
+      {
+        "path": [
+          "town",
+          "shortcuts",
+          "0",
+          "spec",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.6775,
+          "y": 0.8,
+          "width": 0.12375,
+          "height": 0.2
+        }
+      },
+      {
+        "path": [
+          "town",
+          "shortcuts",
+          "1",
+          "spec",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.80625,
+          "y": 0.8777777777777778,
+          "width": 0.03875,
+          "height": 0.05555555555555555
+        }
+      },
+      {
+        "path": [
+          "town",
+          "shortcuts",
+          "1",
+          "spec",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.75625,
+          "y": 0.7888888888888889,
+          "width": 0.13875,
+          "height": 0.2111111111111111
+        }
+      },
+      {
+        "path": [
+          "town",
+          "shortcuts",
+          "2",
+          "spec",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.5175,
+          "y": 0.66,
+          "width": 0.05,
+          "height": 0.05333333333333334
+        }
+      },
+      {
+        "path": [
+          "town",
+          "shortcuts",
+          "2",
+          "spec",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.4675,
+          "y": 0.5711111111111111,
+          "width": 0.15,
+          "height": 0.2311111111111111
+        }
+      },
+      {
+        "path": [
+          "town",
+          "ready",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.765,
+          "y": 0.8355555555555556,
+          "width": 0.009375,
+          "height": 0.016666666666666666
+        }
+      },
+      {
+        "path": [
+          "town",
+          "mapAlternatives",
+          "0",
+          "map",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.46875,
+          "y": 0.1988888888888889,
+          "width": 0.06125,
+          "height": 0.06777777777777778
+        }
+      },
+      {
+        "path": [
+          "town",
+          "mapAlternatives",
+          "0",
+          "map",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.453125,
+          "y": 0.6855555555555556,
+          "width": 0.0425,
+          "height": 0.04555555555555556
+        }
+      },
+      {
+        "path": [
+          "town",
+          "mapAlternatives",
+          "0",
+          "map",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.698125,
+          "y": 0.3211111111111111,
+          "width": 0.03875,
+          "height": 0.05444444444444444
+        }
+      },
+      {
+        "path": [
+          "town",
+          "mapAlternatives",
+          "0",
+          "map",
+          "3",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.24125,
+          "y": 0.45444444444444443,
+          "width": 0.040625,
+          "height": 0.03777777777777778
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.94625,
+          "y": 0.056666666666666664,
+          "width": 0.0225,
+          "height": 0.04
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.2375,
+          "y": 0.8666666666666667,
+          "width": 0.02375,
+          "height": 0.05
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.531875,
+          "y": 0.2388888888888889,
+          "width": 0.065625,
+          "height": 0.07
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "3",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.5175,
+          "y": 0.66,
+          "width": 0.05,
+          "height": 0.05333333333333334
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "4",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.76875,
+          "y": 0.31555555555555553,
+          "width": 0.05,
+          "height": 0.06111111111111111
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "5",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.308125,
+          "y": 0.4533333333333333,
+          "width": 0.045,
+          "height": 0.04
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "6",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.721875,
+          "y": 0.8755555555555555,
+          "width": 0.040625,
+          "height": 0.06
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "7",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.80625,
+          "y": 0.8777777777777778,
+          "width": 0.03875,
+          "height": 0.05555555555555555
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "8",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.765,
+          "y": 0.8355555555555556,
+          "width": 0.009375,
+          "height": 0.016666666666666666
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "9",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.35,
+          "y": 0.04777777777777778,
+          "width": 0.296875,
+          "height": 0.06666666666666667
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "10",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.766875,
+          "y": 0.14222222222222222,
+          "width": 0.184375,
+          "height": 0.04888888888888889
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "11",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.79625,
+          "y": 0.056666666666666664,
+          "width": 0.021875,
+          "height": 0.03888888888888889
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "12",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.365,
+          "y": 0.052222222222222225,
+          "width": 0.264375,
+          "height": 0.04888888888888889
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "13",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.56,
+          "y": 0.18333333333333332,
+          "width": 0.1225,
+          "height": 0.03777777777777778
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "14",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.79625,
+          "y": 0.056666666666666664,
+          "width": 0.021875,
+          "height": 0.03888888888888889
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "15",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.4375,
+          "y": 0.08555555555555555,
+          "width": 0.129375,
+          "height": 0.03222222222222222
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "16",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.69,
+          "y": 0.18777777777777777,
+          "width": 0.181875,
+          "height": 0.06777777777777778
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "17",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.84625,
+          "y": 0.08333333333333333,
+          "width": 0.02,
+          "height": 0.03777777777777778
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "18",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.73375,
+          "y": 0.1811111111111111,
+          "width": 0.108125,
+          "height": 0.03333333333333333
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "19",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.7275,
+          "y": 0.8888888888888888,
+          "width": 0.02375,
+          "height": 0.022222222222222223
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "20",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.46875,
+          "y": 0.1988888888888889,
+          "width": 0.06125,
+          "height": 0.06777777777777778
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "21",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.453125,
+          "y": 0.6855555555555556,
+          "width": 0.0425,
+          "height": 0.04555555555555556
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "22",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.698125,
+          "y": 0.3211111111111111,
+          "width": 0.03875,
+          "height": 0.05444444444444444
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "23",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.24125,
+          "y": 0.45444444444444443,
+          "width": 0.040625,
+          "height": 0.03777777777777778
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "24",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.365,
+          "y": 0.05333333333333334,
+          "width": 0.03,
+          "height": 0.015555555555555555
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "25",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.05625,
+          "y": 0.13333333333333333,
+          "width": 0.125,
+          "height": 0.013333333333333334
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "26",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.46875,
+          "y": 0.95,
+          "width": 0.09375,
+          "height": 0.013333333333333334
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "27",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.80125,
+          "y": 0.06666666666666667,
+          "width": 0.0125,
+          "height": 0.021111111111111112
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "28",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.365,
+          "y": 0.05333333333333334,
+          "width": 0.03,
+          "height": 0.015555555555555555
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "29",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.05625,
+          "y": 0.13333333333333333,
+          "width": 0.125,
+          "height": 0.013333333333333334
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "30",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.46875,
+          "y": 0.95,
+          "width": 0.09375,
+          "height": 0.013333333333333334
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "31",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.73375,
+          "y": 0.18888888888888888,
+          "width": 0.10625,
+          "height": 0.017777777777777778
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "32",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.73375,
+          "y": 0.18888888888888888,
+          "width": 0.10625,
+          "height": 0.017777777777777778
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "helicopter",
+          "anchors",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.35,
+          "y": 0.04777777777777778,
+          "width": 0.296875,
+          "height": 0.06666666666666667
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "helicopter",
+          "anchors",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.766875,
+          "y": 0.14222222222222222,
+          "width": 0.184375,
+          "height": 0.04888888888888889
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "helicopter",
+          "close",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.79625,
+          "y": 0.056666666666666664,
+          "width": 0.021875,
+          "height": 0.03888888888888889
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "helicopter",
+          "close",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.75625,
+          "y": 0,
+          "width": 0.101875,
+          "height": 0.1811111111111111
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "train",
+          "anchors",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.365,
+          "y": 0.05333333333333334,
+          "width": 0.03,
+          "height": 0.015555555555555555
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "train",
+          "anchors",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.05625,
+          "y": 0.13333333333333333,
+          "width": 0.125,
+          "height": 0.013333333333333334
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "train",
+          "anchors",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.46875,
+          "y": 0.95,
+          "width": 0.09375,
+          "height": 0.013333333333333334
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "train",
+          "close",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.80125,
+          "y": 0.06666666666666667,
+          "width": 0.0125,
+          "height": 0.021111111111111112
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "train",
+          "close",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.76125,
+          "y": 0,
+          "width": 0.0925,
+          "height": 0.16333333333333333
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "train",
+          "anchorAlternatives",
+          "0",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.365,
+          "y": 0.05333333333333334,
+          "width": 0.03,
+          "height": 0.015555555555555555
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "train",
+          "anchorAlternatives",
+          "0",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.05625,
+          "y": 0.13333333333333333,
+          "width": 0.125,
+          "height": 0.013333333333333334
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "train",
+          "anchorAlternatives",
+          "0",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.46875,
+          "y": 0.95,
+          "width": 0.09375,
+          "height": 0.013333333333333334
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "airport",
+          "anchors",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.4375,
+          "y": 0.08555555555555555,
+          "width": 0.129375,
+          "height": 0.03222222222222222
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "airport",
+          "anchors",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.73375,
+          "y": 0.18888888888888888,
+          "width": 0.10625,
+          "height": 0.017777777777777778
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "airport",
+          "close",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.84625,
+          "y": 0.08333333333333333,
+          "width": 0.02,
+          "height": 0.03777777777777778
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "airport",
+          "close",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.80625,
+          "y": 0.012222222222222223,
+          "width": 0.1,
+          "height": 0.18
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "airport",
+          "activeCaption",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.73375,
+          "y": 0.1811111111111111,
+          "width": 0.108125,
+          "height": 0.03333333333333333
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "airport",
+          "anchorAlternatives",
+          "0",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.4375,
+          "y": 0.08555555555555555,
+          "width": 0.129375,
+          "height": 0.03222222222222222
+        }
+      },
+      {
+        "path": [
+          "panels",
+          "airport",
+          "anchorAlternatives",
+          "0",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.73375,
+          "y": 0.18888888888888888,
+          "width": 0.10625,
+          "height": 0.017777777777777778
+        }
+      }
+    ]
+  }
+}

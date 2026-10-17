@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "version": "piggy-bank-20261017",
+  "kind": "event_close",
+  "sourceFile": "source.png",
+  "originalName": "piggy-bank-ok-20261017-0856.png",
+  "sourceSha256": "523b21bf692ae6f0799ba9bfe4dc761a305ee0abc8c72fd14a0bc870670d19fe",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "note": "[2026-10-17] PIGGY BANK(유료 구매 권유) 창은 X로만 닫는다(결제 버튼 금지). 정지사례 #3.",
+  "anchors": [
+    {
+      "role": "close",
+      "file": "close.png",
+      "sha256": "20a499ad6e454c5618375996982ba2efd204624cd4d7a8cf4dfe20048d55396d",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 1050,
+        "y": 38,
+        "width": 46,
+        "height": 46
+      },
+      "sourceRegion": {
+        "x": 0.65625,
+        "y": 0.05277777777777778,
+        "width": 0.02875,
+        "height": 0.06388888888888888
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "piggy-bank-ok-20261017-0856.png",
+        "sha256": "523b21bf692ae6f0799ba9bfe4dc761a305ee0abc8c72fd14a0bc870670d19fe",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 1050,
+          "y": 38,
+          "width": 46,
+          "height": 46
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    },
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "0099dc39eb42ee992d56f6603cda66debfaaba15595b26015d24254d2e2d658f",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 685,
+        "y": 38,
+        "width": 245,
+        "height": 40
+      },
+      "sourceRegion": {
+        "x": 0.428125,
+        "y": 0.05277777777777778,
+        "width": 0.153125,
+        "height": 0.05555555555555555
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "piggy-bank-ok-20261017-0856.png",
+        "sha256": "523b21bf692ae6f0799ba9bfe4dc761a305ee0abc8c72fd14a0bc870670d19fe",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 685,
+          "y": 38,
+          "width": 245,
+          "height": 40
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600"
+}

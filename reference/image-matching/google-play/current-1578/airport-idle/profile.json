@@ -1,0 +1,629 @@
+{
+  "schema": 1,
+  "version": "live-airport-idle-observation-2",
+  "provider": "google_play_windows",
+  "dimensions": {
+    "width": 1578,
+    "height": 1268
+  },
+  "source": {
+    "kind": "guarded_live_capture",
+    "frameId": "frame-6f500d82-5334-46e7-b693-19115912da0a",
+    "evidenceHash": "1b46a4f6eb790ac89ddd6a45da094536dff606cdab148af554a8c5667783df73",
+    "captureMetadata": {
+      "observedAt": "2026-10-06T13:49:47.3158634+00:00",
+      "captureStartedAt": "2026-10-06T13:49:46.8966085+00:00",
+      "captureTarget": {
+        "hwnd": 2300118,
+        "pid": 127336,
+        "processStartedTicks": "639267633024875514",
+        "processPath": "D:\\Program Files (x86)\\Play Games\\current\\emulator\\crosvm.exe",
+        "title": "꿈의 마을 (Township) - hanuriel",
+        "isForeground": true,
+        "bounds": {
+          "x": 682,
+          "y": 1446,
+          "width": 1578,
+          "height": 1268
+        },
+        "client": {
+          "x": 682,
+          "y": 1446,
+          "width": 1576,
+          "height": 1266
+        },
+        "dpi": 96,
+        "virtualDesktop": {
+          "x": 0,
+          "y": 0,
+          "width": 2560,
+          "height": 2720
+        }
+      },
+      "sourceQpcTicks": "3578044578333"
+    }
+  },
+  "localization": {
+    "mode": "translation_only",
+    "scale": 1,
+    "inputSupport": false,
+    "sourceDimensions": {
+      "width": 1578,
+      "height": 1268
+    },
+    "acceptedDimensions": [
+      {
+        "width": 1578,
+        "height": 1268
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "file": "header.png",
+      "box": {
+        "x": 757,
+        "y": 266,
+        "width": 195,
+        "height": 34
+      }
+    },
+    {
+      "file": "close.png",
+      "box": {
+        "x": 1450,
+        "y": 267,
+        "width": 39,
+        "height": 40
+      }
+    }
+  ],
+  "regions": [
+    {
+      "file": "returns.png",
+      "box": {
+        "x": 1190,
+        "y": 380,
+        "width": 299,
+        "height": 52
+      }
+    },
+    {
+      "file": "units.png",
+      "box": {
+        "x": 1239,
+        "y": 550,
+        "width": 192,
+        "height": 22
+      }
+    },
+    {
+      "file": "empty-1.png",
+      "box": {
+        "x": 290,
+        "y": 360,
+        "width": 850,
+        "height": 153
+      }
+    },
+    {
+      "file": "blue-1.png",
+      "box": {
+        "x": 222,
+        "y": 440,
+        "width": 36,
+        "height": 32
+      }
+    },
+    {
+      "file": "empty-2.png",
+      "box": {
+        "x": 290,
+        "y": 553,
+        "width": 850,
+        "height": 153
+      }
+    },
+    {
+      "file": "blue-2.png",
+      "box": {
+        "x": 222,
+        "y": 633,
+        "width": 36,
+        "height": 32
+      }
+    },
+    {
+      "file": "empty-3.png",
+      "box": {
+        "x": 290,
+        "y": 746,
+        "width": 850,
+        "height": 153
+      }
+    },
+    {
+      "file": "blue-3.png",
+      "box": {
+        "x": 222,
+        "y": 826,
+        "width": 36,
+        "height": 32
+      }
+    }
+  ],
+  "previewBox": {
+    "x": 1188,
+    "y": 697,
+    "width": 296,
+    "height": 92
+  },
+  "assets": [
+    {
+      "file": "header.png",
+      "sha256": "05b2e6cda3974c3cb992a37e1bd9f36630ac430ee478a8022e32d06ecc1d1af6",
+      "sourceBox": {
+        "x": 757,
+        "y": 266,
+        "width": 195,
+        "height": 34
+      }
+    },
+    {
+      "file": "close.png",
+      "sha256": "6cf1c9a024658741ae81e69b85d1941bb9bb4b4fda912e8fa78ce98c088b518b",
+      "sourceBox": {
+        "x": 1450,
+        "y": 267,
+        "width": 39,
+        "height": 40
+      }
+    },
+    {
+      "file": "returns.png",
+      "sha256": "487254d4b1b2216bd885abf1393ca132c4a3aee2e98fe0e81817636e81f7b1bd",
+      "sourceBox": {
+        "x": 1190,
+        "y": 380,
+        "width": 299,
+        "height": 52
+      }
+    },
+    {
+      "file": "units.png",
+      "sha256": "f881073c99513649e99d4190b1863f4b0d388148a858ac221c9dadd1a4f2720c",
+      "sourceBox": {
+        "x": 1239,
+        "y": 550,
+        "width": 192,
+        "height": 22
+      }
+    },
+    {
+      "file": "empty-1.png",
+      "sha256": "a18b187c6dad131d162889362832967e51f7ff5000b8e1f9353f0a3902f67a49",
+      "sourceBox": {
+        "x": 290,
+        "y": 360,
+        "width": 850,
+        "height": 153
+      }
+    },
+    {
+      "file": "blue-1.png",
+      "sha256": "007e78c126e9ef5be019b2f7e82a1991560f00645466d6a5cee94ec0e7189e2f",
+      "sourceBox": {
+        "x": 222,
+        "y": 440,
+        "width": 36,
+        "height": 32
+      }
+    },
+    {
+      "file": "empty-2.png",
+      "sha256": "8461929b67ba344924f0318731d2c6859542808be25dcc37a5ab53fa2bea1814",
+      "sourceBox": {
+        "x": 290,
+        "y": 553,
+        "width": 850,
+        "height": 153
+      }
+    },
+    {
+      "file": "blue-2.png",
+      "sha256": "757b5a24a12a8b99bce81934423188a05e54ae63ed2d2eac97e8b8a009df9f3d",
+      "sourceBox": {
+        "x": 222,
+        "y": 633,
+        "width": 36,
+        "height": 32
+      }
+    },
+    {
+      "file": "empty-3.png",
+      "sha256": "53fb8683492717e9c73be3f02e9704dafd1b496552c1f17aaa9cedd3c4f91fc8",
+      "sourceBox": {
+        "x": 290,
+        "y": 746,
+        "width": 850,
+        "height": 153
+      }
+    },
+    {
+      "file": "blue-3.png",
+      "sha256": "1d045da63883a3e8742679f5fdfd9900a5eb3be23714ec08fe9c294b081a063e",
+      "sourceBox": {
+        "x": 222,
+        "y": 826,
+        "width": 36,
+        "height": 32
+      }
+    }
+  ],
+  "percentageGeometry": {
+    "schema": 1,
+    "unit": "fraction",
+    "space": "registered_capture",
+    "canvas": {
+      "width": 1578,
+      "height": 1268
+    },
+    "entries": [
+      {
+        "path": [
+          "anchors",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.4797211660329531,
+          "y": 0.20977917981072555,
+          "width": 0.12357414448669202,
+          "height": 0.026813880126182965
+        }
+      },
+      {
+        "path": [
+          "anchors",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.9188846641318125,
+          "y": 0.21056782334384858,
+          "width": 0.024714828897338403,
+          "height": 0.031545741324921134
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7541191381495564,
+          "y": 0.2996845425867508,
+          "width": 0.18948035487959441,
+          "height": 0.04100946372239748
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.785171102661597,
+          "y": 0.43375394321766564,
+          "width": 0.12167300380228137,
+          "height": 0.017350157728706624
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.18377693282636248,
+          "y": 0.28391167192429023,
+          "width": 0.5386565272496832,
+          "height": 0.12066246056782334
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "3",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.14068441064638784,
+          "y": 0.3470031545741325,
+          "width": 0.022813688212927757,
+          "height": 0.025236593059936908
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "4",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.18377693282636248,
+          "y": 0.4361198738170347,
+          "width": 0.5386565272496832,
+          "height": 0.12066246056782334
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "5",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.14068441064638784,
+          "y": 0.499211356466877,
+          "width": 0.022813688212927757,
+          "height": 0.025236593059936908
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "6",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.18377693282636248,
+          "y": 0.5883280757097792,
+          "width": 0.5386565272496832,
+          "height": 0.12066246056782334
+        }
+      },
+      {
+        "path": [
+          "regions",
+          "7",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.14068441064638784,
+          "y": 0.6514195583596214,
+          "width": 0.022813688212927757,
+          "height": 0.025236593059936908
+        }
+      },
+      {
+        "path": [
+          "previewBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.752851711026616,
+          "y": 0.5496845425867508,
+          "width": 0.18757921419518378,
+          "height": 0.07255520504731862
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "0",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.4797211660329531,
+          "y": 0.20977917981072555,
+          "width": 0.12357414448669202,
+          "height": 0.026813880126182965
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "1",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.9188846641318125,
+          "y": 0.21056782334384858,
+          "width": 0.024714828897338403,
+          "height": 0.031545741324921134
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "2",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7541191381495564,
+          "y": 0.2996845425867508,
+          "width": 0.18948035487959441,
+          "height": 0.04100946372239748
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "3",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.785171102661597,
+          "y": 0.43375394321766564,
+          "width": 0.12167300380228137,
+          "height": 0.017350157728706624
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "4",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.18377693282636248,
+          "y": 0.28391167192429023,
+          "width": 0.5386565272496832,
+          "height": 0.12066246056782334
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "5",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.14068441064638784,
+          "y": 0.3470031545741325,
+          "width": 0.022813688212927757,
+          "height": 0.025236593059936908
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "6",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.18377693282636248,
+          "y": 0.4361198738170347,
+          "width": 0.5386565272496832,
+          "height": 0.12066246056782334
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "7",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.14068441064638784,
+          "y": 0.499211356466877,
+          "width": 0.022813688212927757,
+          "height": 0.025236593059936908
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "8",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.18377693282636248,
+          "y": 0.5883280757097792,
+          "width": 0.5386565272496832,
+          "height": 0.12066246056782334
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "9",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.14068441064638784,
+          "y": 0.6514195583596214,
+          "width": 0.022813688212927757,
+          "height": 0.025236593059936908
+        }
+      }
+    ]
+  }
+}

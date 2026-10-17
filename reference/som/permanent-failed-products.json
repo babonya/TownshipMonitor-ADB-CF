@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "policy": "explicit_user_permanent_exclusion",
+  "scope": {
+    "provider": "android_adb",
+    "screenKind": "helicopter",
+    "width": 1544,
+    "height": 720
+  },
+  "source": {
+    "file": "permanent-failed-products/source.png",
+    "sha256": "375bc39581b5e8e8e748e78cad29502af6f9a34e2919a1f3b32dec3a06c4dab6",
+    "frameId": "frame-35f0931e-79cb-4693-adf8-adaf5cb7c117",
+    "observedAt": "2026-10-14T07:37:46.408Z",
+    "dimensions": { "width": 1544, "height": 720 },
+    "basis": "full_game_capture"
+  },
+  "products": [
+    {
+      "id": "permanent_user_gray_ingot",
+      "label": "User-selected gray ingot artwork",
+      "file": "permanent-failed-products/silver_ingot.png",
+      "sha256": "323740e82d8171c63e6143b0c8b325585a074c7ae916a66e757d5e69bb971662",
+      "region": { "x": 0.7227979274611399, "y": 0.2222222222222222, "width": 0.07318652849740932, "height": 0.09027777777777778 },
+      "cropPixels": { "x": 1116, "y": 160, "width": 113, "height": 65 }
+    },
+    {
+      "id": "permanent_user_gold_ingot",
+      "label": "User-selected gold ingot artwork",
+      "file": "permanent-failed-products/gold_ingot.png",
+      "sha256": "a2c11dc3ab5df2cfe4eaddef426ce10f59daa3ad3628b07638abd3077339402b",
+      "region": { "x": 0.8031088082901554, "y": 0.2222222222222222, "width": 0.07318652849740932, "height": 0.09027777777777778 },
+      "cropPixels": { "x": 1240, "y": 160, "width": 113, "height": 65 }
+    }
+  ]
+}

@@ -1,0 +1,1686 @@
+{
+  "schema": 1,
+  "version": "som-ui-20261009",
+  "dimensions": {
+    "width": 1578,
+    "height": 1268
+  },
+  "viewport": {
+    "x": 0.08111533586818757,
+    "y": 0.14826498422712933,
+    "width": 0.917617237008872,
+    "height": 0.7649842271293376
+  },
+  "heli": {
+    "anchors": [
+      {
+        "file": "native-1578-helicopter-title.png",
+        "search": {
+          "x": 0.40304182509505704,
+          "y": 0.23817034700315456,
+          "width": 0.2788339670468948,
+          "height": 0.04022082018927445
+        },
+        "sourceBox": {
+          "x": 636,
+          "y": 302,
+          "width": 440,
+          "height": 51
+        }
+      },
+      {
+        "file": "native-1578-helicopter-details.png",
+        "search": {
+          "x": 0.7908745247148289,
+          "y": 0.30126182965299686,
+          "width": 0.17110266159695817,
+          "height": 0.028391167192429023
+        },
+        "sourceBox": {
+          "x": 1248,
+          "y": 382,
+          "width": 270,
+          "height": 36
+        }
+      }
+    ],
+    "close": {
+      "file": "native-1578-helicopter-close.png",
+      "search": {
+        "x": 0.7737642585551331,
+        "y": 0.1916403785488959,
+        "width": 0.10773130544993663,
+        "height": 0.13249211356466878
+      },
+      "sourceBox": {
+        "x": 1285,
+        "y": 307,
+        "width": 42,
+        "height": 40
+      }
+    },
+    "map": {
+      "x": 0.10519645120405577,
+      "y": 0.3107255520504732,
+      "width": 0.6425855513307985,
+      "height": 0.3840694006309148
+    },
+    "send": {
+      "x": 0.829531051964512,
+      "y": 0.7555205047318612,
+      "width": 0.1520912547528517,
+      "height": 0.06309148264984227
+    },
+    "orderGrid": {
+      "x": 0.7908745247148289,
+      "y": 0.3470031545741325,
+      "width": 0.1761723700887199,
+      "height": 0.27129337539432175
+    },
+    "slots": [
+      {
+        "id": "r1c1",
+        "icon": {
+          "x": 0.7997465145754119,
+          "y": 0.3501577287066246,
+          "width": 0.06844106463878327,
+          "height": 0.06309148264984227
+        },
+        "shortage": {
+          "x": 0.7972116603295311,
+          "y": 0.4116719242902208,
+          "width": 0.06717363751584284,
+          "height": 0.02365930599369085
+        },
+        "check": {
+          "x": 0.8396704689480355,
+          "y": 0.37618296529968454,
+          "width": 0.034220532319391636,
+          "height": 0.04258675078864353
+        }
+      },
+      {
+        "id": "r1c2",
+        "icon": {
+          "x": 0.8897338403041825,
+          "y": 0.3501577287066246,
+          "width": 0.06844106463878327,
+          "height": 0.06309148264984227
+        },
+        "shortage": {
+          "x": 0.8859315589353612,
+          "y": 0.4116719242902208,
+          "width": 0.06717363751584284,
+          "height": 0.02365930599369085
+        },
+        "check": {
+          "x": 0.9290240811153359,
+          "y": 0.37618296529968454,
+          "width": 0.034220532319391636,
+          "height": 0.04258675078864353
+        }
+      },
+      {
+        "id": "r2c1",
+        "icon": {
+          "x": 0.7997465145754119,
+          "y": 0.43690851735015773,
+          "width": 0.06844106463878327,
+          "height": 0.06309148264984227
+        },
+        "shortage": {
+          "x": 0.7972116603295311,
+          "y": 0.49842271293375395,
+          "width": 0.06717363751584284,
+          "height": 0.02365930599369085
+        },
+        "check": {
+          "x": 0.8396704689480355,
+          "y": 0.4645110410094637,
+          "width": 0.034220532319391636,
+          "height": 0.04258675078864353
+        }
+      },
+      {
+        "id": "r2c2",
+        "icon": {
+          "x": 0.8897338403041825,
+          "y": 0.43690851735015773,
+          "width": 0.06844106463878327,
+          "height": 0.06309148264984227
+        },
+        "shortage": {
+          "x": 0.8859315589353612,
+          "y": 0.49842271293375395,
+          "width": 0.06717363751584284,
+          "height": 0.02365930599369085
+        },
+        "check": {
+          "x": 0.9290240811153359,
+          "y": 0.4645110410094637,
+          "width": 0.034220532319391636,
+          "height": 0.04258675078864353
+        }
+      },
+      {
+        "id": "r3c1",
+        "icon": {
+          "x": 0.7997465145754119,
+          "y": 0.5244479495268138,
+          "width": 0.06844106463878327,
+          "height": 0.06309148264984227
+        },
+        "shortage": {
+          "x": 0.7972116603295311,
+          "y": 0.58596214511041,
+          "width": 0.06717363751584284,
+          "height": 0.02365930599369085
+        },
+        "check": {
+          "x": 0.8396704689480355,
+          "y": 0.5512618296529969,
+          "width": 0.034220532319391636,
+          "height": 0.04258675078864353
+        }
+      },
+      {
+        "id": "r3c2",
+        "icon": {
+          "x": 0.8897338403041825,
+          "y": 0.5244479495268138,
+          "width": 0.06844106463878327,
+          "height": 0.06309148264984227
+        },
+        "shortage": {
+          "x": 0.8859315589353612,
+          "y": 0.58596214511041,
+          "width": 0.06717363751584284,
+          "height": 0.02365930599369085
+        },
+        "check": {
+          "x": 0.9290240811153359,
+          "y": 0.5512618296529969,
+          "width": 0.034220532319391636,
+          "height": 0.04258675078864353
+        }
+      }
+    ],
+    "trash": {
+      "file": "helicopter-trash.png",
+      "search": {
+        "x": 0.7674271229404309,
+        "y": 0.7563091482649842,
+        "width": 0.049429657794676805,
+        "height": 0.05914826498422713
+      },
+      "minimumScore": 0.98
+    }
+  },
+  "market": {
+    "anchors": [
+      {
+        "file": "native-1578-title.png",
+        "search": {
+          "x": 0.5038022813688213,
+          "y": 0.2531545741324921,
+          "width": 0.15082382762991128,
+          "height": 0.033123028391167195
+        },
+        "sourceBox": {
+          "x": 795,
+          "y": 321,
+          "width": 238,
+          "height": 42
+        }
+      },
+      {
+        "file": "native-1578-close.png",
+        "search": {
+          "x": 0.7813688212927756,
+          "y": 0.2113564668769716,
+          "width": 0.08998732572877059,
+          "height": 0.11277602523659307
+        },
+        "sourceBox": {
+          "x": 1297,
+          "y": 332,
+          "width": 14,
+          "height": 15
+        }
+      }
+    ],
+    "close": {
+      "file": "native-1578-close.png",
+      "search": {
+        "x": 0.7813688212927756,
+        "y": 0.2113564668769716,
+        "width": 0.08998732572877059,
+        "height": 0.11277602523659307
+      },
+      "sourceBox": {
+        "x": 1297,
+        "y": 332,
+        "width": 14,
+        "height": 15
+      }
+    },
+    "view": {
+      "x": 0.4005069708491762,
+      "y": 0.3801261829652997,
+      "width": 0.5310519645120405,
+      "height": 0.3477917981072555
+    },
+    "rows": [
+      0.4029968454258675,
+      0.582018927444795
+    ],
+    "cardSize": {
+      "width": 0.11026615969581749,
+      "height": 0.13722397476340695
+    },
+    "currencySearch": {
+      "x": 0.08620689655172414,
+      "y": 0.632183908045977,
+      "width": 0.42528735632183906,
+      "height": 0.29310344827586204
+    },
+    "firstColumnOffset": 0.011406844106463879,
+    "fields": {
+      "card": {
+        "schema": 1,
+        "space": "market_card",
+        "dimensions": {
+          "width": 181,
+          "height": 202
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.13861386138613863
+        },
+        "iconBox": {
+          "x": 0.09392265193370165,
+          "y": 0,
+          "width": 0.7569060773480663,
+          "height": 0.5891089108910891
+        },
+        "quantityBox": {
+          "x": 0.3756906077348066,
+          "y": 0.3910891089108911,
+          "width": 0.5303867403314917,
+          "height": 0.19801980198019803
+        },
+        "purchaseBox": {
+          "x": 0.03867403314917127,
+          "y": 0.6485148514851485,
+          "width": 0.8674033149171271,
+          "height": 0.32673267326732675
+        },
+        "priceBox": {
+          "x": 0.36464088397790057,
+          "y": 0.6782178217821783,
+          "width": 0.5303867403314917,
+          "height": 0.25742574257425743
+        }
+      }
+    },
+    "markers": [
+      {
+        "file": "coin.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 751,
+          "y": 453,
+          "width": 20,
+          "height": 24
+        },
+        "role": "coin",
+        "offset": {
+          "x": 0.024714828897338403,
+          "y": 0.09700315457413249
+        }
+      },
+      {
+        "file": "sold.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 980,
+          "y": 574,
+          "width": 90,
+          "height": 32
+        },
+        "role": "sold",
+        "offset": {
+          "x": 0.022179974651457542,
+          "y": 0.013406940063091483
+        }
+      },
+      {
+        "file": "plus.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 1205,
+          "y": 342,
+          "width": 62,
+          "height": 62
+        },
+        "role": "plus",
+        "offset": {}
+      },
+      {
+        "file": "sale.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 535,
+          "y": 304,
+          "width": 128,
+          "height": 34
+        },
+        "role": "sale",
+        "offset": {}
+      },
+      {
+        "file": "coin-1-556-682.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 556,
+          "y": 682,
+          "width": 20,
+          "height": 24
+        },
+        "role": "coin",
+        "offset": {
+          "x": 0.024714828897338403,
+          "y": 0.09700315457413249
+        }
+      },
+      {
+        "file": "coin-1-746-682.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 746,
+          "y": 682,
+          "width": 20,
+          "height": 24
+        },
+        "role": "coin",
+        "offset": {
+          "x": 0.024714828897338403,
+          "y": 0.09700315457413249
+        }
+      },
+      {
+        "file": "coin-2-595-452.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 595,
+          "y": 452,
+          "width": 20,
+          "height": 24
+        },
+        "role": "coin",
+        "offset": {
+          "x": 0.024714828897338403,
+          "y": 0.09700315457413249
+        }
+      },
+      {
+        "file": "coin-2-589-682.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 589,
+          "y": 682,
+          "width": 20,
+          "height": 24
+        },
+        "role": "coin",
+        "offset": {
+          "x": 0.024714828897338403,
+          "y": 0.09700315457413249
+        }
+      },
+      {
+        "file": "coin-2-787-682.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 787,
+          "y": 682,
+          "width": 20,
+          "height": 24
+        },
+        "role": "coin",
+        "offset": {
+          "x": 0.024714828897338403,
+          "y": 0.09700315457413249
+        }
+      },
+      {
+        "file": "sold-2-1172-347.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 1172,
+          "y": 347,
+          "width": 90,
+          "height": 32
+        },
+        "role": "sold",
+        "offset": {
+          "x": 0.022179974651457542,
+          "y": 0.013406940063091483
+        }
+      },
+      {
+        "file": "native-1578-offer-border-0.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 843,
+          "y": 607,
+          "width": 174,
+          "height": 76
+        },
+        "role": "offer_structure",
+        "offset": {
+          "x": 0,
+          "y": 0.07570977917981073
+        },
+        "maskExclude": [
+          {
+            "x": 0.04597701149425287,
+            "y": 0.11842105263157894,
+            "width": 0.9080459770114943,
+            "height": 0.7763157894736842
+          }
+        ]
+      },
+      {
+        "file": "native-1578-offer-border-1.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 843,
+          "y": 835,
+          "width": 174,
+          "height": 76
+        },
+        "role": "offer_structure",
+        "offset": {
+          "x": 0,
+          "y": 0.07649842271293375
+        },
+        "maskExclude": [
+          {
+            "x": 0.04597701149425287,
+            "y": 0.11842105263157894,
+            "width": 0.9080459770114943,
+            "height": 0.7763157894736842
+          }
+        ]
+      },
+      {
+        "file": "native-1578-coin-0.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 884,
+          "y": 634,
+          "width": 20,
+          "height": 24
+        },
+        "role": "coin",
+        "offset": {}
+      },
+      {
+        "file": "native-1578-coin-1.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 1075,
+          "y": 634,
+          "width": 20,
+          "height": 24
+        },
+        "role": "coin",
+        "offset": {}
+      },
+      {
+        "file": "native-1578-coin-2.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 1267,
+          "y": 634,
+          "width": 20,
+          "height": 24
+        },
+        "role": "coin",
+        "offset": {}
+      },
+      {
+        "file": "native-1578-coin-3.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 870,
+          "y": 862,
+          "width": 20,
+          "height": 24
+        },
+        "role": "coin",
+        "offset": {}
+      },
+      {
+        "file": "native-1578-coin-4.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 1066,
+          "y": 862,
+          "width": 20,
+          "height": 24
+        },
+        "role": "coin",
+        "offset": {}
+      },
+      {
+        "file": "native-1578-coin-5.png",
+        "search": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        },
+        "sourceBox": {
+          "x": 1257,
+          "y": 862,
+          "width": 20,
+          "height": 24
+        },
+        "role": "coin",
+        "offset": {}
+      }
+    ],
+    "sale": {
+      "x": 0.40874524714828897,
+      "y": 0.38091482649842273,
+      "width": 0.11216730038022814,
+      "height": 0.16167192429022081
+    }
+  },
+  "town": {
+    "barnTap": {
+      "unit": "fraction",
+      "space": "game",
+      "x": 0.56,
+      "y": 0.24,
+      "source": {
+        "frameId": "frame-145b4f0b-daf4-44b6-87e3-7f7d4690d4b0",
+        "sha256": "b0e5c29d99e7115b688b52dba987095c47fcabb595c602715dd1213c4a7b4d01",
+        "authorization": "User requested fixed barn entry like market entry on 2026-10-09. Observed barn facade in saved game capture; scope is the profile dimensions and viewport."
+      }
+    },
+    "marketTap": {
+      "unit": "fraction",
+      "space": "game",
+      "x": 0.21,
+      "y": 0.45,
+      "source": {
+        "frameId": "frame-d0f933d3-d0e7-4953-b054-5ce903507587",
+        "sha256": "b4477a3ce89451ae43b25bbb7b5c3839b52dece6897e6c846a7df44fe5021dd0",
+        "authorization": "User requested fixed market entry after town recognition on 2026-10-09; building layout remains fixed. Geometry is scoped by this profile's dimensions and viewport."
+      }
+    },
+    "anchor": {
+      "file": "user-town-town-hardhat.png",
+      "search": {
+        "x": 0.10963244613434728,
+        "y": 0.7949526813880127,
+        "width": 0.057034220532319393,
+        "height": 0.0804416403785489
+      },
+      "sourceBox": {
+        "x": 173,
+        "y": 1008,
+        "width": 90,
+        "height": 102
+      }
+    },
+    "helicopter": {
+      "file": "town-helicopter-cockpit-c61cfaae.png",
+      "search": {
+        "x": 0.6907477820025348,
+        "y": 0.7689274447949527,
+        "width": 0.14575411913814956,
+        "height": 0.1695583596214511
+      },
+      "sourceBox": {
+        "x": 1192,
+        "y": 1068,
+        "width": 40,
+        "height": 22
+      }
+    },
+    "market": [
+      {
+        "file": "native-1578-town-market-awning.png",
+        "search": {
+          "x": 0.08111533586818757,
+          "y": 0.14826498422712933,
+          "width": 0.917617237008872,
+          "height": 0.7649842271293376
+        },
+        "sourceBox": {
+          "x": 390,
+          "y": 601,
+          "width": 40,
+          "height": 18
+        }
+      },
+      {
+        "file": "native-1578-town-current-market-awning.png",
+        "search": {
+          "x": 0.08111533586818757,
+          "y": 0.14826498422712933,
+          "width": 0.917617237008872,
+          "height": 0.7649842271293376
+        },
+        "sourceBox": {
+          "x": 420,
+          "y": 710,
+          "width": 30,
+          "height": 15
+        }
+      },
+      {
+        "file": "native-1578-town-market-20261006-resume-awning.png",
+        "search": {
+          "x": 0.08111533586818757,
+          "y": 0.14826498422712933,
+          "width": 0.917617237008872,
+          "height": 0.7649842271293376
+        },
+        "sourceBox": {
+          "x": 433,
+          "y": 594,
+          "width": 30,
+          "height": 15
+        }
+      },
+      {
+        "file": "native-1578-town-market-awning-20261007.png",
+        "search": {
+          "x": 0.08111533586818757,
+          "y": 0.14826498422712933,
+          "width": 0.917617237008872,
+          "height": 0.7649842271293376
+        },
+        "sourceBox": {
+          "x": 403,
+          "y": 597,
+          "width": 44,
+          "height": 24
+        }
+      },
+      {
+        "file": "capacity-market-entry.png",
+        "search": {
+          "x": 0.08111533586818757,
+          "y": 0.14826498422712933,
+          "width": 0.917617237008872,
+          "height": 0.7649842271293376
+        },
+        "sourceBox": {
+          "x": 403,
+          "y": 597,
+          "width": 44,
+          "height": 24
+        }
+      }
+    ]
+  },
+  "selection": {
+    "schema": 1,
+    "kind": "bilateral_outer_selection_halo",
+    "provider": "google_play_windows",
+    "dimensions": {
+      "width": 1578,
+      "height": 1268
+    },
+    "helicopterProfileHash": "950b8abb8ccecba76b44233702a326e746508b84b6d637780285fc1f1fa33b9d",
+    "viewportFraction": {
+      "x": 0.08111533586818757,
+      "y": 0.2082018927444795,
+      "width": 0.917617237008872,
+      "height": 0.6451104100946372
+    },
+    "cropFraction": {
+      "width": 0.08871989860583017,
+      "height": 0.14195583596214512
+    },
+    "pinAnchor": {
+      "x": 0.5,
+      "y": 0.8888888888888888
+    },
+    "bands": [
+      {
+        "x": 0.02142857142857143,
+        "y": 0.26666666666666666,
+        "width": 0.15,
+        "height": 0.3333333333333333
+      },
+      {
+        "x": 0.8357142857142857,
+        "y": 0.26666666666666666,
+        "width": 0.15,
+        "height": 0.3333333333333333
+      }
+    ],
+    "mask": {
+      "file": "outer-rim-mask.png",
+      "sha256": "c5eab6f953b054f707ae849c55a874c1e989b3b6fdca8dc6c393e765382565b7"
+    },
+    "color": {
+      "redAbove": 230,
+      "greenAbove": 220,
+      "blueAbove": 115,
+      "redMinusBlueAbove": 8
+    },
+    "support": {
+      "minimumPixels": 45,
+      "minimumRows": 20,
+      "minimumRun": 8,
+      "minimumPixelsPerRow": 2,
+      "minimumThirdRows": 2,
+      "minimumThirds": 2
+    },
+    "sourcesFile": "sources.json",
+    "sourcesHash": "fef3d5a64cbf1a54a387e1cc566718abac10ac32c93bf922e8264cc44ba78ecc"
+  },
+  "assets": [
+    {
+      "file": "native-1578-helicopter-title.png",
+      "sha256": "1376ed4e428e5efbb7b898efd8c32c8b84c89d5853d1b85706432ddf360f055e",
+      "source": {},
+      "sourceHash": "105a60581025e20466859fb788e07179f111fa513e03537ecfbb3994ec08c723"
+    },
+    {
+      "file": "native-1578-helicopter-details.png",
+      "sha256": "acf38c7157f549e32c6a8b762c5f0dcd252d8122ad9472ee77bd012ce064a0bc",
+      "source": {},
+      "sourceHash": "105a60581025e20466859fb788e07179f111fa513e03537ecfbb3994ec08c723"
+    },
+    {
+      "file": "native-1578-helicopter-close.png",
+      "sha256": "38cb4f1ccec9d605dc6bc00c0ebf501bbbc9805533cb67ba6d80e4ad03722367",
+      "source": {},
+      "sourceHash": "105a60581025e20466859fb788e07179f111fa513e03537ecfbb3994ec08c723"
+    },
+    {
+      "file": "native-1578-title.png",
+      "sha256": "6fbf54afe13be54c25852c80aabf20c981dd237e370959d2fc8c6bad429483c0",
+      "source": {},
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383"
+    },
+    {
+      "file": "native-1578-close.png",
+      "sha256": "77f05fb336f66b4d7608f5db0c1bb7bbaea6a32651e76d166a85f0ede212a875",
+      "source": {},
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383"
+    },
+    {
+      "file": "user-town-town-hardhat.png",
+      "sha256": "9449462abf842d00cdc2381bf558f39de5b1636aae50a14da551d4395315a2a1",
+      "source": "explicit_user_20261006",
+      "sourceHash": null
+    },
+    {
+      "file": "town-helicopter-cockpit-c61cfaae.png",
+      "sha256": "e63578bfe5ceb50d5538825f8dd41c22d087e947cbf020bf4410e21ecdf23d1e",
+      "source": {
+        "file": "town-helicopter-original-c61cfaae.png",
+        "frameId": "frame-c61cfaae-2a34-47f0-abad-4fbf098e0ee7",
+        "sha256": "a962405fe1fa1fc63b6918b2cc609256dec1f1cf44ff08b60029f9059723805e",
+        "dimensions": {
+          "width": 1578,
+          "height": 1268
+        },
+        "cropBox": {
+          "x": 1192,
+          "y": 1068,
+          "width": 40,
+          "height": 22
+        },
+        "identityReviewedBy": "AI manager /root/manager",
+        "identityEvidence": "Direct visual review of two actual game originals and previous helicopter shortcut: distinctive blue cockpit with red-orange outline. Crop excludes rotor, ready check badge, count and surrounding animation.",
+        "scope": "google_play_windows native 1578x1268; bottom helicopter shortcut; translation only"
+      },
+      "sourceHash": null
+    },
+    {
+      "file": "native-1578-town-market-awning.png",
+      "sha256": "a245696a235cc8ea3f708831092e2bb6cfa4cc3f8344e491eece88a2619d80bb",
+      "source": {},
+      "sourceHash": "3abd6f2c9a76125e0594627e50cf9f9eac0e6998768f549dd4a60f78b1e68428"
+    },
+    {
+      "file": "native-1578-town-current-market-awning.png",
+      "sha256": "3f9debb7830a02e038326cf9f4faae68a5e4e8182b2e407e9dcf3aba88e0ef74",
+      "source": {},
+      "sourceHash": "8f1fc5d903537bb858b74268d5796a8004f6e0acab266291e11d35eb00aa0ff8"
+    },
+    {
+      "file": "native-1578-town-market-20261006-resume-awning.png",
+      "sha256": "8c3ebee23b32719e8716b60a509e5340192c124c386b097ff90b9bb38966814f",
+      "source": {},
+      "sourceHash": "8a9e7f9f876900ac0e515006007f3c823a5292e0d032f4cea086026ffc3b7cba"
+    },
+    {
+      "file": "native-1578-town-market-awning-20261007.png",
+      "sha256": "9ec6edbad9c71b519b88c1e4bdd283b9973ec1b249017f68eab1c2843cd25932",
+      "source": {},
+      "sourceHash": "88cd45a19b8d7989202e5a7f1c1cfd5748ad49bb55c45114b142a210be98381d"
+    },
+    {
+      "file": "capacity-market-entry.png",
+      "sha256": "a90dd1a5671d0f34096e35693a864e2fc504e304e3604d629f8f925c32ed835d",
+      "source": {
+        "file": "capacity-original-town-final.png",
+        "sha256": "f885de1644e44d1c1413bce956770f1750ffa3395a197de348af57e28c3a47a1",
+        "frameId": "town-final",
+        "dimensions": {
+          "width": 1578,
+          "height": 1268
+        },
+        "cropBox": {
+          "x": 403,
+          "y": 597,
+          "width": 44,
+          "height": 24
+        }
+      },
+      "sourceHash": null
+    },
+    {
+      "file": "coin.png",
+      "sha256": "112f8858ff496c02f7d73711964f12068dc32c25a8dbf4f7f13443d45bf94b2b",
+      "source": {},
+      "sourceHash": "209f9192838db473728c9a90862ef0fc286f42592c0ec3f9deed62268a285643"
+    },
+    {
+      "file": "sold.png",
+      "sha256": "d84fc4a78c601608634747e1cd61e3bc3b9ba878b030e9b51301cba30edf1974",
+      "source": {},
+      "sourceHash": "317509e993f8b2709d8cfe42304349425d3b5ba10e9d8ce999766a51eeab0ec3"
+    },
+    {
+      "file": "plus.png",
+      "sha256": "d6bf7ba0680b619f25e58f4d3395e4f69b56fd2ae24baef5ecfb38cc1556c0ee",
+      "source": {},
+      "sourceHash": "87b07c72d727feff1caeb98799d8be98ea4ef1e78d8c0b9c66b5776592f42bf6"
+    },
+    {
+      "file": "sale.png",
+      "sha256": "279eeceadeec2ce1092dd92939c0569be76d5405a1a715e7a9484f86fb0282d9",
+      "source": {},
+      "sourceHash": "209f9192838db473728c9a90862ef0fc286f42592c0ec3f9deed62268a285643"
+    },
+    {
+      "file": "coin-1-556-682.png",
+      "sha256": "4639b12b838b1a42f0e3d0cce8a9f361c6883d1373705af9314a73ee39a48b36",
+      "source": {},
+      "sourceHash": "209f9192838db473728c9a90862ef0fc286f42592c0ec3f9deed62268a285643"
+    },
+    {
+      "file": "coin-1-746-682.png",
+      "sha256": "fc309caa46012d0adc7e89bd3cb28abeb47573c64a6564df18dd69cae3498316",
+      "source": {},
+      "sourceHash": "209f9192838db473728c9a90862ef0fc286f42592c0ec3f9deed62268a285643"
+    },
+    {
+      "file": "coin-2-595-452.png",
+      "sha256": "ab889d423a09fb9882c73f3900b6aefc360710e830fc149646c2c923b8619a30",
+      "source": {},
+      "sourceHash": "317509e993f8b2709d8cfe42304349425d3b5ba10e9d8ce999766a51eeab0ec3"
+    },
+    {
+      "file": "coin-2-589-682.png",
+      "sha256": "e847d2234fbcd16b458e26ee1db74b77295ac61d51c9605b0181ce8918a90620",
+      "source": {},
+      "sourceHash": "317509e993f8b2709d8cfe42304349425d3b5ba10e9d8ce999766a51eeab0ec3"
+    },
+    {
+      "file": "coin-2-787-682.png",
+      "sha256": "0df19258a9086d6adf3516372895c18105214d568bded6ad4031b0869896a54a",
+      "source": {},
+      "sourceHash": "317509e993f8b2709d8cfe42304349425d3b5ba10e9d8ce999766a51eeab0ec3"
+    },
+    {
+      "file": "sold-2-1172-347.png",
+      "sha256": "9c8ba9d6bb11b47c5b75c744bd2e28446248b1f0ea458884fe54f755885f1e19",
+      "source": {},
+      "sourceHash": "317509e993f8b2709d8cfe42304349425d3b5ba10e9d8ce999766a51eeab0ec3"
+    },
+    {
+      "file": "native-1578-offer-border-0.png",
+      "sha256": "1d835493516ae5c2dfd2c91133ec0d5e46007fa9d19c695b43e5f00cfb86f030",
+      "source": {},
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383"
+    },
+    {
+      "file": "native-1578-offer-border-1.png",
+      "sha256": "f34392a37db370420dca006aee03ae45d0e930250a3c01dfb8ca7ab1dfd541ab",
+      "source": {},
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383"
+    },
+    {
+      "file": "native-1578-coin-0.png",
+      "sha256": "585482507a8b24a17e61e126d5ee5d20713cf0cc9ed9aefb317e80d9bfd6d3d3",
+      "source": {},
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383"
+    },
+    {
+      "file": "native-1578-coin-1.png",
+      "sha256": "6feace7b130aecd308719c19668760ebe7b88dca41b3c139dec1b8fdd15c5d26",
+      "source": {},
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383"
+    },
+    {
+      "file": "native-1578-coin-2.png",
+      "sha256": "bb9d73255f62a2767eba639e2dcb78caaf6e8c69e0ff5993e8a609bd2af0584a",
+      "source": {},
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383"
+    },
+    {
+      "file": "native-1578-coin-3.png",
+      "sha256": "c048398a3d45f63b38e688f3542e74928b8534c4c9102964424e31b9fa922f2e",
+      "source": {},
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383"
+    },
+    {
+      "file": "native-1578-coin-4.png",
+      "sha256": "7b565ed027c6356ec88d9d104f0ff84d3bea4b4fdb902e23b7763d114774a3b2",
+      "source": {},
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383"
+    },
+    {
+      "file": "native-1578-coin-5.png",
+      "sha256": "fc170b6f2edb78bfda04c7aa24401a6e178bbf7d2fc773f22f8b8855b9b65238",
+      "source": {},
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383"
+    },
+    {
+      "file": "helicopter-trash.png",
+      "sha256": "4b66bd408129f4ad68db087b13507ae2dbfa508f34d281e4a8a8eb08c3421ab9",
+      "sourceFrameId": "frame-9f32c34f-6eaa-4151-b495-7912ca1f4465",
+      "sourceHash": "105a60581025e20466859fb788e07179f111fa513e03537ecfbb3994ec08c723",
+      "sourceBox": {
+        "x": 1213,
+        "y": 961,
+        "width": 74,
+        "height": 71
+      },
+      "minimumScore": 0.98,
+      "kind": "delete_helicopter",
+      "registrationBasis": "actual_current_crop"
+    }
+  ],
+  "percentageGeometry": {
+    "schema": 1,
+    "unit": "fraction",
+    "space": "registered_capture",
+    "canvas": {
+      "width": 1578,
+      "height": 1268
+    },
+    "entries": [
+      {
+        "path": [
+          "heli",
+          "anchors",
+          "0",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.40304182509505704,
+          "y": 0.23817034700315456,
+          "width": 0.2788339670468948,
+          "height": 0.04022082018927445
+        }
+      },
+      {
+        "path": [
+          "heli",
+          "anchors",
+          "1",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7908745247148289,
+          "y": 0.30126182965299686,
+          "width": 0.17110266159695817,
+          "height": 0.028391167192429023
+        }
+      },
+      {
+        "path": [
+          "heli",
+          "close",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.8143219264892269,
+          "y": 0.2421135646687697,
+          "width": 0.026615969581749048,
+          "height": 0.031545741324921134
+        }
+      },
+      {
+        "path": [
+          "market",
+          "anchors",
+          "0",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.5038022813688213,
+          "y": 0.2531545741324921,
+          "width": 0.15082382762991128,
+          "height": 0.033123028391167195
+        }
+      },
+      {
+        "path": [
+          "market",
+          "anchors",
+          "1",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.8219264892268695,
+          "y": 0.2618296529968454,
+          "width": 0.008871989860583017,
+          "height": 0.011829652996845425
+        }
+      },
+      {
+        "path": [
+          "market",
+          "close",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.8219264892268695,
+          "y": 0.2618296529968454,
+          "width": 0.008871989860583017,
+          "height": 0.011829652996845425
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "0",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.4759188846641318,
+          "y": 0.35725552050473186,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "1",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.6210392902408112,
+          "y": 0.4526813880126183,
+          "width": 0.057034220532319393,
+          "height": 0.025236593059936908
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "2",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7636248415716096,
+          "y": 0.2697160883280757,
+          "width": 0.03929024081115336,
+          "height": 0.04889589905362776
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "3",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.33903675538656525,
+          "y": 0.23974763406940064,
+          "width": 0.08111533586818757,
+          "height": 0.026813880126182965
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "4",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.3523447401774398,
+          "y": 0.5378548895899053,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "5",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.47275031685678076,
+          "y": 0.5378548895899053,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "6",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.3770595690747782,
+          "y": 0.35646687697160884,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "7",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.3732572877059569,
+          "y": 0.5378548895899053,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "8",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.4987325728770596,
+          "y": 0.5378548895899053,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "9",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7427122940430925,
+          "y": 0.27365930599369087,
+          "width": 0.057034220532319393,
+          "height": 0.025236593059936908
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "10",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.5342205323193916,
+          "y": 0.47870662460567825,
+          "width": 0.11026615969581749,
+          "height": 0.05993690851735016
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "11",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.5342205323193916,
+          "y": 0.6585173501577287,
+          "width": 0.11026615969581749,
+          "height": 0.05993690851735016
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "12",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.5602027883396705,
+          "y": 0.5,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "13",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.6812420785804816,
+          "y": 0.5,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "14",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.802915082382763,
+          "y": 0.5,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "15",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.5513307984790875,
+          "y": 0.6798107255520505,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "16",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.6755386565272496,
+          "y": 0.6798107255520505,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "market",
+          "markers",
+          "17",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7965779467680608,
+          "y": 0.6798107255520505,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "town",
+          "anchor",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.10963244613434728,
+          "y": 0.7949526813880127,
+          "width": 0.057034220532319393,
+          "height": 0.0804416403785489
+        }
+      },
+      {
+        "path": [
+          "town",
+          "helicopter",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7553865652724968,
+          "y": 0.8422712933753943,
+          "width": 0.025348542458808618,
+          "height": 0.017350157728706624
+        }
+      },
+      {
+        "path": [
+          "town",
+          "market",
+          "0",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.24714828897338403,
+          "y": 0.47397476340694006,
+          "width": 0.025348542458808618,
+          "height": 0.014195583596214511
+        }
+      },
+      {
+        "path": [
+          "town",
+          "market",
+          "1",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.2661596958174905,
+          "y": 0.5599369085173501,
+          "width": 0.019011406844106463,
+          "height": 0.011829652996845425
+        }
+      },
+      {
+        "path": [
+          "town",
+          "market",
+          "2",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.2743979721166033,
+          "y": 0.46845425867507884,
+          "width": 0.019011406844106463,
+          "height": 0.011829652996845425
+        }
+      },
+      {
+        "path": [
+          "town",
+          "market",
+          "3",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.2553865652724968,
+          "y": 0.47082018927444796,
+          "width": 0.02788339670468948,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "town",
+          "market",
+          "4",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.2553865652724968,
+          "y": 0.47082018927444796,
+          "width": 0.02788339670468948,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "30",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7686945500633714,
+          "y": 0.7578864353312302,
+          "width": 0.046894803548795945,
+          "height": 0.055993690851735015
+        }
+      }
+    ]
+  }
+}

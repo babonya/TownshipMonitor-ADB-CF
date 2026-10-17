@@ -1,0 +1,1856 @@
+{
+  "schema": 1,
+  "version": "google-play-train-syrup-second-load-5",
+  "provider": "google_play_windows",
+  "dimensions": {
+    "width": 1114,
+    "height": 735
+  },
+  "identityMode": "product_list",
+  "coordinateSpace": {
+    "reference": {
+      "width": 1600,
+      "height": 900
+    },
+    "viewport": {
+      "x": 65,
+      "y": 36,
+      "width": 1048,
+      "height": 698
+    },
+    "alignX": 0.5,
+    "alignY": 0.5,
+    "fit": "contain"
+  },
+  "coordinateBindings": [
+    {
+      "fraction": {
+        "x": 0.36451335877862595,
+        "y": 0.05217981340118746,
+        "width": 0.26524809160305346,
+        "height": 0.04916030534351145
+      },
+      "box": {
+        "x": 447,
+        "y": 121,
+        "width": 278,
+        "height": 29
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.79581106870229,
+        "y": 0.05557251908396947,
+        "width": 0.022881679389312976,
+        "height": 0.040678541136556404
+      },
+      "box": {
+        "x": 899,
+        "y": 123,
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.28626908396946565,
+        "y": 0.39993214588634435,
+        "width": 0.5725,
+        "height": 0.0067514843087362175
+      },
+      "box": {
+        "x": 365,
+        "y": 326,
+        "width": 600,
+        "height": 4
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.2872232824427481,
+        "y": 0.25574215436810854,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 366,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.30916984732824426,
+        "y": 0.26592027141645463,
+        "width": 0.05055343511450382,
+        "height": 0.055945716709075485
+      },
+      "box": {
+        "x": 389,
+        "y": 247,
+        "width": 53,
+        "height": 33
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.31298664122137404,
+        "y": 0.23538592027141644,
+        "width": 0.04196564885496183,
+        "height": 0.020322307039864294
+      },
+      "box": {
+        "x": 393,
+        "y": 229,
+        "width": 44,
+        "height": 12
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.40554389312977096,
+        "y": 0.25574215436810854,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 490,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.4274904580152672,
+        "y": 0.26592027141645463,
+        "width": 0.05055343511450382,
+        "height": 0.055945716709075485
+      },
+      "box": {
+        "x": 513,
+        "y": 247,
+        "width": 53,
+        "height": 33
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.4313072519083969,
+        "y": 0.23538592027141644,
+        "width": 0.04196564885496183,
+        "height": 0.020322307039864294
+      },
+      "box": {
+        "x": 517,
+        "y": 229,
+        "width": 44,
+        "height": 12
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.5238645038167938,
+        "y": 0.25574215436810854,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 614,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.54581106870229,
+        "y": 0.26592027141645463,
+        "width": 0.05055343511450382,
+        "height": 0.055945716709075485
+      },
+      "box": {
+        "x": 637,
+        "y": 247,
+        "width": 53,
+        "height": 33
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.5496278625954198,
+        "y": 0.23538592027141644,
+        "width": 0.04196564885496183,
+        "height": 0.020322307039864294
+      },
+      "box": {
+        "x": 641,
+        "y": 229,
+        "width": 44,
+        "height": 12
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.6421851145038168,
+        "y": 0.25574215436810854,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 738,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.6698568702290076,
+        "y": 0.26592027141645463,
+        "width": 0.04196564885496183,
+        "height": 0.055945716709075485
+      },
+      "box": {
+        "x": 767,
+        "y": 247,
+        "width": 44,
+        "height": 33
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.6679484732824428,
+        "y": 0.23538592027141644,
+        "width": 0.04196564885496183,
+        "height": 0.020322307039864294
+      },
+      "box": {
+        "x": 765,
+        "y": 229,
+        "width": 44,
+        "height": 12
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.7605057251908397,
+        "y": 0.25574215436810854,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 862,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.7881774809160306,
+        "y": 0.26592027141645463,
+        "width": 0.04196564885496183,
+        "height": 0.055945716709075485
+      },
+      "box": {
+        "x": 891,
+        "y": 247,
+        "width": 44,
+        "height": 33
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.7862690839694656,
+        "y": 0.23538592027141644,
+        "width": 0.04196564885496183,
+        "height": 0.020322307039864294
+      },
+      "box": {
+        "x": 889,
+        "y": 229,
+        "width": 44,
+        "height": 12
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.2881774809160305,
+        "y": 0.3218999151823579,
+        "width": 0.09158396946564885,
+        "height": 0.03728583545377438
+      },
+      "box": {
+        "x": 367,
+        "y": 280,
+        "width": 96,
+        "height": 22
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.40649809160305345,
+        "y": 0.3218999151823579,
+        "width": 0.09158396946564885,
+        "height": 0.03728583545377438
+      },
+      "box": {
+        "x": 491,
+        "y": 280,
+        "width": 96,
+        "height": 22
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.5248187022900763,
+        "y": 0.3218999151823579,
+        "width": 0.09158396946564885,
+        "height": 0.03728583545377438
+      },
+      "box": {
+        "x": 615,
+        "y": 280,
+        "width": 96,
+        "height": 22
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.6431393129770993,
+        "y": 0.3218999151823579,
+        "width": 0.09158396946564885,
+        "height": 0.03728583545377438
+      },
+      "box": {
+        "x": 739,
+        "y": 280,
+        "width": 96,
+        "height": 22
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.7614599236641221,
+        "y": 0.3218999151823579,
+        "width": 0.09158396946564885,
+        "height": 0.03728583545377438
+      },
+      "box": {
+        "x": 863,
+        "y": 280,
+        "width": 96,
+        "height": 22
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.24333015267175573,
+        "y": 0.41859202714164545,
+        "width": 0.18318702290076336,
+        "height": 0.040678541136556404
+      },
+      "box": {
+        "x": 320,
+        "y": 337,
+        "width": 192,
+        "height": 24
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.1717652671755725,
+        "y": 0.43555555555555553,
+        "width": 0.008568702290076335,
+        "height": 0.33923664122137404
+      },
+      "box": {
+        "x": 245,
+        "y": 347,
+        "width": 9,
+        "height": 200
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.3253912213740458,
+        "y": 0.36261238337574214,
+        "width": 0.021927480916030535,
+        "height": 0.030500424088210347
+      },
+      "box": {
+        "x": 406,
+        "y": 304,
+        "width": 23,
+        "height": 18
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.2881774809160305,
+        "y": 0.506802374893978,
+        "width": 0.04291984732824427,
+        "height": 0.06782018659881255
+      },
+      "box": {
+        "x": 367,
+        "y": 389,
+        "width": 45,
+        "height": 40
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.33302480916030536,
+        "y": 0.5135877862595419,
+        "width": 0.05627862595419847,
+        "height": 0.055945716709075485
+      },
+      "box": {
+        "x": 414,
+        "y": 393,
+        "width": 59,
+        "height": 33
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.21375,
+        "y": 0.7086683630195081,
+        "width": 0.24330152671755725,
+        "height": 0.045767599660729436
+      },
+      "box": {
+        "x": 289,
+        "y": 508,
+        "width": 255,
+        "height": 27
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.2881774809160305,
+        "y": 0.3218999151823579,
+        "width": 0.09158396946564885,
+        "height": 0.03389312977099237
+      },
+      "box": {
+        "x": 367,
+        "y": 280,
+        "width": 96,
+        "height": 20
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.40649809160305345,
+        "y": 0.3218999151823579,
+        "width": 0.09158396946564885,
+        "height": 0.03389312977099237
+      },
+      "box": {
+        "x": 491,
+        "y": 280,
+        "width": 96,
+        "height": 20
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.5248187022900763,
+        "y": 0.3218999151823579,
+        "width": 0.09158396946564885,
+        "height": 0.03389312977099237
+      },
+      "box": {
+        "x": 615,
+        "y": 280,
+        "width": 96,
+        "height": 20
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.6431393129770993,
+        "y": 0.3218999151823579,
+        "width": 0.09158396946564885,
+        "height": 0.03389312977099237
+      },
+      "box": {
+        "x": 739,
+        "y": 280,
+        "width": 96,
+        "height": 20
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.7614599236641221,
+        "y": 0.3218999151823579,
+        "width": 0.09158396946564885,
+        "height": 0.03389312977099237
+      },
+      "box": {
+        "x": 863,
+        "y": 280,
+        "width": 96,
+        "height": 20
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.5963835877862596,
+        "y": 0.41859202714164545,
+        "width": 0.18604961832061068,
+        "height": 0.040678541136556404
+      },
+      "box": {
+        "x": 690,
+        "y": 337,
+        "width": 195,
+        "height": 24
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.5248187022900763,
+        "y": 0.43555555555555553,
+        "width": 0.008568702290076335,
+        "height": 0.33923664122137404
+      },
+      "box": {
+        "x": 615,
+        "y": 347,
+        "width": 9,
+        "height": 200
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.6784446564885496,
+        "y": 0.36261238337574214,
+        "width": 0.021927480916030535,
+        "height": 0.030500424088210347
+      },
+      "box": {
+        "x": 776,
+        "y": 304,
+        "width": 23,
+        "height": 18
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.6393225190839694,
+        "y": 0.5017133163698049,
+        "width": 0.03814885496183206,
+        "height": 0.0796946564885496
+      },
+      "box": {
+        "x": 735,
+        "y": 386,
+        "width": 40,
+        "height": 47
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.6803530534351145,
+        "y": 0.5135877862595419,
+        "width": 0.0658206106870229,
+        "height": 0.055945716709075485
+      },
+      "box": {
+        "x": 778,
+        "y": 393,
+        "width": 69,
+        "height": 33
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.5677576335877863,
+        "y": 0.7086683630195081,
+        "width": 0.24330152671755725,
+        "height": 0.045767599660729436
+      },
+      "box": {
+        "x": 660,
+        "y": 508,
+        "width": 255,
+        "height": 27
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.6431393129770993,
+        "y": 0.25574215436810854,
+        "width": 0.09158396946564885,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 739,
+        "y": 241,
+        "width": 96,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.664131679389313,
+        "y": 0.26931297709923663,
+        "width": 0.04959923664122137,
+        "height": 0.06612383375742154
+      },
+      "box": {
+        "x": 761,
+        "y": 249,
+        "width": 52,
+        "height": 39
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.7147041984732825,
+        "y": 0.41859202714164545,
+        "width": 0.18604961832061068,
+        "height": 0.040678541136556404
+      },
+      "box": {
+        "x": 814,
+        "y": 337,
+        "width": 195,
+        "height": 24
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.6431393129770993,
+        "y": 0.43555555555555553,
+        "width": 0.008568702290076335,
+        "height": 0.33923664122137404
+      },
+      "box": {
+        "x": 739,
+        "y": 347,
+        "width": 9,
+        "height": 200
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.7967652671755725,
+        "y": 0.36261238337574214,
+        "width": 0.021927480916030535,
+        "height": 0.030500424088210347
+      },
+      "box": {
+        "x": 900,
+        "y": 304,
+        "width": 23,
+        "height": 18
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.7576431297709924,
+        "y": 0.5017133163698049,
+        "width": 0.03814885496183206,
+        "height": 0.0796946564885496
+      },
+      "box": {
+        "x": 859,
+        "y": 386,
+        "width": 40,
+        "height": 47
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.7986736641221374,
+        "y": 0.5135877862595419,
+        "width": 0.0658206106870229,
+        "height": 0.055945716709075485
+      },
+      "box": {
+        "x": 902,
+        "y": 393,
+        "width": 69,
+        "height": 33
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.6860782442748091,
+        "y": 0.7086683630195081,
+        "width": 0.24330152671755725,
+        "height": 0.045767599660729436
+      },
+      "box": {
+        "x": 784,
+        "y": 508,
+        "width": 255,
+        "height": 27
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.7614599236641221,
+        "y": 0.25574215436810854,
+        "width": 0.09158396946564885,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 863,
+        "y": 241,
+        "width": 96,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.7824522900763359,
+        "y": 0.26931297709923663,
+        "width": 0.04959923664122137,
+        "height": 0.06612383375742154
+      },
+      "box": {
+        "x": 885,
+        "y": 249,
+        "width": 52,
+        "height": 39
+      }
+    }
+  ],
+  "anchors": [
+    {
+      "file": "title.png",
+      "box": {
+        "x": 447,
+        "y": 121,
+        "width": 278,
+        "height": 29
+      }
+    },
+    {
+      "file": "close.png",
+      "box": {
+        "x": 899,
+        "y": 123,
+        "width": 24,
+        "height": 24
+      }
+    }
+  ],
+  "rows": [
+    {
+      "row": 1,
+      "layoutId": "potato-potato-potato-syrup-syrup",
+      "bareAnchors": [
+        {
+          "file": "r1-bare-rail.png",
+          "box": {
+            "x": 365,
+            "y": 326,
+            "width": 600,
+            "height": 4
+          },
+          "exact": true
+        }
+      ],
+      "slots": [
+        {
+          "slotId": "r1-c1",
+          "itemId": "potato",
+          "required": 4,
+          "body": {
+            "file": "r1-c1-body.png",
+            "box": {
+              "x": 366,
+              "y": 241,
+              "width": 10,
+              "height": 59
+            }
+          },
+          "item": {
+            "file": "r1-c1-item.png",
+            "box": {
+              "x": 389,
+              "y": 247,
+              "width": 53,
+              "height": 33
+            }
+          },
+          "quantity": {
+            "file": "r1-c1-quantity-core.png",
+            "box": {
+              "x": 367,
+              "y": 280,
+              "width": 96,
+              "height": 20
+            },
+            "exact": true
+          },
+          "gridBox": {
+            "x": 367,
+            "y": 280,
+            "width": 96,
+            "height": 20
+          },
+          "selectBox": {
+            "x": 393,
+            "y": 229,
+            "width": 44,
+            "height": 12
+          }
+        },
+        {
+          "slotId": "r1-c2",
+          "itemId": "potato",
+          "required": 4,
+          "body": {
+            "file": "r1-c2-body.png",
+            "box": {
+              "x": 490,
+              "y": 241,
+              "width": 10,
+              "height": 59
+            }
+          },
+          "item": {
+            "file": "r1-c2-item.png",
+            "box": {
+              "x": 513,
+              "y": 247,
+              "width": 53,
+              "height": 33
+            }
+          },
+          "quantity": {
+            "file": "r1-c2-quantity-core.png",
+            "box": {
+              "x": 491,
+              "y": 280,
+              "width": 96,
+              "height": 20
+            },
+            "exact": true
+          },
+          "gridBox": {
+            "x": 491,
+            "y": 280,
+            "width": 96,
+            "height": 20
+          },
+          "selectBox": {
+            "x": 517,
+            "y": 229,
+            "width": 44,
+            "height": 12
+          }
+        },
+        {
+          "slotId": "r1-c3",
+          "itemId": "potato",
+          "required": 4,
+          "body": {
+            "file": "r1-c3-body.png",
+            "box": {
+              "x": 614,
+              "y": 241,
+              "width": 10,
+              "height": 59
+            }
+          },
+          "item": {
+            "file": "r1-c3-item.png",
+            "box": {
+              "x": 637,
+              "y": 247,
+              "width": 53,
+              "height": 33
+            }
+          },
+          "quantity": {
+            "file": "r1-c3-quantity-core.png",
+            "box": {
+              "x": 615,
+              "y": 280,
+              "width": 96,
+              "height": 20
+            },
+            "exact": true
+          },
+          "gridBox": {
+            "x": 615,
+            "y": 280,
+            "width": 96,
+            "height": 20
+          },
+          "selectBox": {
+            "x": 641,
+            "y": 229,
+            "width": 44,
+            "height": 12
+          }
+        },
+        {
+          "slotId": "r1-c4",
+          "itemId": "syrup",
+          "required": 2,
+          "body": {
+            "file": "r1-c4-body.png",
+            "box": {
+              "x": 738,
+              "y": 241,
+              "width": 10,
+              "height": 59
+            }
+          },
+          "item": {
+            "file": "r1-c4-item.png",
+            "box": {
+              "x": 767,
+              "y": 247,
+              "width": 44,
+              "height": 33
+            }
+          },
+          "quantity": {
+            "file": "r1-c4-quantity-core.png",
+            "box": {
+              "x": 739,
+              "y": 280,
+              "width": 96,
+              "height": 20
+            },
+            "exact": true
+          },
+          "gridBox": {
+            "x": 739,
+            "y": 280,
+            "width": 96,
+            "height": 20
+          },
+          "selectBox": {
+            "x": 765,
+            "y": 229,
+            "width": 44,
+            "height": 12
+          }
+        },
+        {
+          "slotId": "r1-c5",
+          "itemId": "syrup",
+          "required": 2,
+          "body": {
+            "file": "r1-c5-body.png",
+            "box": {
+              "x": 862,
+              "y": 241,
+              "width": 10,
+              "height": 59
+            }
+          },
+          "item": {
+            "file": "r1-c5-item.png",
+            "box": {
+              "x": 891,
+              "y": 247,
+              "width": 44,
+              "height": 33
+            }
+          },
+          "quantity": {
+            "file": "r1-c5-quantity-core.png",
+            "box": {
+              "x": 863,
+              "y": 280,
+              "width": 96,
+              "height": 20
+            },
+            "exact": true
+          },
+          "gridBox": {
+            "x": 863,
+            "y": 280,
+            "width": 96,
+            "height": 20
+          },
+          "selectBox": {
+            "x": 889,
+            "y": 229,
+            "width": 44,
+            "height": 12
+          }
+        }
+      ],
+      "loaded": [
+        {
+          "slotId": "r1-c4",
+          "regions": [
+            {
+              "file": "r1-c4-loaded-body.png",
+              "box": {
+                "x": 739,
+                "y": 241,
+                "width": 96,
+                "height": 59
+              }
+            },
+            {
+              "file": "r1-c4-loaded-check.png",
+              "box": {
+                "x": 761,
+                "y": 249,
+                "width": 52,
+                "height": 39
+              },
+              "exact": true
+            }
+          ]
+        },
+        {
+          "slotId": "r1-c5",
+          "regions": [
+            {
+              "file": "r1-c5-loaded-body.png",
+              "box": {
+                "x": 863,
+                "y": 241,
+                "width": 96,
+                "height": 59
+              }
+            },
+            {
+              "file": "r1-c5-loaded-check.png",
+              "box": {
+                "x": 885,
+                "y": 249,
+                "width": 52,
+                "height": 39
+              },
+              "exact": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "popups": [
+    {
+      "id": "gp-r1-c1-potato",
+      "row": 1,
+      "layoutId": "potato-potato-potato-syrup-syrup",
+      "slotId": "r1-c1",
+      "itemId": "potato",
+      "anchors": [
+        {
+          "file": "gp-r1-c1-potato-reward.png",
+          "box": {
+            "x": 320,
+            "y": 337,
+            "width": 192,
+            "height": 24
+          }
+        },
+        {
+          "file": "gp-r1-c1-potato-edge.png",
+          "box": {
+            "x": 245,
+            "y": 347,
+            "width": 9,
+            "height": 200
+          }
+        },
+        {
+          "file": "gp-r1-c1-potato-pointer.png",
+          "box": {
+            "x": 406,
+            "y": 304,
+            "width": 23,
+            "height": 18
+          }
+        }
+      ],
+      "item": {
+        "file": "gp-r1-c1-potato-icon.png",
+        "box": {
+          "x": 367,
+          "y": 389,
+          "width": 45,
+          "height": 40
+        }
+      },
+      "field": {
+        "fieldId": "gp-r1-c1-potato-stock",
+        "slotId": "r1-c1",
+        "itemId": "potato",
+        "kind": "stock_pair",
+        "box": {
+          "x": 414,
+          "y": 393,
+          "width": 59,
+          "height": 33
+        },
+        "scale": 3,
+        "minimumScore": 0.95,
+        "recognitionOnly": true
+      },
+      "load": {
+        "file": "gp-r1-c1-potato-load.png",
+        "box": {
+          "x": 289,
+          "y": 508,
+          "width": 255,
+          "height": 27
+        }
+      }
+    },
+    {
+      "id": "gp-r1-c4-syrup",
+      "row": 1,
+      "layoutId": "potato-potato-potato-syrup-syrup",
+      "slotId": "r1-c4",
+      "itemId": "syrup",
+      "anchors": [
+        {
+          "file": "gp-r1-c4-syrup-reward.png",
+          "box": {
+            "x": 690,
+            "y": 337,
+            "width": 195,
+            "height": 24
+          }
+        },
+        {
+          "file": "gp-r1-c4-syrup-edge.png",
+          "box": {
+            "x": 615,
+            "y": 347,
+            "width": 9,
+            "height": 200
+          }
+        },
+        {
+          "file": "gp-r1-c4-syrup-pointer.png",
+          "box": {
+            "x": 776,
+            "y": 304,
+            "width": 23,
+            "height": 18
+          }
+        }
+      ],
+      "item": {
+        "file": "gp-r1-c4-syrup-icon.png",
+        "box": {
+          "x": 735,
+          "y": 386,
+          "width": 40,
+          "height": 47
+        }
+      },
+      "field": {
+        "fieldId": "gp-r1-c4-syrup-stock",
+        "slotId": "r1-c4",
+        "itemId": "syrup",
+        "kind": "stock_pair",
+        "box": {
+          "x": 778,
+          "y": 393,
+          "width": 69,
+          "height": 33
+        },
+        "scale": 3,
+        "minimumScore": 0.95,
+        "recognitionOnly": true
+      },
+      "load": {
+        "file": "gp-r1-c4-syrup-load.png",
+        "box": {
+          "x": 660,
+          "y": 508,
+          "width": 255,
+          "height": 27
+        }
+      }
+    },
+    {
+      "id": "gp-r1-c5-syrup",
+      "row": 1,
+      "layoutId": "potato-potato-potato-syrup-syrup",
+      "slotId": "r1-c5",
+      "itemId": "syrup",
+      "anchors": [
+        {
+          "file": "gp-r1-c5-syrup-reward.png",
+          "box": {
+            "x": 814,
+            "y": 337,
+            "width": 195,
+            "height": 24
+          }
+        },
+        {
+          "file": "gp-r1-c5-syrup-edge.png",
+          "box": {
+            "x": 739,
+            "y": 347,
+            "width": 9,
+            "height": 200
+          }
+        },
+        {
+          "file": "gp-r1-c5-syrup-pointer.png",
+          "box": {
+            "x": 900,
+            "y": 304,
+            "width": 23,
+            "height": 18
+          }
+        }
+      ],
+      "item": {
+        "file": "gp-r1-c5-syrup-icon.png",
+        "box": {
+          "x": 859,
+          "y": 386,
+          "width": 40,
+          "height": 47
+        }
+      },
+      "field": {
+        "fieldId": "gp-r1-c5-syrup-stock",
+        "slotId": "r1-c5",
+        "itemId": "syrup",
+        "kind": "stock_pair",
+        "box": {
+          "x": 902,
+          "y": 393,
+          "width": 69,
+          "height": 33
+        },
+        "scale": 3,
+        "minimumScore": 0.95,
+        "recognitionOnly": true
+      },
+      "load": {
+        "file": "gp-r1-c5-syrup-load.png",
+        "box": {
+          "x": 784,
+          "y": 508,
+          "width": 255,
+          "height": 27
+        }
+      }
+    }
+  ],
+  "detailSelections": [
+    {
+      "row": 1,
+      "layoutId": "potato-potato-potato-syrup-syrup",
+      "slotId": "r1-c1",
+      "itemId": "potato",
+      "popupId": "gp-r1-c1-potato",
+      "box": {
+        "x": 393,
+        "y": 229,
+        "width": 44,
+        "height": 12
+      }
+    },
+    {
+      "row": 1,
+      "layoutId": "potato-potato-potato-syrup-syrup",
+      "slotId": "r1-c2",
+      "itemId": "potato",
+      "popupId": "gp-r1-c2-potato",
+      "box": {
+        "x": 517,
+        "y": 229,
+        "width": 44,
+        "height": 12
+      }
+    },
+    {
+      "row": 1,
+      "layoutId": "potato-potato-potato-syrup-syrup",
+      "slotId": "r1-c3",
+      "itemId": "potato",
+      "popupId": "gp-r1-c3-potato",
+      "box": {
+        "x": 641,
+        "y": 229,
+        "width": 44,
+        "height": 12
+      }
+    },
+    {
+      "row": 1,
+      "layoutId": "potato-potato-potato-syrup-syrup",
+      "slotId": "r1-c4",
+      "itemId": "syrup",
+      "popupId": "gp-r1-c4-syrup",
+      "box": {
+        "x": 765,
+        "y": 229,
+        "width": 44,
+        "height": 12
+      }
+    },
+    {
+      "row": 1,
+      "layoutId": "potato-potato-potato-syrup-syrup",
+      "slotId": "r1-c5",
+      "itemId": "syrup",
+      "popupId": "gp-r1-c5-syrup",
+      "box": {
+        "x": 889,
+        "y": 229,
+        "width": 44,
+        "height": 12
+      }
+    }
+  ],
+  "loadTransitions": [
+    {
+      "row": 1,
+      "layoutId": "potato-potato-potato-syrup-syrup",
+      "slotId": "r1-c4",
+      "itemId": "syrup",
+      "requiredLoadedSlots": [],
+      "resultPopupId": "gp-r1-c5-syrup"
+    },
+    {
+      "row": 1,
+      "layoutId": "potato-potato-potato-syrup-syrup",
+      "slotId": "r1-c5",
+      "itemId": "syrup",
+      "requiredLoadedSlots": [
+        "r1-c4"
+      ],
+      "resultPopupId": "gp-r1-c1-potato"
+    }
+  ],
+  "automaticDepartures": [],
+  "assets": [
+    {
+      "file": "title.png",
+      "sha256": "1abd03c7c67411891957a4b9e0e87ff41fa4fc72a9d5d153299307f9651aa1ed",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 447,
+        "y": 121,
+        "width": 278,
+        "height": 29
+      }
+    },
+    {
+      "file": "close.png",
+      "sha256": "026b6207e5f7d456f0bccd4b63eda85a465eded05e8a3ef402d39c297220fc0a",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 899,
+        "y": 123,
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "file": "r1-bare-rail.png",
+      "sha256": "84d3012049858d69adcf008594c4fc670fbc0eb5dde745bbafbb7e36c24d9008",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 365,
+        "y": 326,
+        "width": 600,
+        "height": 4
+      }
+    },
+    {
+      "file": "r1-c1-quantity.png",
+      "sha256": "1e9ab793e0dfb5b4c1d6337e6c5939437588b954f0d6e6519bba1708206b2a10",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 367,
+        "y": 280,
+        "width": 96,
+        "height": 22
+      }
+    },
+    {
+      "file": "r1-c1-body.png",
+      "sha256": "1658e34de2c3be441db5d9a75481f72f035549b4fd515e8b29ba9d30443d77cb",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 366,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r1-c1-item.png",
+      "sha256": "6a571d3328e2e9c938206b810497c46796704ea8ea7551fcceefaaa7ccf74d0e",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 389,
+        "y": 247,
+        "width": 53,
+        "height": 33
+      }
+    },
+    {
+      "file": "r1-c2-quantity.png",
+      "sha256": "c58dd36652681ca17ed32d5e01e624ea2888ba675c1e392ef4ef8a8d4ab10654",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 491,
+        "y": 280,
+        "width": 96,
+        "height": 22
+      }
+    },
+    {
+      "file": "r1-c2-body.png",
+      "sha256": "ddb5439f654016f10067cee8dde9ea2aa75951af0e07c3343b6a3864db3d923a",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 490,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r1-c2-item.png",
+      "sha256": "199c4940e1ba2f2231c473b45037f6b57fdd196c3dc932a500552961c0951189",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 513,
+        "y": 247,
+        "width": 53,
+        "height": 33
+      }
+    },
+    {
+      "file": "r1-c3-quantity.png",
+      "sha256": "4d2afcacac499b3939d43aa273b59489140bc0d5101cefc493d22a6a9dadd7e0",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 615,
+        "y": 280,
+        "width": 96,
+        "height": 22
+      }
+    },
+    {
+      "file": "r1-c3-body.png",
+      "sha256": "70f0cd927b04ab7e45c638193c5dffe464bb45346d9fb7d933dfecfc1a62b778",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 614,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r1-c3-item.png",
+      "sha256": "62299c00153690f7df7a30f0b9787a36a762dde243e55eb7359f550f89222755",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 637,
+        "y": 247,
+        "width": 53,
+        "height": 33
+      }
+    },
+    {
+      "file": "r1-c4-quantity.png",
+      "sha256": "f92e761d36162c7a5ba07db0cc50db06828b02091c8f8cc0305d67528f9292bb",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 739,
+        "y": 280,
+        "width": 96,
+        "height": 22
+      }
+    },
+    {
+      "file": "r1-c4-body.png",
+      "sha256": "2a433ddb1f3c75a27b6528d2d07c1aab487feb94898adb2b549f03244b03886c",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 738,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r1-c4-item.png",
+      "sha256": "91c67f45f7c0757ab0564f91da86bfa1cd584d41c5bf170e36ce47adce6107a4",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 767,
+        "y": 247,
+        "width": 44,
+        "height": 33
+      }
+    },
+    {
+      "file": "r1-c5-quantity.png",
+      "sha256": "cbc676ddcc9aaaa8357b6ace473196c8f46375bdcbb98d7669078776df3d3980",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 863,
+        "y": 280,
+        "width": 96,
+        "height": 22
+      }
+    },
+    {
+      "file": "r1-c5-body.png",
+      "sha256": "16b6e049d1d691ac8a7552512f100bccfb7e9a6ab7a74d7aa3a92f8081bdd232",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 862,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r1-c5-item.png",
+      "sha256": "679e2ddd14a24e5a00f16b279f791c4e64e953652ad92ecaedc641cd327fe6fb",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 891,
+        "y": 247,
+        "width": 44,
+        "height": 33
+      }
+    },
+    {
+      "file": "gp-r1-c1-potato-reward.png",
+      "sha256": "c1ae9db139a3e8ab04e278f3c29a720b044813f1ffd4261d824b2d1d6ee8a87a",
+      "sourceFrameId": "frame-c438084a-f070-4db1-8aab-540f05b9c8be",
+      "sourceHash": "de0af6adc78b0f6e43b2c05b4101718eded2037e973248a86b2e7f30f34791d0",
+      "sourceBox": {
+        "x": 320,
+        "y": 337,
+        "width": 192,
+        "height": 24
+      }
+    },
+    {
+      "file": "gp-r1-c1-potato-edge.png",
+      "sha256": "dede0a5e9825b7105715db8596cde5a53510fd054c90ab7855baa2dd61882d9b",
+      "sourceFrameId": "frame-c438084a-f070-4db1-8aab-540f05b9c8be",
+      "sourceHash": "de0af6adc78b0f6e43b2c05b4101718eded2037e973248a86b2e7f30f34791d0",
+      "sourceBox": {
+        "x": 245,
+        "y": 347,
+        "width": 9,
+        "height": 200
+      }
+    },
+    {
+      "file": "gp-r1-c1-potato-pointer.png",
+      "sha256": "83b9ce6be72b0c8d7c0bf09141802556bd2adf756c6b91ac07ea2b63d2182ce7",
+      "sourceFrameId": "frame-c438084a-f070-4db1-8aab-540f05b9c8be",
+      "sourceHash": "de0af6adc78b0f6e43b2c05b4101718eded2037e973248a86b2e7f30f34791d0",
+      "sourceBox": {
+        "x": 406,
+        "y": 304,
+        "width": 23,
+        "height": 18
+      }
+    },
+    {
+      "file": "gp-r1-c1-potato-icon.png",
+      "sha256": "dd7553b2a06e1069548a7c85d9ff3dbbc9674176c0c3cf7ba0fc9088451f22dc",
+      "sourceFrameId": "frame-c438084a-f070-4db1-8aab-540f05b9c8be",
+      "sourceHash": "de0af6adc78b0f6e43b2c05b4101718eded2037e973248a86b2e7f30f34791d0",
+      "sourceBox": {
+        "x": 367,
+        "y": 389,
+        "width": 45,
+        "height": 40
+      }
+    },
+    {
+      "file": "gp-r1-c1-potato-load.png",
+      "sha256": "dfcb704d1c769d0f5f9e851d412d47e592e4c538dfbeb5da61d8635a2bb7eb22",
+      "sourceFrameId": "frame-c438084a-f070-4db1-8aab-540f05b9c8be",
+      "sourceHash": "de0af6adc78b0f6e43b2c05b4101718eded2037e973248a86b2e7f30f34791d0",
+      "sourceBox": {
+        "x": 289,
+        "y": 508,
+        "width": 255,
+        "height": 27
+      }
+    },
+    {
+      "file": "r1-c1-quantity-core.png",
+      "sha256": "ba8e5549aa365738a865967075012cf08346d38b52ce3328750158f637718aa3",
+      "sourceFrameId": "frame-c438084a-f070-4db1-8aab-540f05b9c8be",
+      "sourceHash": "de0af6adc78b0f6e43b2c05b4101718eded2037e973248a86b2e7f30f34791d0",
+      "sourceBox": {
+        "x": 367,
+        "y": 280,
+        "width": 96,
+        "height": 20
+      }
+    },
+    {
+      "file": "r1-c2-quantity-core.png",
+      "sha256": "b45cda063ad75d719d86d3c7a9b2711b72460626d97cbefa3cdd358aa44f6ce3",
+      "sourceFrameId": "frame-c438084a-f070-4db1-8aab-540f05b9c8be",
+      "sourceHash": "de0af6adc78b0f6e43b2c05b4101718eded2037e973248a86b2e7f30f34791d0",
+      "sourceBox": {
+        "x": 491,
+        "y": 280,
+        "width": 96,
+        "height": 20
+      }
+    },
+    {
+      "file": "r1-c3-quantity-core.png",
+      "sha256": "e187c37f340fac16f32193f5c0b7c7b5bd062fc460f65f28cbed42374a535a23",
+      "sourceFrameId": "frame-c438084a-f070-4db1-8aab-540f05b9c8be",
+      "sourceHash": "de0af6adc78b0f6e43b2c05b4101718eded2037e973248a86b2e7f30f34791d0",
+      "sourceBox": {
+        "x": 615,
+        "y": 280,
+        "width": 96,
+        "height": 20
+      }
+    },
+    {
+      "file": "r1-c4-quantity-core.png",
+      "sha256": "3969a6aef65dc56b10d8a233ce265fe7b2c5d5a5ce543d7d31559b39a9685713",
+      "sourceFrameId": "frame-c438084a-f070-4db1-8aab-540f05b9c8be",
+      "sourceHash": "de0af6adc78b0f6e43b2c05b4101718eded2037e973248a86b2e7f30f34791d0",
+      "sourceBox": {
+        "x": 739,
+        "y": 280,
+        "width": 96,
+        "height": 20
+      }
+    },
+    {
+      "file": "r1-c5-quantity-core.png",
+      "sha256": "3d70d1bf1628a0e6cb2aac5e9f673e6e672c8ed0d8fcae8c2812a1dcf044f2c8",
+      "sourceFrameId": "frame-c438084a-f070-4db1-8aab-540f05b9c8be",
+      "sourceHash": "de0af6adc78b0f6e43b2c05b4101718eded2037e973248a86b2e7f30f34791d0",
+      "sourceBox": {
+        "x": 863,
+        "y": 280,
+        "width": 96,
+        "height": 20
+      }
+    },
+    {
+      "file": "gp-r1-c4-syrup-reward.png",
+      "sha256": "7bb97328318b0209f82f84d37066ded9f297f438cc28b06b6c3bea870ad1be46",
+      "sourceFrameId": "frame-4fc9d5b6-40a4-4a1e-ad49-e7c310d69624",
+      "sourceHash": "7c14befc31498049ceb73db12f2f46b6b6d481b234fbab2889813ac4dd7b49ac",
+      "sourceBox": {
+        "x": 690,
+        "y": 337,
+        "width": 195,
+        "height": 24
+      }
+    },
+    {
+      "file": "gp-r1-c4-syrup-edge.png",
+      "sha256": "36ff5f13253214288b3a55c854619f4092358b914d21b40c1394d0eff5cb7dd3",
+      "sourceFrameId": "frame-4fc9d5b6-40a4-4a1e-ad49-e7c310d69624",
+      "sourceHash": "7c14befc31498049ceb73db12f2f46b6b6d481b234fbab2889813ac4dd7b49ac",
+      "sourceBox": {
+        "x": 615,
+        "y": 347,
+        "width": 9,
+        "height": 200
+      }
+    },
+    {
+      "file": "gp-r1-c4-syrup-pointer.png",
+      "sha256": "92269fc45f7bf85433ed2305cb8423be27535f32e5008a126a056013193597b8",
+      "sourceFrameId": "frame-4fc9d5b6-40a4-4a1e-ad49-e7c310d69624",
+      "sourceHash": "7c14befc31498049ceb73db12f2f46b6b6d481b234fbab2889813ac4dd7b49ac",
+      "sourceBox": {
+        "x": 776,
+        "y": 304,
+        "width": 23,
+        "height": 18
+      }
+    },
+    {
+      "file": "gp-r1-c4-syrup-icon.png",
+      "sha256": "9d7482ba973af89f36b7ed2afa7f229052fdfc1b64b12095286064ecb21b9fd0",
+      "sourceFrameId": "frame-4fc9d5b6-40a4-4a1e-ad49-e7c310d69624",
+      "sourceHash": "7c14befc31498049ceb73db12f2f46b6b6d481b234fbab2889813ac4dd7b49ac",
+      "sourceBox": {
+        "x": 735,
+        "y": 386,
+        "width": 40,
+        "height": 47
+      }
+    },
+    {
+      "file": "gp-r1-c4-syrup-load.png",
+      "sha256": "11b3f6d8d42f19149121c601ad248c3af64f07aca5deae8d1cde37fdc2cfa86c",
+      "sourceFrameId": "frame-4fc9d5b6-40a4-4a1e-ad49-e7c310d69624",
+      "sourceHash": "7c14befc31498049ceb73db12f2f46b6b6d481b234fbab2889813ac4dd7b49ac",
+      "sourceBox": {
+        "x": 660,
+        "y": 508,
+        "width": 255,
+        "height": 27
+      }
+    },
+    {
+      "file": "r1-c4-loaded-body.png",
+      "sha256": "707724ff9ce32fa9e046ea420bf7958bc120ec2b4e47eb4328c941f93c1018c5",
+      "sourceFrameId": "frame-3b9bda10-a5dd-4170-b02b-efdf2ed6f172",
+      "sourceHash": "203bffc1d8f8a36ac81ab057314ad2170d421b8011faf742ef5e16261ea96da9",
+      "sourceBox": {
+        "x": 739,
+        "y": 241,
+        "width": 96,
+        "height": 59
+      }
+    },
+    {
+      "file": "r1-c4-loaded-check.png",
+      "sha256": "5f81b8b158d6946c4c1c5ce3ed1a45974b90857312eef75119388d90b20949cc",
+      "sourceFrameId": "frame-3b9bda10-a5dd-4170-b02b-efdf2ed6f172",
+      "sourceHash": "203bffc1d8f8a36ac81ab057314ad2170d421b8011faf742ef5e16261ea96da9",
+      "sourceBox": {
+        "x": 761,
+        "y": 249,
+        "width": 52,
+        "height": 39
+      }
+    },
+    {
+      "file": "gp-r1-c5-syrup-reward.png",
+      "sha256": "94eea0a1c464ce474cc677214752127f997f6e9ab1252c10fb32589dd4bfe8dd",
+      "sourceFrameId": "frame-3b9bda10-a5dd-4170-b02b-efdf2ed6f172",
+      "sourceHash": "203bffc1d8f8a36ac81ab057314ad2170d421b8011faf742ef5e16261ea96da9",
+      "sourceBox": {
+        "x": 814,
+        "y": 337,
+        "width": 195,
+        "height": 24
+      }
+    },
+    {
+      "file": "gp-r1-c5-syrup-edge.png",
+      "sha256": "18a20ffbbe0ec12a23c66169c11b99db8c2464b7cd881528bbddfed154985a9f",
+      "sourceFrameId": "frame-3b9bda10-a5dd-4170-b02b-efdf2ed6f172",
+      "sourceHash": "203bffc1d8f8a36ac81ab057314ad2170d421b8011faf742ef5e16261ea96da9",
+      "sourceBox": {
+        "x": 739,
+        "y": 347,
+        "width": 9,
+        "height": 200
+      }
+    },
+    {
+      "file": "gp-r1-c5-syrup-pointer.png",
+      "sha256": "6d3b90ee9ed20a43fdca0fea781a4f8a3c9bf4f6f36e366d1705ad7cb461666a",
+      "sourceFrameId": "frame-3b9bda10-a5dd-4170-b02b-efdf2ed6f172",
+      "sourceHash": "203bffc1d8f8a36ac81ab057314ad2170d421b8011faf742ef5e16261ea96da9",
+      "sourceBox": {
+        "x": 900,
+        "y": 304,
+        "width": 23,
+        "height": 18
+      }
+    },
+    {
+      "file": "gp-r1-c5-syrup-icon.png",
+      "sha256": "3e18e64daaa502b20e26c4ca17e1211d675c6cbed0875225135ebc6d229d7c24",
+      "sourceFrameId": "frame-3b9bda10-a5dd-4170-b02b-efdf2ed6f172",
+      "sourceHash": "203bffc1d8f8a36ac81ab057314ad2170d421b8011faf742ef5e16261ea96da9",
+      "sourceBox": {
+        "x": 859,
+        "y": 386,
+        "width": 40,
+        "height": 47
+      }
+    },
+    {
+      "file": "gp-r1-c5-syrup-load.png",
+      "sha256": "50c3719c6df6cdd8a4d6e5872b0809008fc8ccbf133de8c1bfa3b2a59e49f789",
+      "sourceFrameId": "frame-3b9bda10-a5dd-4170-b02b-efdf2ed6f172",
+      "sourceHash": "203bffc1d8f8a36ac81ab057314ad2170d421b8011faf742ef5e16261ea96da9",
+      "sourceBox": {
+        "x": 784,
+        "y": 508,
+        "width": 255,
+        "height": 27
+      }
+    },
+    {
+      "file": "r1-c5-loaded-body.png",
+      "sha256": "c464e16fa11c3bb2aee4c808009e349735eff79a0af4b62b80288b532ef2f125",
+      "sourceFrameId": "frame-2f63369b-7438-429c-af13-74d655f22d72",
+      "sourceHash": "a6c3ba9c8878425f5d407511f5e5131f2385688796ebd962df9ee1dbef65e52c",
+      "sourceBox": {
+        "x": 863,
+        "y": 241,
+        "width": 96,
+        "height": 59
+      }
+    },
+    {
+      "file": "r1-c5-loaded-check.png",
+      "sha256": "c646f8c37e9bca033f82bcaae153148068af3ad1fce7b286de3c1cd28249d093",
+      "sourceFrameId": "frame-2f63369b-7438-429c-af13-74d655f22d72",
+      "sourceHash": "a6c3ba9c8878425f5d407511f5e5131f2385688796ebd962df9ee1dbef65e52c",
+      "sourceBox": {
+        "x": 885,
+        "y": 249,
+        "width": 52,
+        "height": 39
+      }
+    }
+  ],
+  "coverage": "Two actual native syrup loads verified by exact same-row checkmarks and remaining potato4+4+4 shortage. Result observes potato1/4; remaining syrup quantity is unobserved and must be invalidated, never inferred.",
+  "itemIdentityEvidence": [
+    {
+      "itemId": "potato",
+      "source": "visible original product artwork and existing product-catalog.json potato entry"
+    },
+    {
+      "itemId": "syrup",
+      "source": "existing google-play/helicopter/scaled-calibrated-item-syrup-e77b800a2cf0fc99.png compared with actual original"
+    }
+  ]
+}

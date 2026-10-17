@@ -1,0 +1,123 @@
+{
+  "schema": 1,
+  "version": "card-received-20261017",
+  "kind": "continue",
+  "sourceFile": "source.png",
+  "originalName": "card-received-20261017-1132.png",
+  "sourceSha256": "a9b9928a2f5e09f8a442fe113c42ed84e93e1ba3ec198ab7bde9d7a84b5c5e3a",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "note": "[2026-10-17] 새 날 첫 실행의 친구 카드 CARD RECEIVED! 창: 하단 Tap to Claim 글씨를 탭(사용자 해결 방식). Town Cards와 다른 화면.",
+  "anchors": [
+    {
+      "role": "continue",
+      "file": "continue.png",
+      "sha256": "9d0002942388bb743187b1ba2053e706a7c0fe5c12722d37e6d6be4589d74c79",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 665,
+        "y": 618,
+        "width": 270,
+        "height": 44
+      },
+      "sourceRegion": {
+        "x": 0.415625,
+        "y": 0.8583333333333333,
+        "width": 0.16875,
+        "height": 0.06111111111111111
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "card-received-20261017-1132.png",
+        "sha256": "a9b9928a2f5e09f8a442fe113c42ed84e93e1ba3ec198ab7bde9d7a84b5c5e3a",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 665,
+          "y": 618,
+          "width": 270,
+          "height": 44
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    },
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "aa5aa3cf7dbe589d3be9d937b1670b14498824ef3442ff18fce699a316b86021",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 440,
+        "y": 25,
+        "width": 720,
+        "height": 95
+      },
+      "sourceRegion": {
+        "x": 0.275,
+        "y": 0.034722222222222224,
+        "width": 0.45,
+        "height": 0.13194444444444445
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "card-received-20261017-1132.png",
+        "sha256": "a9b9928a2f5e09f8a442fe113c42ed84e93e1ba3ec198ab7bde9d7a84b5c5e3a",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 440,
+          "y": 25,
+          "width": 720,
+          "height": 95
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    }
+  ],
+  "target": {
+    "basis": "text top-left",
+    "dx": -0.005,
+    "dy": -0.01,
+    "width": 0.18,
+    "height": 0.07,
+    "note": "tap box = Tap to Claim lettering (center ~ (800,632))"
+  },
+  "provider": "android_adb",
+  "adbProfile": "android-1600"
+}

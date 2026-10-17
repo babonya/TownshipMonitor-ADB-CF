@@ -1,0 +1,1316 @@
+{
+  "schema": 1,
+  "version": "google-play-train-idle-1",
+  "dimensions": {
+    "width": 1114,
+    "height": 735
+  },
+  "anchors": [
+    {
+      "file": "header.png",
+      "box": {
+        "x": 447,
+        "y": 121,
+        "width": 278,
+        "height": 29
+      }
+    },
+    {
+      "file": "close.png",
+      "box": {
+        "x": 899,
+        "y": 123,
+        "width": 24,
+        "height": 24
+      }
+    }
+  ],
+  "rows": [
+    {
+      "row": 1,
+      "regions": [
+        {
+          "file": "r1-returns.png",
+          "box": {
+            "x": 651,
+            "y": 198,
+            "width": 130,
+            "height": 23
+          }
+        },
+        {
+          "file": "r1-edge.png",
+          "box": {
+            "x": 178,
+            "y": 221,
+            "width": 10,
+            "height": 88
+          }
+        },
+        {
+          "file": "r1-clear.png",
+          "box": {
+            "x": 196,
+            "y": 310,
+            "width": 781,
+            "height": 8
+          }
+        }
+      ],
+      "units": [
+        {
+          "kind": "minute_second",
+          "region": {
+            "file": "r1-units.png",
+            "box": {
+              "x": 639,
+              "y": 294,
+              "width": 142,
+              "height": 19
+            }
+          }
+        }
+      ],
+      "journeyBox": {
+        "x": 196,
+        "y": 228,
+        "width": 425,
+        "height": 64
+      },
+      "field": {
+        "fieldId": "train-return-r1",
+        "kind": "text",
+        "box": {
+          "x": 638,
+          "y": 233,
+          "width": 147,
+          "height": 54
+        },
+        "scale": 2,
+        "recognitionOnly": true,
+        "minimumScore": 0.95
+      }
+    },
+    {
+      "row": 2,
+      "regions": [
+        {
+          "file": "r2-returns.png",
+          "box": {
+            "x": 651,
+            "y": 354,
+            "width": 130,
+            "height": 23
+          }
+        },
+        {
+          "file": "r2-edge.png",
+          "box": {
+            "x": 178,
+            "y": 377,
+            "width": 10,
+            "height": 88
+          }
+        },
+        {
+          "file": "r2-clear.png",
+          "box": {
+            "x": 196,
+            "y": 466,
+            "width": 781,
+            "height": 8
+          }
+        }
+      ],
+      "units": [
+        {
+          "kind": "minute_second",
+          "region": {
+            "file": "r2-units.png",
+            "box": {
+              "x": 639,
+              "y": 450,
+              "width": 142,
+              "height": 19
+            }
+          }
+        }
+      ],
+      "journeyBox": {
+        "x": 196,
+        "y": 384,
+        "width": 425,
+        "height": 64
+      },
+      "field": {
+        "fieldId": "train-return-r2",
+        "kind": "text",
+        "box": {
+          "x": 638,
+          "y": 388,
+          "width": 147,
+          "height": 55
+        },
+        "scale": 2,
+        "recognitionOnly": true,
+        "minimumScore": 0.95
+      }
+    },
+    {
+      "row": 3,
+      "regions": [
+        {
+          "file": "r3-returns.png",
+          "box": {
+            "x": 651,
+            "y": 510,
+            "width": 130,
+            "height": 23
+          }
+        },
+        {
+          "file": "r3-edge.png",
+          "box": {
+            "x": 178,
+            "y": 533,
+            "width": 10,
+            "height": 88
+          }
+        },
+        {
+          "file": "r3-clear.png",
+          "box": {
+            "x": 196,
+            "y": 622,
+            "width": 781,
+            "height": 8
+          }
+        }
+      ],
+      "units": [
+        {
+          "kind": "minute_second",
+          "region": {
+            "file": "r3-units.png",
+            "box": {
+              "x": 639,
+              "y": 606,
+              "width": 142,
+              "height": 19
+            }
+          }
+        }
+      ],
+      "journeyBox": {
+        "x": 196,
+        "y": 540,
+        "width": 425,
+        "height": 64
+      },
+      "field": {
+        "fieldId": "train-return-r3",
+        "kind": "text",
+        "box": {
+          "x": 638,
+          "y": 544,
+          "width": 147,
+          "height": 55
+        },
+        "scale": 2,
+        "recognitionOnly": true,
+        "minimumScore": 0.95
+      }
+    }
+  ],
+  "assets": [
+    {
+      "file": "header.png",
+      "sha256": "1abd03c7c67411891957a4b9e0e87ff41fa4fc72a9d5d153299307f9651aa1ed",
+      "sourceFrameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+      "sourceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156",
+      "sourceBox": {
+        "x": 447,
+        "y": 121,
+        "width": 278,
+        "height": 29
+      }
+    },
+    {
+      "file": "close.png",
+      "sha256": "026b6207e5f7d456f0bccd4b63eda85a465eded05e8a3ef402d39c297220fc0a",
+      "sourceFrameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+      "sourceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156",
+      "sourceBox": {
+        "x": 899,
+        "y": 123,
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "file": "r1-returns.png",
+      "sha256": "37218c447ea96e3c1970d4f052a2c89a6940db749f688265536138a999cfd81d",
+      "sourceFrameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+      "sourceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156",
+      "sourceBox": {
+        "x": 651,
+        "y": 198,
+        "width": 130,
+        "height": 23
+      }
+    },
+    {
+      "file": "r1-edge.png",
+      "sha256": "da64d9df6e22414c1c14fbc6f1243a4cf501219eb1fa3b944a95fe93bd8ba39c",
+      "sourceFrameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+      "sourceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156",
+      "sourceBox": {
+        "x": 178,
+        "y": 221,
+        "width": 10,
+        "height": 88
+      }
+    },
+    {
+      "file": "r1-clear.png",
+      "sha256": "7f70db396f0a5c081d4c7a1dac00dd785afff0d94c0c1ee100b8695da55498fa",
+      "sourceFrameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+      "sourceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156",
+      "sourceBox": {
+        "x": 196,
+        "y": 310,
+        "width": 781,
+        "height": 8
+      }
+    },
+    {
+      "file": "r1-units.png",
+      "sha256": "ef155114eb161e4ce16bc02159b084d0dd8f81d05708fa3c13f8b9e56009697a",
+      "sourceFrameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+      "sourceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156",
+      "sourceBox": {
+        "x": 639,
+        "y": 294,
+        "width": 142,
+        "height": 19
+      }
+    },
+    {
+      "file": "r2-returns.png",
+      "sha256": "5d6bbd688652f5b98acc077af85b0c55f5cf0a844837321db51efc15c98b5746",
+      "sourceFrameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+      "sourceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156",
+      "sourceBox": {
+        "x": 651,
+        "y": 354,
+        "width": 130,
+        "height": 23
+      }
+    },
+    {
+      "file": "r2-edge.png",
+      "sha256": "b8a58e9cae951f7206ba71631100ed462883224740df96d68b2d817a55c82873",
+      "sourceFrameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+      "sourceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156",
+      "sourceBox": {
+        "x": 178,
+        "y": 377,
+        "width": 10,
+        "height": 88
+      }
+    },
+    {
+      "file": "r2-clear.png",
+      "sha256": "027965edccfb0dea8cdf3bd3156e35318a18cca9ba5619dd2c67e67b4e396945",
+      "sourceFrameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+      "sourceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156",
+      "sourceBox": {
+        "x": 196,
+        "y": 466,
+        "width": 781,
+        "height": 8
+      }
+    },
+    {
+      "file": "r2-units.png",
+      "sha256": "53784654c721691e1e5749cd3e601296d9cac0c88eb147182f396eb40d727e0d",
+      "sourceFrameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+      "sourceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156",
+      "sourceBox": {
+        "x": 639,
+        "y": 450,
+        "width": 142,
+        "height": 19
+      }
+    },
+    {
+      "file": "r3-returns.png",
+      "sha256": "e25baf851af2735c112996ce715a338de1ffb04b155408ef6a7bd352433b9848",
+      "sourceFrameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+      "sourceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156",
+      "sourceBox": {
+        "x": 651,
+        "y": 510,
+        "width": 130,
+        "height": 23
+      }
+    },
+    {
+      "file": "r3-edge.png",
+      "sha256": "d251888bffc75c4dd982ecfed9e52030e3502852540822c18a32b9086f26fae5",
+      "sourceFrameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+      "sourceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156",
+      "sourceBox": {
+        "x": 178,
+        "y": 533,
+        "width": 10,
+        "height": 88
+      }
+    },
+    {
+      "file": "r3-clear.png",
+      "sha256": "aa7b3bb7bf14de641776e0b3d9e14c1cde6b05307a326f8b6764fe8075cd463e",
+      "sourceFrameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+      "sourceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156",
+      "sourceBox": {
+        "x": 196,
+        "y": 622,
+        "width": 781,
+        "height": 8
+      }
+    },
+    {
+      "file": "r3-units.png",
+      "sha256": "8f5facdf0a999aba3ae58405520e90c2b1685d935b8de25821da5d908eea0df5",
+      "sourceFrameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+      "sourceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156",
+      "sourceBox": {
+        "x": 639,
+        "y": 606,
+        "width": 142,
+        "height": 19
+      }
+    }
+  ],
+  "source": {
+    "frameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+    "evidenceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156"
+  },
+  "provider": "google_play_windows",
+  "coordinateSpace": {
+    "reference": {
+      "width": 1600,
+      "height": 900
+    },
+    "viewport": {
+      "x": 65,
+      "y": 36,
+      "width": 1048,
+      "height": 698
+    },
+    "alignX": 0.5,
+    "alignY": 0.5,
+    "fit": "contain"
+  },
+  "coordinateBindings": [
+    {
+      "fraction": {
+        "x": 0.365,
+        "y": 0.052222222222222225,
+        "width": 0.264375,
+        "height": 0.04888888888888889
+      },
+      "box": {
+        "x": 447,
+        "y": 121,
+        "width": 278,
+        "height": 29
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.79625,
+        "y": 0.056666666666666664,
+        "width": 0.021875,
+        "height": 0.03888888888888889
+      },
+      "box": {
+        "x": 899,
+        "y": 123,
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.56,
+        "y": 0.18333333333333332,
+        "width": 0.1225,
+        "height": 0.03777777777777778
+      },
+      "box": {
+        "x": 651,
+        "y": 198,
+        "width": 130,
+        "height": 23
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.10875,
+        "y": 0.2222222222222222,
+        "width": 0.008125,
+        "height": 0.14777777777777779
+      },
+      "box": {
+        "x": 178,
+        "y": 221,
+        "width": 10,
+        "height": 88
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.125625,
+        "y": 0.37444444444444447,
+        "width": 0.74375,
+        "height": 0.011111111111111112
+      },
+      "box": {
+        "x": 196,
+        "y": 310,
+        "width": 781,
+        "height": 8
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.548125,
+        "y": 0.3466666666666667,
+        "width": 0.134375,
+        "height": 0.03111111111111111
+      },
+      "box": {
+        "x": 639,
+        "y": 294,
+        "width": 142,
+        "height": 19
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.125625,
+        "y": 0.23444444444444446,
+        "width": 0.404375,
+        "height": 0.10777777777777778
+      },
+      "box": {
+        "x": 196,
+        "y": 228,
+        "width": 425,
+        "height": 64
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.546875,
+        "y": 0.24222222222222223,
+        "width": 0.14,
+        "height": 0.09111111111111111
+      },
+      "box": {
+        "x": 638,
+        "y": 233,
+        "width": 147,
+        "height": 54
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.56,
+        "y": 0.4477777777777778,
+        "width": 0.1225,
+        "height": 0.03777777777777778
+      },
+      "box": {
+        "x": 651,
+        "y": 354,
+        "width": 130,
+        "height": 23
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.10875,
+        "y": 0.4866666666666667,
+        "width": 0.008125,
+        "height": 0.14777777777777779
+      },
+      "box": {
+        "x": 178,
+        "y": 377,
+        "width": 10,
+        "height": 88
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.125625,
+        "y": 0.6388888888888888,
+        "width": 0.74375,
+        "height": 0.011111111111111112
+      },
+      "box": {
+        "x": 196,
+        "y": 466,
+        "width": 781,
+        "height": 8
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.548125,
+        "y": 0.6111111111111112,
+        "width": 0.134375,
+        "height": 0.03111111111111111
+      },
+      "box": {
+        "x": 639,
+        "y": 450,
+        "width": 142,
+        "height": 19
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.125625,
+        "y": 0.4988888888888889,
+        "width": 0.404375,
+        "height": 0.10777777777777778
+      },
+      "box": {
+        "x": 196,
+        "y": 384,
+        "width": 425,
+        "height": 64
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.546875,
+        "y": 0.5066666666666667,
+        "width": 0.14,
+        "height": 0.09111111111111111
+      },
+      "box": {
+        "x": 638,
+        "y": 388,
+        "width": 147,
+        "height": 55
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.56,
+        "y": 0.7122222222222222,
+        "width": 0.1225,
+        "height": 0.03777777777777778
+      },
+      "box": {
+        "x": 651,
+        "y": 510,
+        "width": 130,
+        "height": 23
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.10875,
+        "y": 0.7511111111111111,
+        "width": 0.008125,
+        "height": 0.14777777777777779
+      },
+      "box": {
+        "x": 178,
+        "y": 533,
+        "width": 10,
+        "height": 88
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.125625,
+        "y": 0.9033333333333333,
+        "width": 0.74375,
+        "height": 0.011111111111111112
+      },
+      "box": {
+        "x": 196,
+        "y": 622,
+        "width": 781,
+        "height": 8
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.548125,
+        "y": 0.8755555555555555,
+        "width": 0.134375,
+        "height": 0.03111111111111111
+      },
+      "box": {
+        "x": 639,
+        "y": 606,
+        "width": 142,
+        "height": 19
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.125625,
+        "y": 0.7633333333333333,
+        "width": 0.404375,
+        "height": 0.10777777777777778
+      },
+      "box": {
+        "x": 196,
+        "y": 540,
+        "width": 425,
+        "height": 64
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.546875,
+        "y": 0.7711111111111111,
+        "width": 0.14,
+        "height": 0.09111111111111111
+      },
+      "box": {
+        "x": 638,
+        "y": 544,
+        "width": 147,
+        "height": 55
+      }
+    }
+  ],
+  "percentageGeometry": {
+    "schema": 1,
+    "unit": "fraction",
+    "space": "registered_capture",
+    "canvas": {
+      "width": 1114,
+      "height": 735
+    },
+    "entries": [
+      {
+        "path": [
+          "anchors",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.4012567324955117,
+          "y": 0.16462585034013605,
+          "width": 0.2495511669658887,
+          "height": 0.03945578231292517
+        }
+      },
+      {
+        "path": [
+          "anchors",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.8070017953321365,
+          "y": 0.1673469387755102,
+          "width": 0.02154398563734291,
+          "height": 0.0326530612244898
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "regions",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5843806104129264,
+          "y": 0.2693877551020408,
+          "width": 0.11669658886894076,
+          "height": 0.031292517006802724
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "regions",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.15978456014362658,
+          "y": 0.3006802721088435,
+          "width": 0.008976660682226212,
+          "height": 0.11972789115646258
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "regions",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.17594254937163376,
+          "y": 0.4217687074829932,
+          "width": 0.7010771992818672,
+          "height": 0.010884353741496598
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "units",
+          "0",
+          "region",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.573608617594255,
+          "y": 0.4,
+          "width": 0.12746858168761221,
+          "height": 0.02585034013605442
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "journeyBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.17594254937163376,
+          "y": 0.31020408163265306,
+          "width": 0.38150807899461403,
+          "height": 0.08707482993197278
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "field",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5727109515260324,
+          "y": 0.31700680272108844,
+          "width": 0.1319569120287253,
+          "height": 0.07346938775510205
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "regions",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5843806104129264,
+          "y": 0.4816326530612245,
+          "width": 0.11669658886894076,
+          "height": 0.031292517006802724
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "regions",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.15978456014362658,
+          "y": 0.5129251700680272,
+          "width": 0.008976660682226212,
+          "height": 0.11972789115646258
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "regions",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.17594254937163376,
+          "y": 0.6340136054421769,
+          "width": 0.7010771992818672,
+          "height": 0.010884353741496598
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "units",
+          "0",
+          "region",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.573608617594255,
+          "y": 0.6122448979591837,
+          "width": 0.12746858168761221,
+          "height": 0.02585034013605442
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "journeyBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.17594254937163376,
+          "y": 0.5224489795918368,
+          "width": 0.38150807899461403,
+          "height": 0.08707482993197278
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "field",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5727109515260324,
+          "y": 0.527891156462585,
+          "width": 0.1319569120287253,
+          "height": 0.07482993197278912
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "regions",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5843806104129264,
+          "y": 0.6938775510204082,
+          "width": 0.11669658886894076,
+          "height": 0.031292517006802724
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "regions",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.15978456014362658,
+          "y": 0.7251700680272108,
+          "width": 0.008976660682226212,
+          "height": 0.11972789115646258
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "regions",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.17594254937163376,
+          "y": 0.8462585034013606,
+          "width": 0.7010771992818672,
+          "height": 0.010884353741496598
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "units",
+          "0",
+          "region",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.573608617594255,
+          "y": 0.8244897959183674,
+          "width": 0.12746858168761221,
+          "height": 0.02585034013605442
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "journeyBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.17594254937163376,
+          "y": 0.7346938775510204,
+          "width": 0.38150807899461403,
+          "height": 0.08707482993197278
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "field",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5727109515260324,
+          "y": 0.7401360544217687,
+          "width": 0.1319569120287253,
+          "height": 0.07482993197278912
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "0",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.4012567324955117,
+          "y": 0.16462585034013605,
+          "width": 0.2495511669658887,
+          "height": 0.03945578231292517
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "1",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.8070017953321365,
+          "y": 0.1673469387755102,
+          "width": 0.02154398563734291,
+          "height": 0.0326530612244898
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "2",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5843806104129264,
+          "y": 0.2693877551020408,
+          "width": 0.11669658886894076,
+          "height": 0.031292517006802724
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "3",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.15978456014362658,
+          "y": 0.3006802721088435,
+          "width": 0.008976660682226212,
+          "height": 0.11972789115646258
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "4",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.17594254937163376,
+          "y": 0.4217687074829932,
+          "width": 0.7010771992818672,
+          "height": 0.010884353741496598
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "5",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.573608617594255,
+          "y": 0.4,
+          "width": 0.12746858168761221,
+          "height": 0.02585034013605442
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "6",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5843806104129264,
+          "y": 0.4816326530612245,
+          "width": 0.11669658886894076,
+          "height": 0.031292517006802724
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "7",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.15978456014362658,
+          "y": 0.5129251700680272,
+          "width": 0.008976660682226212,
+          "height": 0.11972789115646258
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "8",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.17594254937163376,
+          "y": 0.6340136054421769,
+          "width": 0.7010771992818672,
+          "height": 0.010884353741496598
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "9",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.573608617594255,
+          "y": 0.6122448979591837,
+          "width": 0.12746858168761221,
+          "height": 0.02585034013605442
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "10",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5843806104129264,
+          "y": 0.6938775510204082,
+          "width": 0.11669658886894076,
+          "height": 0.031292517006802724
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "11",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.15978456014362658,
+          "y": 0.7251700680272108,
+          "width": 0.008976660682226212,
+          "height": 0.11972789115646258
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "12",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.17594254937163376,
+          "y": 0.8462585034013606,
+          "width": 0.7010771992818672,
+          "height": 0.010884353741496598
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "13",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.573608617594255,
+          "y": 0.8244897959183674,
+          "width": 0.12746858168761221,
+          "height": 0.02585034013605442
+        }
+      }
+    ]
+  }
+}

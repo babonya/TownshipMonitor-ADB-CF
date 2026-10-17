@@ -1,0 +1,3842 @@
+{
+  "schema": 1,
+  "version": "wiki-upper-context-crop77x41-20261007-4",
+  "catalogueManifestSha256": "41458c8ea08cac87e8549b526088de2cbe61a0c273e7f0596690bec84990360c",
+  "defaults": {
+    "market": {
+      "minimumScore": 0.98,
+      "minimumMargin": 0.12,
+      "calibrationStatus": "unobserved",
+      "fullProductMaxPixels": [
+        85,
+        120,
+        129,
+        134,
+        135
+      ]
+    },
+    "delivery": {
+      "minimumScore": 0.98,
+      "minimumMargin": 0.12,
+      "calibrationStatus": "unobserved",
+      "fullProductMaxPixels": [
+        63,
+        64,
+        66,
+        67,
+        73,
+        74
+      ]
+    }
+  },
+  "items": {
+    "topaz": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "emerald": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "ruby": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "milk": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "egg": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "wool": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "honeycombs": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "not_separable",
+        "evidence": [
+          {
+            "caseId": "delivery-honeycombs-9",
+            "screenSha256": "105a60581025e20466859fb788e07179f111fa513e03537ecfbb3994ec08c723",
+            "region": {
+              "x": 1268,
+              "y": 448,
+              "width": 105,
+              "height": 78
+            },
+            "cropSha256": "17ded7405445f13d3d43209a5b86ab3cd619919c370b85f2a9893a3eaf10f157"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.660492,
+          "maximumNegative": 0.370328,
+          "minimumPositiveMargin": 0.027393
+        }
+      }
+    },
+    "bacon": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "down_feather": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "colorful_feather": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "cow_feed_x3": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "chicken_feed_x3": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "sheep_feed_x3": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "bee_feed_x3": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "pig_feed_x3": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "wheat": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "corn": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.6,
+        "minimumMargin": 0.297668,
+        "calibrationStatus": "saved_screen_calibrated",
+        "measurement": {
+          "minimumPositive": 0.882244,
+          "maximumNegative": 0.271916,
+          "minimumPositiveMargin": 0.322668,
+          "scoreSlack": 0.282244,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        },
+        "evidence": [
+          {
+            "caseId": "three-slot-r1c2",
+            "screenSha256": "6c67b3c4524b949292d9f3666e1e484d63b2b083830f5dc28c61ab5c7e6942fd",
+            "region": {
+              "x": 1406,
+              "y": 448,
+              "width": 77,
+              "height": 78
+            },
+            "cropSha256": "ef1e239eb0427364f7a2ce107f8f2c8dc0d2e00f65932e7a0c11804d139a3468",
+            "overlayTop": 489,
+            "comparedRegion": {
+              "x": 1406,
+              "y": 448,
+              "width": 77,
+              "height": 41
+            },
+            "profileSha256": "ffc5666fb8e2772275c9589e25e5e07eabf49495750339025f37e87237c9de89"
+          }
+        ],
+        "cropGeometryRecalibration": {
+          "profileSha256": "ffc5666fb8e2772275c9589e25e5e07eabf49495750339025f37e87237c9de89",
+          "comparedDimensions": {
+            "width": 77,
+            "height": 41
+          },
+          "positiveCases": 1,
+          "negativeCases": 12,
+          "basis": "Existing reviewed saved cases; preserve minimumScore and existing marginSlack. No held-out claim."
+        }
+      }
+    },
+    "carrot": {
+      "market": {
+        "minimumScore": 0.940024,
+        "minimumMargin": 0.077691,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "id": "carrot-0",
+            "sha256": "a0d5e184b3cc852b29b74f5c1d309e35e7cdc8c7462f872dee48b6f726a24154",
+            "patchSha256": "ea3622440abdfe02cde9c3c333000e21cb9d79c259f2fcf19a505aaa08ad27eb",
+            "region": {
+              "x": 1296,
+              "y": 710,
+              "width": 174,
+              "height": 140
+            },
+            "split": "fit",
+            "expected": "carrot"
+          },
+          {
+            "id": "carrot-4",
+            "sha256": "6915fdc3dd2753b477bab2568219b079a63356e429708edf3330c1b56b40ffe3",
+            "patchSha256": "7485774dfe4e3484c06d9586a857e499f916b649a64d1c863aa0f1ece0f0996a",
+            "region": {
+              "x": 1036,
+              "y": 710,
+              "width": 174,
+              "height": 140
+            },
+            "split": "fit",
+            "expected": "carrot"
+          },
+          {
+            "id": "carrot-8",
+            "sha256": "497807f5aae9dcef524919b586717686336847ac2643e7a554d675e05d0dd219",
+            "patchSha256": "ee1d42228f51fa819891ab6b5264e8109321f40a3c3f1b1c25a36873e95a3c77",
+            "region": {
+              "x": 778,
+              "y": 710,
+              "width": 174,
+              "height": 140
+            },
+            "split": "validation",
+            "expected": "carrot"
+          },
+          {
+            "id": "carrot-10",
+            "sha256": "c2134a51e8fd085bdd343c150270b9e04de1be72b73e7fc8083927012b0ccfa7",
+            "patchSha256": "b88e9325bb4b47e6a5790d367f745d48863b3b0e915fce979de444b8a06217a6",
+            "region": {
+              "x": 654,
+              "y": 710,
+              "width": 174,
+              "height": 140
+            },
+            "split": "validation",
+            "expected": "carrot"
+          },
+          {
+            "id": "strawberry-current",
+            "sha256": "c2134a51e8fd085bdd343c150270b9e04de1be72b73e7fc8083927012b0ccfa7",
+            "patchSha256": "b024d5c4db58b3da5f88c9ce9fa5924af9751359b474533e557d44c39865b3a9",
+            "region": {
+              "x": 1228,
+              "y": 483,
+              "width": 174,
+              "height": 140
+            },
+            "split": "fit",
+            "expected": "strawberry"
+          },
+          {
+            "id": "strawberry-entry",
+            "sha256": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+            "patchSha256": "7e0c04e34b1eba489be7854e20cf80c2c440ef602e4596a5a900717e76116629",
+            "region": {
+              "x": 1042,
+              "y": 483,
+              "width": 174,
+              "height": 140
+            },
+            "split": "validation",
+            "expected": "strawberry"
+          },
+          {
+            "id": "tomato-current",
+            "sha256": "c2134a51e8fd085bdd343c150270b9e04de1be72b73e7fc8083927012b0ccfa7",
+            "patchSha256": "8bbd2eec5454233c96375f24745fbcb1300be2965ce042322eb63c55fc428901",
+            "region": {
+              "x": 845,
+              "y": 710,
+              "width": 174,
+              "height": 140
+            },
+            "split": "fit",
+            "expected": "tomato"
+          },
+          {
+            "id": "sold-current",
+            "sha256": "d1fb518ee187d1965a53ceef27f34cbd6074852293249fd25f00fa994dd84b30",
+            "patchSha256": "2d5e017c800d69c9f14822764e5588f586f4db2044b385354620e2ea49f70ab3",
+            "region": {
+              "x": 1228,
+              "y": 483,
+              "width": 174,
+              "height": 140
+            },
+            "split": "validation",
+            "expected": null
+          },
+          {
+            "id": "background",
+            "sha256": "c2134a51e8fd085bdd343c150270b9e04de1be72b73e7fc8083927012b0ccfa7",
+            "patchSha256": "088dad47e89d7fd41bf3343cbb476aed43c7b466fc7a6a9861100f13568c3a1a",
+            "region": {
+              "x": 850,
+              "y": 1030,
+              "width": 174,
+              "height": 140
+            },
+            "split": "fit",
+            "expected": null
+          }
+        ],
+        "measurement": {
+          "itemId": "carrot",
+          "context": "market",
+          "status": "held",
+          "fitPositives": 2,
+          "heldOutPositives": 2,
+          "fitNegatives": 3,
+          "heldOutNegatives": 2,
+          "confusers": [
+            "strawberry"
+          ],
+          "minimumPositive": 0.965024,
+          "maximumNegative": 0.788831,
+          "minimumPositiveMargin": 0.102691,
+          "minimumScore": 0.940024,
+          "minimumMargin": 0.077691,
+          "scoreSlack": 0.025,
+          "marginSlack": 0.025
+        }
+      },
+      "delivery": {
+        "minimumScore": 0.663911,
+        "minimumMargin": 0.297092,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "delivery-carrot-7",
+            "screenSha256": "23f0ba3377aa8551ad40493133818b9a15efdcaf1181b01ddba7959eb0b42a70",
+            "region": {
+              "x": 1268,
+              "y": 558,
+              "width": 105,
+              "height": 80
+            },
+            "cropSha256": "0a7af6e6642963b4eeb4e76a553f007bbb85db157299326007622106efacc691"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.959261,
+          "maximumNegative": 0.368562,
+          "minimumPositiveMargin": 0.322092,
+          "scoreSlack": 0.29535,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        }
+      }
+    },
+    "sugarcane": {
+      "market": {
+        "minimumScore": 0.6,
+        "minimumMargin": 0.118636,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "market-sugarcane-1",
+            "screenSha256": "209f9192838db473728c9a90862ef0fc286f42592c0ec3f9deed62268a285643",
+            "region": {
+              "x": 713,
+              "y": 535,
+              "width": 180,
+              "height": 123
+            },
+            "cropSha256": "43836d01c9cd7ed71c55f0adf47fed83c88d019e8b3d59cca1c4112dcfedba42"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.734408,
+          "maximumNegative": 0.312449,
+          "minimumPositiveMargin": 0.143636,
+          "scoreSlack": 0.134408,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        }
+      },
+      "delivery": {
+        "minimumScore": 0.6,
+        "minimumMargin": 0.15177,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "delivery-sugarcane-5",
+            "screenSha256": "23f0ba3377aa8551ad40493133818b9a15efdcaf1181b01ddba7959eb0b42a70",
+            "region": {
+              "x": 1269,
+              "y": 448,
+              "width": 102,
+              "height": 78
+            },
+            "cropSha256": "43836d01c9cd7ed71c55f0adf47fed83c88d019e8b3d59cca1c4112dcfedba42"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.750364,
+          "maximumNegative": 0.238539,
+          "minimumPositiveMargin": 0.17677,
+          "scoreSlack": 0.150364,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        }
+      }
+    },
+    "cotton": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "strawberry": {
+      "market": {
+        "minimumScore": 0.93,
+        "minimumMargin": 0.13,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "overscroll-source:r0:671",
+            "screenSha256": "dec63c655a724a08483adbd0e5b301d846d5f54ff05833c76ced31758d44976f",
+            "region": {
+              "x": 678,
+              "y": 483,
+              "width": 174,
+              "height": 140
+            },
+            "cropSha256": "93f6b18acd397292a755762f41596295c2e313098b6e81311c17124c2609cd02"
+          },
+          {
+            "caseId": "entry:r0:1035",
+            "screenSha256": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+            "region": {
+              "x": 1042,
+              "y": 483,
+              "width": 174,
+              "height": 140
+            },
+            "cropSha256": "93f6b18acd397292a755762f41596295c2e313098b6e81311c17124c2609cd02"
+          },
+          {
+            "caseId": "moved:r0:673",
+            "screenSha256": "45730c8d0bdd25f011b2d0b1823357f006e97bde20640f13fc73801e8666dd7b",
+            "region": {
+              "x": 680,
+              "y": 483,
+              "width": 174,
+              "height": 140
+            },
+            "cropSha256": "93f6b18acd397292a755762f41596295c2e313098b6e81311c17124c2609cd02"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.94812,
+          "maximumNegative": 0.642258,
+          "minimumPositiveMargin": 0.156219,
+          "savedOriginalPositives": 3,
+          "savedOriginalNegatives": 21,
+          "independentSessions": 1,
+          "heldOutSavedScreens": 0,
+          "scope": "native1578 strawberry only; same market visit, no live purchase"
+        }
+      },
+      "delivery": {
+        "minimumScore": 0.76093,
+        "minimumMargin": 0.257304,
+        "calibrationStatus": "saved_screen_calibrated",
+        "measurement": {
+          "minimumPositive": 0.930524,
+          "maximumNegative": 0.591335,
+          "minimumPositiveMargin": 0.282304,
+          "scoreSlack": 0.169594,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        },
+        "evidence": [
+          {
+            "caseId": "three-slot-r1c1",
+            "screenSha256": "6c67b3c4524b949292d9f3666e1e484d63b2b083830f5dc28c61ab5c7e6942fd",
+            "region": {
+              "x": 1269,
+              "y": 448,
+              "width": 102,
+              "height": 78
+            },
+            "cropSha256": "93f6b18acd397292a755762f41596295c2e313098b6e81311c17124c2609cd02"
+          }
+        ]
+      }
+    },
+    "tomato": {
+      "market": {
+        "minimumScore": 0.6,
+        "minimumMargin": 0.072881,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "market-tomato-2",
+            "screenSha256": "209f9192838db473728c9a90862ef0fc286f42592c0ec3f9deed62268a285643",
+            "region": {
+              "x": 905,
+              "y": 535,
+              "width": 184,
+              "height": 123
+            },
+            "cropSha256": "c70204a82dfadcdcaf802e840a27196b593dfb8499c39d2aec3965ba9b487532"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.817834,
+          "maximumNegative": 0.191184,
+          "minimumPositiveMargin": 0.097881,
+          "scoreSlack": 0.217834,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        }
+      },
+      "delivery": {
+        "minimumScore": 0.6,
+        "minimumMargin": 0.139056,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "delivery-tomato-6",
+            "screenSha256": "23f0ba3377aa8551ad40493133818b9a15efdcaf1181b01ddba7959eb0b42a70",
+            "region": {
+              "x": 1406,
+              "y": 448,
+              "width": 106,
+              "height": 78
+            },
+            "cropSha256": "c70204a82dfadcdcaf802e840a27196b593dfb8499c39d2aec3965ba9b487532"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.80754,
+          "maximumNegative": 0.199151,
+          "minimumPositiveMargin": 0.164056,
+          "scoreSlack": 0.20754,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        }
+      }
+    },
+    "pine_tree": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "potato": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "cacao": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "rubber_tree": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "silk": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "cork_oak": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "pepper": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "bread": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "cookies": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "bagel": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.678342,
+        "minimumMargin": 0.055529,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "product-watch-r1c1",
+            "screenSha256": "8fed196f4aa65372bf69a20c20c99491ebd30adacee808f9b68665c291300af5",
+            "region": {
+              "x": 1269,
+              "y": 448,
+              "width": 77,
+              "height": 78
+            },
+            "overlayTop": 489,
+            "cropSha256": "e5dae8650bf6d16ec9aa4a389034249dc2e697cfd9139f0a32cd71791aee25e8",
+            "comparedRegion": {
+              "x": 1269,
+              "y": 448,
+              "width": 77,
+              "height": 41
+            },
+            "profileSha256": "a25a3b03b7989d5274c321abc933b8e038ef63bec64ccfd8edbb1594e12ad742"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.703342,
+          "maximumNegative": 0.291908,
+          "minimumPositiveMargin": 0.080529,
+          "scoreSlack": 0.025,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0,
+          "positiveCases": 1,
+          "negativeCases": 19
+        },
+        "scope": "Visually reviewed saved native1578 helicopter; finite saved-case calibration, no held-out accuracy claim."
+      }
+    },
+    "pizza": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "potato_bread": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.684222,
+        "minimumMargin": 0.133279,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "current1578-r3c1",
+            "screenSha256": "4b584858e8d8f91d2121b41f300b5fe2506e8a4ffe35474d448aad2320961a61",
+            "region": {
+              "x": 1268,
+              "y": 669,
+              "width": 77,
+              "height": 78
+            },
+            "cropSha256": "3e1e3375c040b4664f5b3279a8f4ba3a5b2263a4640805cbd13b5c85dec539a2",
+            "overlayTop": 710,
+            "comparedRegion": {
+              "x": 1268,
+              "y": 669,
+              "width": 77,
+              "height": 41
+            },
+            "profileSha256": "ffc5666fb8e2772275c9589e25e5e07eabf49495750339025f37e87237c9de89"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.856141,
+          "maximumNegative": 0.451315,
+          "minimumPositiveMargin": 0.158279,
+          "scoreSlack": 0.171919,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        },
+        "cropGeometryRecalibration": {
+          "profileSha256": "ffc5666fb8e2772275c9589e25e5e07eabf49495750339025f37e87237c9de89",
+          "comparedDimensions": {
+            "width": 77,
+            "height": 41
+          },
+          "positiveCases": 1,
+          "negativeCases": 12,
+          "basis": "Existing reviewed saved cases; preserve minimumScore and existing marginSlack. No held-out claim."
+        }
+      }
+    },
+    "banana_bread": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "cream": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "cheese": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "butter": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "not_separable",
+        "evidence": [
+          {
+            "caseId": "market-butter-4",
+            "screenSha256": "317509e993f8b2709d8cfe42304349425d3b5ba10e9d8ce999766a51eeab0ec3",
+            "region": {
+              "x": 758,
+              "y": 540,
+              "width": 180,
+              "height": 115
+            },
+            "cropSha256": "b50b461e9d7e478c22bfa2359aca553126b2a085af5a1ff6ae254c944413c9f7"
+          }
+        ]
+      },
+      "delivery": {
+        "minimumScore": 0.6,
+        "minimumMargin": 0.124959,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "delivery-butter-8",
+            "screenSha256": "105a60581025e20466859fb788e07179f111fa513e03537ecfbb3994ec08c723",
+            "region": {
+              "x": 1406,
+              "y": 558,
+              "width": 106,
+              "height": 80
+            },
+            "cropSha256": "b50b461e9d7e478c22bfa2359aca553126b2a085af5a1ff6ae254c944413c9f7"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.739214,
+          "maximumNegative": 0.27129,
+          "minimumPositiveMargin": 0.149959,
+          "scoreSlack": 0.139214,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        }
+      }
+    },
+    "yogurt": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "peach_yogurt": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "sugar": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.6,
+        "minimumMargin": 0.123289,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "current1578-r2c2",
+            "screenSha256": "4b584858e8d8f91d2121b41f300b5fe2506e8a4ffe35474d448aad2320961a61",
+            "region": {
+              "x": 1406,
+              "y": 558,
+              "width": 77,
+              "height": 80
+            },
+            "cropSha256": "a5c9950d54945c1b7e632ca1cdaa40058b9f816933ceeb3fa110c6749c97229e",
+            "overlayTop": 599,
+            "comparedRegion": {
+              "x": 1406,
+              "y": 558,
+              "width": 77,
+              "height": 41
+            },
+            "profileSha256": "ffc5666fb8e2772275c9589e25e5e07eabf49495750339025f37e87237c9de89"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.613592,
+          "maximumNegative": 0.282841,
+          "minimumPositiveMargin": 0.148289,
+          "scoreSlack": 0.013592,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        },
+        "cropGeometryRecalibration": {
+          "profileSha256": "ffc5666fb8e2772275c9589e25e5e07eabf49495750339025f37e87237c9de89",
+          "comparedDimensions": {
+            "width": 77,
+            "height": 41
+          },
+          "positiveCases": 1,
+          "negativeCases": 12,
+          "basis": "Existing reviewed saved cases; preserve minimumScore and existing marginSlack. No held-out claim."
+        }
+      }
+    },
+    "syrup": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "caramel": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "honey_caramel": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.836982,
+        "minimumMargin": 0.126862,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "product-watch-r2c2",
+            "screenSha256": "fe2af2ae4fa511cbf120772b60a1ecd95952d002364351c166d2414b89715549",
+            "region": {
+              "x": 1406,
+              "y": 558,
+              "width": 77,
+              "height": 80
+            },
+            "overlayTop": 599,
+            "cropSha256": "6936c3c9c5627494eea4175f0eb7c4b36f34d15d19a83046a92c03182a76e781",
+            "comparedRegion": {
+              "x": 1406,
+              "y": 558,
+              "width": 77,
+              "height": 41
+            },
+            "profileSha256": "ffc5666fb8e2772275c9589e25e5e07eabf49495750339025f37e87237c9de89"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.861982,
+          "maximumNegative": 0.764034,
+          "minimumPositiveMargin": 0.151862,
+          "scoreSlack": 0.025,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0,
+          "positiveCases": 1,
+          "negativeCases": 17
+        },
+        "scope": "Visually reviewed saved 1578x1268 helicopter original with registered 77x41 comparison. Finite saved-case calibration; no held-out accuracy claim."
+      }
+    },
+    "cotton_fabric": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "yarn": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "silk_fabric": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "nylon_thread": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "shirt": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "sweater": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "coat": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "hat": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "dress": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.773426,
+        "minimumMargin": 0.357435,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "product-watch-r1c2",
+            "screenSha256": "8fed196f4aa65372bf69a20c20c99491ebd30adacee808f9b68665c291300af5",
+            "region": {
+              "x": 1406,
+              "y": 448,
+              "width": 77,
+              "height": 78
+            },
+            "overlayTop": 489,
+            "cropSha256": "d8fba0e3406e82b429039bd0039661c801802cd00420cf48b29b13a3fa14ec64",
+            "comparedRegion": {
+              "x": 1406,
+              "y": 448,
+              "width": 77,
+              "height": 41
+            },
+            "profileSha256": "a25a3b03b7989d5274c321abc933b8e038ef63bec64ccfd8edbb1594e12ad742"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.798426,
+          "maximumNegative": 0.135356,
+          "minimumPositiveMargin": 0.382435,
+          "scoreSlack": 0.025,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0,
+          "positiveCases": 1,
+          "negativeCases": 19
+        },
+        "scope": "Visually reviewed saved native1578 helicopter; finite saved-case calibration, no held-out accuracy claim."
+      }
+    },
+    "suit": {
+      "market": {
+        "minimumScore": 0.6,
+        "minimumMargin": 0.121114,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "market-suit-0",
+            "screenSha256": "209f9192838db473728c9a90862ef0fc286f42592c0ec3f9deed62268a285643",
+            "region": {
+              "x": 910,
+              "y": 302,
+              "width": 174,
+              "height": 128
+            },
+            "cropSha256": "2449f55ab32a7a9e351909fe8e5cf9f7bfba2a894784046a3528d2c371143681"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.672945,
+          "maximumNegative": 0.282594,
+          "minimumPositiveMargin": 0.146114,
+          "scoreSlack": 0.072945,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        }
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "popcorn": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.6,
+        "minimumMargin": 0.045493,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "delivery-popcorn-10",
+            "screenSha256": "105a60581025e20466859fb788e07179f111fa513e03537ecfbb3994ec08c723",
+            "region": {
+              "x": 1406,
+              "y": 448,
+              "width": 106,
+              "height": 78
+            },
+            "cropSha256": "c9736e50cd1c82ce9c96daba84c0849083cf4d85e195ac3de175877017284e75"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.645622,
+          "maximumNegative": 0.357403,
+          "minimumPositiveMargin": 0.070493,
+          "scoreSlack": 0.045622,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        }
+      }
+    },
+    "corn_chips": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "granola": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "potato_chips": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.6,
+        "minimumMargin": 0.258131,
+        "calibrationStatus": "saved_screen_calibrated",
+        "measurement": {
+          "minimumPositive": 0.776425,
+          "maximumNegative": 0.287794,
+          "minimumPositiveMargin": 0.283131,
+          "scoreSlack": 0.176425,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        },
+        "evidence": [
+          {
+            "caseId": "three-slot-r2c1",
+            "screenSha256": "6c67b3c4524b949292d9f3666e1e484d63b2b083830f5dc28c61ab5c7e6942fd",
+            "region": {
+              "x": 1268,
+              "y": 558,
+              "width": 105,
+              "height": 80
+            },
+            "cropSha256": "343f327f472c3052a0c0063e645995c0f4e89cb75fa530a689bbfabb2059ffbc"
+          }
+        ]
+      }
+    },
+    "canape": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "glazed_bacon": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "strawberry_milkshake": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "cheeseburger": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "sandwich": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "french_fries": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "baked_potato": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "paper": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "paper_towel": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "wallpaper": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "ice_cream": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "popsicle": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "frozen_yogurt": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "ice_cream_bar": {
+      "market": {
+        "minimumScore": 0.6,
+        "minimumMargin": 0.102328,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "market-ice_cream_bar-3",
+            "screenSha256": "209f9192838db473728c9a90862ef0fc286f42592c0ec3f9deed62268a285643",
+            "region": {
+              "x": 1096,
+              "y": 535,
+              "width": 181,
+              "height": 123
+            },
+            "cropSha256": "4e63cc91ac55b44ecdf81ebb4e0a7892b6edb1f7a9967ae9c928cb8a660139b8"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.648668,
+          "maximumNegative": 0.480872,
+          "minimumPositiveMargin": 0.127328,
+          "scoreSlack": 0.048668,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        }
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "muffin": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "brownie": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "cupcake": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "donut": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "cheesecake": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "honey_gingerbread": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "key_lime_pie": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "coconut_macaroons": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "strawberry_jam": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "peach_marmalade": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "watermelon_jam": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "plum_jam": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "grape_jelly": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "rubber": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.6,
+        "minimumMargin": 0.222378,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "current1578-r1c2",
+            "screenSha256": "4b584858e8d8f91d2121b41f300b5fe2506e8a4ffe35474d448aad2320961a61",
+            "region": {
+              "x": 1406,
+              "y": 448,
+              "width": 106,
+              "height": 78
+            },
+            "cropSha256": "6d12205392365f3fabe3c3c2a42047a667a299063fc687130a2f416ce942803b"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.715229,
+          "maximumNegative": 0.403919,
+          "minimumPositiveMargin": 0.247378,
+          "scoreSlack": 0.115229,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        }
+      }
+    },
+    "plastic": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "glue": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "dumbbell": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "dough": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "frozen_vegetables": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.747097,
+        "minimumMargin": 0.21496,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "product-watch-r1c2",
+            "screenSha256": "fe2af2ae4fa511cbf120772b60a1ecd95952d002364351c166d2414b89715549",
+            "region": {
+              "x": 1406,
+              "y": 448,
+              "width": 77,
+              "height": 78
+            },
+            "overlayTop": 489,
+            "cropSha256": "83d6410ef00c05559dbc343678b7f7710dfb1351d105c33f46b2379a3721351e",
+            "comparedRegion": {
+              "x": 1406,
+              "y": 448,
+              "width": 77,
+              "height": 41
+            },
+            "profileSha256": "ffc5666fb8e2772275c9589e25e5e07eabf49495750339025f37e87237c9de89"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.772097,
+          "maximumNegative": 0.338051,
+          "minimumPositiveMargin": 0.23996,
+          "scoreSlack": 0.025,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0,
+          "positiveCases": 1,
+          "negativeCases": 17
+        },
+        "scope": "Visually reviewed saved 1578x1268 helicopter original with registered 77x41 comparison. Finite saved-case calibration; no held-out accuracy claim."
+      }
+    },
+    "dumplings": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "plastic_bottle": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "toys": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.6,
+        "minimumMargin": 0.045176,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "current1578-r2c1",
+            "screenSha256": "4b584858e8d8f91d2121b41f300b5fe2506e8a4ffe35474d448aad2320961a61",
+            "region": {
+              "x": 1268,
+              "y": 558,
+              "width": 105,
+              "height": 80
+            },
+            "cropSha256": "93a45dccec1979ddabd8ab6eec67daa313526a3522e3fa5dce401b7f6797facd"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.658306,
+          "maximumNegative": 0.462974,
+          "minimumPositiveMargin": 0.070176,
+          "scoreSlack": 0.058306,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        }
+      }
+    },
+    "ball": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "inflatable_boat": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "shuttlecock": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "scrub_brush": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.618709,
+        "minimumMargin": 0.111098,
+        "calibrationStatus": "saved_screen_calibrated",
+        "evidence": [
+          {
+            "caseId": "current1578-r1c1",
+            "screenSha256": "4b584858e8d8f91d2121b41f300b5fe2506e8a4ffe35474d448aad2320961a61",
+            "region": {
+              "x": 1269,
+              "y": 448,
+              "width": 102,
+              "height": 78
+            },
+            "cropSha256": "05d9eeaa311e1d6878dbf0f50f2082b288a32e46a4483c2859f120194a36a15d"
+          }
+        ],
+        "measurement": {
+          "minimumPositive": 0.819951,
+          "maximumNegative": 0.417467,
+          "minimumPositiveMargin": 0.136098,
+          "scoreSlack": 0.201242,
+          "marginSlack": 0.025,
+          "heldOutSavedScreens": 0
+        }
+      }
+    },
+    "soap_dispenser": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "clothesline_and_clothespins": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "plunger": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "feather_duster": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "jelly_beans": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "toffee": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "candy_cane": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "chocolate": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "lollipop": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "chili_sauce": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "burrito": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "nachos": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "taco": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "eraser": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "sticky_notes": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "bulletin_board": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "table": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "chair": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "couch": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "peach": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "watermelon": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "plum": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "grapes": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "olives": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "key_lime": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "banana": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "coconut": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "pineapple": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "copper_ore": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "silver_ore": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "gold_ore": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "platinum_ore": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "pick": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "dynamite": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "tnt": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "bronze_ingot": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "silver_ingot": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "gold_ingot": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "platinum_ingot": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "brick": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "glass": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "slab": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "nail": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "hammer": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "paint": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "shovel": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "axe": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "saw": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "electric_saw": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "drill": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "jackhammer": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "seaweed": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "scallop": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "pearls": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "mushroom": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "substrate_x3": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "mint": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "rice": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "rose": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "jasmine": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "seafood_pizza": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "mushroom_turnover": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "tyrolean_hat": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "puffed_rice": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "dried_mushrooms": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "fish_burger": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "fish_and_chips": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "book": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "mint_chocolate_ice_cream": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "pineapple_sorbet": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "rose_sorbet": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "rose_jam": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "seafood_mix": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "frozen_fruit": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "modeling_clay": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "honey_marshmallow": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "mint_candy": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "bacon_wrapped_jalapeno_poppers": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "gazpacho": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "corn_soup": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "highlighter_pen": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "bed": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "floor_lamp": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "flip_flops": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "sandals": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "sneakers": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "boots": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "high_heeled_shoes": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "warm_boots": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "pendant": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "ring": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "pearl_choker": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "earring": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "diadem": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "sushi_roll": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "lobster_sushi": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "seaweed_shrimp_salad": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "scallop_sushi": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "coconut_soup": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "rice_noodles": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "quiche": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "baked_lobster": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "bacon_and_eggs": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "fried_fish": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "aromatherapy_candle": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "perfume": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "air_freshener": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "scented_soap": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "vitamin_cocktail": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "grape_fizz": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "carrot_cake": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "strawberry_cake": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "hot_dog": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "corn_dog": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "ratatouille": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "fish": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "shrimp": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "lobster": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "avocado": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "mango": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "aloe": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    },
+    "clay": {
+      "market": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      },
+      "delivery": {
+        "minimumScore": 0.98,
+        "minimumMargin": 0.12,
+        "calibrationStatus": "unobserved",
+        "evidence": []
+      }
+    }
+  }
+}

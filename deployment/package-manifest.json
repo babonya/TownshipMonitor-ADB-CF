@@ -1,0 +1,1845 @@
+{
+  "schema": 1,
+  "createdAt": "2026-10-11T22:24:14.005064+09:00",
+  "edition": "Android ADB + SOM r3",
+  "sourceExecutionRelease": "b7588db86f805f237b3222002efce0bbcdb6a5f6d46d04bcd6fc50b593554f38",
+  "executionRelease": "eee59d9774708e85fc4c4799ac8ca3aae62c5c39b7174d8e41ed324d76ca1edc",
+  "recognitionScope": "Android SOM active profiles and original screenshot provenance only",
+  "externalDependenciesBundled": false,
+  "sessionOrAuthorityBundled": false,
+  "changesFromR2": [
+    "tools/som/actions.mjs",
+    "tools/som/market-position.mjs",
+    "tools/som/market-reset.mjs",
+    "tools/som/market-visit.mjs",
+    "tools/som/survey.mjs",
+    "tools/som/workflow.mjs"
+  ],
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "size": 9224,
+      "sha256": "60c018d91531ef1aee76b1fbad348a4254f7b5a4815c8c19b30233680da21a61"
+    },
+    {
+      "path": "apps/TownshipDesktopBridge/CaptureOwnerFile.cs",
+      "size": 607,
+      "sha256": "e3b2ae0e4d06f44c6bdc950e5280bdac6b320dc9dffbc30580141f4b53f08c50"
+    },
+    {
+      "path": "apps/TownshipDesktopBridge/HelicopterSendSequence.cs",
+      "size": 601,
+      "sha256": "8d8e9de27591370c612313f7ef910304ec24fd1ee731eb069eadaf4bdd252f1a"
+    },
+    {
+      "path": "apps/TownshipDesktopBridge/InputContracts.cs",
+      "size": 8175,
+      "sha256": "5c3d86bf9a9c30daf03fbfae387237a67b40061c31257e58e1a004e9ace570fb"
+    },
+    {
+      "path": "apps/TownshipDesktopBridge/InputExecutionContext.cs",
+      "size": 1402,
+      "sha256": "fe69eec410b9d4190a53d44004fcd5b6db7ce867353224bd18a84d83832a3189"
+    },
+    {
+      "path": "apps/TownshipDesktopBridge/Native.cs",
+      "size": 5398,
+      "sha256": "a10480bf095551c6abcb08b65826d7c0e853f72c8f7ab73a31369247dc70ea1b"
+    },
+    {
+      "path": "apps/TownshipDesktopBridge/Program.cs",
+      "size": 11203,
+      "sha256": "07dead20e52ff3e2ea1fc920b95906e2c8a449f8b4e621e9ed7cc13f0e11885a"
+    },
+    {
+      "path": "apps/TownshipDesktopBridge/TownshipDesktopBridge.csproj",
+      "size": 390,
+      "sha256": "a35718a1b365bd1f6b0859a36353222c239c32a77a5be564ecaf09ad3519215d"
+    },
+    {
+      "path": "apps/TownshipDesktopBridge/WindowCapture.cs",
+      "size": 6757,
+      "sha256": "1f19bf1dc9ad276afe4a17932a3b480f1685d14848d98895374155ac2d389c05"
+    },
+    {
+      "path": "apps/TownshipMonitor/BridgeClient.cs",
+      "size": 6462,
+      "sha256": "db196818b158d7bdbd58a99b79a0fcf2223ddefdc85b543ab568bdcffc55b0a9"
+    },
+    {
+      "path": "apps/TownshipMonitor/BridgeProtocol.cs",
+      "size": 1474,
+      "sha256": "1d707d9744e66a86eef879dfa4c7a181f32292fdc60e62203e56729ba916d765"
+    },
+    {
+      "path": "apps/TownshipMonitor/build.ps1",
+      "size": 496,
+      "sha256": "ed57f1272f9040efb9288697cd6229a9ccb61361de6f2685851d5fe9a8a37c27"
+    },
+    {
+      "path": "apps/TownshipMonitor/MonitorAvailability.cs",
+      "size": 1708,
+      "sha256": "0cde7effa9f7a7c1d5a5f52080ed09df776e715cbe47518750c988360bce5eb0"
+    },
+    {
+      "path": "apps/TownshipMonitor/MonitorControl.cs",
+      "size": 4339,
+      "sha256": "97bc4df1606b6404f3b9914bb3e4562414198f441d85743ebc0e93e12784c97d"
+    },
+    {
+      "path": "apps/TownshipMonitor/MonitorDisplayText.cs",
+      "size": 4598,
+      "sha256": "e07752e84b01cac3c8c840a4b9bcf80cacddc0fedc0ec29622b6b006a4f977ec"
+    },
+    {
+      "path": "apps/TownshipMonitor/MonitorForm.cs",
+      "size": 19360,
+      "sha256": "89f6e4c9d250c2843c7159152515fb1ad9608cb892a64461bea68da3962f868a"
+    },
+    {
+      "path": "apps/TownshipMonitor/MonitorPresentation.cs",
+      "size": 8849,
+      "sha256": "c440b4d687d95f673d371fdcf7f71c3eab326d69ff34eb0520c6b2d6d84c3ba5"
+    },
+    {
+      "path": "apps/TownshipMonitor/MonitorRestart.cs",
+      "size": 1449,
+      "sha256": "93f3632393fcec91e07e8f24685f880b50dfcd077cacee7fc851228a359d92fd"
+    },
+    {
+      "path": "apps/TownshipMonitor/ProductDisplayAssets.cs",
+      "size": 4853,
+      "sha256": "47d02f680f433f7162770cbd1eb0a8c920b88255c50d5df3bc7ce25468755cd0"
+    },
+    {
+      "path": "apps/TownshipMonitor/Program.cs",
+      "size": 2709,
+      "sha256": "909e1de07d70f1943e7184c39e80a70072f5af8d03733039e4f0a71e0ab35a2e"
+    },
+    {
+      "path": "apps/TownshipMonitor/RequiredGoodsPanel.cs",
+      "size": 6740,
+      "sha256": "666d3a6580c915d266883627de91d798087e946b870df807babc6839c46019c5"
+    },
+    {
+      "path": "apps/TownshipMonitor/RequiredGoodsPresentation.cs",
+      "size": 4226,
+      "sha256": "5cb8a14050b4d3342ad77930cfd7d7ca59ad39d77d2e4e4eaad8196853bc753a"
+    },
+    {
+      "path": "apps/TownshipMonitor/TownshipMonitor.csproj",
+      "size": 392,
+      "sha256": "30a6b9ea1187e9780c449d7ad9d751d03d748bf7732a546b3bcd120847ae3de3"
+    },
+    {
+      "path": "artifacts/TownshipMonitor/TownshipMonitor.deps.json",
+      "size": 437,
+      "sha256": "9dff67d163823741e36ea035d165cec7e99a59ac367efd89a29b75caf830d33d"
+    },
+    {
+      "path": "artifacts/TownshipMonitor/TownshipMonitor.dll",
+      "size": 117248,
+      "sha256": "0e2042a395741f5ad1ba6af7b01fbe473df2a83cf607979520dfc0fe2562e641"
+    },
+    {
+      "path": "artifacts/TownshipMonitor/TownshipMonitor.exe",
+      "size": 151552,
+      "sha256": "81454f6f5815ffe75b8fa38e7ba7b913a10003b061966f567c8b879bc328b550"
+    },
+    {
+      "path": "artifacts/TownshipMonitor/TownshipMonitor.runtimeconfig.json",
+      "size": 458,
+      "sha256": "c71152bf25e40d647b2440c5b39be157a3d356106be9d5b678ab97bb87b4e782"
+    },
+    {
+      "path": "coordinate-contract.md",
+      "size": 4795,
+      "sha256": "5658f674289776d9fa5bf2bf7fa27fccf795b4bec03473c2428edcb45eec8b7d"
+    },
+    {
+      "path": "deployment/d1-3b/Compare-Images.py",
+      "size": 3231,
+      "sha256": "795e097df5aa98661d17e1b3edb0eb11bbc03fd27a3a8a966071064c64a6e5d6"
+    },
+    {
+      "path": "deployment/d1-3b/install-manifest.json",
+      "size": 1552,
+      "sha256": "a6e950a31fdbe9143696fd05747fd1aae6573fe92e8bc84d1961c48633068bf3"
+    },
+    {
+      "path": "deployment/d1-3b/MODEL-LICENSE.txt",
+      "size": 10574,
+      "sha256": "4d28ca14dedc0b3d0fcc2b3339f0e79931faa33874f3d24f522183a8fc70068c"
+    },
+    {
+      "path": "deployment/d1-3b/RUNTIME-LICENSE.txt",
+      "size": 1078,
+      "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+    },
+    {
+      "path": "deployment/d1-3b/Start-D1.ps1",
+      "size": 2845,
+      "sha256": "4e089fdd3280fd828ee7f3925a7aaaa503f92e2b340879a641c9b8daca8fb429"
+    },
+    {
+      "path": "deployment/d1-3b/Stop-D1.ps1",
+      "size": 754,
+      "sha256": "33ed38c17ee93abac3d7ef0f234b7ca6956947056d3663f1216aa32dfee2061e"
+    },
+    {
+      "path": "deployment/d1-3b/UPSTREAM-MODEL-CARD.md",
+      "size": 2875,
+      "sha256": "f9778e5b65c650618b23f24839708d395660af6da5c29c7da1efac71123e3f3b"
+    },
+    {
+      "path": "deployment/init-session.mjs",
+      "size": 1763,
+      "sha256": "2446661103e8d9db876119df3cf05159083966b6b176ab7426c0eecd383b4491"
+    },
+    {
+      "path": "deployment/Install-D1.ps1",
+      "size": 1886,
+      "sha256": "69e0f2d808bb1d464ef9142de7cf2965ffe9871fad9782d6eb1d53f0a485c60f"
+    },
+    {
+      "path": "docs/android-adb.md",
+      "size": 14221,
+      "sha256": "a7b21453d7843e38455951173a4455f1b55cdda81fdc368c9a3a25d999322b95"
+    },
+    {
+      "path": "docs/som-workflow.md",
+      "size": 43302,
+      "sha256": "fedbdde9ff903ee58800576fefb510526fb4dcb959a00f4b48ea64796686f41b"
+    },
+    {
+      "path": "docs/transport-play-guide.md",
+      "size": 19558,
+      "sha256": "ca9d6172884a361367fd54990dceebd084e8f4ca9c02900f1b856e705008a0ce"
+    },
+    {
+      "path": "readme.txt",
+      "size": 20441,
+      "sha256": "a60afabaacc46d3bda29c1cabe28e0cbcbebe6790ec5041759608c231ec2ba66"
+    },
+    {
+      "path": "reference/percentage-profile-policy.json",
+      "size": 478,
+      "sha256": "7068cf33a5f726d4dce5702f9e7242322b96775e115697a7553dc090e0681bbf"
+    },
+    {
+      "path": "reference/popup-actions.json",
+      "size": 5287,
+      "sha256": "03ce48e9ca0b15cb70061af5b6722091f729207c1ce2350ada8ca1cad55272f8"
+    },
+    {
+      "path": "reference/product-catalog.json",
+      "size": 153215,
+      "sha256": "ab3de1e09ad51f318b087b001df7599c74752023a0035a9505d16d08e9d41ce7"
+    },
+    {
+      "path": "reference/som/android-1544/barn-allTab.png",
+      "size": 1645,
+      "sha256": "7a5046e9dbad5fdbb1ea8ab13656163e509ffa1bb859284c9af8a86456665e97"
+    },
+    {
+      "path": "reference/som/android-1544/barn-bottom.png",
+      "size": 5637,
+      "sha256": "9b4980e14008455c577d19bef6c7db0da65252508c71fbcd9f82c5935b3d9b62"
+    },
+    {
+      "path": "reference/som/android-1544/barn-close.png",
+      "size": 1871,
+      "sha256": "129b4f8ba7912183503f9e5224d38b1c3e1e601d72c5c5f7abcb1efa034954b9"
+    },
+    {
+      "path": "reference/som/android-1544/barn-crops-active.png",
+      "size": 3050,
+      "sha256": "72761876752fcb72c078a4e0116e92737318c1e187a77432ede47720e8b85197"
+    },
+    {
+      "path": "reference/som/android-1544/barn-crops-inactive.png",
+      "size": 3771,
+      "sha256": "8888c61553de112460f0969dbbdcd4436a481f4636339ba0b43716fe1acce911"
+    },
+    {
+      "path": "reference/som/android-1544/barn-plainStrip.png",
+      "size": 141,
+      "sha256": "62de1cf7f3450349c6330564beb440b0fa149d6bf6e345b94d3386cae1f20456"
+    },
+    {
+      "path": "reference/som/android-1544/barn-products-active.png",
+      "size": 2746,
+      "sha256": "8e63590a919750058c44e212350f610c2c9e6e571daaa505737976d155af8385"
+    },
+    {
+      "path": "reference/som/android-1544/barn-products-inactive.png",
+      "size": 3509,
+      "sha256": "f1f30d696687e4d08372a92be2c6e7d4ab2d899715c7a749ed845a879a165c81"
+    },
+    {
+      "path": "reference/som/android-1544/barn-sale/capacity-label.png",
+      "size": 4006,
+      "sha256": "7d1c731aab20f848d60c543fb829a3dcb1297d9a030bab5238003fd8de9c53dc"
+    },
+    {
+      "path": "reference/som/android-1544/barn-sale/coin-cotton.png",
+      "size": 2322,
+      "sha256": "46b681a5ce66deffc7f9c3c311c5f4a44d0d28c8c35cc0152fec6ec81710640e"
+    },
+    {
+      "path": "reference/som/android-1544/barn-sale/coin-sugarcane.png",
+      "size": 2322,
+      "sha256": "69530237b88d08c087b90c27e91a21654a40313a6005497a58fd8d4ed33879ab"
+    },
+    {
+      "path": "reference/som/android-1544/barn-sale/profile.json",
+      "size": 48457,
+      "sha256": "2685f4162f290b2348515b1fd298b55d2d9cc158b316d0524ef061459ad05265"
+    },
+    {
+      "path": "reference/som/android-1544/barn-sale/source-capacity-403.png",
+      "size": 827227,
+      "sha256": "216d400db47301a7bc820e69aa204f2c45ceed6e32903614f38d89cf34e67edc"
+    },
+    {
+      "path": "reference/som/android-1544/barn-sale/source-cotton-selection.png",
+      "size": 757180,
+      "sha256": "bb2537797a40646ebcd591ec4de0af0fd30fff7dea8d63a2cf599b90bdd06443"
+    },
+    {
+      "path": "reference/som/android-1544/barn-sale/source-sugarcane-selection.png",
+      "size": 756645,
+      "sha256": "b6bde031a57524faf941c3e5c44b119dda9c9a1f9bf88328c1c005acdde8902d"
+    },
+    {
+      "path": "reference/som/android-1544/barn-selection-coin.png",
+      "size": 2326,
+      "sha256": "15543e8344dd0ea520d4a0b6fc6f081da71814b4ff6b036ac7e0aa4f63059f7e"
+    },
+    {
+      "path": "reference/som/android-1544/barn-selection-minus.png",
+      "size": 2565,
+      "sha256": "7e29b5eb332e3362cef1951ba758e46a48182352d04a56db36925f81f9a25a79"
+    },
+    {
+      "path": "reference/som/android-1544/barn-selection-plus.png",
+      "size": 3029,
+      "sha256": "59cde6e1dade562cf520e9d6b17e1f94eacfe3e7b8cdf40c5152a9f4f4b24fd8"
+    },
+    {
+      "path": "reference/som/android-1544/barn-selection-sellLabel.png",
+      "size": 2271,
+      "sha256": "4fcc564c69a7bc64d7a5a2f2917d9a1e1dd007de84366a29b84414fa7a198f36"
+    },
+    {
+      "path": "reference/som/android-1544/barn-title.png",
+      "size": 4349,
+      "sha256": "cf5e1130d80c68fd3b9e23807bd20e806c589bbfd202517024daa156ef54765d"
+    },
+    {
+      "path": "reference/som/android-1544/heli-close.png",
+      "size": 1719,
+      "sha256": "6cd25abfe63b1f746e171148f9b5cc9aa77a2cddd4eec7b7854bf21330793e87"
+    },
+    {
+      "path": "reference/som/android-1544/heli-details.png",
+      "size": 5902,
+      "sha256": "7c3d2f5d1426cc860bb1e00c551222e2e50aaadfa2596dacf77468477f448385"
+    },
+    {
+      "path": "reference/som/android-1544/heli-empty-slot.png",
+      "size": 265,
+      "sha256": "fbb317cd813508af3ca63903aa68125d97912f2a19aef24319b8a9c7fac36c7a"
+    },
+    {
+      "path": "reference/som/android-1544/heli-ready-check-right-bottom.png",
+      "size": 2646,
+      "sha256": "5691ab91c7ed0476c7b94b773c09d1fabb394cccda423949f6254984a76a9348"
+    },
+    {
+      "path": "reference/som/android-1544/heli-ready-check-right-top.png",
+      "size": 2599,
+      "sha256": "d16076cc3784e1bc84c8ad13b7238179da52fcb1e64c700d955bedd65cdf04f8"
+    },
+    {
+      "path": "reference/som/android-1544/heli-ready-check.png",
+      "size": 2352,
+      "sha256": "dcd7c1f7a1b13b90a4b6fe8585e1bc7a56975316949f3ff4b3e87ad303e7cceb"
+    },
+    {
+      "path": "reference/som/android-1544/heli-send.png",
+      "size": 3034,
+      "sha256": "cb07749796d70306b6080248a69ec60dfdf497e304977cdd63480bed45d67c97"
+    },
+    {
+      "path": "reference/som/android-1544/heli-title.png",
+      "size": 10065,
+      "sha256": "042c94e44c078aff830543291e8c5361f0b12122922c8c4105399355f89ad370"
+    },
+    {
+      "path": "reference/som/android-1544/heli-trash.png",
+      "size": 6588,
+      "sha256": "3e5a791effa85d27500713480d5a885ae3d3684214a28aa03acb0ec3f623fe6f"
+    },
+    {
+      "path": "reference/som/android-1544/market-close.png",
+      "size": 1942,
+      "sha256": "1f01f50a5308a4df5d205382fe51d5fc3b90e8b911572176368b7b23ec4abb97"
+    },
+    {
+      "path": "reference/som/android-1544/market-coin-0.png",
+      "size": 2169,
+      "sha256": "5d65ae6d79051371219b21a1d1e62f658a9da928fc6fd09522856dbfaa517767"
+    },
+    {
+      "path": "reference/som/android-1544/market-coin-1.png",
+      "size": 2155,
+      "sha256": "b034faaecc2fe760d10d6acec3d238d00582746a99275acbb8d86317432f226f"
+    },
+    {
+      "path": "reference/som/android-1544/market-coin-2.png",
+      "size": 2174,
+      "sha256": "da684460396b41ffb7fa767acccc177849a12a71fe2c379c40a2119e3f41a823"
+    },
+    {
+      "path": "reference/som/android-1544/market-coin-3.png",
+      "size": 2163,
+      "sha256": "f609e339f5038a2eef4c77ebfa1e034198623ea6c59b79ea3da3f9d8d56afb74"
+    },
+    {
+      "path": "reference/som/android-1544/market-coin-4.png",
+      "size": 2167,
+      "sha256": "69d331b0da4c0e119a79e344713b626858798c155f67e3a5e25a57dccc146055"
+    },
+    {
+      "path": "reference/som/android-1544/market-coin-5.png",
+      "size": 2177,
+      "sha256": "5cc745c98961936cbf8de92c71e7ecc915e733753027fbe3bfd3a3083328f6d2"
+    },
+    {
+      "path": "reference/som/android-1544/market-coin-drag.png",
+      "size": 2179,
+      "sha256": "9bb757b2886acc7422484ac7f34f8c4c1176ae0b73d9aaec953184e47ca8eb5d"
+    },
+    {
+      "path": "reference/som/android-1544/market-sale.png",
+      "size": 2134,
+      "sha256": "2d6d6ec6e0ebbde16e88712f6647333455413c4b4c5162597f567471c2409c46"
+    },
+    {
+      "path": "reference/som/android-1544/market-sold.png",
+      "size": 7669,
+      "sha256": "45e2f51f93731c9baaf2c871b8ef179abdc59519a6fd7c031104ff93ace923fc"
+    },
+    {
+      "path": "reference/som/android-1544/market-terminal-empty.png",
+      "size": 13181,
+      "sha256": "577b163229b94f4a500fdc27b1aac10836e5d292acfadab1633527c0971bb264"
+    },
+    {
+      "path": "reference/som/android-1544/market-terminal-plus.png",
+      "size": 3903,
+      "sha256": "bb0969bb7096a030f3969e1f75db32dd9ed6c15f08dd2377c0035d6230518860"
+    },
+    {
+      "path": "reference/som/android-1544/market-timer-caption.png",
+      "size": 9018,
+      "sha256": "b54549800a9cea6276c78d2f49fef3227dbfbd4e5c1e9afbd8f04fb2777b3048"
+    },
+    {
+      "path": "reference/som/android-1544/market-title.png",
+      "size": 8520,
+      "sha256": "bd5590bc590c6c6aeabfe9865e17353281c56e59851650144b86b240cc4941c1"
+    },
+    {
+      "path": "reference/som/android-1544/minigame/cash.png",
+      "size": 5389,
+      "sha256": "0250c2326b6dcbcb5f374336e352e2fc9f268b8aa5f08b351da7dbbd1fbd0876"
+    },
+    {
+      "path": "reference/som/android-1544/minigame/helicopter.png",
+      "size": 10065,
+      "sha256": "042c94e44c078aff830543291e8c5361f0b12122922c8c4105399355f89ad370"
+    },
+    {
+      "path": "reference/som/android-1544/minigame/play.png",
+      "size": 3172,
+      "sha256": "7f3c7a7711bf6a08b0b4a6a960865d1fe577c2ef2098bf402773b36f12a7fdc9"
+    },
+    {
+      "path": "reference/som/android-1544/minigame/profile.json",
+      "size": 5884,
+      "sha256": "3958bfb1373371c810b3428453913dcad3bc1feb9e2bcf792de6a10e53030eb6"
+    },
+    {
+      "path": "reference/som/android-1544/mission-cash-hud.png",
+      "size": 11986,
+      "sha256": "9446e7ab6a79be7b16bdb9db4a8e924ac94f44d9a953dee688c8990a1e470419"
+    },
+    {
+      "path": "reference/som/android-1544/mission-close.png",
+      "size": 4754,
+      "sha256": "5406c66a85b46142cac9629fd76577e3e480783cd733e0a890ed006561ff2c67"
+    },
+    {
+      "path": "reference/som/android-1544/offer-border-0.png",
+      "size": 11856,
+      "sha256": "5cd9e1df78b401677342554d59671077de89f646c87b766e2d05f95241066626"
+    },
+    {
+      "path": "reference/som/android-1544/offer-border-1.png",
+      "size": 11748,
+      "sha256": "e2f5110df7953ee88cca2cbfd53acfcd294814b69630f405f12977f5d577159f"
+    },
+    {
+      "path": "reference/som/android-1544/profile.json",
+      "size": 122444,
+      "sha256": "32dd7e901fe58ea2d41bc39ecfe72a46f507e9a5f18d370c2185aa107abbfc28"
+    },
+    {
+      "path": "reference/som/android-1544/sources/barn-all.png",
+      "size": 843907,
+      "sha256": "5a19d1c77168171f6dfff4d437f75ba59c051a3fff1e7e1a77eac352ed96346d"
+    },
+    {
+      "path": "reference/som/android-1544/sources/barn-crops.png",
+      "size": 808246,
+      "sha256": "3674e13bdf24a340e69bda40540dc09feed86549796b95f262550e11be18644c"
+    },
+    {
+      "path": "reference/som/android-1544/sources/barn-products.png",
+      "size": 852002,
+      "sha256": "438b740a46b2c2ad2c7622084392ed95e8e8c72f13d1bde709618b489e7c5976"
+    },
+    {
+      "path": "reference/som/android-1544/sources/barn-selection.png",
+      "size": 800925,
+      "sha256": "571320a24a675930ac31dcecdb5e439793a236a7914cb429e44320f113c9a265"
+    },
+    {
+      "path": "reference/som/android-1544/sources/helicopter.png",
+      "size": 1139228,
+      "sha256": "7cfd3e562b1349f806ce3969cce6a0a051f276b13d4d41c04aef4f5992e6c057"
+    },
+    {
+      "path": "reference/som/android-1544/sources/market-drag.png",
+      "size": 1083511,
+      "sha256": "54d208b770f1c4569583e30974e08f1bb0f0b9be9331dc27c4d6ddade4387e8d"
+    },
+    {
+      "path": "reference/som/android-1544/sources/market-sale.png",
+      "size": 1091955,
+      "sha256": "338fb0630f0908b17cfe7df2b5a19a68565ea1aaac4f974f32f146b057b15a0e"
+    },
+    {
+      "path": "reference/som/android-1544/sources/market-sold.png",
+      "size": 1091651,
+      "sha256": "65c43579c72cb7097f83d2c5184f5a4bcbbaf3570ac38b55774d666f9977cfb2"
+    },
+    {
+      "path": "reference/som/android-1544/sources/market-terminal.png",
+      "size": 1032854,
+      "sha256": "61070e0fc2de38fef9540e41e7f8d45cbd689327e0a3ffaa77280e8e99ddc0bc"
+    },
+    {
+      "path": "reference/som/android-1544/sources/market.png",
+      "size": 1051287,
+      "sha256": "149f292e04c47315eb391d510d6decf8ca4269fa211a4590660f1b07e2613a5a"
+    },
+    {
+      "path": "reference/som/android-1544/sources/mission.png",
+      "size": 1477098,
+      "sha256": "60d7b8d49331308b0ccbd15e1648b20fbc24bb09d31525e0151c6e93193db6df"
+    },
+    {
+      "path": "reference/som/android-1544/sources/town-fixed-entry.png",
+      "size": 1980393,
+      "sha256": "9161435013e288098b1307ef90043f3f9ce4410b451f708e79058e229580e50f"
+    },
+    {
+      "path": "reference/som/android-1544/sources/town.png",
+      "size": 1991050,
+      "sha256": "ca354c74a9e2e3871a0a5cb866e5912a4222d25f20d538a2976380bd942dac1a"
+    },
+    {
+      "path": "reference/som/android-1544/town-barn.png",
+      "size": 23344,
+      "sha256": "2050b6753c6c9b194625ae9878873865539a50e45f7667c5c5babeda9c7bf035"
+    },
+    {
+      "path": "reference/som/android-1544/town-hardhat.png",
+      "size": 9064,
+      "sha256": "5407d501e9a4f1943730a579b6012c3788fbdea91e3960bb3cae7029452c44e6"
+    },
+    {
+      "path": "reference/som/android-1544/town-helicopter.png",
+      "size": 10348,
+      "sha256": "2e32b9f3de5a830df67d581c580fad927c41306dea20532edeed9cb4fcd37dd7"
+    },
+    {
+      "path": "reference/som/android-1544/town-market.png",
+      "size": 4232,
+      "sha256": "c04edeebfe5075002390023a951940a560296b0c91a7b3aa5251e72af3ca0e58"
+    },
+    {
+      "path": "reference/som/barn-full/close.png",
+      "size": 1951,
+      "sha256": "a6200732e32406474e9bb4287ad05ffb93fc590f5e65b48e5d919445aab2c200"
+    },
+    {
+      "path": "reference/som/barn-full/profile.json",
+      "size": 2093,
+      "sha256": "93b9246cb9fbf0b9d63523ae28eb9c71b2264c4c4ab073aca8759a6f23c19f38"
+    },
+    {
+      "path": "reference/som/barn-full/source.png",
+      "size": 159480,
+      "sha256": "0f78208382a0d3627ecae4c9835428bf191c005ddbdebdb3d128dad7e90541ba"
+    },
+    {
+      "path": "reference/som/barn-full/title.png",
+      "size": 9978,
+      "sha256": "6375aa83654e06050385cfffce5c2e4fca74697e90907595dae9fb1666cfb23c"
+    },
+    {
+      "path": "reference/som/barn-full/upgrade.png",
+      "size": 11710,
+      "sha256": "42287798ca947c12cd1741de2beececdd4c742719d9f21ae7d255c81bff1e885"
+    },
+    {
+      "path": "reference/som/minigame/source.png",
+      "size": 653579,
+      "sha256": "89e0198f25f24a9c45cea29bdd1ec6623dc68927c3cdefd76b80ff12e3c8b7f1"
+    },
+    {
+      "path": "reference/som/products-missing/close.png",
+      "size": 2247,
+      "sha256": "6b71dd239b37756da4ebd097873ef430cc8a86090f23946a1663ed3065a0585c"
+    },
+    {
+      "path": "reference/som/products-missing/profile.json",
+      "size": 1486,
+      "sha256": "1184f44d1479bdc9db4773fc8ac259bdb2c62ee29001b865002ed0ffcd4b2484"
+    },
+    {
+      "path": "reference/som/products-missing/source.png",
+      "size": 156370,
+      "sha256": "1b09e29863b6f13e34a6d72f50f8bebacb87cfa66332e032f58de7285c93fe33"
+    },
+    {
+      "path": "reference/som/products-missing/title.png",
+      "size": 17732,
+      "sha256": "166031787429a40851802f4e92484c490e1290411338703abb998fa1d5c729d8"
+    },
+    {
+      "path": "Start-ADB.cmd",
+      "size": 551,
+      "sha256": "ec2c5d846d1ceb93437b1a8040ef14ff02228be0b86f99328197ac2e8b957d96"
+    },
+    {
+      "path": "tools/adb.mjs",
+      "size": 8524,
+      "sha256": "992855061b0211ee747924afa508ff8b95b65608884587baeb7ddd75ae57f0dc"
+    },
+    {
+      "path": "tools/android-adb-cli.mjs",
+      "size": 1528,
+      "sha256": "22d7222e795be9ce0bc257e62d7ae0395a774d34a3e7586bf9b79d1256c94cb9"
+    },
+    {
+      "path": "tools/android-adb-device.mjs",
+      "size": 15686,
+      "sha256": "847abc893092d9824e29e96e0d51f60c0beaf5163039c65abddf135c6f1edfc2"
+    },
+    {
+      "path": "tools/android-adb-dispatch-retention.mjs",
+      "size": 1706,
+      "sha256": "6df99868dd9d75443a461acdeaa5954b91ad904c003705d86dde156720d9c82a"
+    },
+    {
+      "path": "tools/android-adb-observation.mjs",
+      "size": 2216,
+      "sha256": "3125c528e810eb067137f2ec70e228892637ff90bfe6707992cb4c3aac4919d5"
+    },
+    {
+      "path": "tools/android-adb-restart.mjs",
+      "size": 4413,
+      "sha256": "e4a66e9f9d399907c0d5bc0424b84f87f09bf0826852fa531690827d3d50bc37"
+    },
+    {
+      "path": "tools/android-market-drag.mjs",
+      "size": 2352,
+      "sha256": "5b1b64e2b865eaf9b1c633e6a89b7c5326c1fb53ba18df502578c1ab7d3b77ba"
+    },
+    {
+      "path": "tools/device-migration.mjs",
+      "size": 3056,
+      "sha256": "7bd03a7c1a09d076cbd2a85050df243562fdffa58a673209e9031d4f6491103e"
+    },
+    {
+      "path": "tools/device.mjs",
+      "size": 1743,
+      "sha256": "197aeb358759bb857c4f6a8e597c5359eb130b62faf160f1b903f3705918f111"
+    },
+    {
+      "path": "tools/mumu-accounting.mjs",
+      "size": 4188,
+      "sha256": "0fe03209c57bfb53608906ce166cbac75128874588534d551a6ac9d11218f514"
+    },
+    {
+      "path": "tools/mumu-action-id.mjs",
+      "size": 1332,
+      "sha256": "bfa1fefd855d29bb1015115b7f5fceb886a747bcad73322bc23e2eac6a362d5a"
+    },
+    {
+      "path": "tools/mumu-action-transitions.mjs",
+      "size": 3288,
+      "sha256": "0c5b1b57a6d7baca6bbba2abe0541e271fb46b2e40162baa176cb20c52f4b55f"
+    },
+    {
+      "path": "tools/mumu-airport-idle.mjs",
+      "size": 2863,
+      "sha256": "a0d4df3dddb6632b040c38b3ac25d4fd92bcfef1ede94b21c0e4451cd890eac6"
+    },
+    {
+      "path": "tools/mumu-airport-loading-proof.mjs",
+      "size": 9747,
+      "sha256": "9bccdd03e6d05bfba46d7d8d4a602c6afe528cf5935f041133b6a8493901698a"
+    },
+    {
+      "path": "tools/mumu-airport-loading.mjs",
+      "size": 13614,
+      "sha256": "0407ac60d35ecd9329e106b5914bcfeee554512aa030a71e01b8dceb5d0d64c1"
+    },
+    {
+      "path": "tools/mumu-automatic.mjs",
+      "size": 36149,
+      "sha256": "3549256cddcdf02965db438d743747314ede55d9bcd4e48f400585f2cd9b5288"
+    },
+    {
+      "path": "tools/mumu-barn-recovery.mjs",
+      "size": 10906,
+      "sha256": "d34f1820075afb785ad0d2ce4648d1c53563afc6cec31d63ab11530904f187b2"
+    },
+    {
+      "path": "tools/mumu-barn-sale-proof.mjs",
+      "size": 15402,
+      "sha256": "a765e92e6551fe5d9981bc041c5722800ffcbc63d333fc394379b16ff140a71e"
+    },
+    {
+      "path": "tools/mumu-barn-sale-result.mjs",
+      "size": 3362,
+      "sha256": "4dceff68541e91ed840b2b523c9ffbd1ccce3e75f64653552a79d2013e765c7c"
+    },
+    {
+      "path": "tools/mumu-barn-sale.mjs",
+      "size": 9718,
+      "sha256": "4e3522897986ee55a4ce663f8037e6dc752989434b1c32c9efc237f7d797e9c3"
+    },
+    {
+      "path": "tools/mumu-barn.mjs",
+      "size": 6644,
+      "sha256": "9883603b4a491f85d4e0aa98dff82069b80f581ffd893811761bdcdd0eca599e"
+    },
+    {
+      "path": "tools/mumu-capture.mjs",
+      "size": 9220,
+      "sha256": "03f17aba95eb238c38ec96674f487ddb945a3bb5331b12182ced2e27f488c311"
+    },
+    {
+      "path": "tools/mumu-cli-commands.mjs",
+      "size": 5876,
+      "sha256": "0270c6a3cfcea528701c14b85f2425e54fd3ed32ec03bab2e13ed81d9c491a03"
+    },
+    {
+      "path": "tools/mumu-cli.mjs",
+      "size": 1181,
+      "sha256": "a2a5b354e2ec90de725612bc114c73753bd351e0042f7b2ec6861db12396a910"
+    },
+    {
+      "path": "tools/mumu-contents.mjs",
+      "size": 4317,
+      "sha256": "81adb00aee8a46d785a8ae5dc5fb26cbf13093b0be2bb84565360c1f4ce5a404"
+    },
+    {
+      "path": "tools/mumu-continuity-cli.mjs",
+      "size": 1645,
+      "sha256": "82a6a36d07a98c02bec33b08dae2f5b70849407b19e6a8615564724f10106e7f"
+    },
+    {
+      "path": "tools/mumu-continuity-record.mjs",
+      "size": 1008,
+      "sha256": "1e1e868329462dccdfcb23e1b60afe3e89a712805e14db0efe0aa2b736893e6b"
+    },
+    {
+      "path": "tools/mumu-continuity.mjs",
+      "size": 16452,
+      "sha256": "cc752ac7e69c3f8175235ca6e3cb77b2965e49af9d9788c3ac541282fbe70b95"
+    },
+    {
+      "path": "tools/mumu-cup-budget.mjs",
+      "size": 3499,
+      "sha256": "9b62abb66b59bb5d8480c5d032a3459cda47441ee809c033bb2bb64ef4e0a416"
+    },
+    {
+      "path": "tools/mumu-cup-ocr.mjs",
+      "size": 4437,
+      "sha256": "d61eb83b9f508808f7597b73da940f674dc8a4cb9d8999cfc8674d7006756fae"
+    },
+    {
+      "path": "tools/mumu-current-allocation.mjs",
+      "size": 4927,
+      "sha256": "9df110fde317acd533b721adadb0dc8cdab39702521f351a253947f216670434"
+    },
+    {
+      "path": "tools/mumu-current-needs.mjs",
+      "size": 11863,
+      "sha256": "4913e12a5eab80f81f3c27de811d4a37bd4dd91b6a9c3f0e642c66acac210bbb"
+    },
+    {
+      "path": "tools/mumu-daily-deliveries.mjs",
+      "size": 972,
+      "sha256": "d8e9ddfa3ce04cfc3f854778f024d96c3b0a4ca7d05c3cd04924734725b96b67"
+    },
+    {
+      "path": "tools/mumu-delivery-allocation.mjs",
+      "size": 500,
+      "sha256": "2056ead3f34ba06c3fbc957bd71eb01a6564bf98478d34ea48744238f5b60174"
+    },
+    {
+      "path": "tools/mumu-delivery-context.mjs",
+      "size": 1202,
+      "sha256": "aadddb240f88ad41c1d703c58a819384d9aa7cba22fc6c44354bdcf0239e8780"
+    },
+    {
+      "path": "tools/mumu-delivery-geometry.mjs",
+      "size": 956,
+      "sha256": "b1f609ac056211bc297a1f6fcadedc4c1f721261b59d01ee47392919c2ee0b4f"
+    },
+    {
+      "path": "tools/mumu-delivery-input-owner.mjs",
+      "size": 4257,
+      "sha256": "6c4c79a4cac1499b0f89efbd46146a6b34f976a1eb15743ac1e12335c2e9d119"
+    },
+    {
+      "path": "tools/mumu-delivery-reasons.mjs",
+      "size": 1503,
+      "sha256": "a0d99e21e78e26463fc7051382f51bd19ea96508c35bf4e70ff712c5bb7874f0"
+    },
+    {
+      "path": "tools/mumu-delivery-scope.mjs",
+      "size": 355,
+      "sha256": "bef976ce7f8e088c332aff4aad803ff06969e81c5ba9900e0042039a0faf7d4b"
+    },
+    {
+      "path": "tools/mumu-delivery-state.mjs",
+      "size": 2618,
+      "sha256": "93be95b608db29b23e16819cec86f2a6cac32cc17e68a17c0e2a33fe0d44d36e"
+    },
+    {
+      "path": "tools/mumu-delivery-status-reader.mjs",
+      "size": 3049,
+      "sha256": "c9a7da38532acc0f0256aefbbf89ca3c4ecb0588692984d9a5b0a2ab2980c31c"
+    },
+    {
+      "path": "tools/mumu-delivery-status.mjs",
+      "size": 1000,
+      "sha256": "bb200df837e9a40006b3e8ae69d3fb6c6a0d5408f26cdcd22d1321195c977c33"
+    },
+    {
+      "path": "tools/mumu-event-close.mjs",
+      "size": 9967,
+      "sha256": "531344d29d97c6ac5494b673efed9d18b466c09e34dd5b7e8e57e221c4e48ba1"
+    },
+    {
+      "path": "tools/mumu-evidence-dependencies.mjs",
+      "size": 2917,
+      "sha256": "2eff87d8019d8e093af2c5d8fd93aa745c0878c19da0f1224fc89368d227efa6"
+    },
+    {
+      "path": "tools/mumu-evidence.mjs",
+      "size": 3776,
+      "sha256": "764825f895a24836583deeea525e277d59f0e1d05cb7b27b0be5568b700169d1"
+    },
+    {
+      "path": "tools/mumu-execution-release.mjs",
+      "size": 3911,
+      "sha256": "1ad44798341fd1a0fda4b104ce81e01aa8d475734dc88160a63afabfbf937321"
+    },
+    {
+      "path": "tools/mumu-external-train.mjs",
+      "size": 10448,
+      "sha256": "ea9cc542ad7f9bfebe96c83d7bee7ebc75825a2a1299068a78782da9a92fc235"
+    },
+    {
+      "path": "tools/mumu-file-identity.mjs",
+      "size": 762,
+      "sha256": "3713ba1178cf707dd7585e6893e253d933e76a4d7541e586c115e0a327462954"
+    },
+    {
+      "path": "tools/mumu-freshness.mjs",
+      "size": 3167,
+      "sha256": "98a2e2a0a73d4849da3791237efcf78f96f3b8dcd25a8325ffe763913fa9c0ab"
+    },
+    {
+      "path": "tools/mumu-helicopter-info-names.mjs",
+      "size": 6983,
+      "sha256": "17790a684d5922eca99f0f89911739b18c53443ce173f9a0823681394889d1ad"
+    },
+    {
+      "path": "tools/mumu-helicopter-info-proof.mjs",
+      "size": 21137,
+      "sha256": "6e97b7c0d4bb3ac452af63b3fb3c7d241b8f6b2fad065b42342b2fa4ad41e1ea"
+    },
+    {
+      "path": "tools/mumu-helicopter-loop.mjs",
+      "size": 24305,
+      "sha256": "371bdbc0864b41671d286a597943d39feefe79b9ff3d6f2c546932ac619b87e0"
+    },
+    {
+      "path": "tools/mumu-helicopter-map-visibility.mjs",
+      "size": 4156,
+      "sha256": "38fb07f56da98e96b1fbb64d1303685f4718104836436e84261d1a911c72ffdc"
+    },
+    {
+      "path": "tools/mumu-helicopter-observation-evidence.mjs",
+      "size": 3641,
+      "sha256": "edd9763f0ff2ff22995cb26dcbced71a65c64423a3c453324424f3bcd4eeead9"
+    },
+    {
+      "path": "tools/mumu-helicopter-ocr.mjs",
+      "size": 2701,
+      "sha256": "987ac6e5614c28300556c5d3aaca7f84b9f8e148bf8fe1c65cf2762e08b2cbc9"
+    },
+    {
+      "path": "tools/mumu-helicopter-proof.mjs",
+      "size": 14844,
+      "sha256": "ee70d57e655040ce1cdca5ad840821e4d26eb27e891f9a9cb95b3a2b8e61d52e"
+    },
+    {
+      "path": "tools/mumu-helicopter-selection-marker.mjs",
+      "size": 5714,
+      "sha256": "ce01264c4acef2cf3e5cccf9788ba79262c8789f03bbfac447dabf178c8d76ea"
+    },
+    {
+      "path": "tools/mumu-helicopter-selection-recovery.mjs",
+      "size": 11835,
+      "sha256": "e480392230f8f6e4404a45099f95a12457f6e42b97385b5163d5b8a3e8224117"
+    },
+    {
+      "path": "tools/mumu-helicopter-selection-seed.mjs",
+      "size": 6858,
+      "sha256": "9a03aafecab4a028750199d6bfde1118e6028e054569b69bd7e15b659bdd10b4"
+    },
+    {
+      "path": "tools/mumu-helicopter-session.mjs",
+      "size": 15333,
+      "sha256": "62a810a419a43a1c1a01c88577fc5dbb9c4b4c44eefd3d94840f8a199cd06992"
+    },
+    {
+      "path": "tools/mumu-helicopter-survey.mjs",
+      "size": 984,
+      "sha256": "00c2610d97a55414309315831a8441177e77c2474bf20f96d6c8838532221065"
+    },
+    {
+      "path": "tools/mumu-helicopter.mjs",
+      "size": 20232,
+      "sha256": "8d84011b23cd20e07d42de90c991fcbf45a0cd3e1f3c89c325db88a4fd8aad00"
+    },
+    {
+      "path": "tools/mumu-idle-localization.mjs",
+      "size": 3562,
+      "sha256": "9830c64883870bffea695da5b43494dd917b26752f4f41ee7c5ccc9fd56b0622"
+    },
+    {
+      "path": "tools/mumu-input-state.mjs",
+      "size": 1398,
+      "sha256": "c19ccb724d783ad00558974a88533f02d0e5a309ee8e06a521df4fcd17db1abf"
+    },
+    {
+      "path": "tools/mumu-inventory-cli.mjs",
+      "size": 993,
+      "sha256": "648fdf395470daf2024d5bc1f19bae8311d0670a6297fc5ea4009620fb6f4029"
+    },
+    {
+      "path": "tools/mumu-inventory-effect.mjs",
+      "size": 1034,
+      "sha256": "3e0b7f0b29b29105304a530978eaad9dac448d714770a78ba37053204587c4b0"
+    },
+    {
+      "path": "tools/mumu-inventory-journal.mjs",
+      "size": 4053,
+      "sha256": "fe0159010ff81aa82a1edc0204be9385e0b7af81cf1be61635ccba4fc4f4a50a"
+    },
+    {
+      "path": "tools/mumu-inventory-record.mjs",
+      "size": 1223,
+      "sha256": "c41d4d68cace5e2953c930689cf76d6b17ecdc78c3bc5f50f441e434356a5e58"
+    },
+    {
+      "path": "tools/mumu-inventory-store.mjs",
+      "size": 26828,
+      "sha256": "0ed75c66a9375c817f61e75903bf4e48cfe610d8206775230b2eb86393c94822"
+    },
+    {
+      "path": "tools/mumu-inventory.mjs",
+      "size": 12503,
+      "sha256": "f2c08b11618b0f5d4dfd6fed6a294b6c285eb59b5847d54301d2e78811f09138"
+    },
+    {
+      "path": "tools/mumu-item-preflight.mjs",
+      "size": 1567,
+      "sha256": "f65ec237f0fee9f043524d3cfe6398dc7667c7594247dd0874692625b007eb4b"
+    },
+    {
+      "path": "tools/mumu-item-regions.mjs",
+      "size": 2077,
+      "sha256": "97a6bc8fb69dc4e0aaac4527200030e115bac7979d1c142052a49bf668ee7407"
+    },
+    {
+      "path": "tools/mumu-jsonl-reader.mjs",
+      "size": 556,
+      "sha256": "f4d95d7724a05a0ab71196284a8517eabbb8a49bdd8eccbaf1022cfa883d610d"
+    },
+    {
+      "path": "tools/mumu-lifecycle.mjs",
+      "size": 8921,
+      "sha256": "6f378b1b9348e61c094be65c09081d0a7fd6305f38f2668df763216fddc1ce02"
+    },
+    {
+      "path": "tools/mumu-management.mjs",
+      "size": 12486,
+      "sha256": "475e43dc83629c8d710930d2fadd986adfb8746d70d9e4349c568e2a1da5654d"
+    },
+    {
+      "path": "tools/mumu-market-capacity-observation.mjs",
+      "size": 3476,
+      "sha256": "6526f12b77d1474b9cfc437b4470a9ece0880bd986a2c0b7860995eb7f410046"
+    },
+    {
+      "path": "tools/mumu-market-capacity.mjs",
+      "size": 5675,
+      "sha256": "e17db71dd1931087701372f3088a275c79bc309ad251b9e87f3e59010776df11"
+    },
+    {
+      "path": "tools/mumu-market-loop.mjs",
+      "size": 7269,
+      "sha256": "1052ae346b70d0208c87cac9edf47289a5e7c92034639ec9b6ec24ad53767815"
+    },
+    {
+      "path": "tools/mumu-market-products.mjs",
+      "size": 3934,
+      "sha256": "a35e0ece69d944e80dee77e417b1d0ada1db5d449baa04b25c165dba1c76ac85"
+    },
+    {
+      "path": "tools/mumu-market-proof.mjs",
+      "size": 24822,
+      "sha256": "16c7b9fa2e411235d941e37f4a2c9f42d091dc3aa83999bbba541de0fb9f82d1"
+    },
+    {
+      "path": "tools/mumu-market-session.mjs",
+      "size": 1678,
+      "sha256": "be73e37c1929b0dcda9f24fe564470a6e71a50f6452a99675c3189c24e7c61df"
+    },
+    {
+      "path": "tools/mumu-market-sold-slot.mjs",
+      "size": 1411,
+      "sha256": "de85a599ef624b8b43bcfd9a77ffbe3a7933a0484104c2685af3d3b1c27e389b"
+    },
+    {
+      "path": "tools/mumu-market-state.mjs",
+      "size": 4124,
+      "sha256": "2a34ef6f59a8e1cd333a7d3631df49b1fdcdf4b3eb7676fa967b4818bc8d71fa"
+    },
+    {
+      "path": "tools/mumu-market-static.mjs",
+      "size": 1306,
+      "sha256": "198be6fb3793d422f44e03cbfaaf11aa5764fca4870e4b692e8bb5fe4dca3257"
+    },
+    {
+      "path": "tools/mumu-market.mjs",
+      "size": 17398,
+      "sha256": "5713d278c005e3d7ae85b9508750d818b02cbcef6a21d5fb453ebba520d55ff5"
+    },
+    {
+      "path": "tools/mumu-mayors-cup-audit.mjs",
+      "size": 5376,
+      "sha256": "5d02d4d337ed2f9bc99eec7820dfad7424541609bb41ac11a6b6901e681a39c6"
+    },
+    {
+      "path": "tools/mumu-mayors-cup-proof.mjs",
+      "size": 4457,
+      "sha256": "69f2c6f3043cfba0d7c0196587ea08c66185670d58871a63b6e6e35145157f81"
+    },
+    {
+      "path": "tools/mumu-mayors-cup-validation.mjs",
+      "size": 22541,
+      "sha256": "0b75d188e6bb2af3c946c1f715c4045d36504417b8f763e6ddfd5ab85f190720"
+    },
+    {
+      "path": "tools/mumu-mayors-cup.mjs",
+      "size": 10061,
+      "sha256": "6315ac6926dee41dec9cc370518f572f5ac65c96138a6b7698aa40fd36bccce9"
+    },
+    {
+      "path": "tools/mumu-memory.mjs",
+      "size": 5573,
+      "sha256": "afeef7a4c7126b0d0305d1304cfbd93ec85f0b4dc42edea960105163d7b3970d"
+    },
+    {
+      "path": "tools/mumu-monitor-cli.mjs",
+      "size": 2991,
+      "sha256": "0656fddd5def0bd9b892ada412b66f2000318df5429a0c74a30dd7828141fa89"
+    },
+    {
+      "path": "tools/mumu-monitor-delivery-airport.mjs",
+      "size": 10903,
+      "sha256": "cc4dae6739246755a210e1f8ab5a68f1cd670067f635754c93d3bca95bf561a4"
+    },
+    {
+      "path": "tools/mumu-monitor-delivery-events.mjs",
+      "size": 5152,
+      "sha256": "96e9d7d5802505ad6b3eaed9e5bb8c4c0b0d049258ffe5b8387ba03a003fd988"
+    },
+    {
+      "path": "tools/mumu-monitor-delivery-guard.mjs",
+      "size": 6212,
+      "sha256": "7e34c9ba9116b0489001fd52b91df8db266f84f424fe459ca410f6ff356989f4"
+    },
+    {
+      "path": "tools/mumu-monitor-delivery-market.mjs",
+      "size": 22122,
+      "sha256": "4cb5f60aa7002f1b829b7699647fb8ac963fa07b3babbd142989a92916842396"
+    },
+    {
+      "path": "tools/mumu-monitor-delivery-routing.mjs",
+      "size": 28135,
+      "sha256": "f679fed9e84d787a4d1f572b4c99793227074da1bc201d7e0ca267880e464ce4"
+    },
+    {
+      "path": "tools/mumu-monitor-delivery-train.mjs",
+      "size": 17937,
+      "sha256": "06943ff5b5e6bf9409ccb7f0516296ef81edd17440cd616583e4a099c98c9f8d"
+    },
+    {
+      "path": "tools/mumu-monitor-delivery.mjs",
+      "size": 57013,
+      "sha256": "eb75160fd292673628e1d24e8e9cad2e99efd6ae5ff707507c01b8414ea4f353"
+    },
+    {
+      "path": "tools/mumu-monitor-evidence.mjs",
+      "size": 1650,
+      "sha256": "b720a5e0a198d4e4acd53170673e73d910d497b08633c52d84f9d1c6598e6187"
+    },
+    {
+      "path": "tools/mumu-monitor-frame-dispatch.mjs",
+      "size": 688,
+      "sha256": "7047766c9d66b57ce94759cc9a7ec4160d896dc914b3fa6520bd37235df0ec81"
+    },
+    {
+      "path": "tools/mumu-monitor-helicopter-info.mjs",
+      "size": 18508,
+      "sha256": "d04e351d95268c643668e08fc90d77b8edcc186d60b7bcce5dbcc74c83da8260"
+    },
+    {
+      "path": "tools/mumu-monitor-projection.mjs",
+      "size": 677,
+      "sha256": "88e50cc86c63e2915450cfc2f5e4ff7e5014a1beffb0bbcfbe9ca92f7817e223"
+    },
+    {
+      "path": "tools/mumu-monitor-run-session.mjs",
+      "size": 1880,
+      "sha256": "961e346f05e46a40bf230d6ff73a79d90253716f7d3f7f9938285ebeca7c9aca"
+    },
+    {
+      "path": "tools/mumu-monitor-snapshot.mjs",
+      "size": 2638,
+      "sha256": "fca7163478d83bcf48f4078057df3e708150cfcc791c20ddaecc1fef12d75a32"
+    },
+    {
+      "path": "tools/mumu-monitor.mjs",
+      "size": 31265,
+      "sha256": "76bed17538a276ba6f66c6e455fecca3a74176466e8b34852a8a45103d731d51"
+    },
+    {
+      "path": "tools/mumu-navigation-locator.mjs",
+      "size": 3130,
+      "sha256": "a9db1d453086e23e006064c211bf0232adf8553b54d1dd115595843a1cae01bd"
+    },
+    {
+      "path": "tools/mumu-navigation-rejection.mjs",
+      "size": 7963,
+      "sha256": "17289f159d0e490ad4d43556b632cee3c8f6e9c8fca8b9e588c95b7b73653f5a"
+    },
+    {
+      "path": "tools/mumu-observation-wait-lifecycle.mjs",
+      "size": 777,
+      "sha256": "ace93dc16e116bc1e744154a4dbc1b4068bf987a6d621c35c1b44fad247ceca6"
+    },
+    {
+      "path": "tools/mumu-operation-status.mjs",
+      "size": 3442,
+      "sha256": "e88d55e2981b5d198ae9b766464d9f0e60deda2c0538bf13e7071c0cc83d8463"
+    },
+    {
+      "path": "tools/mumu-operator.mjs",
+      "size": 7338,
+      "sha256": "c62e968682486c4800a6003448298aa4c364c4bbfd2520757b0dd7ace6bfc81e"
+    },
+    {
+      "path": "tools/mumu-order-demand.mjs",
+      "size": 1182,
+      "sha256": "0127b1100de8395c49a8440830f54970ebe2cd89bb165b6d321edf19da914e95"
+    },
+    {
+      "path": "tools/mumu-order-policy.mjs",
+      "size": 1703,
+      "sha256": "a7acfcd5ea41e665245017e04cb9203f30b7698539f78283bd3a66358fa3af34"
+    },
+    {
+      "path": "tools/mumu-path-identity.mjs",
+      "size": 794,
+      "sha256": "b9c4d9327cff8d442ac77edbae67a86848ecd97c8a34de457510037c4b2dcd39"
+    },
+    {
+      "path": "tools/mumu-perception-bridge.mjs",
+      "size": 15235,
+      "sha256": "345b1aab32193ff988efc04309c262accd5cd35dd49250c26ff3605aaab5149b"
+    },
+    {
+      "path": "tools/mumu-perception-pending.mjs",
+      "size": 535,
+      "sha256": "a0bc851c49c2f6f55673b8f27bc37d6ae5015ad83e1b8a39c63187ee4042635c"
+    },
+    {
+      "path": "tools/mumu-perception-request.mjs",
+      "size": 1552,
+      "sha256": "8b7a5c4ff16a4909e3bac777ce1f9146c98ebd59821d9de917d0905e2333895a"
+    },
+    {
+      "path": "tools/mumu-performance.mjs",
+      "size": 7703,
+      "sha256": "26942d98affbb2145647aca138c6c9a256618441422fc55f2f1562aa4547ca79"
+    },
+    {
+      "path": "tools/mumu-persistence.mjs",
+      "size": 6894,
+      "sha256": "099bf47911667bdaa29c927db718f18b0ef48ccfa150c5574ebfc8b1db3381eb"
+    },
+    {
+      "path": "tools/mumu-popup-registry.mjs",
+      "size": 3268,
+      "sha256": "f6d9c7c10768676ea65b54e039f6728409b033f1df8e007e74098147b545e06a"
+    },
+    {
+      "path": "tools/mumu-process-owner.mjs",
+      "size": 2402,
+      "sha256": "4f391ce3aa9959acb36df2d4ea20a35b7f526396a2f222d169dd74545faac3aa"
+    },
+    {
+      "path": "tools/mumu-product-evidence-repository.mjs",
+      "size": 3480,
+      "sha256": "1953c849015ea64550cdc90553b8f42fb6ff37a3ddc50489206112323a000e30"
+    },
+    {
+      "path": "tools/mumu-product-evidence-state.mjs",
+      "size": 1025,
+      "sha256": "805f2e78cab3c5a143b4d615aa9518871926e9b044ef0536777689fbedc9bb95"
+    },
+    {
+      "path": "tools/mumu-product-recognition.mjs",
+      "size": 4619,
+      "sha256": "7b66d82eab4282563fca2b0017d2eeb9a3cbf5965860a0cbe484a3965d816167"
+    },
+    {
+      "path": "tools/mumu-program-review.mjs",
+      "size": 3727,
+      "sha256": "2101d2316fff246da037984f1d3a23b3b5679dff9267767b13412e260dd69d64"
+    },
+    {
+      "path": "tools/mumu-readiness.mjs",
+      "size": 3639,
+      "sha256": "a8b5a303b04c27c95153363bf621116c3b265dbaef020d699f857ad1ddf41d38"
+    },
+    {
+      "path": "tools/mumu-recognize.mjs",
+      "size": 3711,
+      "sha256": "723b55a80afb466db3dbf1fea03b52a27dd49b519139e6cc937bd49d7e653f90"
+    },
+    {
+      "path": "tools/mumu-reference.mjs",
+      "size": 1292,
+      "sha256": "9b30801ea8c9bc0cd50803204b631282469bd46fae2c7b33902ea01a8656d901"
+    },
+    {
+      "path": "tools/mumu-refresh.mjs",
+      "size": 4949,
+      "sha256": "6761fd2311a69cd875549b5b3554d139e2e04688545b10dc26701f5ba13ea513"
+    },
+    {
+      "path": "tools/mumu-region-match.mjs",
+      "size": 9792,
+      "sha256": "cd94051c9d01559150200149c606fe3f4453d8cf933263c1fc3e869f143943a2"
+    },
+    {
+      "path": "tools/mumu-registration-refresh.mjs",
+      "size": 836,
+      "sha256": "b1c0066f0959da4cc14b78bf904eceacff73895115e782a1cfcc61f1f3befae2"
+    },
+    {
+      "path": "tools/mumu-rejected-preflight.mjs",
+      "size": 1597,
+      "sha256": "32b7b8025789ec30e71f5a1d3005cc3572636c6df35a77cac93f7346f7008a61"
+    },
+    {
+      "path": "tools/mumu-release-dependencies.mjs",
+      "size": 1178,
+      "sha256": "607a5866e9ca3a3c110399c277d2e1a9979861fa58293a81e74231618dfc0242"
+    },
+    {
+      "path": "tools/mumu-required-goods.mjs",
+      "size": 8005,
+      "sha256": "d918caddedc9971eb50009b79ed1a20ae0a44053fb4d9ed958a9652e92bec7a7"
+    },
+    {
+      "path": "tools/mumu-restart-current-screen.mjs",
+      "size": 4357,
+      "sha256": "ad82a0b5276c2fc768e0dfd25a6be73faf9cd1c6f24b50f74e1d72a9df113d45"
+    },
+    {
+      "path": "tools/mumu-retention.mjs",
+      "size": 7566,
+      "sha256": "95aba52ac7448ad597fc83810a85ce074e65ad36d80e342c71f19502276baac5"
+    },
+    {
+      "path": "tools/mumu-review-validation.mjs",
+      "size": 1197,
+      "sha256": "d02890c53559e5ec7f825e0ad8b2bd7d71412d4be4ed4e3ce2714d5bded3dc58"
+    },
+    {
+      "path": "tools/mumu-state-envelope.mjs",
+      "size": 500,
+      "sha256": "c780b07cbe1028c85901711807d3d70441cf97c8dd5d530674f4590ac450fd16"
+    },
+    {
+      "path": "tools/mumu-store.mjs",
+      "size": 56502,
+      "sha256": "d3246e91e5ca8c05e649d573841855f0c6055c2896149c8894ec2b02886fceb1"
+    },
+    {
+      "path": "tools/mumu-survey.mjs",
+      "size": 13124,
+      "sha256": "d9b768f9b3df58b4262f559f627a0639f501a5abe7c4c8e4bed761fa7b1cd3b2"
+    },
+    {
+      "path": "tools/mumu-timing.mjs",
+      "size": 2105,
+      "sha256": "166bce8cf87b4a505468ae8371c2d5d1a024bb5998a90d5706118e25f7fce626"
+    },
+    {
+      "path": "tools/mumu-town-navigation.mjs",
+      "size": 13986,
+      "sha256": "0d44529782a998a8c79fc30a448d0d5a03bbfe6f4fbf314820c099b854f3fc41"
+    },
+    {
+      "path": "tools/mumu-train-idle.mjs",
+      "size": 3006,
+      "sha256": "5005778af7b339165b137e4d67e75f6feb2a84094dd58561241941de63b53b30"
+    },
+    {
+      "path": "tools/mumu-train-loading-proof.mjs",
+      "size": 19191,
+      "sha256": "fe9c5617fd09a2660662af2f8089ac864b2ca48e3097e39fb6e403e05e83ce40"
+    },
+    {
+      "path": "tools/mumu-train-loading.mjs",
+      "size": 29606,
+      "sha256": "7267ebad856d7fdffb9f9ba14af3d4d4ad62cec5efc7a6f5e0a83bb785076cb5"
+    },
+    {
+      "path": "tools/mumu-train-reward-proof.mjs",
+      "size": 12056,
+      "sha256": "6206a431a67a4a124f892187b570c83cd02f22a176a11128b8aab4f150f5dbe0"
+    },
+    {
+      "path": "tools/mumu-train-rewards.mjs",
+      "size": 6885,
+      "sha256": "0e85cb0d80c058f0e70b1d12549b2db960a9d0e9260fbf4d29a2c3d058ce443b"
+    },
+    {
+      "path": "tools/mumu-train-slots.mjs",
+      "size": 21795,
+      "sha256": "6308378d3ce0822717a285e1b3c8cadd50f9aca91007b5ae361dd23e965b735c"
+    },
+    {
+      "path": "tools/mumu-transport-capability.mjs",
+      "size": 1876,
+      "sha256": "272d881475283272af383b4c1ebc1af2495b099f304bd0525c3a7ec0e05aa189"
+    },
+    {
+      "path": "tools/mumu-transport-id.mjs",
+      "size": 846,
+      "sha256": "8d9902f7184ff32eca3fcefbc433338f15c0b8a0dfa4a1b1d150c4bc72880a13"
+    },
+    {
+      "path": "tools/mumu-transport-kind.mjs",
+      "size": 414,
+      "sha256": "d00796426fdb21a09726870b50d42dd3670e1c197b1613cf8b76472b036c0903"
+    },
+    {
+      "path": "tools/mumu-transport-navigation-proof.mjs",
+      "size": 13444,
+      "sha256": "b015493820551e1469ab385cf712c3a3cf44f511d4f825b8566e267e7ecfbcd3"
+    },
+    {
+      "path": "tools/mumu-transport-navigation.mjs",
+      "size": 3829,
+      "sha256": "b36a31a459fb3a46bf7be6b441d05cc273fc3629ccc753659a2b1d012f693c12"
+    },
+    {
+      "path": "tools/mumu-transport-route.mjs",
+      "size": 6117,
+      "sha256": "568197b54c92d122821cc756068e64d4c440dbe54b373d969d703c24286df129"
+    },
+    {
+      "path": "tools/mumu-transport-state.mjs",
+      "size": 1421,
+      "sha256": "b4ad345c3567d2635777a169e5095d873f3efd964ff8e451403a38344a81b074"
+    },
+    {
+      "path": "tools/mumu-verification.mjs",
+      "size": 8314,
+      "sha256": "e7fd1e146bdbc31ae3f803d2cdaccaa2277eae17cc741712456a4b9e98077890"
+    },
+    {
+      "path": "tools/mumu-wait.mjs",
+      "size": 22391,
+      "sha256": "76366b8e05ad8a14bf0277ecd013de847f7064343e62f3380e8f15ab3db61c30"
+    },
+    {
+      "path": "tools/mumu-workflow-mode.mjs",
+      "size": 2609,
+      "sha256": "36a99eae85502f0c7ef34d5a2b3485143623496c6031e2b1564a5b89887fa93c"
+    },
+    {
+      "path": "tools/percentage-coordinates.mjs",
+      "size": 3926,
+      "sha256": "cbead936d56cc8056ec0e820b9a0f16dc750807228c09e3b994238eb1eba8dba"
+    },
+    {
+      "path": "tools/percentage-profile.mjs",
+      "size": 5774,
+      "sha256": "41f131fea1cf323babac6e2c610d58b9ce6cb444bcb614f1b52d3a6c6ab4b50c"
+    },
+    {
+      "path": "tools/perception.mjs",
+      "size": 7489,
+      "sha256": "84f444db2d0a84d7a6297928150eee623d8413fe4defcbc7b4f78f9373c1f8b6"
+    },
+    {
+      "path": "tools/png-crop.mjs",
+      "size": 989,
+      "sha256": "3991f2e8a35e2a489b372890a06cdcc66d82ecadd1ba40c27cfdf23dc1947575"
+    },
+    {
+      "path": "tools/som/action-policy.mjs",
+      "size": 1172,
+      "sha256": "ffb19c4d81a9ecdbc365cb2dcbfdfd8428d6c47ecd0aa3324df55527e1d62d84"
+    },
+    {
+      "path": "tools/som/actions.mjs",
+      "size": 6510,
+      "sha256": "ebb4dcf2d2d24362bd6a3a9046f2b19be42ea734d41ee442e962995ecaf5e1cb"
+    },
+    {
+      "path": "tools/som/android_vision.py",
+      "size": 8697,
+      "sha256": "65b0ddc9f732bfe9f44eba61899620f44d7ceb725d0cdee35db98d350929d8a4"
+    },
+    {
+      "path": "tools/som/barn-recovery.mjs",
+      "size": 2342,
+      "sha256": "27059e0801afc89a4fda70d544a827251ef805d8e6dbead8a61a2d53881f3b0b"
+    },
+    {
+      "path": "tools/som/barn.py",
+      "size": 7325,
+      "sha256": "9bd548fd176bbe8fc86ab184861ce6f03e8195cef7d424268d0ba2155c0691d0"
+    },
+    {
+      "path": "tools/som/barn_full.py",
+      "size": 1854,
+      "sha256": "33f487404a86ce8aacb93861da561e604360348bbf87df3fe1f1ccc749e76382"
+    },
+    {
+      "path": "tools/som/client.mjs",
+      "size": 2498,
+      "sha256": "805cdef477cbb69fbc80b682a859c5be96e725b7428480a5cb76d023956750a3"
+    },
+    {
+      "path": "tools/som/delivery.mjs",
+      "size": 7575,
+      "sha256": "fa755814dcc254f5bc189f99bf632db3c272645b0a0ced0565dffc991955742d"
+    },
+    {
+      "path": "tools/som/geometry.mjs",
+      "size": 373,
+      "sha256": "d59840de3beb7b6e7749a53e0891bb8fb3c933ebfa78921fab434654f44a63b2"
+    },
+    {
+      "path": "tools/som/input.mjs",
+      "size": 8628,
+      "sha256": "de7e665e31445c326ee444d8e77ec852d422440ff19573afd655da35b3d86315"
+    },
+    {
+      "path": "tools/som/market-memory.mjs",
+      "size": 2345,
+      "sha256": "cb53a36376a7947e5db1b2d58a416ef42ac62c051e78aecb4c723223af1998c8"
+    },
+    {
+      "path": "tools/som/market-position.mjs",
+      "size": 4571,
+      "sha256": "c2b19957b7277bff6a63d4cb191da4bcd0b2c2130b7752cfa0f4abf26062b526"
+    },
+    {
+      "path": "tools/som/market-reset.mjs",
+      "size": 11247,
+      "sha256": "6823c2758f27aae13da1785d7f1a3df0db2bdd304c993c77692cc0cfcac50638"
+    },
+    {
+      "path": "tools/som/market-scroll-fixtures.mjs",
+      "size": 752,
+      "sha256": "f9cb7263ee058b7cb5f0d0936656c17fa6fece011c8c41e0ddd001beff0c08e5"
+    },
+    {
+      "path": "tools/som/market-scroll.mjs",
+      "size": 3167,
+      "sha256": "b2905e592ae9b07eb0e292b3b6beb91ac3cff404d65bb8077b04b0a831eea7fd"
+    },
+    {
+      "path": "tools/som/market-visit.mjs",
+      "size": 7963,
+      "sha256": "33e81fed1a29b7243fa65234efd0794ac28f299b8ef2ea824eb453c8c85b11b9"
+    },
+    {
+      "path": "tools/som/market_coverage.py",
+      "size": 4885,
+      "sha256": "5e1608cd41fadc0f4d26b1f8fd2dee319f48e8d929e7a881624d972aa3c86d01"
+    },
+    {
+      "path": "tools/som/market_geometry.py",
+      "size": 1401,
+      "sha256": "8ea4b96b841d36163c05f8e7ff298643d4f293bd7dafabc34d1e1a0029d2757b"
+    },
+    {
+      "path": "tools/som/market_refresh.py",
+      "size": 1895,
+      "sha256": "982242a69ff5df2f0d34f494e580f9c2b01b59236a5e6597187cb25ce4751c98"
+    },
+    {
+      "path": "tools/som/minigame-events.mjs",
+      "size": 668,
+      "sha256": "62989be17ce567da2f689b26a6120c0b4b65a8c18ba2e05e0f0f1dc015533218"
+    },
+    {
+      "path": "tools/som/minigame.py",
+      "size": 2482,
+      "sha256": "9e50afe9944116ce61f45273c5ce271e838ee7ac640b50c519368dad437d7aa1"
+    },
+    {
+      "path": "tools/som/need-images.mjs",
+      "size": 1884,
+      "sha256": "a89394786d09d99f9d70d247ccbbbc48dc3b4b0c89a25b81cd54db08194f8375"
+    },
+    {
+      "path": "tools/som/order-limit.mjs",
+      "size": 1817,
+      "sha256": "d15008a8257a4e4e43ef6894feb88ee092366ab9c3b8cc41cb1e13505e9c55d9"
+    },
+    {
+      "path": "tools/som/order-refresh/profile.json",
+      "size": 2160,
+      "sha256": "5fd1060257a617740e33229238420c2420236079a4eed43b333507cd3c9d671f"
+    },
+    {
+      "path": "tools/som/order-refresh/send-source.png",
+      "size": 593261,
+      "sha256": "4aab637feb02ec0b2c2875e802f60deda5f6ff1757eba840c11e5a1a32f6c968"
+    },
+    {
+      "path": "tools/som/order-refresh/send.png",
+      "size": 3018,
+      "sha256": "15557a5f65a2f47bd35dfe8f9a05f6db41f6cdbd7fe833368d6ac4fdb18eaece"
+    },
+    {
+      "path": "tools/som/order-refresh/source.png",
+      "size": 46275,
+      "sha256": "82913fa71cfe9c3ee40f571a354addd05c5c77c2c988822df5609a1c1925cb87"
+    },
+    {
+      "path": "tools/som/order-refresh/speed_up.png",
+      "size": 5667,
+      "sha256": "11effb6061e58278da1435e1eb4c9e9343f7f30ac7a98c28ba8df63a13f957a7"
+    },
+    {
+      "path": "tools/som/order-refresh/waiting.png",
+      "size": 17677,
+      "sha256": "2f91664d3a315812e31a07fb08ea9361312c713f10f96c327360abd8a91e2fc8"
+    },
+    {
+      "path": "tools/som/order-route.mjs",
+      "size": 2804,
+      "sha256": "3661f223d2b9cb4022ebf8578e16349073f24de1c28a2c5ffcf0a7828c10dca7"
+    },
+    {
+      "path": "tools/som/order_buttons.py",
+      "size": 1369,
+      "sha256": "c0740e594d250bf211abaf56fd1c645d1439a03917400bcfb927380f437fa775"
+    },
+    {
+      "path": "tools/som/products_missing.py",
+      "size": 476,
+      "sha256": "59c054a6fed9c5c50d22b53a84c8b2c8eda91e9d564212338af4f164b39a6d4b"
+    },
+    {
+      "path": "tools/som/required-goods.mjs",
+      "size": 1119,
+      "sha256": "813dcb3a13ce20bdb989b5b6021c31a1720bce2b9a8d28858e87a694d2ff702d"
+    },
+    {
+      "path": "tools/som/selection-overlap/result-halo-occluded.png",
+      "size": 586305,
+      "sha256": "7008a1648d4d2d1e5f9504b6392e08606f0ea7eb834fa5d9a939050320696e0f"
+    },
+    {
+      "path": "tools/som/selection-overlap/result-narrow-visible.png",
+      "size": 588807,
+      "sha256": "ccb099cf8b3a72d001a4c14e9d70454124dbd16754ad4622d253fa30473e3576"
+    },
+    {
+      "path": "tools/som/selection-overlap/result-partial-visible.png",
+      "size": 588970,
+      "sha256": "20a9ef9565629c12c0f7bf8a2d80dc0d32aa37701f5ad0e60665a288f734158e"
+    },
+    {
+      "path": "tools/som/selection-overlap/result.png",
+      "size": 585762,
+      "sha256": "7bc9df4ee79e0d97adb85674615d9a08538c9f523d17bfc01e387ccefa65711d"
+    },
+    {
+      "path": "tools/som/selection-overlap/source.png",
+      "size": 577180,
+      "sha256": "36aad482b30bfa3f0bf31162a4134f301b5ba4398578c106c71f7edc7a4befb0"
+    },
+    {
+      "path": "tools/som/selection-overlap/sources.json",
+      "size": 1246,
+      "sha256": "72c048c3407d221ee160e1870ee5ae37976d4a72919876c426b4d898a0f6ba67"
+    },
+    {
+      "path": "tools/som/server.mjs",
+      "size": 2331,
+      "sha256": "d501aa01f798ce957722fc5903f0d375dce820d209d3c0f07b6f194586f6f9fa"
+    },
+    {
+      "path": "tools/som/survey.mjs",
+      "size": 2623,
+      "sha256": "53de1df5d1f2cfd04a280f04e5740431eb91579b3c6ca740b605fc9c380f24bf"
+    },
+    {
+      "path": "tools/som/vision.py",
+      "size": 24734,
+      "sha256": "7e5520dc9b79d9ca3725e9e2ea1766c91439c321051e1bfc44c063bd6099b862"
+    },
+    {
+      "path": "tools/som/worker.mjs",
+      "size": 5870,
+      "sha256": "bdb7b8ab982e1b76875c20a5a9feaae41d7add98624c8860b97601a7b75b6885"
+    },
+    {
+      "path": "tools/som/workflow.mjs",
+      "size": 5409,
+      "sha256": "d7124b76216b159475fa622cab943e46f184022aa6f7467feb68479a24d04d1b"
+    },
+    {
+      "path": "tools/township-perception/barn_sale.py",
+      "size": 5578,
+      "sha256": "02c3e340cf638dfbaedaac9a527d901e84f061c3af3c002bd3bc4faad0d3af9f"
+    },
+    {
+      "path": "tools/township-perception/build_templates.py",
+      "size": 4484,
+      "sha256": "7f751bfea8aa2948f35fd2108f641dda92a81829455b5aa5e5b672eacf506da7"
+    },
+    {
+      "path": "tools/township-perception/calibrate_catalogue.py",
+      "size": 9460,
+      "sha256": "6ed822c4c1c7e4af017dcd95c018e752660ffa25be3a1c6368dc25c4a0429fe4"
+    },
+    {
+      "path": "tools/township-perception/catalogue.py",
+      "size": 11489,
+      "sha256": "fa3a7326cbf2e2031ff6fd9234429ef455ec425bf97cdf16eddcafe54887e2d9"
+    },
+    {
+      "path": "tools/township-perception/evaluate.py",
+      "size": 3423,
+      "sha256": "59568a9fe090f656cdef8266ecd78a871af573e6220311c5a13189f752207790"
+    },
+    {
+      "path": "tools/township-perception/fields.py",
+      "size": 2017,
+      "sha256": "a467f4da6c8a1f0e6808e014b527370d10d4cf4e2ed08cd155d194a9b522461e"
+    },
+    {
+      "path": "tools/township-perception/frame_context.py",
+      "size": 2401,
+      "sha256": "428687addfc7b0f7ff80bda4c02c4e81b988983ea351d42595e51bbbb58b984e"
+    },
+    {
+      "path": "tools/township-perception/harvest_helicopter_evidence.py",
+      "size": 4174,
+      "sha256": "48f2605ce87d5e00a21fb25952b884ff3bc62ae832142ff4f276cd05a460d140"
+    },
+    {
+      "path": "tools/township-perception/helicopter.py",
+      "size": 16482,
+      "sha256": "cf9ad60c589c8bfd7e944c790733615bdb021c0b0eb044c53c928167a34d164c"
+    },
+    {
+      "path": "tools/township-perception/helicopter_info.py",
+      "size": 1689,
+      "sha256": "0abd1816b8ecbb69e0b5f298d8a227ddff4f85ac3356d2766325c0cdae596191"
+    },
+    {
+      "path": "tools/township-perception/image_assets.py",
+      "size": 1285,
+      "sha256": "38d8b53bc3024723c0d67de4c19af91ec68e9c0a9bd8df512839eac1cd9dc514"
+    },
+    {
+      "path": "tools/township-perception/jsonl_protocol.py",
+      "size": 1165,
+      "sha256": "00e4b540e14ed4062530f1bb0da700a6e34585182c1019b606f209dcd97e7848"
+    },
+    {
+      "path": "tools/township-perception/market.py",
+      "size": 14694,
+      "sha256": "34b0fae75103578d64dc4703c5d8f3bd2499b1587d73a6b47468d3dc13b47bbd"
+    },
+    {
+      "path": "tools/township-perception/market_fields.py",
+      "size": 1386,
+      "sha256": "7d3573feb765a5ed8e7175122b374381c7f2b734fe2dbd793e397a83e2621d54"
+    },
+    {
+      "path": "tools/township-perception/market_products.py",
+      "size": 5295,
+      "sha256": "d912ec38d2706251f88868344164d7c7cadfbf5e26f7175b056c5ed14ddf75e4"
+    },
+    {
+      "path": "tools/township-perception/matching.py",
+      "size": 16583,
+      "sha256": "29d18b6809fd44f08d71fc1570a372ce08a00305754f2abbaf3a0d4a0445943c"
+    },
+    {
+      "path": "tools/township-perception/ocr.py",
+      "size": 7427,
+      "sha256": "6338ea043275f198336c1ef89a6e491a138de5a7c358ee8fc1cc71154265a624"
+    },
+    {
+      "path": "tools/township-perception/ocr_evaluate.py",
+      "size": 2296,
+      "sha256": "d1d9cd807ce24a49347898295cdd2f5d05713abffff98bd744422062201ba66c"
+    },
+    {
+      "path": "tools/township-perception/ocr_worker.py",
+      "size": 1425,
+      "sha256": "df4f2adaf34cea738a1f0b758159d603ed0560eb8ae3f7b817e7b4602edda59f"
+    },
+    {
+      "path": "tools/township-perception/percentage_profile.py",
+      "size": 7812,
+      "sha256": "9770899bd22b4d026479167df51d843d962e8280dfa7c028ec301eda9d54bf64"
+    },
+    {
+      "path": "tools/township-perception/prepare_followon.py",
+      "size": 7536,
+      "sha256": "9bf95669b93ef52be736fcfd96b29d676afb175e476a3c1ecaced60ab7e8cb12"
+    },
+    {
+      "path": "tools/township-perception/prepare_market_fields.py",
+      "size": 3108,
+      "sha256": "3728c6bc4b0ea48cbbedc4675e38f41e2dd4e37d3b1f86073813c16fa299c086"
+    },
+    {
+      "path": "tools/township-perception/product_info.py",
+      "size": 3450,
+      "sha256": "368325bdc2c589c28db9513de7ea77bd4a3b817917995badd0ff078f5863a1d6"
+    },
+    {
+      "path": "tools/township-perception/product_scores.py",
+      "size": 1255,
+      "sha256": "059b7d184b56bf372c84dea17cdabcb8a6754c20bfb6604c1805738e6da3564b"
+    },
+    {
+      "path": "tools/township-perception/requirements.lock.txt",
+      "size": 462,
+      "sha256": "db85844d1e4e5a7895af60eb59e405684a210b39ef7368fdbae4b3883fd5d788"
+    },
+    {
+      "path": "tools/township-perception/requirements.txt",
+      "size": 91,
+      "sha256": "14c83c731a258d7bc74515841387082b99f32c91e8fed6e0a389bde4e85b79cf"
+    },
+    {
+      "path": "tools/township-perception/slots.py",
+      "size": 8009,
+      "sha256": "3bd2305526abffec813b21b0d2f5161c85035eed7f3f8edaeeacde4a594e7083"
+    },
+    {
+      "path": "tools/township-perception/town.py",
+      "size": 679,
+      "sha256": "77b11bc174e8dff0610b9b2516e34a19db8f77856122f5799c3112dbe6833944"
+    },
+    {
+      "path": "tools/township-perception/worker.py",
+      "size": 6501,
+      "sha256": "718d73e4cfcd421b5b14949cb463bc4b0d6ae4073c8b3dd0f36f876168f63e99"
+    },
+    {
+      "path": "tools/windows-bridge-lifecycle.mjs",
+      "size": 1603,
+      "sha256": "8c6d60d65c7c12bc15f568d13268e0565efc2f35f7dee3dbff5880f569987bf2"
+    },
+    {
+      "path": "tools/windows-coordinate-space.mjs",
+      "size": 2304,
+      "sha256": "58e169f2e622261a8379d794433d30489a642cc8e0bafbd9b2e4a1881c40676e"
+    },
+    {
+      "path": "tools/windows-device.mjs",
+      "size": 14503,
+      "sha256": "f645a6dbb151ce539a9b739e951283cb5028908a0a0c267cdf8d2e69311176f5"
+    },
+    {
+      "path": "tools/windows-input-contract.mjs",
+      "size": 6758,
+      "sha256": "df902727a2482b4263966f06cbe8013a791fe0fb968e90cb51a55167470eea02"
+    },
+    {
+      "path": "tools/windows-observation.mjs",
+      "size": 2066,
+      "sha256": "ec9846906a82f85745d45e9b93fdef3ccc8a1a4bbd1b5008c3de39bf6b5067e6"
+    },
+    {
+      "path": "tools/windows-startup-idle.ps1",
+      "size": 258,
+      "sha256": "9fd317507c4bf4a7a02b5b13c7754cdcef9a14e119cb3467e770c983ff7e3a61"
+    },
+    {
+      "path": "소개문.txt",
+      "size": 2483,
+      "sha256": "970145ff79597270d6fe072aa5f969c8609b38065cb1f12ee4b14881ffa0a56c"
+    }
+  ]
+}

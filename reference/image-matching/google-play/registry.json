@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "version": "google-play-scenes-v1",
+  "dimensions": {
+    "width": 1114,
+    "height": 735
+  },
+  "profileId": "google-play-helicopter-1114x735-v1",
+  "coordinateTtlMs": 2500,
+  "sceneMargin": 0.05,
+  "templates": [
+    {
+      "templateId": "gp-heli-0",
+      "objectId": "helicopter-panel",
+      "scene": "helicopter",
+      "category": "scene_marker",
+      "file": "helicopter/title.png",
+      "fileHash": "0464252756b103245117b57b348a3d13bdf97ae103e09ded98d955ce1002b534",
+      "searchBoxes": [
+        {
+          "x": 431,
+          "y": 118,
+          "width": 312,
+          "height": 40
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.05
+    },
+    {
+      "templateId": "gp-heli-1",
+      "objectId": "helicopter-panel",
+      "scene": "helicopter",
+      "category": "scene_marker",
+      "file": "helicopter/details.png",
+      "fileHash": "a39f07ec7299a6793e49675ca0088db3ccbe79c11d5f1feb9bbae8985f95f152",
+      "searchBoxes": [
+        {
+          "x": 868,
+          "y": 174,
+          "width": 194,
+          "height": 29
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.05
+    }
+  ],
+  "percentageGeometry": {
+    "schema": 1,
+    "unit": "fraction",
+    "space": "registered_capture",
+    "canvas": {
+      "width": 1114,
+      "height": 735
+    },
+    "entries": [
+      {
+        "path": [
+          "templates",
+          "0",
+          "searchBoxes",
+          "0"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.3868940754039497,
+          "y": 0.16054421768707483,
+          "width": 0.2800718132854578,
+          "height": 0.05442176870748299
+        }
+      },
+      {
+        "path": [
+          "templates",
+          "1",
+          "searchBoxes",
+          "0"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.7791741472172352,
+          "y": 0.23673469387755103,
+          "width": 0.1741472172351885,
+          "height": 0.03945578231292517
+        }
+      }
+    ]
+  }
+}

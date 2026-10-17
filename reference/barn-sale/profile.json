@@ -1,0 +1,1818 @@
+{
+  "schema": 1,
+  "id": "barn-sale-actual-20261008-static-upgrade-anchor-20261009-sale-label-shift-20261009-static-panel-contour-20261009-coin-raster-20261009-sell-lettering-20261009-sell-lettering-20261009",
+  "executionGeometry": {
+    "width": 1578,
+    "height": 1268
+  },
+  "translationOnly": true,
+  "sources": {
+    "source": {
+      "file": "source.png",
+      "sha256": "7f1cd5d024eb2544ef8361c07cd39bcad9ec89f43f28bf6f91c53a99d2045056",
+      "dimensions": {
+        "width": 1452,
+        "height": 873
+      },
+      "sourceId": "user-20261008-barn-source"
+    },
+    "selection": {
+      "file": "selection.png",
+      "sha256": "3fb96655eb8efe9f28c8b243f33ee17bbe839e348e9cb56567a655bad823b7ad",
+      "dimensions": {
+        "width": 1414,
+        "height": 888
+      },
+      "sourceId": "user-20261008-barn-selection"
+    },
+    "result": {
+      "file": "result.png",
+      "sha256": "2df3d44b48c5a4edbfb4f4d6a1be3b7eef6d5d20472138770228b2dcc488e729",
+      "dimensions": {
+        "width": 1455,
+        "height": 971
+      },
+      "sourceId": "user-20261008-barn-result"
+    },
+    "crops-active": {
+      "file": "crops-active.png",
+      "sha256": "daed4aee3cf9716d00ebcf77e08d8cb4dcbd7e52c9a88e33817ce5b6ff042846",
+      "dimensions": {
+        "width": 147,
+        "height": 119
+      },
+      "sourceId": "user-20261008-barn-crops-active"
+    },
+    "products-active": {
+      "file": "products-active.png",
+      "sha256": "2ae8e23735e776ff56b50f4098708fc2113f0c1faaa4b113b8225a46920d8e26",
+      "dimensions": {
+        "width": 149,
+        "height": 113
+      },
+      "sourceId": "user-20261008-barn-products-active"
+    }
+  },
+  "sourceResultRegistered": true,
+  "constructionSupported": false,
+  "scrollSupported": false,
+  "allowedSaleTabs": [
+    "crops",
+    "products"
+  ],
+  "tabs": [
+    {
+      "id": "crops",
+      "box": {
+        "x": 270,
+        "y": 108,
+        "width": 120,
+        "height": 70
+      },
+      "searchBox": {
+        "x": 259,
+        "y": 102,
+        "width": 137,
+        "height": 77
+      },
+      "active": {
+        "file": "crops-active-core.png",
+        "sha256": "645976d42256b7c9373df73fe08dc5f5c27a69d69082c96dd04d4dfad09bbfc1",
+        "source": {
+          "file": "crops-active.png",
+          "sha256": "daed4aee3cf9716d00ebcf77e08d8cb4dcbd7e52c9a88e33817ce5b6ff042846",
+          "dimensions": {
+            "width": 147,
+            "height": 119
+          },
+          "sourceId": "user-20261008-barn-crops-active",
+          "cropBox": {
+            "x": 37,
+            "y": 48,
+            "width": 71,
+            "height": 60
+          }
+        }
+      },
+      "inactive": {
+        "file": "crops-inactive.png",
+        "sha256": "64c161f3f0954b227de19bb8b9acd225135f3536d205c1dc843744d6ad676e03",
+        "source": {
+          "file": "source.png",
+          "sha256": "7f1cd5d024eb2544ef8361c07cd39bcad9ec89f43f28bf6f91c53a99d2045056",
+          "dimensions": {
+            "width": 1452,
+            "height": 873
+          },
+          "sourceId": "user-20261008-barn-source",
+          "cropBox": {
+            "x": 497,
+            "y": 235,
+            "width": 77,
+            "height": 54
+          }
+        }
+      }
+    },
+    {
+      "id": "products",
+      "box": {
+        "x": 407,
+        "y": 108,
+        "width": 120,
+        "height": 70
+      },
+      "searchBox": {
+        "x": 396,
+        "y": 102,
+        "width": 137,
+        "height": 77
+      },
+      "active": {
+        "file": "products-active-core.png",
+        "sha256": "ba099df1134a1042459cb2d099055ee2b05a795462ee2dd497b36259d18041a0",
+        "source": {
+          "file": "products-active.png",
+          "sha256": "2ae8e23735e776ff56b50f4098708fc2113f0c1faaa4b113b8225a46920d8e26",
+          "dimensions": {
+            "width": 149,
+            "height": 113
+          },
+          "sourceId": "user-20261008-barn-products-active",
+          "cropBox": {
+            "x": 39,
+            "y": 40,
+            "width": 74,
+            "height": 60
+          }
+        }
+      },
+      "inactive": {
+        "file": "products-inactive.png",
+        "sha256": "1e374979d050c8ba0d3be397966f0e70b71069337aa7f412cf0df82854042a30",
+        "source": {
+          "file": "source.png",
+          "sha256": "7f1cd5d024eb2544ef8361c07cd39bcad9ec89f43f28bf6f91c53a99d2045056",
+          "dimensions": {
+            "width": 1452,
+            "height": 873
+          },
+          "sourceId": "user-20261008-barn-source",
+          "cropBox": {
+            "x": 635,
+            "y": 235,
+            "width": 77,
+            "height": 54
+          }
+        }
+      }
+    }
+  ],
+  "panel": {
+    "dimensions": {
+      "width": 1055,
+      "height": 755
+    },
+    "title": {
+      "x": 450,
+      "y": 30,
+      "width": 155,
+      "height": 47
+    },
+    "close": {
+      "x": 980,
+      "y": 30,
+      "width": 43,
+      "height": 46
+    },
+    "allTab": {
+      "x": 134,
+      "y": 129,
+      "width": 104,
+      "height": 46
+    },
+    "bottom": {
+      "x": 259,
+      "y": 673,
+      "width": 174,
+      "height": 34
+    },
+    "plainStrip": {
+      "x": 50,
+      "y": 196,
+      "width": 950,
+      "height": 10
+    },
+    "capacity": {
+      "x": 438,
+      "y": 666,
+      "width": 170,
+      "height": 41
+    },
+    "grid": {
+      "x": 80,
+      "y": 208,
+      "width": 900,
+      "height": 418
+    },
+    "rows": [
+      {
+        "index": 0,
+        "iconBox": {
+          "x": 84,
+          "y": 210,
+          "width": 108,
+          "height": 102
+        },
+        "quantityBox": {
+          "x": 99,
+          "y": 314,
+          "width": 74,
+          "height": 42
+        }
+      },
+      {
+        "index": 1,
+        "iconBox": {
+          "x": 239,
+          "y": 210,
+          "width": 108,
+          "height": 102
+        },
+        "quantityBox": {
+          "x": 254,
+          "y": 314,
+          "width": 74,
+          "height": 42
+        }
+      },
+      {
+        "index": 2,
+        "iconBox": {
+          "x": 394,
+          "y": 210,
+          "width": 108,
+          "height": 102
+        },
+        "quantityBox": {
+          "x": 409,
+          "y": 314,
+          "width": 74,
+          "height": 42
+        }
+      },
+      {
+        "index": 3,
+        "iconBox": {
+          "x": 549,
+          "y": 210,
+          "width": 108,
+          "height": 102
+        },
+        "quantityBox": {
+          "x": 564,
+          "y": 314,
+          "width": 74,
+          "height": 42
+        }
+      },
+      {
+        "index": 4,
+        "iconBox": {
+          "x": 704,
+          "y": 210,
+          "width": 108,
+          "height": 102
+        },
+        "quantityBox": {
+          "x": 719,
+          "y": 314,
+          "width": 74,
+          "height": 42
+        }
+      },
+      {
+        "index": 5,
+        "iconBox": {
+          "x": 859,
+          "y": 210,
+          "width": 108,
+          "height": 102
+        },
+        "quantityBox": {
+          "x": 874,
+          "y": 314,
+          "width": 74,
+          "height": 42
+        }
+      },
+      {
+        "index": 6,
+        "iconBox": {
+          "x": 84,
+          "y": 377,
+          "width": 108,
+          "height": 102
+        },
+        "quantityBox": {
+          "x": 99,
+          "y": 481,
+          "width": 74,
+          "height": 42
+        }
+      },
+      {
+        "index": 7,
+        "iconBox": {
+          "x": 239,
+          "y": 377,
+          "width": 108,
+          "height": 102
+        },
+        "quantityBox": {
+          "x": 254,
+          "y": 481,
+          "width": 74,
+          "height": 42
+        }
+      },
+      {
+        "index": 8,
+        "iconBox": {
+          "x": 394,
+          "y": 377,
+          "width": 108,
+          "height": 102
+        },
+        "quantityBox": {
+          "x": 409,
+          "y": 481,
+          "width": 74,
+          "height": 42
+        }
+      },
+      {
+        "index": 9,
+        "iconBox": {
+          "x": 549,
+          "y": 377,
+          "width": 108,
+          "height": 102
+        },
+        "quantityBox": {
+          "x": 564,
+          "y": 481,
+          "width": 74,
+          "height": 42
+        }
+      },
+      {
+        "index": 10,
+        "iconBox": {
+          "x": 704,
+          "y": 377,
+          "width": 108,
+          "height": 102
+        },
+        "quantityBox": {
+          "x": 719,
+          "y": 481,
+          "width": 74,
+          "height": 42
+        }
+      },
+      {
+        "index": 11,
+        "iconBox": {
+          "x": 859,
+          "y": 377,
+          "width": 108,
+          "height": 102
+        },
+        "quantityBox": {
+          "x": 874,
+          "y": 481,
+          "width": 74,
+          "height": 42
+        }
+      }
+    ]
+  },
+  "anchors": {
+    "title": {
+      "file": "barn-title.png",
+      "sha256": "75b537dbc9dd019e0599997f72057662f739aac0fc8d3b5379537138ac6d47d0",
+      "source": {
+        "file": "source.png",
+        "sha256": "7f1cd5d024eb2544ef8361c07cd39bcad9ec89f43f28bf6f91c53a99d2045056",
+        "dimensions": {
+          "width": 1452,
+          "height": 873
+        },
+        "sourceId": "user-20261008-barn-source",
+        "cropBox": {
+          "x": 665,
+          "y": 147,
+          "width": 155,
+          "height": 47
+        }
+      }
+    },
+    "close": {
+      "file": "barn-close.png",
+      "sha256": "b31f87c4da192c661ae6ed7055bb6a8ae26c8a2700212cd0c2a6225cc3eea73b",
+      "source": {
+        "file": "source.png",
+        "sha256": "7f1cd5d024eb2544ef8361c07cd39bcad9ec89f43f28bf6f91c53a99d2045056",
+        "dimensions": {
+          "width": 1452,
+          "height": 873
+        },
+        "sourceId": "user-20261008-barn-source",
+        "cropBox": {
+          "x": 1195,
+          "y": 147,
+          "width": 43,
+          "height": 46
+        }
+      }
+    },
+    "allTab": {
+      "file": "barn-all.png",
+      "sha256": "1c8be1f64c7fb8f1f4349fddfdfcb43bcaee2973ab28f006320a06b4b446730c",
+      "source": {
+        "file": "source.png",
+        "sha256": "7f1cd5d024eb2544ef8361c07cd39bcad9ec89f43f28bf6f91c53a99d2045056",
+        "dimensions": {
+          "width": 1452,
+          "height": 873
+        },
+        "sourceId": "user-20261008-barn-source",
+        "cropBox": {
+          "x": 349,
+          "y": 246,
+          "width": 104,
+          "height": 46
+        }
+      }
+    },
+    "plainStrip": {
+      "file": "barn-plain-strip.png",
+      "sha256": "45ff146259ffbba18caca8e3e66e0ecddcdd0970c718d1775f0cdaa2a277a874",
+      "source": {
+        "file": "source.png",
+        "sha256": "7f1cd5d024eb2544ef8361c07cd39bcad9ec89f43f28bf6f91c53a99d2045056",
+        "dimensions": {
+          "width": 1452,
+          "height": 873
+        },
+        "sourceId": "user-20261008-barn-source",
+        "cropBox": {
+          "x": 265,
+          "y": 313,
+          "width": 950,
+          "height": 10
+        }
+      }
+    },
+    "bottom": {
+      "file": "barn-capacity-label.png",
+      "sha256": "57544bf72020fef2cc59c43a19d9bbde554464e6e161f0e8f572ca2798de5239",
+      "source": {
+        "file": "source.png",
+        "sha256": "7f1cd5d024eb2544ef8361c07cd39bcad9ec89f43f28bf6f91c53a99d2045056",
+        "dimensions": {
+          "width": 1452,
+          "height": 873
+        },
+        "sourceId": "user-20261008-barn-source",
+        "cropBox": {
+          "x": 474,
+          "y": 790,
+          "width": 174,
+          "height": 34
+        }
+      }
+    }
+  },
+  "products": [
+    {
+      "itemId": "donut",
+      "name": "Donut",
+      "category": "factory_product",
+      "minScore": 0.97,
+      "template": {
+        "file": "donut.png",
+        "sha256": "7333cdc63bb0f658a02cde27c4fde9b487f778990d72d47198560586194e4b7f",
+        "source": {
+          "file": "source.png",
+          "sha256": "7f1cd5d024eb2544ef8361c07cd39bcad9ec89f43f28bf6f91c53a99d2045056",
+          "dimensions": {
+            "width": 1452,
+            "height": 873
+          },
+          "sourceId": "user-20261008-barn-source",
+          "cropBox": {
+            "x": 302,
+            "y": 329,
+            "width": 103,
+            "height": 95
+          }
+        }
+      }
+    }
+  ],
+  "selection": {
+    "dimensions": {
+      "width": 425,
+      "height": 374
+    },
+    "title": {
+      "x": 146,
+      "y": 23,
+      "width": 132,
+      "height": 38
+    },
+    "quantity": {
+      "x": 231,
+      "y": 190,
+      "width": 52,
+      "height": 53
+    },
+    "sellLabel": {
+      "x": 102,
+      "y": 280,
+      "width": 77,
+      "height": 31
+    },
+    "coin": {
+      "x": 183,
+      "y": 278,
+      "width": 49,
+      "height": 45
+    },
+    "sell": {
+      "x": 25,
+      "y": 268,
+      "width": 376,
+      "height": 64
+    },
+    "popup": {
+      "x": 0,
+      "y": 0,
+      "width": 425,
+      "height": 374
+    },
+    "minus": {
+      "x": 24,
+      "y": 188,
+      "width": 72,
+      "height": 70
+    },
+    "plus": {
+      "x": 330,
+      "y": 188,
+      "width": 72,
+      "height": 70
+    },
+    "titleTemplate": {
+      "file": "donut-title.png",
+      "sha256": "4e64132137beca0a92352c17799389f1f46a04ffa32765a70417d547196a4e81",
+      "source": {
+        "file": "selection.png",
+        "sha256": "3fb96655eb8efe9f28c8b243f33ee17bbe839e348e9cb56567a655bad823b7ad",
+        "dimensions": {
+          "width": 1414,
+          "height": 888
+        },
+        "sourceId": "user-20261008-barn-selection",
+        "cropBox": {
+          "x": 245,
+          "y": 40,
+          "width": 132,
+          "height": 38
+        }
+      }
+    },
+    "minusTemplate": {
+      "file": "minus.png",
+      "sha256": "8805988501ee1986425bca8c3c92d38043924ac6a36723f393095ee3c2edffe8",
+      "source": {
+        "file": "selection.png",
+        "sha256": "3fb96655eb8efe9f28c8b243f33ee17bbe839e348e9cb56567a655bad823b7ad",
+        "dimensions": {
+          "width": 1414,
+          "height": 888
+        },
+        "sourceId": "user-20261008-barn-selection",
+        "cropBox": {
+          "x": 123,
+          "y": 205,
+          "width": 72,
+          "height": 70
+        }
+      }
+    },
+    "plusTemplate": {
+      "file": "plus.png",
+      "sha256": "9cda29f6a8518bcbebb0ab3cb3141853db22b610265018101894ee6d6cec780d",
+      "source": {
+        "file": "selection.png",
+        "sha256": "3fb96655eb8efe9f28c8b243f33ee17bbe839e348e9cb56567a655bad823b7ad",
+        "dimensions": {
+          "width": 1414,
+          "height": 888
+        },
+        "sourceId": "user-20261008-barn-selection",
+        "cropBox": {
+          "x": 429,
+          "y": 205,
+          "width": 72,
+          "height": 70
+        }
+      }
+    },
+    "sellTemplate": {
+      "file": "sell-label.png",
+      "sha256": "3963e7e2ce5249ab3e83e03e0be6a61d0ebad7c01dd5534068f5f5f20d7c26fe",
+      "source": {
+        "file": "selection.png",
+        "sha256": "3fb96655eb8efe9f28c8b243f33ee17bbe839e348e9cb56567a655bad823b7ad",
+        "dimensions": {
+          "width": 1414,
+          "height": 888
+        },
+        "sourceId": "user-20261008-barn-selection",
+        "cropBox": {
+          "x": 201,
+          "y": 297,
+          "width": 77,
+          "height": 31
+        }
+      }
+    },
+    "coinTemplate": {
+      "file": "sell-coin.png",
+      "sha256": "b4f54d0232edc3c544011340b33c5f48f610cb93b3782b27baa701ef456d9051",
+      "source": {
+        "file": "selection.png",
+        "sha256": "3fb96655eb8efe9f28c8b243f33ee17bbe839e348e9cb56567a655bad823b7ad",
+        "dimensions": {
+          "width": 1414,
+          "height": 888
+        },
+        "sourceId": "user-20261008-barn-selection",
+        "cropBox": {
+          "x": 282,
+          "y": 295,
+          "width": 49,
+          "height": 45
+        }
+      }
+    },
+    "labelAlternates": [
+      {
+        "sellTemplate": {
+          "file": "sell-label-native-e99bdc46.png",
+          "sha256": "b9982a003c64b63b7469864d5de9134feaa5aa98bcef3a8b0249271bc3859270",
+          "source": {
+            "file": "selection-native-e99bdc46.png",
+            "sha256": "cd79535b259ae7db82998528e594649c594c59297a381848d0d0d8f3e951e185",
+            "sourceId": "frame-e99bdc46-d3d4-4ca8-8c9d-ce44540a3529",
+            "dimensions": {
+              "width": 1578,
+              "height": 1268
+            },
+            "cropBox": {
+              "x": 365,
+              "y": 474,
+              "width": 77,
+              "height": 31
+            },
+            "identityReviewedBy": "AI manager /root",
+            "scope": "visible SELL label and ordinary coin icon; same bound sale control",
+            "dynamicElementsExcluded": [
+              "product name",
+              "quantity",
+              "price"
+            ]
+          }
+        },
+        "coinTemplate": {
+          "file": "sell-coin-native-e99bdc46.png",
+          "sha256": "ea63974c2e23317a2483a14dbecb2a25fd88c3ef491e238d0c7fcd315af89cfa",
+          "source": {
+            "file": "selection-native-e99bdc46.png",
+            "sha256": "cd79535b259ae7db82998528e594649c594c59297a381848d0d0d8f3e951e185",
+            "sourceId": "frame-e99bdc46-d3d4-4ca8-8c9d-ce44540a3529",
+            "dimensions": {
+              "width": 1578,
+              "height": 1268
+            },
+            "cropBox": {
+              "x": 446,
+              "y": 472,
+              "width": 49,
+              "height": 45
+            },
+            "identityReviewedBy": "AI manager /root",
+            "scope": "visible SELL label and ordinary coin icon; same bound sale control",
+            "dynamicElementsExcluded": [
+              "product name",
+              "quantity",
+              "price"
+            ]
+          }
+        }
+      },
+      {
+        "sellTemplate": {
+          "file": "sell-label-native-e99bdc46.png",
+          "sha256": "b9982a003c64b63b7469864d5de9134feaa5aa98bcef3a8b0249271bc3859270",
+          "source": {
+            "file": "selection-native-e99bdc46.png",
+            "sha256": "cd79535b259ae7db82998528e594649c594c59297a381848d0d0d8f3e951e185",
+            "sourceId": "frame-e99bdc46-d3d4-4ca8-8c9d-ce44540a3529",
+            "dimensions": {
+              "width": 1578,
+              "height": 1268
+            },
+            "cropBox": {
+              "x": 365,
+              "y": 474,
+              "width": 77,
+              "height": 31
+            },
+            "identityReviewedBy": "AI manager /root",
+            "scope": "visible SELL label and ordinary coin icon; same bound sale control",
+            "dynamicElementsExcluded": [
+              "product name",
+              "quantity",
+              "price"
+            ]
+          }
+        },
+        "coinTemplate": {
+          "file": "sell-coin-native-0b50124b.png",
+          "sha256": "04d1fe809ddebf0bf054d6b207e7bacd6dd052d53fc7abf02e9d37313f01ab22",
+          "source": {
+            "file": "selection-native-0b50124b.png",
+            "sha256": "0b9a772a8c98e5ec352cf66d8a3bbcfecc5f5dfc90867984f3ade5f61f99e698",
+            "sourceId": "frame-0b50124b-c456-49bb-8cba-de4d3b833300",
+            "dimensions": {
+              "width": 1578,
+              "height": 1268
+            },
+            "cropBox": {
+              "x": 452,
+              "y": 472,
+              "width": 49,
+              "height": 45
+            },
+            "identityReviewedBy": "AI manager /root",
+            "scope": "ordinary coin inside the current bound SELL control; same 81-pixel label-to-coin spacing",
+            "dynamicElementsExcluded": [
+              "product name",
+              "quantity",
+              "price"
+            ]
+          }
+        }
+      },
+      {
+        "coinTemplate": {
+          "file": "sell-coin-native-0b50124b.png",
+          "sha256": "04d1fe809ddebf0bf054d6b207e7bacd6dd052d53fc7abf02e9d37313f01ab22",
+          "source": {
+            "file": "selection-native-0b50124b.png",
+            "sha256": "0b9a772a8c98e5ec352cf66d8a3bbcfecc5f5dfc90867984f3ade5f61f99e698",
+            "sourceId": "frame-0b50124b-c456-49bb-8cba-de4d3b833300",
+            "dimensions": {
+              "width": 1578,
+              "height": 1268
+            },
+            "cropBox": {
+              "x": 452,
+              "y": 472,
+              "width": 49,
+              "height": 45
+            },
+            "identityReviewedBy": "AI manager /root",
+            "scope": "ordinary coin inside the current bound SELL control; same 81-pixel label-to-coin spacing",
+            "dynamicElementsExcluded": [
+              "product name",
+              "quantity",
+              "price"
+            ]
+          }
+        },
+        "sellTemplate": {
+          "file": "sell-label-native-63b9ac02.png",
+          "sha256": "c7d2544cbc64ff8428b8dc7b96bbcc941c3357ccc30004930b356eb3465c0303",
+          "source": {
+            "file": "selection-native-63b9ac02.png",
+            "sha256": "39af40c34ecd2acb45bfc2f23fb5d00a8e5efea7b737ba142019fd500727b2ac",
+            "sourceId": "frame-63b9ac02-cd6e-42a9-9b4b-ef05bad5c3c5",
+            "dimensions": {
+              "width": 1578,
+              "height": 1268
+            },
+            "cropBox": {
+              "x": 371,
+              "y": 474,
+              "width": 77,
+              "height": 31
+            },
+            "identityReviewedBy": "AI manager /root",
+            "scope": "SELL lettering inside the current bound sale control; same 81-pixel label-to-coin spacing",
+            "dynamicElementsExcluded": [
+              "product name",
+              "quantity",
+              "price",
+              "currency icon"
+            ]
+          }
+        }
+      },
+      {
+        "coinTemplate": {
+          "file": "sell-coin-native-0b50124b.png",
+          "sha256": "04d1fe809ddebf0bf054d6b207e7bacd6dd052d53fc7abf02e9d37313f01ab22",
+          "source": {
+            "file": "selection-native-0b50124b.png",
+            "sha256": "0b9a772a8c98e5ec352cf66d8a3bbcfecc5f5dfc90867984f3ade5f61f99e698",
+            "sourceId": "frame-0b50124b-c456-49bb-8cba-de4d3b833300",
+            "dimensions": {
+              "width": 1578,
+              "height": 1268
+            },
+            "cropBox": {
+              "x": 452,
+              "y": 472,
+              "width": 49,
+              "height": 45
+            },
+            "identityReviewedBy": "AI manager /root",
+            "scope": "ordinary coin inside the current bound SELL control; same 81-pixel label-to-coin spacing",
+            "dynamicElementsExcluded": [
+              "product name",
+              "quantity",
+              "price"
+            ]
+          }
+        },
+        "sellTemplate": {
+          "file": "sell-label-native-717328c6.png",
+          "sha256": "a969e7d8227127997ba07cc5f905f767df8d0915299d63cd7ac77715143470b2",
+          "source": {
+            "file": "selection-native-717328c6.png",
+            "sha256": "12a3aa51fdc284ecccc7a67fe9a6e2d024dd19ef06307b1f44a232513a69f617",
+            "sourceId": "frame-717328c6-8864-4355-adc6-659ab3a5f5fa",
+            "dimensions": {
+              "width": 1578,
+              "height": 1268
+            },
+            "cropBox": {
+              "x": 369,
+              "y": 474,
+              "width": 77,
+              "height": 31
+            },
+            "identityReviewedBy": "AI manager /root",
+            "scope": "SELL lettering inside the current bound sale control; same 81-pixel label-to-coin spacing",
+            "dynamicElementsExcluded": [
+              "product name",
+              "quantity",
+              "price",
+              "currency icon"
+            ]
+          }
+        }
+      }
+    ],
+    "sellLabelSearch": {
+      "x": 72,
+      "y": 280,
+      "width": 146,
+      "height": 31
+    },
+    "coinSearch": {
+      "x": 153,
+      "y": 278,
+      "width": 114,
+      "height": 45
+    }
+  },
+  "reviewedTransition": {
+    "itemId": "donut",
+    "beforeOwned": 16,
+    "defaultQuantity": 8,
+    "afterOwned": 8,
+    "beforeUsed": 265,
+    "afterUsed": 257,
+    "total": 370,
+    "identitySource": "selection",
+    "userConfirmedOrder": [
+      "source",
+      "selection",
+      "result"
+    ],
+    "AIReviewed": true
+  },
+  "bottomAlternates": [
+    {
+      "file": "barn-upgrade-label-native.png",
+      "sha256": "661e67c4e12ab2b43810d0d4c8998c0f3b75ad225b30f5f46ff3137bb672c5b0",
+      "box": {
+        "x": 662,
+        "y": 668,
+        "width": 165,
+        "height": 38
+      },
+      "dimensions": {
+        "width": 1055,
+        "height": 755
+      },
+      "source": {
+        "file": "source-native-dcb2db7b.png",
+        "sha256": "8b2c21114ab7581a9418953925f79b7b75b8538fcd499b0941b5d30272e4d057",
+        "sourceId": "frame-dcb2db7b-0367-485a-af1c-e931114dce4e",
+        "dimensions": {
+          "width": 1578,
+          "height": 1268
+        },
+        "cropBox": {
+          "x": 992,
+          "y": 963,
+          "width": 165,
+          "height": 38
+        },
+        "identityReviewedBy": "AI manager /root",
+        "scope": "static UPGRADE lettering, detection only; not an input target",
+        "dynamicElementsExcluded": [
+          "capacity counts",
+          "prices",
+          "quantity",
+          "items"
+        ]
+      }
+    },
+    {
+      "file": "barn-static-bottom-corner.png",
+      "sha256": "3015f5009b09866a4127e8225b8ecfa6ae829da97a8a5579e780dc6cb60e8693",
+      "box": {
+        "x": 34,
+        "y": 695,
+        "width": 70,
+        "height": 35
+      },
+      "dimensions": {
+        "width": 1055,
+        "height": 755
+      },
+      "maximumMeanAbsoluteError": 2,
+      "source": {
+        "file": "result-native-370fbfc5.png",
+        "sha256": "d9400eafc103cfa865611e0ecc33e25b31d15dd1bd60f5ca6f7725ac647a6331",
+        "sourceId": "frame-370fbfc5-9ea2-4015-b2af-2f52ee2a8437",
+        "dimensions": {
+          "width": 1578,
+          "height": 1268
+        },
+        "cropBox": {
+          "x": 364,
+          "y": 990,
+          "width": 70,
+          "height": 35
+        },
+        "identityReviewedBy": "AI manager /root",
+        "scope": "static lower-left inside panel contour; used only with exact BARN title and close anchors",
+        "dynamicElementsExcluded": [
+          "capacity text",
+          "upgrade text",
+          "quantity",
+          "price",
+          "items",
+          "outside scenery"
+        ]
+      }
+    }
+  ],
+  "percentageGeometry": {
+    "schema": 1,
+    "unit": "fraction",
+    "space": "registered_capture",
+    "canvas": {
+      "width": 1452,
+      "height": 873
+    },
+    "entries": [
+      {
+        "path": [
+          "tabs",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1452,
+          "height": 873
+        },
+        "fraction": {
+          "x": 0.1859504132231405,
+          "y": 0.12371134020618557,
+          "width": 0.08264462809917356,
+          "height": 0.08018327605956473
+        }
+      },
+      {
+        "path": [
+          "tabs",
+          "0",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1452,
+          "height": 873
+        },
+        "fraction": {
+          "x": 0.17837465564738292,
+          "y": 0.11683848797250859,
+          "width": 0.0943526170798898,
+          "height": 0.0882016036655212
+        }
+      },
+      {
+        "path": [
+          "tabs",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1452,
+          "height": 873
+        },
+        "fraction": {
+          "x": 0.2803030303030303,
+          "y": 0.12371134020618557,
+          "width": 0.08264462809917356,
+          "height": 0.08018327605956473
+        }
+      },
+      {
+        "path": [
+          "tabs",
+          "1",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1452,
+          "height": 873
+        },
+        "fraction": {
+          "x": 0.2727272727272727,
+          "y": 0.11683848797250859,
+          "width": 0.0943526170798898,
+          "height": 0.0882016036655212
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "title"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.4265402843601896,
+          "y": 0.039735099337748346,
+          "width": 0.14691943127962084,
+          "height": 0.06225165562913907
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "close"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.9289099526066351,
+          "y": 0.039735099337748346,
+          "width": 0.04075829383886256,
+          "height": 0.060927152317880796
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "allTab"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.12701421800947868,
+          "y": 0.17086092715231788,
+          "width": 0.0985781990521327,
+          "height": 0.060927152317880796
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "bottom"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.24549763033175356,
+          "y": 0.8913907284768212,
+          "width": 0.16492890995260664,
+          "height": 0.045033112582781455
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "plainStrip"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.04739336492890995,
+          "y": 0.2596026490066225,
+          "width": 0.9004739336492891,
+          "height": 0.013245033112582781
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "capacity"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.4151658767772512,
+          "y": 0.8821192052980132,
+          "width": 0.16113744075829384,
+          "height": 0.054304635761589407
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "grid"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.07582938388625593,
+          "y": 0.27549668874172184,
+          "width": 0.8530805687203792,
+          "height": 0.5536423841059602
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "0",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.07962085308056872,
+          "y": 0.2781456953642384,
+          "width": 0.1023696682464455,
+          "height": 0.13509933774834437
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "0",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.0938388625592417,
+          "y": 0.41589403973509936,
+          "width": 0.07014218009478673,
+          "height": 0.05562913907284768
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "1",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.22654028436018958,
+          "y": 0.2781456953642384,
+          "width": 0.1023696682464455,
+          "height": 0.13509933774834437
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "1",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.24075829383886255,
+          "y": 0.41589403973509936,
+          "width": 0.07014218009478673,
+          "height": 0.05562913907284768
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "2",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.37345971563981045,
+          "y": 0.2781456953642384,
+          "width": 0.1023696682464455,
+          "height": 0.13509933774834437
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "2",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.3876777251184834,
+          "y": 0.41589403973509936,
+          "width": 0.07014218009478673,
+          "height": 0.05562913907284768
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "3",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.5203791469194313,
+          "y": 0.2781456953642384,
+          "width": 0.1023696682464455,
+          "height": 0.13509933774834437
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "3",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.5345971563981042,
+          "y": 0.41589403973509936,
+          "width": 0.07014218009478673,
+          "height": 0.05562913907284768
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "4",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.6672985781990521,
+          "y": 0.2781456953642384,
+          "width": 0.1023696682464455,
+          "height": 0.13509933774834437
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "4",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.6815165876777252,
+          "y": 0.41589403973509936,
+          "width": 0.07014218009478673,
+          "height": 0.05562913907284768
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "5",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.814218009478673,
+          "y": 0.2781456953642384,
+          "width": 0.1023696682464455,
+          "height": 0.13509933774834437
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "5",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.828436018957346,
+          "y": 0.41589403973509936,
+          "width": 0.07014218009478673,
+          "height": 0.05562913907284768
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "6",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.07962085308056872,
+          "y": 0.49933774834437084,
+          "width": 0.1023696682464455,
+          "height": 0.13509933774834437
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "6",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.0938388625592417,
+          "y": 0.6370860927152318,
+          "width": 0.07014218009478673,
+          "height": 0.05562913907284768
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "7",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.22654028436018958,
+          "y": 0.49933774834437084,
+          "width": 0.1023696682464455,
+          "height": 0.13509933774834437
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "7",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.24075829383886255,
+          "y": 0.6370860927152318,
+          "width": 0.07014218009478673,
+          "height": 0.05562913907284768
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "8",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.37345971563981045,
+          "y": 0.49933774834437084,
+          "width": 0.1023696682464455,
+          "height": 0.13509933774834437
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "8",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.3876777251184834,
+          "y": 0.6370860927152318,
+          "width": 0.07014218009478673,
+          "height": 0.05562913907284768
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "9",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.5203791469194313,
+          "y": 0.49933774834437084,
+          "width": 0.1023696682464455,
+          "height": 0.13509933774834437
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "9",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.5345971563981042,
+          "y": 0.6370860927152318,
+          "width": 0.07014218009478673,
+          "height": 0.05562913907284768
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "10",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.6672985781990521,
+          "y": 0.49933774834437084,
+          "width": 0.1023696682464455,
+          "height": 0.13509933774834437
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "10",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.6815165876777252,
+          "y": 0.6370860927152318,
+          "width": 0.07014218009478673,
+          "height": 0.05562913907284768
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "11",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.814218009478673,
+          "y": 0.49933774834437084,
+          "width": 0.1023696682464455,
+          "height": 0.13509933774834437
+        }
+      },
+      {
+        "path": [
+          "panel",
+          "rows",
+          "11",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.828436018957346,
+          "y": 0.6370860927152318,
+          "width": 0.07014218009478673,
+          "height": 0.05562913907284768
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "title"
+        ],
+        "canvas": {
+          "width": 425,
+          "height": 374
+        },
+        "fraction": {
+          "x": 0.34352941176470586,
+          "y": 0.06149732620320856,
+          "width": 0.31058823529411766,
+          "height": 0.10160427807486631
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "quantity"
+        ],
+        "canvas": {
+          "width": 425,
+          "height": 374
+        },
+        "fraction": {
+          "x": 0.5435294117647059,
+          "y": 0.5080213903743316,
+          "width": 0.1223529411764706,
+          "height": 0.14171122994652408
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "sellLabel"
+        ],
+        "canvas": {
+          "width": 425,
+          "height": 374
+        },
+        "fraction": {
+          "x": 0.24,
+          "y": 0.7486631016042781,
+          "width": 0.1811764705882353,
+          "height": 0.08288770053475936
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "coin"
+        ],
+        "canvas": {
+          "width": 425,
+          "height": 374
+        },
+        "fraction": {
+          "x": 0.43058823529411766,
+          "y": 0.7433155080213903,
+          "width": 0.11529411764705882,
+          "height": 0.12032085561497326
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "sell"
+        ],
+        "canvas": {
+          "width": 425,
+          "height": 374
+        },
+        "fraction": {
+          "x": 0.058823529411764705,
+          "y": 0.7165775401069518,
+          "width": 0.8847058823529412,
+          "height": 0.1711229946524064
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "popup"
+        ],
+        "canvas": {
+          "width": 425,
+          "height": 374
+        },
+        "fraction": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 1.0
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "minus"
+        ],
+        "canvas": {
+          "width": 425,
+          "height": 374
+        },
+        "fraction": {
+          "x": 0.05647058823529412,
+          "y": 0.5026737967914439,
+          "width": 0.16941176470588235,
+          "height": 0.18716577540106952
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "plus"
+        ],
+        "canvas": {
+          "width": 425,
+          "height": 374
+        },
+        "fraction": {
+          "x": 0.7764705882352941,
+          "y": 0.5026737967914439,
+          "width": 0.16941176470588235,
+          "height": 0.18716577540106952
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "sellLabelSearch"
+        ],
+        "canvas": {
+          "width": 425,
+          "height": 374
+        },
+        "fraction": {
+          "x": 0.16941176470588235,
+          "y": 0.7486631016042781,
+          "width": 0.34352941176470586,
+          "height": 0.08288770053475936
+        }
+      },
+      {
+        "path": [
+          "selection",
+          "coinSearch"
+        ],
+        "canvas": {
+          "width": 425,
+          "height": 374
+        },
+        "fraction": {
+          "x": 0.36,
+          "y": 0.7433155080213903,
+          "width": 0.26823529411764707,
+          "height": 0.12032085561497326
+        }
+      },
+      {
+        "path": [
+          "bottomAlternates",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.6274881516587678,
+          "y": 0.8847682119205298,
+          "width": 0.15639810426540285,
+          "height": 0.05033112582781457
+        }
+      },
+      {
+        "path": [
+          "bottomAlternates",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1055,
+          "height": 755
+        },
+        "fraction": {
+          "x": 0.03222748815165877,
+          "y": 0.9205298013245033,
+          "width": 0.06635071090047394,
+          "height": 0.046357615894039736
+        }
+      }
+    ]
+  }
+}

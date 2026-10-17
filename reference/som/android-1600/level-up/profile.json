@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "version": "level-up-20261016",
+  "kind": "continue",
+  "sourceFile": "source.png",
+  "originalName": "levelup-20261016-154804.png",
+  "sourceSha256": "fc7cad120befda5c36864188fcef8bdbfb6cf1b001b9cbb83dc10e45b79402ab",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "note": "[사용자 변경 2026-10-16] 레벨업 축하 창(NEW LEVEL! + LET'S GO). 제목과 버튼이 함께 보일 때만 LET'S GO(무료 보상 받기)를 누른다. 정지사례 #12.",
+  "anchors": [
+    {
+      "file": "letsgo.png",
+      "sha256": "1c89420329159cddb09e7aec1298012db082438eac7a238e8b0601038f75c997",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 735,
+        "y": 622,
+        "width": 130,
+        "height": 36
+      },
+      "sourceRegion": {
+        "x": 0.459375,
+        "y": 0.8638888888888889,
+        "width": 0.08125,
+        "height": 0.05
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "levelup-20261016-154804.png",
+        "sha256": "fc7cad120befda5c36864188fcef8bdbfb6cf1b001b9cbb83dc10e45b79402ab",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 735,
+          "y": 622,
+          "width": 130,
+          "height": 36
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3,
+      "role": "continue"
+    },
+    {
+      "file": "title.png",
+      "sha256": "455f1b304cb737b647ae4cc776dda7544903e2f0c9878f5f349bf5ed952a5e52",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 620,
+        "y": 238,
+        "width": 360,
+        "height": 62
+      },
+      "sourceRegion": {
+        "x": 0.3875,
+        "y": 0.33055555555555555,
+        "width": 0.225,
+        "height": 0.08611111111111111
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "levelup-20261016-154804.png",
+        "sha256": "fc7cad120befda5c36864188fcef8bdbfb6cf1b001b9cbb83dc10e45b79402ab",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 620,
+          "y": 238,
+          "width": 360,
+          "height": 62
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3,
+      "role": "title"
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600",
+  "buttonBox": {
+    "x": 672,
+    "y": 610,
+    "width": 256,
+    "height": 62
+  },
+  "target": {
+    "basis": "text top-left",
+    "dx": -0.039375,
+    "dy": -0.016666666666666666,
+    "width": 0.16,
+    "height": 0.08611111111111111,
+    "sourceButtonBox": {
+      "x": 672,
+      "y": 610,
+      "width": 256,
+      "height": 62
+    }
+  }
+}

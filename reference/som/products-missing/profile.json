@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "source": {
+    "file": "source.png",
+    "sha256": "1b09e29863b6f13e34a6d72f50f8bebacb87cfa66332e032f58de7285c93fe33",
+    "originalId": "codex-clipboard-c6315f5a-c60a-4a2d-ae13-b130b6afe0b2.png",
+    "dimensions": {
+      "width": 656,
+      "height": 554
+    }
+  },
+  "panel": {
+    "width": 602
+  },
+  "anchors": [
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "166031787429a40851802f4e92484c490e1290411338703abb998fa1d5c729d8",
+      "sourceRegion": {
+        "x": 0.2073170731707317,
+        "y": 0.08303249097472924,
+        "width": 0.5716463414634146,
+        "height": 0.0703971119133574
+      },
+      "sourceBox": {
+        "x": 136,
+        "y": 46,
+        "width": 375,
+        "height": 39
+      },
+      "search": {
+        "x": 0.12,
+        "y": 0.02,
+        "width": 0.75,
+        "height": 0.15
+      }
+    },
+    {
+      "role": "close",
+      "file": "close.png",
+      "sha256": "6b71dd239b37756da4ebd097873ef430cc8a86090f23946a1663ed3065a0585c",
+      "sourceRegion": {
+        "x": 0.8521341463414634,
+        "y": 0.08664259927797834,
+        "width": 0.05945121951219512,
+        "height": 0.06678700361010831
+      },
+      "sourceBox": {
+        "x": 559,
+        "y": 48,
+        "width": 39,
+        "height": 37
+      },
+      "search": {
+        "x": 0.84,
+        "y": 0.015,
+        "width": 0.15,
+        "height": 0.15
+      }
+    }
+  ]
+}

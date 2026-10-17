@@ -1,0 +1,258 @@
+{
+  "schema": 1,
+  "version": "screenshot-product-info-10",
+  "enabled": true,
+  "surveyOrdersFirst": true,
+  "dimensions": {
+    "width": 1578,
+    "height": 1268
+  },
+  "evidenceRoot": "C:\\Users\\djfal\\OneDrive\\문서\\ChatGPT\\Township\\미인식\\헬리콥터",
+  "markers": [
+    {
+      "file": "produced-at-wrapped.png",
+      "sha256": "584fc40e2628eb529857a0338102544e9c52beb229f96a7fad6909034440235d",
+      "sourceFile": "examples/dress.png",
+      "sourceHash": "2de793f0ccce42120f5d361ef3965e3b3375fa65e95c65ac3e82a3c84f460d75",
+      "cropBox": {
+        "x": 60,
+        "y": 97,
+        "width": 217,
+        "height": 27
+      }
+    },
+    {
+      "file": "harvested.png",
+      "sha256": "05f89dad68ba72540e0ed796891210a14bc0bbef37f7ad2224f44cad7b150ac6",
+      "sourceFile": "examples/live-cork-oak-info.png",
+      "sourceHash": "fb6caf677fc4bd060cd8a1035f41d8cf9bd031abed99bff0fac73fb15a9a53c0",
+      "cropBox": {
+        "x": 1224,
+        "y": 305,
+        "width": 166,
+        "height": 29
+      }
+    },
+    {
+      "file": "produced-at-native-small.png",
+      "sha256": "0d0b1f4989a3c689b2a341aecbc5e93ff7e0738add8cff6d163098c100e3054d",
+      "sourceFile": "examples/live-french-fries-info.png",
+      "sourceHash": "056041205833a54322a7900156c928bec8ea1cb230b9631ac1a97b06d40dfeac",
+      "cropBox": {
+        "x": 1253,
+        "y": 416,
+        "width": 190,
+        "height": 27
+      }
+    },
+    {
+      "file": "produced-at-native-toys.png",
+      "sha256": "88fd506678b918f45eb317a5e1d1fbe840f68be437e403563df5faf42e2d3860",
+      "sourceFile": "examples/live-toys-info.png",
+      "sourceHash": "967994e8e3215d9dd2a570214580e8b81c08c639b249d72c37629f21a4a90dc5",
+      "cropBox": {
+        "x": 1289,
+        "y": 416,
+        "width": 201,
+        "height": 28
+      }
+    },
+    {
+      "file": "produced-at-native-scrub-brush.png",
+      "sha256": "d9fd8958bbcb349915fa79ca640d384265306766d01571e5a69d9346248049e0",
+      "sourceFile": "examples/live-scrub-brush-info.png",
+      "sourceHash": "59aba57c6f8fd9cc652b19bba1b973204fc80c57d9014a6ded23be5907fa1ba2",
+      "cropBox": {
+        "x": 1208,
+        "y": 620,
+        "width": 201,
+        "height": 28
+      }
+    },
+    {
+      "file": "produced-at-native-cream.png",
+      "sha256": "ecf42f8e4cf77d34bec2c309f03e59dd8cbaed679e8a7c21e76dbf92be99f3cd",
+      "sourceFile": "examples/live-cream-info.png",
+      "sourceFrameId": "frame-cc371c89-7e7f-44eb-90d6-506efebc7058",
+      "sourceHash": "edfc72b94047999a61b57b1e8c7b0b70ee73c8371d2d00f1a9fedc4a33a8e3a1",
+      "sourceDimensions": {
+        "width": 1578,
+        "height": 1268
+      },
+      "cropBox": {
+        "x": 1308,
+        "y": 308,
+        "width": 201,
+        "height": 28
+      },
+      "percentageCrop": {
+        "unit": "fraction",
+        "space": "registered_capture",
+        "x": 0.8288973384030418,
+        "y": 0.24290220820189273,
+        "width": 0.12737642585551331,
+        "height": 0.022082018927444796
+      },
+      "scope": {
+        "provider": "google_play_windows",
+        "transport": "helicopter",
+        "width": 1578,
+        "height": 1268
+      }
+    },
+    {
+      "file": "collect-from-native-egg.png",
+      "sha256": "d28d3cab18c53820673022a5ed63b9dd34061757a89712d51261f62c8ce469a8",
+      "sourceFile": "examples/live-egg-info.png",
+      "sourceFrameId": "frame-4a9d1299-016b-4138-955b-b53ee15e4f5c",
+      "sourceHash": "7b5e1505d4802609361c5969dc62902bb10f3968a1ce52fe353f110d3836bf23",
+      "sourceDimensions": {
+        "width": 1578,
+        "height": 1268
+      },
+      "cropBox": {
+        "x": 1206,
+        "y": 528,
+        "width": 201,
+        "height": 28
+      },
+      "percentageCrop": {
+        "unit": "fraction",
+        "space": "registered_capture",
+        "x": 0.7642585551330798,
+        "y": 0.416403785488959,
+        "width": 0.12737642585551331,
+        "height": 0.022082018927444796
+      },
+      "scope": {
+        "provider": "google_play_windows",
+        "transport": "helicopter",
+        "width": 1578,
+        "height": 1268
+      }
+    },
+    {
+      "file": "delivered-from-native-peach.png",
+      "sha256": "085bbc1739ed7ea3b854cf0f02cad63cc992dcc6ccc962ea97dd8e33dd2eb8e2",
+      "sourceFile": "examples/live-peach-info.png",
+      "sourceFrameId": "frame-2354c794-d32b-485e-ac94-525fa6c99d06",
+      "sourceHash": "1ea379271a959c466ba04b5682260ca0ce145dfd9259b3dde0a22efcef9f7fbd",
+      "sourceDimensions": {
+        "width": 1578,
+        "height": 1268
+      },
+      "cropBox": {
+        "x": 1191,
+        "y": 528,
+        "width": 229,
+        "height": 27
+      },
+      "percentageCrop": {
+        "unit": "fraction",
+        "space": "registered_capture",
+        "x": 0.7547528517110266,
+        "y": 0.416403785488959,
+        "width": 0.14512040557667935,
+        "height": 0.021293375394321766
+      },
+      "scope": {
+        "provider": "google_play_windows",
+        "transport": "helicopter",
+        "width": 1578,
+        "height": 1268
+      }
+    }
+  ],
+  "nameTemplates": [
+    {
+      "id": "granola-old",
+      "canonicalProductId": "granola",
+      "file": "granola-old-name.png",
+      "sha256": "25b42e7bf7246f82ab594ea05d8e953d20030c832774b24795c610c2088fbdda",
+      "sourceFile": "examples/granola-old-name-source.png",
+      "sourceFrameId": "frame-49186472-2141-4dee-978c-6bb7a05535a1",
+      "sourceHash": "1731225fa37033c3e251eb9789ca7db222ac575335be5945926a93dd7c3c5246",
+      "sourceDimensions": {
+        "width": 1578,
+        "height": 1268
+      },
+      "cropBox": {
+        "x": 1250,
+        "y": 228,
+        "width": 308,
+        "height": 52
+      },
+      "percentageCrop": {
+        "unit": "fraction",
+        "space": "registered_capture",
+        "referenceBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1578,
+          "height": 1268
+        },
+        "x": 0.7921419518377694,
+        "y": 0.17981072555205047,
+        "width": 0.19518377693282637,
+        "height": 0.04100946372239748
+      },
+      "scope": {
+        "provider": "google_play_windows",
+        "transport": "helicopter",
+        "width": 1578,
+        "height": 1268,
+        "viewport": {
+          "x": 128,
+          "y": 188,
+          "width": 1448,
+          "height": 970
+        }
+      }
+    },
+    {
+      "id": "granola-current",
+      "canonicalProductId": "granola",
+      "file": "granola-current-name.png",
+      "sha256": "d6125292bda006eb7830ddd4951affdfb5e2a3bf5f125acc245e466edca02353",
+      "sourceFile": "examples/granola-current-name-source.png",
+      "sourceFrameId": "frame-c3be62b8-de84-446e-a33b-ff78be2a17ec",
+      "sourceHash": "f5ce2d769c8f8c38d637eaf0ced6eb01312ab4988ba6f9d1f171e8b3a2a64a93",
+      "sourceDimensions": {
+        "width": 1578,
+        "height": 1268
+      },
+      "cropBox": {
+        "x": 1250,
+        "y": 226,
+        "width": 308,
+        "height": 50
+      },
+      "percentageCrop": {
+        "unit": "fraction",
+        "space": "registered_capture",
+        "referenceBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1578,
+          "height": 1268
+        },
+        "x": 0.7921419518377694,
+        "y": 0.17823343848580442,
+        "width": 0.19518377693282637,
+        "height": 0.03943217665615142
+      },
+      "scope": {
+        "provider": "google_play_windows",
+        "transport": "helicopter",
+        "width": 1578,
+        "height": 1268,
+        "viewport": {
+          "x": 128,
+          "y": 188,
+          "width": 1448,
+          "height": 970
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+{
+  "schema": 1,
+  "version": "google-play-airport-timer-crop-1",
+  "provider": "google_play_windows",
+  "identityMode": "product_list",
+  "dimensions": {
+    "width": 1114,
+    "height": 735
+  },
+  "coordinateSpace": {
+    "reference": {
+      "width": 1600,
+      "height": 900
+    },
+    "viewport": {
+      "x": 65,
+      "y": 36,
+      "width": 1048,
+      "height": 698
+    },
+    "alignX": 0.5,
+    "alignY": 0.5,
+    "fit": "height"
+  },
+  "coordinateBindings": [
+    {
+      "fraction": {
+        "x": 0.44278375716332374,
+        "y": 0.07879799426934098,
+        "width": 0.11604423352435529,
+        "height": 0.04011174785100287
+      },
+      "box": {
+        "x": 518,
+        "y": 91,
+        "width": 144,
+        "height": 28
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.847332467765043,
+        "y": 0.08309598853868196,
+        "width": 0.020951110315186247,
+        "height": 0.03867908309455587
+      },
+      "box": {
+        "x": 1020,
+        "y": 94,
+        "width": 26,
+        "height": 27
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.2268095451289398,
+        "y": 0.24068911174785101,
+        "width": 0.09670325931232092,
+        "height": 0.14039828080229227
+      },
+      "box": {
+        "x": 250,
+        "y": 204,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.3493023818051576,
+        "y": 0.24068911174785101,
+        "width": 0.09670325931232092,
+        "height": 0.14039828080229227
+      },
+      "box": {
+        "x": 402,
+        "y": 204,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.47179521848137534,
+        "y": 0.24068911174785101,
+        "width": 0.09670325931232092,
+        "height": 0.14039828080229227
+      },
+      "box": {
+        "x": 554,
+        "y": 204,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.2268095451289398,
+        "y": 0.44126217765042974,
+        "width": 0.09670325931232092,
+        "height": 0.14039828080229227
+      },
+      "box": {
+        "x": 250,
+        "y": 344,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.3493023818051576,
+        "y": 0.44126217765042974,
+        "width": 0.09670325931232092,
+        "height": 0.14039828080229227
+      },
+      "box": {
+        "x": 402,
+        "y": 344,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.47179521848137534,
+        "y": 0.44126217765042974,
+        "width": 0.09670325931232092,
+        "height": 0.14039828080229227
+      },
+      "box": {
+        "x": 554,
+        "y": 344,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.2268095451289398,
+        "y": 0.6418352435530086,
+        "width": 0.09670325931232092,
+        "height": 0.14039828080229227
+      },
+      "box": {
+        "x": 250,
+        "y": 484,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.3493023818051576,
+        "y": 0.6418352435530086,
+        "width": 0.09670325931232092,
+        "height": 0.14039828080229227
+      },
+      "box": {
+        "x": 402,
+        "y": 484,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.47179521848137534,
+        "y": 0.6418352435530086,
+        "width": 0.09670325931232092,
+        "height": 0.14039828080229227
+      },
+      "box": {
+        "x": 554,
+        "y": 484,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.7103339004297994,
+        "y": 0.24641977077363897,
+        "width": 0.1337734598853868,
+        "height": 0.054438395415472775
+      },
+      "box": {
+        "x": 850,
+        "y": 208,
+        "width": 166,
+        "height": 38
+      }
+    }
+  ],
+  "layoutId": "corn55-sweater2-frozen-yogurt2",
+  "originalNeeds": [
+    {
+      "slotId": "r1-c1",
+      "itemId": "corn",
+      "required": 55
+    },
+    {
+      "slotId": "r1-c2",
+      "itemId": "sweater",
+      "required": 2
+    },
+    {
+      "slotId": "r1-c3",
+      "itemId": "frozen_yogurt",
+      "required": 2
+    },
+    {
+      "slotId": "r2-c1",
+      "itemId": "corn",
+      "required": 55
+    },
+    {
+      "slotId": "r2-c2",
+      "itemId": "sweater",
+      "required": 2
+    },
+    {
+      "slotId": "r2-c3",
+      "itemId": "frozen_yogurt",
+      "required": 2
+    },
+    {
+      "slotId": "r3-c1",
+      "itemId": "corn",
+      "required": 55
+    },
+    {
+      "slotId": "r3-c2",
+      "itemId": "sweater",
+      "required": 2
+    },
+    {
+      "slotId": "r3-c3",
+      "itemId": "frozen_yogurt",
+      "required": 2
+    }
+  ],
+  "anchors": [
+    {
+      "file": "header.png",
+      "box": {
+        "x": 518,
+        "y": 91,
+        "width": 144,
+        "height": 28
+      },
+      "exact": true
+    },
+    {
+      "file": "close.png",
+      "box": {
+        "x": 1020,
+        "y": 94,
+        "width": 26,
+        "height": 27
+      },
+      "exact": true
+    }
+  ],
+  "grid": [
+    {
+      "x": 250,
+      "y": 204,
+      "width": 120,
+      "height": 98
+    },
+    {
+      "x": 402,
+      "y": 204,
+      "width": 120,
+      "height": 98
+    },
+    {
+      "x": 554,
+      "y": 204,
+      "width": 120,
+      "height": 98
+    },
+    {
+      "x": 250,
+      "y": 344,
+      "width": 120,
+      "height": 98
+    },
+    {
+      "x": 402,
+      "y": 344,
+      "width": 120,
+      "height": 98
+    },
+    {
+      "x": 554,
+      "y": 344,
+      "width": 120,
+      "height": 98
+    },
+    {
+      "x": 250,
+      "y": 484,
+      "width": 120,
+      "height": 98
+    },
+    {
+      "x": 402,
+      "y": 484,
+      "width": 120,
+      "height": 98
+    },
+    {
+      "x": 554,
+      "y": 484,
+      "width": 120,
+      "height": 98
+    }
+  ],
+  "bare": [
+    {
+      "id": "bare0",
+      "stage": 0,
+      "loadedSlots": [],
+      "regions": [
+        {
+          "file": "r1-c1.png",
+          "box": {
+            "x": 250,
+            "y": 204,
+            "width": 120,
+            "height": 98
+          },
+          "exact": true
+        },
+        {
+          "file": "r1-c2.png",
+          "box": {
+            "x": 402,
+            "y": 204,
+            "width": 120,
+            "height": 98
+          },
+          "exact": true
+        },
+        {
+          "file": "r1-c3.png",
+          "box": {
+            "x": 554,
+            "y": 204,
+            "width": 120,
+            "height": 98
+          },
+          "exact": true
+        },
+        {
+          "file": "r2-c1.png",
+          "box": {
+            "x": 250,
+            "y": 344,
+            "width": 120,
+            "height": 98
+          },
+          "exact": true
+        },
+        {
+          "file": "r2-c2.png",
+          "box": {
+            "x": 402,
+            "y": 344,
+            "width": 120,
+            "height": 98
+          },
+          "exact": true
+        },
+        {
+          "file": "r2-c3.png",
+          "box": {
+            "x": 554,
+            "y": 344,
+            "width": 120,
+            "height": 98
+          },
+          "exact": true
+        },
+        {
+          "file": "r3-c1.png",
+          "box": {
+            "x": 250,
+            "y": 484,
+            "width": 120,
+            "height": 98
+          },
+          "exact": true
+        },
+        {
+          "file": "r3-c2.png",
+          "box": {
+            "x": 402,
+            "y": 484,
+            "width": 120,
+            "height": 98
+          },
+          "exact": true
+        },
+        {
+          "file": "r3-c3.png",
+          "box": {
+            "x": 554,
+            "y": 484,
+            "width": 120,
+            "height": 98
+          },
+          "exact": true
+        }
+      ]
+    }
+  ],
+  "popups": [],
+  "loadTransitions": [],
+  "assets": [
+    {
+      "file": "header.png",
+      "sha256": "73e46cbe64e6a74c2ded8efec181642d1c328e15870ac8ceaf5c501a4a2c71a5",
+      "sourceFrameId": "frame-360b4eac-2f00-4d0b-947a-036880a7993d",
+      "sourceHash": "bba84915f97627dc8455f5ef60bf25d6838f560c1a720f3497f9782f4e5dedb2",
+      "sourceBox": {
+        "x": 518,
+        "y": 91,
+        "width": 144,
+        "height": 28
+      }
+    },
+    {
+      "file": "close.png",
+      "sha256": "69da5546b20b1d196a77ead3c46d63a4ace227a701b3ce1b28026e3c497f383d",
+      "sourceFrameId": "frame-360b4eac-2f00-4d0b-947a-036880a7993d",
+      "sourceHash": "bba84915f97627dc8455f5ef60bf25d6838f560c1a720f3497f9782f4e5dedb2",
+      "sourceBox": {
+        "x": 1020,
+        "y": 94,
+        "width": 26,
+        "height": 27
+      }
+    },
+    {
+      "file": "r1-c1.png",
+      "sha256": "7c044a5ad394ec1c77830dba81ec3e566229d69d9e63b10bd0baf9941f77c43f",
+      "sourceFrameId": "frame-360b4eac-2f00-4d0b-947a-036880a7993d",
+      "sourceHash": "bba84915f97627dc8455f5ef60bf25d6838f560c1a720f3497f9782f4e5dedb2",
+      "sourceBox": {
+        "x": 250,
+        "y": 204,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "file": "r1-c2.png",
+      "sha256": "c5ce94aa2e6983566651a4db68682142203b67b1fefa58da1e0916058fd8f269",
+      "sourceFrameId": "frame-360b4eac-2f00-4d0b-947a-036880a7993d",
+      "sourceHash": "bba84915f97627dc8455f5ef60bf25d6838f560c1a720f3497f9782f4e5dedb2",
+      "sourceBox": {
+        "x": 402,
+        "y": 204,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "file": "r1-c3.png",
+      "sha256": "040cfc02ae5ca3a17f401cef2da9727b957979ae0c06390f48781b3d9d054e11",
+      "sourceFrameId": "frame-360b4eac-2f00-4d0b-947a-036880a7993d",
+      "sourceHash": "bba84915f97627dc8455f5ef60bf25d6838f560c1a720f3497f9782f4e5dedb2",
+      "sourceBox": {
+        "x": 554,
+        "y": 204,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "file": "r2-c1.png",
+      "sha256": "fcd2da389d5b6a0a04a5a4f94e60689b93ca1e1384d7a0da5e954babee2f8b57",
+      "sourceFrameId": "frame-360b4eac-2f00-4d0b-947a-036880a7993d",
+      "sourceHash": "bba84915f97627dc8455f5ef60bf25d6838f560c1a720f3497f9782f4e5dedb2",
+      "sourceBox": {
+        "x": 250,
+        "y": 344,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "file": "r2-c2.png",
+      "sha256": "2535cc31adde3c7b6d32023ba84239ecfed610a92f95548ff96578c7edef7188",
+      "sourceFrameId": "frame-360b4eac-2f00-4d0b-947a-036880a7993d",
+      "sourceHash": "bba84915f97627dc8455f5ef60bf25d6838f560c1a720f3497f9782f4e5dedb2",
+      "sourceBox": {
+        "x": 402,
+        "y": 344,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "file": "r2-c3.png",
+      "sha256": "5cd8747e0979f834ac63a9664cd30f7762c0982a0a06418c18a6c4c1d7b10d98",
+      "sourceFrameId": "frame-360b4eac-2f00-4d0b-947a-036880a7993d",
+      "sourceHash": "bba84915f97627dc8455f5ef60bf25d6838f560c1a720f3497f9782f4e5dedb2",
+      "sourceBox": {
+        "x": 554,
+        "y": 344,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "file": "r3-c1.png",
+      "sha256": "c5d262792e147135b15880236d60e932f60314c786f9146bd9d28ccb406e8383",
+      "sourceFrameId": "frame-360b4eac-2f00-4d0b-947a-036880a7993d",
+      "sourceHash": "bba84915f97627dc8455f5ef60bf25d6838f560c1a720f3497f9782f4e5dedb2",
+      "sourceBox": {
+        "x": 250,
+        "y": 484,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "file": "r3-c2.png",
+      "sha256": "ba6f964968cfaa46d1e9e7682c1c38af09bc72515dab159c85b4f1ce8ef1292d",
+      "sourceFrameId": "frame-360b4eac-2f00-4d0b-947a-036880a7993d",
+      "sourceHash": "bba84915f97627dc8455f5ef60bf25d6838f560c1a720f3497f9782f4e5dedb2",
+      "sourceBox": {
+        "x": 402,
+        "y": 484,
+        "width": 120,
+        "height": 98
+      }
+    },
+    {
+      "file": "r3-c3.png",
+      "sha256": "2d5f036bd6979d6e84df675a833788a196bb44f6159258a6f7c315ace31ee24f",
+      "sourceFrameId": "frame-360b4eac-2f00-4d0b-947a-036880a7993d",
+      "sourceHash": "bba84915f97627dc8455f5ef60bf25d6838f560c1a720f3497f9782f4e5dedb2",
+      "sourceBox": {
+        "x": 554,
+        "y": 484,
+        "width": 120,
+        "height": 98
+      }
+    }
+  ],
+  "timer": {
+    "fieldId": "airport-departure",
+    "kind": "text",
+    "box": {
+      "x": 850,
+      "y": 208,
+      "width": 166,
+      "height": 38
+    },
+    "scale": 3,
+    "minimumScore": 0.95,
+    "recognitionOnly": true
+  }
+}

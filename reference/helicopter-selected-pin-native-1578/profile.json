@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "kind": "bilateral_outer_selection_halo",
+  "provider": "google_play_windows",
+  "dimensions": {
+    "width": 1578,
+    "height": 1268
+  },
+  "helicopterProfileHash": "950b8abb8ccecba76b44233702a326e746508b84b6d637780285fc1f1fa33b9d",
+  "viewportFraction": {
+    "x": 0.08111533586818757,
+    "y": 0.2082018927444795,
+    "width": 0.917617237008872,
+    "height": 0.6451104100946372
+  },
+  "cropFraction": {
+    "width": 0.08871989860583017,
+    "height": 0.14195583596214512
+  },
+  "pinAnchor": {
+    "x": 0.5,
+    "y": 0.8888888888888888
+  },
+  "bands": [
+    {
+      "x": 0.02142857142857143,
+      "y": 0.26666666666666666,
+      "width": 0.15,
+      "height": 0.3333333333333333
+    },
+    {
+      "x": 0.8357142857142857,
+      "y": 0.26666666666666666,
+      "width": 0.15,
+      "height": 0.3333333333333333
+    }
+  ],
+  "mask": {
+    "file": "outer-rim-mask.png",
+    "sha256": "c5eab6f953b054f707ae849c55a874c1e989b3b6fdca8dc6c393e765382565b7"
+  },
+  "color": {
+    "redAbove": 230,
+    "greenAbove": 220,
+    "blueAbove": 115,
+    "redMinusBlueAbove": 8
+  },
+  "support": {
+    "minimumPixels": 45,
+    "minimumRows": 20,
+    "minimumRun": 8,
+    "minimumPixelsPerRow": 2,
+    "minimumThirdRows": 2,
+    "minimumThirds": 2
+  },
+  "sourcesFile": "sources.json",
+  "sourcesHash": "fef3d5a64cbf1a54a387e1cc566718abac10ac32c93bf922e8264cc44ba78ecc"
+}

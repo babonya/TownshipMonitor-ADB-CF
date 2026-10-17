@@ -1,0 +1,5439 @@
+{
+  "schema": 1,
+  "version": "market-native-ui-20261007-5-helicopter-close-static-screenshot-products-only-current-awning-registered-fields-screenshot-candidate-20261008-bagel-market-20261008-barn-gable-33e7fcc3",
+  "provider": "google_play_windows",
+  "executionEnabled": true,
+  "nativeResultEvidenceScope": {
+    "entry": "actual_guarded_navigation",
+    "scroll": "actual_slow150px_1200ms_both_row_overlap; no_motion_and_overscroll_negatives",
+    "close": "actual_guarded_navigation",
+    "purchaseToSold": "synthetic_on_actual_native_source_only",
+    "errorModals": "synthetic_common_structure_and_exact_phrase_only"
+  },
+  "layouts": [
+    {
+      "id": "saved-market-1",
+      "dimensions": {
+        "width": 1443,
+        "height": 981
+      },
+      "sourceHash": "209f9192838db473728c9a90862ef0fc286f42592c0ec3f9deed62268a285643",
+      "sourceFile": "market-catalogue-probe-20261006/inputs/market-1.png",
+      "executionEnabled": false,
+      "reason": "MARKET_NATIVE_SOURCE_RESULT_EVIDENCE_REQUIRED",
+      "anchors": [
+        {
+          "file": "market-1-title.png",
+          "sha256": "a980d4465056f7af731db8f73d8fbabe42768baa014bf38342e02140e43ef73d",
+          "box": {
+            "x": 551,
+            "y": 140,
+            "width": 349,
+            "height": 42
+          }
+        },
+        {
+          "file": "market-1-close.png",
+          "sha256": "477a91cc60df7abdb8b9b24427025baa12fc656687eaf3d13a2d474032a40dfc",
+          "box": {
+            "x": 1154,
+            "y": 140,
+            "width": 39,
+            "height": 40
+          }
+        }
+      ],
+      "close": {
+        "file": "market-1-close.png",
+        "sha256": "477a91cc60df7abdb8b9b24427025baa12fc656687eaf3d13a2d474032a40dfc",
+        "box": {
+          "x": 1154,
+          "y": 140,
+          "width": 39,
+          "height": 40
+        }
+      },
+      "viewport": {
+        "x": 497,
+        "y": 298,
+        "width": 840,
+        "height": 440
+      },
+      "refreshCaption": {
+        "file": "market-1-refreshCaption.png",
+        "sha256": "b7f658af8c6dffce45d853b6e4815046fea8e99465d5e9da37068ba13c145139",
+        "box": {
+          "x": 518,
+          "y": 789,
+          "width": 263,
+          "height": 32
+        }
+      },
+      "refreshTimerBox": {
+        "x": 842,
+        "y": 786,
+        "width": 132,
+        "height": 34
+      },
+      "rows": [
+        330,
+        557
+      ],
+      "cardWidth": 174,
+      "cardHeight": 174,
+      "columnPitch": 191,
+      "leftmostCue": {
+        "type": "sale",
+        "box": {
+          "x": 512,
+          "y": 302,
+          "width": 177,
+          "height": 205
+        }
+      },
+      "fieldGeometry": {
+        "card": {
+          "schema": 1,
+          "space": "market_card",
+          "dimensions": {
+            "width": 181,
+            "height": 202
+          },
+          "origin": {
+            "x": 0,
+            "y": 28
+          },
+          "iconBox": {
+            "x": 7,
+            "y": 0,
+            "width": 174,
+            "height": 140
+          },
+          "quantityBox": {
+            "x": 68,
+            "y": 79,
+            "width": 96,
+            "height": 40
+          },
+          "purchaseBox": {
+            "x": 7,
+            "y": 131,
+            "width": 157,
+            "height": 66
+          }
+        },
+        "currency": {
+          "schema": 1,
+          "space": "market_coin",
+          "dimensions": {
+            "width": 38,
+            "height": 43
+          },
+          "origin": {
+            "x": 8,
+            "y": 9
+          },
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 38,
+            "height": 43
+          }
+        }
+      },
+      "firstColumnOffset": {
+        "x": 18,
+        "y": 0
+      }
+    },
+    {
+      "id": "saved-market-2",
+      "dimensions": {
+        "width": 1451,
+        "height": 976
+      },
+      "sourceHash": "317509e993f8b2709d8cfe42304349425d3b5ba10e9d8ce999766a51eeab0ec3",
+      "sourceFile": "market-catalogue-probe-20261006/inputs/market-2.png",
+      "executionEnabled": false,
+      "reason": "MARKET_NATIVE_SOURCE_RESULT_EVIDENCE_REQUIRED",
+      "anchors": [
+        {
+          "file": "market-2-title.png",
+          "sha256": "6ea2eb2c59b206fc26a4b87406a7ecf75c320fa463dce1346aa12f60310b131d",
+          "box": {
+            "x": 559,
+            "y": 143,
+            "width": 348,
+            "height": 39
+          }
+        },
+        {
+          "file": "market-2-close.png",
+          "sha256": "477a91cc60df7abdb8b9b24427025baa12fc656687eaf3d13a2d474032a40dfc",
+          "box": {
+            "x": 1162,
+            "y": 142,
+            "width": 39,
+            "height": 40
+          }
+        }
+      ],
+      "close": {
+        "file": "market-2-close.png",
+        "sha256": "477a91cc60df7abdb8b9b24427025baa12fc656687eaf3d13a2d474032a40dfc",
+        "box": {
+          "x": 1162,
+          "y": 142,
+          "width": 39,
+          "height": 40
+        }
+      },
+      "viewport": {
+        "x": 505,
+        "y": 299,
+        "width": 838,
+        "height": 441
+      },
+      "refreshCaption": {
+        "file": "market-2-refreshCaption.png",
+        "sha256": "c274bdd5b9bc1f5f20d78c65a00b779b9f1c285abbe355ebfdfd81dbd1d0c2be",
+        "box": {
+          "x": 526,
+          "y": 790,
+          "width": 264,
+          "height": 33
+        }
+      },
+      "refreshTimerBox": {
+        "x": 850,
+        "y": 787,
+        "width": 131,
+        "height": 34
+      },
+      "rows": [
+        330,
+        557
+      ],
+      "cardWidth": 174,
+      "cardHeight": 174,
+      "columnPitch": 191,
+      "leftmostCue": null,
+      "fieldGeometry": {
+        "card": {
+          "schema": 1,
+          "space": "market_card",
+          "dimensions": {
+            "width": 181,
+            "height": 202
+          },
+          "origin": {
+            "x": 0,
+            "y": 28
+          },
+          "iconBox": {
+            "x": 7,
+            "y": 0,
+            "width": 174,
+            "height": 140
+          },
+          "quantityBox": {
+            "x": 68,
+            "y": 79,
+            "width": 96,
+            "height": 40
+          },
+          "purchaseBox": {
+            "x": 7,
+            "y": 131,
+            "width": 157,
+            "height": 66
+          }
+        },
+        "currency": {
+          "schema": 1,
+          "space": "market_coin",
+          "dimensions": {
+            "width": 38,
+            "height": 43
+          },
+          "origin": {
+            "x": 8,
+            "y": 9
+          },
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 38,
+            "height": 43
+          }
+        }
+      },
+      "firstColumnOffset": {
+        "x": 18,
+        "y": 0
+      }
+    },
+    {
+      "id": "saved-market-3",
+      "dimensions": {
+        "width": 1444,
+        "height": 974
+      },
+      "sourceHash": "87b07c72d727feff1caeb98799d8be98ea4ef1e78d8c0b9c66b5776592f42bf6",
+      "sourceFile": "market-catalogue-probe-20261006/inputs/market-3.png",
+      "executionEnabled": false,
+      "reason": "MARKET_NATIVE_SOURCE_RESULT_EVIDENCE_REQUIRED",
+      "anchors": [
+        {
+          "file": "market-3-title.png",
+          "sha256": "f8658d544f234af65fbb5db6dd7143f2c47398eeca252c183b9205ac55ea6cf6",
+          "box": {
+            "x": 558,
+            "y": 136,
+            "width": 348,
+            "height": 41
+          }
+        },
+        {
+          "file": "market-3-close.png",
+          "sha256": "477a91cc60df7abdb8b9b24427025baa12fc656687eaf3d13a2d474032a40dfc",
+          "box": {
+            "x": 1161,
+            "y": 135,
+            "width": 39,
+            "height": 40
+          }
+        }
+      ],
+      "close": {
+        "file": "market-3-close.png",
+        "sha256": "477a91cc60df7abdb8b9b24427025baa12fc656687eaf3d13a2d474032a40dfc",
+        "box": {
+          "x": 1161,
+          "y": 135,
+          "width": 39,
+          "height": 40
+        }
+      },
+      "viewport": {
+        "x": 505,
+        "y": 291,
+        "width": 839,
+        "height": 441
+      },
+      "refreshCaption": {
+        "file": "market-3-refreshCaption.png",
+        "sha256": "c274bdd5b9bc1f5f20d78c65a00b779b9f1c285abbe355ebfdfd81dbd1d0c2be",
+        "box": {
+          "x": 525,
+          "y": 783,
+          "width": 264,
+          "height": 33
+        }
+      },
+      "refreshTimerBox": {
+        "x": 849,
+        "y": 780,
+        "width": 132,
+        "height": 34
+      },
+      "rows": [
+        323,
+        550
+      ],
+      "cardWidth": 174,
+      "cardHeight": 174,
+      "columnPitch": 191,
+      "leftmostCue": null,
+      "fieldGeometry": {
+        "card": {
+          "schema": 1,
+          "space": "market_card",
+          "dimensions": {
+            "width": 181,
+            "height": 202
+          },
+          "origin": {
+            "x": 0,
+            "y": 28
+          },
+          "iconBox": {
+            "x": 7,
+            "y": 0,
+            "width": 174,
+            "height": 140
+          },
+          "quantityBox": {
+            "x": 68,
+            "y": 79,
+            "width": 96,
+            "height": 40
+          },
+          "purchaseBox": {
+            "x": 7,
+            "y": 131,
+            "width": 157,
+            "height": 66
+          }
+        },
+        "currency": {
+          "schema": 1,
+          "space": "market_coin",
+          "dimensions": {
+            "width": 38,
+            "height": 43
+          },
+          "origin": {
+            "x": 8,
+            "y": 9
+          },
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 38,
+            "height": 43
+          }
+        }
+      },
+      "firstColumnOffset": {
+        "x": 18,
+        "y": 0
+      }
+    },
+    {
+      "id": "native-market-1578-20261006",
+      "dimensions": {
+        "width": 1578,
+        "height": 1268
+      },
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+      "sourceFile": "native-1578-original-entry.png",
+      "executionEnabled": true,
+      "nativeSourceResultRegistered": true,
+      "nativeSourceRegistered": true,
+      "nativeEntryRegistered": true,
+      "nativeScrollResultRegistered": true,
+      "nativeCloseResultRegistered": true,
+      "reason": "MARKET_PURCHASE_SOLD_AND_CLOSE_RESULT_EVIDENCE_REQUIRED",
+      "anchors": [
+        {
+          "file": "native-1578-title.png",
+          "sha256": "6fbf54afe13be54c25852c80aabf20c981dd237e370959d2fc8c6bad429483c0",
+          "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+          "box": {
+            "x": 795,
+            "y": 321,
+            "width": 238,
+            "height": 42
+          },
+          "layoutIds": [
+            "native-market-1578-20261006"
+          ]
+        },
+        {
+          "file": "native-1578-close.png",
+          "sha256": "77f05fb336f66b4d7608f5db0c1bb7bbaea6a32651e76d166a85f0ede212a875",
+          "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+          "box": {
+            "x": 1297,
+            "y": 332,
+            "width": 14,
+            "height": 15
+          },
+          "layoutIds": [
+            "native-market-1578-20261006"
+          ],
+          "locator": {
+            "schema": 1,
+            "searchBox": {
+              "x": 1233,
+              "y": 268,
+              "width": 142,
+              "height": 143
+            }
+          }
+        }
+      ],
+      "close": {
+        "file": "native-1578-close.png",
+        "sha256": "77f05fb336f66b4d7608f5db0c1bb7bbaea6a32651e76d166a85f0ede212a875",
+        "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+        "box": {
+          "x": 1297,
+          "y": 332,
+          "width": 14,
+          "height": 15
+        },
+        "layoutIds": [
+          "native-market-1578-20261006"
+        ],
+        "locator": {
+          "schema": 1,
+          "searchBox": {
+            "x": 1233,
+            "y": 268,
+            "width": 142,
+            "height": 143
+          }
+        }
+      },
+      "viewport": {
+        "x": 632,
+        "y": 482,
+        "width": 838,
+        "height": 441
+      },
+      "scrollY": 549,
+      "scrollDistance": 150,
+      "scrollDurationMs": 1200,
+      "refreshCaption": {
+        "file": "native-1578-refresh-caption.png",
+        "sha256": "ad0ed43512924effacd66c9bd77e8e5f1114bfb054f9cfcbb50fa7af3961ef43",
+        "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+        "box": {
+          "x": 651,
+          "y": 970,
+          "width": 263,
+          "height": 32
+        },
+        "layoutIds": [
+          "native-market-1578-20261006"
+        ]
+      },
+      "refreshTimerBox": {
+        "x": 975,
+        "y": 967,
+        "width": 132,
+        "height": 34
+      },
+      "rows": [
+        511,
+        738
+      ],
+      "cardWidth": 174,
+      "cardHeight": 174,
+      "columnPitch": 191,
+      "cellLocator": "structure_coin",
+      "structureMinimumScore": 0.94,
+      "currencySearchOffset": {
+        "x": 15,
+        "y": 110,
+        "width": 74,
+        "height": 51
+      },
+      "leftmostCue": {
+        "type": "sale",
+        "box": {
+          "x": 645,
+          "y": 483,
+          "width": 177,
+          "height": 205
+        }
+      },
+      "townNavigation": {
+        "anchors": [
+          {
+            "file": "user-town-town-hardhat.png",
+            "sha256": "9449462abf842d00cdc2381bf558f39de5b1636aae50a14da551d4395315a2a1",
+            "box": {
+              "x": 173,
+              "y": 1008,
+              "width": 90,
+              "height": 102
+            },
+            "source": "explicit_user_20261006",
+            "mode": "static"
+          }
+        ],
+        "market": {
+          "file": "native-1578-town-market-awning.png",
+          "sha256": "a245696a235cc8ea3f708831092e2bb6cfa4cc3f8344e491eece88a2619d80bb",
+          "sourceHash": "3abd6f2c9a76125e0594627e50cf9f9eac0e6998768f549dd4a60f78b1e68428",
+          "box": {
+            "x": 390,
+            "y": 601,
+            "width": 40,
+            "height": 18
+          },
+          "layoutIds": [
+            "native-market-1578-20261006"
+          ],
+          "locator": {
+            "schema": 1,
+            "searchBox": {
+              "x": 128,
+              "y": 188,
+              "width": 1448,
+              "height": 970
+            }
+          }
+        },
+        "helicopter": {
+          "file": "town-helicopter-cockpit-c61cfaae.png",
+          "sha256": "e63578bfe5ceb50d5538825f8dd41c22d087e947cbf020bf4410e21ecdf23d1e",
+          "box": {
+            "x": 1192,
+            "y": 1068,
+            "width": 40,
+            "height": 22
+          },
+          "source": {
+            "file": "town-helicopter-original-c61cfaae.png",
+            "frameId": "frame-c61cfaae-2a34-47f0-abad-4fbf098e0ee7",
+            "sha256": "a962405fe1fa1fc63b6918b2cc609256dec1f1cf44ff08b60029f9059723805e",
+            "dimensions": {
+              "width": 1578,
+              "height": 1268
+            },
+            "cropBox": {
+              "x": 1192,
+              "y": 1068,
+              "width": 40,
+              "height": 22
+            },
+            "identityReviewedBy": "AI manager /root/manager",
+            "identityEvidence": "Direct visual review of two actual game originals and previous helicopter shortcut: distinctive blue cockpit with red-orange outline. Crop excludes rotor, ready check badge, count and surrounding animation.",
+            "scope": "google_play_windows native 1578x1268; bottom helicopter shortcut; translation only"
+          },
+          "mode": "static",
+          "locator": {
+            "schema": 1,
+            "searchBox": {
+              "x": 1090,
+              "y": 975,
+              "width": 230,
+              "height": 215
+            }
+          }
+        },
+        "sourceRegistered": true,
+        "closeResultRegistered": true,
+        "marketAlternates": [
+          {
+            "file": "native-1578-town-current-market-awning.png",
+            "sha256": "3f9debb7830a02e038326cf9f4faae68a5e4e8182b2e407e9dcf3aba88e0ef74",
+            "sourceHash": "8f1fc5d903537bb858b74268d5796a8004f6e0acab266291e11d35eb00aa0ff8",
+            "box": {
+              "x": 420,
+              "y": 710,
+              "width": 30,
+              "height": 15
+            },
+            "layoutIds": [
+              "native-market-1578-20261006"
+            ],
+            "locator": {
+              "schema": 1,
+              "searchBox": {
+                "x": 128,
+                "y": 188,
+                "width": 1448,
+                "height": 970
+              }
+            }
+          },
+          {
+            "file": "native-1578-town-market-20261006-resume-awning.png",
+            "sha256": "8c3ebee23b32719e8716b60a509e5340192c124c386b097ff90b9bb38966814f",
+            "box": {
+              "x": 433,
+              "y": 594,
+              "width": 30,
+              "height": 15
+            },
+            "sourceHash": "8a9e7f9f876900ac0e515006007f3c823a5292e0d032f4cea086026ffc3b7cba",
+            "locator": {
+              "schema": 1,
+              "searchBox": {
+                "x": 128,
+                "y": 188,
+                "width": 1448,
+                "height": 970
+              }
+            }
+          },
+          {
+            "file": "native-1578-town-market-awning-20261007.png",
+            "sha256": "9ec6edbad9c71b519b88c1e4bdd283b9973ec1b249017f68eab1c2843cd25932",
+            "box": {
+              "x": 403,
+              "y": 597,
+              "width": 44,
+              "height": 24
+            },
+            "sourceHash": "88cd45a19b8d7989202e5a7f1c1cfd5748ad49bb55c45114b142a210be98381d",
+            "sourceFrameId": "frame-e2ca01a3-8090-456c-87cb-ec22ad4a326c",
+            "sourceEvidenceFile": "C:\\Users\\djfal\\OneDrive\\문서\\ChatGPT\\Township\\market-navigation-registration-20261007\\current-source.png",
+            "layoutIds": [
+              "native-market-1578-20261006"
+            ],
+            "dimensions": {
+              "width": 1578,
+              "height": 1268
+            },
+            "locator": {
+              "schema": 1,
+              "searchBox": {
+                "x": 128,
+                "y": 188,
+                "width": 1448,
+                "height": 970
+              }
+            }
+          },
+          {
+            "file": "capacity-market-entry.png",
+            "sha256": "a90dd1a5671d0f34096e35693a864e2fc504e304e3604d629f8f925c32ed835d",
+            "box": {
+              "x": 403,
+              "y": 597,
+              "width": 44,
+              "height": 24
+            },
+            "source": {
+              "file": "capacity-original-town-final.png",
+              "sha256": "f885de1644e44d1c1413bce956770f1750ffa3395a197de348af57e28c3a47a1",
+              "frameId": "town-final",
+              "dimensions": {
+                "width": 1578,
+                "height": 1268
+              },
+              "cropBox": {
+                "x": 403,
+                "y": 597,
+                "width": 44,
+                "height": 24
+              }
+            },
+            "mode": "static",
+            "locator": {
+              "schema": 1,
+              "searchBox": {
+                "x": 128,
+                "y": 188,
+                "width": 1448,
+                "height": 970
+              }
+            }
+          }
+        ]
+      },
+      "helicopterExit": {
+        "anchors": [
+          {
+            "file": "native-1578-helicopter-title.png",
+            "sha256": "1376ed4e428e5efbb7b898efd8c32c8b84c89d5853d1b85706432ddf360f055e",
+            "sourceHash": "105a60581025e20466859fb788e07179f111fa513e03537ecfbb3994ec08c723",
+            "box": {
+              "x": 636,
+              "y": 302,
+              "width": 440,
+              "height": 51
+            },
+            "layoutIds": [
+              "native-market-1578-20261006"
+            ]
+          },
+          {
+            "file": "native-1578-helicopter-details.png",
+            "sha256": "acf38c7157f549e32c6a8b762c5f0dcd252d8122ad9472ee77bd012ce064a0bc",
+            "sourceHash": "105a60581025e20466859fb788e07179f111fa513e03537ecfbb3994ec08c723",
+            "box": {
+              "x": 1248,
+              "y": 382,
+              "width": 270,
+              "height": 36
+            },
+            "layoutIds": [
+              "native-market-1578-20261006"
+            ]
+          }
+        ],
+        "close": {
+          "file": "native-1578-helicopter-close.png",
+          "sha256": "38cb4f1ccec9d605dc6bc00c0ebf501bbbc9805533cb67ba6d80e4ad03722367",
+          "sourceHash": "105a60581025e20466859fb788e07179f111fa513e03537ecfbb3994ec08c723",
+          "box": {
+            "x": 1285,
+            "y": 307,
+            "width": 42,
+            "height": 40
+          },
+          "layoutIds": [
+            "native-market-1578-20261006"
+          ],
+          "locator": {
+            "schema": 1,
+            "searchBox": {
+              "x": 1221,
+              "y": 243,
+              "width": 170,
+              "height": 168
+            }
+          },
+          "mode": "static"
+        },
+        "sourceRegistered": true
+      },
+      "evidence": [
+        {
+          "role": "entry",
+          "frameId": "frame-d0d9d97d-e1de-402c-a355-18e2ac17f8ca",
+          "file": "native-1578-original-entry.png",
+          "sha256": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+          "dimensions": {
+            "width": 1578,
+            "height": 1268
+          }
+        },
+        {
+          "role": "no-motion",
+          "frameId": "frame-6bbb2230-9951-419a-8fdd-2adbd51239c6",
+          "file": "native-1578-original-no-motion.png",
+          "sha256": "7313c38e5fa15d0443adcd8d1f8c8bb7fee155301bf3982a4185b1ea525965f9",
+          "dimensions": {
+            "width": 1578,
+            "height": 1268
+          }
+        },
+        {
+          "role": "moved",
+          "frameId": "frame-ba26750d-dacf-470b-a182-76ced3848f77",
+          "file": "native-1578-original-moved.png",
+          "sha256": "45730c8d0bdd25f011b2d0b1823357f006e97bde20640f13fc73801e8666dd7b",
+          "dimensions": {
+            "width": 1578,
+            "height": 1268
+          }
+        },
+        {
+          "role": "town-entry",
+          "frameId": "frame-5c9dcd38-60de-420a-8c19-63c205e94a03",
+          "file": "native-1578-original-town-entry.png",
+          "sha256": "3abd6f2c9a76125e0594627e50cf9f9eac0e6998768f549dd4a60f78b1e68428",
+          "dimensions": {
+            "width": 1578,
+            "height": 1268
+          }
+        },
+        {
+          "role": "town-close",
+          "frameId": "frame-a7e41fa9-55f8-45e4-a8b2-7372ebdd49e4",
+          "file": "native-1578-original-town-close.png",
+          "sha256": "a02c034518cb60a106ea07d7743746511769cdb32ed70666f385cfaf6edc794e",
+          "dimensions": {
+            "width": 1578,
+            "height": 1268
+          }
+        },
+        {
+          "role": "helicopter",
+          "frameId": "frame-9f32c34f-6eaa-4151-b495-7912ca1f4465",
+          "file": "native-1578-original-helicopter.png",
+          "sha256": "105a60581025e20466859fb788e07179f111fa513e03537ecfbb3994ec08c723",
+          "dimensions": {
+            "width": 1578,
+            "height": 1268
+          }
+        },
+        {
+          "role": "overscroll-source",
+          "frameId": "frame-838aed91-c1e5-4512-ae1b-bdf73fcf8bae",
+          "file": "native-1578-original-overscroll-source.png",
+          "sha256": "dec63c655a724a08483adbd0e5b301d846d5f54ff05833c76ced31758d44976f",
+          "dimensions": {
+            "width": 1578,
+            "height": 1268
+          }
+        },
+        {
+          "role": "slow-source",
+          "frameId": "frame-ffbf3b3a-5249-416d-a033-94bd89f30a6a",
+          "file": "native-1578-original-slow-source.png",
+          "sha256": "95c1458a424251c44eec044dbe03ea4f099bd57eb1c79b0a67849e77499306c8",
+          "dimensions": {
+            "width": 1578,
+            "height": 1268
+          }
+        },
+        {
+          "role": "slow-result",
+          "frameId": "frame-07aaaae3-4534-45a4-9e05-c92cbf4480e8",
+          "file": "native-1578-original-slow-result.png",
+          "sha256": "a0f93a5d7e44a721dce35a71a5ce5335e60280d7a7406fed6b73453f88cb80da",
+          "dimensions": {
+            "width": 1578,
+            "height": 1268
+          }
+        }
+      ],
+      "evidenceLimitations": [
+        "No live same-cell purchase-to-SOLD result.",
+        "Product identity reuses bounded existing thresholds and abstains outside them."
+      ],
+      "registrationEvidenceScope": "Native original entry, overlap, close and order navigation; common SOLD and error results include explicitly synthetic fixtures. Natural needed purchase result remains live acceptance work.",
+      "fieldGeometry": {
+        "card": {
+          "schema": 1,
+          "space": "market_card",
+          "dimensions": {
+            "width": 181,
+            "height": 202
+          },
+          "origin": {
+            "x": 0,
+            "y": 28
+          },
+          "iconBox": {
+            "x": 7,
+            "y": 0,
+            "width": 174,
+            "height": 140
+          },
+          "quantityBox": {
+            "x": 68,
+            "y": 79,
+            "width": 96,
+            "height": 40
+          },
+          "purchaseBox": {
+            "x": 7,
+            "y": 131,
+            "width": 157,
+            "height": 66
+          },
+          "priceBox": {
+            "x": 66,
+            "y": 137,
+            "width": 96,
+            "height": 52
+          }
+        },
+        "currency": {
+          "schema": 1,
+          "space": "market_coin",
+          "dimensions": {
+            "width": 38,
+            "height": 43
+          },
+          "origin": {
+            "x": 8,
+            "y": 9
+          },
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 38,
+            "height": 43
+          }
+        }
+      },
+      "firstColumnOffset": {
+        "x": 18,
+        "y": 0
+      },
+      "capacityObservation": {
+        "schema": 1,
+        "dimensions": {
+          "width": 1578,
+          "height": 1268
+        },
+        "barnEntry": {
+          "file": "capacity-entry.png",
+          "sha256": "0f3f3643765808c826ce8ae3c843850380f07562dd2fca6b039b8c7b5de6678e",
+          "box": {
+            "x": 840,
+            "y": 405,
+            "width": 42,
+            "height": 31
+          },
+          "source": {
+            "file": "capacity-original-town-before-barn.png",
+            "sha256": "425fae888cc8e7a388d6fd744dd235cb28a1e183515c74701b86605440ec5a96",
+            "frameId": "town-before-barn",
+            "dimensions": {
+              "width": 1578,
+              "height": 1268
+            },
+            "cropBox": {
+              "x": 840,
+              "y": 405,
+              "width": 42,
+              "height": 31
+            }
+          }
+        },
+        "anchors": [
+          {
+            "file": "capacity-title.png",
+            "sha256": "dc6e3a880748bd01c2efa78e5f87e0f04b9350df5d1e223c739768b948dfe9f2",
+            "box": {
+              "x": 780,
+              "y": 328,
+              "width": 150,
+              "height": 40
+            },
+            "source": {
+              "file": "capacity-original-barn-open.png",
+              "sha256": "eea13f6e6e4b647a16afc80b53166b139c690987ea3f1e0c17dc2bd3a4615c1a",
+              "frameId": "barn-open",
+              "dimensions": {
+                "width": 1578,
+                "height": 1268
+              },
+              "cropBox": {
+                "x": 780,
+                "y": 328,
+                "width": 150,
+                "height": 40
+              }
+            }
+          },
+          {
+            "file": "capacity-caption.png",
+            "sha256": "5690c270667f3069b3ea51df3e6db8bb2fc5d6b3ca661641e3f8b22b65e13253",
+            "box": {
+              "x": 586,
+              "y": 969,
+              "width": 174,
+              "height": 32
+            },
+            "source": {
+              "file": "capacity-original-barn-open.png",
+              "sha256": "eea13f6e6e4b647a16afc80b53166b139c690987ea3f1e0c17dc2bd3a4615c1a",
+              "frameId": "barn-open",
+              "dimensions": {
+                "width": 1578,
+                "height": 1268
+              },
+              "cropBox": {
+                "x": 586,
+                "y": 969,
+                "width": 174,
+                "height": 32
+              }
+            }
+          }
+        ],
+        "close": {
+          "file": "capacity-close.png",
+          "sha256": "f13b704b05702f6e50b6310b7a6eee920c12f4cb1ab065677b982c613a9ce85c",
+          "box": {
+            "x": 1308,
+            "y": 324,
+            "width": 44,
+            "height": 44
+          },
+          "source": {
+            "file": "capacity-original-barn-open.png",
+            "sha256": "eea13f6e6e4b647a16afc80b53166b139c690987ea3f1e0c17dc2bd3a4615c1a",
+            "frameId": "barn-open",
+            "dimensions": {
+              "width": 1578,
+              "height": 1268
+            },
+            "cropBox": {
+              "x": 1308,
+              "y": 324,
+              "width": 44,
+              "height": 44
+            }
+          }
+        },
+        "capacityBox": {
+          "x": 773,
+          "y": 960,
+          "width": 155,
+          "height": 45
+        },
+        "barnEntryAlternates": [
+          {
+            "file": "capacity-entry-gable-374eb377.png",
+            "sha256": "c7efab91049702ab6a92a2186ef418b894c7fe4a5fb0930a9da1f525bfb06fad",
+            "box": {
+              "x": 930,
+              "y": 334,
+              "width": 50,
+              "height": 43
+            },
+            "mode": "static",
+            "locator": {
+              "schema": 1,
+              "searchBox": {
+                "x": 700,
+                "y": 260,
+                "width": 350,
+                "height": 220
+              }
+            },
+            "source": {
+              "file": "capacity-original-town-barn-374eb377.png",
+              "sha256": "0f2a3bda3a40a86357548f4f81a2de950ad4da8c1164154062e55de7303db668",
+              "frameId": "frame-374eb377-32f6-4b30-aa45-81689b4d92f7",
+              "dimensions": {
+                "width": 1578,
+                "height": 1268
+              },
+              "cropBox": {
+                "x": 930,
+                "y": 334,
+                "width": 50,
+                "height": 43
+              },
+              "identityReviewedBy": "AI manager /root/manager_cycle2_followup",
+              "programReviewPresent": true,
+              "identityEvidence": "Same barn in actual sources: green tiered roof, red facade, white gable window and double doors; legacy registered result visibly titled BARN.",
+              "reviewScope": "AI visual identity observation; latest source has no program review; no new barn opening action/result proof",
+              "scope": "google_play_windows native 1578x1268 town; static gable window; translation only",
+              "dynamicElementsExcluded": [
+                "numbers",
+                "characters",
+                "sparkles",
+                "products",
+                "selection effects"
+              ]
+            }
+          },
+          {
+            "file": "capacity-entry-gable-8e4119f9.png",
+            "sha256": "5b214ccbfeddb23ced03eb4f265268a6d44e5f2aa38692192d949e7e55134658",
+            "box": {
+              "x": 930,
+              "y": 334,
+              "width": 50,
+              "height": 43
+            },
+            "mode": "static",
+            "locator": {
+              "schema": 1,
+              "searchBox": {
+                "x": 700,
+                "y": 260,
+                "width": 350,
+                "height": 220
+              }
+            },
+            "source": {
+              "file": "capacity-original-town-barn-8e4119f9.png",
+              "sha256": "4d6b606c221da0bfe17f7169fdf9f0c4b8b7d035999b25a4714e42e176947afc",
+              "frameId": "frame-8e4119f9-bde4-4fbb-be7f-7acd70b8c18f",
+              "dimensions": {
+                "width": 1578,
+                "height": 1268
+              },
+              "cropBox": {
+                "x": 930,
+                "y": 334,
+                "width": 50,
+                "height": 43
+              },
+              "identityReviewedBy": "AI manager /root/manager_cycle2_followup",
+              "programReviewPresent": false,
+              "identityEvidence": "Same barn in actual sources: green tiered roof, red facade, white gable window and double doors; legacy registered result visibly titled BARN.",
+              "reviewScope": "AI visual identity observation; latest source has no program review; no new barn opening action/result proof",
+              "scope": "google_play_windows native 1578x1268 town; static gable window; translation only",
+              "dynamicElementsExcluded": [
+                "numbers",
+                "characters",
+                "sparkles",
+                "products",
+                "selection effects"
+              ]
+            }
+          },
+          {
+            "file": "capacity-entry-gable-33e7fcc3.png",
+            "sha256": "afc76ee4912f6b19c7481b50b841d4ac257ba9bf39bd2b30d8130e8c67e67e19",
+            "box": {
+              "x": 918,
+              "y": 360,
+              "width": 50,
+              "height": 43
+            },
+            "mode": "static",
+            "locator": {
+              "schema": 1,
+              "searchBox": {
+                "x": 700,
+                "y": 260,
+                "width": 350,
+                "height": 220
+              }
+            },
+            "source": {
+              "file": "capacity-original-town-barn-33e7fcc3.png",
+              "sha256": "89d6e47311b930ccce47cf1ab443ffa4ffc6edd3f12335a0e0f656265a9767a7",
+              "frameId": "frame-33e7fcc3-71d6-4c90-8a80-5d06c907f637",
+              "dimensions": {
+                "width": 1578,
+                "height": 1268
+              },
+              "cropBox": {
+                "x": 918,
+                "y": 360,
+                "width": 50,
+                "height": 43
+              },
+              "identityReviewedBy": "AI manager /root",
+              "programReviewPresent": false,
+              "identityEvidence": "Actual town screenshot: same red barn with green tiered roof, white gable window, and white double doors; the crop contains the static front gable window.",
+              "scope": "google_play_windows native 1578x1268 town; current static gable; translation only",
+              "dynamicElementsExcluded": [
+                "numbers",
+                "characters",
+                "sparkles",
+                "products",
+                "selection effects"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "assets": [
+    {
+      "file": "market-1-title.png",
+      "sha256": "a980d4465056f7af731db8f73d8fbabe42768baa014bf38342e02140e43ef73d",
+      "box": {
+        "x": 551,
+        "y": 140,
+        "width": 349,
+        "height": 42
+      }
+    },
+    {
+      "file": "market-1-close.png",
+      "sha256": "477a91cc60df7abdb8b9b24427025baa12fc656687eaf3d13a2d474032a40dfc",
+      "box": {
+        "x": 1154,
+        "y": 140,
+        "width": 39,
+        "height": 40
+      }
+    },
+    {
+      "file": "market-1-refreshCaption.png",
+      "sha256": "b7f658af8c6dffce45d853b6e4815046fea8e99465d5e9da37068ba13c145139",
+      "box": {
+        "x": 518,
+        "y": 789,
+        "width": 263,
+        "height": 32
+      }
+    },
+    {
+      "file": "market-2-title.png",
+      "sha256": "6ea2eb2c59b206fc26a4b87406a7ecf75c320fa463dce1346aa12f60310b131d",
+      "box": {
+        "x": 559,
+        "y": 143,
+        "width": 348,
+        "height": 39
+      }
+    },
+    {
+      "file": "market-2-close.png",
+      "sha256": "477a91cc60df7abdb8b9b24427025baa12fc656687eaf3d13a2d474032a40dfc",
+      "box": {
+        "x": 1162,
+        "y": 142,
+        "width": 39,
+        "height": 40
+      }
+    },
+    {
+      "file": "market-2-refreshCaption.png",
+      "sha256": "c274bdd5b9bc1f5f20d78c65a00b779b9f1c285abbe355ebfdfd81dbd1d0c2be",
+      "box": {
+        "x": 526,
+        "y": 790,
+        "width": 264,
+        "height": 33
+      }
+    },
+    {
+      "file": "market-3-title.png",
+      "sha256": "f8658d544f234af65fbb5db6dd7143f2c47398eeca252c183b9205ac55ea6cf6",
+      "box": {
+        "x": 558,
+        "y": 136,
+        "width": 348,
+        "height": 41
+      }
+    },
+    {
+      "file": "market-3-close.png",
+      "sha256": "477a91cc60df7abdb8b9b24427025baa12fc656687eaf3d13a2d474032a40dfc",
+      "box": {
+        "x": 1161,
+        "y": 135,
+        "width": 39,
+        "height": 40
+      }
+    },
+    {
+      "file": "market-3-refreshCaption.png",
+      "sha256": "c274bdd5b9bc1f5f20d78c65a00b779b9f1c285abbe355ebfdfd81dbd1d0c2be",
+      "box": {
+        "x": 525,
+        "y": 783,
+        "width": 264,
+        "height": 33
+      }
+    },
+    {
+      "role": "coin",
+      "file": "coin.png",
+      "sha256": "112f8858ff496c02f7d73711964f12068dc32c25a8dbf4f7f13443d45bf94b2b",
+      "sourceHash": "209f9192838db473728c9a90862ef0fc286f42592c0ec3f9deed62268a285643",
+      "box": {
+        "x": 751,
+        "y": 453,
+        "width": 20,
+        "height": 24
+      },
+      "cardOffset": {
+        "x": 39,
+        "y": 123
+      }
+    },
+    {
+      "role": "sold",
+      "file": "sold.png",
+      "sha256": "d84fc4a78c601608634747e1cd61e3bc3b9ba878b030e9b51301cba30edf1974",
+      "sourceHash": "317509e993f8b2709d8cfe42304349425d3b5ba10e9d8ce999766a51eeab0ec3",
+      "box": {
+        "x": 980,
+        "y": 574,
+        "width": 90,
+        "height": 32
+      },
+      "cardOffset": {
+        "x": 35,
+        "y": 17
+      }
+    },
+    {
+      "role": "plus",
+      "file": "plus.png",
+      "sha256": "d6bf7ba0680b619f25e58f4d3395e4f69b56fd2ae24baef5ecfb38cc1556c0ee",
+      "sourceHash": "87b07c72d727feff1caeb98799d8be98ea4ef1e78d8c0b9c66b5776592f42bf6",
+      "box": {
+        "x": 1205,
+        "y": 342,
+        "width": 62,
+        "height": 62
+      }
+    },
+    {
+      "role": "sale",
+      "file": "sale.png",
+      "sha256": "279eeceadeec2ce1092dd92939c0569be76d5405a1a715e7a9484f86fb0282d9",
+      "sourceHash": "209f9192838db473728c9a90862ef0fc286f42592c0ec3f9deed62268a285643",
+      "box": {
+        "x": 535,
+        "y": 304,
+        "width": 128,
+        "height": 34
+      }
+    },
+    {
+      "role": "coin",
+      "file": "coin-1-556-682.png",
+      "sha256": "4639b12b838b1a42f0e3d0cce8a9f361c6883d1373705af9314a73ee39a48b36",
+      "sourceHash": "209f9192838db473728c9a90862ef0fc286f42592c0ec3f9deed62268a285643",
+      "box": {
+        "x": 556,
+        "y": 682,
+        "width": 20,
+        "height": 24
+      },
+      "cardOffset": {
+        "x": 39,
+        "y": 123
+      }
+    },
+    {
+      "role": "coin",
+      "file": "coin-1-746-682.png",
+      "sha256": "fc309caa46012d0adc7e89bd3cb28abeb47573c64a6564df18dd69cae3498316",
+      "sourceHash": "209f9192838db473728c9a90862ef0fc286f42592c0ec3f9deed62268a285643",
+      "box": {
+        "x": 746,
+        "y": 682,
+        "width": 20,
+        "height": 24
+      },
+      "cardOffset": {
+        "x": 39,
+        "y": 123
+      }
+    },
+    {
+      "role": "coin",
+      "file": "coin-2-595-452.png",
+      "sha256": "ab889d423a09fb9882c73f3900b6aefc360710e830fc149646c2c923b8619a30",
+      "sourceHash": "317509e993f8b2709d8cfe42304349425d3b5ba10e9d8ce999766a51eeab0ec3",
+      "box": {
+        "x": 595,
+        "y": 452,
+        "width": 20,
+        "height": 24
+      },
+      "cardOffset": {
+        "x": 39,
+        "y": 123
+      }
+    },
+    {
+      "role": "coin",
+      "file": "coin-2-589-682.png",
+      "sha256": "e847d2234fbcd16b458e26ee1db74b77295ac61d51c9605b0181ce8918a90620",
+      "sourceHash": "317509e993f8b2709d8cfe42304349425d3b5ba10e9d8ce999766a51eeab0ec3",
+      "box": {
+        "x": 589,
+        "y": 682,
+        "width": 20,
+        "height": 24
+      },
+      "cardOffset": {
+        "x": 39,
+        "y": 123
+      }
+    },
+    {
+      "role": "coin",
+      "file": "coin-2-787-682.png",
+      "sha256": "0df19258a9086d6adf3516372895c18105214d568bded6ad4031b0869896a54a",
+      "sourceHash": "317509e993f8b2709d8cfe42304349425d3b5ba10e9d8ce999766a51eeab0ec3",
+      "box": {
+        "x": 787,
+        "y": 682,
+        "width": 20,
+        "height": 24
+      },
+      "cardOffset": {
+        "x": 39,
+        "y": 123
+      }
+    },
+    {
+      "role": "sold",
+      "file": "sold-2-1172-347.png",
+      "sha256": "9c8ba9d6bb11b47c5b75c744bd2e28446248b1f0ea458884fe54f755885f1e19",
+      "sourceHash": "317509e993f8b2709d8cfe42304349425d3b5ba10e9d8ce999766a51eeab0ec3",
+      "box": {
+        "x": 1172,
+        "y": 347,
+        "width": 90,
+        "height": 32
+      },
+      "cardOffset": {
+        "x": 35,
+        "y": 17
+      }
+    },
+    {
+      "file": "native-1578-title.png",
+      "sha256": "6fbf54afe13be54c25852c80aabf20c981dd237e370959d2fc8c6bad429483c0",
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+      "box": {
+        "x": 795,
+        "y": 321,
+        "width": 238,
+        "height": 42
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ]
+    },
+    {
+      "file": "native-1578-close.png",
+      "sha256": "77f05fb336f66b4d7608f5db0c1bb7bbaea6a32651e76d166a85f0ede212a875",
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+      "box": {
+        "x": 1297,
+        "y": 332,
+        "width": 14,
+        "height": 15
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ]
+    },
+    {
+      "file": "native-1578-refresh-caption.png",
+      "sha256": "ad0ed43512924effacd66c9bd77e8e5f1114bfb054f9cfcbb50fa7af3961ef43",
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+      "box": {
+        "x": 651,
+        "y": 970,
+        "width": 263,
+        "height": 32
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ]
+    },
+    {
+      "file": "native-1578-offer-border-0.png",
+      "sha256": "1d835493516ae5c2dfd2c91133ec0d5e46007fa9d19c695b43e5f00cfb86f030",
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+      "box": {
+        "x": 843,
+        "y": 607,
+        "width": 174,
+        "height": 76
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ],
+      "maskExcludeBoxes": [
+        {
+          "x": 8,
+          "y": 9,
+          "width": 158,
+          "height": 59
+        }
+      ],
+      "cardOffset": {
+        "x": 0,
+        "y": 96
+      },
+      "role": "offer_structure"
+    },
+    {
+      "file": "native-1578-offer-border-1.png",
+      "sha256": "f34392a37db370420dca006aee03ae45d0e930250a3c01dfb8ca7ab1dfd541ab",
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+      "box": {
+        "x": 843,
+        "y": 835,
+        "width": 174,
+        "height": 76
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ],
+      "maskExcludeBoxes": [
+        {
+          "x": 8,
+          "y": 9,
+          "width": 158,
+          "height": 59
+        }
+      ],
+      "cardOffset": {
+        "x": 0,
+        "y": 97
+      },
+      "role": "offer_structure"
+    },
+    {
+      "file": "native-1578-coin-0.png",
+      "sha256": "585482507a8b24a17e61e126d5ee5d20713cf0cc9ed9aefb317e80d9bfd6d3d3",
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+      "box": {
+        "x": 884,
+        "y": 634,
+        "width": 20,
+        "height": 24
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ],
+      "cardOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "role": "coin"
+    },
+    {
+      "file": "native-1578-coin-1.png",
+      "sha256": "6feace7b130aecd308719c19668760ebe7b88dca41b3c139dec1b8fdd15c5d26",
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+      "box": {
+        "x": 1075,
+        "y": 634,
+        "width": 20,
+        "height": 24
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ],
+      "cardOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "role": "coin"
+    },
+    {
+      "file": "native-1578-coin-2.png",
+      "sha256": "bb9d73255f62a2767eba639e2dcb78caaf6e8c69e0ff5993e8a609bd2af0584a",
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+      "box": {
+        "x": 1267,
+        "y": 634,
+        "width": 20,
+        "height": 24
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ],
+      "cardOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "role": "coin"
+    },
+    {
+      "file": "native-1578-coin-3.png",
+      "sha256": "c048398a3d45f63b38e688f3542e74928b8534c4c9102964424e31b9fa922f2e",
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+      "box": {
+        "x": 870,
+        "y": 862,
+        "width": 20,
+        "height": 24
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ],
+      "cardOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "role": "coin"
+    },
+    {
+      "file": "native-1578-coin-4.png",
+      "sha256": "7b565ed027c6356ec88d9d104f0ff84d3bea4b4fdb902e23b7763d114774a3b2",
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+      "box": {
+        "x": 1066,
+        "y": 862,
+        "width": 20,
+        "height": 24
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ],
+      "cardOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "role": "coin"
+    },
+    {
+      "file": "native-1578-coin-5.png",
+      "sha256": "fc170b6f2edb78bfda04c7aa24401a6e178bbf7d2fc773f22f8b8855b9b65238",
+      "sourceHash": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+      "box": {
+        "x": 1257,
+        "y": 862,
+        "width": 20,
+        "height": 24
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ],
+      "cardOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "role": "coin"
+    },
+    {
+      "file": "native-1578-town-avatar-top-left.png",
+      "sha256": "b9e4119f45b8cd2fb68402434532d3bc3b096ecfe99801d29bef1963f04e34c6",
+      "sourceHash": "3abd6f2c9a76125e0594627e50cf9f9eac0e6998768f549dd4a60f78b1e68428",
+      "box": {
+        "x": 171,
+        "y": 222,
+        "width": 10,
+        "height": 10
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ]
+    },
+    {
+      "file": "native-1578-town-avatar-bottom-left.png",
+      "sha256": "8af5d274e5af117ddea4335c4886cef232e10146ea9af6b2bf9f5c25ff7630c6",
+      "sourceHash": "3abd6f2c9a76125e0594627e50cf9f9eac0e6998768f549dd4a60f78b1e68428",
+      "box": {
+        "x": 172,
+        "y": 310,
+        "width": 7,
+        "height": 10
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ]
+    },
+    {
+      "file": "native-1578-town-avatar-bottom-right.png",
+      "sha256": "1c5fc59997378509b598f82c4810dc3a503164a8338fbfc22eb1870998298e52",
+      "sourceHash": "3abd6f2c9a76125e0594627e50cf9f9eac0e6998768f549dd4a60f78b1e68428",
+      "box": {
+        "x": 270,
+        "y": 315,
+        "width": 8,
+        "height": 8
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ]
+    },
+    {
+      "file": "native-1578-town-menu.png",
+      "sha256": "dbdc34d8a111c9c225879253db6155104781cdbfe8021fc809689382ef06b738",
+      "sourceHash": "3abd6f2c9a76125e0594627e50cf9f9eac0e6998768f549dd4a60f78b1e68428",
+      "box": {
+        "x": 1506,
+        "y": 237,
+        "width": 30,
+        "height": 28
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ]
+    },
+    {
+      "file": "native-1578-town-market-awning.png",
+      "sha256": "a245696a235cc8ea3f708831092e2bb6cfa4cc3f8344e491eece88a2619d80bb",
+      "sourceHash": "3abd6f2c9a76125e0594627e50cf9f9eac0e6998768f549dd4a60f78b1e68428",
+      "box": {
+        "x": 390,
+        "y": 601,
+        "width": 40,
+        "height": 18
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ]
+    },
+    {
+      "file": "native-1578-town-helicopter-shortcut.png",
+      "sha256": "6c7150f0efdd919e2ad4e73a03717b02122336df36f2033650d3130d5ec964a0",
+      "sourceHash": "3abd6f2c9a76125e0594627e50cf9f9eac0e6998768f549dd4a60f78b1e68428",
+      "box": {
+        "x": 1183,
+        "y": 1047,
+        "width": 44,
+        "height": 41
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ]
+    },
+    {
+      "file": "native-1578-helicopter-title.png",
+      "sha256": "1376ed4e428e5efbb7b898efd8c32c8b84c89d5853d1b85706432ddf360f055e",
+      "sourceHash": "105a60581025e20466859fb788e07179f111fa513e03537ecfbb3994ec08c723",
+      "box": {
+        "x": 636,
+        "y": 302,
+        "width": 440,
+        "height": 51
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ]
+    },
+    {
+      "file": "native-1578-helicopter-details.png",
+      "sha256": "acf38c7157f549e32c6a8b762c5f0dcd252d8122ad9472ee77bd012ce064a0bc",
+      "sourceHash": "105a60581025e20466859fb788e07179f111fa513e03537ecfbb3994ec08c723",
+      "box": {
+        "x": 1248,
+        "y": 382,
+        "width": 270,
+        "height": 36
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ]
+    },
+    {
+      "file": "native-1578-helicopter-close.png",
+      "sha256": "38cb4f1ccec9d605dc6bc00c0ebf501bbbc9805533cb67ba6d80e4ad03722367",
+      "sourceHash": "105a60581025e20466859fb788e07179f111fa513e03537ecfbb3994ec08c723",
+      "box": {
+        "x": 1285,
+        "y": 307,
+        "width": 42,
+        "height": 40
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ]
+    },
+    {
+      "file": "native-1578-town-static-bottom-border.png",
+      "sha256": "6d80c9cf15cd1ca4da4853aab2617b669e4d7e61d15760bee37a94897e860de2",
+      "sourceHash": "8f1fc5d903537bb858b74268d5796a8004f6e0acab266291e11d35eb00aa0ff8",
+      "box": {
+        "x": 250,
+        "y": 324,
+        "width": 18,
+        "height": 7
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ]
+    },
+    {
+      "file": "native-1578-town-static-right-border.png",
+      "sha256": "35302073413578c4a16ede8d7a9038cc98c9be16caa9f38a083cc28ecf9e88e6",
+      "sourceHash": "8f1fc5d903537bb858b74268d5796a8004f6e0acab266291e11d35eb00aa0ff8",
+      "box": {
+        "x": 279,
+        "y": 283,
+        "width": 7,
+        "height": 7
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ]
+    },
+    {
+      "file": "native-1578-town-static-top-border.png",
+      "sha256": "5eef251f48d85f8c70cd9a9fb9c9271f0b1c8d9794854336b465c97cc143a3b7",
+      "sourceHash": "8f1fc5d903537bb858b74268d5796a8004f6e0acab266291e11d35eb00aa0ff8",
+      "box": {
+        "x": 265,
+        "y": 222,
+        "width": 7,
+        "height": 7
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ]
+    },
+    {
+      "file": "native-1578-town-current-market-awning.png",
+      "sha256": "3f9debb7830a02e038326cf9f4faae68a5e4e8182b2e407e9dcf3aba88e0ef74",
+      "sourceHash": "8f1fc5d903537bb858b74268d5796a8004f6e0acab266291e11d35eb00aa0ff8",
+      "box": {
+        "x": 420,
+        "y": 710,
+        "width": 30,
+        "height": 15
+      },
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ]
+    },
+    {
+      "file": "native-1578-town-market-20261006-resume-awning.png",
+      "sha256": "8c3ebee23b32719e8716b60a509e5340192c124c386b097ff90b9bb38966814f",
+      "box": {
+        "x": 433,
+        "y": 594,
+        "width": 30,
+        "height": 15
+      },
+      "sourceHash": "8a9e7f9f876900ac0e515006007f3c823a5292e0d032f4cea086026ffc3b7cba"
+    },
+    {
+      "file": "user-town-town-hardhat.png",
+      "sha256": "9449462abf842d00cdc2381bf558f39de5b1636aae50a14da551d4395315a2a1"
+    },
+    {
+      "file": "user-town-helicopter.png",
+      "sha256": "ad27cbf7b0146a3d4610c9385d18a3f048fdeceacc0570fe21849b338a1e4f1e"
+    },
+    {
+      "file": "native-1578-town-market-awning-20261007.png",
+      "sha256": "9ec6edbad9c71b519b88c1e4bdd283b9973ec1b249017f68eab1c2843cd25932",
+      "box": {
+        "x": 403,
+        "y": 597,
+        "width": 44,
+        "height": 24
+      },
+      "sourceHash": "88cd45a19b8d7989202e5a7f1c1cfd5748ad49bb55c45114b142a210be98381d",
+      "sourceFrameId": "frame-e2ca01a3-8090-456c-87cb-ec22ad4a326c",
+      "sourceEvidenceFile": "C:\\Users\\djfal\\OneDrive\\문서\\ChatGPT\\Township\\market-navigation-registration-20261007\\current-source.png",
+      "layoutIds": [
+        "native-market-1578-20261006"
+      ],
+      "dimensions": {
+        "width": 1578,
+        "height": 1268
+      }
+    },
+    {
+      "file": "screenshot-1578-strawberry-entry.png",
+      "sha256": "62fb03f7996aace8d9f7cfc3620567ed684a685a2a96cbc0833a60d56d4fc47f",
+      "role": "product_screenshot"
+    },
+    {
+      "file": "screenshot-1578-honeycombs-entry.png",
+      "sha256": "1c5dff5b397b390a81d66f1cee8c3785bb84a29e4d00109d663b5684db2aa665",
+      "role": "product_screenshot"
+    },
+    {
+      "file": "screenshot-1578-cheese-entry.png",
+      "sha256": "15ece958c4ebd6bdfe794188eb3f67a321b313dbd7b31478be0a7d375afa6134",
+      "role": "product_screenshot"
+    },
+    {
+      "file": "screenshot-1578-paper-entry.png",
+      "sha256": "8f2222ea4e54778fb4075ebddb2870f53afb6ed392b1f11f32a44ca4f3300ba1",
+      "role": "product_screenshot"
+    },
+    {
+      "file": "capacity-entry.png",
+      "sha256": "0f3f3643765808c826ce8ae3c843850380f07562dd2fca6b039b8c7b5de6678e",
+      "box": {
+        "x": 840,
+        "y": 405,
+        "width": 42,
+        "height": 31
+      },
+      "source": {
+        "file": "capacity-original-town-before-barn.png",
+        "sha256": "425fae888cc8e7a388d6fd744dd235cb28a1e183515c74701b86605440ec5a96",
+        "frameId": "town-before-barn",
+        "dimensions": {
+          "width": 1578,
+          "height": 1268
+        },
+        "cropBox": {
+          "x": 840,
+          "y": 405,
+          "width": 42,
+          "height": 31
+        }
+      },
+      "role": "capacity_navigation",
+      "dimensions": {
+        "width": 1578,
+        "height": 1268
+      }
+    },
+    {
+      "file": "capacity-title.png",
+      "sha256": "dc6e3a880748bd01c2efa78e5f87e0f04b9350df5d1e223c739768b948dfe9f2",
+      "box": {
+        "x": 780,
+        "y": 328,
+        "width": 150,
+        "height": 40
+      },
+      "source": {
+        "file": "capacity-original-barn-open.png",
+        "sha256": "eea13f6e6e4b647a16afc80b53166b139c690987ea3f1e0c17dc2bd3a4615c1a",
+        "frameId": "barn-open",
+        "dimensions": {
+          "width": 1578,
+          "height": 1268
+        },
+        "cropBox": {
+          "x": 780,
+          "y": 328,
+          "width": 150,
+          "height": 40
+        }
+      },
+      "role": "capacity_navigation",
+      "dimensions": {
+        "width": 1578,
+        "height": 1268
+      }
+    },
+    {
+      "file": "capacity-caption.png",
+      "sha256": "5690c270667f3069b3ea51df3e6db8bb2fc5d6b3ca661641e3f8b22b65e13253",
+      "box": {
+        "x": 586,
+        "y": 969,
+        "width": 174,
+        "height": 32
+      },
+      "source": {
+        "file": "capacity-original-barn-open.png",
+        "sha256": "eea13f6e6e4b647a16afc80b53166b139c690987ea3f1e0c17dc2bd3a4615c1a",
+        "frameId": "barn-open",
+        "dimensions": {
+          "width": 1578,
+          "height": 1268
+        },
+        "cropBox": {
+          "x": 586,
+          "y": 969,
+          "width": 174,
+          "height": 32
+        }
+      },
+      "role": "capacity_navigation",
+      "dimensions": {
+        "width": 1578,
+        "height": 1268
+      }
+    },
+    {
+      "file": "capacity-close.png",
+      "sha256": "f13b704b05702f6e50b6310b7a6eee920c12f4cb1ab065677b982c613a9ce85c",
+      "box": {
+        "x": 1308,
+        "y": 324,
+        "width": 44,
+        "height": 44
+      },
+      "source": {
+        "file": "capacity-original-barn-open.png",
+        "sha256": "eea13f6e6e4b647a16afc80b53166b139c690987ea3f1e0c17dc2bd3a4615c1a",
+        "frameId": "barn-open",
+        "dimensions": {
+          "width": 1578,
+          "height": 1268
+        },
+        "cropBox": {
+          "x": 1308,
+          "y": 324,
+          "width": 44,
+          "height": 44
+        }
+      },
+      "role": "capacity_navigation",
+      "dimensions": {
+        "width": 1578,
+        "height": 1268
+      }
+    },
+    {
+      "file": "capacity-market-entry.png",
+      "sha256": "a90dd1a5671d0f34096e35693a864e2fc504e304e3604d629f8f925c32ed835d",
+      "box": {
+        "x": 403,
+        "y": 597,
+        "width": 44,
+        "height": 24
+      },
+      "source": {
+        "file": "capacity-original-town-final.png",
+        "sha256": "f885de1644e44d1c1413bce956770f1750ffa3395a197de348af57e28c3a47a1",
+        "frameId": "town-final",
+        "dimensions": {
+          "width": 1578,
+          "height": 1268
+        },
+        "cropBox": {
+          "x": 403,
+          "y": 597,
+          "width": 44,
+          "height": 24
+        }
+      },
+      "role": "capacity_navigation",
+      "dimensions": {
+        "width": 1578,
+        "height": 1268
+      }
+    },
+    {
+      "file": "screenshot-1578-bagel-moved-5bd58d182adf2e43.png",
+      "sha256": "5bd58d182adf2e439724b6c58e8974c33cc3c953ceb64d25da4faf48e73d5eb6",
+      "role": "product_screenshot"
+    },
+    {
+      "file": "capacity-entry-gable-374eb377.png",
+      "sha256": "c7efab91049702ab6a92a2186ef418b894c7fe4a5fb0930a9da1f525bfb06fad"
+    },
+    {
+      "file": "capacity-entry-gable-8e4119f9.png",
+      "sha256": "5b214ccbfeddb23ced03eb4f265268a6d44e5f2aa38692192d949e7e55134658"
+    },
+    {
+      "file": "town-helicopter-cockpit-c61cfaae.png",
+      "sha256": "e63578bfe5ceb50d5538825f8dd41c22d087e947cbf020bf4410e21ecdf23d1e"
+    },
+    {
+      "file": "capacity-entry-gable-33e7fcc3.png",
+      "sha256": "afc76ee4912f6b19c7481b50b841d4ac257ba9bf39bd2b30d8130e8c67e67e19"
+    },
+    {
+      "file": "capacity-original-town-barn-33e7fcc3.png",
+      "sha256": "89d6e47311b930ccce47cf1ab443ffa4ffc6edd3f12335a0e0f656265a9767a7"
+    }
+  ],
+  "nativeEvidenceMissing": [
+    "1114x735 market source",
+    "same-cell purchase to SOLD result",
+    "insufficient-coins/full-barn result modals"
+  ],
+  "navigationLocationVersion": 1,
+  "screenshotProductsOnly": true,
+  "screenshotProducts": {
+    "schema": 1,
+    "templates": [
+      {
+        "file": "screenshot-1578-strawberry-entry.png",
+        "sha256": "62fb03f7996aace8d9f7cfc3620567ed684a685a2a96cbc0833a60d56d4fc47f",
+        "role": "product_screenshot",
+        "templateId": "strawberry-market-entry-20261008",
+        "itemId": "strawberry",
+        "scene": "market",
+        "layoutId": "native-market-1578-20261006",
+        "dimensions": {
+          "width": 1578,
+          "height": 1268
+        },
+        "minimumScore": 0.97,
+        "minimumMargin": 0.1,
+        "source": {
+          "file": "native-1578-original-entry.png",
+          "sha256": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+          "frameId": "native-1578-original-entry",
+          "dimensions": {
+            "width": 1578,
+            "height": 1268
+          },
+          "cropBox": {
+            "x": 1060,
+            "y": 495,
+            "width": 120,
+            "height": 60
+          },
+          "iconBox": {
+            "x": 1042,
+            "y": 483,
+            "width": 174,
+            "height": 140
+          },
+          "quantityBox": {
+            "x": 1103,
+            "y": 562,
+            "width": 96,
+            "height": 40
+          },
+          "region": {
+            "space": "registered_capture",
+            "unit": "fraction",
+            "x": 0.6717363751584284,
+            "y": 0.39037854889589907,
+            "width": 0.07604562737642585,
+            "height": 0.0473186119873817
+          },
+          "identityReviewedBy": "AI",
+          "identityReviewDate": "2026-10-08",
+          "independentOriginal": "native-1578-original-moved.png"
+        }
+      },
+      {
+        "file": "screenshot-1578-honeycombs-entry.png",
+        "sha256": "1c5dff5b397b390a81d66f1cee8c3785bb84a29e4d00109d663b5684db2aa665",
+        "role": "product_screenshot",
+        "templateId": "honeycombs-market-entry-20261008",
+        "itemId": "honeycombs",
+        "scene": "market",
+        "layoutId": "native-market-1578-20261006",
+        "dimensions": {
+          "width": 1578,
+          "height": 1268
+        },
+        "minimumScore": 0.97,
+        "minimumMargin": 0.1,
+        "source": {
+          "file": "native-1578-original-entry.png",
+          "sha256": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+          "frameId": "native-1578-original-entry",
+          "dimensions": {
+            "width": 1578,
+            "height": 1268
+          },
+          "cropBox": {
+            "x": 1060,
+            "y": 722,
+            "width": 120,
+            "height": 60
+          },
+          "iconBox": {
+            "x": 1042,
+            "y": 710,
+            "width": 174,
+            "height": 140
+          },
+          "quantityBox": {
+            "x": 1103,
+            "y": 789,
+            "width": 96,
+            "height": 40
+          },
+          "region": {
+            "space": "registered_capture",
+            "unit": "fraction",
+            "x": 0.6717363751584284,
+            "y": 0.5694006309148265,
+            "width": 0.07604562737642585,
+            "height": 0.0473186119873817
+          },
+          "identityReviewedBy": "AI",
+          "identityReviewDate": "2026-10-08",
+          "independentOriginal": "native-1578-original-moved.png"
+        }
+      },
+      {
+        "file": "screenshot-1578-cheese-entry.png",
+        "sha256": "15ece958c4ebd6bdfe794188eb3f67a321b313dbd7b31478be0a7d375afa6134",
+        "role": "product_screenshot",
+        "templateId": "cheese-market-entry-20261008",
+        "itemId": "cheese",
+        "scene": "market",
+        "layoutId": "native-market-1578-20261006",
+        "dimensions": {
+          "width": 1578,
+          "height": 1268
+        },
+        "minimumScore": 0.97,
+        "minimumMargin": 0.1,
+        "source": {
+          "file": "native-1578-original-entry.png",
+          "sha256": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+          "frameId": "native-1578-original-entry",
+          "dimensions": {
+            "width": 1578,
+            "height": 1268
+          },
+          "cropBox": {
+            "x": 1252,
+            "y": 495,
+            "width": 120,
+            "height": 60
+          },
+          "iconBox": {
+            "x": 1234,
+            "y": 483,
+            "width": 174,
+            "height": 140
+          },
+          "quantityBox": {
+            "x": 1295,
+            "y": 562,
+            "width": 96,
+            "height": 40
+          },
+          "region": {
+            "space": "registered_capture",
+            "unit": "fraction",
+            "x": 0.7934093789607097,
+            "y": 0.39037854889589907,
+            "width": 0.07604562737642585,
+            "height": 0.0473186119873817
+          },
+          "identityReviewedBy": "AI",
+          "identityReviewDate": "2026-10-08",
+          "independentOriginal": "native-1578-original-moved.png"
+        }
+      },
+      {
+        "file": "screenshot-1578-paper-entry.png",
+        "sha256": "8f2222ea4e54778fb4075ebddb2870f53afb6ed392b1f11f32a44ca4f3300ba1",
+        "role": "product_screenshot",
+        "templateId": "paper-market-entry-20261008",
+        "itemId": "paper",
+        "scene": "market",
+        "layoutId": "native-market-1578-20261006",
+        "dimensions": {
+          "width": 1578,
+          "height": 1268
+        },
+        "minimumScore": 0.97,
+        "minimumMargin": 0.1,
+        "source": {
+          "file": "native-1578-original-entry.png",
+          "sha256": "e3b2328bde5993250196a8f1313aa199199110ea6f7f02913fbd9c2e25d5b383",
+          "frameId": "native-1578-original-entry",
+          "dimensions": {
+            "width": 1578,
+            "height": 1268
+          },
+          "cropBox": {
+            "x": 1252,
+            "y": 722,
+            "width": 120,
+            "height": 60
+          },
+          "iconBox": {
+            "x": 1234,
+            "y": 710,
+            "width": 174,
+            "height": 140
+          },
+          "quantityBox": {
+            "x": 1295,
+            "y": 789,
+            "width": 96,
+            "height": 40
+          },
+          "region": {
+            "space": "registered_capture",
+            "unit": "fraction",
+            "x": 0.7934093789607097,
+            "y": 0.5694006309148265,
+            "width": 0.07604562737642585,
+            "height": 0.0473186119873817
+          },
+          "identityReviewedBy": "AI",
+          "identityReviewDate": "2026-10-08",
+          "independentOriginal": "native-1578-original-moved.png"
+        }
+      },
+      {
+        "file": "screenshot-1578-bagel-moved-5bd58d182adf2e43.png",
+        "sha256": "5bd58d182adf2e439724b6c58e8974c33cc3c953ceb64d25da4faf48e73d5eb6",
+        "role": "product_screenshot",
+        "templateId": "bagel-market-moved-20261008",
+        "itemId": "bagel",
+        "scene": "market",
+        "layoutId": "native-market-1578-20261006",
+        "dimensions": {
+          "width": 1578,
+          "height": 1268
+        },
+        "minimumScore": 0.97,
+        "minimumMargin": 0.1,
+        "source": {
+          "file": "native-1578-original-moved.png",
+          "sha256": "45730c8d0bdd25f011b2d0b1823357f006e97bde20640f13fc73801e8666dd7b",
+          "frameId": "native-1578-original-moved",
+          "dimensions": {
+            "width": 1578,
+            "height": 1268
+          },
+          "cropBox": {
+            "x": 1270,
+            "y": 500,
+            "width": 120,
+            "height": 58
+          },
+          "iconBox": {
+            "x": 1248,
+            "y": 483,
+            "width": 174,
+            "height": 140
+          },
+          "quantityBox": {
+            "x": 1309,
+            "y": 562,
+            "width": 96,
+            "height": 40
+          },
+          "region": {
+            "space": "registered_capture",
+            "unit": "fraction",
+            "x": 0.8048162230671736,
+            "y": 0.3943217665615142,
+            "width": 0.07604562737642585,
+            "height": 0.04574132492113565
+          },
+          "identityReviewedBy": "AI",
+          "identityReviewDate": "2026-10-08",
+          "identityEvidence": {
+            "transport": "helicopter",
+            "evidenceId": "1bc6b45657c35f8c01dc4372-kh9",
+            "observedName": "BAGEL",
+            "productionText": "PRODUCED AT BAKERY / 30M",
+            "informationEvidenceFile": "C:\\Users\\djfal\\OneDrive\\문서\\ChatGPT\\Township\\미인식\\헬리콥터\\1bc6b45657c35f8c01dc4372-kh9\\info.png",
+            "informationEvidenceHash": "6c34193ed7918d3affbb147431bc390f9d4ac2cd944a755007d1dc663725318c",
+            "sourceFrameId": "frame-f21c4d0c-b783-47d6-86cc-cf98113a6b56",
+            "sourceFile": "C:\\Users\\djfal\\OneDrive\\문서\\ChatGPT\\Township\\미인식\\헬리콥터\\1bc6b45657c35f8c01dc4372-kh9\\source.png",
+            "sourceHash": "c123e690d054fa4c19504e8d22272722929c79f2c1ccec7f393f96b7666005ef",
+            "canonicalMetadataHash": "0dfb7f8fa5bdfe3f05d8748a42f66eabdc7b3037d24cb972b7a57146e998f7a7",
+            "relationship": "Prior actual helicopter tooltip identifies the same seeded brown ring artwork; market source itself contains no name tooltip."
+          },
+          "independentPositiveAvailable": false
+        }
+      }
+    ]
+  },
+  "requirePurchaseCapacity": true,
+  "percentageGeometry": {
+    "schema": 1,
+    "unit": "fraction",
+    "space": "registered_capture",
+    "canvas": {
+      "width": 1578,
+      "height": 1268
+    },
+    "entries": [
+      {
+        "path": [
+          "layouts",
+          "0",
+          "anchors",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.38184338184338185,
+          "y": 0.14271151885830785,
+          "width": 0.24185724185724186,
+          "height": 0.04281345565749235
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "anchors",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.7997227997227997,
+          "y": 0.14271151885830785,
+          "width": 0.02702702702702703,
+          "height": 0.040774719673802244
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "close",
+          "box"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.7997227997227997,
+          "y": 0.14271151885830785,
+          "width": 0.02702702702702703,
+          "height": 0.040774719673802244
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "viewport"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.3444213444213444,
+          "y": 0.3037716615698267,
+          "width": 0.5821205821205822,
+          "height": 0.44852191641182465
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "refreshCaption",
+          "box"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.358974358974359,
+          "y": 0.8042813455657493,
+          "width": 0.18225918225918225,
+          "height": 0.0326197757390418
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "refreshTimerBox"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.5835065835065835,
+          "y": 0.8012232415902141,
+          "width": 0.09147609147609148,
+          "height": 0.034658511722731905
+        }
+      },
+      {
+        "kind": "scalar",
+        "axis": "height",
+        "path": [
+          "layouts",
+          "0",
+          "rows",
+          "0"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": 0.3363914373088685
+      },
+      {
+        "kind": "scalar",
+        "axis": "height",
+        "path": [
+          "layouts",
+          "0",
+          "rows",
+          "1"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": 0.5677879714576962
+      },
+      {
+        "kind": "scalar",
+        "axis": "width",
+        "path": [
+          "layouts",
+          "0",
+          "cardWidth"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": 0.12058212058212059
+      },
+      {
+        "kind": "scalar",
+        "axis": "height",
+        "path": [
+          "layouts",
+          "0",
+          "cardHeight"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": 0.17737003058103976
+      },
+      {
+        "kind": "scalar",
+        "axis": "width",
+        "path": [
+          "layouts",
+          "0",
+          "columnPitch"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": 0.13236313236313235
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "leftmostCue",
+          "box"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.3548163548163548,
+          "y": 0.30784913353720694,
+          "width": 0.12266112266112267,
+          "height": 0.2089704383282365
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "layouts",
+          "0",
+          "fieldGeometry",
+          "card",
+          "origin"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0,
+          "y": 0.13861386138613863
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "fieldGeometry",
+          "card",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0.03867403314917127,
+          "y": 0,
+          "width": 0.9613259668508287,
+          "height": 0.693069306930693
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "fieldGeometry",
+          "card",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0.3756906077348066,
+          "y": 0.3910891089108911,
+          "width": 0.5303867403314917,
+          "height": 0.19801980198019803
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "fieldGeometry",
+          "card",
+          "purchaseBox"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0.03867403314917127,
+          "y": 0.6485148514851485,
+          "width": 0.8674033149171271,
+          "height": 0.32673267326732675
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "layouts",
+          "0",
+          "fieldGeometry",
+          "currency",
+          "origin"
+        ],
+        "canvas": {
+          "width": 38,
+          "height": 43
+        },
+        "fraction": {
+          "x": 0.21052631578947367,
+          "y": 0.20930232558139536
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "0",
+          "fieldGeometry",
+          "currency",
+          "box"
+        ],
+        "canvas": {
+          "width": 38,
+          "height": 43
+        },
+        "fraction": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "layouts",
+          "0",
+          "firstColumnOffset"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.012474012474012475,
+          "y": 0
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "anchors",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.3852515506547209,
+          "y": 0.14651639344262296,
+          "width": 0.23983459682977257,
+          "height": 0.039959016393442626
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "anchors",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.8008270158511371,
+          "y": 0.14549180327868852,
+          "width": 0.026878015161957272,
+          "height": 0.040983606557377046
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "close",
+          "box"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.8008270158511371,
+          "y": 0.14549180327868852,
+          "width": 0.026878015161957272,
+          "height": 0.040983606557377046
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "viewport"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.34803583735354926,
+          "y": 0.30635245901639346,
+          "width": 0.5775327360441075,
+          "height": 0.45184426229508196
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "refreshCaption",
+          "box"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.36250861474844936,
+          "y": 0.8094262295081968,
+          "width": 0.1819434872501723,
+          "height": 0.03381147540983607
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "refreshTimerBox"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.585802894555479,
+          "y": 0.8063524590163934,
+          "width": 0.09028256374913853,
+          "height": 0.03483606557377049
+        }
+      },
+      {
+        "kind": "scalar",
+        "axis": "height",
+        "path": [
+          "layouts",
+          "1",
+          "rows",
+          "0"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": 0.33811475409836067
+      },
+      {
+        "kind": "scalar",
+        "axis": "height",
+        "path": [
+          "layouts",
+          "1",
+          "rows",
+          "1"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": 0.5706967213114754
+      },
+      {
+        "kind": "scalar",
+        "axis": "width",
+        "path": [
+          "layouts",
+          "1",
+          "cardWidth"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": 0.11991729841488628
+      },
+      {
+        "kind": "scalar",
+        "axis": "height",
+        "path": [
+          "layouts",
+          "1",
+          "cardHeight"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": 0.17827868852459017
+      },
+      {
+        "kind": "scalar",
+        "axis": "width",
+        "path": [
+          "layouts",
+          "1",
+          "columnPitch"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": 0.13163335630599587
+      },
+      {
+        "kind": "point",
+        "path": [
+          "layouts",
+          "1",
+          "fieldGeometry",
+          "card",
+          "origin"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0,
+          "y": 0.13861386138613863
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "fieldGeometry",
+          "card",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0.03867403314917127,
+          "y": 0,
+          "width": 0.9613259668508287,
+          "height": 0.693069306930693
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "fieldGeometry",
+          "card",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0.3756906077348066,
+          "y": 0.3910891089108911,
+          "width": 0.5303867403314917,
+          "height": 0.19801980198019803
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "fieldGeometry",
+          "card",
+          "purchaseBox"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0.03867403314917127,
+          "y": 0.6485148514851485,
+          "width": 0.8674033149171271,
+          "height": 0.32673267326732675
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "layouts",
+          "1",
+          "fieldGeometry",
+          "currency",
+          "origin"
+        ],
+        "canvas": {
+          "width": 38,
+          "height": 43
+        },
+        "fraction": {
+          "x": 0.21052631578947367,
+          "y": 0.20930232558139536
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "1",
+          "fieldGeometry",
+          "currency",
+          "box"
+        ],
+        "canvas": {
+          "width": 38,
+          "height": 43
+        },
+        "fraction": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "layouts",
+          "1",
+          "firstColumnOffset"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.012405237767057202,
+          "y": 0
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "anchors",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1444,
+          "height": 974
+        },
+        "fraction": {
+          "x": 0.3864265927977839,
+          "y": 0.13963039014373715,
+          "width": 0.2409972299168975,
+          "height": 0.04209445585215606
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "anchors",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1444,
+          "height": 974
+        },
+        "fraction": {
+          "x": 0.804016620498615,
+          "y": 0.13860369609856263,
+          "width": 0.027008310249307478,
+          "height": 0.04106776180698152
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "close",
+          "box"
+        ],
+        "canvas": {
+          "width": 1444,
+          "height": 974
+        },
+        "fraction": {
+          "x": 0.804016620498615,
+          "y": 0.13860369609856263,
+          "width": 0.027008310249307478,
+          "height": 0.04106776180698152
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "viewport"
+        ],
+        "canvas": {
+          "width": 1444,
+          "height": 974
+        },
+        "fraction": {
+          "x": 0.3497229916897507,
+          "y": 0.29876796714579057,
+          "width": 0.5810249307479224,
+          "height": 0.4527720739219713
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "refreshCaption",
+          "box"
+        ],
+        "canvas": {
+          "width": 1444,
+          "height": 974
+        },
+        "fraction": {
+          "x": 0.3635734072022161,
+          "y": 0.8039014373716632,
+          "width": 0.18282548476454294,
+          "height": 0.033880903490759756
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "refreshTimerBox"
+        ],
+        "canvas": {
+          "width": 1444,
+          "height": 974
+        },
+        "fraction": {
+          "x": 0.5879501385041551,
+          "y": 0.8008213552361396,
+          "width": 0.09141274238227147,
+          "height": 0.03490759753593429
+        }
+      },
+      {
+        "kind": "scalar",
+        "axis": "height",
+        "path": [
+          "layouts",
+          "2",
+          "rows",
+          "0"
+        ],
+        "canvas": {
+          "width": 1444,
+          "height": 974
+        },
+        "fraction": 0.3316221765913758
+      },
+      {
+        "kind": "scalar",
+        "axis": "height",
+        "path": [
+          "layouts",
+          "2",
+          "rows",
+          "1"
+        ],
+        "canvas": {
+          "width": 1444,
+          "height": 974
+        },
+        "fraction": 0.5646817248459959
+      },
+      {
+        "kind": "scalar",
+        "axis": "width",
+        "path": [
+          "layouts",
+          "2",
+          "cardWidth"
+        ],
+        "canvas": {
+          "width": 1444,
+          "height": 974
+        },
+        "fraction": 0.12049861495844875
+      },
+      {
+        "kind": "scalar",
+        "axis": "height",
+        "path": [
+          "layouts",
+          "2",
+          "cardHeight"
+        ],
+        "canvas": {
+          "width": 1444,
+          "height": 974
+        },
+        "fraction": 0.17864476386036962
+      },
+      {
+        "kind": "scalar",
+        "axis": "width",
+        "path": [
+          "layouts",
+          "2",
+          "columnPitch"
+        ],
+        "canvas": {
+          "width": 1444,
+          "height": 974
+        },
+        "fraction": 0.13227146814404434
+      },
+      {
+        "kind": "point",
+        "path": [
+          "layouts",
+          "2",
+          "fieldGeometry",
+          "card",
+          "origin"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0,
+          "y": 0.13861386138613863
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "fieldGeometry",
+          "card",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0.03867403314917127,
+          "y": 0,
+          "width": 0.9613259668508287,
+          "height": 0.693069306930693
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "fieldGeometry",
+          "card",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0.3756906077348066,
+          "y": 0.3910891089108911,
+          "width": 0.5303867403314917,
+          "height": 0.19801980198019803
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "fieldGeometry",
+          "card",
+          "purchaseBox"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0.03867403314917127,
+          "y": 0.6485148514851485,
+          "width": 0.8674033149171271,
+          "height": 0.32673267326732675
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "layouts",
+          "2",
+          "fieldGeometry",
+          "currency",
+          "origin"
+        ],
+        "canvas": {
+          "width": 38,
+          "height": 43
+        },
+        "fraction": {
+          "x": 0.21052631578947367,
+          "y": 0.20930232558139536
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "2",
+          "fieldGeometry",
+          "currency",
+          "box"
+        ],
+        "canvas": {
+          "width": 38,
+          "height": 43
+        },
+        "fraction": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "layouts",
+          "2",
+          "firstColumnOffset"
+        ],
+        "canvas": {
+          "width": 1444,
+          "height": 974
+        },
+        "fraction": {
+          "x": 0.012465373961218837,
+          "y": 0
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "anchors",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.5038022813688213,
+          "y": 0.2531545741324921,
+          "width": 0.15082382762991128,
+          "height": 0.033123028391167195
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "anchors",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.8219264892268695,
+          "y": 0.2618296529968454,
+          "width": 0.008871989860583017,
+          "height": 0.011829652996845425
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "anchors",
+          "1",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7813688212927756,
+          "y": 0.2113564668769716,
+          "width": 0.08998732572877059,
+          "height": 0.11277602523659307
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "close",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.8219264892268695,
+          "y": 0.2618296529968454,
+          "width": 0.008871989860583017,
+          "height": 0.011829652996845425
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "close",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7813688212927756,
+          "y": 0.2113564668769716,
+          "width": 0.08998732572877059,
+          "height": 0.11277602523659307
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "viewport"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.4005069708491762,
+          "y": 0.3801261829652997,
+          "width": 0.5310519645120405,
+          "height": 0.3477917981072555
+        }
+      },
+      {
+        "kind": "scalar",
+        "axis": "height",
+        "path": [
+          "layouts",
+          "3",
+          "scrollY"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": 0.43296529968454256
+      },
+      {
+        "kind": "scalar",
+        "axis": "width",
+        "path": [
+          "layouts",
+          "3",
+          "scrollDistance"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": 0.09505703422053231
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "refreshCaption",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.41254752851711024,
+          "y": 0.7649842271293376,
+          "width": 0.16666666666666666,
+          "height": 0.025236593059936908
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "refreshTimerBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.6178707224334601,
+          "y": 0.7626182965299685,
+          "width": 0.08365019011406843,
+          "height": 0.026813880126182965
+        }
+      },
+      {
+        "kind": "scalar",
+        "axis": "height",
+        "path": [
+          "layouts",
+          "3",
+          "rows",
+          "0"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": 0.4029968454258675
+      },
+      {
+        "kind": "scalar",
+        "axis": "height",
+        "path": [
+          "layouts",
+          "3",
+          "rows",
+          "1"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": 0.582018927444795
+      },
+      {
+        "kind": "scalar",
+        "axis": "width",
+        "path": [
+          "layouts",
+          "3",
+          "cardWidth"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": 0.11026615969581749
+      },
+      {
+        "kind": "scalar",
+        "axis": "height",
+        "path": [
+          "layouts",
+          "3",
+          "cardHeight"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": 0.13722397476340695
+      },
+      {
+        "kind": "scalar",
+        "axis": "width",
+        "path": [
+          "layouts",
+          "3",
+          "columnPitch"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": 0.12103929024081116
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "currencySearchOffset"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.009505703422053232,
+          "y": 0.08675078864353312,
+          "width": 0.046894803548795945,
+          "height": 0.04022082018927445
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "leftmostCue",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.40874524714828897,
+          "y": 0.38091482649842273,
+          "width": 0.11216730038022814,
+          "height": 0.16167192429022081
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "townNavigation",
+          "anchors",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.10963244613434728,
+          "y": 0.7949526813880127,
+          "width": 0.057034220532319393,
+          "height": 0.0804416403785489
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "townNavigation",
+          "market",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.24714828897338403,
+          "y": 0.47397476340694006,
+          "width": 0.025348542458808618,
+          "height": 0.014195583596214511
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "townNavigation",
+          "market",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.08111533586818757,
+          "y": 0.14826498422712933,
+          "width": 0.917617237008872,
+          "height": 0.7649842271293376
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "townNavigation",
+          "helicopter",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7553865652724968,
+          "y": 0.8422712933753943,
+          "width": 0.025348542458808618,
+          "height": 0.017350157728706624
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "townNavigation",
+          "helicopter",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.6907477820025348,
+          "y": 0.7689274447949527,
+          "width": 0.14575411913814956,
+          "height": 0.1695583596214511
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "townNavigation",
+          "marketAlternates",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.2661596958174905,
+          "y": 0.5599369085173501,
+          "width": 0.019011406844106463,
+          "height": 0.011829652996845425
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "townNavigation",
+          "marketAlternates",
+          "0",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.08111533586818757,
+          "y": 0.14826498422712933,
+          "width": 0.917617237008872,
+          "height": 0.7649842271293376
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "townNavigation",
+          "marketAlternates",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.2743979721166033,
+          "y": 0.46845425867507884,
+          "width": 0.019011406844106463,
+          "height": 0.011829652996845425
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "townNavigation",
+          "marketAlternates",
+          "1",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.08111533586818757,
+          "y": 0.14826498422712933,
+          "width": 0.917617237008872,
+          "height": 0.7649842271293376
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "townNavigation",
+          "marketAlternates",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.2553865652724968,
+          "y": 0.47082018927444796,
+          "width": 0.02788339670468948,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "townNavigation",
+          "marketAlternates",
+          "2",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.08111533586818757,
+          "y": 0.14826498422712933,
+          "width": 0.917617237008872,
+          "height": 0.7649842271293376
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "townNavigation",
+          "marketAlternates",
+          "3",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.2553865652724968,
+          "y": 0.47082018927444796,
+          "width": 0.02788339670468948,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "townNavigation",
+          "marketAlternates",
+          "3",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.08111533586818757,
+          "y": 0.14826498422712933,
+          "width": 0.917617237008872,
+          "height": 0.7649842271293376
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "helicopterExit",
+          "anchors",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.40304182509505704,
+          "y": 0.23817034700315456,
+          "width": 0.2788339670468948,
+          "height": 0.04022082018927445
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "helicopterExit",
+          "anchors",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7908745247148289,
+          "y": 0.30126182965299686,
+          "width": 0.17110266159695817,
+          "height": 0.028391167192429023
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "helicopterExit",
+          "close",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.8143219264892269,
+          "y": 0.2421135646687697,
+          "width": 0.026615969581749048,
+          "height": 0.031545741324921134
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "helicopterExit",
+          "close",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7737642585551331,
+          "y": 0.1916403785488959,
+          "width": 0.10773130544993663,
+          "height": 0.13249211356466878
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "layouts",
+          "3",
+          "fieldGeometry",
+          "card",
+          "origin"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0,
+          "y": 0.13861386138613863
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "fieldGeometry",
+          "card",
+          "iconBox"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0.03867403314917127,
+          "y": 0,
+          "width": 0.9613259668508287,
+          "height": 0.693069306930693
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "fieldGeometry",
+          "card",
+          "quantityBox"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0.3756906077348066,
+          "y": 0.3910891089108911,
+          "width": 0.5303867403314917,
+          "height": 0.19801980198019803
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "fieldGeometry",
+          "card",
+          "purchaseBox"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0.03867403314917127,
+          "y": 0.6485148514851485,
+          "width": 0.8674033149171271,
+          "height": 0.32673267326732675
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "fieldGeometry",
+          "card",
+          "priceBox"
+        ],
+        "canvas": {
+          "width": 181,
+          "height": 202
+        },
+        "fraction": {
+          "x": 0.36464088397790057,
+          "y": 0.6782178217821783,
+          "width": 0.5303867403314917,
+          "height": 0.25742574257425743
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "layouts",
+          "3",
+          "fieldGeometry",
+          "currency",
+          "origin"
+        ],
+        "canvas": {
+          "width": 38,
+          "height": 43
+        },
+        "fraction": {
+          "x": 0.21052631578947367,
+          "y": 0.20930232558139536
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "fieldGeometry",
+          "currency",
+          "box"
+        ],
+        "canvas": {
+          "width": 38,
+          "height": 43
+        },
+        "fraction": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "layouts",
+          "3",
+          "firstColumnOffset"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.011406844106463879,
+          "y": 0
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "capacityObservation",
+          "barnEntry",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.532319391634981,
+          "y": 0.3194006309148265,
+          "width": 0.026615969581749048,
+          "height": 0.02444794952681388
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "capacityObservation",
+          "anchors",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.49429657794676807,
+          "y": 0.2586750788643533,
+          "width": 0.09505703422053231,
+          "height": 0.031545741324921134
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "capacityObservation",
+          "anchors",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.37135614702154623,
+          "y": 0.7641955835962145,
+          "width": 0.11026615969581749,
+          "height": 0.025236593059936908
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "capacityObservation",
+          "close",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.8288973384030418,
+          "y": 0.2555205047318612,
+          "width": 0.02788339670468948,
+          "height": 0.03470031545741325
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "capacityObservation",
+          "capacityBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.48986058301647656,
+          "y": 0.7570977917981072,
+          "width": 0.0982256020278834,
+          "height": 0.03548895899053628
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "capacityObservation",
+          "barnEntryAlternates",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.5893536121673004,
+          "y": 0.2634069400630915,
+          "width": 0.031685678073510776,
+          "height": 0.03391167192429022
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "capacityObservation",
+          "barnEntryAlternates",
+          "0",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.4435994930291508,
+          "y": 0.20504731861198738,
+          "width": 0.2217997465145754,
+          "height": 0.17350157728706625
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "capacityObservation",
+          "barnEntryAlternates",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.5893536121673004,
+          "y": 0.2634069400630915,
+          "width": 0.031685678073510776,
+          "height": 0.03391167192429022
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "capacityObservation",
+          "barnEntryAlternates",
+          "1",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.4435994930291508,
+          "y": 0.20504731861198738,
+          "width": 0.2217997465145754,
+          "height": 0.17350157728706625
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "capacityObservation",
+          "barnEntryAlternates",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.5817490494296578,
+          "y": 0.28391167192429023,
+          "width": 0.031685678073510776,
+          "height": 0.03391167192429022
+        }
+      },
+      {
+        "path": [
+          "layouts",
+          "3",
+          "capacityObservation",
+          "barnEntryAlternates",
+          "2",
+          "locator",
+          "searchBox"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.4435994930291508,
+          "y": 0.20504731861198738,
+          "width": 0.2217997465145754,
+          "height": 0.17350157728706625
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.38184338184338185,
+          "y": 0.14271151885830785,
+          "width": 0.24185724185724186,
+          "height": 0.04281345565749235
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.7997227997227997,
+          "y": 0.14271151885830785,
+          "width": 0.02702702702702703,
+          "height": 0.040774719673802244
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.358974358974359,
+          "y": 0.8042813455657493,
+          "width": 0.18225918225918225,
+          "height": 0.0326197757390418
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "3",
+          "box"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.3852515506547209,
+          "y": 0.14651639344262296,
+          "width": 0.23983459682977257,
+          "height": 0.039959016393442626
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "4",
+          "box"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.8008270158511371,
+          "y": 0.14549180327868852,
+          "width": 0.026878015161957272,
+          "height": 0.040983606557377046
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "5",
+          "box"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.36250861474844936,
+          "y": 0.8094262295081968,
+          "width": 0.1819434872501723,
+          "height": 0.03381147540983607
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "6",
+          "box"
+        ],
+        "canvas": {
+          "width": 1444,
+          "height": 974
+        },
+        "fraction": {
+          "x": 0.3864265927977839,
+          "y": 0.13963039014373715,
+          "width": 0.2409972299168975,
+          "height": 0.04209445585215606
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "7",
+          "box"
+        ],
+        "canvas": {
+          "width": 1444,
+          "height": 974
+        },
+        "fraction": {
+          "x": 0.804016620498615,
+          "y": 0.13860369609856263,
+          "width": 0.027008310249307478,
+          "height": 0.04106776180698152
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "8",
+          "box"
+        ],
+        "canvas": {
+          "width": 1444,
+          "height": 974
+        },
+        "fraction": {
+          "x": 0.3635734072022161,
+          "y": 0.8039014373716632,
+          "width": 0.18282548476454294,
+          "height": 0.033880903490759756
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "9",
+          "box"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.5204435204435205,
+          "y": 0.4617737003058104,
+          "width": 0.01386001386001386,
+          "height": 0.024464831804281346
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "assets",
+          "9",
+          "cardOffset"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.02702702702702703,
+          "y": 0.12538226299694188
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "10",
+          "box"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.6753962784286699,
+          "y": 0.5881147540983607,
+          "width": 0.06202618883528601,
+          "height": 0.03278688524590164
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "assets",
+          "10",
+          "cardOffset"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.024121295658166782,
+          "y": 0.017418032786885244
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "11",
+          "box"
+        ],
+        "canvas": {
+          "width": 1444,
+          "height": 974
+        },
+        "fraction": {
+          "x": 0.8344875346260388,
+          "y": 0.351129363449692,
+          "width": 0.04293628808864266,
+          "height": 0.06365503080082136
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "12",
+          "box"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.37075537075537074,
+          "y": 0.30988786952089703,
+          "width": 0.0887040887040887,
+          "height": 0.034658511722731905
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "13",
+          "box"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.3853083853083853,
+          "y": 0.6952089704383282,
+          "width": 0.01386001386001386,
+          "height": 0.024464831804281346
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "assets",
+          "13",
+          "cardOffset"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.02702702702702703,
+          "y": 0.12538226299694188
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "14",
+          "box"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.5169785169785169,
+          "y": 0.6952089704383282,
+          "width": 0.01386001386001386,
+          "height": 0.024464831804281346
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "assets",
+          "14",
+          "cardOffset"
+        ],
+        "canvas": {
+          "width": 1443,
+          "height": 981
+        },
+        "fraction": {
+          "x": 0.02702702702702703,
+          "y": 0.12538226299694188
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "15",
+          "box"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.4100620261888353,
+          "y": 0.46311475409836067,
+          "width": 0.013783597518952447,
+          "height": 0.02459016393442623
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "assets",
+          "15",
+          "cardOffset"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.026878015161957272,
+          "y": 0.1260245901639344
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "16",
+          "box"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.40592694693314957,
+          "y": 0.6987704918032787,
+          "width": 0.013783597518952447,
+          "height": 0.02459016393442623
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "assets",
+          "16",
+          "cardOffset"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.026878015161957272,
+          "y": 0.1260245901639344
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "17",
+          "box"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.5423845623707788,
+          "y": 0.6987704918032787,
+          "width": 0.013783597518952447,
+          "height": 0.02459016393442623
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "assets",
+          "17",
+          "cardOffset"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.026878015161957272,
+          "y": 0.1260245901639344
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "18",
+          "box"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.8077188146106133,
+          "y": 0.3555327868852459,
+          "width": 0.06202618883528601,
+          "height": 0.03278688524590164
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "assets",
+          "18",
+          "cardOffset"
+        ],
+        "canvas": {
+          "width": 1451,
+          "height": 976
+        },
+        "fraction": {
+          "x": 0.024121295658166782,
+          "y": 0.017418032786885244
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "19",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.5038022813688213,
+          "y": 0.2531545741324921,
+          "width": 0.15082382762991128,
+          "height": 0.033123028391167195
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "20",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.8219264892268695,
+          "y": 0.2618296529968454,
+          "width": 0.008871989860583017,
+          "height": 0.011829652996845425
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "21",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.41254752851711024,
+          "y": 0.7649842271293376,
+          "width": 0.16666666666666666,
+          "height": 0.025236593059936908
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "22",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.5342205323193916,
+          "y": 0.47870662460567825,
+          "width": 0.11026615969581749,
+          "height": 0.05993690851735016
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "22",
+          "maskExcludeBoxes",
+          "0"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.005069708491761723,
+          "y": 0.007097791798107256,
+          "width": 0.10012674271229405,
+          "height": 0.04652996845425868
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "assets",
+          "22",
+          "cardOffset"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0,
+          "y": 0.07570977917981073
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "23",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.5342205323193916,
+          "y": 0.6585173501577287,
+          "width": 0.11026615969581749,
+          "height": 0.05993690851735016
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "23",
+          "maskExcludeBoxes",
+          "0"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.005069708491761723,
+          "y": 0.007097791798107256,
+          "width": 0.10012674271229405,
+          "height": 0.04652996845425868
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "assets",
+          "23",
+          "cardOffset"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0,
+          "y": 0.07649842271293375
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "24",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.5602027883396705,
+          "y": 0.5,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "assets",
+          "24",
+          "cardOffset"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "25",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.6812420785804816,
+          "y": 0.5,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "assets",
+          "25",
+          "cardOffset"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "26",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.802915082382763,
+          "y": 0.5,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "assets",
+          "26",
+          "cardOffset"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "27",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.5513307984790875,
+          "y": 0.6798107255520505,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "assets",
+          "27",
+          "cardOffset"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "28",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.6755386565272496,
+          "y": 0.6798107255520505,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "assets",
+          "28",
+          "cardOffset"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "29",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7965779467680608,
+          "y": 0.6798107255520505,
+          "width": 0.012674271229404309,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "kind": "point",
+        "path": [
+          "assets",
+          "29",
+          "cardOffset"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "30",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.10836501901140684,
+          "y": 0.1750788643533123,
+          "width": 0.0063371356147021544,
+          "height": 0.007886435331230283
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "31",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.10899873257287707,
+          "y": 0.2444794952681388,
+          "width": 0.004435994930291508,
+          "height": 0.007886435331230283
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "32",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.17110266159695817,
+          "y": 0.24842271293375395,
+          "width": 0.005069708491761723,
+          "height": 0.006309148264984227
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "33",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.9543726235741445,
+          "y": 0.18690851735015773,
+          "width": 0.019011406844106463,
+          "height": 0.022082018927444796
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "34",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.24714828897338403,
+          "y": 0.47397476340694006,
+          "width": 0.025348542458808618,
+          "height": 0.014195583596214511
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "35",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7496831432192649,
+          "y": 0.8257097791798107,
+          "width": 0.02788339670468948,
+          "height": 0.032334384858044164
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "36",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.40304182509505704,
+          "y": 0.23817034700315456,
+          "width": 0.2788339670468948,
+          "height": 0.04022082018927445
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "37",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.7908745247148289,
+          "y": 0.30126182965299686,
+          "width": 0.17110266159695817,
+          "height": 0.028391167192429023
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "38",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.8143219264892269,
+          "y": 0.2421135646687697,
+          "width": 0.026615969581749048,
+          "height": 0.031545741324921134
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "39",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.15842839036755388,
+          "y": 0.2555205047318612,
+          "width": 0.011406844106463879,
+          "height": 0.005520504731861199
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "40",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.17680608365019013,
+          "y": 0.22318611987381703,
+          "width": 0.004435994930291508,
+          "height": 0.005520504731861199
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "41",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.1679340937896071,
+          "y": 0.1750788643533123,
+          "width": 0.004435994930291508,
+          "height": 0.005520504731861199
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "42",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.2661596958174905,
+          "y": 0.5599369085173501,
+          "width": 0.019011406844106463,
+          "height": 0.011829652996845425
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "43",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.2743979721166033,
+          "y": 0.46845425867507884,
+          "width": 0.019011406844106463,
+          "height": 0.011829652996845425
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "46",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.2553865652724968,
+          "y": 0.47082018927444796,
+          "width": 0.02788339670468948,
+          "height": 0.01892744479495268
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "51",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.532319391634981,
+          "y": 0.3194006309148265,
+          "width": 0.026615969581749048,
+          "height": 0.02444794952681388
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "52",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.49429657794676807,
+          "y": 0.2586750788643533,
+          "width": 0.09505703422053231,
+          "height": 0.031545741324921134
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "53",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.37135614702154623,
+          "y": 0.7641955835962145,
+          "width": 0.11026615969581749,
+          "height": 0.025236593059936908
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "54",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.8288973384030418,
+          "y": 0.2555205047318612,
+          "width": 0.02788339670468948,
+          "height": 0.03470031545741325
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "55",
+          "box"
+        ],
+        "canvas": {
+          "width": 1578,
+          "height": 1268
+        },
+        "fraction": {
+          "x": 0.2553865652724968,
+          "y": 0.47082018927444796,
+          "width": 0.02788339670468948,
+          "height": 0.01892744479495268
+        }
+      }
+    ]
+  }
+}

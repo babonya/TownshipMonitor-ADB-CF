@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "cases": [
+    {
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-b2f82105-624a-4d12-a15b-05439679241e.png",
+      "frame": {
+        "frameId": "frame-b2f82105-624a-4d12-a15b-05439679241e",
+        "sequence": 19,
+        "epoch": 1,
+        "evidenceHash": "270186d3444cb45784d046256305dd01af4d66fff5170fb711dd99a9548db4be",
+        "observedAt": "2026-10-02T19:43:29.664Z",
+        "dimensions": {
+          "width": 1600,
+          "height": 900
+        },
+        "expectedKind": "unknown"
+      },
+      "expectedScene": "town",
+      "marketVisible": true
+    },
+    {
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-b453d782-32e0-4736-b4ad-bb538b936df6.png",
+      "frame": {
+        "frameId": "frame-b453d782-32e0-4736-b4ad-bb538b936df6",
+        "sequence": 13471,
+        "epoch": 153,
+        "evidenceHash": "9e9b6fae5c93cce5e7e53cee7e3400f354aa6c5a4d7eada58cb1b19d4b4a23c0",
+        "observedAt": "2026-10-03T18:10:31.763Z",
+        "dimensions": {
+          "width": 1600,
+          "height": 900
+        },
+        "expectedKind": "unknown"
+      },
+      "expectedScene": "town",
+      "marketVisible": true
+    },
+    {
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-12131cce-3c33-4eeb-bca2-7d6926712541.png",
+      "frame": {
+        "frameId": "frame-12131cce-3c33-4eeb-bca2-7d6926712541",
+        "sequence": 8686,
+        "epoch": 111,
+        "evidenceHash": "a5773397b28d51f25bdde24a3f9af3dbc01e3ef17f145aa0f0be6bdffd3cb98b",
+        "observedAt": "2026-10-03T04:33:55.065Z",
+        "dimensions": {
+          "width": 1600,
+          "height": 900
+        },
+        "expectedKind": "unknown"
+      },
+      "expectedScene": "town",
+      "marketVisible": false
+    },
+    {
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-79a8bfa7-a67c-44d6-a81d-f2a68e78c5b7.png",
+      "frame": {
+        "frameId": "frame-79a8bfa7-a67c-44d6-a81d-f2a68e78c5b7",
+        "sequence": 13484,
+        "epoch": 154,
+        "evidenceHash": "488b56c0053475cac54198098478a9dd6d689731dd4ca04145119f6c3428c5e7",
+        "observedAt": "2026-10-03T18:11:11.892Z",
+        "dimensions": {
+          "width": 1600,
+          "height": 900
+        },
+        "expectedKind": "unknown"
+      },
+      "expectedScene": "helicopter",
+      "marketVisible": false
+    },
+    {
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu\\frames\\frame-566f6249-5fcc-4290-ae91-2cba837b6aa2.png",
+      "frame": {
+        "frameId": "frame-566f6249-5fcc-4290-ae91-2cba837b6aa2",
+        "sequence": 99,
+        "epoch": 1,
+        "evidenceHash": "07a2356b9fbc99c6d43002dd58a6e06b70284e828a0717c0a91064d63bfd8309",
+        "observedAt": "2026-10-02T13:47:06.342Z",
+        "dimensions": {
+          "width": 1600,
+          "height": 900
+        },
+        "expectedKind": "unknown"
+      },
+      "expectedScene": "town",
+      "marketVisible": true
+    },
+    {
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu\\frames\\frame-bea6afbc-be03-41b8-8f64-9473e264a42c.png",
+      "frame": {
+        "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+        "sequence": 236,
+        "epoch": 2,
+        "evidenceHash": "068c56e5b66a2a856183e5946d9199dc2b709a5c77a828bd9c56ed891997a188",
+        "observedAt": "2026-10-02T13:49:26.255Z",
+        "dimensions": {
+          "width": 1600,
+          "height": 900
+        },
+        "expectedKind": "unknown"
+      },
+      "expectedScene": "market",
+      "marketVisible": false
+    },
+    {
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\perception-live-validation-20261003\\frames\\frame-1d1c9e21-8dd2-4313-ac8c-6dc4ed42cf32.png",
+      "frame": {
+        "frameId": "frame-1d1c9e21-8dd2-4313-ac8c-6dc4ed42cf32",
+        "sequence": 1,
+        "epoch": 1,
+        "evidenceHash": "153d48d7682f7a9618b7d35d7f1946f4cf31fa3e36f8f0d981d52fb270a5d51f",
+        "observedAt": "2026-10-03T09:24:55.165Z",
+        "dimensions": {
+          "width": 1600,
+          "height": 900
+        },
+        "expectedKind": "unknown"
+      },
+      "expectedScene": "town",
+      "marketVisible": true
+    },
+    {
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\perception-live-validation-20261003\\frames\\frame-d2e9777a-f594-4d6e-b098-a6b66b9ecb79.png",
+      "frame": {
+        "frameId": "frame-d2e9777a-f594-4d6e-b098-a6b66b9ecb79",
+        "sequence": 96,
+        "epoch": 1,
+        "evidenceHash": "abbd3b577368ef2fdc12ac8017aaa2de41b948d48e727b90ed23ae3181bc45ed",
+        "observedAt": "2026-10-03T09:41:48.633Z",
+        "dimensions": {
+          "width": 1600,
+          "height": 900
+        },
+        "expectedKind": "unknown"
+      },
+      "expectedScene": "town",
+      "marketVisible": true
+    }
+  ]
+}

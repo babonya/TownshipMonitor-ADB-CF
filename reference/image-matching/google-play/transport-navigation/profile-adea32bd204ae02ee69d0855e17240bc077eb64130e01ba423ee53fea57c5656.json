@@ -1,0 +1,597 @@
+{
+  "schema": 1,
+  "version": "google-play-town-transit-navigation-3",
+  "provider": "google_play_windows",
+  "dimensions": {
+    "width": 1114,
+    "height": 735
+  },
+  "coordinateSpace": {
+    "reference": {
+      "width": 1600,
+      "height": 900
+    },
+    "viewport": {
+      "x": 65,
+      "y": 36,
+      "width": 1048,
+      "height": 698
+    },
+    "alignX": 0.5
+  },
+  "town": {
+    "anchors": [
+      {
+        "file": "menu.png",
+        "box": {
+          "x": 1056,
+          "y": 69,
+          "width": 25,
+          "height": 24
+        },
+        "mode": "exact",
+        "coordinate": {
+          "fraction": {
+            "x": 0.94625,
+            "y": 0.056666666666666664,
+            "width": 0.0225,
+            "height": 0.04
+          },
+          "alignY": 0
+        }
+      },
+      {
+        "file": "clipboard.png",
+        "box": {
+          "x": 313,
+          "y": 655,
+          "width": 26,
+          "height": 30
+        },
+        "mode": "exact",
+        "coordinate": {
+          "fraction": {
+            "x": 0.2375,
+            "y": 0.8666666666666667,
+            "width": 0.02375,
+            "height": 0.05
+          },
+          "alignY": 1
+        }
+      }
+    ],
+    "map": [
+      {
+        "file": "shifted-barn.png",
+        "box": {
+          "x": 672,
+          "y": 173,
+          "width": 45,
+          "height": 30
+        },
+        "mode": "illumination"
+      },
+      {
+        "file": "shifted-airport.png",
+        "box": {
+          "x": 582,
+          "y": 538,
+          "width": 27,
+          "height": 28
+        },
+        "mode": "illumination"
+      },
+      {
+        "file": "shifted-tower.png",
+        "box": {
+          "x": 952,
+          "y": 311,
+          "width": 33,
+          "height": 27
+        },
+        "mode": "illumination"
+      },
+      {
+        "file": "shifted-market-static.png",
+        "box": {
+          "x": 394,
+          "y": 360,
+          "width": 24,
+          "height": 24
+        },
+        "mode": "illumination"
+      }
+    ],
+    "shortcuts": [
+      {
+        "kind": "helicopter",
+        "spec": {
+          "file": "helicopter-static.png",
+          "box": {
+            "x": 827,
+            "y": 668,
+            "width": 26,
+            "height": 14
+          },
+          "mode": "exact",
+          "coordinate": {
+            "fraction": {
+              "x": 0.7275,
+              "y": 0.8888888888888888,
+              "width": 0.02375,
+              "height": 0.022222222222222223
+            },
+            "alignY": 1
+          }
+        }
+      },
+      {
+        "kind": "train",
+        "spec": {
+          "file": "train-static.png",
+          "box": {
+            "x": 909,
+            "y": 661,
+            "width": 42,
+            "height": 34
+          },
+          "mode": "exact",
+          "coordinate": {
+            "fraction": {
+              "x": 0.80625,
+              "y": 0.8777777777777778,
+              "width": 0.03875,
+              "height": 0.05555555555555555
+            },
+            "alignY": 1
+          }
+        }
+      },
+      {
+        "kind": "airport",
+        "spec": {
+          "file": "airport-building.png",
+          "box": {
+            "x": 582,
+            "y": 538,
+            "width": 27,
+            "height": 28
+          },
+          "mode": "illumination",
+          "coordinate": {
+            "fraction": {
+              "x": 0.49333015267175573,
+              "y": 0.7595589482612384,
+              "width": 0.025744274809160306,
+              "height": 0.04746395250212044
+            },
+            "alignY": 0.5
+          }
+        }
+      }
+    ],
+    "ready": {
+      "file": "helicopter-ready.png",
+      "box": {
+        "x": 869,
+        "y": 644,
+        "width": 10,
+        "height": 9
+      },
+      "mode": "exact"
+    },
+    "mapAlternatives": [
+      {
+        "id": "before-drag",
+        "availableKinds": [
+          "helicopter",
+          "train"
+        ],
+        "map": [
+          {
+            "file": "original-barn.png",
+            "box": {
+              "x": 557,
+              "y": 173,
+              "width": 45,
+              "height": 30
+            },
+            "mode": "illumination"
+          },
+          {
+            "file": "original-airport.png",
+            "box": {
+              "x": 467,
+              "y": 538,
+              "width": 27,
+              "height": 28
+            },
+            "mode": "illumination"
+          },
+          {
+            "file": "original-tower.png",
+            "box": {
+              "x": 837,
+              "y": 311,
+              "width": 33,
+              "height": 27
+            },
+            "mode": "illumination"
+          },
+          {
+            "file": "original-market-static.png",
+            "box": {
+              "x": 279,
+              "y": 360,
+              "width": 24,
+              "height": 24
+            },
+            "mode": "illumination"
+          }
+        ]
+      }
+    ]
+  },
+  "panels": {
+    "helicopter": {
+      "anchors": [
+        {
+          "file": "helicopter-title.png",
+          "box": {
+            "x": 431,
+            "y": 118,
+            "width": 312,
+            "height": 40
+          },
+          "mode": "exact"
+        },
+        {
+          "file": "helicopter-details.png",
+          "box": {
+            "x": 868,
+            "y": 174,
+            "width": 194,
+            "height": 29
+          },
+          "mode": "exact"
+        }
+      ],
+      "close": {
+        "file": "helicopter-close.png",
+        "box": {
+          "x": 901,
+          "y": 123,
+          "width": 26,
+          "height": 26
+        },
+        "mode": "exact"
+      }
+    },
+    "train": {
+      "anchors": [
+        {
+          "file": "train-header.png",
+          "box": {
+            "x": 447,
+            "y": 121,
+            "width": 278,
+            "height": 29
+          },
+          "mode": "exact"
+        }
+      ],
+      "close": {
+        "file": "train-close.png",
+        "box": {
+          "x": 899,
+          "y": 123,
+          "width": 24,
+          "height": 24
+        },
+        "mode": "exact"
+      }
+    },
+    "airport": {
+      "anchors": [
+        {
+          "file": "airport-header.png",
+          "box": {
+            "x": 511,
+            "y": 95,
+            "width": 161,
+            "height": 24
+          },
+          "mode": "exact"
+        }
+      ],
+      "close": {
+        "file": "airport-close.png",
+        "box": {
+          "x": 1018,
+          "y": 94,
+          "width": 26,
+          "height": 27
+        },
+        "mode": "exact"
+      }
+    }
+  },
+  "assets": [
+    {
+      "file": "menu.png",
+      "sha256": "8db423332d848ef27c58867b431f35c10eb5045c0b8e8a6b9baccb6232613539",
+      "sourceFrameId": "frame-0e10b5da-b1b7-458e-9518-fae650ba2e4d",
+      "sourceHash": "0f8f7f228a775d62503d331742df669234ec499aaac1be0c68f377350c1450b9",
+      "sourceBox": {
+        "x": 1056,
+        "y": 69,
+        "width": 25,
+        "height": 24
+      }
+    },
+    {
+      "file": "clipboard.png",
+      "sha256": "ea93c65e044fe67dec61faf68116a3373cc09da14b2d7d4bea01ae34eb17d57a",
+      "sourceFrameId": "frame-0e10b5da-b1b7-458e-9518-fae650ba2e4d",
+      "sourceHash": "0f8f7f228a775d62503d331742df669234ec499aaac1be0c68f377350c1450b9",
+      "sourceBox": {
+        "x": 313,
+        "y": 655,
+        "width": 26,
+        "height": 30
+      }
+    },
+    {
+      "file": "shifted-barn.png",
+      "sha256": "c61fce7d8f2f4c5eef4bfc3dcee8de1c28bca878892735439baab51cd85103a0",
+      "sourceFrameId": "frame-0e10b5da-b1b7-458e-9518-fae650ba2e4d",
+      "sourceHash": "0f8f7f228a775d62503d331742df669234ec499aaac1be0c68f377350c1450b9",
+      "sourceBox": {
+        "x": 672,
+        "y": 173,
+        "width": 45,
+        "height": 30
+      }
+    },
+    {
+      "file": "shifted-airport.png",
+      "sha256": "849b60c3018a91c658ec0dba4a9f1857d72c914e9c08bbc76d68e405146911ca",
+      "sourceFrameId": "frame-0e10b5da-b1b7-458e-9518-fae650ba2e4d",
+      "sourceHash": "0f8f7f228a775d62503d331742df669234ec499aaac1be0c68f377350c1450b9",
+      "sourceBox": {
+        "x": 582,
+        "y": 538,
+        "width": 27,
+        "height": 28
+      }
+    },
+    {
+      "file": "shifted-tower.png",
+      "sha256": "3dbca56a9d46f75604007cc1ef1338d80308d5228f4a804683210b798ebc9aa7",
+      "sourceFrameId": "frame-0e10b5da-b1b7-458e-9518-fae650ba2e4d",
+      "sourceHash": "0f8f7f228a775d62503d331742df669234ec499aaac1be0c68f377350c1450b9",
+      "sourceBox": {
+        "x": 952,
+        "y": 311,
+        "width": 33,
+        "height": 27
+      }
+    },
+    {
+      "file": "shifted-market.png",
+      "sha256": "c24c108f0f4159e6515de178400caa87220af87a90510c6a88d8065e6b8b0cf6",
+      "sourceFrameId": "frame-0e10b5da-b1b7-458e-9518-fae650ba2e4d",
+      "sourceHash": "0f8f7f228a775d62503d331742df669234ec499aaac1be0c68f377350c1450b9",
+      "sourceBox": {
+        "x": 394,
+        "y": 360,
+        "width": 38,
+        "height": 24
+      }
+    },
+    {
+      "file": "helicopter-static.png",
+      "sha256": "a8b8d66fe858289607575e76d8f294cd1ef81a00dcbe76495fcaa7e18501aacc",
+      "sourceFrameId": "frame-0e10b5da-b1b7-458e-9518-fae650ba2e4d",
+      "sourceHash": "0f8f7f228a775d62503d331742df669234ec499aaac1be0c68f377350c1450b9",
+      "sourceBox": {
+        "x": 827,
+        "y": 668,
+        "width": 26,
+        "height": 14
+      }
+    },
+    {
+      "file": "helicopter-ready.png",
+      "sha256": "d5a22b8ea9772920a614073c2ec734d9a549e11ae496175b9aae0ab9848b1cad",
+      "sourceFrameId": "frame-0e10b5da-b1b7-458e-9518-fae650ba2e4d",
+      "sourceHash": "0f8f7f228a775d62503d331742df669234ec499aaac1be0c68f377350c1450b9",
+      "sourceBox": {
+        "x": 869,
+        "y": 644,
+        "width": 10,
+        "height": 9
+      }
+    },
+    {
+      "file": "original-barn.png",
+      "sha256": "c1549fefcabfcf895434338bbf1d5057ce8d906b80faca28429b8262f9a8348e",
+      "sourceFrameId": "frame-112f5976-5bd2-4984-978b-4236662ca3d0",
+      "sourceHash": "4152f1db8aedcaf0e25729dd3aaacb3b8f31a46b655ee060ee5ad7792bd58bdc",
+      "sourceBox": {
+        "x": 557,
+        "y": 173,
+        "width": 45,
+        "height": 30
+      }
+    },
+    {
+      "file": "original-airport.png",
+      "sha256": "329016997bdac1954e7a04b5823854375afa5dfee9d2deeb3d16e815f902f070",
+      "sourceFrameId": "frame-112f5976-5bd2-4984-978b-4236662ca3d0",
+      "sourceHash": "4152f1db8aedcaf0e25729dd3aaacb3b8f31a46b655ee060ee5ad7792bd58bdc",
+      "sourceBox": {
+        "x": 467,
+        "y": 538,
+        "width": 27,
+        "height": 28
+      }
+    },
+    {
+      "file": "original-tower.png",
+      "sha256": "50a74327c44bf99d71516115b05725978ea43fc408ebda56b646409f06775800",
+      "sourceFrameId": "frame-112f5976-5bd2-4984-978b-4236662ca3d0",
+      "sourceHash": "4152f1db8aedcaf0e25729dd3aaacb3b8f31a46b655ee060ee5ad7792bd58bdc",
+      "sourceBox": {
+        "x": 837,
+        "y": 311,
+        "width": 33,
+        "height": 27
+      }
+    },
+    {
+      "file": "original-market.png",
+      "sha256": "071665d02802ec7fb7471238e6f34fa674884c8f4dfbac49ad6ed3e090bb3384",
+      "sourceFrameId": "frame-112f5976-5bd2-4984-978b-4236662ca3d0",
+      "sourceHash": "4152f1db8aedcaf0e25729dd3aaacb3b8f31a46b655ee060ee5ad7792bd58bdc",
+      "sourceBox": {
+        "x": 279,
+        "y": 360,
+        "width": 38,
+        "height": 24
+      }
+    },
+    {
+      "file": "helicopter-title.png",
+      "sha256": "2459d7986f9d0b6d9dd2e2f3b35b98f4374383b039f1630fb127427faffc3427",
+      "sourceFrameId": "frame-7067886b-0911-4709-935c-806adc5a3df5",
+      "sourceHash": "147a0cf70164f66d5b20907973b79db5a1f407d091dc0fc7af287fd324e0fb3b",
+      "sourceBox": {
+        "x": 431,
+        "y": 118,
+        "width": 312,
+        "height": 40
+      }
+    },
+    {
+      "file": "helicopter-details.png",
+      "sha256": "4934d45630df84e2b60c02fd4e303cfa84fc4ebf90818e9931cb422fbd02d5b2",
+      "sourceFrameId": "frame-7067886b-0911-4709-935c-806adc5a3df5",
+      "sourceHash": "147a0cf70164f66d5b20907973b79db5a1f407d091dc0fc7af287fd324e0fb3b",
+      "sourceBox": {
+        "x": 868,
+        "y": 174,
+        "width": 194,
+        "height": 29
+      }
+    },
+    {
+      "file": "helicopter-close.png",
+      "sha256": "24e90e579d94e1c35907c659517eb5fdca3e8310a52848f702748565f7a409b5",
+      "sourceFrameId": "frame-7067886b-0911-4709-935c-806adc5a3df5",
+      "sourceHash": "147a0cf70164f66d5b20907973b79db5a1f407d091dc0fc7af287fd324e0fb3b",
+      "sourceBox": {
+        "x": 901,
+        "y": 123,
+        "width": 26,
+        "height": 26
+      }
+    },
+    {
+      "file": "shifted-market-static.png",
+      "sha256": "0b699c45974f1155b0badc673b143a3fa5e54bf16ca5040b3e346ff3107689f4",
+      "sourceFrameId": "frame-0e10b5da-b1b7-458e-9518-fae650ba2e4d",
+      "sourceHash": "0f8f7f228a775d62503d331742df669234ec499aaac1be0c68f377350c1450b9",
+      "sourceBox": {
+        "x": 394,
+        "y": 360,
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "file": "original-market-static.png",
+      "sha256": "072593d17c1d32f2db9bcaf6b41848a600f14c0e16c3e5980abe0323d173b20c",
+      "sourceFrameId": "frame-112f5976-5bd2-4984-978b-4236662ca3d0",
+      "sourceHash": "4152f1db8aedcaf0e25729dd3aaacb3b8f31a46b655ee060ee5ad7792bd58bdc",
+      "sourceBox": {
+        "x": 279,
+        "y": 360,
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "file": "train-static.png",
+      "sha256": "208ef6f4cc00c1cdc4a74d70d32f9c98358934dd58be4106f4b00895dbb6188f",
+      "sourceFrameId": "frame-8bba86b6-9eaa-4594-93de-71c7cd60d85e",
+      "sourceHash": "77ca940b20bc5a04e74501141a9cc0b5e21dff2a5e2eacdb1e99580e2cb16a13",
+      "sourceBox": {
+        "x": 909,
+        "y": 661,
+        "width": 42,
+        "height": 34
+      }
+    },
+    {
+      "file": "airport-building.png",
+      "sha256": "43bf223e3ea44f8853edb7eb6273a7db1e6211e3f0376748a850609ff24fd1b3",
+      "sourceFrameId": "frame-8bba86b6-9eaa-4594-93de-71c7cd60d85e",
+      "sourceHash": "77ca940b20bc5a04e74501141a9cc0b5e21dff2a5e2eacdb1e99580e2cb16a13",
+      "sourceBox": {
+        "x": 582,
+        "y": 538,
+        "width": 27,
+        "height": 28
+      }
+    },
+    {
+      "file": "train-header.png",
+      "sha256": "1abd03c7c67411891957a4b9e0e87ff41fa4fc72a9d5d153299307f9651aa1ed",
+      "sourceFrameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+      "sourceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156",
+      "sourceBox": {
+        "x": 447,
+        "y": 121,
+        "width": 278,
+        "height": 29
+      }
+    },
+    {
+      "file": "train-close.png",
+      "sha256": "026b6207e5f7d456f0bccd4b63eda85a465eded05e8a3ef402d39c297220fc0a",
+      "sourceFrameId": "frame-6b28c228-c5b4-4e9c-92d3-262e7e148f6d",
+      "sourceHash": "524adac35fbd0705c7be052fadbb4714f472afddc8a8427b2eeac46c33dc9156",
+      "sourceBox": {
+        "x": 899,
+        "y": 123,
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "file": "airport-header.png",
+      "sha256": "c43760c14d68dbabe30dda9bf853dd757121d78b4565df21e052c20359fd0bc4",
+      "sourceFrameId": "frame-7d2c49e2-675d-4135-b74a-57d2e1c4d1d9",
+      "sourceHash": "ab798d80c97c0ceb03e7814795b30199c13404b4f8ffadd0210b2b91d89ca299",
+      "sourceBox": {
+        "x": 511,
+        "y": 95,
+        "width": 161,
+        "height": 24
+      }
+    },
+    {
+      "file": "airport-close.png",
+      "sha256": "b8d62a2ac79fd4dc507e7d60dcedaed74c1db35312858be68dc9c7763a181e94",
+      "sourceFrameId": "frame-7d2c49e2-675d-4135-b74a-57d2e1c4d1d9",
+      "sourceHash": "ab798d80c97c0ceb03e7814795b30199c13404b4f8ffadd0210b2b91d89ca299",
+      "sourceBox": {
+        "x": 1018,
+        "y": 94,
+        "width": 26,
+        "height": 27
+      }
+    }
+  ]
+}

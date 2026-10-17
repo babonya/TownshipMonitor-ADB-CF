@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "purpose": "저장 화면의 영역 참고. 현재 장면/재고/클릭 좌표의 확정이나 입력 승인이 아님.",
+  "reviewer": {
+    "role": "township_screen",
+    "model": "gpt-6-luna",
+    "reasoningEffort": "low",
+    "mode": "read_only_saved_png"
+  },
+  "profiles": [
+    {
+      "id": "airport-load",
+      "kind": "airport",
+      "width": 1600,
+      "height": 900,
+      "evidenceRef": "runtime/mumu-management-20261003/frames/frame-156bbf3a-8b5a-4638-ae86-835ddbe59079.png",
+      "referenceItemIds": [
+        "syrup",
+        "corn",
+        "cookies"
+      ],
+      "regions": [
+        {
+          "id": "title",
+          "box": {
+            "x": 700,
+            "y": 65,
+            "width": 210,
+            "height": 45
+          },
+          "ocr": true,
+          "meaning": "AIRPORT 고정 제목; 현재 장면 확인"
+        },
+        {
+          "id": "stock",
+          "box": {
+            "x": 342,
+            "y": 325,
+            "width": 140,
+            "height": 70
+          },
+          "ocr": true,
+          "meaning": "선택 품목 owned/required. 왼쪽 보유, 오른쪽 필요"
+        },
+        {
+          "id": "load-options",
+          "box": {
+            "x": 180,
+            "y": 470,
+            "width": 485,
+            "height": 260
+          },
+          "ocr": false,
+          "meaning": "위 쿠폰·가운데 도움 요청·아래 무료 LOAD"
+        }
+      ],
+      "warnings": [
+        "저장 사진의 0/4는 과거 시럽 상세값이다.",
+        "팝업에 가려진 주문 줄을 이 사진으로 확정하지 않는다.",
+        "쿠폰은 최후수단 정책을 검사한다."
+      ]
+    },
+    {
+      "id": "train-load",
+      "kind": "train",
+      "width": 1600,
+      "height": 900,
+      "evidenceRef": "runtime/mumu-management-20261003/frames/frame-2b77d9f5-b779-4b0b-9042-208fc09933ad.png",
+      "referenceItemIds": [
+        "bread"
+      ],
+      "regions": [
+        {
+          "id": "title",
+          "box": {
+            "x": 570,
+            "y": 35,
+            "width": 460,
+            "height": 65
+          },
+          "ocr": true,
+          "meaning": "TRAIN STATION 고정 제목"
+        },
+        {
+          "id": "stock",
+          "box": {
+            "x": 462,
+            "y": 451,
+            "width": 145,
+            "height": 68
+          },
+          "ocr": true,
+          "meaning": "선택 칸 owned/required"
+        },
+        {
+          "id": "load-options",
+          "box": {
+            "x": 290,
+            "y": 535,
+            "width": 490,
+            "height": 170
+          },
+          "ocr": false,
+          "meaning": "왼쪽 쿠폰·오른쪽 REQUEST·아래 무료 LOAD"
+        }
+      ],
+      "warnings": [
+        "저장 사진의 2/4는 과거 빵 상세값이다.",
+        "오른쪽 SPEED UP/T캐시는 적재 대상이 아니다.",
+        "출발은 새 사진의 출발/귀환 상태로 확인한다."
+      ]
+    },
+    {
+      "id": "sugar-factory",
+      "kind": "factory",
+      "width": 1600,
+      "height": 900,
+      "evidenceRef": "runtime/mumu-management-20261003/frames/frame-4e334b97-240c-499e-a18f-444aef00b377.png",
+      "referenceItemIds": [
+        "syrup"
+      ],
+      "regions": [
+        {
+          "id": "title",
+          "box": {
+            "x": 605,
+            "y": 238,
+            "width": 400,
+            "height": 50
+          },
+          "ocr": true,
+          "meaning": "SUGAR FACTORY 고정 제목"
+        },
+        {
+          "id": "completed-products",
+          "box": {
+            "x": 455,
+            "y": 75,
+            "width": 345,
+            "height": 145
+          },
+          "ocr": false,
+          "meaning": "완성품은 위 선반. 저장 사진은 설탕과 시럽 두 병"
+        },
+        {
+          "id": "production-queue",
+          "box": {
+            "x": 510,
+            "y": 385,
+            "width": 395,
+            "height": 165
+          },
+          "ocr": false,
+          "meaning": "아래 갈색 생산/대기칸. 저장 사진에서는 빈칸이며 완성품이 아님"
+        },
+        {
+          "id": "recipe-cards",
+          "box": {
+            "x": 400,
+            "y": 700,
+            "width": 800,
+            "height": 170
+          },
+          "ocr": false,
+          "meaning": "제작 레시피 카드이며 완성품/보유 재고가 아님"
+        }
+      ],
+      "warnings": [
+        "현재 사진에서 반짝임과 정적 내부를 구분해 targetRegions를 지정한다. 프로필은 클릭/검증 box를 자동 생성하지 않는다.",
+        "오른쪽 +200 T캐시 슬롯 확장은 제외한다.",
+        "회수 결과는 완성품 감소·재고 증가 등 실제 변화를 확인한다."
+      ]
+    }
+  ],
+  "percentageGeometry": {
+    "schema": 1,
+    "unit": "fraction",
+    "space": "registered_capture",
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "entries": [
+      {
+        "path": [
+          "profiles",
+          "0",
+          "regions",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.4375,
+          "y": 0.07222222222222222,
+          "width": 0.13125,
+          "height": 0.05
+        }
+      },
+      {
+        "path": [
+          "profiles",
+          "0",
+          "regions",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.21375,
+          "y": 0.3611111111111111,
+          "width": 0.0875,
+          "height": 0.07777777777777778
+        }
+      },
+      {
+        "path": [
+          "profiles",
+          "0",
+          "regions",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.1125,
+          "y": 0.5222222222222223,
+          "width": 0.303125,
+          "height": 0.28888888888888886
+        }
+      },
+      {
+        "path": [
+          "profiles",
+          "1",
+          "regions",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.35625,
+          "y": 0.03888888888888889,
+          "width": 0.2875,
+          "height": 0.07222222222222222
+        }
+      },
+      {
+        "path": [
+          "profiles",
+          "1",
+          "regions",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.28875,
+          "y": 0.5011111111111111,
+          "width": 0.090625,
+          "height": 0.07555555555555556
+        }
+      },
+      {
+        "path": [
+          "profiles",
+          "1",
+          "regions",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.18125,
+          "y": 0.5944444444444444,
+          "width": 0.30625,
+          "height": 0.18888888888888888
+        }
+      },
+      {
+        "path": [
+          "profiles",
+          "2",
+          "regions",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.378125,
+          "y": 0.2644444444444444,
+          "width": 0.25,
+          "height": 0.05555555555555555
+        }
+      },
+      {
+        "path": [
+          "profiles",
+          "2",
+          "regions",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.284375,
+          "y": 0.08333333333333333,
+          "width": 0.215625,
+          "height": 0.16111111111111112
+        }
+      },
+      {
+        "path": [
+          "profiles",
+          "2",
+          "regions",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.31875,
+          "y": 0.42777777777777776,
+          "width": 0.246875,
+          "height": 0.18333333333333332
+        }
+      },
+      {
+        "path": [
+          "profiles",
+          "2",
+          "regions",
+          "3",
+          "box"
+        ],
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "fraction": {
+          "x": 0.25,
+          "y": 0.7777777777777778,
+          "width": 0.5,
+          "height": 0.18888888888888888
+        }
+      }
+    ]
+  }
+}

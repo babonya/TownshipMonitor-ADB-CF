@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "version": "event-close-20261014",
+  "kind": "event_close",
+  "sourceFile": "source.png",
+  "originalName": "flip-the-tiles-20261014-2108.png",
+  "sourceSha256": "04880ce7a3bd68d88c84de89b9913bc41945b6ef4b7802dca3372aa6a9d7ed28",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "anchors": [
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "43a0ff08dd268d5248fdd9c1a1d690e9236ba31e27d62cf15dff519cdd6c3f5c",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.6,
+        "height": 0.3
+      },
+      "sourceBox": {
+        "x": 262,
+        "y": 38,
+        "width": 318,
+        "height": 50
+      },
+      "sourceRegion": {
+        "x": 0.16375,
+        "y": 0.05277777777777778,
+        "width": 0.19875,
+        "height": 0.06944444444444445
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "flip-the-tiles-20261014-2108.png",
+        "sha256": "04880ce7a3bd68d88c84de89b9913bc41945b6ef4b7802dca3372aa6a9d7ed28",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 262,
+          "y": 38,
+          "width": 318,
+          "height": 50
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.4
+    },
+    {
+      "role": "close",
+      "file": "close.png",
+      "sha256": "8e329fca554d80faa8e173a418530f49453eb430b259f33c2e9fca5593493358",
+      "search": {
+        "x": 0.8,
+        "y": 0.0,
+        "width": 0.2,
+        "height": 0.3
+      },
+      "sourceBox": {
+        "x": 1493,
+        "y": 28,
+        "width": 54,
+        "height": 47
+      },
+      "sourceRegion": {
+        "x": 0.933125,
+        "y": 0.03888888888888889,
+        "width": 0.03375,
+        "height": 0.06527777777777778
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "flip-the-tiles-20261014-2108.png",
+        "sha256": "04880ce7a3bd68d88c84de89b9913bc41945b6ef4b7802dca3372aa6a9d7ed28",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 1493,
+          "y": 28,
+          "width": 54,
+          "height": 47
+        }
+      },
+      "mode": "color",
+      "threshold": 0.75
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600",
+  "note": "title Flip the Tiles gates; tap box = red X found in top-right search region"
+}

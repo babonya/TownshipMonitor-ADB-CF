@@ -1,0 +1,457 @@
+{
+  "schema": 1,
+  "livePromotion": false,
+  "frames": [
+    {
+      "id": "frame-75119f41-270b-4a3a-ac0b-d639be08dcae",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-75119f41-270b-4a3a-ac0b-d639be08dcae.png",
+      "session": "mumu-autonomous-transport",
+      "group": "cycle104-remaining-syrup-detail-visit-001",
+      "epoch": 122,
+      "sequence": 9383,
+      "observedAt": "2026-10-03T05:30:38.297Z",
+      "scene": "airport",
+      "evidenceHash": "dc60c53a4027464f69682eeebf3ed4c3b59dab808e2e6ec7671ab3d22be9279c",
+      "priorTargets": [
+        {
+          "type": "tap",
+          "kind": "close_panel",
+          "id": "cycle104-close-syrup-detail-target-001",
+          "box": {
+            "x": 200,
+            "y": 330,
+            "width": 55,
+            "height": 45
+          },
+          "verificationBox": {
+            "x": 700,
+            "y": 65,
+            "width": 210,
+            "height": 45
+          }
+        }
+      ]
+    },
+    {
+      "id": "frame-a36868ee-b2b5-42bc-9a32-f2cf5bc56264",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-a36868ee-b2b5-42bc-9a32-f2cf5bc56264.png",
+      "session": "mumu-autonomous-transport",
+      "group": "cycle103-town-pan-visit-001",
+      "epoch": 116,
+      "sequence": 9218,
+      "observedAt": "2026-10-03T05:12:03.128Z",
+      "scene": "town",
+      "evidenceHash": "fc160351dfbeadfaa3d8adc48ce7ebc340eacb1b7eaf028184d0479bd7c61296",
+      "priorTargets": [
+        {
+          "type": "tap",
+          "kind": "open_airport",
+          "id": "cycle103-open-airport-target-001",
+          "box": {
+            "width": 100,
+            "y": 0,
+            "height": 85,
+            "x": 640
+          },
+          "verificationBox": {
+            "width": 24,
+            "y": 62,
+            "height": 20,
+            "x": 223
+          }
+        }
+      ]
+    },
+    {
+      "id": "frame-b265b093-5ac5-4a4e-aced-7e23724d34d7",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-b265b093-5ac5-4a4e-aced-7e23724d34d7.png",
+      "session": "mumu-autonomous-transport",
+      "group": "cycle091-helicopter-visit-001",
+      "epoch": 105,
+      "sequence": 8126,
+      "observedAt": "2026-10-03T04:02:02.804Z",
+      "scene": "helicopter",
+      "evidenceHash": "3035c096cb3f0fbfdfb323df2fdabcf9545e3a59bb3e3ee341123f97257e521f",
+      "priorTargets": [
+        {
+          "id": "cycle092-close-panel-target-001",
+          "kind": "close_panel",
+          "type": "tap",
+          "box": {
+            "x": 1270,
+            "y": 45,
+            "width": 45,
+            "height": 45
+          },
+          "verificationBox": {
+            "x": 500,
+            "y": 22,
+            "width": 640,
+            "height": 100
+          }
+        }
+      ]
+    },
+    {
+      "id": "frame-00db88c3-79db-41a0-918a-b6bd5f9a6905",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-00db88c3-79db-41a0-918a-b6bd5f9a6905.png",
+      "session": "mumu-autonomous-transport",
+      "group": "cycle028-train-001",
+      "epoch": 36,
+      "sequence": 1885,
+      "observedAt": "2026-10-02T21:44:30.819Z",
+      "scene": "train",
+      "evidenceHash": "87f33c604ff97118a5cc96bc8bdb1c3d50a0ac596582c12bbaf7ee8bf144390c",
+      "priorTargets": [
+        {
+          "id": "cycle029-close-train-panel",
+          "kind": "close_panel",
+          "type": "tap",
+          "box": {
+            "x": 1260,
+            "y": 24,
+            "width": 75,
+            "height": 82
+          },
+          "verification": {
+            "version": 1,
+            "anchorBoxes": [
+              {
+                "x": 580,
+                "y": 34,
+                "width": 300,
+                "height": 48
+              }
+            ],
+            "targetRegions": [
+              {
+                "x": 1275,
+                "y": 50,
+                "width": 34,
+                "height": 40
+              }
+            ],
+            "criticalRegions": [],
+            "maxChangedRatio": 0.03,
+            "channelTolerance": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "frame-43187b79-ea62-4930-ac62-f3578f6bab57",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-43187b79-ea62-4930-ac62-f3578f6bab57.png",
+      "session": "mumu-autonomous-transport",
+      "group": "cycle017-receipt-001",
+      "epoch": 16,
+      "sequence": 1062,
+      "observedAt": "2026-10-02T20:59:24.929Z",
+      "scene": "received_products",
+      "evidenceHash": "55184e1704c1cfae48c4b24bec6d4b582f9a8632bd916158d43553269d232663",
+      "priorTargets": [
+        {
+          "id": "cycle017-receipt-prompt",
+          "kind": "collect_product",
+          "type": "tap",
+          "box": {
+            "x": 610,
+            "y": 790,
+            "width": 380,
+            "height": 75
+          },
+          "verification": {
+            "version": 1,
+            "anchorBoxes": [
+              {
+                "x": 741,
+                "y": 466,
+                "width": 119,
+                "height": 59
+              }
+            ],
+            "targetRegions": [
+              {
+                "x": 630,
+                "y": 800,
+                "width": 340,
+                "height": 55
+              }
+            ],
+            "criticalRegions": [
+              {
+                "field": "quantity",
+                "box": {
+                  "x": 741,
+                  "y": 466,
+                  "width": 119,
+                  "height": 59
+                }
+              }
+            ],
+            "maxChangedRatio": 0.03,
+            "channelTolerance": 12
+          },
+          "management": {
+            "purpose": "transport",
+            "verified": true,
+            "currency": "NONE",
+            "source": "received_products",
+            "quantity": 2,
+            "itemId": null,
+            "receipt": {
+              "title": "PRODUCTS RECEIVED!",
+              "prompt": "TAP TO CLAIM",
+              "sender": "Wiz"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "frame-5a53053b-5588-4925-8863-b33ec7aed63e",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-autonomous-transport\\frames\\frame-5a53053b-5588-4925-8863-b33ec7aed63e.png",
+      "session": "mumu-autonomous-transport",
+      "group": "cycle007-train-skin-observed-001",
+      "epoch": 9,
+      "sequence": 613,
+      "observedAt": "2026-10-02T20:12:44.735Z",
+      "scene": "train_skin",
+      "evidenceHash": "db165a609fbe550775fb606c15790bc1204b9233268de102e96764cc7be65155",
+      "priorTargets": [
+        {
+          "id": "close-train-station-cycle007",
+          "kind": "close_panel",
+          "type": "tap",
+          "box": {
+            "x": 1268,
+            "y": 45,
+            "width": 48,
+            "height": 46
+          },
+          "verificationBox": {
+            "x": 1268,
+            "y": 45,
+            "width": 48,
+            "height": 46
+          }
+        }
+      ]
+    },
+    {
+      "id": "frame-0e3f87a9-ff73-4574-a44f-739ead3de945",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu\\frames\\frame-0e3f87a9-ff73-4574-a44f-739ead3de945.png",
+      "session": "mumu",
+      "group": "town-final",
+      "epoch": 26,
+      "sequence": 1705,
+      "observedAt": "2026-10-02T14:13:07.695Z",
+      "scene": "town",
+      "evidenceHash": "fd6d2f003afa99f9a176446be6ff7311fedd5bf12d0028f94b7b46e4b3793248",
+      "priorTargets": []
+    },
+    {
+      "id": "frame-1ceb933e-08b8-44a2-9401-d0326a86b33f",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu\\frames\\frame-1ceb933e-08b8-44a2-9401-d0326a86b33f.png",
+      "session": "mumu",
+      "group": "helicopter-c08",
+      "epoch": 25,
+      "sequence": 1672,
+      "observedAt": "2026-10-02T14:12:42.541Z",
+      "scene": "helicopter",
+      "evidenceHash": "625eb9f98b360fc095103a06fa79f5b47fb0f16aeb9c0ce0ac7977175478bbff",
+      "priorTargets": [
+        {
+          "id": "close",
+          "kind": "close_panel",
+          "type": "tap",
+          "box": {
+            "x": 1277,
+            "y": 55,
+            "width": 28,
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "frame-db0b13d6-23b7-425c-8544-0674e857accf",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu\\frames\\frame-db0b13d6-23b7-425c-8544-0674e857accf.png",
+      "session": "mumu",
+      "group": "market-right",
+      "epoch": 10,
+      "sequence": 748,
+      "observedAt": "2026-10-02T13:59:47.275Z",
+      "scene": "market",
+      "evidenceHash": "bfbf4e61d23006e40cfbe9c83643ee83ef626670abb9782154d6837850d6da58",
+      "priorTargets": [
+        {
+          "id": "close",
+          "kind": "close_panel",
+          "type": "tap",
+          "box": {
+            "x": 1279,
+            "y": 69,
+            "width": 28,
+            "height": 31
+          }
+        }
+      ]
+    },
+    {
+      "id": "frame-1fccd726-8840-491c-8b8c-bff848a35e92",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-barn-20261003-retry\\frames\\frame-1fccd726-8840-491c-8b8c-bff848a35e92.png",
+      "session": "mumu-barn-20261003-retry",
+      "group": "barn-return-top-2",
+      "epoch": 11,
+      "sequence": 553,
+      "observedAt": "2026-10-02T16:50:58.370Z",
+      "scene": "barn",
+      "evidenceHash": "04bc9de87e4616a751f4fdcc0e7698c5bb201748cb7f732abef0abd23dc2c1d7",
+      "priorTargets": []
+    },
+    {
+      "id": "frame-dff51f91-8d0b-430b-85d4-c8bdfe75147a",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-barn-20261003-retry\\frames\\frame-dff51f91-8d0b-430b-85d4-c8bdfe75147a.png",
+      "session": "mumu-barn-20261003-retry",
+      "group": "barn-retry-initial",
+      "epoch": 3,
+      "sequence": 41,
+      "observedAt": "2026-10-02T16:40:36.076Z",
+      "scene": "town",
+      "evidenceHash": "fdf51b31da7b024c788a703d8794739a8f9b4996744056ac7223a79f3e874e7a",
+      "priorTargets": [
+        {
+          "box": {
+            "height": 58,
+            "width": 62,
+            "x": 624,
+            "y": 142
+          },
+          "id": "barn-front-door",
+          "kind": "open_barn",
+          "type": "tap",
+          "verificationBox": {
+            "height": 4,
+            "width": 4,
+            "x": 676,
+            "y": 152
+          }
+        }
+      ]
+    },
+    {
+      "id": "frame-9a662ebd-71ef-4c14-b3c3-f63828708b9b",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-management-20261003\\frames\\frame-9a662ebd-71ef-4c14-b3c3-f63828708b9b.png",
+      "session": "mumu-management-20261003",
+      "group": "task003-airport-row2-bottle-detail-001",
+      "epoch": 20,
+      "sequence": 2179,
+      "observedAt": "2026-10-02T17:48:10.475Z",
+      "scene": "airport",
+      "evidenceHash": "e703f1125b73a861e9d99c0332a0eb39d173a66138d176a803d3fd5b0d263fe3",
+      "priorTargets": [
+        {
+          "type": "tap",
+          "verificationBox": {
+            "width": 190,
+            "x": 705,
+            "y": 65,
+            "height": 42
+          },
+          "box": {
+            "width": 70,
+            "x": 600,
+            "y": 175,
+            "height": 58
+          },
+          "kind": "inspect_item",
+          "id": "airport-bottle-name-inspect"
+        }
+      ]
+    },
+    {
+      "id": "frame-15e575cd-008a-4cd7-b7d6-a4cedad59398",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-management-20261003\\frames\\frame-15e575cd-008a-4cd7-b7d6-a4cedad59398.png",
+      "session": "mumu-management-20261003",
+      "group": "task003-town-airport-search-002",
+      "epoch": 14,
+      "sequence": 1610,
+      "observedAt": "2026-10-02T17:40:06.897Z",
+      "scene": "town",
+      "evidenceHash": "b8036726a1e785f641431613f1ab3a8ce3105f20a8d8409a2efc9c3c5fe5620c",
+      "priorTargets": [
+        {
+          "type": "tap",
+          "kind": "open_airport",
+          "verificationBox": {
+            "x": 1510,
+            "height": 55,
+            "y": 40,
+            "width": 55
+          },
+          "box": {
+            "x": 1170,
+            "height": 115,
+            "y": 625,
+            "width": 220
+          },
+          "id": "airport-open"
+        }
+      ]
+    },
+    {
+      "id": "frame-5def17a7-349c-49c3-926a-a1d9b1c53e78",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-management-20261003\\frames\\frame-5def17a7-349c-49c3-926a-a1d9b1c53e78.png",
+      "session": "mumu-management-20261003",
+      "group": "train-after-coupon-001",
+      "epoch": 12,
+      "sequence": 1486,
+      "observedAt": "2026-10-02T17:37:56.194Z",
+      "scene": "train",
+      "evidenceHash": "50efa0d3386d10e6620327e80a78e1af28cd94a74152d24a74a82408a31ac2f3",
+      "priorTargets": [
+        {
+          "id": "train-station-close",
+          "kind": "close_panel",
+          "box": {
+            "width": 75,
+            "x": 1255,
+            "height": 70,
+            "y": 35
+          },
+          "type": "tap",
+          "verificationBox": {
+            "width": 75,
+            "x": 1255,
+            "height": 70,
+            "y": 35
+          }
+        }
+      ]
+    },
+    {
+      "id": "frame-1665d186-fb84-46c3-b35b-fd8634e29f35",
+      "path": "C:\\Users\\djfal\\Documents\\Codex\\2026-10-02\\task\\Township\\runtime\\mumu-management-20261003\\frames\\frame-1665d186-fb84-46c3-b35b-fd8634e29f35.png",
+      "session": "mumu-management-20261003",
+      "group": "initial-town",
+      "epoch": 2,
+      "sequence": 134,
+      "observedAt": "2026-10-02T17:18:34.231Z",
+      "scene": "barn",
+      "evidenceHash": "67bc5b50082ba1e6e5108af1f5fc55f7ac12e6228fed368892a5cce96a1c145a",
+      "priorTargets": [
+        {
+          "id": "barn-close",
+          "type": "tap",
+          "kind": "close_panel",
+          "box": {
+            "width": 90,
+            "x": 1275,
+            "y": 45,
+            "height": 90
+          }
+        }
+      ]
+    }
+  ]
+}

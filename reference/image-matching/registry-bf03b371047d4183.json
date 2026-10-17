@@ -1,0 +1,1749 @@
+{
+  "schema": 1,
+  "version": "source-variants-6",
+  "dimensions": {
+    "width": 1600,
+    "height": 900
+  },
+  "profileId": "english-1600x900-source-variants-v1",
+  "numericZoomKnown": false,
+  "coordinateTtlMs": 2500,
+  "sceneMargin": 0.05,
+  "fallbackScenes": [
+    "town"
+  ],
+  "excludedTemplates": [
+    {
+      "label": {
+        "frameId": "frame-31a0b361-e8bb-4a0e-a39a-e32e527c00f2",
+        "scene": "town",
+        "objectId": "train-station-building",
+        "category": "building",
+        "box": {
+          "x": 410,
+          "y": 371,
+          "width": 130,
+          "height": 92
+        }
+      },
+      "reason": "SOURCE_SEMANTIC_MISLABEL",
+      "evidenceRef": "runtime/perception-evaluation/live-building-negative-v5.json",
+      "correctObjectId": null
+    }
+  ],
+  "occlusionRequiresGptReview": true,
+  "templates": [
+    {
+      "templateId": "source-00-airport-building",
+      "objectId": "airport-building",
+      "itemId": null,
+      "currency": null,
+      "cardState": null,
+      "scene": "town",
+      "category": "building",
+      "file": "templates/00-airport-building-7e88671125fa9800.png",
+      "fileHash": "7e88671125fa98004dd9330baad13a5f780878760548856c3abef3a3e0182360",
+      "searchBoxes": [
+        {
+          "x": 0,
+          "y": 170,
+          "width": 1600,
+          "height": 730
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-b2f82105-624a-4d12-a15b-05439679241e",
+        "evidenceHash": "270186d3444cb45784d046256305dd01af4d66fff5170fb711dd99a9548db4be",
+        "observedAt": "2026-10-02T19:43:29.664Z",
+        "cropBox": {
+          "x": 503,
+          "y": 426,
+          "width": 428,
+          "height": 317
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-01-town-marker-avatar",
+      "objectId": "town-marker-avatar",
+      "itemId": null,
+      "currency": null,
+      "cardState": null,
+      "scene": "town",
+      "category": "scene_marker",
+      "file": "templates/01-town-marker-avatar-96d320b257b24246.png",
+      "fileHash": "96d320b257b24246e1ec3875f86d5a4abcac04be5b6f8dd4f07872d09f707b9a",
+      "searchBoxes": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 235,
+          "height": 199
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.9,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-b2f82105-624a-4d12-a15b-05439679241e",
+        "evidenceHash": "270186d3444cb45784d046256305dd01af4d66fff5170fb711dd99a9548db4be",
+        "observedAt": "2026-10-02T19:43:29.664Z",
+        "cropBox": {
+          "x": 46,
+          "y": 34,
+          "width": 129,
+          "height": 130
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "HUD fallback only. Avatar is also visible behind panels."
+    },
+    {
+      "templateId": "source-02-barn-building",
+      "objectId": "barn-building",
+      "itemId": null,
+      "currency": null,
+      "cardState": null,
+      "scene": "town",
+      "category": "building",
+      "file": "templates/02-barn-building-02a3e0687872d481.png",
+      "fileHash": "02a3e0687872d4810e2aacd82ad343ed581cd94ab07054045255f100a7bb4315",
+      "searchBoxes": [
+        {
+          "x": 0,
+          "y": 170,
+          "width": 1600,
+          "height": 730
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-b6b548a1-d120-4ac2-bdeb-58549ceb70e0",
+        "evidenceHash": "962c1a14b42877414b66b19207240033bbcdb7c83a27c959d404d0c83104e27b",
+        "observedAt": "2026-10-02T21:45:07.684Z",
+        "cropBox": {
+          "x": 939,
+          "y": 334,
+          "width": 100,
+          "height": 82
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Partly obscured; upper facade/roof appearance only."
+    },
+    {
+      "templateId": "source-03-helicopter-pad-building",
+      "objectId": "helicopter-pad-building",
+      "itemId": null,
+      "currency": null,
+      "cardState": null,
+      "scene": "town",
+      "category": "building",
+      "file": "templates/03-helicopter-pad-building-72b0ae191195db10.png",
+      "fileHash": "72b0ae191195db105fc7f2369b84f81a4afc84ac521bd4304a466c9f02729e76",
+      "searchBoxes": [
+        {
+          "x": 0,
+          "y": 170,
+          "width": 1600,
+          "height": 730
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-a9e33016-328f-4527-a379-154c89df845a",
+        "evidenceHash": "df10409eba78492b028c6ad56a25dad6f141dbcd146f2e0ef0f58e299b5e3de1",
+        "observedAt": "2026-10-02T22:00:05.874Z",
+        "cropBox": {
+          "x": 721,
+          "y": 607,
+          "width": 103,
+          "height": 92
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-04-market-building",
+      "objectId": "market-building",
+      "itemId": null,
+      "currency": null,
+      "cardState": null,
+      "scene": "town",
+      "category": "building",
+      "file": "templates/04-market-building-da8fe61f81d8100b.png",
+      "fileHash": "da8fe61f81d8100bf8a02542eacdc330064a10f5318946e83f19e29ea6223dff",
+      "searchBoxes": [
+        {
+          "x": 0,
+          "y": 170,
+          "width": 1600,
+          "height": 730
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-12131cce-3c33-4eeb-bca2-7d6926712541",
+        "evidenceHash": "a5773397b28d51f25bdde24a3f9af3dbc01e3ef17f145aa0f0be6bdffd3cb98b",
+        "observedAt": "2026-10-03T04:33:55.065Z",
+        "cropBox": {
+          "x": 918,
+          "y": 828,
+          "width": 79,
+          "height": 70
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Partial visible sign/facade. Old red-awning label rejected as unconfirmed."
+    },
+    {
+      "templateId": "source-05-train-station-title",
+      "objectId": "train-station-title",
+      "itemId": null,
+      "currency": null,
+      "cardState": null,
+      "scene": "train",
+      "category": "scene_marker",
+      "file": "templates/05-train-station-title-d89bf2cda1342e6d.png",
+      "fileHash": "d89bf2cda1342e6dacdfc6d3ac55b27ff639ff8318ae76bac7624822e4ab31a1",
+      "searchBoxes": [
+        {
+          "x": 510,
+          "y": 7,
+          "width": 575,
+          "height": 127
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.9,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-9313b245-efbc-4594-b2eb-c067217421ca",
+        "evidenceHash": "b279eeac1012092a4146bc09189c6130b48e394b4ccebf44583412560cea95a1",
+        "observedAt": "2026-10-02T20:03:18.774Z",
+        "cropBox": {
+          "x": 570,
+          "y": 42,
+          "width": 455,
+          "height": 57
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-06-train-close",
+      "objectId": "train-close",
+      "itemId": null,
+      "currency": null,
+      "cardState": null,
+      "scene": "train",
+      "category": "button",
+      "file": "templates/06-train-close-bc2b9d3276074562.png",
+      "fileHash": "bc2b9d327607456276e389e8573c84f23ea85c497783ef1e6d3baf2efaa17d60",
+      "searchBoxes": [
+        {
+          "x": 1209,
+          "y": 11,
+          "width": 165,
+          "height": 114
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-9313b245-efbc-4594-b2eb-c067217421ca",
+        "evidenceHash": "b279eeac1012092a4146bc09189c6130b48e394b4ccebf44583412560cea95a1",
+        "observedAt": "2026-10-02T20:03:18.774Z",
+        "cropBox": {
+          "x": 1269,
+          "y": 46,
+          "width": 45,
+          "height": 44
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-07-helicopter-pad-title",
+      "objectId": "helicopter-pad-title",
+      "itemId": null,
+      "currency": null,
+      "cardState": null,
+      "scene": "helicopter",
+      "category": "scene_marker",
+      "file": "templates/07-helicopter-pad-title-398f2660490e210d.png",
+      "fileHash": "398f2660490e210d3cb582620fbcfbe33ba8068b505f1daf21aebbd355c4e799",
+      "searchBoxes": [
+        {
+          "x": 490,
+          "y": 13,
+          "width": 621,
+          "height": 121
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.9,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-5b66ea94-8a59-48ee-aea7-5ab3ff00cf77",
+        "evidenceHash": "fd6beece8ccb4b3f5a5f0d8b00b260285d9874c5f607e50963ae72ba2ba7f1fa",
+        "observedAt": "2026-10-02T22:00:31.520Z",
+        "cropBox": {
+          "x": 550,
+          "y": 48,
+          "width": 501,
+          "height": 51
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-08-helicopter-close",
+      "objectId": "helicopter-close",
+      "itemId": null,
+      "currency": null,
+      "cardState": null,
+      "scene": "helicopter",
+      "category": "button",
+      "file": "templates/08-helicopter-close-b7891ca5b53f5853.png",
+      "fileHash": "b7891ca5b53f5853e24d7f2bbdbd2480309e3056a0dda9c87a7c6c5e264e2ed9",
+      "searchBoxes": [
+        {
+          "x": 1209,
+          "y": 13,
+          "width": 165,
+          "height": 112
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-5b66ea94-8a59-48ee-aea7-5ab3ff00cf77",
+        "evidenceHash": "fd6beece8ccb4b3f5a5f0d8b00b260285d9874c5f607e50963ae72ba2ba7f1fa",
+        "observedAt": "2026-10-02T22:00:31.520Z",
+        "cropBox": {
+          "x": 1269,
+          "y": 48,
+          "width": 45,
+          "height": 42
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-09-airport-title",
+      "objectId": "airport-title",
+      "itemId": null,
+      "currency": null,
+      "cardState": null,
+      "scene": "airport",
+      "category": "scene_marker",
+      "file": "templates/09-airport-title-b121c6d0376a5135.png",
+      "fileHash": "b121c6d0376a51350ac9df8026fa023ed7ce85b53e0bdff523194b9c596a3c50",
+      "searchBoxes": [
+        {
+          "x": 633,
+          "y": 26,
+          "width": 334,
+          "height": 113
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.9,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-3181246f-1c08-4d79-bf8d-33c0282db446",
+        "evidenceHash": "d7a0843a61dabead470c735d09a497a00962bdece989a4aa338c56448890ecc5",
+        "observedAt": "2026-10-03T04:15:45.329Z",
+        "cropBox": {
+          "x": 693,
+          "y": 61,
+          "width": 214,
+          "height": 43
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-10-airport-close",
+      "objectId": "airport-close",
+      "itemId": null,
+      "currency": null,
+      "cardState": null,
+      "scene": "airport",
+      "category": "button",
+      "file": "templates/10-airport-close-01fc451ab229525d.png",
+      "fileHash": "01fc451ab229525dcaf833d7a33b2953fc5643744e4217f6e18751112f1e0e0b",
+      "searchBoxes": [
+        {
+          "x": 1287,
+          "y": 38,
+          "width": 163,
+          "height": 111
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-3181246f-1c08-4d79-bf8d-33c0282db446",
+        "evidenceHash": "d7a0843a61dabead470c735d09a497a00962bdece989a4aa338c56448890ecc5",
+        "observedAt": "2026-10-03T04:15:45.329Z",
+        "cropBox": {
+          "x": 1347,
+          "y": 73,
+          "width": 43,
+          "height": 41
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-11-market-title",
+      "objectId": "market-title",
+      "itemId": null,
+      "currency": null,
+      "cardState": null,
+      "scene": "market",
+      "category": "scene_marker",
+      "file": "templates/11-market-title-45e117de1eb52aae.png",
+      "fileHash": "45e117de1eb52aae6600808f0d6d01fed264a7b507d4ec6a8414e754cacf2ff0",
+      "searchBoxes": [
+        {
+          "x": 551,
+          "y": 24,
+          "width": 496,
+          "height": 118
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.9,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+        "evidenceHash": "068c56e5b66a2a856183e5946d9199dc2b709a5c77a828bd9c56ed891997a188",
+        "observedAt": "2026-10-02T13:49:26.255Z",
+        "cropBox": {
+          "x": 611,
+          "y": 59,
+          "width": 376,
+          "height": 48
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-12-market-close",
+      "objectId": "market-close",
+      "itemId": null,
+      "currency": null,
+      "cardState": null,
+      "scene": "market",
+      "category": "button",
+      "file": "templates/12-market-close-480e3bd45f83c97e.png",
+      "fileHash": "480e3bd45f83c97eda9b59a3d4bb365c780273a0c36ff3aba96e093481645115",
+      "searchBoxes": [
+        {
+          "x": 1211,
+          "y": 29,
+          "width": 165,
+          "height": 114
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+        "evidenceHash": "068c56e5b66a2a856183e5946d9199dc2b709a5c77a828bd9c56ed891997a188",
+        "observedAt": "2026-10-02T13:49:26.255Z",
+        "cropBox": {
+          "x": 1271,
+          "y": 64,
+          "width": 45,
+          "height": 44
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-13-barn-title",
+      "objectId": "barn-title",
+      "itemId": null,
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "scene_marker",
+      "file": "templates/13-barn-title-40682d3dc6f7d38f.png",
+      "fileHash": "40682d3dc6f7d38f14d3e8600c108adec8cd07ccc9bc2434e24b8aaae371e1a4",
+      "searchBoxes": [
+        {
+          "x": 673,
+          "y": 22,
+          "width": 252,
+          "height": 122
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.9,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 733,
+          "y": 57,
+          "width": 132,
+          "height": 52
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-14-barn-close",
+      "objectId": "barn-close",
+      "itemId": null,
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "button",
+      "file": "templates/14-barn-close-d44d37f541cd35dd.png",
+      "fileHash": "d44d37f541cd35ddab1808630ddc9ef31bb4be75088a8b69c6d7c25b0956f759",
+      "searchBoxes": [
+        {
+          "x": 1236,
+          "y": 34,
+          "width": 167,
+          "height": 114
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 1296,
+          "y": 69,
+          "width": 47,
+          "height": 44
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-15-market-item-cookies",
+      "objectId": "market-item-cookies",
+      "itemId": "cookies",
+      "currency": null,
+      "cardState": null,
+      "scene": "market",
+      "category": "item",
+      "file": "templates/15-market-item-cookies-d8160808d4815152.png",
+      "fileHash": "d8160808d481515236903725b136f8f824c1806276241c909a1cc370c5d9f202",
+      "searchBoxes": [
+        {
+          "x": 400,
+          "y": 245,
+          "width": 1000,
+          "height": 510
+        }
+      ],
+      "maskFile": "templates/15-mask-b3fd8a6ddfc734c6.png",
+      "maskHash": "b3fd8a6ddfc734c6451ccde5b8589b41afc3bb54004be3d7694860bf72845b66",
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+        "evidenceHash": "068c56e5b66a2a856183e5946d9199dc2b709a5c77a828bd9c56ed891997a188",
+        "observedAt": "2026-10-02T13:49:26.255Z",
+        "cropBox": {
+          "x": 1006,
+          "y": 264,
+          "width": 151,
+          "height": 113
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-16-market-item-tomato",
+      "objectId": "market-item-tomato",
+      "itemId": "tomato",
+      "currency": null,
+      "cardState": null,
+      "scene": "market",
+      "category": "item",
+      "file": "templates/16-market-item-tomato-915e2e6a999e4415.png",
+      "fileHash": "915e2e6a999e441579caf021d495cc3af0eb659099996ca7078ccc331152694a",
+      "searchBoxes": [
+        {
+          "x": 400,
+          "y": 245,
+          "width": 1000,
+          "height": 510
+        }
+      ],
+      "maskFile": "templates/16-mask-65ae2c2987fc2783.png",
+      "maskHash": "65ae2c2987fc27836cc814ca6a873871c7084c16ac77ae4451ad2321de5c222d",
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+        "evidenceHash": "068c56e5b66a2a856183e5946d9199dc2b709a5c77a828bd9c56ed891997a188",
+        "observedAt": "2026-10-02T13:49:26.255Z",
+        "cropBox": {
+          "x": 1210,
+          "y": 255,
+          "width": 145,
+          "height": 120
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-17-barn-item-sugarcane",
+      "objectId": "barn-item-sugarcane",
+      "itemId": "sugarcane",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/17-barn-item-sugarcane-1c02040e0c93ffe3.png",
+      "fileHash": "1c02040e0c93ffe343269eea0485e9502c0bc92770d6bccb25f624a2f067afd7",
+      "searchBoxes": [
+        {
+          "x": 285,
+          "y": 245,
+          "width": 1030,
+          "height": 493
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 313,
+          "y": 262,
+          "width": 119,
+          "height": 111
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-18-barn-item-corn",
+      "objectId": "barn-item-corn",
+      "itemId": "corn",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/18-barn-item-corn-1ae01f54479fac55.png",
+      "fileHash": "1ae01f54479fac55d8a75af2ab27b9ebc26fa94bd53e79683f8edd38f30ce83d",
+      "searchBoxes": [
+        {
+          "x": 285,
+          "y": 245,
+          "width": 1030,
+          "height": 493
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 661,
+          "y": 264,
+          "width": 105,
+          "height": 108
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-19-barn-item-carrot",
+      "objectId": "barn-item-carrot",
+      "itemId": "carrot",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/19-barn-item-carrot-9a6f6eb185c675ea.png",
+      "fileHash": "9a6f6eb185c675ea2b411fe9432d80bd11b477ecff0c9451d7e62f65ef497187",
+      "searchBoxes": [
+        {
+          "x": 285,
+          "y": 245,
+          "width": 1030,
+          "height": 493
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 1000,
+          "y": 258,
+          "width": 116,
+          "height": 115
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-20-barn-item-cotton",
+      "objectId": "barn-item-cotton",
+      "itemId": "cotton",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/20-barn-item-cotton-7ff4d17d99325bc5.png",
+      "fileHash": "7ff4d17d99325bc504b3f4f19936733af1401b74f7f2a07c05fa142bc9db8ba5",
+      "searchBoxes": [
+        {
+          "x": 285,
+          "y": 245,
+          "width": 1030,
+          "height": 493
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 314,
+          "y": 635,
+          "width": 118,
+          "height": 89
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-21-barn-item-strawberry",
+      "objectId": "barn-item-strawberry",
+      "itemId": "strawberry",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/21-barn-item-strawberry-fa55220f8fa3b904.png",
+      "fileHash": "fa55220f8fa3b9041dc6b059248d14052d38c3aef3b00511d28562d29566b700",
+      "searchBoxes": [
+        {
+          "x": 285,
+          "y": 245,
+          "width": 1030,
+          "height": 493
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 496,
+          "y": 633,
+          "width": 101,
+          "height": 92
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": null
+    },
+    {
+      "templateId": "source-22-item-cookies",
+      "objectId": "item-cookies",
+      "itemId": "cookies",
+      "currency": null,
+      "cardState": null,
+      "scene": "market",
+      "category": "item",
+      "file": "templates/22-item-cookies-1a1fa7c6bcc033c2.png",
+      "fileHash": "1a1fa7c6bcc033c29e40f37b1cdd8322498ac7b375dcb0b808a0473ad8d52ad5",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "maskFile": "templates/22-mask-1d8c0b7670a81bf0.png",
+      "maskHash": "1d8c0b7670a81bf0aa31a30e88a2497c3d0837ada3681448db97590d2746908c",
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+        "evidenceHash": "068c56e5b66a2a856183e5946d9199dc2b709a5c77a828bd9c56ed891997a188",
+        "observedAt": "2026-10-02T13:49:26.255Z",
+        "cropBox": {
+          "x": 1007,
+          "y": 264,
+          "width": 150,
+          "height": 113
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-23-item-tomato",
+      "objectId": "item-tomato",
+      "itemId": "tomato",
+      "currency": null,
+      "cardState": null,
+      "scene": "market",
+      "category": "item",
+      "file": "templates/23-item-tomato-1eb07b21803b0a8f.png",
+      "fileHash": "1eb07b21803b0a8f0c815a141cffcb95cfbcae1b17292e4d1cca73072af3bf8a",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "maskFile": "templates/23-mask-101c5ce779de7c13.png",
+      "maskHash": "101c5ce779de7c1331dbf59c8b4b4b829ff7ef353a15bbb8250aa6e6c2e469a0",
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+        "evidenceHash": "068c56e5b66a2a856183e5946d9199dc2b709a5c77a828bd9c56ed891997a188",
+        "observedAt": "2026-10-02T13:49:26.255Z",
+        "cropBox": {
+          "x": 1210,
+          "y": 254,
+          "width": 145,
+          "height": 121
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-24-item-sugarcane",
+      "objectId": "item-sugarcane",
+      "itemId": "sugarcane",
+      "currency": null,
+      "cardState": null,
+      "scene": "market",
+      "category": "item",
+      "file": "templates/24-item-sugarcane-1985fe1f83d302de.png",
+      "fileHash": "1985fe1f83d302de7f5d947a18014c67e8204700051b699620fdb6212784d873",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "maskFile": "templates/24-mask-43b8a30b96c91dc1.png",
+      "maskHash": "43b8a30b96c91dc19a95e264e352d6e82e04c0e163c61acecd0977f085ad8655",
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+        "evidenceHash": "068c56e5b66a2a856183e5946d9199dc2b709a5c77a828bd9c56ed891997a188",
+        "observedAt": "2026-10-02T13:49:26.255Z",
+        "cropBox": {
+          "x": 588,
+          "y": 500,
+          "width": 164,
+          "height": 130
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-25-item-sugarcane",
+      "objectId": "item-sugarcane",
+      "itemId": "sugarcane",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/25-item-sugarcane-d5ed72d94555088d.png",
+      "fileHash": "d5ed72d94555088d9a466ef63a783e298e150b61a56a22799e4bd25b924156b8",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 317,
+          "y": 263,
+          "width": 114,
+          "height": 107
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-26-item-wool",
+      "objectId": "item-wool",
+      "itemId": "wool",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/26-item-wool-ba5b43d03cf1cb6d.png",
+      "fileHash": "ba5b43d03cf1cb6da1032c74235803e52405272d7f24987bebf7c895b274cd47",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 481,
+          "y": 264,
+          "width": 121,
+          "height": 108
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-27-item-corn",
+      "objectId": "item-corn",
+      "itemId": "corn",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/27-item-corn-406f1594592e9173.png",
+      "fileHash": "406f1594592e917319f63bfd2de1cdb75d4559dac06a067c9d3a7694e8d9341a",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 661,
+          "y": 263,
+          "width": 111,
+          "height": 109
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-28-item-carrot",
+      "objectId": "item-carrot",
+      "itemId": "carrot",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/28-item-carrot-3cd50310253d4ebd.png",
+      "fileHash": "3cd50310253d4ebdb8e6d93b8f1bb80b368b6294ee08f2b21f2851f9b3e325f8",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 1001,
+          "y": 262,
+          "width": 115,
+          "height": 111
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-29-item-muffin",
+      "objectId": "item-muffin",
+      "itemId": "muffin",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/29-item-muffin-baccbfde55f03675.png",
+      "fileHash": "baccbfde55f03675f90e383971eca2b3edb127b4e10fb0223dad5d2396e6c197",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 660,
+          "y": 449,
+          "width": 111,
+          "height": 108
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-30-item-wheat",
+      "objectId": "item-wheat",
+      "itemId": "wheat",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/30-item-wheat-d56899e6312d7722.png",
+      "fileHash": "d56899e6312d772229e311be307c929279f768a8436c9df98c651b6aa5fd1247",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 829,
+          "y": 449,
+          "width": 110,
+          "height": 108
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-31-item-cotton",
+      "objectId": "item-cotton",
+      "itemId": "cotton",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/31-item-cotton-a5a59355d67c8784.png",
+      "fileHash": "a5a59355d67c8784de6a1a7f8401657644c985ed751a9019e9c19a05141cf509",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 314,
+          "y": 635,
+          "width": 116,
+          "height": 91
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-32-item-strawberry",
+      "objectId": "item-strawberry",
+      "itemId": "strawberry",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/32-item-strawberry-ae6629a1ee133fa8.png",
+      "fileHash": "ae6629a1ee133fa8aa41466f16cebcc662ecb51dec0c0e269f387bacd453f217",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 495,
+          "y": 635,
+          "width": 101,
+          "height": 91
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-33-item-syrup",
+      "objectId": "item-syrup",
+      "itemId": "syrup",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/33-item-syrup-68b0c7ab48c49928.png",
+      "fileHash": "68b0c7ab48c49928111b369310eed6aa4380ecf414b1f0b58b5c7a66034127d5",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 659,
+          "y": 636,
+          "width": 109,
+          "height": 90
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-34-item-popcorn",
+      "objectId": "item-popcorn",
+      "itemId": "popcorn",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/34-item-popcorn-81274793cfb5d930.png",
+      "fileHash": "81274793cfb5d930ba5a5e6b3fbf8674bdde2a3791f98f628f8ce5a147837efa",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 1006,
+          "y": 636,
+          "width": 111,
+          "height": 90
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-35-item-milk",
+      "objectId": "item-milk",
+      "itemId": "milk",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/35-item-milk-e448fc1eae95e477.png",
+      "fileHash": "e448fc1eae95e477994eb5bcf91d5970294145c43e0f10ea8021fafbf752df6f",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-da2608a6-5c79-4755-a193-d47c44d94adc",
+        "evidenceHash": "00565e0a49dbff981f55a1a542e30612f4d2777ce205c8e9aa71f7f98f6924ce",
+        "observedAt": "2026-10-02T16:41:08.499Z",
+        "cropBox": {
+          "x": 1192,
+          "y": 636,
+          "width": 70,
+          "height": 90
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-36-item-bread",
+      "objectId": "item-bread",
+      "itemId": "bread",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/36-item-bread-0f07c9d311fc2dd0.png",
+      "fileHash": "0f07c9d311fc2dd05829e3cc7101df2fcf664c727f67a5973174a3c3c865a494",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-5794d65e-7d2e-4f37-a47f-668ac42cada0",
+        "evidenceHash": "2c2b62aa97d6f7157e4683e9caebb8728089a132606d6daf05533f224e48525e",
+        "observedAt": "2026-10-02T16:43:31.785Z",
+        "cropBox": {
+          "x": 319,
+          "y": 289,
+          "width": 110,
+          "height": 104
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-37-item-potato",
+      "objectId": "item-potato",
+      "itemId": "potato",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/37-item-potato-ed86da2cb566f9ba.png",
+      "fileHash": "ed86da2cb566f9ba5a7e6cfecf6d854cd2fd23e99c8618400e72f73f5d065844",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-5794d65e-7d2e-4f37-a47f-668ac42cada0",
+        "evidenceHash": "2c2b62aa97d6f7157e4683e9caebb8728089a132606d6daf05533f224e48525e",
+        "observedAt": "2026-10-02T16:43:31.785Z",
+        "cropBox": {
+          "x": 659,
+          "y": 289,
+          "width": 111,
+          "height": 104
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-38-item-cream",
+      "objectId": "item-cream",
+      "itemId": "cream",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/38-item-cream-a0f1b5ca4129ae4f.png",
+      "fileHash": "a0f1b5ca4129ae4f8238fadcaad1ff5dfa395c460741a707c4b37694918605fc",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-5794d65e-7d2e-4f37-a47f-668ac42cada0",
+        "evidenceHash": "2c2b62aa97d6f7157e4683e9caebb8728089a132606d6daf05533f224e48525e",
+        "observedAt": "2026-10-02T16:43:31.785Z",
+        "cropBox": {
+          "x": 1000,
+          "y": 291,
+          "width": 111,
+          "height": 102
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-39-item-granola",
+      "objectId": "item-granola",
+      "itemId": "granola",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/39-item-granola-8e9968821ee4097c.png",
+      "fileHash": "8e9968821ee4097c732f16119fa95ac13f8b8d43525dfe51a75425a9c19ab5eb",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-5794d65e-7d2e-4f37-a47f-668ac42cada0",
+        "evidenceHash": "2c2b62aa97d6f7157e4683e9caebb8728089a132606d6daf05533f224e48525e",
+        "observedAt": "2026-10-02T16:43:31.785Z",
+        "cropBox": {
+          "x": 1174,
+          "y": 289,
+          "width": 111,
+          "height": 105
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-40-item-paper",
+      "objectId": "item-paper",
+      "itemId": "paper",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/40-item-paper-39243f2e991c9974.png",
+      "fileHash": "39243f2e991c9974e6a3957148eded1004c8d11983d56213c9460a9094535bbe",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-5794d65e-7d2e-4f37-a47f-668ac42cada0",
+        "evidenceHash": "2c2b62aa97d6f7157e4683e9caebb8728089a132606d6daf05533f224e48525e",
+        "observedAt": "2026-10-02T16:43:31.785Z",
+        "cropBox": {
+          "x": 315,
+          "y": 475,
+          "width": 112,
+          "height": 101
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-41-item-potato_chips",
+      "objectId": "item-potato_chips",
+      "itemId": "potato_chips",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/41-item-potato_chips-fca2863508e7ce17.png",
+      "fileHash": "fca2863508e7ce17741ad91726b0345b35870fba256cf97051c500bab9d575c2",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-5794d65e-7d2e-4f37-a47f-668ac42cada0",
+        "evidenceHash": "2c2b62aa97d6f7157e4683e9caebb8728089a132606d6daf05533f224e48525e",
+        "observedAt": "2026-10-02T16:43:31.785Z",
+        "cropBox": {
+          "x": 491,
+          "y": 475,
+          "width": 101,
+          "height": 101
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-42-item-bagel",
+      "objectId": "item-bagel",
+      "itemId": "bagel",
+      "currency": null,
+      "cardState": null,
+      "scene": "barn",
+      "category": "item",
+      "file": "templates/42-item-bagel-447b4275fe0fc530.png",
+      "fileHash": "447b4275fe0fc5306459bed4601a1da10d752638ce0fbcca8d90c5e02d2399d6",
+      "searchBoxes": [
+        {
+          "x": 280,
+          "y": 170,
+          "width": 1100,
+          "height": 640
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.8,
+      "margin": 0.05,
+      "maxInstances": 16,
+      "source": {
+        "frameId": "frame-5794d65e-7d2e-4f37-a47f-668ac42cada0",
+        "evidenceHash": "2c2b62aa97d6f7157e4683e9caebb8728089a132606d6daf05533f224e48525e",
+        "observedAt": "2026-10-02T16:43:31.785Z",
+        "cropBox": {
+          "x": 657,
+          "y": 475,
+          "width": 113,
+          "height": 100
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original label, source only; number excluded."
+    },
+    {
+      "templateId": "source-43-currency-coin",
+      "objectId": "currency-coin",
+      "itemId": null,
+      "currency": "COIN",
+      "cardState": null,
+      "scene": "market",
+      "category": "currency",
+      "file": "templates/43-currency-coin-6e4fd18423063680.png",
+      "fileHash": "6e4fd18423063680080b279cad2fd2ed3673f6ae3080ab5b85c8baa6594d9b2d",
+      "searchBoxes": [
+        {
+          "x": 956,
+          "y": 359,
+          "width": 174,
+          "height": 123
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.98,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+        "evidenceHash": "068c56e5b66a2a856183e5946d9199dc2b709a5c77a828bd9c56ed891997a188",
+        "observedAt": "2026-10-02T13:49:26.255Z",
+        "cropBox": {
+          "x": 1016,
+          "y": 394,
+          "width": 54,
+          "height": 53
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original glyph only. No sold-out indicator is visible in these originals."
+    },
+    {
+      "templateId": "source-44-currency-coin",
+      "objectId": "currency-coin",
+      "itemId": null,
+      "currency": "COIN",
+      "cardState": null,
+      "scene": "market",
+      "category": "currency",
+      "file": "templates/44-currency-coin-3359cc3369e0bc7a.png",
+      "fileHash": "3359cc3369e0bc7ae17e5772409cb74aae2f1670a238d6e05f8c99e8a506ff42",
+      "searchBoxes": [
+        {
+          "x": 1180,
+          "y": 360,
+          "width": 175,
+          "height": 122
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.98,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+        "evidenceHash": "068c56e5b66a2a856183e5946d9199dc2b709a5c77a828bd9c56ed891997a188",
+        "observedAt": "2026-10-02T13:49:26.255Z",
+        "cropBox": {
+          "x": 1240,
+          "y": 395,
+          "width": 55,
+          "height": 52
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original glyph only. No sold-out indicator is visible in these originals."
+    },
+    {
+      "templateId": "source-45-currency-coin",
+      "objectId": "currency-coin",
+      "itemId": null,
+      "currency": "COIN",
+      "cardState": null,
+      "scene": "market",
+      "category": "currency",
+      "file": "templates/45-currency-coin-ea408e4c2d7194f6.png",
+      "fileHash": "ea408e4c2d7194f66809c9ff78089d2a845566ee06d3c3430f0186095b87ea84",
+      "searchBoxes": [
+        {
+          "x": 555,
+          "y": 607,
+          "width": 173,
+          "height": 123
+        }
+      ],
+      "excludeBoxes": [],
+      "threshold": 0.98,
+      "margin": 0.05,
+      "maxInstances": 1,
+      "source": {
+        "frameId": "frame-bea6afbc-be03-41b8-8f64-9473e264a42c",
+        "evidenceHash": "068c56e5b66a2a856183e5946d9199dc2b709a5c77a828bd9c56ed891997a188",
+        "observedAt": "2026-10-02T13:49:26.255Z",
+        "cropBox": {
+          "x": 615,
+          "y": 642,
+          "width": 53,
+          "height": 53
+        },
+        "model": "gpt-6-luna",
+        "reasoningEffort": "low"
+      },
+      "note": "Delegated original glyph only. No sold-out indicator is visible in these originals."
+    }
+  ]
+}

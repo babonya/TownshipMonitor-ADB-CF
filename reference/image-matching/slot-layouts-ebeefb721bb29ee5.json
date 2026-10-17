@@ -1,0 +1,726 @@
+{
+  "schema": 1,
+  "version": "english-saved-layouts-1",
+  "selection": "explicit_known_geometry_only",
+  "executionAllowed": false,
+  "layouts": [
+    {
+      "layoutId": "source-market",
+      "scene": "market",
+      "dimensions": {
+        "width": 1600,
+        "height": 900
+      },
+      "slots": [
+        {
+          "slotId": "cell-00",
+          "cardBox": {
+            "x": 997,
+            "y": 254,
+            "width": 170,
+            "height": 133
+          },
+          "iconBox": {
+            "x": 999,
+            "y": 256,
+            "width": 166,
+            "height": 129
+          },
+          "quantityBox": {
+            "x": 1106,
+            "y": 335,
+            "width": 55,
+            "height": 40
+          }
+        },
+        {
+          "slotId": "cell-01",
+          "cardBox": {
+            "x": 1200,
+            "y": 244,
+            "width": 165,
+            "height": 141
+          },
+          "iconBox": {
+            "x": 1202,
+            "y": 246,
+            "width": 161,
+            "height": 137
+          },
+          "quantityBox": {
+            "x": 1295,
+            "y": 329,
+            "width": 61,
+            "height": 43
+          }
+        },
+        {
+          "slotId": "cell-02",
+          "cardBox": {
+            "x": 578,
+            "y": 490,
+            "width": 184,
+            "height": 150
+          },
+          "iconBox": {
+            "x": 580,
+            "y": 492,
+            "width": 180,
+            "height": 146
+          },
+          "quantityBox": {
+            "x": 645,
+            "y": 570,
+            "width": 94,
+            "height": 52
+          }
+        }
+      ]
+    },
+    {
+      "layoutId": "source-barn-top",
+      "scene": "barn",
+      "dimensions": {
+        "width": 1600,
+        "height": 900
+      },
+      "slots": [
+        {
+          "slotId": "cell-00",
+          "cardBox": {
+            "x": 307,
+            "y": 253,
+            "width": 134,
+            "height": 169
+          },
+          "iconBox": {
+            "x": 309,
+            "y": 255,
+            "width": 130,
+            "height": 123
+          },
+          "quantityBox": {
+            "x": 347,
+            "y": 382,
+            "width": 49,
+            "height": 38
+          }
+        },
+        {
+          "slotId": "cell-01",
+          "cardBox": {
+            "x": 471,
+            "y": 254,
+            "width": 141,
+            "height": 168
+          },
+          "iconBox": {
+            "x": 473,
+            "y": 256,
+            "width": 137,
+            "height": 124
+          },
+          "quantityBox": {
+            "x": 518,
+            "y": 382,
+            "width": 45,
+            "height": 38
+          }
+        },
+        {
+          "slotId": "cell-02",
+          "cardBox": {
+            "x": 651,
+            "y": 253,
+            "width": 131,
+            "height": 169
+          },
+          "iconBox": {
+            "x": 653,
+            "y": 255,
+            "width": 127,
+            "height": 125
+          },
+          "quantityBox": {
+            "x": 687,
+            "y": 382,
+            "width": 50,
+            "height": 38
+          }
+        },
+        {
+          "slotId": "cell-03",
+          "cardBox": {
+            "x": 991,
+            "y": 252,
+            "width": 135,
+            "height": 170
+          },
+          "iconBox": {
+            "x": 993,
+            "y": 254,
+            "width": 131,
+            "height": 127
+          },
+          "quantityBox": {
+            "x": 1027,
+            "y": 382,
+            "width": 50,
+            "height": 38
+          }
+        },
+        {
+          "slotId": "cell-04",
+          "cardBox": {
+            "x": 650,
+            "y": 439,
+            "width": 131,
+            "height": 171
+          },
+          "iconBox": {
+            "x": 652,
+            "y": 441,
+            "width": 127,
+            "height": 124
+          },
+          "quantityBox": {
+            "x": 694,
+            "y": 570,
+            "width": 44,
+            "height": 38
+          }
+        },
+        {
+          "slotId": "cell-05",
+          "cardBox": {
+            "x": 819,
+            "y": 439,
+            "width": 130,
+            "height": 171
+          },
+          "iconBox": {
+            "x": 821,
+            "y": 441,
+            "width": 126,
+            "height": 124
+          },
+          "quantityBox": {
+            "x": 863,
+            "y": 570,
+            "width": 44,
+            "height": 38
+          }
+        },
+        {
+          "slotId": "cell-06",
+          "cardBox": {
+            "x": 304,
+            "y": 625,
+            "width": 136,
+            "height": 111
+          },
+          "iconBox": {
+            "x": 306,
+            "y": 627,
+            "width": 132,
+            "height": 107
+          },
+          "quantityBox": null
+        },
+        {
+          "slotId": "cell-07",
+          "cardBox": {
+            "x": 485,
+            "y": 625,
+            "width": 121,
+            "height": 111
+          },
+          "iconBox": {
+            "x": 487,
+            "y": 627,
+            "width": 117,
+            "height": 107
+          },
+          "quantityBox": null
+        },
+        {
+          "slotId": "cell-08",
+          "cardBox": {
+            "x": 649,
+            "y": 626,
+            "width": 129,
+            "height": 110
+          },
+          "iconBox": {
+            "x": 651,
+            "y": 628,
+            "width": 125,
+            "height": 106
+          },
+          "quantityBox": null
+        },
+        {
+          "slotId": "cell-09",
+          "cardBox": {
+            "x": 996,
+            "y": 626,
+            "width": 131,
+            "height": 110
+          },
+          "iconBox": {
+            "x": 998,
+            "y": 628,
+            "width": 127,
+            "height": 106
+          },
+          "quantityBox": null
+        },
+        {
+          "slotId": "cell-10",
+          "cardBox": {
+            "x": 1182,
+            "y": 626,
+            "width": 90,
+            "height": 110
+          },
+          "iconBox": {
+            "x": 1184,
+            "y": 628,
+            "width": 86,
+            "height": 106
+          },
+          "quantityBox": null
+        }
+      ]
+    },
+    {
+      "layoutId": "source-barn-middle",
+      "scene": "barn",
+      "dimensions": {
+        "width": 1600,
+        "height": 900
+      },
+      "slots": [
+        {
+          "slotId": "cell-00",
+          "cardBox": {
+            "x": 309,
+            "y": 279,
+            "width": 130,
+            "height": 161
+          },
+          "iconBox": {
+            "x": 311,
+            "y": 281,
+            "width": 126,
+            "height": 120
+          },
+          "quantityBox": {
+            "x": 355,
+            "y": 402,
+            "width": 37,
+            "height": 36
+          }
+        },
+        {
+          "slotId": "cell-01",
+          "cardBox": {
+            "x": 649,
+            "y": 279,
+            "width": 131,
+            "height": 161
+          },
+          "iconBox": {
+            "x": 651,
+            "y": 281,
+            "width": 127,
+            "height": 120
+          },
+          "quantityBox": {
+            "x": 693,
+            "y": 402,
+            "width": 39,
+            "height": 36
+          }
+        },
+        {
+          "slotId": "cell-02",
+          "cardBox": {
+            "x": 990,
+            "y": 281,
+            "width": 131,
+            "height": 159
+          },
+          "iconBox": {
+            "x": 992,
+            "y": 283,
+            "width": 127,
+            "height": 118
+          },
+          "quantityBox": {
+            "x": 1040,
+            "y": 402,
+            "width": 35,
+            "height": 36
+          }
+        },
+        {
+          "slotId": "cell-03",
+          "cardBox": {
+            "x": 1164,
+            "y": 279,
+            "width": 131,
+            "height": 161
+          },
+          "iconBox": {
+            "x": 1166,
+            "y": 281,
+            "width": 127,
+            "height": 121
+          },
+          "quantityBox": {
+            "x": 1210,
+            "y": 402,
+            "width": 38,
+            "height": 36
+          }
+        },
+        {
+          "slotId": "cell-04",
+          "cardBox": {
+            "x": 305,
+            "y": 465,
+            "width": 132,
+            "height": 155
+          },
+          "iconBox": {
+            "x": 307,
+            "y": 467,
+            "width": 128,
+            "height": 117
+          },
+          "quantityBox": {
+            "x": 355,
+            "y": 581,
+            "width": 36,
+            "height": 37
+          }
+        },
+        {
+          "slotId": "cell-05",
+          "cardBox": {
+            "x": 481,
+            "y": 465,
+            "width": 121,
+            "height": 155
+          },
+          "iconBox": {
+            "x": 483,
+            "y": 467,
+            "width": 117,
+            "height": 117
+          },
+          "quantityBox": {
+            "x": 527,
+            "y": 581,
+            "width": 36,
+            "height": 37
+          }
+        },
+        {
+          "slotId": "cell-06",
+          "cardBox": {
+            "x": 647,
+            "y": 465,
+            "width": 133,
+            "height": 155
+          },
+          "iconBox": {
+            "x": 649,
+            "y": 467,
+            "width": 129,
+            "height": 116
+          },
+          "quantityBox": {
+            "x": 697,
+            "y": 581,
+            "width": 34,
+            "height": 37
+          }
+        },
+        {
+          "slotId": "cell-07",
+          "cardBox": {
+            "x": 817,
+            "y": 465,
+            "width": 137,
+            "height": 155
+          },
+          "iconBox": {
+            "x": 819,
+            "y": 467,
+            "width": 133,
+            "height": 120
+          },
+          "quantityBox": {
+            "x": 866,
+            "y": 581,
+            "width": 38,
+            "height": 37
+          }
+        }
+      ]
+    },
+    {
+      "layoutId": "holdout-market",
+      "scene": "market",
+      "dimensions": {
+        "width": 1600,
+        "height": 900
+      },
+      "slots": [
+        {
+          "slotId": "cell-00",
+          "cardBox": {
+            "x": 640,
+            "y": 241,
+            "width": 165,
+            "height": 145
+          },
+          "iconBox": {
+            "x": 642,
+            "y": 243,
+            "width": 161,
+            "height": 141
+          },
+          "quantityBox": {
+            "x": 722,
+            "y": 328,
+            "width": 75,
+            "height": 47
+          }
+        },
+        {
+          "slotId": "cell-01",
+          "cardBox": {
+            "x": 836,
+            "y": 241,
+            "width": 178,
+            "height": 145
+          },
+          "iconBox": {
+            "x": 838,
+            "y": 243,
+            "width": 174,
+            "height": 141
+          },
+          "quantityBox": {
+            "x": 949,
+            "y": 328,
+            "width": 60,
+            "height": 47
+          }
+        },
+        {
+          "slotId": "cell-02",
+          "cardBox": {
+            "x": 1050,
+            "y": 241,
+            "width": 179,
+            "height": 145
+          },
+          "iconBox": {
+            "x": 1052,
+            "y": 243,
+            "width": 175,
+            "height": 141
+          },
+          "quantityBox": {
+            "x": 1150,
+            "y": 328,
+            "width": 68,
+            "height": 47
+          }
+        }
+      ]
+    },
+    {
+      "layoutId": "holdout-barn",
+      "scene": "barn",
+      "dimensions": {
+        "width": 1600,
+        "height": 900
+      },
+      "slots": [
+        {
+          "slotId": "cell-00",
+          "cardBox": {
+            "x": 305,
+            "y": 274,
+            "width": 132,
+            "height": 168
+          },
+          "iconBox": {
+            "x": 307,
+            "y": 276,
+            "width": 128,
+            "height": 127
+          },
+          "quantityBox": {
+            "x": 347,
+            "y": 401,
+            "width": 49,
+            "height": 39
+          }
+        },
+        {
+          "slotId": "cell-01",
+          "cardBox": {
+            "x": 485,
+            "y": 274,
+            "width": 121,
+            "height": 168
+          },
+          "iconBox": {
+            "x": 487,
+            "y": 276,
+            "width": 117,
+            "height": 127
+          },
+          "quantityBox": {
+            "x": 521,
+            "y": 401,
+            "width": 44,
+            "height": 39
+          }
+        },
+        {
+          "slotId": "cell-02",
+          "cardBox": {
+            "x": 649,
+            "y": 274,
+            "width": 130,
+            "height": 168
+          },
+          "iconBox": {
+            "x": 651,
+            "y": 276,
+            "width": 126,
+            "height": 127
+          },
+          "quantityBox": {
+            "x": 691,
+            "y": 401,
+            "width": 47,
+            "height": 39
+          }
+        },
+        {
+          "slotId": "cell-03",
+          "cardBox": {
+            "x": 995,
+            "y": 274,
+            "width": 125,
+            "height": 168
+          },
+          "iconBox": {
+            "x": 997,
+            "y": 276,
+            "width": 121,
+            "height": 127
+          },
+          "quantityBox": {
+            "x": 1037,
+            "y": 401,
+            "width": 47,
+            "height": 39
+          }
+        },
+        {
+          "slotId": "cell-04",
+          "cardBox": {
+            "x": 1184,
+            "y": 274,
+            "width": 90,
+            "height": 168
+          },
+          "iconBox": {
+            "x": 1186,
+            "y": 276,
+            "width": 86,
+            "height": 127
+          },
+          "quantityBox": {
+            "x": 1206,
+            "y": 401,
+            "width": 43,
+            "height": 39
+          }
+        },
+        {
+          "slotId": "cell-05",
+          "cardBox": {
+            "x": 305,
+            "y": 464,
+            "width": 132,
+            "height": 162
+          },
+          "iconBox": {
+            "x": 307,
+            "y": 466,
+            "width": 128,
+            "height": 121
+          },
+          "quantityBox": {
+            "x": 357,
+            "y": 586,
+            "width": 37,
+            "height": 38
+          }
+        },
+        {
+          "slotId": "cell-06",
+          "cardBox": {
+            "x": 650,
+            "y": 464,
+            "width": 132,
+            "height": 162
+          },
+          "iconBox": {
+            "x": 652,
+            "y": 466,
+            "width": 128,
+            "height": 121
+          },
+          "quantityBox": {
+            "x": 697,
+            "y": 586,
+            "width": 36,
+            "height": 38
+          }
+        },
+        {
+          "slotId": "cell-07",
+          "cardBox": {
+            "x": 994,
+            "y": 464,
+            "width": 124,
+            "height": 162
+          },
+          "iconBox": {
+            "x": 996,
+            "y": 466,
+            "width": 120,
+            "height": 121
+          },
+          "quantityBox": {
+            "x": 1040,
+            "y": 586,
+            "width": 34,
+            "height": 38
+          }
+        }
+      ]
+    }
+  ]
+}

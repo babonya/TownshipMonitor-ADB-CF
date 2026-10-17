@@ -1,0 +1,40 @@
+{
+  "kind": "actual_game_captures_for_regression_only",
+  "dimensions": {
+    "width": 1578,
+    "height": 1268
+  },
+  "viewport": {
+    "x": 128,
+    "y": 188,
+    "width": 1448,
+    "height": 970
+  },
+  "sources": [
+    {
+      "file": "source.png",
+      "sourceId": "frame-70634bd3-236e-49e8-adaa-71dbf903271e",
+      "sha256": "36aad482b30bfa3f0bf31162a4134f301b5ba4398578c106c71f7edc7a4befb0"
+    },
+    {
+      "file": "result.png",
+      "sourceId": "frame-ebcfbd2e-9d2c-4a42-94a7-9150b59fbd9a",
+      "sha256": "7bc9df4ee79e0d97adb85674615d9a08538c9f523d17bfc01e387ccefa65711d"
+    },
+    {
+      "file": "result-narrow-visible.png",
+      "sourceId": "frame-cd4b4873-b587-4359-a21c-e5219f601eef",
+      "sha256": "ccb099cf8b3a72d001a4c14e9d70454124dbd16754ad4622d253fa30473e3576"
+    },
+    {
+      "file": "result-halo-occluded.png",
+      "sourceId": "frame-d730670c-b37e-459b-bbeb-782f9db856b4",
+      "sha256": "7008a1648d4d2d1e5f9504b6392e08606f0ea7eb834fa5d9a939050320696e0f"
+    },
+    {
+      "file": "result-partial-visible.png",
+      "sourceId": "frame-a912042d-c2fa-4fad-b6eb-33dfabe82ca3",
+      "sha256": "20a9ef9565629c12c0f7bf8a2d80dc0d32aa37701f5ad0e60665a288f734158e"
+    }
+  ]
+}

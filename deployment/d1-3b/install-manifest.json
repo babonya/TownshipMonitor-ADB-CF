@@ -1,0 +1,37 @@
+{
+  "model": "LiquidAI/d1-3B-GGUF",
+  "modelRevision": "bb1e436ea78eb96a3f1acb6da865f70c2fbeb563",
+  "runtime": "ggml-org/llama.cpp",
+  "runtimeRelease": "b11503",
+  "createdAt": "2026-10-08T23:29:21.4400911+09:00",
+  "files": [
+    {
+      "sha256": "2f0942d5a5f64cf69c3356d2be439b71644b1f0eb3a580912a5a0179eeaba77d",
+      "directory": "models",
+      "size": 2874781280,
+      "name": "d1-3B-Q8_0.gguf",
+      "url": "https://huggingface.co/LiquidAI/d1-3B-GGUF/resolve/bb1e436ea78eb96a3f1acb6da865f70c2fbeb563/d1-3B-Q8_0.gguf"
+    },
+    {
+      "sha256": "093be6e3437800b868bc24df13f1d6f6da877ad28dfa5a5da5db01e9e8df7128",
+      "directory": "models",
+      "size": 853993696,
+      "name": "mmproj-d1-3B-F16.gguf",
+      "url": "https://huggingface.co/LiquidAI/d1-3B-GGUF/resolve/bb1e436ea78eb96a3f1acb6da865f70c2fbeb563/mmproj-d1-3B-F16.gguf"
+    },
+    {
+      "sha256": "d422d09acc9a177eda24df36fe2ffefdf161214d8ce6002031d50796de383404",
+      "directory": "downloads",
+      "size": 265086606,
+      "name": "llama-b11503-bin-win-cuda-12.4-x64.zip",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11503/llama-b11503-bin-win-cuda-12.4-x64.zip"
+    },
+    {
+      "sha256": "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6",
+      "directory": "downloads",
+      "size": 391443627,
+      "name": "cudart-llama-bin-win-cuda-12.4-x64.zip",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11503/cudart-llama-bin-win-cuda-12.4-x64.zip"
+    }
+  ]
+}

@@ -1,0 +1,3092 @@
+{
+  "schema": 1,
+  "version": "google-play-train-row3-result-6",
+  "provider": "google_play_windows",
+  "dimensions": {
+    "width": 1114,
+    "height": 735
+  },
+  "scope": "registered_protected_cargo_swipe",
+  "quantityInference": false,
+  "coordinateSpace": {
+    "reference": {
+      "width": 1600,
+      "height": 900
+    },
+    "viewport": {
+      "x": 65,
+      "y": 36,
+      "width": 1048,
+      "height": 698
+    },
+    "alignX": 0.5,
+    "alignY": 0.5,
+    "fit": "contain"
+  },
+  "anchors": [
+    {
+      "file": "title.png",
+      "box": {
+        "x": 447,
+        "y": 121,
+        "width": 278,
+        "height": 29
+      }
+    },
+    {
+      "file": "close.png",
+      "box": {
+        "x": 899,
+        "y": 123,
+        "width": 24,
+        "height": 24
+      }
+    }
+  ],
+  "rows": [
+    {
+      "row": 1,
+      "id": "glass-nail-box-glass-glass",
+      "carriages": [
+        {
+          "carriage": 1,
+          "referenceKey": "wiki_glass",
+          "body": {
+            "file": "r1-c1-body.png",
+            "box": {
+              "x": 228,
+              "y": 295,
+              "width": 20,
+              "height": 10
+            }
+          },
+          "cargo": {
+            "file": "r1-c1-cargo.png",
+            "box": {
+              "x": 258,
+              "y": 237,
+              "width": 22,
+              "height": 16
+            },
+            "maskSky": true
+          }
+        },
+        {
+          "carriage": 2,
+          "referenceKey": "wiki_nail",
+          "body": {
+            "file": "r1-c2-body.png",
+            "box": {
+              "x": 352,
+              "y": 295,
+              "width": 20,
+              "height": 10
+            }
+          },
+          "cargo": {
+            "file": "r1-c2-cargo.png",
+            "box": {
+              "x": 377,
+              "y": 238,
+              "width": 27,
+              "height": 19
+            },
+            "maskSky": true
+          }
+        },
+        {
+          "carriage": 3,
+          "referenceKey": "protected_tool_box",
+          "body": {
+            "file": "r1-c3-body.png",
+            "box": {
+              "x": 476,
+              "y": 295,
+              "width": 20,
+              "height": 10
+            }
+          },
+          "cargo": {
+            "file": "r1-c3-cargo.png",
+            "box": {
+              "x": 490,
+              "y": 259,
+              "width": 55,
+              "height": 23
+            },
+            "maskSky": true
+          }
+        },
+        {
+          "carriage": 4,
+          "referenceKey": "wiki_glass",
+          "body": {
+            "file": "r1-c4-body.png",
+            "box": {
+              "x": 600,
+              "y": 295,
+              "width": 20,
+              "height": 10
+            }
+          },
+          "cargo": {
+            "file": "r1-c4-cargo.png",
+            "box": {
+              "x": 618,
+              "y": 238,
+              "width": 35,
+              "height": 42
+            },
+            "maskSky": true
+          }
+        },
+        {
+          "carriage": 5,
+          "referenceKey": "wiki_glass",
+          "body": {
+            "file": "r1-c5-body.png",
+            "box": {
+              "x": 724,
+              "y": 295,
+              "width": 20,
+              "height": 10
+            }
+          },
+          "cargo": {
+            "file": "r1-c5-cargo.png",
+            "box": {
+              "x": 742,
+              "y": 238,
+              "width": 35,
+              "height": 42
+            },
+            "maskSky": true
+          }
+        }
+      ],
+      "loading": [
+        {
+          "file": "r1-loading-1.png",
+          "box": {
+            "x": 366,
+            "y": 241,
+            "width": 10,
+            "height": 59
+          }
+        },
+        {
+          "file": "r1-loading-2.png",
+          "box": {
+            "x": 491,
+            "y": 241,
+            "width": 10,
+            "height": 59
+          }
+        },
+        {
+          "file": "r1-loading-3.png",
+          "box": {
+            "x": 615,
+            "y": 241,
+            "width": 10,
+            "height": 59
+          }
+        },
+        {
+          "file": "r1-loading-4.png",
+          "box": {
+            "x": 739,
+            "y": 241,
+            "width": 10,
+            "height": 59
+          }
+        },
+        {
+          "file": "r1-loading-5.png",
+          "box": {
+            "x": 862,
+            "y": 241,
+            "width": 10,
+            "height": 59
+          }
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "id": "glass-brick-box-paint",
+      "carriages": [
+        {
+          "carriage": 1,
+          "referenceKey": "wiki_glass",
+          "body": {
+            "file": "r2-c1-body.png",
+            "box": {
+              "x": 293,
+              "y": 452,
+              "width": 20,
+              "height": 10
+            }
+          },
+          "cargo": {
+            "file": "r2-c1-cargo.png",
+            "box": {
+              "x": 312,
+              "y": 395,
+              "width": 35,
+              "height": 42
+            },
+            "maskSky": true
+          }
+        },
+        {
+          "carriage": 2,
+          "referenceKey": "wiki_brick",
+          "body": {
+            "file": "r2-c2-body.png",
+            "box": {
+              "x": 417,
+              "y": 452,
+              "width": 20,
+              "height": 10
+            }
+          },
+          "cargo": {
+            "file": "r2-c2-cargo.png",
+            "box": {
+              "x": 438,
+              "y": 394,
+              "width": 36,
+              "height": 39
+            },
+            "maskSky": true
+          }
+        },
+        {
+          "carriage": 3,
+          "referenceKey": "protected_tool_box",
+          "body": {
+            "file": "r2-c3-body.png",
+            "box": {
+              "x": 541,
+              "y": 452,
+              "width": 20,
+              "height": 10
+            }
+          },
+          "cargo": {
+            "file": "r2-c3-cargo.png",
+            "box": {
+              "x": 556,
+              "y": 415,
+              "width": 52,
+              "height": 22
+            },
+            "maskSky": true
+          }
+        },
+        {
+          "carriage": 4,
+          "referenceKey": "wiki_paint",
+          "body": {
+            "file": "r2-c4-body.png",
+            "box": {
+              "x": 665,
+              "y": 452,
+              "width": 20,
+              "height": 10
+            }
+          },
+          "cargo": {
+            "file": "r2-c4-cargo.png",
+            "box": {
+              "x": 689,
+              "y": 398,
+              "width": 34,
+              "height": 38
+            },
+            "maskSky": true
+          }
+        }
+      ],
+      "loading": [
+        {
+          "file": "r2-loading-1.png",
+          "box": {
+            "x": 424,
+            "y": 397,
+            "width": 10,
+            "height": 59
+          }
+        },
+        {
+          "file": "r2-loading-2.png",
+          "box": {
+            "x": 548,
+            "y": 397,
+            "width": 10,
+            "height": 59
+          }
+        },
+        {
+          "file": "r2-loading-3.png",
+          "box": {
+            "x": 672,
+            "y": 397,
+            "width": 10,
+            "height": 59
+          }
+        },
+        {
+          "file": "r2-loading-4.png",
+          "box": {
+            "x": 796,
+            "y": 397,
+            "width": 10,
+            "height": 59
+          }
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "id": "brick-box-shovel-brick",
+      "carriages": [
+        {
+          "carriage": 1,
+          "referenceKey": "wiki_brick",
+          "body": {
+            "file": "r3-c1-body.png",
+            "box": {
+              "x": 289,
+              "y": 608,
+              "width": 20,
+              "height": 10
+            }
+          },
+          "cargo": {
+            "file": "r3-c1-cargo.png",
+            "box": {
+              "x": 311,
+              "y": 550,
+              "width": 35,
+              "height": 39
+            },
+            "maskSky": true
+          }
+        },
+        {
+          "carriage": 2,
+          "referenceKey": "protected_tool_box",
+          "body": {
+            "file": "r3-c2-body.png",
+            "box": {
+              "x": 413,
+              "y": 608,
+              "width": 20,
+              "height": 10
+            }
+          },
+          "cargo": {
+            "file": "r3-c2-cargo.png",
+            "box": {
+              "x": 428,
+              "y": 572,
+              "width": 52,
+              "height": 22
+            },
+            "maskSky": true
+          }
+        },
+        {
+          "carriage": 3,
+          "referenceKey": "wiki_shovel",
+          "body": {
+            "file": "r3-c3-body.png",
+            "box": {
+              "x": 537,
+              "y": 608,
+              "width": 20,
+              "height": 10
+            }
+          },
+          "cargo": {
+            "file": "r3-c3-cargo.png",
+            "box": {
+              "x": 561,
+              "y": 548,
+              "width": 35,
+              "height": 44
+            },
+            "maskSky": true
+          }
+        },
+        {
+          "carriage": 4,
+          "referenceKey": "wiki_brick",
+          "body": {
+            "file": "r3-c4-body.png",
+            "box": {
+              "x": 661,
+              "y": 608,
+              "width": 20,
+              "height": 10
+            }
+          },
+          "cargo": {
+            "file": "r3-c4-cargo.png",
+            "box": {
+              "x": 682,
+              "y": 550,
+              "width": 36,
+              "height": 39
+            },
+            "maskSky": true
+          }
+        }
+      ],
+      "loading": [
+        {
+          "file": "r3-loading-1.png",
+          "box": {
+            "x": 429,
+            "y": 553,
+            "width": 10,
+            "height": 59
+          }
+        },
+        {
+          "file": "r3-loading-2.png",
+          "box": {
+            "x": 553,
+            "y": 553,
+            "width": 10,
+            "height": 59
+          }
+        },
+        {
+          "file": "r3-loading-3.png",
+          "box": {
+            "x": 677,
+            "y": 553,
+            "width": 10,
+            "height": 59
+          }
+        },
+        {
+          "file": "r3-loading-4.png",
+          "box": {
+            "x": 801,
+            "y": 553,
+            "width": 10,
+            "height": 59
+          }
+        }
+      ]
+    }
+  ],
+  "sweeps": [
+    {
+      "row": 1,
+      "first": 1,
+      "last": 5,
+      "durationMs": 1200
+    },
+    {
+      "row": 2,
+      "first": 1,
+      "last": 4,
+      "durationMs": 1000
+    },
+    {
+      "row": 3,
+      "first": 1,
+      "last": 4,
+      "durationMs": 1000
+    }
+  ],
+  "coordinateBindings": [
+    {
+      "fraction": {
+        "x": 0.36451335877862595,
+        "y": 0.05217981340118746,
+        "width": 0.26524809160305346,
+        "height": 0.04916030534351145
+      },
+      "box": {
+        "x": 447,
+        "y": 121,
+        "width": 278,
+        "height": 29
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.79581106870229,
+        "y": 0.05557251908396947,
+        "width": 0.022881679389312976,
+        "height": 0.040678541136556404
+      },
+      "box": {
+        "x": 899,
+        "y": 123,
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.155543893129771,
+        "y": 0.34734520780322303,
+        "width": 0.019064885496183206,
+        "height": 0.016929601357082272
+      },
+      "box": {
+        "x": 228,
+        "y": 295,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.18416984732824426,
+        "y": 0.2489567430025445,
+        "width": 0.02097328244274809,
+        "height": 0.02710771840542833
+      },
+      "box": {
+        "x": 258,
+        "y": 237,
+        "width": 22,
+        "height": 16
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.2738645038167939,
+        "y": 0.34734520780322303,
+        "width": 0.019064885496183206,
+        "height": 0.016929601357082272
+      },
+      "box": {
+        "x": 352,
+        "y": 295,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.29771946564885493,
+        "y": 0.2506530958439355,
+        "width": 0.025744274809160306,
+        "height": 0.03219677692960136
+      },
+      "box": {
+        "x": 377,
+        "y": 238,
+        "width": 27,
+        "height": 19
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.39218511450381677,
+        "y": 0.34734520780322303,
+        "width": 0.019064885496183206,
+        "height": 0.016929601357082272
+      },
+      "box": {
+        "x": 476,
+        "y": 295,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.40554389312977096,
+        "y": 0.2862765055131467,
+        "width": 0.0524618320610687,
+        "height": 0.03898218829516539
+      },
+      "box": {
+        "x": 490,
+        "y": 259,
+        "width": 55,
+        "height": 23
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.5105057251908397,
+        "y": 0.34734520780322303,
+        "width": 0.019064885496183206,
+        "height": 0.016929601357082272
+      },
+      "box": {
+        "x": 600,
+        "y": 295,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.5276812977099237,
+        "y": 0.2506530958439355,
+        "width": 0.03337786259541985,
+        "height": 0.07121289228159457
+      },
+      "box": {
+        "x": 618,
+        "y": 238,
+        "width": 35,
+        "height": 42
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.6288263358778626,
+        "y": 0.34734520780322303,
+        "width": 0.019064885496183206,
+        "height": 0.016929601357082272
+      },
+      "box": {
+        "x": 724,
+        "y": 295,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.6460019083969466,
+        "y": 0.2506530958439355,
+        "width": 0.03337786259541985,
+        "height": 0.07121289228159457
+      },
+      "box": {
+        "x": 742,
+        "y": 238,
+        "width": 35,
+        "height": 42
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.21756679389312977,
+        "y": 0.6136726039016115,
+        "width": 0.019064885496183206,
+        "height": 0.016929601357082272
+      },
+      "box": {
+        "x": 293,
+        "y": 452,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.23569656488549617,
+        "y": 0.516980491942324,
+        "width": 0.03337786259541985,
+        "height": 0.07121289228159457
+      },
+      "box": {
+        "x": 312,
+        "y": 395,
+        "width": 35,
+        "height": 42
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.33588740458015265,
+        "y": 0.6136726039016115,
+        "width": 0.019064885496183206,
+        "height": 0.016929601357082272
+      },
+      "box": {
+        "x": 417,
+        "y": 452,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.35592557251908397,
+        "y": 0.515284139100933,
+        "width": 0.034332061068702284,
+        "height": 0.06612383375742154
+      },
+      "box": {
+        "x": 438,
+        "y": 394,
+        "width": 36,
+        "height": 39
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.4542080152671756,
+        "y": 0.6136726039016115,
+        "width": 0.019064885496183206,
+        "height": 0.016929601357082272
+      },
+      "box": {
+        "x": 541,
+        "y": 452,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.4685209923664122,
+        "y": 0.5509075487701441,
+        "width": 0.04959923664122137,
+        "height": 0.03728583545377438
+      },
+      "box": {
+        "x": 556,
+        "y": 415,
+        "width": 52,
+        "height": 22
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.5725286259541985,
+        "y": 0.6136726039016115,
+        "width": 0.019064885496183206,
+        "height": 0.016929601357082272
+      },
+      "box": {
+        "x": 665,
+        "y": 452,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.5954293893129771,
+        "y": 0.5220695504664971,
+        "width": 0.0324236641221374,
+        "height": 0.06442748091603052
+      },
+      "box": {
+        "x": 689,
+        "y": 398,
+        "width": 34,
+        "height": 38
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.21375,
+        "y": 0.878303647158609,
+        "width": 0.019064885496183206,
+        "height": 0.016929601357082272
+      },
+      "box": {
+        "x": 289,
+        "y": 608,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.33207061068702287,
+        "y": 0.878303647158609,
+        "width": 0.019064885496183206,
+        "height": 0.016929601357082272
+      },
+      "box": {
+        "x": 413,
+        "y": 608,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.34638358778625955,
+        "y": 0.8172349448685327,
+        "width": 0.04959923664122137,
+        "height": 0.03728583545377438
+      },
+      "box": {
+        "x": 428,
+        "y": 572,
+        "width": 52,
+        "height": 22
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.4503912213740458,
+        "y": 0.878303647158609,
+        "width": 0.019064885496183206,
+        "height": 0.016929601357082272
+      },
+      "box": {
+        "x": 537,
+        "y": 608,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.4732919847328244,
+        "y": 0.7765224766751484,
+        "width": 0.03337786259541985,
+        "height": 0.07460559796437659
+      },
+      "box": {
+        "x": 561,
+        "y": 548,
+        "width": 35,
+        "height": 44
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.5687118320610687,
+        "y": 0.878303647158609,
+        "width": 0.019064885496183206,
+        "height": 0.016929601357082272
+      },
+      "box": {
+        "x": 661,
+        "y": 608,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.58875,
+        "y": 0.7799151823579304,
+        "width": 0.034332061068702284,
+        "height": 0.06612383375742154
+      },
+      "box": {
+        "x": 682,
+        "y": 550,
+        "width": 36,
+        "height": 39
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.2872232824427481,
+        "y": 0.25574215436810854,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 366,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.40649809160305345,
+        "y": 0.25574215436810854,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 491,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.5248187022900763,
+        "y": 0.25574215436810854,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 615,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.6431393129770993,
+        "y": 0.25574215436810854,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 739,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.7605057251908397,
+        "y": 0.25574215436810854,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 862,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.23474236641221374,
+        "y": 0.7799151823579304,
+        "width": 0.03337786259541985,
+        "height": 0.06612383375742154
+      },
+      "box": {
+        "x": 311,
+        "y": 550,
+        "width": 35,
+        "height": 39
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.3425667938931298,
+        "y": 0.520373197625106,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 424,
+        "y": 397,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.46088740458015265,
+        "y": 0.520373197625106,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 548,
+        "y": 397,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.5792080152671756,
+        "y": 0.520373197625106,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 672,
+        "y": 397,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.6975286259541985,
+        "y": 0.520373197625106,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 796,
+        "y": 397,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.347337786259542,
+        "y": 0.7850042408821034,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 429,
+        "y": 553,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.46565839694656486,
+        "y": 0.7850042408821034,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 553,
+        "y": 553,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.5839790076335878,
+        "y": 0.7850042408821034,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 677,
+        "y": 553,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "fraction": {
+        "x": 0.7022996183206107,
+        "y": 0.7850042408821034,
+        "width": 0.00952290076335878,
+        "height": 0.10005089058524172
+      },
+      "box": {
+        "x": 801,
+        "y": 553,
+        "width": 10,
+        "height": 59
+      }
+    }
+  ],
+  "assets": [
+    {
+      "file": "title.png",
+      "sha256": "1abd03c7c67411891957a4b9e0e87ff41fa4fc72a9d5d153299307f9651aa1ed",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 447,
+        "y": 121,
+        "width": 278,
+        "height": 29
+      }
+    },
+    {
+      "file": "close.png",
+      "sha256": "026b6207e5f7d456f0bccd4b63eda85a465eded05e8a3ef402d39c297220fc0a",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 899,
+        "y": 123,
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "file": "r1-c1-body.png",
+      "sha256": "1fecad8b46c7654f109ef220c6d2e4143b12e705e36660877f2206d8dc5a15f1",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 228,
+        "y": 295,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "file": "r1-c1-cargo.png",
+      "sha256": "e779799caae6a0daf099205d877bc2f52d3e731a15c9a513ed003b9d1e769865",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 258,
+        "y": 237,
+        "width": 22,
+        "height": 16
+      }
+    },
+    {
+      "file": "r1-c2-body.png",
+      "sha256": "a4627774f6a17a367aec9636f6d78ff2c7063cccfeb9f035eaa75928e4480999",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 352,
+        "y": 295,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "file": "r1-c2-cargo.png",
+      "sha256": "01a67fcf7c487f77b4e6188e9cc4d526569213c9e7e883cc9102f0cb88516422",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 377,
+        "y": 238,
+        "width": 27,
+        "height": 19
+      }
+    },
+    {
+      "file": "r1-c3-body.png",
+      "sha256": "f1f2c1ac93453b59bd60a7a66dc391e58beb98f22dbd083fa83be8d75df91862",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 476,
+        "y": 295,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "file": "r1-c3-cargo.png",
+      "sha256": "53d96543f5e84f0078a9475eda24a717740cdc4a454eb9c1a62230c2c557638e",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 490,
+        "y": 259,
+        "width": 55,
+        "height": 23
+      }
+    },
+    {
+      "file": "r1-c4-body.png",
+      "sha256": "20d712b008b78982e3c749bb4e968680df18026e30a035d97bdac110fc894e98",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 600,
+        "y": 295,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "file": "r1-c4-cargo.png",
+      "sha256": "a5ec3fd749ea6ae96a74d698864f6289b85153fcc7d72ae792336f63e9e792de",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 618,
+        "y": 238,
+        "width": 35,
+        "height": 42
+      }
+    },
+    {
+      "file": "r1-c5-body.png",
+      "sha256": "456a86ac535a36f586a1c71a7eb3db45e31bcf8c1e8091379ceace96a26495c3",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 724,
+        "y": 295,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "file": "r1-c5-cargo.png",
+      "sha256": "664f126fde803986335e728784861dd0a228a16426c211e3d8a00f1b7abf7c6d",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 742,
+        "y": 238,
+        "width": 35,
+        "height": 42
+      }
+    },
+    {
+      "file": "r2-c1-body.png",
+      "sha256": "076dd8078824b166920ab2ffb2bf2627cc09a1333a3692dc9578e2a5d57c7124",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 293,
+        "y": 452,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "file": "r2-c1-cargo.png",
+      "sha256": "a4d6c5ba97b51fccef7a22a161c5089c0d0ecf987c39ef3b13cae72e51521497",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 312,
+        "y": 395,
+        "width": 35,
+        "height": 42
+      }
+    },
+    {
+      "file": "r2-c2-body.png",
+      "sha256": "33599bc1f1d27c316ab9fe58e1675cf396b25de031a4817c2cf9ad38ac6182c7",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 417,
+        "y": 452,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "file": "r2-c2-cargo.png",
+      "sha256": "be402fbac6d76f60234bf6ae72e5f496188098b8ec5dd4eb940d29dd1ad78b68",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 438,
+        "y": 394,
+        "width": 36,
+        "height": 39
+      }
+    },
+    {
+      "file": "r2-c3-body.png",
+      "sha256": "36c4065c2a9097a7b9994f30f1b41512412580b0d1cb5eb8b1889d6d5eaeb28e",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 541,
+        "y": 452,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "file": "r2-c3-cargo.png",
+      "sha256": "20445d864e425e50f70527b4e5956d6fe25eb7c9e7bc4b847808348c27ccbd27",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 556,
+        "y": 415,
+        "width": 52,
+        "height": 22
+      }
+    },
+    {
+      "file": "r2-c4-body.png",
+      "sha256": "17a997d5088d4d836a001b2e87098c175bdf4115333d25b6e43a9a0d962aaf33",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 665,
+        "y": 452,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "file": "r2-c4-cargo.png",
+      "sha256": "23c202f87e8a69066c26a53c566abd574355ab9c0a1fc9237649afc637eef242",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 689,
+        "y": 398,
+        "width": 34,
+        "height": 38
+      }
+    },
+    {
+      "file": "r3-c1-body.png",
+      "sha256": "7dd518aef1a74ecc15966c6175b0ae92611c4aee21370bff24f91af36da9ac21",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 289,
+        "y": 608,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "file": "r3-c1-cargo.png",
+      "sha256": "251b79a2b0c060a34e8efb87332fbafa16ff54ae315de5754b0e3ad73482a1da",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 311,
+        "y": 550,
+        "width": 35,
+        "height": 39
+      }
+    },
+    {
+      "file": "r3-c2-body.png",
+      "sha256": "74912a898be288d001d0a02fdc773ee68409e2468797b7e05b55eca86c4d96dc",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 413,
+        "y": 608,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "file": "r3-c2-cargo.png",
+      "sha256": "8514e2ed65d86f263bdbfdd04bf2b4609a0505ff02cda6150a54005fc49040a5",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 428,
+        "y": 572,
+        "width": 52,
+        "height": 22
+      }
+    },
+    {
+      "file": "r3-c3-body.png",
+      "sha256": "99f304061e43ef2f3d07852285d37a68c22b70129667a72a5725c1760e996397",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 537,
+        "y": 608,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "file": "r3-c3-cargo.png",
+      "sha256": "e94bb8bcd68a25562e07fed734bdfdf767a001bf6ffd92f1c4c2f28b42c02d0b",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 561,
+        "y": 548,
+        "width": 35,
+        "height": 44
+      }
+    },
+    {
+      "file": "r3-c4-body.png",
+      "sha256": "8f3495d34192fb72cd2c863666b65553c69a0adcc7da07c0c4bd24db53d205f2",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 661,
+        "y": 608,
+        "width": 20,
+        "height": 10
+      }
+    },
+    {
+      "file": "r3-c4-cargo.png",
+      "sha256": "e2d704a9f98ad602279f1f39a3aafd739f4fc89b31987062d163f2933caaea3e",
+      "sourceFrameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+      "sourceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02",
+      "sourceBox": {
+        "x": 682,
+        "y": 550,
+        "width": 36,
+        "height": 39
+      }
+    },
+    {
+      "file": "r1-loading-1.png",
+      "sha256": "1658e34de2c3be441db5d9a75481f72f035549b4fd515e8b29ba9d30443d77cb",
+      "sourceFrameId": "frame-81062924-df70-4268-ad09-e343fc461add",
+      "sourceHash": "012fde2e11e63f4a583ee6672757ad28e1a45ccc50a3370886b7cff0e20de885",
+      "sourceBox": {
+        "x": 366,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r1-loading-2.png",
+      "sha256": "78323e7365b1a7c95db01e83cd56695c74cccafd62dbf132842edebdcbc641ce",
+      "sourceFrameId": "frame-81062924-df70-4268-ad09-e343fc461add",
+      "sourceHash": "012fde2e11e63f4a583ee6672757ad28e1a45ccc50a3370886b7cff0e20de885",
+      "sourceBox": {
+        "x": 491,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r1-loading-3.png",
+      "sha256": "6833e358545eb2006f529f7e93a847c75d30070fd93d6adedfecf61849eca7fe",
+      "sourceFrameId": "frame-81062924-df70-4268-ad09-e343fc461add",
+      "sourceHash": "012fde2e11e63f4a583ee6672757ad28e1a45ccc50a3370886b7cff0e20de885",
+      "sourceBox": {
+        "x": 615,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r1-loading-4.png",
+      "sha256": "a3c1f1df2bdc0f6752a01bbce48d3a71ae64f845924ca3f9e84f1ecec06f484a",
+      "sourceFrameId": "frame-81062924-df70-4268-ad09-e343fc461add",
+      "sourceHash": "012fde2e11e63f4a583ee6672757ad28e1a45ccc50a3370886b7cff0e20de885",
+      "sourceBox": {
+        "x": 739,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r1-loading-5.png",
+      "sha256": "16b6e049d1d691ac8a7552512f100bccfb7e9a6ab7a74d7aa3a92f8081bdd232",
+      "sourceFrameId": "frame-81062924-df70-4268-ad09-e343fc461add",
+      "sourceHash": "012fde2e11e63f4a583ee6672757ad28e1a45ccc50a3370886b7cff0e20de885",
+      "sourceBox": {
+        "x": 862,
+        "y": 241,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r2-loading-1.png",
+      "sha256": "e93b95f20667d481baf46d93dc4e58b033f02e766916b23505f0f385adb826fe",
+      "sourceFrameId": "frame-53a0e85f-65c6-4908-86e3-5120a64d45e8",
+      "sourceHash": "96964705df20f38e8a3c6d24fae9c80caf6d5ab090099e05c479781a418008d9",
+      "sourceBox": {
+        "x": 424,
+        "y": 397,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r2-loading-2.png",
+      "sha256": "b03fd1bb266a775f0dcc1def9caede34951956ff47bd17c5f9a639dd8a78e104",
+      "sourceFrameId": "frame-53a0e85f-65c6-4908-86e3-5120a64d45e8",
+      "sourceHash": "96964705df20f38e8a3c6d24fae9c80caf6d5ab090099e05c479781a418008d9",
+      "sourceBox": {
+        "x": 548,
+        "y": 397,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r2-loading-3.png",
+      "sha256": "2e9fae9b2dfcdca7d437bed514e8cae08e57d6381c43f9783e26406105c28125",
+      "sourceFrameId": "frame-53a0e85f-65c6-4908-86e3-5120a64d45e8",
+      "sourceHash": "96964705df20f38e8a3c6d24fae9c80caf6d5ab090099e05c479781a418008d9",
+      "sourceBox": {
+        "x": 672,
+        "y": 397,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r2-loading-4.png",
+      "sha256": "d3dafba92db7c66ad04a8e1fb6bd9e934f56977d9e3a73fc7c25a12856f62178",
+      "sourceFrameId": "frame-53a0e85f-65c6-4908-86e3-5120a64d45e8",
+      "sourceHash": "96964705df20f38e8a3c6d24fae9c80caf6d5ab090099e05c479781a418008d9",
+      "sourceBox": {
+        "x": 796,
+        "y": 397,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r3-loading-1.png",
+      "sha256": "53ac26d2832ec59adefc19713f267a5aa8154fda85f6d8194bda337705edba48",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 429,
+        "y": 553,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r3-loading-2.png",
+      "sha256": "a2f899c21cedf9db7f9d35a9ea3909f8d482326490349655b5b43d0c11735e40",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 553,
+        "y": 553,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r3-loading-3.png",
+      "sha256": "85148119f9be9deccc2575dce8c893270956d81db59f3d19ae7d443caf1f76aa",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 677,
+        "y": 553,
+        "width": 10,
+        "height": 59
+      }
+    },
+    {
+      "file": "r3-loading-4.png",
+      "sha256": "36e756aa2a09d412f976828b9e353cdd74337390322993286e4ec6ea4893374a",
+      "sourceFrameId": "frame-5c6c7a71-c9d1-4986-b419-798f03246a2b",
+      "sourceHash": "138985520b32242bca25e9166624826e941240fab2d73d77747dec019ee83288",
+      "sourceBox": {
+        "x": 801,
+        "y": 553,
+        "width": 10,
+        "height": 59
+      }
+    }
+  ],
+  "source": {
+    "frameId": "frame-c69ff713-3cbc-4a90-9bc7-02a400727f4f",
+    "evidenceHash": "e82ae2377382478de950a4d174ef6cfa4de5eee6679f8266c1ce8232545fee02"
+  },
+  "coverage": "Three registered returned rows use full-row swipes. Actual first-row five-crate, second-row four-crate and third-row four-crate loading originals confirm the corresponding issued sweeps. Native empty-carriage absence remains unsupported; no ordinary stock or demand is inferred by this cargo-only profile.",
+  "percentageGeometry": {
+    "schema": 1,
+    "unit": "fraction",
+    "space": "registered_capture",
+    "canvas": {
+      "width": 1114,
+      "height": 735
+    },
+    "entries": [
+      {
+        "path": [
+          "anchors",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.4012567324955117,
+          "y": 0.16462585034013605,
+          "width": 0.2495511669658887,
+          "height": 0.03945578231292517
+        }
+      },
+      {
+        "path": [
+          "anchors",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.8070017953321365,
+          "y": 0.1673469387755102,
+          "width": 0.02154398563734291,
+          "height": 0.0326530612244898
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "carriages",
+          "0",
+          "body",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.20466786355475763,
+          "y": 0.4013605442176871,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "carriages",
+          "0",
+          "cargo",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.23159784560143626,
+          "y": 0.3224489795918367,
+          "width": 0.019748653500897665,
+          "height": 0.021768707482993196
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "carriages",
+          "1",
+          "body",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.31597845601436264,
+          "y": 0.4013605442176871,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "carriages",
+          "1",
+          "cargo",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.3384201077199282,
+          "y": 0.3238095238095238,
+          "width": 0.02423698384201077,
+          "height": 0.02585034013605442
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "carriages",
+          "2",
+          "body",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.4272890484739677,
+          "y": 0.4013605442176871,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "carriages",
+          "2",
+          "cargo",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.4398563734290844,
+          "y": 0.3523809523809524,
+          "width": 0.04937163375224417,
+          "height": 0.031292517006802724
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "carriages",
+          "3",
+          "body",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5385996409335727,
+          "y": 0.4013605442176871,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "carriages",
+          "3",
+          "cargo",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5547576301615799,
+          "y": 0.3238095238095238,
+          "width": 0.03141831238779174,
+          "height": 0.05714285714285714
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "carriages",
+          "4",
+          "body",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.6499102333931778,
+          "y": 0.4013605442176871,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "carriages",
+          "4",
+          "cargo",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.6660682226211849,
+          "y": 0.3238095238095238,
+          "width": 0.03141831238779174,
+          "height": 0.05714285714285714
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "loading",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.32854578096947934,
+          "y": 0.32789115646258504,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "loading",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.440754039497307,
+          "y": 0.32789115646258504,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "loading",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.552064631956912,
+          "y": 0.32789115646258504,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "loading",
+          "3",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.6633752244165171,
+          "y": 0.32789115646258504,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "0",
+          "loading",
+          "4",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.7737881508078994,
+          "y": 0.32789115646258504,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "carriages",
+          "0",
+          "body",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.263016157989228,
+          "y": 0.6149659863945578,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "carriages",
+          "0",
+          "cargo",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.2800718132854578,
+          "y": 0.5374149659863946,
+          "width": 0.03141831238779174,
+          "height": 0.05714285714285714
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "carriages",
+          "1",
+          "body",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.374326750448833,
+          "y": 0.6149659863945578,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "carriages",
+          "1",
+          "cargo",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.39317773788150806,
+          "y": 0.5360544217687074,
+          "width": 0.03231597845601436,
+          "height": 0.053061224489795916
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "carriages",
+          "2",
+          "body",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.4856373429084381,
+          "y": 0.6149659863945578,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "carriages",
+          "2",
+          "cargo",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.4991023339317774,
+          "y": 0.564625850340136,
+          "width": 0.0466786355475763,
+          "height": 0.029931972789115645
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "carriages",
+          "3",
+          "body",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5969479353680431,
+          "y": 0.6149659863945578,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "carriages",
+          "3",
+          "cargo",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.618491921005386,
+          "y": 0.5414965986394558,
+          "width": 0.03052064631956912,
+          "height": 0.05170068027210884
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "loading",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.38061041292639136,
+          "y": 0.5401360544217687,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "loading",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.4919210053859964,
+          "y": 0.5401360544217687,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "loading",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.6032315978456014,
+          "y": 0.5401360544217687,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "1",
+          "loading",
+          "3",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.7145421903052065,
+          "y": 0.5401360544217687,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "carriages",
+          "0",
+          "body",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.2594254937163375,
+          "y": 0.8272108843537415,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "carriages",
+          "0",
+          "cargo",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.2791741472172352,
+          "y": 0.7482993197278912,
+          "width": 0.03141831238779174,
+          "height": 0.053061224489795916
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "carriages",
+          "1",
+          "body",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.37073608617594256,
+          "y": 0.8272108843537415,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "carriages",
+          "1",
+          "cargo",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.38420107719928187,
+          "y": 0.7782312925170068,
+          "width": 0.0466786355475763,
+          "height": 0.029931972789115645
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "carriages",
+          "2",
+          "body",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.48204667863554757,
+          "y": 0.8272108843537415,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "carriages",
+          "2",
+          "cargo",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5035906642728905,
+          "y": 0.745578231292517,
+          "width": 0.03141831238779174,
+          "height": 0.05986394557823129
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "carriages",
+          "3",
+          "body",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5933572710951526,
+          "y": 0.8272108843537415,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "carriages",
+          "3",
+          "cargo",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.6122082585278277,
+          "y": 0.7482993197278912,
+          "width": 0.03231597845601436,
+          "height": 0.053061224489795916
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "loading",
+          "0",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.3850987432675045,
+          "y": 0.7523809523809524,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "loading",
+          "1",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.4964093357271095,
+          "y": 0.7523809523809524,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "loading",
+          "2",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.6077199281867145,
+          "y": 0.7523809523809524,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "rows",
+          "2",
+          "loading",
+          "3",
+          "box"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.7190305206463196,
+          "y": 0.7523809523809524,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "0",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.4012567324955117,
+          "y": 0.16462585034013605,
+          "width": 0.2495511669658887,
+          "height": 0.03945578231292517
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "1",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.8070017953321365,
+          "y": 0.1673469387755102,
+          "width": 0.02154398563734291,
+          "height": 0.0326530612244898
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "2",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.20466786355475763,
+          "y": 0.4013605442176871,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "3",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.23159784560143626,
+          "y": 0.3224489795918367,
+          "width": 0.019748653500897665,
+          "height": 0.021768707482993196
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "4",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.31597845601436264,
+          "y": 0.4013605442176871,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "5",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.3384201077199282,
+          "y": 0.3238095238095238,
+          "width": 0.02423698384201077,
+          "height": 0.02585034013605442
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "6",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.4272890484739677,
+          "y": 0.4013605442176871,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "7",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.4398563734290844,
+          "y": 0.3523809523809524,
+          "width": 0.04937163375224417,
+          "height": 0.031292517006802724
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "8",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5385996409335727,
+          "y": 0.4013605442176871,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "9",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5547576301615799,
+          "y": 0.3238095238095238,
+          "width": 0.03141831238779174,
+          "height": 0.05714285714285714
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "10",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.6499102333931778,
+          "y": 0.4013605442176871,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "11",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.6660682226211849,
+          "y": 0.3238095238095238,
+          "width": 0.03141831238779174,
+          "height": 0.05714285714285714
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "12",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.263016157989228,
+          "y": 0.6149659863945578,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "13",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.2800718132854578,
+          "y": 0.5374149659863946,
+          "width": 0.03141831238779174,
+          "height": 0.05714285714285714
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "14",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.374326750448833,
+          "y": 0.6149659863945578,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "15",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.39317773788150806,
+          "y": 0.5360544217687074,
+          "width": 0.03231597845601436,
+          "height": 0.053061224489795916
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "16",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.4856373429084381,
+          "y": 0.6149659863945578,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "17",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.4991023339317774,
+          "y": 0.564625850340136,
+          "width": 0.0466786355475763,
+          "height": 0.029931972789115645
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "18",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5969479353680431,
+          "y": 0.6149659863945578,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "19",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.618491921005386,
+          "y": 0.5414965986394558,
+          "width": 0.03052064631956912,
+          "height": 0.05170068027210884
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "20",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.2594254937163375,
+          "y": 0.8272108843537415,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "21",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.2791741472172352,
+          "y": 0.7482993197278912,
+          "width": 0.03141831238779174,
+          "height": 0.053061224489795916
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "22",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.37073608617594256,
+          "y": 0.8272108843537415,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "23",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.38420107719928187,
+          "y": 0.7782312925170068,
+          "width": 0.0466786355475763,
+          "height": 0.029931972789115645
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "24",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.48204667863554757,
+          "y": 0.8272108843537415,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "25",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5035906642728905,
+          "y": 0.745578231292517,
+          "width": 0.03141831238779174,
+          "height": 0.05986394557823129
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "26",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.5933572710951526,
+          "y": 0.8272108843537415,
+          "width": 0.017953321364452424,
+          "height": 0.013605442176870748
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "27",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.6122082585278277,
+          "y": 0.7482993197278912,
+          "width": 0.03231597845601436,
+          "height": 0.053061224489795916
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "28",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.32854578096947934,
+          "y": 0.32789115646258504,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "29",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.440754039497307,
+          "y": 0.32789115646258504,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "30",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.552064631956912,
+          "y": 0.32789115646258504,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "31",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.6633752244165171,
+          "y": 0.32789115646258504,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "32",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.7737881508078994,
+          "y": 0.32789115646258504,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "33",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.38061041292639136,
+          "y": 0.5401360544217687,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "34",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.4919210053859964,
+          "y": 0.5401360544217687,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "35",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.6032315978456014,
+          "y": 0.5401360544217687,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "36",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.7145421903052065,
+          "y": 0.5401360544217687,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "37",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.3850987432675045,
+          "y": 0.7523809523809524,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "38",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.4964093357271095,
+          "y": 0.7523809523809524,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "39",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.6077199281867145,
+          "y": 0.7523809523809524,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      },
+      {
+        "path": [
+          "assets",
+          "40",
+          "sourceBox"
+        ],
+        "canvas": {
+          "width": 1114,
+          "height": 735
+        },
+        "fraction": {
+          "x": 0.7190305206463196,
+          "y": 0.7523809523809524,
+          "width": 0.008976660682226212,
+          "height": 0.08027210884353742
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "version": "continue-button-20261014",
+  "kind": "continue",
+  "sourceFile": "source.png",
+  "originalName": "startup-20261014-225646.png",
+  "sourceSha256": "8d5c92606aae07594968fbb2c2b9f2aa635877c3f7577f132ff51aa7de428f2e",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "anchors": [
+    {
+      "role": "continue",
+      "file": "continue.png",
+      "sha256": "88a0b9b115abe19842b7a384beffd957cdd946530c3ca7b7223c57c18a95f616",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 330,
+        "y": 580,
+        "width": 180,
+        "height": 38
+      },
+      "sourceRegion": {
+        "x": 0.20625,
+        "y": 0.8055555555555556,
+        "width": 0.1125,
+        "height": 0.05277777777777778
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "startup-20261014-225646.png",
+        "sha256": "8d5c92606aae07594968fbb2c2b9f2aa635877c3f7577f132ff51aa7de428f2e",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 330,
+          "y": 580,
+          "width": 180,
+          "height": 38
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600",
+  "buttonBox": {
+    "x": 317,
+    "y": 567,
+    "width": 205,
+    "height": 66
+  },
+  "target": {
+    "basis": "text top-left",
+    "dx": -0.008125,
+    "dy": -0.018055555555555554,
+    "width": 0.128125,
+    "height": 0.09166666666666666,
+    "sourceButtonBox": {
+      "x": 317,
+      "y": 567,
+      "width": 205,
+      "height": 66
+    },
+    "note": "tap box = whole green button around the CONTINUE lettering"
+  }
+}
