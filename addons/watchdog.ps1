@@ -87,6 +87,11 @@ function Restart-Bot($why) {
   } catch {}
   try { & $Adb -s $Serial shell 'rm -f /data/local/tmp/township_endpoint_*.raw' 2>$null | Out-Null } catch {}
   if ((Get-Button '일시중지').Current.IsEnabled) { Invoke-Button '일시중지' }
+  # [2026-10-18] 같은 정지에서 두 번째 재시작부터는 게임 앱도 끈다(사용자 결정). 모니터 재시작만으론 게임 화면이 그대로라
+  # 미니게임 화면 등에서 SOM_SCREEN_UNIDENTIFIED가 1시간 넘게 반복됐다(10-18 02:45~). '시작'이 꺼진 게임을 자동 실행한다.
+  if ($AS.Count -ge 1) {
+    try { & $Adb -s $Serial shell am force-stop com.playrix.township 2>$null | Out-Null; Write-Log '게임 앱 종료(반복 정지)' } catch {}
+  }
   if (-not (Wait-Enabled '프로그램 재시작' 90)) { Write-Log '프로그램 재시작 버튼이 활성화되지 않음'; return }
   $old = (Get-Process TownshipMonitor | Select-Object -First 1).Id
   Invoke-Button '프로그램 재시작'

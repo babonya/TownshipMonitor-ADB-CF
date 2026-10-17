@@ -5,6 +5,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {execFileSync,execFile} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
+import net from 'node:net';
+// [2026-10-18] node fetch가 IPv6/IPv4 연결 시도를 250ms만 기다려 이 PC에서 ETIMEDOUT 반복(curl은 정상) → 명령 응답이 2~3분 늦음. 3초로 늘림.
+net.setDefaultAutoSelectFamilyAttemptTimeout(3000);
 
 const root=path.join(path.dirname(fileURLToPath(import.meta.url)),'..');
 const rt=path.join(root,'runtime');

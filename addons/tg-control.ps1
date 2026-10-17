@@ -7,6 +7,7 @@ $Root = Split-Path -Parent $PSScriptRoot
 $Adb = Join-Path $env:LOCALAPPDATA 'Android\Sdk\platform-tools\adb.exe'
 $env:ANDROID_ADB_SERVER_PORT = '15037'
 Add-Type -AssemblyName UIAutomationClient, UIAutomationTypes
+[Console]::OutputEncoding = [Text.Encoding]::UTF8   # 봇(node)이 UTF-8로 읽는다(기본 cp949면 글자 깨짐)
 
 function Get-DeviceSerial {
   if ($env:TOWNSHIP_SERIAL) { return $env:TOWNSHIP_SERIAL.Trim() }
@@ -26,6 +27,13 @@ function Get-Button($name) {
 }
 function Invoke-Button($name) { (Get-Button $name).GetCurrentPattern([System.Windows.Automation.InvokePattern]::Pattern).Invoke() }
 function Test-Enabled($name) { try { return [bool](Get-Button $name).Current.IsEnabled } catch { return $false } }
+# 상태 글자 첫 줄로 판단한다('일시중지' 버튼은 멈춘 상태에서도 활성화돼 있음, 10-18 실측).
+function Get-Status {
+  $r = Get-Root; if (-not $r) { return $null }
+  $r.FindAll([System.Windows.Automation.TreeScope]::Descendants, [System.Windows.Automation.Condition]::TrueCondition) |
+    Where-Object { $_.Current.ControlType.ProgrammaticName -eq 'ControlType.Text' } | Select-Object -First 1 | ForEach-Object { $_.Current.Name }
+}
+function Test-Running { return ([string](Get-Status) -match '^실행 중') }
 function Wait-Enabled($name, $seconds) {
   for ($i = 0; $i -lt $seconds; $i++) { if (Test-Enabled $name) { return $true }; Start-Sleep 1 }
   return $false
@@ -42,7 +50,7 @@ try {
   switch ($Action) {
     'start' {
       if (-not (Start-Monitor)) { 'X 모니터 창이 뜨지 않았습니다'; exit 1 }
-      if (Test-Enabled '일시중지') { 'O 이미 실행 중입니다'; exit 0 }
+      if (Test-Running) { 'O 이미 실행 중입니다'; exit 0 }
       if (-not (Wait-Enabled '시작' 120)) { 'X 시작 버튼이 활성화되지 않았습니다'; exit 1 }
       Invoke-Button '시작'
       'O 시작했습니다(게임이 꺼져 있으면 자동 실행 후 창고부터)'
@@ -50,7 +58,7 @@ try {
     'stop' {
       $msg = @()
       if (-not (Get-Root)) { $msg += '모니터 꺼져 있음' }
-      elseif (Test-Enabled '일시중지') { Invoke-Button '일시중지'; $msg += '모니터 일시중지' }
+      elseif (Test-Running) { Invoke-Button '일시중지'; $msg += '모니터 일시중지' }
       else { $msg += '모니터 이미 멈춤' }
       $serial = Get-DeviceSerial
       if ($serial) { & $Adb -s $serial shell am force-stop com.playrix.township 2>$null | Out-Null; $msg += '게임 종료' }
