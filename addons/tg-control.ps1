@@ -1,7 +1,7 @@
 ﻿# [사용자 변경 2026-10-18] 텔레그램 /start /stop 로 꿈마 모니터 제어(telegram-bot.mjs가 호출). 결과 한 줄을 stdout으로.
 # start   = 모니터 '시작'(꺼진 게임 자동 실행 → 창고부터). 모니터가 없으면 Start-TownshipCF.cmd로 띄운 뒤 '시작'.
 # stop    = 모니터 '일시중지'(창은 유지) + 폰 Township 강제 종료. 일시중지 상태는 감시가 건드리지 않는다.
-param([Parameter(Mandatory)][ValidateSet('start','stop')][string]$Action)
+param([Parameter(Mandatory)][ValidateSet('start','stop','status')][string]$Action)
 $ErrorActionPreference = 'Stop'
 $Root = Split-Path -Parent $PSScriptRoot
 $Adb = Join-Path $env:LOCALAPPDATA 'Android\Sdk\platform-tools\adb.exe'
@@ -53,8 +53,14 @@ try {
       if (Test-Running) { 'O 이미 실행 중입니다'; exit 0 }
       if (-not (Wait-Enabled '시작' 120)) { 'X 시작 버튼이 활성화되지 않았습니다'; exit 1 }
       Invoke-Button '시작'
-      'O 시작했습니다(게임이 꺼져 있으면 자동 실행 후 창고부터)'
+      # [2026-10-18] 실제로 '실행 중'이 됐는지 확인하고 답한다(게임 실행·전면 대기 최대 60초 포함).
+      for ($i = 0; $i -lt 90; $i++) {
+        Start-Sleep 1
+        if (Test-Running) { 'O 실행 중 확인: ' + (Get-Status); exit 0 }
+      }
+      'X 90초 안에 실행 중이 안 됨: ' + (Get-Status); exit 1
     }
+    'status' { [string](Get-Status) }
     'stop' {
       $msg = @()
       if (-not (Get-Root)) { $msg += '모니터 꺼져 있음' }

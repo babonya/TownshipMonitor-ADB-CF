@@ -50,14 +50,27 @@ class Phone:
         # 느린 드래그는 관성이 없어 이동량이 손가락 이동량과 같다(실측 오차 6px).
         self.adb('shell', f'input swipe {x0:.0f} {y0:.0f} {x1:.0f} {y1:.0f} 1000')
 
+# [2026-10-18 사용자 안내] 게임 첫 화면은 매번 다른 곳(공사 중인 지도)일 수 있다. 최소 배율에서 지도 왼쪽 아래 끝까지 간 뒤
+# (손가락 오른쪽 위로 여러 번) 거기를 기준으로 카메라 오른쪽 1~2번(손가락 왼쪽)·위로 2~3번(손가락 아래)이면 마을 가운데(창고·시장·헬기장·비행장).
+# 10-18 08:5x 실기기: 왼쪽 아래 끝 → 손가락 왼쪽 1번 → 아래 2번에 네 건물 모두 보임. 각 드래그 뒤 다시 재서 찾으면 바로 미세 조정으로 넘어간다.
+# 손가락 드래그 (x0,y0,x1,y1) 화면 비율. HUD(왼쪽 위 이벤트·왼쪽 아래 버튼)를 피한 자리에서 시작한다.
+CORNER = (0.30, 0.70, 0.75, 0.25)   # 손가락 오른쪽 위 → 카메라 왼쪽 아래
+LEFT = (0.75, 0.54, 0.25, 0.54)     # 손가락 왼쪽 → 카메라 오른쪽
+DOWN = (0.50, 0.24, 0.50, 0.81)     # 손가락 아래 → 카메라 위
+# [10-18 사용자 결정] 기준점 뒤 위 → 오른쪽 → 위(다른 사람 마을은 이 길 중간에 창고가 있을 수 있음, 드래그마다 다시 잼). 그 뒤 오른쪽·위 한 번씩 더.
+SEARCH = [CORNER] * 5 + [DOWN, LEFT, DOWN, LEFT, DOWN]
+
 def drag_points(dx, dy, W, H):
     # 화면 가장자리 HUD를 피한 안쪽 영역에서 시작·끝이 모두 들어가는 드래그를 고른다.
     lo_x, hi_x, lo_y, hi_y = 0.15 * W, 0.80 * W, 0.20 * H, 0.78 * H
     dx = max(-(hi_x - lo_x), min(hi_x - lo_x, dx)); dy = max(-(hi_y - lo_y), min(hi_y - lo_y, dy))
     x0 = lo_x if dx >= 0 else hi_x; y0 = lo_y if dy >= 0 else hi_y
+    # [2026-10-18] 세로만·가로만 끌 때 모서리(0.15W,0.2H)에서 시작하면 왼쪽 위 이벤트 아이콘을 잡아 화면이 안 움직였다 → 가운데 줄에서 시작.
+    if dx == 0: x0 = W / 2
+    if dy == 0: y0 = H / 2
     return x0, y0, x0 + dx, y0 + dy
 
-def restore(phone, check_only=False, max_steps=10):
+def restore(phone, check_only=False, max_steps=22):
     if not phone.foreground(): log('Township이 전면이 아님'); return 2
     phone.ensure_pinch(); zoomed_out = False; searched = 0; refs = None
     for step in range(max_steps):
@@ -78,10 +91,12 @@ def restore(phone, check_only=False, max_steps=10):
                 for _ in range(3): phone.pinch(W / 2, H / 2, 900, 150); time.sleep(0.5)
                 zoomed_out = True
             else:
-                # 최소 배율에서도 창고가 없으면 상하좌우로 한 번씩 훑는다.
-                if searched >= 4: log('기준 건물을 찾지 못함'); camera_ref.save_low(im, score, 'restore', every=0); return 1
-                dx, dy = [(500, 0), (0, 300), (-1000, 0), (0, -600)][searched]; searched += 1
-                phone.swipe(*drag_points(dx, dy, W, H))
+                # 최소 배율에서도 창고가 없으면 훑는다. [2026-10-18] 옛 순서(오른쪽500·아래300·왼쪽1000·위600)는 끝나면 시작점보다
+                # 왼쪽·위(화면은 아래쪽 바다)로 밀려, 실패할 때마다 카메라가 바다로 흘러가 아무 건물도 안 보이게 됐다(정지사례 #26).
+                # 그래서 지도 왼쪽 아래 끝을 기준으로 삼아 마을 가운데로 간다(SEARCH, 사용자 안내).
+                if searched >= len(SEARCH): log('기준 건물을 찾지 못함'); camera_ref.save_low(im, score, 'restore', every=0); return 1
+                x0, y0, x1, y1 = SEARCH[searched]; searched += 1
+                phone.swipe(x0 * W, y0 * H, x1 * W, y1 * H)
         elif abs(scale - 1) > SCALE_TOLERANCE and not (0.25 * W < cx < 0.75 * W and 0.25 * H < cy < 0.7 * H):
             # 가장자리에서 확대하면 창고가 화면 밖으로 밀려난다(2026-10-15 실측). 먼저 화면 가운데로 옮긴다.
             phone.swipe(*drag_points(W / 2 - cx, H * 0.45 - cy, W, H))

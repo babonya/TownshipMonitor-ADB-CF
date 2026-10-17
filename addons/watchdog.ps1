@@ -143,15 +143,15 @@ while ($true) {
       $isLoop = ($check -like 'LOOP*'); $checkMinutes = $idle
       Send-All (Test-Recovery $AS (Get-Date) $idle $isLoop $STALL_MINUTES)
       if ($idle -ge $STALL_MINUTES -and ((Get-Date) - $lastRestart).TotalMinutes -ge $MIN_GAP_MINUTES) {
-        if (Test-TownshipForeground) { $why = ("{0:N0}분간 입력 없음, 상태='{1}'" -f $idle, $status); Restart-Bot $why; $lastRestart = Get-Date; Send-All (Register-Restart $AS (Get-Date) $why $status $script:LastShot) }
-        else { Write-Log "입력 없음 $([int]$idle)분이지만 Township이 전면이 아님 - 재시작 안 함" ; $lastRestart = Get-Date }
+        . { $why = ("{0:N0}분간 입력 없음, 상태='{1}'" -f $idle, $status); Restart-Bot $why; $lastRestart = Get-Date; Send-All (Register-Restart $AS (Get-Date) $why $status $script:LastShot) }
+        # [2026-10-18 사용자 결정] 폰은 꿈마 전용 — 게임이 전면이 아니어도 재시작한다('시작'이 게임을 강제로 띄움).
       }
       # [2026-10-16] 헛돌기: 입력은 나가는데 같은 동작이 결과 없이 반복(정지사례 #9). 재시작으로 현재 화면부터 다시 판단하게 한다.
       elseif ($status.StartsWith('실행 중') -and ((Get-Date) - $lastRestart).TotalMinutes -ge $MIN_GAP_MINUTES) {
         $loop = $check
         if ($loop -like 'LOOP*') {
-          if (Test-TownshipForeground) { $why = ("헛돌기 {0}" -f $loop); Restart-Bot $why; $lastRestart = Get-Date; Send-All (Register-Restart $AS (Get-Date) $why $status $script:LastShot) }
-          else { Write-Log "헛돌기 $loop 이지만 Township이 전면이 아님 - 재시작 안 함"; $lastRestart = Get-Date }
+          . { $why = ("헛돌기 {0}" -f $loop); Restart-Bot $why; $lastRestart = Get-Date; Send-All (Register-Restart $AS (Get-Date) $why $status $script:LastShot) }
+          # [2026-10-18 사용자 결정] 폰은 꿈마 전용 — 게임이 전면이 아니어도 재시작한다('시작'이 게임을 강제로 띄움).
         }
       }
     }

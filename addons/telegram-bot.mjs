@@ -51,8 +51,19 @@ function buildStat(){
     const out=execFileSync('tasklist',['/FI','IMAGENAME eq TownshipMonitor.exe'],{encoding:'utf8',stdio:['ignore','pipe','ignore']});
     alive=/TownshipMonitor\.exe/i.test(out)?'실행 중':'꺼짐';
   }catch{}
-  const st=readJson(path.join(rt,'mumu-autonomous-transport','.monitor','delivery.json'))?.record?.status;
-  lines.push(`상태: TownshipMonitor ${alive}, phase=${st?.phase||'-'}, reason=${st?.reason||'-'}`);
+  // [2026-10-18] delivery.json 상태는 지난 기록일 수 있어(새벽 UNIDENTIFIED가 그대로 보임) 모니터 화면의 현재 상태 글자를 보여 준다.
+  let now='-';
+  if(alive==='실행 중')try{now=execFileSync('powershell',['-NoProfile','-ExecutionPolicy','Bypass','-File',path.join(root,'addons','tg-control.ps1'),'status'],{encoding:'utf8',stdio:['ignore','pipe','ignore'],timeout:30000,windowsHide:true}).trim()||'-';}catch{}
+  lines.push(`상태: TownshipMonitor ${alive}, 모니터 표시='${now}'`);
+  // [2026-10-18 사용자 요청] 지금 진행 단계(delivery.json, 갱신 시각 함께 — 오래됐으면 지난 기록).
+  try{
+    const f=path.join(rt,'mumu-autonomous-transport','.monitor','delivery.json');
+    const st=readJson(f)?.record?.status||{};const age=Math.round((Date.now()-fs.statSync(f).mtimeMs)/1000);
+    const ko={survey:'주문 훑기',shopping:'시장 구매',deliver:'배송',delete:'주문 삭제',recheck:'주문 재확인',reset_orders:'주문 새로고침 대기',barn_recovery:'창고 복구',recovering_camera:'카메라 맞추기',recovering_navigation:'화면 이동 복구',minigame_requesting:'미니게임 주문',hold:'보류',ready:'준비'};
+    const name=v=>v?(ko[v]?`${ko[v]}(${v})`:v):'-';
+    const ago=age<120?`${age}초 전`:`${Math.round(age/60)}분 전`;
+    lines.push(`진행: ${name(st.phase)} / 단계 ${name(st.step)}${st.reason?`, 사유 ${st.reason}`:''} (${ago} 갱신)`);
+  }catch{lines.push('진행: 확인 실패');}
   let last='-';
   try{const t=fs.readFileSync(path.join(rt,'hourly.log'),'utf8').replace(/^﻿/,'').split(/\r?\n/).filter(x=>x.trim());if(t.length)last=t[t.length-1];}catch{}
   lines.push(`마지막 시간 요약: ${last}`);

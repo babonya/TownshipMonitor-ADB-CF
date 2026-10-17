@@ -96,14 +96,13 @@ export class AndroidAdbDevice extends AdbDevice{
     super({...session,runner});this.session=androidConfig(session);this.lockRoot=lockRoot;this.lastGameLaunch=0;
   }
   // [사용자 변경 2026-10-16] 시작을 눌렀는데 게임이 꺼져 있으면(ADB_TARGET_NOT_FOREGROUND) 게임을 띄운다.
-  // 화면이 켜져 있고 전면이 홈 화면(런처)일 때만 — 사람이 다른 앱을 쓰는 중이면 건드리지 않는다. 60초에 한 번까지.
+  // [2026-10-18 사용자 결정] 폰은 꿈마 전용 — 홈 화면 여부를 보지 않고 무조건 게임을 띄운다(구글 플레이 서비스 창이 앞에 떠 시작이 막힌 사례).
+  // 화면이 꺼져 있으면 먼저 깨운다. 60초에 한 번까지.
   async launchGameIfHome({signal}={}){
     const now=Date.now();if(now-this.lastGameLaunch<60000)return false;
-    const out=(await this.command(['shell','dumpsys window | grep -m1 mCurrentFocus; dumpsys power | grep -m1 -o "mWakefulness=[A-Za-z]*"'],{signal})).stdout.toString();
-    if(!/mWakefulness=Awake/.test(out)||!/[Ll]auncher/.test(out))return false;
     this.lastGameLaunch=now;
-    await this.command(['shell',`monkey -p ${this.packageName} -c android.intent.category.LAUNCHER 1`],{signal});
-    console.error(`[android] ${this.packageName} launched from home screen`);
+    await this.command(['shell',`input keyevent KEYCODE_WAKEUP; monkey -p ${this.packageName} -c android.intent.category.LAUNCHER 1`],{signal});
+    console.error(`[android] ${this.packageName} launched (forced to front)`);
     return true;
   }
   async assertTarget({signal}={}){
