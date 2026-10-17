@@ -112,12 +112,16 @@ while ($true) {
     # [2026-10-17] 프로세스 소실 알림(다시 켜지 않음) — 중계기는 명령줄에 cf-som-proxy가 있는 node.
     try {
       $monitorUp = [bool](Get-Process TownshipMonitor -ErrorAction SilentlyContinue)
-      $relayUp = [bool](Get-CimInstance Win32_Process -Filter "Name='node.exe'" -ErrorAction Stop | Where-Object { $_.CommandLine -like '*cf-som-proxy*' })
-      Send-All (Test-Processes $AS $monitorUp $relayUp)
+      # [2026-10-17] 사람이 멈춘 동안은 종료 알림 한 번 뒤로 프로세스 알림을 보내지 않는다.
+      Send-All (Test-ManualStop $AS $monitorUp $status)
+      if (-not $AS.ManualStopped) {
+        $relayUp = [bool](Get-CimInstance Win32_Process -Filter "Name='node.exe'" -ErrorAction Stop | Where-Object { $_.CommandLine -like '*cf-som-proxy*' })
+        Send-All (Test-Processes $AS $monitorUp $relayUp)
+      }
     } catch { Write-Log ("프로세스 점검 오류: " + $_.Exception.Message) }
     # 오류로 모니터가 스스로 일시정지한 경우(예: '일시정지 · SOM_HTTP_502' — 중계기 502, 2026-10-16 00:00)도 정지로 본다.
     # 사람이 멈추려면 모니터를 닫거나, 이 사유가 없는 상태에서 일시중지한다.
-    $autoPaused = $status -match '^일시정지 · (SOM_HTTP_\d+|PROCESS_TIMEOUT|PROCESS_FAILED|INPUT_UNRESOLVED)'
+    $autoPaused = Test-AutoPaused $status
     if ($status -and (-not $status.StartsWith('일시정지') -or $autoPaused)) {
       # 무입력 시간은 state.json 마지막 동작 시각으로 잰다(adb-dispatch 마커는 재시작 때 비워져 '방금 입력'으로 오판, 10-16 04:54).
       $check = (& node (Join-Path $PSScriptRoot 'loop-check.mjs') 2>$null | Select-Object -First 1)
@@ -148,7 +152,7 @@ while ($true) {
       $dj = (Get-Content (Join-Path $Source '.monitor\delivery.json') -Raw -Encoding UTF8 | ConvertFrom-Json).record.status
       $rep = Get-HourlyReport $AS (Get-Date) $date ([int]$total) $dj.phase $dj.reason $isLoop (Get-Status) ([bool](Get-Process TownshipMonitor -ErrorAction SilentlyContinue)) (-not $AS.RelayMissingAlerted)
       Add-Content -Path $HourlyLog -Value $rep.Line -Encoding UTF8
-      Send-All $rep.Msgs
+      if (-not $AS.ManualStopped) { Send-All $rep.Msgs }   # 사람이 멈춘 동안은 요약 줄만 남긴다
     }
   } catch { Write-Log ("시간당 요약 오류: " + $_.Exception.Message); $AS.NextHourly = (Get-Date).AddMinutes(5) }
   Start-Sleep 60

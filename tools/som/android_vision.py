@@ -184,9 +184,15 @@ class AndroidVision(Vision):
             if dealer_entry:result['dealerSearch']=self.dealer.entry(im,viewport,result['view'])
             return result
         town=self.p['town']
-        if self.locate(im,town['anchor']):
+        # [2026-10-17 DC 피드백] 폰마다 화면 가장자리 여백(카메라 구멍 등)이 달라 왼쪽·오른쪽 HUD 버튼이 수십 px 밀린다.
+        # 원래 찾는 범위는 버튼 크기와 거의 같아 40px만 밀려도 마을을 몰라 SOM_SCREEN_UNIDENTIFIED → 화면 아래 왼쪽/오른쪽 구역에서 찾는다
+        # (점수 기준 0.96 그대로, 마을이 아닌 저장 화면에서 새로 잡히는 것 0건 확인).
+        # [2026-10-17 사용자 지적] 안전모(town-hardhat)는 근처에 공사 중일 때만 뜬다 → 공사가 없는 마을은 마을로 인식 못 함.
+        # 늘 있는 오른쪽 아래 헬기 버튼(이 봇은 헬기 주문용이라 필수)이 정확히 하나 보여도 마을로 본다(저장 화면 28장에서 오인식 0).
+        H,W=im.shape[:2]
+        hits=self.locate(im,town['helicopter'],search=box(dict(x=0.55,y=0.75,width=0.45,height=0.25),W,H),multiple=True)
+        if len(hits)==1 or self.locate(im,town['anchor'],search=box(dict(x=0.0,y=0.7,width=0.25,height=0.3),W,H)):
             out=dict(scene='town')
-            hits=self.locate(im,town['helicopter'],multiple=True)
             out['helicopter']=hits[0] if len(hits)==1 else None
             # Preserve the user's fixed-layout entry policy on the phone too.
             # Town recognition and the registered current viewport are required;
