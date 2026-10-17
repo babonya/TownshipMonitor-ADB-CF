@@ -285,7 +285,18 @@ export class MonitorController{
     if(initial.input && !['issued','captured'].includes(initial.actions[initial.input]?.status))throw Error('INPUT_UNRESOLVED');
     const token=++this.generation,run=new MonitorRunSession(this,token);this.runSession=run;let worker;
     try{
-      const device=this.deviceFactory(initial.session);await device.assertTarget();
+      const device=this.deviceFactory(initial.session);
+      // [사용자 변경 2026-10-17] 시작 버튼을 눌렀는데 게임이 꺼져 있으면(홈 화면) 게임을 띄우고 전면·가로 화면이 될 때까지 최대 60초 기다린다.
+      // 전엔 이 검사에서 바로 ADB_TARGET_NOT_FOREGROUND로 멈춰, 실행 중에만 동작하는 자동 실행(mumu-capture.mjs)까지 가지 못했다.
+      try{await device.assertTarget();}
+      catch(error){
+        if(error.message!=='ADB_TARGET_NOT_FOREGROUND'||typeof device.launchGameIfHome!=='function'||!await device.launchGameIfHome())throw error;
+        for(let i=0;;i++){
+          await new Promise(r=>setTimeout(r,2000));if(!run.current())throw Error('MONITOR_START_CANCELLED');
+          try{await device.assertTarget();break;}
+          catch(e){if(i>=30||!['ADB_TARGET_NOT_FOREGROUND','ADB_TARGET_OR_GEOMETRY_CHANGED','ADB_DISPLAY_GEOMETRY_REQUIRED'].includes(e.message))throw e;}
+        }
+      }
       if(!run.current())throw Error('MONITOR_START_CANCELLED');
       worker=run.worker=await this.workerFactory(initial.session,initial);await worker.ready;
       if(!run.current())throw Error('MONITOR_START_CANCELLED');

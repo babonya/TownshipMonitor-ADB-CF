@@ -64,8 +64,8 @@ def match_one(im, ref, scales, area=None):
 
 def measure(im, refs):
     # 화면 전체에서 후보마다 배율·위치를 찾는다(절반 해상도로 대략 → 원본 해상도로 다듬기).
-    # 돌려줌: (점수, 배율, cx, cy, 기준x, 기준y, 후보이름) 중 점수 최고.
-    H, W = im.shape[:2]; half = cv2.resize(im, None, fx=0.5, fy=0.5, interpolation=cv2.INTER_AREA); best = None
+    # 돌려줌: (점수, 배율, cx, cy, 기준x, 기준y, 후보이름).
+    H, W = im.shape[:2]; half = cv2.resize(im, None, fx=0.5, fy=0.5, interpolation=cv2.INTER_AREA); found = []
     for ref in refs:
         coarse = match_one(half, ref, [s * 0.5 for s in np.arange(0.5, 1.61, 0.04)])
         if not coarse: continue
@@ -73,8 +73,12 @@ def measure(im, refs):
         th, tw = ref['tpl'].shape[:2]; pw, ph = tw * (s0 + 0.06) / 2 + 12, th * (s0 + 0.06) / 2 + 12
         area = (max(0, int(cx - pw)), max(0, int(cy - ph)), min(W, int(cx + pw)), min(H, int(cy + ph)))
         fine = match_one(im, ref, [s for s in np.arange(s0 - 0.04, s0 + 0.041, 0.02) if 0.45 <= s <= 1.65], area) or (coarse[0], s0, cx, cy)
-        if not best or fine[0] > best[0]: best = (*fine, *ref['center'], ref['name'])
-    return best
+        found.append((*fine, *ref['center'], ref['name']))
+    # [2026-10-17] 작은 후보(비행장 날개)는 화면 전체에서 엉뚱한 곳에 높게 잡힐 수 있다(실측 23:57 (1362,291)).
+    # check()와 같이 우선순위(창고→시장→헬기장→비행장)대로 충분히 맞는(0.85 이상) 첫 후보를 쓰고, 없으면 최고 점수.
+    for r in found:
+        if r[0] >= LOW_SCORE: return r
+    return max(found, key=lambda r: r[0]) if found else None
 
 def check(im, refs):
     # 봇이 마을 화면마다 부르는 빠른 확인: 후보마다 기준 중심 근처·배율 1±0.02만 본다.

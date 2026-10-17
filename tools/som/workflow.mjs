@@ -126,6 +126,9 @@ export class SomWorkflow{
     }
     if(v.popup){
       this.market.scrollAlignment=null;
+      // [사용자 변경 2026-10-17] BLOSSOM DEALS FREE를 누른 뒤 5초는 어떤 팝업 버튼도 누르지 않는다(가격 칸이 첫 칸으로 밀려오는 중 오클릭 = 유료 결제 방지).
+      if(this.freeSettleUntil&&Date.now()<this.freeSettleUntil)return {waitMs:1000,reason:'SOM_FREE_SETTLE'};
+      if(v.popup.kind==='free_first'&&v.popup.freeTap)this.freeSettleUntil=Date.now()+5000;
       if(this.popupRecovery){
         const p=v.popup.kind==='claim'?v.popupClose:v.popup;
         if(!p||this.popupRecovery.closeRetries>=1)return {waitMs:3000,reason:p?'SOM_POPUP_CLOSE_FAILED':'SOM_POPUP_CLOSE_REQUIRED'};

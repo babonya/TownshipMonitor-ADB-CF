@@ -1,0 +1,138 @@
+{
+ "schema": 1,
+ "version": "blossom-deals-20261017",
+ "kind": "free_first",
+ "sourceFile": "source.png",
+ "originalName": "free-offer-20261017-235338.png",
+ "sourceSha256": "8ee325e6d8e288f3383d53b214805e6baad11c3bb1a8dc68f14e03c8a20de585",
+ "dimensions": {
+  "width": 1600,
+  "height": 720
+ },
+ "viewport": {
+  "x": 0.0,
+  "y": 0.0,
+  "width": 1.0,
+  "height": 1.0
+ },
+ "space": "game",
+ "unit": "fraction",
+ "scales": [
+  0.97,
+  0.985,
+  1,
+  1.015,
+  1.03
+ ],
+ "matchScale": 0.5,
+ "note": "[2026-10-17 사용자 지시] BLOSSOM DEALS: 맨 왼쪽 칸 버튼이 FREE면 그 버튼만 누르고(누른 뒤 5초 대기, workflow.mjs), 가격이면 절대 누르지 않고 오른쪽 위 빨간 X. FREE는 첫 칸 버튼 자리에서만 찾는다(가격 칸 점수 0.50, FREE 1.00).",
+ "provider": "android_adb",
+ "adbProfile": "android-1600",
+ "anchors": [
+  {
+   "role": "title",
+   "file": "title.png",
+   "sha256": "2efb0d6b7d4bbf02f9b9afa626bdcbd831db3ad03dbea2ffebcabce7d11b866f",
+   "search": {
+    "x": 0.25,
+    "y": 0.0,
+    "width": 0.5,
+    "height": 0.3
+   },
+   "sourceBox": {
+    "x": 600,
+    "y": 70,
+    "width": 400,
+    "height": 58
+   },
+   "sourceRegion": {
+    "x": 0.375,
+    "y": 0.09722222222222222,
+    "width": 0.25,
+    "height": 0.08055555555555556
+   },
+   "source": {
+    "file": "source.png",
+    "originalName": "free-offer-20261017-235338.png",
+    "sha256": "8ee325e6d8e288f3383d53b214805e6baad11c3bb1a8dc68f14e03c8a20de585",
+    "dimensions": {
+     "width": 1600,
+     "height": 720
+    }
+   },
+   "mode": "color",
+   "threshold": 0.8,
+   "matchScale": 0.5
+  },
+  {
+   "role": "close",
+   "file": "close.png",
+   "sha256": "2a72903263bc3ff80f0db776ecb6428d33cb05804afb1451e977f6397e1dcbd0",
+   "search": {
+    "x": 0.85,
+    "y": 0.0,
+    "width": 0.15,
+    "height": 0.2
+   },
+   "sourceBox": {
+    "x": 1494,
+    "y": 26,
+    "width": 54,
+    "height": 54
+   },
+   "sourceRegion": {
+    "x": 0.93375,
+    "y": 0.03611111111111111,
+    "width": 0.03375,
+    "height": 0.075
+   },
+   "source": {
+    "file": "source.png",
+    "originalName": "free-offer-20261017-235338.png",
+    "sha256": "8ee325e6d8e288f3383d53b214805e6baad11c3bb1a8dc68f14e03c8a20de585",
+    "dimensions": {
+     "width": 1600,
+     "height": 720
+    }
+   },
+   "mode": "color",
+   "threshold": 0.8,
+   "matchScale": 0.5
+  },
+  {
+   "role": "free",
+   "file": "free.png",
+   "sha256": "8a75ac58e4e44df478747399cf1ef845ea4d14bf0ffb8b99ad0a1480d0eb2ac9",
+   "search": {
+    "x": 0.15,
+    "y": 0.7,
+    "width": 0.22,
+    "height": 0.18
+   },
+   "sourceBox": {
+    "x": 756,
+    "y": 550,
+    "width": 94,
+    "height": 42
+   },
+   "sourceRegion": {
+    "x": 0.4725,
+    "y": 0.7638888888888888,
+    "width": 0.05875,
+    "height": 0.058333333333333334
+   },
+   "source": {
+    "file": "source.png",
+    "originalName": "free-offer-20261017-235338.png",
+    "sha256": "8ee325e6d8e288f3383d53b214805e6baad11c3bb1a8dc68f14e03c8a20de585",
+    "dimensions": {
+     "width": 1600,
+     "height": 720
+    }
+   },
+   "mode": "color",
+   "threshold": 0.85,
+   "matchScale": 0.5
+  }
+ ]
+}

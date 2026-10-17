@@ -120,6 +120,23 @@ class PopupRuleDetector:
             b['width']=max(1,min(b['width'],x+w-b['x']));b['height']=max(1,min(b['height'],y+h-b['y']))
             info=dict(detected=True,unit='fraction',space='game',direction=best[1],scores={'arrow':best[0]['score']})
             return {'scene':'unknown',self.kind:info,'popupCandidates':[],'popup':{'kind':self.kind,**roi(image,b),'contextHash':ctx}}
+        if self.kind=='free_first':
+            # [사용자 변경 2026-10-17] BLOSSOM DEALS 류: 맨 왼쪽 칸 버튼이 FREE일 때만 그 버튼, 아니면(가격) 빨간 X.
+            # 가격 버튼을 누르면 유료 결제라, FREE 글자가 첫 칸 버튼 자리에서 확실히 보일 때만 누른다.
+            # 결과 확인을 위해 문맥 해시에 첫 칸 카드 모습을 넣는다(눌러서 카드가 바뀌면 다른 문맥).
+            for a in self.p['anchors']:
+                if a['role']=='free':continue
+                m=self.match(image,viewport,a)
+                if m is None or m['score']<a['threshold']:return None
+                found[a['role']]=m
+            fa=next(a for a in self.p['anchors'] if a['role']=='free');fm=self.match(image,viewport,fa)
+            free=fm is not None and fm['score']>=fa['threshold']
+            b=dict(fm['box'] if free else found['close']['box'])
+            s=fa['search'];card=image[y+round(s['y']*h)-round(.45*h):y+round((s['y']+s['height'])*h),x+round(s['x']*w):x+round((s['x']+s['width'])*w)]
+            cardHash=hashlib.sha256(cv2.resize(card,(24,24),interpolation=cv2.INTER_AREA).tobytes()).hexdigest() if card.size else ''
+            ctx=hashlib.sha256((self.kind+':'+self.p['version']+':'+('free' if free else 'close')+':'+cardHash).encode()).hexdigest()
+            info=dict(detected=True,unit='fraction',space='game',freeTap=free,scores={**{k:v['score'] for k,v in found.items()},'free':fm['score'] if fm else None})
+            return {'scene':'unknown',self.kind:info,'popupCandidates':[],'popup':{'kind':self.kind,'freeTap':free,**roi(image,b),'contextHash':ctx}}
         for a in self.p['anchors']:
             m=self.match(image,viewport,a)
             if m is None or m['score']<a['threshold']:return None
