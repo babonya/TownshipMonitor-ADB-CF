@@ -15,6 +15,10 @@ internal sealed class MonitorForm : Form
     private readonly Button refresh = new() { Text = "상태 새로고침", AutoSize = true, Enabled = false };
     private readonly Button resolveMinigame = new() { Text = "미니게임 해결", AutoSize = true, Enabled = false };
     private bool resolvingMinigame;
+    // [사용자 변경 2026-10-18] 폰 화면 밝기 버튼(1·50)과 실행 3분 뒤 자동 밝기 1(ScreenBrightness.cs).
+    private readonly Button brightness1 = new() { Text = "화면밝기1", AutoSize = true };
+    private readonly Button brightness50 = new() { Text = "화면밝기50", AutoSize = true };
+    private readonly System.Windows.Forms.Timer dimTimer = new() { Interval = 180000 };
     private readonly Button restart = new() { Text = "프로그램 재시작", AutoSize = true };
     private readonly CheckBox helicopterOnly = new() { Text = "헬리콥터만 납품", AutoSize = true, Enabled = false };
     private readonly ToolTip deliveryTip = new();
@@ -73,7 +77,7 @@ internal sealed class MonitorForm : Form
         layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 24));
         layout.RowStyles.Add(new RowStyle(SizeType.Percent, 100));
         var buttons = new FlowLayoutPanel { Dock = DockStyle.Fill, WrapContents = false, Margin = Padding.Empty };
-        buttons.Controls.AddRange([start, pause, restart, resolveMinigame]);
+        buttons.Controls.AddRange([start, pause, restart, resolveMinigame, brightness1, brightness50]);
         var summary = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 2, RowCount = 1, Margin = Padding.Empty };
         summary.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
         summary.ColumnStyles.Add(new ColumnStyle(SizeType.AutoSize));
@@ -84,11 +88,14 @@ internal sealed class MonitorForm : Form
         refresh.Click += async (_, _) => await RefreshState(); timer.Tick += async (_, _) => await RefreshState();
         restart.Click += async (_, _) => await Restart();
         resolveMinigame.Click += async (_, _) => await ResolveMinigame();
+        brightness1.Click += async (_, _) => await SetBrightness(1); brightness50.Click += async (_, _) => await SetBrightness(50);
+        dimTimer.Tick += async (_, _) => { dimTimer.Stop(); await SetBrightness(1); };
         helicopterOnly.CheckedChanged += async (_, _) => { if (!applyingSnapshot) await ChangeDeliveryOptions(); };
         deliveryTip.SetToolTip(helicopterOnly, "일시중지 후 변경할 수 있습니다. 체크하면 비행기·열차 주문, 재고 예약, 필요 물품 구매를 제외합니다. 세션별로 저장됩니다.");
         Shown += async (_, _) =>
         {
             if (smoke) return;
+            dimTimer.Start();
             control = new MonitorControl(RequestLocalRestart,
                 () => PostControl(Close), message => PostControl(() => AddLog(message)));
             await Connect();
@@ -255,6 +262,15 @@ internal sealed class MonitorForm : Form
         if (error.Length > 0 && error != "SESSION_STOPPED") status.Text += " · " + error;
         requiredPanel.UpdateSnapshot(Prop(snapshot,"requiredGoods"));
     }
+    private async Task SetBrightness(int value)
+    {
+        var serial = ScreenBrightness.Serial(Prop(snapshot, "session"), root);
+        if (serial is null) { AddLog("화면 밝기: 폰 시리얼을 모름"); return; }
+        brightness1.Enabled = brightness50.Enabled = false;
+        try { var error = await ScreenBrightness.Set(serial, value); AddLog(error is null ? $"화면 밝기 {value}로 바꿈" : "화면 밝기 실패: " + error); }
+        catch (Exception ex) { AddLog("화면 밝기 실패: " + ex.Message); }
+        finally { brightness1.Enabled = brightness50.Enabled = true; }
+    }
     private void AddLog(string message) { status.Text = message; }
     private void ShowError(Exception ex) { status.Text="오류: "+ex.Message; AddLog(ex.Message); }
     private async void OnClosing(object? sender, FormClosingEventArgs args)
@@ -281,5 +297,5 @@ internal sealed class MonitorForm : Form
         await client.ShutdownAsync();
     }
     internal void SelectValidationTab(int index) { tabs.SelectedIndex=index; PerformLayout(); }
-    protected override void Dispose(bool disposing) { if (disposing) { control?.Dispose(); deliveryTip.Dispose(); timer.Dispose(); } base.Dispose(disposing); }
+    protected override void Dispose(bool disposing) { if (disposing) { control?.Dispose(); deliveryTip.Dispose(); timer.Dispose(); dimTimer.Dispose(); } base.Dispose(disposing); }
 }

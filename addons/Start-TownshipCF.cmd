@@ -21,4 +21,6 @@ if errorlevel 1 (
 :ready
 rem Bot watchdog (auto restart when stuck, user decision 2026-10-15). See addons\watchdog.ps1
 call "%~dp0Start-Watchdog.cmd"
+rem Telegram bot: answers /stat from the phone
+start "township telegram" /min node "%~dp0telegram-bot.mjs"
 call "%~dp0..\Start-ADB.cmd"

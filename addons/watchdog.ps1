@@ -113,7 +113,15 @@ while ($true) {
     try {
       $monitorUp = [bool](Get-Process TownshipMonitor -ErrorAction SilentlyContinue)
       # [2026-10-17] 사람이 멈춘 동안은 종료 알림 한 번 뒤로 프로세스 알림을 보내지 않는다.
+      $wasStopped = $AS.ManualStopped
       Send-All (Test-ManualStop $AS $monitorUp $status)
+      # [2026-10-18] 실행이 (다시) 시작되면 그때의 오늘 납품 수를 남긴다 → 텔레그램 /stat '이번 실행 이후 납품'(addons/telegram-bot.mjs).
+      if ($AS.ManualStopped -eq $false -and $wasStopped -ne $false) {
+        try {
+          $dc0 = (& node (Join-Path $PSScriptRoot 'delivery-count.mjs') 2>$null | Select-Object -First 1)
+          if ($dc0) { $d0, $t0 = ($dc0 -split ' '); [IO.File]::WriteAllText((Join-Path $Root 'runtime\run-start.json'), (@{ startedAt = (Get-Date).ToString('o'); date = $d0; total = [int]$t0 } | ConvertTo-Json -Compress)) }
+        } catch { Write-Log ('실행 시작 기록 오류: ' + $_.Exception.Message) }
+      }
       if (-not $AS.ManualStopped) {
         $relayUp = [bool](Get-CimInstance Win32_Process -Filter "Name='node.exe'" -ErrorAction Stop | Where-Object { $_.CommandLine -like '*cf-som-proxy*' })
         Send-All (Test-Processes $AS $monitorUp $relayUp)

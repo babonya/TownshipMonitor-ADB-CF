@@ -14,3 +14,5 @@ dist/
 # [2026-10-17] 카메라 점수 낮은 화면(후보 등록 자료)·자기 마을 등록 결과
 setup-local/camera-low/
 setup-local/town-camera/
+apps/*/bin/
+apps/*/obj/
