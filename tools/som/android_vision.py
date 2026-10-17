@@ -14,6 +14,9 @@ from minigame import MinigameDetector
 from partial_pins import PartialPins
 from town_cards import TownCardsDetector
 from popup_rules import PopupRuleDetector
+# [사용자 변경 2026-10-17] 마을 카메라 기준 후보(창고·시장·헬기장·비행장) 공용 모듈.
+sys.path.insert(0,str(Path(__file__).resolve().parents[2]/'addons/town-camera'))
+import camera_ref
 
 class PhoneOrderButtons(OrderButtons):
     def __init__(self,vision):
@@ -46,20 +49,16 @@ class PhoneRefresh:
 
 class AndroidVision(Vision):
     def town_camera_ok(self,im):
-        # addons/town-camera/town_camera.py 와 같은 기준: 점수 0.8 이상, 배율 1±0.03, 중심 오차 화면 폭 1% 이내.
-        tpl,meta=self.town_camera;H,W=im.shape[:2]
-        if (W,H)!=(meta['dimensions']['width'],meta['dimensions']['height']):return True
-        rx,ry=meta['referenceCenter']['x']*W,meta['referenceCenter']['y']*H;th,tw=tpl.shape[:2];pad=60
-        x0,y0=max(0,int(rx-tw*.52-pad)),max(0,int(ry-th*.52-pad));area=im[y0:int(ry+th*.52+pad),x0:int(rx+tw*.52+pad)]
-        best=None
-        for s in (0.98,1.0,1.02):
-            t=cv2.resize(tpl,None,fx=s,fy=s)
-            if t.shape[0]>area.shape[0] or t.shape[1]>area.shape[1]:continue
-            _,v,_,l=cv2.minMaxLoc(cv2.matchTemplate(area,t,cv2.TM_CCOEFF_NORMED))
-            cx,cy=x0+l[0]+t.shape[1]/2,y0+l[1]+t.shape[0]/2
-            if v>=0.8 and np.hypot(cx-rx,cy-ry)<=0.01*W and (not best or v>best[0]):best=(v,s,cx,cy,rx,ry)
-        # [2026-10-16] 허용 오차 안의 작은 어긋남도 고정 탭을 빗나가게 했다(정지사례 #9) → 찾은 창고 위치·배율을 함께 돌려줘 탭을 보정한다.
-        return best[1:] if best else None
+        # addons/town-camera/camera_ref.py 와 같은 기준: 점수 0.8 이상, 배율 1±0.02, 중심 오차 화면 폭 1% 이내.
+        # [2026-10-17] 후보 여러 장(창고·시장·헬기장·비행장) 중 하나라도 맞으면 정상(원작자 지시로 네 건물 배치 고정).
+        # 점수가 0.85 미만이면 화면을 setup-local/camera-low/에 저장한다(10분에 한 장, 새 후보 등록 자료).
+        refs=self.town_camera.get(im.shape[:2])
+        if refs is None:refs=self.town_camera[im.shape[:2]]=camera_ref.load_refs(im.shape[1],im.shape[0])
+        if not refs:return True
+        ok,top=camera_ref.check(im,refs)
+        if top<camera_ref.LOW_SCORE:camera_ref.save_low(im,top)
+        # [2026-10-16] 허용 오차 안의 작은 어긋남도 고정 탭을 빗나가게 했다(정지사례 #9) → 찾은 건물 위치·배율을 함께 돌려줘 탭을 보정한다.
+        return ok[:5] if ok else None
     def shift_town_target(self,target,camera):
         # 기준 카메라에서의 탭 점을, 현재 화면에서 찾은 창고 위치·배율에 맞춰 옮긴다.
         s,cx,cy,rx,ry=camera;x,y=target['x']+1,target['y']+1
@@ -86,12 +85,18 @@ class AndroidVision(Vision):
         # [2026-10-17] 팝업 규칙은 1600 프로필에만 등록돼 있다 → 다른 프로필(1544 등)에 없으면 1600 것을 쓴다(감지기가 배율·비율을 스스로 검사).
         rule=lambda n:(self.root/n/'profile.json') if (self.root/n/'profile.json').exists() else (self.root.parent/'android-1600'/n/'profile.json')
         self.town_cards=TownCardsDetector(rule('town-cards'))
-        # [사용자 변경 2026-10-15] 마을 카메라 확인용 창고 기준 이미지(addons/town-camera, 실제 캡처에서 등록).
-        camera=Path(__file__).resolve().parents[2]/'addons/town-camera'
-        self.town_camera=(cv2.imread(str(camera/'barn-1600.png')),json.loads((camera/'barn-1600.json').read_text(encoding='utf-8'))) if (camera/'barn-1600.json').exists() else None
+        # [사용자 변경 2026-10-15] 마을 카메라 확인용 건물 기준 이미지(addons/town-camera/camera_ref.py, 실제 캡처에서 등록).
+        # [2026-10-17] 화면 크기별로 후보를 읽는다(자기 마을 등록 setup-local/town-camera 우선). 후보가 없으면 확인을 끈다.
+        self.town_camera={}
+        d=self.p['dimensions'];self.camera_enabled=bool(camera_ref.load_refs(d['width'],d['height']))
+        # [2026-10-17] 자기 마을 등록 도구(register_town.py)가 만든 시장·창고 탭이 있으면 프로필 탭 대신 쓴다.
+        user_town=camera_ref.USER_DIR/f"town-{d['width']}x{d['height']}.json";user_bytes=b''
+        if user_town.exists():
+            user_bytes=user_town.read_bytes();taps=json.loads(user_bytes)
+            for k in ('marketTap','barnTap'):self.p['town'][k]=dict(unit='fraction',space='game',x=taps[k]['x'],y=taps[k]['y'])
         # [사용자 변경 2026-10-14] 안내 화살표·이벤트 창 X·CONTINUE 버튼 규칙(우선순위: town_cards 다음).
         self.popup_rules=[PopupRuleDetector(rule(n)) for n in ('arrow-guide','event-close','continue-button','level-up','quit-finished','piggy-bank','treasure-hunt','card-received')]
-        self.hash=digest(raw+self.dealer.profile_bytes+self.products_missing.profile_bytes+self.barn.profile_bytes+self.barn_full.profile_bytes+self.order_buttons.profile_bytes+self.minigame.profile_bytes+self.town_cards.profile_bytes+b''.join(d.profile_bytes for d in self.popup_rules))
+        self.hash=digest(raw+self.dealer.profile_bytes+self.products_missing.profile_bytes+self.barn.profile_bytes+self.barn_full.profile_bytes+self.order_buttons.profile_bytes+self.minigame.profile_bytes+self.town_cards.profile_bytes+b''.join(d.profile_bytes for d in self.popup_rules)+user_bytes)
         self.market_refresh=PhoneRefresh(self);self.market_coverage=MarketCoverage()
         self.partial_pins=PartialPins(self.p, self.templates)
 
@@ -189,10 +194,10 @@ class AndroidVision(Vision):
             for name in ('market','barn'):out[name]=self.town_target(viewport,name)
             # [사용자 변경 2026-10-15] 고정 좌표는 기준 카메라에서만 맞다. 창고가 기준 배율·위치에 없으면 시장·창고 좌표를 내주지 않고
             # cameraMismatch로 알린다(delivery.mjs가 addons/town-camera로 복원 후 다시 관측).
-            if self.town_camera:
+            if self.camera_enabled:
                 camera=self.town_camera_ok(im)
                 if not camera:out.update(market=None,barn=None,cameraMismatch=True)
-                else:
+                elif camera is not True:
                     for name in ('market','barn'):out[name]=self.shift_town_target(out[name],camera)
             return out
         # Unknown panels share SOM's current-crop CLAIM/X classification.
