@@ -3,7 +3,7 @@
 // 실행: node addons\telegram-bot.mjs   (검증: node addons\telegram-bot.mjs --selftest)
 import fs from 'node:fs';
 import path from 'node:path';
-import {execFileSync} from 'node:child_process';
+import {execFileSync,execFile} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 
 const root=path.join(path.dirname(fileURLToPath(import.meta.url)),'..');
@@ -73,17 +73,25 @@ const api=async(method,body,timeoutMs=70000)=>{
 };
 const send=async(text,extra={})=>{try{const r=await api('sendMessage',{chat_id:chatId,text,...extra},20000);if(r.status!==200)log(`sendMessage HTTP ${r.status}`);}catch(e){log('sendMessage 오류: '+e.message);}};
 
-const keyboard={keyboard:[[{text:'/stat'}]],resize_keyboard:true,is_persistent:true};
+const keyboard={keyboard:[[{text:'/stat'}],[{text:'/start'},{text:'/stop'}]],resize_keyboard:true,is_persistent:true};
+// [사용자 변경 2026-10-18] /start /stop → addons/tg-control.ps1(모니터 버튼 UIAutomation). 한 번에 하나만.
+let controlBusy=false;
+const control=action=>new Promise(res=>execFile('powershell',['-NoProfile','-ExecutionPolicy','Bypass','-File',path.join(root,'addons','tg-control.ps1'),action],{encoding:'utf8',timeout:300000,windowsHide:true},(e,out)=>res((out||'').trim().split(/\r?\n/).pop()||('X '+(e?.message||'응답 없음')))));
 const handle=async text=>{
   const cmd=(text||'').trim().split(/\s+/)[0].replace(/@.*$/,'').toLowerCase();
-  if(cmd==='/start'||cmd==='/help')await send('[꿈마] 아래 /stat 버튼을 누르면 오늘 납품·이번 실행 이후 납품·현재 상태를 알려드립니다.',{reply_markup:keyboard});
-  else if(cmd==='/stat')await send(buildStat());
+  if(cmd==='/stat')await send(buildStat());
+  else if(cmd==='/start'||cmd==='/stop'){
+    if(controlBusy){await send('[꿈마] 이전 명령 처리 중입니다. 잠시 뒤 다시 보내 주세요.');return;}
+    controlBusy=true;log('제어 '+cmd);
+    try{await send(`[꿈마] ${cmd} 처리 중...`,{reply_markup:keyboard});const r=await control(cmd.slice(1));log('제어 결과 '+r);await send(`[꿈마] ${cmd}: ${r}`);}
+    finally{controlBusy=false;}
+  }
 };
 
 (async()=>{
   // 명령어 메뉴 등록은 성공할 때까지 폴링 반복마다 다시 시도한다(시작 직후 네트워크가 잠깐 안 될 수 있음, 10-18 실측).
   let commandsSet=false;
-  const setCommands=async()=>{try{const r=await api('setMyCommands',{commands:[{command:'stat',description:'오늘 납품·이번 실행 이후 납품·현재 상태'},{command:'start',description:'버튼 보이기'}]},20000);commandsSet=r.status===200;if(commandsSet)log('명령어 메뉴 등록');}catch(e){log('setMyCommands 오류: '+e.message);}};
+  const setCommands=async()=>{try{const r=await api('setMyCommands',{commands:[{command:'stat',description:'오늘 납품·이번 실행 이후 납품·현재 상태'},{command:'start',description:'게임 켜고 시작(창고부터)'},{command:'stop',description:'게임앱종료&타운쉽모니터 일시중지'}]},20000);commandsSet=r.status===200;if(commandsSet)log('명령어 메뉴 등록');}catch(e){log('setMyCommands 오류: '+e.message);}};
   let offset=readJson(offsetFile,{})?.offset||0;
   log('텔레그램 봇 시작');
   for(;;){
