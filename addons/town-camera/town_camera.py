@@ -57,8 +57,10 @@ class Phone:
 CORNER = (0.30, 0.70, 0.75, 0.25)   # 손가락 오른쪽 위 → 카메라 왼쪽 아래
 LEFT = (0.75, 0.54, 0.25, 0.54)     # 손가락 왼쪽 → 카메라 오른쪽
 DOWN = (0.50, 0.24, 0.50, 0.81)     # 손가락 아래 → 카메라 위
-# [10-18 사용자 결정] 기준점 뒤 위 → 오른쪽 → 위(다른 사람 마을은 이 길 중간에 창고가 있을 수 있음, 드래그마다 다시 잼). 그 뒤 오른쪽·위 한 번씩 더.
-SEARCH = [CORNER] * 5 + [DOWN, LEFT, DOWN, LEFT, DOWN]
+UP = (0.50, 0.81, 0.50, 0.24)       # 손가락 위 → 카메라 아래
+# [10-18 사용자 결정] 기준점 뒤 카메라 오른쪽·위·위(우리 마을은 여기서 찾음) → 오른쪽·아래·아래 → 오른쪽·위·위로 지도를 ㄹ자로 훑는다.
+# 드래그마다 다시 재서 찾으면 바로 미세 조정(다른 사람 마을은 중간에 창고가 있을 수 있음).
+SEARCH = [CORNER] * 5 + [LEFT, DOWN, DOWN, LEFT, UP, UP, LEFT, DOWN, DOWN]
 
 def drag_points(dx, dy, W, H):
     # 화면 가장자리 HUD를 피한 안쪽 영역에서 시작·끝이 모두 들어가는 드래그를 고른다.
@@ -70,7 +72,7 @@ def drag_points(dx, dy, W, H):
     if dy == 0: y0 = H / 2
     return x0, y0, x0 + dx, y0 + dy
 
-def restore(phone, check_only=False, max_steps=22):
+def restore(phone, check_only=False, max_steps=26):
     if not phone.foreground(): log('Township이 전면이 아님'); return 2
     phone.ensure_pinch(); zoomed_out = False; searched = 0; refs = None
     for step in range(max_steps):
