@@ -10,7 +10,8 @@ const scope=v=>JSON.stringify([v.profileHash,v.viewport,v.captureSize]);
 const sameSource=(a,b)=>!!a?.frameId&&!!a.evidenceHash&&a.frameId===b?.frameId&&a.evidenceHash===b?.evidenceHash;
 const precision=r=>/S\s*$/i.test(r?.rawText??'')?1000:/M\s*$/i.test(r?.rawText??'')?60000:3600000;
 const productHash=slot=>sha(slot.image);
-const permanentScope=(v,p)=>v.provider==='android_adb'&&v.captureSize?.width===p.source.dimensions.width&&v.captureSize?.height===p.source.dimensions.height;
+// [2026-10-18] 영구 목록은 1544x720에서 등록, 폰은 1600x720 → 너비가 달라 비교에서 빠졌다(실버바가 필요물품에 올라감). 높이만 맞으면 AI 이미지 비교로 판단.
+const permanentScope=(v,p)=>v.provider==='android_adb'&&v.captureSize?.height===p.source.dimensions.height;
 const ready=v=>v.scene==='helicopter'&&!v.refreshing&&orderShortagesKnown(v)&&!orderQuantityLimitReached(v)&&v.missing.length===0&&!!v.send;
 
 // One refresh period, independent of shopping visits, order routes and deliveries.
@@ -126,10 +127,12 @@ export class MarketSession{
 // input executor still enforces current frame, owner, device and percentage guards.
 export function validSessionDelete(v,i,now){
   const p=i.sessionDeleteProof;
-  if(v.provider!=='android_adb'||!p||p.schema!==1||!p.sessionId||p.scope!==scope(v)||p.orderHash!==v.orderHash||
-    !sameSource(p.sourceObservation,v.sourceObservation)||p.reason!==i.reason||
-    p.refreshDeadline!==refreshDeadline({marketRefresh:p.timerSource})||Date.parse(p.timerSource?.observedAt)>now||
-    !Number.isFinite(p.refreshDeadline)||p.refreshDeadline-now<DELETE_MIN_REMAINING_MS||v.refreshing)return false;
+  // [2026-10-18 사용자 결정] 영구 폐기 상품(실버바·골드바)은 시장 시간과 상관없이 폐기 → 시간·범위 조건을 보지 않는다.
+  const always=p?.reason==='failed_product'&&p.product?.reason==='permanent_failed_product';
+  if(v.provider!=='android_adb'||!p||p.schema!==1||!p.sessionId||(!always&&p.scope!==scope(v))||p.orderHash!==v.orderHash||
+    !sameSource(p.sourceObservation,v.sourceObservation)||p.reason!==i.reason||v.refreshing)return false;
+  if(!always&&(p.refreshDeadline!==refreshDeadline({marketRefresh:p.timerSource})||Date.parse(p.timerSource?.observedAt)>now||
+    !Number.isFinite(p.refreshDeadline)||p.refreshDeadline-now<DELETE_MIN_REMAINING_MS))return false;
   if(ready(v)&&!(p.reason==='failed_product'&&p.product?.reason==='permanent_failed_product'))return false;
   if(p.reason==='order_quantity_limit')return orderQuantityLimitReached(v);
   if(p.reason==='failed_product'){

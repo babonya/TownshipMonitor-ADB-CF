@@ -7,6 +7,7 @@ $Root = Split-Path -Parent $PSScriptRoot
 $Adb = Join-Path $env:LOCALAPPDATA 'Android\Sdk\platform-tools\adb.exe'
 $env:ANDROID_ADB_SERVER_PORT = '15037'
 Add-Type -AssemblyName UIAutomationClient, UIAutomationTypes
+Add-Type -Name U -Namespace TsWin -MemberDefinition '[DllImport("user32.dll")] public static extern bool IsIconic(System.IntPtr h); [DllImport("user32.dll")] public static extern bool ShowWindowAsync(System.IntPtr h, int c);'
 [Console]::OutputEncoding = [Text.Encoding]::UTF8   # 봇(node)이 UTF-8로 읽는다(기본 cp949면 글자 깨짐)
 
 function Get-DeviceSerial {
@@ -18,6 +19,8 @@ function Get-DeviceSerial {
 function Get-Root {
   $p = Get-Process TownshipMonitor -ErrorAction SilentlyContinue | Where-Object { $_.MainWindowHandle -ne 0 } | Select-Object -First 1
   if (-not $p) { return $null }
+  # [2026-10-18] 창이 최소화돼 있으면 UI 요소가 0개로 읽혀 상태가 빈칸 → 자동 일시정지(PROCESS_TIMEOUT)를 1시간 넘게 못 봤다. 활성화 없이 복원.
+  if ([TsWin.U]::IsIconic($p.MainWindowHandle)) { [TsWin.U]::ShowWindowAsync($p.MainWindowHandle, 4) | Out-Null; Start-Sleep 1 }
   [System.Windows.Automation.AutomationElement]::FromHandle($p.MainWindowHandle)
 }
 function Get-Button($name) {
@@ -29,6 +32,11 @@ function Invoke-Button($name) { (Get-Button $name).GetCurrentPattern([System.Win
 function Test-Enabled($name) { try { return [bool](Get-Button $name).Current.IsEnabled } catch { return $false } }
 # 상태 글자 첫 줄로 판단한다('일시중지' 버튼은 멈춘 상태에서도 활성화돼 있음, 10-18 실측).
 function Get-Status {
+  # [2026-10-18] 모니터가 쓰는 runtime\monitor-status.json을 먼저 본다(60초 안 갱신 + 같은 프로세스). 없거나 오래되면 창에서 읽기.
+  try {
+    $j = Get-Content (Join-Path $Root 'runtime\monitor-status.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+    if (((Get-Date) - [datetime]$j.updatedAt).TotalSeconds -lt 60 -and (Get-Process -Id $j.pid -ErrorAction SilentlyContinue)) { return [string]$j.status }
+  } catch {}
   $r = Get-Root; if (-not $r) { return $null }
   $r.FindAll([System.Windows.Automation.TreeScope]::Descendants, [System.Windows.Automation.Condition]::TrueCondition) |
     Where-Object { $_.Current.ControlType.ProgrammaticName -eq 'ControlType.Text' } | Select-Object -First 1 | ForEach-Object { $_.Current.Name }
@@ -51,12 +59,22 @@ try {
     'start' {
       if (-not (Start-Monitor)) { 'X 모니터 창이 뜨지 않았습니다'; exit 1 }
       if (Test-Running) { 'O 이미 실행 중입니다'; exit 0 }
-      if (-not (Wait-Enabled '시작' 120)) { 'X 시작 버튼이 활성화되지 않았습니다'; exit 1 }
-      Invoke-Button '시작'
-      # [2026-10-18] 실제로 '실행 중'이 됐는지 확인하고 답한다(게임 실행·전면 대기 최대 60초 포함).
-      for ($i = 0; $i -lt 90; $i++) {
-        Start-Sleep 1
-        if (Test-Running) { 'O 실행 중 확인: ' + (Get-Status); exit 0 }
+      # [2026-10-18] 오류로 멈춘 상태('일시정지 · PROCESS_ABORTED' 등)는 시작만 눌러선 안 풀린다 → 프로그램 재시작 먼저.
+      for ($try = 0; $try -lt 2; $try++) {
+        if ([string](Get-Status) -match ' · ') {
+          $old = (Get-Process TownshipMonitor -ErrorAction SilentlyContinue | Where-Object { $_.MainWindowHandle -ne 0 } | Select-Object -First 1).Id
+          if (Wait-Enabled '프로그램 재시작' 30) { Invoke-Button '프로그램 재시작' }
+          for ($i = 0; $i -lt 60 -and (Get-Process -Id $old -ErrorAction SilentlyContinue); $i++) { Start-Sleep 1 }
+          Start-Sleep 3
+        }
+        if (-not (Wait-Enabled '시작' 120)) { 'X 시작 버튼이 활성화되지 않았습니다'; exit 1 }
+        Invoke-Button '시작'
+        # [2026-10-18] 실제로 '실행 중'이 됐는지 확인하고 답한다(게임 실행·전면 대기 최대 60초 포함).
+        for ($i = 0; $i -lt 90; $i++) {
+          Start-Sleep 1
+          if (Test-Running) { 'O 실행 중 확인: ' + (Get-Status); exit 0 }
+        }
+        if ([string](Get-Status) -notmatch ' · ') { break }
       }
       'X 90초 안에 실행 중이 안 됨: ' + (Get-Status); exit 1
     }
@@ -67,7 +85,13 @@ try {
       elseif (Test-Running) { Invoke-Button '일시중지'; $msg += '모니터 일시중지' }
       else { $msg += '모니터 이미 멈춤' }
       $serial = Get-DeviceSerial
-      if ($serial) { & $Adb -s $serial shell am force-stop com.playrix.township 2>$null | Out-Null; $msg += '게임 종료' }
+      # [2026-10-19 사용자 결정] force-stop은 진행이 저장 안 될 수 있다 → 뒤로가기로 마을까지 나간 뒤 'Are you sure?' YES로 정상 종료. 못 찾으면 force-stop.
+      if ($serial) {
+        Start-Sleep 2
+        $r = & node (Join-Path $PSScriptRoot 'graceful-quit.mjs') $serial 2>$null
+        if ("$r" -eq 'quit') { $msg += '게임 정상 종료' }
+        else { & $Adb -s $serial shell am force-stop com.playrix.township 2>$null | Out-Null; $msg += '게임 강제 종료(종료 확인창 못 찾음)' }
+      }
       else { $msg += '폰 시리얼 없음(게임 종료 못함)' }
       'O ' + ($msg -join ', ')
     }

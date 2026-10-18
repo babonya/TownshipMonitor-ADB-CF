@@ -56,6 +56,7 @@ internal sealed class MonitorForm : Form
         var folder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "TownshipMonitor");
         settingsFile = Path.Combine(folder, "settings-" + Convert.ToHexString(SHA256.HashData(System.Text.Encoding.UTF8.GetBytes(root))).Substring(0, 12) + ".json");
         source.Text = sourcePath ?? Path.Combine(root, "runtime", "mumu-autonomous-transport"); inventory.Text = inventoryPath ?? "";
+        if (!smoke) status.TextChanged += (_, _) => WriteStatusFile();
         if (!smoke && File.Exists(settingsFile))
             try
             {
@@ -261,6 +262,24 @@ internal sealed class MonitorForm : Form
         if (error.Length == 0 && TextOf(delivery,"phase") == "hold") error = TextOf(delivery,"reason");
         if (error.Length > 0 && error != "SESSION_STOPPED") status.Text += " · " + error;
         requiredPanel.UpdateSnapshot(Prop(snapshot,"requiredGoods"));
+        if (!smoke) WriteStatusFile();
+    }
+    // [2026-10-18] 감시·텔레그램이 창(UIAutomation)을 읽지 않게 상태 글자를 파일로 남긴다(최소화 시 빈칸, 정지사례 #27).
+    private DateTime lastStatusWrite;
+    private string lastStatusText = "";
+    private void WriteStatusFile()
+    {
+        var now = DateTime.Now;
+        if (status.Text == lastStatusText && (now - lastStatusWrite).TotalSeconds < 5) return;
+        lastStatusText = status.Text; lastStatusWrite = now;
+        try
+        {
+            var file = Path.Combine(root, "runtime", "monitor-status.json");
+            var temp = file + ".tmp";
+            File.WriteAllText(temp, JsonSerializer.Serialize(new { status = status.Text, pid = Environment.ProcessId, updatedAt = now.ToString("yyyy-MM-ddTHH:mm:ss") }));
+            File.Move(temp, file, true);
+        }
+        catch (Exception) { }
     }
     private async Task SetBrightness(int value)
     {

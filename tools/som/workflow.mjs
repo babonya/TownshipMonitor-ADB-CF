@@ -98,9 +98,11 @@ export class SomWorkflow{
     if(!review&&readyOrder(v)){
       s.navigated();return {kind:'som_send',box:v.send,orderHash:v.orderHash,greenPins:v.pins.filter(p=>p.color==='green').map(p=>p.box),next:'helicopter'};
     }
-    if(review?.proof&&s.deadline===null)this.timerRequired=true;
+    // [2026-10-18 사용자 결정] 영구 폐기 상품(실버바·골드바) 주문은 시장 시간을 기다리지 않고 바로 폐기.
+    const always=review?.proof?.product?.reason==='permanent_failed_product';
+    if(review?.proof&&!always&&s.deadline===null)this.timerRequired=true;
     if(review?.waitMs)return review;
-    if(review?.proof&&s.deletionAllowed(this.clock())&&v.trash)return {kind:'som_delete',box:v.trash,orderHash:v.orderHash,
+    if(review?.proof&&(always||s.deletionAllowed(this.clock()))&&v.trash)return {kind:'som_delete',box:v.trash,orderHash:v.orderHash,
       reason:review.reason,sessionDeleteProof:review.proof,next:'helicopter'};
     this.phase='survey';const decision=this.survey.plan(v,now,{skip:!!review?.proof});
     if(decision.shopping)return this.startShopping(v);

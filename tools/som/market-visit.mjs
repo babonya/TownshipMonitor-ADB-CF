@@ -79,6 +79,8 @@ export class MarketVisit{
     }
     this.needs=new Map(groups.map(n=>[n.hash,n]));this.preparedNeeds=[...this.needs.keys()].join('|');
     if(this.session)await this.session.bindNeeds(this.needs,client);
+    // [2026-10-18] 필요 상품이 모두 실패 상품이면(실버바 사례) 훑지 말고 시간만 읽고 닫는다 → 헬리콥터에서 폐기.
+    if(this.session&&!this.needs.size)this.timerOnly=true;
     this.offers.clear();this.marketMemory.clear();
   }
   async plan(v,client,active=true,now=Date.now()){

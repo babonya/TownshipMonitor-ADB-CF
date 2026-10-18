@@ -17,6 +17,7 @@ $STALL_MINUTES = 6
 $MIN_GAP_MINUTES = 10
 $env:ANDROID_ADB_SERVER_PORT = '15037'
 Add-Type -AssemblyName UIAutomationClient, UIAutomationTypes
+Add-Type -Name U -Namespace TsWin -MemberDefinition '[DllImport("user32.dll")] public static extern bool IsIconic(System.IntPtr h); [DllImport("user32.dll")] public static extern bool ShowWindowAsync(System.IntPtr h, int c);'
 
 $created = $false
 $mutex = New-Object System.Threading.Mutex($true, 'Global\TownshipBotWatchdog', [ref]$created)
@@ -35,6 +36,8 @@ while (-not ($Serial = Get-DeviceSerial)) { Write-Log '폰 시리얼 없음: 환
 function Get-Root {
   $p = Get-Process TownshipMonitor -ErrorAction SilentlyContinue | Where-Object { $_.MainWindowHandle -ne 0 } | Select-Object -First 1
   if (-not $p) { return $null }
+  # [2026-10-18] 창이 최소화돼 있으면 UI 요소가 0개로 읽혀 상태가 빈칸 → 자동 일시정지(PROCESS_TIMEOUT)를 1시간 넘게 못 봤다. 활성화 없이 복원.
+  if ([TsWin.U]::IsIconic($p.MainWindowHandle)) { [TsWin.U]::ShowWindowAsync($p.MainWindowHandle, 4) | Out-Null; Start-Sleep 1 }
   [System.Windows.Automation.AutomationElement]::FromHandle($p.MainWindowHandle)
 }
 function Get-Button($name) {
@@ -48,6 +51,11 @@ function Wait-Enabled($name, $seconds) {
   return $false
 }
 function Get-Status {
+  # [2026-10-18] 모니터가 쓰는 runtime\monitor-status.json을 먼저 본다(60초 안 갱신 + 같은 프로세스). 없거나 오래되면 창에서 읽기.
+  try {
+    $j = Get-Content (Join-Path $Root 'runtime\monitor-status.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+    if (((Get-Date) - [datetime]$j.updatedAt).TotalSeconds -lt 60 -and (Get-Process -Id $j.pid -ErrorAction SilentlyContinue)) { return [string]$j.status }
+  } catch {}
   $r = Get-Root; if (-not $r) { return $null }
   $texts = $r.FindAll([System.Windows.Automation.TreeScope]::Descendants, [System.Windows.Automation.Condition]::TrueCondition) |
     Where-Object { $_.Current.ControlType.ProgrammaticName -eq 'ControlType.Text' } | ForEach-Object { $_.Current.Name }
