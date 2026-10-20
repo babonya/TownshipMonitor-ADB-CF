@@ -37,7 +37,7 @@ class PopupRuleDetector:
         ms=anchor.get('matchScale',self.p.get('matchScale',.5))
         small=cv2.resize(crop,None,fx=ms,fy=ms,interpolation=cv2.INTER_AREA)
         best=None
-        # [2026-10-19] 고정 해상도 폰이라 0.97·1.03은 불필요(등록 팝업 10종 회귀: ±0.015 3개로 전부 검출·오검출 0, 1.0만 쓰면 2종 놓침). 인식 시간 약 1/3 절약.
+        # [2026-10-19] 규칙 그림은 그 해상도 폰에서 직접 잘라 등록하므로(다른 해상도는 자기 폴더에 따로 등록) 크기 차이가 거의 없다 → 0.97·1.03은 불필요(등록 팝업 10종 회귀: ±0.015 3개로 전부 검출·오검출 0, 1.0만 쓰면 2종 놓침). 인식 시간 약 1/3 절약.
         for f in [x for x in self.p['scales'] if abs(x-1)<=0.016] or self.p['scales']:
             tf=cv2.resize(self.templates[anchor['role']],None,fx=scale*f,fy=scale*f,interpolation=cv2.INTER_LINEAR)
             t=cv2.resize(tf,None,fx=ms,fy=ms,interpolation=cv2.INTER_AREA)

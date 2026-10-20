@@ -67,13 +67,15 @@ def measure(im, refs):
     # 돌려줌: (점수, 배율, cx, cy, 기준x, 기준y, 후보이름).
     H, W = im.shape[:2]; half = cv2.resize(im, None, fx=0.5, fy=0.5, interpolation=cv2.INTER_AREA); found = []
     for ref in refs:
-        coarse = match_one(half, ref, [s * 0.5 for s in np.arange(0.5, 1.61, 0.04)])
+        # [2026-10-20 속도] 대략 찾기 배율 간격 0.04→0.08(다듬기가 ±0.04를 다시 보므로 결과 같음). 한 번 7.6초 → 아래 조기 종료와 함께 단축.
+        coarse = match_one(half, ref, [s * 0.5 for s in np.arange(0.5, 1.61, 0.08)])
         if not coarse: continue
         s0 = coarse[1] * 2; cx, cy = coarse[2] * 2, coarse[3] * 2
         th, tw = ref['tpl'].shape[:2]; pw, ph = tw * (s0 + 0.06) / 2 + 12, th * (s0 + 0.06) / 2 + 12
         area = (max(0, int(cx - pw)), max(0, int(cy - ph)), min(W, int(cx + pw)), min(H, int(cy + ph)))
         fine = match_one(im, ref, [s for s in np.arange(s0 - 0.04, s0 + 0.041, 0.02) if 0.45 <= s <= 1.65], area) or (coarse[0], s0, cx, cy)
         found.append((*fine, *ref['center'], ref['name']))
+        if fine[0] >= LOW_SCORE: return found[-1]   # [2026-10-20] 우선순위(창고→시장→헬기장→비행장)대로 충분히 맞으면 나머지 후보는 안 본다
     # [2026-10-17] 작은 후보(비행장 날개)는 화면 전체에서 엉뚱한 곳에 높게 잡힐 수 있다(실측 23:57 (1362,291)).
     # check()와 같이 우선순위(창고→시장→헬기장→비행장)대로 충분히 맞는(0.85 이상) 첫 후보를 쓰고, 없으면 최고 점수.
     for r in found:

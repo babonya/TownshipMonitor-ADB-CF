@@ -112,8 +112,13 @@ export class AndroidAdbDevice extends AdbDevice{
       if(digest(checked.bytes)!==this.session.adbExecutableHash)fail('ADB_EXECUTABLE_CHANGED');
       this.executableIdentity=checked.identity;
     }
+    // [2026-10-20 속도] 기기·화면 확인(dumpsys 2개, 약 0.44초)을 동작·촬영마다 3~4번 하던 것 → 3초 안에 확인한 결과는 다시 쓴다.
+    // 게임이 꺼지거나 화면이 바뀌면 다음 확인(늦어도 3초 뒤)이나 화면 인식에서 잡힌다.
+    if(this.targetCache&&Date.now()-this.targetCache.at<3000)return this.targetCache.t;
+    this.targetCache=null;
     const t=await inspectAndroid({...this.session,runner:this.runner,signal});
-    if(!same(t,this.session.adbTarget))fail('ADB_TARGET_OR_GEOMETRY_CHANGED');return t;
+    if(!same(t,this.session.adbTarget))fail('ADB_TARGET_OR_GEOMETRY_CHANGED');
+    this.targetCache={t,at:Date.now()};return t;
   }
   async capture({signal,resultAction}={}){
     const queued=this.endpointResult;this.endpointResult=null;

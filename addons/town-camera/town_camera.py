@@ -38,17 +38,20 @@ class Phone:
     def foreground(self):
         return PACKAGE in self.adb('shell', 'dumpsys window | grep -m1 mCurrentFocus')
     def capture(self):
-        im = cv2.imdecode(np.frombuffer(self.adb('exec-out', 'screencap', '-p', binary=True), np.uint8), cv2.IMREAD_COLOR)
-        if im is None: raise RuntimeError('CAPTURE_DECODE_FAILED')
-        return im
+        # [2026-10-20] PNG(-p)는 폰에서 압축하느라 느리다 → raw(RGBA, 헤더 12~16바이트)로 받아 BGR로 바꾼다.
+        data = self.adb('exec-out', 'screencap', binary=True)
+        w, h = int.from_bytes(data[0:4], 'little'), int.from_bytes(data[4:8], 'little')
+        off = len(data) - w * h * 4
+        if w <= 0 or h <= 0 or off not in (12, 16): raise RuntimeError('CAPTURE_DECODE_FAILED')
+        return np.ascontiguousarray(np.frombuffer(data, np.uint8, offset=off).reshape(h, w, 4)[:, :, 2::-1])
     def ensure_pinch(self):
         if DEX_REMOTE not in self.adb('shell', f'ls {DEX_REMOTE} 2>/dev/null'):
             self.adb('push', str(DEX_LOCAL), DEX_REMOTE)
     def pinch(self, cx, cy, g0, g1):
         self.adb('shell', f'CLASSPATH={DEX_REMOTE} app_process / Pinch {cx:.0f} {cy:.0f} {g0:.0f} {g1:.0f} 10 16')
-    def swipe(self, x0, y0, x1, y1):
-        # 느린 드래그는 관성이 없어 이동량이 손가락 이동량과 같다(실측 오차 6px).
-        self.adb('shell', f'input swipe {x0:.0f} {y0:.0f} {x1:.0f} {y1:.0f} 1000')
+    def swipe(self, x0, y0, x1, y1, ms=1000):
+        # 느린 드래그(1000ms)는 관성이 없어 이동량이 손가락 이동량과 같다(실측 오차 6px). 미세 조정에만 쓰고, 훑기는 빠르게.
+        self.adb('shell', f'input swipe {x0:.0f} {y0:.0f} {x1:.0f} {y1:.0f} {ms}')
 
 # [2026-10-18 사용자 안내] 게임 첫 화면은 매번 다른 곳(공사 중인 지도)일 수 있다. 최소 배율에서 지도 왼쪽 아래 끝까지 간 뒤
 # (손가락 오른쪽 위로 여러 번) 거기를 기준으로 카메라 오른쪽 1~2번(손가락 왼쪽)·위로 2~3번(손가락 아래)이면 마을 가운데(창고·시장·헬기장·비행장).
@@ -61,6 +64,43 @@ UP = (0.50, 0.81, 0.50, 0.24)       # 손가락 위 → 카메라 아래
 # [10-18 사용자 결정] 기준점 뒤 카메라 오른쪽·위·위(우리 마을은 여기서 찾음) → 오른쪽·아래·아래 → 오른쪽·위·위로 지도를 ㄹ자로 훑는다.
 # 드래그마다 다시 재서 찾으면 바로 미세 조정(다른 사람 마을은 중간에 창고가 있을 수 있음).
 SEARCH = [CORNER] * 5 + [LEFT, DOWN, DOWN, LEFT, UP, UP, LEFT, DOWN, DOWN]
+# [2026-10-20 사용자 지시] 처음부터 창고를 찾지 않는다: 빠른 줌아웃(2번 + 화면 비교로 더 안 줄어들 때까지) → 측정 없이 왼쪽 아래 끝까지
+# 빠르게(전후 화면이 같으면 끝) → ㄹ자(오른쪽·위·위 → 오른쪽·아래·아래 → 오른쪽·위·위)로 건물을 찾는다.
+SNAKE = [LEFT, DOWN, DOWN, LEFT, UP, UP, LEFT, DOWN, DOWN]
+SAME_VIEW = 4.0   # 축소(160x72, 해상도와 무관) 회색조 평균 차이: 이보다 작으면 화면이 안 움직인 것(사람·구름 애니메이션은 1~3, 이동하면 20 이상)
+NEAR_SCORE = 0.7  # ㄹ자 훑기에서 이 이상이면 그쪽으로 다가가며 다듬는다(최종 확인은 MIN_SCORE 그대로)
+
+def view_diff(a, b):
+    sa = cv2.resize(cv2.cvtColor(a, cv2.COLOR_BGR2GRAY), (160, 72), interpolation=cv2.INTER_AREA).astype(np.int16)
+    sb = cv2.resize(cv2.cvtColor(b, cv2.COLOR_BGR2GRAY), (160, 72), interpolation=cv2.INTER_AREA).astype(np.int16)
+    return float(np.abs(sa - sb).mean())
+
+def fast_search(phone, W, H, refs):
+    # 반환: 건물을 찾은 화면(측정값 포함) 또는 None
+    first = phone.capture(); moved = False
+    for _ in range(2): phone.pinch(W / 2, H / 2, 900, 150); time.sleep(0.2)
+    prev = phone.capture(); moved = view_diff(first, prev) >= SAME_VIEW
+    for k in range(4):
+        phone.pinch(W / 2, H / 2, 900, 150); time.sleep(0.3); cur = phone.capture(); d = view_diff(prev, cur)
+        log(f'zoom-out {k + 3}: diff {d:.1f}')
+        if d < SAME_VIEW: break
+        moved = True
+        prev = cur
+    prev = cur
+    for k in range(10):
+        x0, y0, x1, y1 = CORNER; phone.swipe(x0 * W, y0 * H, x1 * W, y1 * H, 250); time.sleep(0.35)
+        cur = phone.capture(); d = view_diff(prev, cur); log(f'corner {k + 1}: diff {d:.1f}')
+        if d < SAME_VIEW: break
+        prev = cur; moved = True
+    # 줌도 이동도 화면을 전혀 못 바꾸면 마을이 아니다(창고 창 등이 열림) → ㄹ자 훑기로 시간 쓰지 않고 실패로 돌려준다.
+    if not moved: log('줌·이동에 화면이 안 바뀜 - 마을 화면이 아닌 듯(창이 열림?)'); return None
+    for k, (x0, y0, x1, y1) in enumerate(SNAKE):
+        im = phone.capture(); m = camera_ref.measure(im, refs)
+        log(f'snake {k}: score {m[0]:.3f} {m[6]}')
+        if m[0] >= NEAR_SCORE: return im
+        phone.swipe(x0 * W, y0 * H, x1 * W, y1 * H); time.sleep(0.4)   # 느린 드래그(관성 없음) — 칸 간격이 사용자 안내와 맞아야 한다
+    im = phone.capture(); m = camera_ref.measure(im, refs); log(f'snake end: score {m[0]:.3f} {m[6]}')
+    return im if m[0] >= NEAR_SCORE else None
 
 def drag_points(dx, dy, W, H):
     # 화면 가장자리 HUD를 피한 안쪽 영역에서 시작·끝이 모두 들어가는 드래그를 고른다.
@@ -88,10 +128,11 @@ def restore(phone, check_only=False, max_steps=26):
         if score >= MIN_SCORE and abs(scale - 1) <= SCALE_TOLERANCE and np.hypot(cx - rx, cy - ry) <= POSITION_TOLERANCE * W:
             log('기준 카메라 확인'); return 0
         if check_only: return 1
-        if score < MIN_SCORE:
+        if score < (NEAR_SCORE if zoomed_out else MIN_SCORE):
             if not zoomed_out:
-                for _ in range(3): phone.pinch(W / 2, H / 2, 900, 150); time.sleep(0.3)
                 zoomed_out = True
+                if fast_search(phone, W, H, refs) is None: log('기준 건물을 찾지 못함'); camera_ref.save_low(im, score, 'restore', every=0); return 1
+                continue
             else:
                 # 최소 배율에서도 창고가 없으면 훑는다. [2026-10-18] 옛 순서(오른쪽500·아래300·왼쪽1000·위600)는 끝나면 시작점보다
                 # 왼쪽·위(화면은 아래쪽 바다)로 밀려, 실패할 때마다 카메라가 바다로 흘러가 아무 건물도 안 보이게 됐다(정지사례 #26).
@@ -108,7 +149,7 @@ def restore(phone, check_only=False, max_steps=26):
             phone.pinch(cx, cy, g0, g1)
         else:
             phone.swipe(*drag_points(rx - cx, ry - cy, W, H))
-        time.sleep(0.7)  # [2026-10-19 raw 캡처라 빨라져 대기 단축] 1.5→0.7
+        time.sleep(0.5)  # [2026-10-20] raw 캡처 + 미세 조정만 남아 0.7→0.5
     log('단계 한도 초과'); camera_ref.save_low(im, score, 'restore', every=0); return 1
 
 def default_serial():

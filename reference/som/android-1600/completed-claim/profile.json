@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "version": "completed-claim-20261020",
+  "kind": "event_close",
+  "sourceFile": "source.png",
+  "originalName": "04-completed-claim.png",
+  "sourceSha256": "709f4e4aeb1e7a21b61ab7d37b0c10c26ce6dd817233b84705eef58e510313ac",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "note": "[2026-10-20] 이벤트 완료 COMPLETED! 보상 화면: 'Tap to Claim' 글자를 누른다(결제 아님, 실제로 눌러 마을로 돌아감 확인).",
+  "anchors": [
+    {
+      "role": "close",
+      "file": "close.png",
+      "sha256": "6b8a58478a1bbf0c0340be41f82c8af8380186414b9583b045106f66a4d588ed",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 666,
+        "y": 652,
+        "width": 268,
+        "height": 48
+      },
+      "sourceRegion": {
+        "x": 0.41625,
+        "y": 0.9055555555555556,
+        "width": 0.1675,
+        "height": 0.06666666666666667
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "04-completed-claim.png",
+        "sha256": "709f4e4aeb1e7a21b61ab7d37b0c10c26ce6dd817233b84705eef58e510313ac",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 1050,
+          "y": 38,
+          "width": 46,
+          "height": 46
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    },
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "9e8f13e00ab52b308e59b25e26eabe41649b3a528628413c783f0df896aaaa0d",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 530,
+        "y": 30,
+        "width": 540,
+        "height": 76
+      },
+      "sourceRegion": {
+        "x": 0.33125,
+        "y": 0.041666666666666664,
+        "width": 0.3375,
+        "height": 0.10555555555555556
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "04-completed-claim.png",
+        "sha256": "709f4e4aeb1e7a21b61ab7d37b0c10c26ce6dd817233b84705eef58e510313ac",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 685,
+          "y": 38,
+          "width": 245,
+          "height": 40
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600"
+}

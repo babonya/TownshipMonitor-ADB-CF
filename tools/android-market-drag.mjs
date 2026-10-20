@@ -14,7 +14,10 @@ export function marketDragScript(c,display){
   const lines=['set -e','down=0','file=/data/local/tmp/township_endpoint_$$.raw',
     `cleanup() { if [ "$down" = 1 ]; then ${input} UP ${c.x2} ${c.y2} >/dev/null 2>&1; fi; rm -f "$file"; }`,
     "trap cleanup EXIT",`${input} DOWN ${c.x1} ${c.y1} >/dev/null 2>&1`,'down=1'];
-  for(let n=1;n<=steps;n++)lines.push(`sleep ${(c.durationMs/steps/1000).toFixed(6)}`,
+  // [2026-10-20 속도] input 한 번이 이미 약 0.1초라 단계 사이 sleep(400ms/4=0.1)을 빼도 손가락은 천천히 움직인다.
+  // 끝점에서 멈춘 채 캡처 후 떼므로 속도는 이동 거리에 영향 없음. 남는 시간이 있을 때만 잔다.
+  const gap=Math.max(0,c.durationMs/steps/1000-0.1);
+  for(let n=1;n<=steps;n++)lines.push(...(gap>0?[`sleep ${gap.toFixed(6)}`]:[]),
     `${input} MOVE ${Math.round(c.x1+(c.x2-c.x1)*n/steps)} ${c.y1} >/dev/null 2>&1`);
   lines.push(`echo ${MARKET_ENDPOINT}`,`screencap -d ${display} > "$file" 2>/dev/null &`,'capture_pid=$!',
     'sleep 0.2',`${input} UP ${c.x2} ${c.y2} >/dev/null 2>&1`,'down=0',`echo ${MARKET_RELEASED}`,'wait "$capture_pid"','cat "$file"');

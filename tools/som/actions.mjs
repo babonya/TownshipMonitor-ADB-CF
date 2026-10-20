@@ -12,7 +12,8 @@ export const readyOrder=v=>v.scene==='helicopter'&&!v.refreshing&&!v.popup&&type
 export const soldOutView=v=>v.scene==='market'&&!v.popup&&!v.motionPending&&v.cardCoverageComplete===true&&
   Array.isArray(v.cells)&&v.cells.length>0&&v.cells.every(c=>c.state==='sold');
 // [2026-10-19 사용자 결정] SOLD 칸이 2x2(위 두 칸·아래 두 칸, 가로로 붙은 두 열)로 보이면 시장 끝으로 본다.
-// 칸 간격 실측(1600x720): 가로 169px(칸 너비 133), 세로 200px(칸 높이 103).
+// 칸 간격 실측(1600x720): 가로 169px(칸 너비 133), 세로 200px(칸 높이 103) → 칸 크기에 대한 비율(1.27·1.94)로 써서 해상도와 무관.
+// 다른 해상도·게임 업데이트로 배치 비율이 달라지면 자기 시장 화면에서 (칸 간격 ÷ 칸 크기)를 재서 고친다(docs/다른해상도_적용.md).
 export const soldBlockView=v=>{
   if(v.scene!=='market'||v.popup||v.motionPending||v.cardCoverageComplete!==true||!Array.isArray(v.cells))return false;
   const s=v.cells.filter(c=>c.state==='sold'&&c.box);

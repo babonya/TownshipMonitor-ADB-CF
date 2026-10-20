@@ -43,7 +43,7 @@ class Vision:
             from ocr import OcrEngine
             self.timer_ocr=OcrEngine()
         return self.timer_ocr
-    def locate(self,im,spec,search=None,threshold=.96,multiple=False):
+    def locate(self,im,spec,search=None,threshold=.96,multiple=False,scored=False):
         height,width=im.shape[:2]; b=search or box(spec['search'],width,height); crop=cut(im,b); t=self.templates[spec['file']]
         if crop.shape[0]<t.shape[0] or crop.shape[1]<t.shape[1]: return []
         mask=None
@@ -56,7 +56,7 @@ class Vision:
         for _ in range(24 if multiple else 1):
             _,score,_,(x,y)=cv2.minMaxLoc(scores)
             if score<threshold: break
-            hits.append(bounds(x+b['x'],y+b['y'],t.shape[1],t.shape[0]))
+            hits.append((bounds(x+b['x'],y+b['y'],t.shape[1],t.shape[0]),score) if scored else bounds(x+b['x'],y+b['y'],t.shape[1],t.shape[0]))
             scores[max(0,y-20):y+21,max(0,x-20):x+21]=-1
         return hits
     def roi(self,im,b):
@@ -256,7 +256,21 @@ class Vision:
                 search={**view,'x':left,'width':right-left}
             for s in p['markers']:
                 if s['role']!=role:continue
-                for b in self.locate(im,s,search,threshold=.94,multiple=True):
+                # [2026-10-20 속도] 카드 테두리·SOLD 표시는 아래에서 '두 줄 높이(profile market.rows) ±3px'인 것만 카드로 받아들인다.
+                # 그러니 시장 영역 전체(세로 약 380px)를 훑지 않고, 줄마다 표시가 올 수 있는 가로 띠(표시 높이 + 위아래 6px)만 훑는다.
+                # 받아들이는 결과는 같고 시장 화면 인식이 약 0.3초 빨라진다. 가로는 스크롤로 픽셀 단위로 밀리므로 그대로 전체를 본다.
+                # 다른 해상도·기기: 줄 높이와 offset은 그 기기 프로필(reference/som/<프로필>/profile.json의 market.rows, markers[].offset)
+                # 비율에서 계산하므로 따로 고칠 것 없다. 프로필의 rows가 실제 화면과 다르면 지금도 카드를 못 찾는다(띠와 무관).
+                areas=[search]
+                if getattr(self,'market_strips',True) and role in ('offer_structure','sold') and s.get('offset'):
+                    th=self.templates[s['file']].shape[0];areas=[]
+                    for r in p['rows']:
+                        y0=max(search['y'],round(r*H)+round(s['offset']['y']*H)-6);y1=min(search['y']+search['height'],y0+th+12)
+                        if y1-y0>=th:areas.append(bounds(search['x'],y0,search['width'],y1-y0))
+                # 예전(영역 전체 한 번)과 같은 순서 — 점수 높은 것부터 — 로 합친다. market_coverage.py가 첫 카드를 격자 기준으로 쓰므로
+                # 순서가 바뀌면 끝 판정이 달라질 수 있다(저장 화면 95장 중 1장에서 확인).
+                hits=sorted((h for area in areas for h in self.locate(im,s,area,threshold=.94,multiple=True,scored=True)),key=lambda h:-h[1])
+                for b,_ in hits:
                     if not any(abs(b['x']-v[0]['x'])<18 and abs(b['y']-v[0]['y'])<18 for v in result):result.append((b,s))
             return result
         def field(name,x,y):
