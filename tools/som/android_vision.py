@@ -95,7 +95,7 @@ class AndroidVision(Vision):
             user_bytes=user_town.read_bytes();taps=json.loads(user_bytes)
             for k in ('marketTap','barnTap'):self.p['town'][k]=dict(unit='fraction',space='game',x=taps[k]['x'],y=taps[k]['y'])
         # [사용자 변경 2026-10-14] 안내 화살표·이벤트 창 X·CONTINUE 버튼 규칙(우선순위: town_cards 다음).
-        self.popup_rules=[PopupRuleDetector(rule(n)) for n in ('arrow-guide','blossom-deals','event-close','continue-button','level-up','quit-finished','piggy-bank','treasure-hunt','card-received')]
+        self.popup_rules=[PopupRuleDetector(rule(n)) for n in ('arrow-guide','blossom-deals','event-close','continue-button','level-up','quit-finished','piggy-bank','treasure-hunt','card-received','farmers-race','gift-open','gift-claim')]
         self.hash=digest(raw+self.dealer.profile_bytes+self.products_missing.profile_bytes+self.barn.profile_bytes+self.barn_full.profile_bytes+self.order_buttons.profile_bytes+self.minigame.profile_bytes+self.town_cards.profile_bytes+b''.join(d.profile_bytes for d in self.popup_rules)+user_bytes)
         self.market_refresh=PhoneRefresh(self);self.market_coverage=MarketCoverage()
         self.partial_pins=PartialPins(self.p, self.templates)
@@ -151,6 +151,13 @@ class AndroidVision(Vision):
         if result.get('scene') in ('town','helicopter','barn'):self.market_refresh.reset_entry()
         return result
 
+    def _lit(self,im,specs,hits):
+        # 앵커 자리 평균 밝기가 템플릿과 거의 같아야 한다(정상 0~0.01, 팝업에 어둡게 가려지면 약 138 차이).
+        for spec,found in zip(specs,hits):
+            b=found[0];crop=im[b['y']:b['y']+b['height'],b['x']:b['x']+b['width']]
+            if crop.size==0 or abs(float(crop.mean())-float(self.templates[spec['file']].mean()))>=10:return False
+        return True
+
     def _analyze(self,data,viewport,motion_only=False,dealer_entry=False):
         im=cv2.imdecode(np.frombuffer(data,np.uint8),1)
         if im is None:raise ValueError('SOM_IMAGE_INVALID')
@@ -158,28 +165,35 @@ class AndroidVision(Vision):
         if self.p['dimensions']!=dict(width=W,height=H) or viewport!=box(self.p['viewport'],W,H):return dict(scene='unknown',reason='ANDROID_PROFILE_REQUIRED')
         popup=self.popup(im,viewport)
         if popup.get('productsMissing'):return popup
-        # [사용자 변경 2026-10-14] Town Cards 화면에서 봇이 멈추지 않도록 글씨 띠를 popup(town_cards)으로 알린다.
-        cards=self.town_cards.detect(im,viewport,self.roi)
-        if cards:return cards
-        for rule in self.popup_rules:
-            found=rule.detect(im,viewport,self.roi)
-            if found:return found
+        # [2026-10-19 속도] 시장·헬기 제목이 보이고 어둡게 가려지지 않았으면(제목 밝기 = 템플릿 밝기) 팝업 규칙·Town Cards·딜러·창고판매 검사를
+        # 건너뛴다(화면당 시장 약 0.5초, 헬기 약 0.9초). 저장 화면 161장 검증: 제목을 덮는 팝업은 앵커가 이미 안 잡히고(점수 0.3 이하),
+        # 제목을 안 덮는 BARN IS FULL은 배경이 어두워져 밝기 검사에서 걸리며 popup()도 계속 돈다. 미니게임은 아래 minigame 검사를 계속 한다.
+        heli_anchors=[self.locate(im,a) for a in self.p['heli']['anchors']]
+        market_anchors=[] if all(heli_anchors) else [self.locate(im,a) for a in self.p['market']['anchors']]
+        fast=(all(heli_anchors) and self._lit(im,self.p['heli']['anchors'],heli_anchors)) or              (bool(market_anchors) and all(market_anchors) and self._lit(im,self.p['market']['anchors'],market_anchors))
+        if not fast:
+            # [사용자 변경 2026-10-14] Town Cards 화면에서 봇이 멈추지 않도록 글씨 띠를 popup(town_cards)으로 알린다.
+            cards=self.town_cards.detect(im,viewport,self.roi)
+            if cards:return cards
+            for rule in self.popup_rules:
+                found=rule.detect(im,viewport,self.roi)
+                if found:return found
         minigame=self.minigame.detect(im,viewport)
         if minigame:
             title=minigame['anchors']['helicopter']['region']
             title=bounds(viewport['x']+round(title['x']*viewport['width']),viewport['y']+round(title['y']*viewport['height']),
                          round(title['width']*viewport['width']),round(title['height']*viewport['height']))
             # [사용자 변경 2026-10-14] 미니게임 주문은 건너뛰므로 다른 주문 핀과 닫기 버튼도 읽어 둔다(delivery.mjs skipMinigame).
-            heli=self.helicopter(im) if all(self.locate(im,a) for a in self.p['heli']['anchors']) else {}
+            heli=self.helicopter(im) if all(heli_anchors) else {}
             return dict(scene='helicopter',minigame=minigame,helicopterTitle=title,pins=heli.get('pins',[]),missing=[],send=None,close=heli.get('close'),orderHash=digest(im.tobytes()))
         if popup.get('barnFull'):return popup
-        dealer=self.dealer.analyze(im,viewport)
-        if dealer:return dealer
-        barn=self.barn.analyze(im,viewport)
-        if barn:return barn
-        heli_anchors=[self.locate(im,a) for a in self.p['heli']['anchors']]
+        if not fast:
+            dealer=self.dealer.analyze(im,viewport)
+            if dealer:return dealer
+            barn=self.barn.analyze(im,viewport)
+            if barn:return barn
         if all(heli_anchors):return {**self.helicopter(im),'helicopterTitle':heli_anchors[0][0]}
-        if all(self.locate(im,a) for a in self.p['market']['anchors']):
+        if market_anchors and all(market_anchors):
             result=self.market_motion(im) if motion_only else self.market(im)
             if dealer_entry:result['dealerSearch']=self.dealer.entry(im,viewport,result['view'])
             return result

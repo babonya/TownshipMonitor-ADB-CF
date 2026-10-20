@@ -102,7 +102,7 @@ export class SomDelivery{
           else if(expired&&canReplanCompletedAction(v,pending))outcome='unconfirmed';
           else{
             const reason=expired?(isDisposableNavigation(pending.target.som)?'SOM_CURRENT_SCREEN_REQUIRED':'SOM_RESULT_REVIEW_REQUIRED'):null;
-            this.nextAt=this.store.clock()+(expired?3000:v.motionPending?100:600);this.update('waiting_result',reason);return;
+            this.nextAt=this.store.clock()+(expired?3000:v.motionPending?100:300)/* [2026-10-19 raw 캡처라 빨라져 대기 단축] 600→300 */;this.update('waiting_result',reason);return;
           }
         }
         // [사용자 변경 2026-10-15] SEND 두 번(보내기+애니메이션 건너뛰기)을 다 누르고 헬기·마을로 정상 복귀한 경우도
@@ -164,7 +164,7 @@ export class SomDelivery{
         if(!intent&&this.missingTargetFrame!==frame.id){this.missingTargetFrame=frame.id;this.missingTargetReads=(this.missingTargetReads??0)+1;}
         if(intent)this.missingTargetReads=0;
         const reason=intent?.reason??(!intent&&this.missingTargetReads>=2?(v.scene==='unknown'?'SOM_SCREEN_UNIDENTIFIED':'SOM_CURRENT_TARGET_REQUIRED'):'SOM_SUPPORTED_TARGET_NOT_VISIBLE');
-        this.nextAt=this.store.clock()+(intent?.waitMs??3000);this.update(intent?.reason||!intent&&this.missingTargetReads>=2?'hold':intent?'idle':'recognizing',reason);return;
+        this.nextAt=this.store.clock()+(intent?.waitMs??1500)/* [2026-10-19 raw 캡처라 빨라져 대기 단축] 3000→1500 */;this.update(intent?.reason||!intent&&this.missingTargetReads>=2?'hold':intent?'idle':'recognizing',reason);return;
       }
       this.missingTargetReads=0;this.missingTargetFrame=null;
       this.nextAt=this.store.clock()+400;this.update('acting');

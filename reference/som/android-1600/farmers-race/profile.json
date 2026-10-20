@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "version": "farmers-race-20261019",
+  "kind": "event_close",
+  "sourceFile": "source.png",
+  "originalName": "farmers-race-finished-20261019.jpg",
+  "sourceSha256": "0aba2ebdc06dd73b3fca7b8dcfcc0ec8d7d4de127b5e1f5058718f74bb383d44",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "note": "[2026-10-19] FARMERS' RACE 끝난 결과 창은 X로 닫는다(사용자 지시).",
+  "anchors": [
+    {
+      "role": "close",
+      "file": "close.png",
+      "sha256": "0a7548a410615edfa8f1cb575502dd4ae97db6ad278f30b9d1367cb0a1444840",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 1298,
+        "y": 66,
+        "width": 42,
+        "height": 42
+      },
+      "sourceRegion": {
+        "x": 0.81125,
+        "y": 0.09166666666666666,
+        "width": 0.02625,
+        "height": 0.058333333333333334
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "farmers-race-finished-20261019.jpg",
+        "sha256": "0aba2ebdc06dd73b3fca7b8dcfcc0ec8d7d4de127b5e1f5058718f74bb383d44",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 1050,
+          "y": 38,
+          "width": 46,
+          "height": 46
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    },
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "e16385ce2e7f204bc6434e63ca24d38bd8b1c0577d88ba76cccf3879face22d9",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 578,
+        "y": 45,
+        "width": 444,
+        "height": 55
+      },
+      "sourceRegion": {
+        "x": 0.36125,
+        "y": 0.0625,
+        "width": 0.2775,
+        "height": 0.0763888888888889
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "farmers-race-finished-20261019.jpg",
+        "sha256": "0aba2ebdc06dd73b3fca7b8dcfcc0ec8d7d4de127b5e1f5058718f74bb383d44",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 685,
+          "y": 38,
+          "width": 245,
+          "height": 40
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600"
+}

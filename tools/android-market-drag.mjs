@@ -9,7 +9,8 @@ export const MARKET_CAPTURE_PREFIX=`${MARKET_ENDPOINT}\n${MARKET_RELEASED}\n`;
 export function marketDragScript(c,display){
   if(c.type!=='swipe'||![c.x1,c.y1,c.x2,c.y2,c.durationMs].every(Number.isSafeInteger)||
     Math.min(c.x1,c.y1,c.x2,c.y2)<0||c.y1!==c.y2||c.durationMs<200||c.durationMs>2000||!/^\d{1,20}$/.test(display))throw Error('ANDROID_MARKET_DRAG_INVALID');
-  const input='input touchscreen -d 0 motionevent',steps=12;
+  // [2026-10-19] MOVE마다 input 프로세스 기동(약 0.1초)이 들어 12단계면 스와이프가 1.7초 → 4단계로(끝점 hold·캡처는 그대로).
+  const input='input touchscreen -d 0 motionevent',steps=4;
   const lines=['set -e','down=0','file=/data/local/tmp/township_endpoint_$$.raw',
     `cleanup() { if [ "$down" = 1 ]; then ${input} UP ${c.x2} ${c.y2} >/dev/null 2>&1; fi; rm -f "$file"; }`,
     "trap cleanup EXIT",`${input} DOWN ${c.x1} ${c.y1} >/dev/null 2>&1`,'down=1'];

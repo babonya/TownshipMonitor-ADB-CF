@@ -11,6 +11,7 @@ $Source = Join-Path $Root 'runtime\mumu-autonomous-transport'
 $Log = Join-Path $Root 'runtime\watchdog.log'
 $AlertLog = Join-Path $Root 'runtime\alerts.log'
 $HourlyLog = Join-Path $Root 'runtime\hourly.log'
+$SampleLog = Join-Path $Root 'runtime\stat-samples.jsonl'
 $Adb = Join-Path $env:LOCALAPPDATA 'Android\Sdk\platform-tools\adb.exe'
 $Serial = $null   # [2026-10-17] 폰 시리얼은 환경변수 TOWNSHIP_SERIAL 또는 setup-local\device.json에서 읽는다(아래 Get-DeviceSerial)
 $STALL_MINUTES = 6
@@ -25,6 +26,17 @@ if (-not $created) { exit 0 }
 
 . (Join-Path $PSScriptRoot 'watchdog-alert.ps1')   # [2026-10-17] 알림·시간당 요약 로직
 $script:LastShot = $null
+# [2026-10-19 사용자 결정] 자동 복구 실패(재시작 3회째) 화면과 텔레그램 /stat 화면을 runtime\screenshots 에 남기고 4일 지나면 지운다.
+$ShotDir = Join-Path $Root 'runtime\screenshots'
+function Save-FailShot {
+  if ($AS.Count -ne 3 -or -not $script:LastShot -or -not (Test-Path -LiteralPath $script:LastShot)) { return }
+  try {
+    if (-not (Test-Path $ShotDir)) { New-Item -ItemType Directory -Path $ShotDir -Force | Out-Null }
+    $dst = Join-Path $ShotDir ("fail-{0}.png" -f (Get-Date -Format 'yyyyMMdd-HHmmss'))
+    Copy-Item -LiteralPath $script:LastShot $dst -Force; Write-Log "복구 실패 화면 보관: $dst"
+  } catch { Write-Log ('복구 실패 화면 보관 오류: ' + $_.Exception.Message) }
+}
+function Clear-OldShots { Get-ChildItem $ShotDir -File -ErrorAction SilentlyContinue | Where-Object { $_.LastWriteTime -lt (Get-Date).AddDays(-4) } | Remove-Item -Force -ErrorAction SilentlyContinue }
 function Write-Log($text) { Add-Content -Path $Log -Value ("{0} {1}" -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $text) -Encoding UTF8 }
 function Get-DeviceSerial {
   if ($env:TOWNSHIP_SERIAL) { return $env:TOWNSHIP_SERIAL.Trim() }
@@ -130,6 +142,9 @@ while ($true) {
       Send-All (Test-ManualStop $AS $monitorUp $status)
       # [2026-10-18] 실행이 (다시) 시작되면 그때의 오늘 납품 수를 남긴다 → 텔레그램 /stat '이번 실행 이후 납품'(addons/telegram-bot.mjs).
       if ($AS.ManualStopped -eq $false -and $wasStopped -ne $false) {
+        # [2026-10-19] 다시 켠 직후엔 '마지막 입력'이 멈추기 전 시각이라 222분 무입력으로 오판해 재시작·'자동 복구 실패'·'복구됨' 알림이 났다
+        # → 재개 시각을 마지막 재시작으로 간주(10분간 재시작 안 함)하고 지난 재시작 횟수를 비운다.
+        if ($wasStopped -eq $true) { $lastRestart = Get-Date; $AS.Count = 0; $AS.LastRestartAt = $null; $AS.RestartTimes.Clear(); Write-Log '수동 중지 후 재개 → 무입력 판정 10분 유예' }
         try {
           $dc0 = (& node (Join-Path $PSScriptRoot 'delivery-count.mjs') 2>$null | Select-Object -First 1)
           if ($dc0) { $d0, $t0 = ($dc0 -split ' '); [IO.File]::WriteAllText((Join-Path $Root 'runtime\run-start.json'), (@{ startedAt = (Get-Date).ToString('o'); date = $d0; total = [int]$t0 } | ConvertTo-Json -Compress)) }
@@ -151,14 +166,14 @@ while ($true) {
       $isLoop = ($check -like 'LOOP*'); $checkMinutes = $idle
       Send-All (Test-Recovery $AS (Get-Date) $idle $isLoop $STALL_MINUTES)
       if ($idle -ge $STALL_MINUTES -and ((Get-Date) - $lastRestart).TotalMinutes -ge $MIN_GAP_MINUTES) {
-        . { $why = ("{0:N0}분간 입력 없음, 상태='{1}'" -f $idle, $status); Restart-Bot $why; $lastRestart = Get-Date; Send-All (Register-Restart $AS (Get-Date) $why $status $script:LastShot) }
+        . { $why = ("{0:N0}분간 입력 없음, 상태='{1}'" -f $idle, $status); Restart-Bot $why; $lastRestart = Get-Date; Send-All (Register-Restart $AS (Get-Date) $why $status $script:LastShot); Save-FailShot }
         # [2026-10-18 사용자 결정] 폰은 꿈마 전용 — 게임이 전면이 아니어도 재시작한다('시작'이 게임을 강제로 띄움).
       }
       # [2026-10-16] 헛돌기: 입력은 나가는데 같은 동작이 결과 없이 반복(정지사례 #9). 재시작으로 현재 화면부터 다시 판단하게 한다.
       elseif ($status.StartsWith('실행 중') -and ((Get-Date) - $lastRestart).TotalMinutes -ge $MIN_GAP_MINUTES) {
         $loop = $check
         if ($loop -like 'LOOP*') {
-          . { $why = ("헛돌기 {0}" -f $loop); Restart-Bot $why; $lastRestart = Get-Date; Send-All (Register-Restart $AS (Get-Date) $why $status $script:LastShot) }
+          . { $why = ("헛돌기 {0}" -f $loop); Restart-Bot $why; $lastRestart = Get-Date; Send-All (Register-Restart $AS (Get-Date) $why $status $script:LastShot); Save-FailShot }
           # [2026-10-18 사용자 결정] 폰은 꿈마 전용 — 게임이 전면이 아니어도 재시작한다('시작'이 게임을 강제로 띄움).
         }
       }
@@ -171,10 +186,21 @@ while ($true) {
       if (-not $dc) { throw 'delivery-count 실패' }
       $date, $total = ($dc -split ' ')
       $dj = (Get-Content (Join-Path $Source '.monitor\delivery.json') -Raw -Encoding UTF8 | ConvertFrom-Json).record.status
+      Clear-OldShots
       $rep = Get-HourlyReport $AS (Get-Date) $date ([int]$total) $dj.phase $dj.reason $isLoop (Get-Status) ([bool](Get-Process TownshipMonitor -ErrorAction SilentlyContinue)) (-not $AS.RelayMissingAlerted)
       Add-Content -Path $HourlyLog -Value $rep.Line -Encoding UTF8
       if (-not $AS.ManualStopped) { Send-All $rep.Msgs }   # 사람이 멈춘 동안은 요약 줄만 남긴다
     }
   } catch { Write-Log ("시간당 요약 오류: " + $_.Exception.Message); $AS.NextHourly = (Get-Date).AddMinutes(5) }
+  # [2026-10-19 사용자 요청] 텔레그램 /stat 시간별 집계용 표본(1분마다): 시각·오늘 납품·실행 여부 → runtime\stat-samples.jsonl (2일치만 유지).
+  try {
+    $dcs = (& node (Join-Path $PSScriptRoot 'delivery-count.mjs') 2>$null | Select-Object -First 1)
+    if ($dcs) {
+      $sd, $sn = ($dcs -split ' ')
+      $run = [bool]((Get-Process TownshipMonitor -ErrorAction SilentlyContinue) -and ([string]$status).StartsWith('실행 중'))
+      Add-Content -Path $SampleLog -Value (@{ t = (Get-Date).ToString('s'); d = $sd; n = [int]$sn; r = $run } | ConvertTo-Json -Compress) -Encoding UTF8
+      if ((Get-Date).Minute -eq 0) { $keep = Get-Content $SampleLog -Encoding UTF8 | Where-Object { $_ -match '"t":"([^"]+)"' -and ([datetime]$Matches[1]) -gt (Get-Date).AddDays(-2) }; Set-Content -Path $SampleLog -Value $keep -Encoding UTF8 }
+    }
+  } catch { Write-Log ("표본 기록 오류: " + $_.Exception.Message) }
   Start-Sleep 60
 }

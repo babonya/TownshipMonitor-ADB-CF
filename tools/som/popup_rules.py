@@ -37,7 +37,8 @@ class PopupRuleDetector:
         ms=anchor.get('matchScale',self.p.get('matchScale',.5))
         small=cv2.resize(crop,None,fx=ms,fy=ms,interpolation=cv2.INTER_AREA)
         best=None
-        for f in self.p['scales']:
+        # [2026-10-19] 고정 해상도 폰이라 0.97·1.03은 불필요(등록 팝업 10종 회귀: ±0.015 3개로 전부 검출·오검출 0, 1.0만 쓰면 2종 놓침). 인식 시간 약 1/3 절약.
+        for f in [x for x in self.p['scales'] if abs(x-1)<=0.016] or self.p['scales']:
             tf=cv2.resize(self.templates[anchor['role']],None,fx=scale*f,fy=scale*f,interpolation=cv2.INTER_LINEAR)
             t=cv2.resize(tf,None,fx=ms,fy=ms,interpolation=cv2.INTER_AREA)
             if t.shape[0]>small.shape[0] or t.shape[1]>small.shape[1]:continue

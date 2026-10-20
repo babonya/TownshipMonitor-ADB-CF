@@ -1,10 +1,11 @@
 import {MarketPosition} from './market-position.mjs';
 import {MarketMemory} from './market-memory.mjs';
 import {MarketScan} from './market-reset.mjs';
-import {soldOutView} from './actions.mjs';
+import {soldOutView,soldBlockView} from './actions.mjs';
 import {descriptorDistance} from './geometry.mjs';
 import {scrollIntent,scrollResult,scrollScope} from './market-scroll.mjs';
 import {randomUUID} from 'node:crypto';
+import {appendFileSync} from 'node:fs';
 
 export class MarketVisit{
   constructor(survey=null,vision=null,{session=null}={}){
@@ -49,9 +50,18 @@ export class MarketVisit{
   }
   finish(exhausted,now){
     this.session?.expire(now);
+    // [2026-10-19 진단] 시장 방문 끝날 때 '시장에 없음' 판정 조건을 남긴다(베이컨을 2시간 찾으며 searchFailures가 0에서 안 오름).
+    try{const sc=this.scan;appendFileSync(new URL('../../runtime/market-visit.log',import.meta.url),JSON.stringify({t:new Date().toISOString(),needs:this.needs.size,
+      attempted:this.attemptedNeeds.size,uncertain:this.uncertainNeeds.size,session:!!this.session,sameSession:this.session?.id===this.sessionId,timerOnly:this.timerOnly,
+      started:sc?.started,scope:sc?.scopeConsistent,unobserved:this.unobservedOffers,soldOut:this.soldOutCompleted,exhausted,complete:sc?.complete,
+      rightEdge:sc?.rightEdgeComplete,terminal:sc?.terminalVerified,alignEnd:this.scrollAlignment?.end,pages:this.pages,matched:sc?.matched,source:!!sc?.source})+'\n');}catch{}
     if(this.session&&this.session.id===this.sessionId&&this.scan?.started&&this.scan.scopeConsistent&&!this.unobservedOffers&&
       (this.soldOutCompleted||exhausted&&this.scan.complete&&this.scan.rightEdgeComplete&&(this.scan.terminalVerified||this.scrollAlignment?.end)))
+    {
       this.session.absent([...this.needs.values()].filter(n=>!this.attemptedNeeds.has(n.hash)&&!this.uncertainNeeds.has(n.hash)).map(n=>n.sessionProductId),this.visitId);
+      // [2026-10-19] AI가 '같은지 확실하지 않음'만 내는 상품은 사지도, 없다고 세지도 못해 무한 반복(베이컨 19:30~21:25 납품 0) → 따로 센다.
+      this.session.uncertainAbsent([...this.needs.values()].filter(n=>!this.attemptedNeeds.has(n.hash)&&this.uncertainNeeds.has(n.hash)).map(n=>n.sessionProductId),this.visitId);
+    }
     const reset=this.session?null:this.scan?.finish(exhausted,this.attemptedNeeds,now)??null;
     this.soldOutCompleted=false;this.needs.clear();this.offers.clear();this.attemptedNeeds.clear();this.purchasedImages=[];this.confirmedPurchases.clear();
     this.preparedNeeds=null;this.marketMemory.clear();this.pendingOffer=null;this.scrollAlignment=null;this.position.reset();this.positionWaits=0;this.positionWaitFrame=null;
@@ -65,7 +75,7 @@ export class MarketVisit{
     const frame=v.sourceObservation?.frameId;
     if(frame&&frame!==this.scrollWaitFrame){this.scrollWaits=(this.scrollWaits??0)+1;this.scrollWaitFrame=frame;}
     if(this.scrollWaits>=2&&v.close)return this.finishDecision(v);
-    return {action:{waitMs:3000,reason:this.scrollWaits>=2?'SOM_MARKET_CLOSE_REQUIRED':'SOM_SCROLL_GEOMETRY_REQUIRED'}};
+    return {action:{waitMs:1500,reason:this.scrollWaits>=2?'SOM_MARKET_CLOSE_REQUIRED':'SOM_SCROLL_GEOMETRY_REQUIRED'}};
   }
   async prepareNeeds(client){
     const key=[...this.needs.keys()].join('|');if(key===this.preparedNeeds)return;
@@ -94,7 +104,7 @@ export class MarketVisit{
         if(frame&&frame!==this.timerWaitFrame){this.timerWaitFrame=frame;this.timerWaits=(this.timerWaits??0)+1;}
         // Missing caption frames do not spend OCR attempts or prevent a later
         // valid first reading. Give them only one fresh observation wait.
-        if((this.timerWaits??0)<2)return {action:{waitMs:600,reason:'SOM_MARKET_TIMER_REOBSERVE'}};
+        if((this.timerWaits??0)<2)return {action:{waitMs:300,reason:'SOM_MARKET_TIMER_REOBSERVE'}};
       }
       if(this.timerOnly)return this.finishDecision(v);
       // The user's SOLD completion rule uses this current verified observation.
@@ -102,6 +112,10 @@ export class MarketVisit{
       // A later observation replaces this flag; it is consumed only on finish.
       if(active&&this.session&&soldOutView(v)&&v.close&&(!this.scan?.scope||this.scan.scope===scrollScope(v))){
         await this.prepareNeeds(client);this.soldOutCompleted=true;
+      }
+      // [2026-10-19 사용자 결정] SOLD 2x2가 보이면 시장 끝: 이 화면 상품까지만 확인하고 더 밀지 않는다(SOLD 많은 시장에서 헛스크롤).
+      if(active&&this.session&&!soldOutView(v)&&soldBlockView(v)&&v.close&&(!this.scan?.scope||this.scan.scope===scrollScope(v))){
+        await this.prepareNeeds(client);this.soldOutCompleted=true;v={...v,marketEnd:true};
       }
       // Only confirmed purchases count; interrupted attempts still keep their
       // existing per-product retry guard. Return before more matching or scrolling.
@@ -114,7 +128,7 @@ export class MarketVisit{
       if(this.scrollAlignment&&this.scrollAlignment.scope!==scrollScope(v))this.scrollAlignment={hold:'SOM_SCROLL_GEOMETRY_CHANGED',scope:scrollScope(v)};
       if(active&&soldOutView(v)&&!this.scan?.source)return v.close?{finished:true,exhausted:false,action:{kind:'som_close_panel',box:v.close,next:'town',reason:'all_visible_products_sold'}}:{action:null};
       if(active){
-        const positionAction=this.scrollAlignment?.hold?{waitMs:3000,reason:this.scrollAlignment.hold}:this.position.prepare(v);
+        const positionAction=this.scrollAlignment?.hold?{waitMs:1500,reason:this.scrollAlignment.hold}:this.position.prepare(v);
         if(positionAction){
           // Permit one new observation, then leave this visit through the
           // current close target instead of holding the entire loop forever.

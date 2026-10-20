@@ -90,7 +90,7 @@ def restore(phone, check_only=False, max_steps=26):
         if check_only: return 1
         if score < MIN_SCORE:
             if not zoomed_out:
-                for _ in range(3): phone.pinch(W / 2, H / 2, 900, 150); time.sleep(0.5)
+                for _ in range(3): phone.pinch(W / 2, H / 2, 900, 150); time.sleep(0.3)
                 zoomed_out = True
             else:
                 # 최소 배율에서도 창고가 없으면 훑는다. [2026-10-18] 옛 순서(오른쪽500·아래300·왼쪽1000·위600)는 끝나면 시작점보다
@@ -108,7 +108,7 @@ def restore(phone, check_only=False, max_steps=26):
             phone.pinch(cx, cy, g0, g1)
         else:
             phone.swipe(*drag_points(rx - cx, ry - cy, W, H))
-        time.sleep(1.5)
+        time.sleep(0.7)  # [2026-10-19 raw 캡처라 빨라져 대기 단축] 1.5→0.7
     log('단계 한도 초과'); camera_ref.save_low(im, score, 'restore', every=0); return 1
 
 def default_serial():

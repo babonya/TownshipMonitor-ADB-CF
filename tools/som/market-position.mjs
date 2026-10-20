@@ -69,7 +69,7 @@ export class MarketPosition{
       if(Number.isFinite(right)&&right>0&&right<.4){
         this.scope=scrollScope(v);this.excludedRight=right+3/v.view.width;return null;
       }
-      return {waitMs:3000,reason:'SOM_MARKET_POSITION_REQUIRED'};
+      return {waitMs:1500,reason:'SOM_MARKET_POSITION_REQUIRED'};
     }
     return null;
   }

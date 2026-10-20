@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "version": "gift-claim-20261020",
+  "kind": "event_close",
+  "sourceFile": "source.png",
+  "originalName": "02-after-tap.png",
+  "sourceSha256": "026303cb080ca6e37221db116f42e42b768083c8d4fe0fb8453ab38949c8e6b4",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "note": "[2026-10-20 사용자 지시] 레벨업 선물 CONGRATULATIONS! 화면: Tap to Claim — 받기. 글자를 누른다(결제 아님).",
+  "anchors": [
+    {
+      "role": "close",
+      "file": "close.png",
+      "sha256": "f3187bd943ff900e453b94ec128aad15b25a028f5e2c8423279aa3e4070f5e5f",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 666,
+        "y": 652,
+        "width": 268,
+        "height": 48
+      },
+      "sourceRegion": {
+        "x": 0.41625,
+        "y": 0.9055555555555556,
+        "width": 0.1675,
+        "height": 0.06666666666666667
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "02-after-tap.png",
+        "sha256": "026303cb080ca6e37221db116f42e42b768083c8d4fe0fb8453ab38949c8e6b4",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 1050,
+          "y": 38,
+          "width": 46,
+          "height": 46
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    },
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "bfe13afd60a444dc24bcb125d65f54f7d7665c581a957ec48b7f0e2a4b12a850",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 362,
+        "y": 32,
+        "width": 876,
+        "height": 76
+      },
+      "sourceRegion": {
+        "x": 0.22625,
+        "y": 0.044444444444444446,
+        "width": 0.5475,
+        "height": 0.10555555555555556
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "02-after-tap.png",
+        "sha256": "026303cb080ca6e37221db116f42e42b768083c8d4fe0fb8453ab38949c8e6b4",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 685,
+          "y": 38,
+          "width": 245,
+          "height": 40
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600"
+}

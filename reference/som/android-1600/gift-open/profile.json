@@ -1,0 +1,121 @@
+{
+  "schema": 1,
+  "version": "gift-open-20261020",
+  "kind": "continue",
+  "sourceFile": "source.png",
+  "originalName": "01-now.png",
+  "sourceSha256": "1de1dfb48911aec0ecc931276571f450abf6085cd4d394f86bafe921c09148a0",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "note": "[2026-10-20 사용자 지시] 레벨업 선물 CONGRATULATIONS! 화면: Tap to Open — 선물 상자 열기. 글자를 누른다(결제 아님). 누르는 곳은 글자가 아니라 그 위 선물 상자(실제로 눌러 열림 확인 10-20 00:13).",
+  "anchors": [
+    {
+      "role": "continue",
+      "file": "close.png",
+      "sha256": "26fa9f33309c89fb75f11760d3c12344d43228396c15bb276ff8ec2354470954",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 678,
+        "y": 652,
+        "width": 250,
+        "height": 48
+      },
+      "sourceRegion": {
+        "x": 0.42375,
+        "y": 0.9055555555555556,
+        "width": 0.15625,
+        "height": 0.06666666666666667
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "01-now.png",
+        "sha256": "1de1dfb48911aec0ecc931276571f450abf6085cd4d394f86bafe921c09148a0",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 1050,
+          "y": 38,
+          "width": 46,
+          "height": 46
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    },
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "bfe13afd60a444dc24bcb125d65f54f7d7665c581a957ec48b7f0e2a4b12a850",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 362,
+        "y": 32,
+        "width": 876,
+        "height": 76
+      },
+      "sourceRegion": {
+        "x": 0.22625,
+        "y": 0.044444444444444446,
+        "width": 0.5475,
+        "height": 0.10555555555555556
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "01-now.png",
+        "sha256": "1de1dfb48911aec0ecc931276571f450abf6085cd4d394f86bafe921c09148a0",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 685,
+          "y": 38,
+          "width": 245,
+          "height": 40
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600",
+  "target": {
+    "dx": 0.048125,
+    "dy": -0.24027777777777778,
+    "width": 0.05,
+    "height": 0.1111111111111111
+  }
+}

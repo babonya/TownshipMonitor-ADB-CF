@@ -6,6 +6,7 @@ import {permanentFailedProducts} from './failed-products.mjs';
 export const DELETE_MIN_REMAINING_MS=15*60*1000;
 export const PURCHASE_SHORTAGE_FAILURE_LIMIT=2;
 export const MARKET_SEARCH_FAILURE_LIMIT=2;
+export const MARKET_UNCERTAIN_FAILURE_LIMIT=3;
 const scope=v=>JSON.stringify([v.profileHash,v.viewport,v.captureSize]);
 const sameSource=(a,b)=>!!a?.frameId&&!!a.evidenceHash&&a.frameId===b?.frameId&&a.evidenceHash===b?.evidenceHash;
 const precision=r=>/S\s*$/i.test(r?.rawText??'')?1000:/M\s*$/i.test(r?.rawText??'')?60000:3600000;
@@ -57,6 +58,16 @@ export class MarketSession{
     this.archive({hash:p.hash,image:p.image,source:p.source,reason,failures:p.failures,searchFailures:p.searchFailures??0,sessionId:this.id});
     p.failed=true;p.reason=reason;p.pending=[];
   }
+  // [2026-10-19] 끝까지 훑었는데 비교가 매번 uncertain인 상품: 3번이면 시장에 없는 것으로 보고 실패 상품(폐기 대상)으로.
+  uncertainAbsent(ids,visitId){
+    if(typeof visitId!=='string'||!visitId)return;
+    for(const id of new Set(ids)){
+      const p=this.products.find(p=>p.id===id);
+      if(!p||p.failed||p.lastUncertainVisit===visitId)continue;
+      p.uncertainVisits=(p.uncertainVisits??0)+1;p.lastUncertainVisit=visitId;
+      if(p.uncertainVisits>=MARKET_UNCERTAIN_FAILURE_LIMIT){p.searchFailures=Math.max(p.searchFailures??0,MARKET_SEARCH_FAILURE_LIMIT);p.lastAbsentVisit=visitId;this.fail(p,'market_product_not_found');}
+    }
+  }
   absent(ids,visitId){
     if(typeof visitId!=='string'||!visitId)return;
     for(const id of new Set(ids)){
@@ -75,7 +86,7 @@ export class MarketSession{
       (kind==='quantity'||comparisons.some(c=>this.retry.comparisons.some(old=>old.slotId===c.slotId&&old.productId===c.productId))))
       return {reason:'order_unread_after_retry',proof:this.proof(v,'order_unread_after_retry',{retry:this.retry,comparisons})};
     this.retry={kind,orderHash:v.orderHash,scope:scope(v),sourceObservation:source,comparisons};
-    return {waitMs:600,reason:'SOM_ORDER_REOBSERVE'};
+    return {waitMs:300,reason:'SOM_ORDER_REOBSERVE'};
   }
   async review(v,client,now){
     this.expire(now);

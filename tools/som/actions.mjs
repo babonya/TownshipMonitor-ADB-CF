@@ -11,6 +11,14 @@ export {somActionPolicy,SOM_ACTION_POLICIES} from './action-policy.mjs';
 export const readyOrder=v=>v.scene==='helicopter'&&!v.refreshing&&!v.popup&&typeof v.orderHash==='string'&&v.orderHash.length>0&&orderShortagesKnown(v)&&!orderQuantityLimitReached(v)&&v.missing.length===0&&!!v.send;
 export const soldOutView=v=>v.scene==='market'&&!v.popup&&!v.motionPending&&v.cardCoverageComplete===true&&
   Array.isArray(v.cells)&&v.cells.length>0&&v.cells.every(c=>c.state==='sold');
+// [2026-10-19 사용자 결정] SOLD 칸이 2x2(위 두 칸·아래 두 칸, 가로로 붙은 두 열)로 보이면 시장 끝으로 본다.
+// 칸 간격 실측(1600x720): 가로 169px(칸 너비 133), 세로 200px(칸 높이 103).
+export const soldBlockView=v=>{
+  if(v.scene!=='market'||v.popup||v.motionPending||v.cardCoverageComplete!==true||!Array.isArray(v.cells))return false;
+  const s=v.cells.filter(c=>c.state==='sold'&&c.box);
+  const near=(a,dx,dy)=>s.some(b=>b!==a&&Math.abs(b.box.x-a.box.x-dx*a.box.width*1.27)<a.box.width*0.4&&Math.abs(b.box.y-a.box.y-dy*a.box.height*1.94)<a.box.height*0.5);
+  return s.some(a=>near(a,1,0)&&near(a,0,1)&&near(a,1,1));
+};
 const disposableNavigation=new Set(['som_select','som_scroll','som_open_helicopter','som_open_market','som_open_barn',
   'som_close_panel','som_barn_tab','som_barn_inspect','som_close_popup']);
 export const canReplanNavigation=(v,i)=>disposableNavigation.has(i?.kind)&&(['town','helicopter','market','barn'].includes(v.scene)||i.kind==='som_scroll'&&v.scene==='dealer_search')&&
