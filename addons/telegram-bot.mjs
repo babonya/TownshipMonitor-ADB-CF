@@ -6,6 +6,7 @@ import path from 'node:path';
 import {execFileSync,execFile} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 import net from 'node:net';
+import {dailyDeliverySummary} from '../tools/mumu-daily-deliveries.mjs';
 // [2026-10-18] node fetch가 IPv6/IPv4 연결 시도를 250ms만 기다려 이 PC에서 ETIMEDOUT 반복(curl은 정상) → 명령 응답이 2~3분 늦음. 3초로 늘림.
 net.setDefaultAutoSelectFamilyAttemptTimeout(3000);
 
@@ -81,7 +82,10 @@ function buildStat(){
     const phase=st.phase==='hold'&&st.reason?`보류 · ${st.reason}`:(PHASE_KO[key]||key||'실행');
     head=`${phase} 중`+(code&&code!==st.reason?` · ${code}`:'')+(age!==null&&age>=300?` (${Math.round(age/60)}분째 그대로)`:'');
   }
-  const lines=[`[꿈마] ${head}`,`오늘 ${total===null?'납품 확인 실패':total+'건'}`,''];
+  // [사용자 변경 2026-10-23] 어제 총 납품도 같이: '오늘 xx건 (어제 xxx건)'. 모니터와 같은 계산(한국 날짜 기준, mumu-daily-deliveries.mjs).
+  let yesterday=null;
+  try{const st=readJson(path.join(rt,'mumu-autonomous-transport','state.json'))?.state;if(st)yesterday=dailyDeliverySummary(st).yesterdayCompletedDeliveries;}catch{}
+  const lines=[`[꿈마] ${head}`,`오늘 ${total===null?'납품 확인 실패':total+'건'}${yesterday===null?'':` (어제 ${yesterday}건)`}`,''];
   try{lines.push(...hourlyLines());}catch{lines.push('시간별 집계: 확인 실패');}
   return lines.join('\n');
 }

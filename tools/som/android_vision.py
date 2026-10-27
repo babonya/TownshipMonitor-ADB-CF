@@ -95,7 +95,7 @@ class AndroidVision(Vision):
             user_bytes=user_town.read_bytes();taps=json.loads(user_bytes)
             for k in ('marketTap','barnTap'):self.p['town'][k]=dict(unit='fraction',space='game',x=taps[k]['x'],y=taps[k]['y'])
         # [사용자 변경 2026-10-14] 안내 화살표·이벤트 창 X·CONTINUE 버튼 규칙(우선순위: town_cards 다음).
-        self.popup_rules=[PopupRuleDetector(rule(n)) for n in ('arrow-guide','blossom-deals','event-close','continue-button','level-up','quit-finished','piggy-bank','treasure-hunt','card-received','farmers-race','gift-open','gift-claim','completed-claim')]
+        self.popup_rules=[PopupRuleDetector(rule(n)) for n in ('arrow-guide','blossom-deals','event-close','continue-button','level-up','quit-finished','piggy-bank','treasure-hunt','card-received','farmers-race','gift-open','gift-claim','completed-claim','products-received','farm-chores-finished','frozen-fortune-finished','mine-intro-play','mine-help-continue','mine-rewards-close','mine-close','jungle-quest')]
         self.hash=digest(raw+self.dealer.profile_bytes+self.products_missing.profile_bytes+self.barn.profile_bytes+self.barn_full.profile_bytes+self.order_buttons.profile_bytes+self.minigame.profile_bytes+self.town_cards.profile_bytes+b''.join(d.profile_bytes for d in self.popup_rules)+user_bytes)
         self.market_refresh=PhoneRefresh(self);self.market_coverage=MarketCoverage()
         self.partial_pins=PartialPins(self.p, self.templates)

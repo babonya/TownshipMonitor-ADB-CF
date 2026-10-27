@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "version": "jungle-quest-20261026",
+  "kind": "event_close",
+  "sourceFile": "source.png",
+  "originalName": "14.png",
+  "sourceSha256": "964482c08e9f5e261bb3ad82a534591e273ddd66f42d5e156f184c1ea5c6f9f2",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "note": "[2026-10-26 정지사례 #41] JUNGLE QUEST 안내 창: X(START는 누르지 않음)",
+  "anchors": [
+    {
+      "role": "close",
+      "file": "close.png",
+      "sha256": "23cbcf48d00338d47217fa922bc61d496637a9489855b72d386ed3018bc19ed4",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 1164,
+        "y": 64,
+        "width": 44,
+        "height": 44
+      },
+      "sourceRegion": {
+        "x": 0.7275,
+        "y": 0.08888888888888889,
+        "width": 0.0275,
+        "height": 0.06111111111111111
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "14.png",
+        "sha256": "964482c08e9f5e261bb3ad82a534591e273ddd66f42d5e156f184c1ea5c6f9f2",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 1050,
+          "y": 38,
+          "width": 46,
+          "height": 46
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    },
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "6c03086dc94363d6d8a0bafa83e51b284dd7b4116043c0838f9838b82ed30b74",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 596,
+        "y": 44,
+        "width": 410,
+        "height": 58
+      },
+      "sourceRegion": {
+        "x": 0.3725,
+        "y": 0.06111111111111111,
+        "width": 0.25625,
+        "height": 0.08055555555555556
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "14.png",
+        "sha256": "964482c08e9f5e261bb3ad82a534591e273ddd66f42d5e156f184c1ea5c6f9f2",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 685,
+          "y": 38,
+          "width": 245,
+          "height": 40
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600"
+}

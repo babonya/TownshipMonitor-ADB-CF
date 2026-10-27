@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "version": "mine-rewards-close-20261026",
+  "kind": "event_close",
+  "sourceFile": "source.png",
+  "originalName": "10.png",
+  "sourceSha256": "4c44e04d253236167da17a4283e7994072683a200ca49ca02e7ff09a844bfa24",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "note": "[2026-10-26 정지사례 #41] RULER OF THE MINE 보상 목록 창: X",
+  "anchors": [
+    {
+      "role": "close",
+      "file": "close.png",
+      "sha256": "05e0d986136f4ff7f5352e21d439a73b214e117ff0303ea96863d1ad64f76972",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 1166,
+        "y": 70,
+        "width": 40,
+        "height": 40
+      },
+      "sourceRegion": {
+        "x": 0.72875,
+        "y": 0.09722222222222222,
+        "width": 0.025,
+        "height": 0.05555555555555555
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "10.png",
+        "sha256": "4c44e04d253236167da17a4283e7994072683a200ca49ca02e7ff09a844bfa24",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 1050,
+          "y": 38,
+          "width": 46,
+          "height": 46
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    },
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "69887d7415dbf049d6f47a2ffa7b88226dbc8f1c918c738527d6777cd6bd2f89",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 518,
+        "y": 48,
+        "width": 564,
+        "height": 56
+      },
+      "sourceRegion": {
+        "x": 0.32375,
+        "y": 0.06666666666666667,
+        "width": 0.3525,
+        "height": 0.07777777777777778
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "10.png",
+        "sha256": "4c44e04d253236167da17a4283e7994072683a200ca49ca02e7ff09a844bfa24",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 685,
+          "y": 38,
+          "width": 245,
+          "height": 40
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600"
+}

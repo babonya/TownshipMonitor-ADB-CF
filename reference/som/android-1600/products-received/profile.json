@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "version": "products-received-20261022",
+  "kind": "event_close",
+  "sourceFile": "source.png",
+  "originalName": "07-products-received.png",
+  "sourceSha256": "e9dd703951051a474117a8e1bb616b9efda63d528310d9af62f3521b634c761b",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "note": "[2026-10-22] 친구가 보낸 상품 PRODUCTS RECEIVED! 화면: 'Tap to Claim' 글자를 누른다(결제 아님, 실제로 눌러 마을로 돌아감 확인). 원본에 친구 이름이 보여 공개본에서는 흐리게.",
+  "anchors": [
+    {
+      "role": "close",
+      "file": "close.png",
+      "sha256": "2163f716b16a824aa77759c0b91f1504397eb70a1b4ccaf0fca7168c9fac2f42",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 666,
+        "y": 652,
+        "width": 268,
+        "height": 48
+      },
+      "sourceRegion": {
+        "x": 0.41625,
+        "y": 0.9055555555555556,
+        "width": 0.1675,
+        "height": 0.06666666666666667
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "07-products-received.png",
+        "sha256": "e9dd703951051a474117a8e1bb616b9efda63d528310d9af62f3521b634c761b",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 1050,
+          "y": 38,
+          "width": 46,
+          "height": 46
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    },
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "03f52aa0fd9110a91cabf0ed2b8f3a32105ab5a93d04f7b34b952513bc559c5d",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 343,
+        "y": 30,
+        "width": 912,
+        "height": 76
+      },
+      "sourceRegion": {
+        "x": 0.214375,
+        "y": 0.041666666666666664,
+        "width": 0.57,
+        "height": 0.10555555555555556
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "07-products-received.png",
+        "sha256": "e9dd703951051a474117a8e1bb616b9efda63d528310d9af62f3521b634c761b",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 685,
+          "y": 38,
+          "width": 245,
+          "height": 40
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600"
+}

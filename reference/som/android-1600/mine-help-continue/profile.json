@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "version": "mine-help-continue-20261026",
+  "kind": "continue",
+  "sourceFile": "source.png",
+  "originalName": "09.png",
+  "sourceSha256": "3401f88f54b138bde6c9ce8699d0956a6f0000ea1311b9e959cbb5dddcf58371",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "note": "[2026-10-26 정지사례 #41] RULER OF THE MINE 도움말 'Tap to Continue': 글자",
+  "anchors": [
+    {
+      "role": "continue",
+      "file": "close.png",
+      "sha256": "d6aacd5426783942938dcc5e3ccbe5431bed409da997d370d41ef3001cf4ab76",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 636,
+        "y": 660,
+        "width": 330,
+        "height": 42
+      },
+      "sourceRegion": {
+        "x": 0.3975,
+        "y": 0.9166666666666666,
+        "width": 0.20625,
+        "height": 0.058333333333333334
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "09.png",
+        "sha256": "3401f88f54b138bde6c9ce8699d0956a6f0000ea1311b9e959cbb5dddcf58371",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 1050,
+          "y": 38,
+          "width": 46,
+          "height": 46
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    },
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "83fe71869b5853a38110ccdb4ea95e8f65c25429afb1967045b5b695348a4ee1",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 370,
+        "y": 36,
+        "width": 860,
+        "height": 72
+      },
+      "sourceRegion": {
+        "x": 0.23125,
+        "y": 0.05,
+        "width": 0.5375,
+        "height": 0.1
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "09.png",
+        "sha256": "3401f88f54b138bde6c9ce8699d0956a6f0000ea1311b9e959cbb5dddcf58371",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 685,
+          "y": 38,
+          "width": 245,
+          "height": 40
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600",
+  "target": {
+    "dx": 0.0,
+    "dy": 0.0,
+    "width": 0.20625,
+    "height": 0.058333333333333334,
+    "basis": "text top-left"
+  }
+}

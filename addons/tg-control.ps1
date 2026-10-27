@@ -57,6 +57,7 @@ function Start-Monitor {
 try {
   switch ($Action) {
     'start' {
+      Remove-Item (Join-Path $Root 'runtime\manual-stop.flag') -ErrorAction SilentlyContinue
       if (-not (Start-Monitor)) { 'X 모니터 창이 뜨지 않았습니다'; exit 1 }
       if (Test-Running) { 'O 이미 실행 중입니다'; exit 0 }
       # [2026-10-18] 오류로 멈춘 상태('일시정지 · PROCESS_ABORTED' 등)는 시작만 눌러선 안 풀린다 → 프로그램 재시작 먼저.
@@ -81,6 +82,8 @@ try {
     'status' { [string](Get-Status) }
     'stop' {
       $msg = @()
+      # [2026-10-27] 사람이 멈췄다는 표시. /stop 뒤 상태가 '일시정지 · PROCESS_ABORTED'라 감시가 오류로 보고 재시작했다(정지사례 #42).
+      Set-Content -Path (Join-Path $Root 'runtime\manual-stop.flag') -Value (Get-Date).ToString('o') -Encoding UTF8
       if (-not (Get-Root)) { $msg += '모니터 꺼져 있음' }
       elseif (Test-Running) { Invoke-Button '일시중지'; $msg += '모니터 일시중지' }
       else { $msg += '모니터 이미 멈춤' }

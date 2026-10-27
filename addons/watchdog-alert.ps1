@@ -58,20 +58,25 @@ function Test-Recovery($S, $now, $idleMin, $isLoop, $stallMin) {
 }
 
 # 오류로 모니터가 스스로 일시정지한 경우(예: '일시정지 · SOM_HTTP_502')는 사람이 멈춘 것이 아니라 정지다.
-function Test-AutoPaused($status) { return [bool]($status -match '^일시정지 · (SOM_HTTP_\d+|PROCESS_TIMEOUT|PROCESS_FAILED|INPUT_UNRESOLVED)') }
+# [2026-10-26] 정해 둔 코드만 오류 정지로 보던 탓에, 목록에 없는 코드로 모니터가 스스로 멈추자(10-26 08:36) '수동 중지'로 잘못 알고
+# 1시간 반 동안 재시작·알림 없이 기다렸다 → '일시정지 · <대문자 코드>'는 모두 오류 정지로 본다. 사람이 멈추면 코드가 없다(SESSION_STOPPED는 사람 중지).
+function Test-AutoPaused($status) { return [bool]($status -match '^일시정지 · [A-Z][A-Z0-9_]+' -and $status -notmatch 'SESSION_STOPPED') }
 
 # [2026-10-17 사용자 요청] 사람이 매크로를 멈추면(모니터를 닫거나, 오류 사유 없이 일시정지) 종료 알림을 한 번만 보내고
 # 다시 실행될 때까지 다른 알림(프로세스 없음·납품 0)을 보내지 않는다. 다시 실행되면 알림 상태를 처음부터 센다.
 function Test-ManualStop($S, $monitorUp, $status) {
   $msgs = @()
-  $stopped = (-not $monitorUp) -or ($status -and $status.StartsWith('일시정지') -and -not (Test-AutoPaused $status))
+  # [2026-10-27] /stop·'꺼줘'가 남긴 표시(runtime\manual-stop.flag)가 있으면 오류 코드가 붙어 있어도 사람 중지(정지사례 #42).
+  $userStop = Test-Path (Join-Path $Root 'runtime\manual-stop.flag')
+  $stopped = (-not $monitorUp) -or ($status -and $status.StartsWith('일시정지') -and ($userStop -or -not (Test-AutoPaused $status)))
   if ($stopped) {
     if ($S.ManualStopped -eq $false) {
       $how = if (-not $monitorUp) { '모니터 종료' } else { '일시정지' }
-      $msgs += "[꿈마] 매크로가 수동으로 중지되었습니다($how). 다시 켤 때까지 알림을 보내지 않습니다."
+      $msgs += "[꿈마] 매크로가 수동으로 중지되었습니다($how). 다시 켤 때까지 알림을 보내지 않습니다. (상태: $status)"
     }
     $S.ManualStopped = $true
   } elseif ($status) {
+    Remove-Item (Join-Path $Root 'runtime\manual-stop.flag') -ErrorAction SilentlyContinue   # 다시 실행 중이면(모니터에서 직접 '시작'해도) 표시를 지운다
     if ($S.ManualStopped) { $S.ZeroAlerted = $false; $S.LastTotal = $null; $S.MonitorMissingAlerted = $false; $S.RelayMissingAlerted = $false }
     $S.ManualStopped = $false
   }

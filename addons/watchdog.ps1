@@ -157,7 +157,16 @@ while ($true) {
     } catch { Write-Log ("프로세스 점검 오류: " + $_.Exception.Message) }
     # 오류로 모니터가 스스로 일시정지한 경우(예: '일시정지 · SOM_HTTP_502' — 중계기 502, 2026-10-16 00:00)도 정지로 본다.
     # 사람이 멈추려면 모니터를 닫거나, 이 사유가 없는 상태에서 일시중지한다.
-    $autoPaused = Test-AutoPaused $status
+    $autoPaused = (Test-AutoPaused $status) -and -not (Test-Path (Join-Path $Root 'runtime\manual-stop.flag'))
+    # [사용자 결정 2026-10-24] 봇이 '모르는 화면'으로 멈춰 있으면 시즌 탐험 화면인지 보고 뒤로가기/SKIP(addons/season-escape, 정지사례 #39).
+    # 봇에는 뒤로가기 동작이 없어 감시가 한다. 해당 화면이 아니면 아무것도 안 하고 원래 정지 판단으로 넘어간다.
+    if ($status -match 'SOM_SCREEN_UNIDENTIFIED' -and -not $AS.ManualStopped) {
+      try {
+        $py = Join-Path $Root '.venv-perception\Scripts\python.exe'
+        $esc = (& $py -I (Join-Path $PSScriptRoot 'season-escape\escape.py') $Serial 2>$null | Select-Object -First 1)
+        if ($LASTEXITCODE -eq 0) { Write-Log "시즌 화면 처리: $esc" }
+      } catch { Write-Log ('시즌 화면 처리 오류: ' + $_.Exception.Message) }
+    }
     if ($status -and (-not $status.StartsWith('일시정지') -or $autoPaused)) {
       # 무입력 시간은 state.json 마지막 동작 시각으로 잰다(adb-dispatch 마커는 재시작 때 비워져 '방금 입력'으로 오판, 10-16 04:54).
       $check = (& node (Join-Path $PSScriptRoot 'loop-check.mjs') 2>$null | Select-Object -First 1)

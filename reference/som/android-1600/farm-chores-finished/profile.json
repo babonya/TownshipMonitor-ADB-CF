@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "version": "farm-chores-finished-20261026",
+  "kind": "event_close",
+  "sourceFile": "source.png",
+  "originalName": "stall-20261026-180709.png",
+  "sourceSha256": "0765ad7b0aaca0d77e06cdbbecb0945dfb79daf45c3f5febe120c9280b6d5235",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "note": "[2026-10-26 정지사례 #41] FARM CHORES(끝난 이벤트) 창: X",
+  "anchors": [
+    {
+      "role": "close",
+      "file": "close.png",
+      "sha256": "eb0d3231803c8a6bf1ee5e2068bcd9e50a35ecd1125c5f8837d47d2ce2f0faf9",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 1376,
+        "y": 52,
+        "width": 44,
+        "height": 44
+      },
+      "sourceRegion": {
+        "x": 0.86,
+        "y": 0.07222222222222222,
+        "width": 0.0275,
+        "height": 0.06111111111111111
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "stall-20261026-180709.png",
+        "sha256": "0765ad7b0aaca0d77e06cdbbecb0945dfb79daf45c3f5febe120c9280b6d5235",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 1050,
+          "y": 38,
+          "width": 46,
+          "height": 46
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    },
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "6f35c9905c91604d5c8e6490a0392770d38a7147c68b8b029fe3cee3db4a54a0",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 282,
+        "y": 44,
+        "width": 322,
+        "height": 48
+      },
+      "sourceRegion": {
+        "x": 0.17625,
+        "y": 0.06111111111111111,
+        "width": 0.20125,
+        "height": 0.06666666666666667
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "stall-20261026-180709.png",
+        "sha256": "0765ad7b0aaca0d77e06cdbbecb0945dfb79daf45c3f5febe120c9280b6d5235",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 685,
+          "y": 38,
+          "width": 245,
+          "height": 40
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600"
+}

@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "version": "frozen-fortune-finished-20261026",
+  "kind": "event_close",
+  "sourceFile": "source.png",
+  "originalName": "02.png",
+  "sourceSha256": "9666aa08ec1f3316f8b217e5fddcd6db39f17071635a2382199f66da85fe4237",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "note": "[2026-10-26 정지사례 #41] FROZEN FORTUNE(끝난 이벤트) 창: X. 원본에 친구 이름 — 공개본 흐림",
+  "anchors": [
+    {
+      "role": "close",
+      "file": "close.png",
+      "sha256": "106a55a4b5a421b4624e2d84f466f22d82aaee75c33d127ef36cc047ad886817",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 1496,
+        "y": 26,
+        "width": 50,
+        "height": 50
+      },
+      "sourceRegion": {
+        "x": 0.935,
+        "y": 0.03611111111111111,
+        "width": 0.03125,
+        "height": 0.06944444444444445
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "02.png",
+        "sha256": "9666aa08ec1f3316f8b217e5fddcd6db39f17071635a2382199f66da85fe4237",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 1050,
+          "y": 38,
+          "width": 46,
+          "height": 46
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    },
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "65808111ebbc7b3512c7fe8135e86692bddeaa31319f243a5edb55c2e33aaa81",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 586,
+        "y": 26,
+        "width": 428,
+        "height": 50
+      },
+      "sourceRegion": {
+        "x": 0.36625,
+        "y": 0.03611111111111111,
+        "width": 0.2675,
+        "height": 0.06944444444444445
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "02.png",
+        "sha256": "9666aa08ec1f3316f8b217e5fddcd6db39f17071635a2382199f66da85fe4237",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 685,
+          "y": 38,
+          "width": 245,
+          "height": 40
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600"
+}

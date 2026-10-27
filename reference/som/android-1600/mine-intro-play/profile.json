@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "version": "mine-intro-play-20261026",
+  "kind": "continue",
+  "sourceFile": "source.png",
+  "originalName": "03.png",
+  "sourceSha256": "67006520e8c59513582591c127b770a46f522d8462be441362366b426e3d8191",
+  "dimensions": {
+    "width": 1600,
+    "height": 720
+  },
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "space": "game",
+  "unit": "fraction",
+  "scales": [
+    0.97,
+    0.985,
+    1,
+    1.015,
+    1.03
+  ],
+  "matchScale": 0.5,
+  "note": "[2026-10-26 정지사례 #41] RULER OF THE MINE 안내(X 없음, 뒤로가기·바깥 탭 안 됨): PLAY(사용자 규칙 'X 없이 START만 있으면 START')",
+  "anchors": [
+    {
+      "role": "continue",
+      "file": "close.png",
+      "sha256": "4ebea19a082ebe0658cbab396609a9c1d90dd63875c949b819e53b0c25c22853",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 672,
+        "y": 572,
+        "width": 256,
+        "height": 72
+      },
+      "sourceRegion": {
+        "x": 0.42,
+        "y": 0.7944444444444444,
+        "width": 0.16,
+        "height": 0.1
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "03.png",
+        "sha256": "67006520e8c59513582591c127b770a46f522d8462be441362366b426e3d8191",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 1050,
+          "y": 38,
+          "width": 46,
+          "height": 46
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    },
+    {
+      "role": "title",
+      "file": "title.png",
+      "sha256": "9e470f26681870038a342e2310db3bdc7bb733f8fd2a1df816c496b9b3820372",
+      "search": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sourceBox": {
+        "x": 518,
+        "y": 44,
+        "width": 564,
+        "height": 58
+      },
+      "sourceRegion": {
+        "x": 0.32375,
+        "y": 0.06111111111111111,
+        "width": 0.3525,
+        "height": 0.08055555555555556
+      },
+      "source": {
+        "file": "source.png",
+        "originalName": "03.png",
+        "sha256": "67006520e8c59513582591c127b770a46f522d8462be441362366b426e3d8191",
+        "dimensions": {
+          "width": 1600,
+          "height": 720
+        },
+        "cropBox": {
+          "x": 685,
+          "y": 38,
+          "width": 245,
+          "height": 40
+        }
+      },
+      "mode": "color",
+      "threshold": 0.8,
+      "matchScale": 0.3
+    }
+  ],
+  "provider": "android_adb",
+  "adbProfile": "android-1600",
+  "target": {
+    "dx": 0.0,
+    "dy": 0.0,
+    "width": 0.16,
+    "height": 0.1,
+    "basis": "text top-left"
+  }
+}
